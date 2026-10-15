@@ -1,6 +1,6 @@
 {
   "id": "vpds-components",
-  "name": "DS Visa",
+  "name": "Visa DS",
   "short": "Visa",
   "packFormat": 1,
   "version": "1.0.0",
@@ -68,7 +68,7 @@
       "surfaceSecondary": "#f5f5f5",
       "heading": "#000000"
     },
-    "colorsSource": "Theme colors, mode Visa light, from inventory/foundations.json; name given by Claudio Torres in chat, 2026-10-15 (\"DS visa\")"
+    "colorsSource": "Theme colors, mode Visa light, from inventory/foundations.json; name given by Claudio Torres in chat, 2026-10-15 (\"visa DS\")"
   },
   "repo": {
     "url": "https://github.com/cjtorresbravo/visa",
