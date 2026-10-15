@@ -1,0 +1,418 @@
+{
+ "file": "VPDS Icons (Community)",
+ "fileKey": null,
+ "pages": 2,
+ "collections": [
+  {
+   "name": "Platform",
+   "key": "51deafebdd4430894d2a02316fa3a0f3fd07aef3",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Web",
+    "Mobile"
+   ],
+   "defaultMode": "Web",
+   "variables": [
+    {
+     "name": "Typography/font-size/headline-1",
+     "type": "FLOAT",
+     "key": "13d7168315cad17f579ac8128d43a25945480445",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 32,
+      "Mobile": 36
+     }
+    },
+    {
+     "name": "Typography/font-size/headline-3",
+     "type": "FLOAT",
+     "key": "511067c1d27e93297e21439e5b12fa3276be6c3f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 20,
+      "Mobile": 24
+     }
+    },
+    {
+     "name": "Typography/letter-spacing/medium",
+     "type": "FLOAT",
+     "key": "7ab1c894736c61b9f94a5000e677b3b8ecf33a31",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 0.5,
+      "Mobile": 0.5
+     }
+    },
+    {
+     "name": "Typography/letter-spacing/none",
+     "type": "FLOAT",
+     "key": "0b469a88cad590edecd8983c2508f8752f735312",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 0,
+      "Mobile": 0
+     }
+    },
+    {
+     "name": "Typography/line-height/headline-1",
+     "type": "FLOAT",
+     "key": "d3369fe55edcee5a98df0e4eabbd5147b728c926",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 42,
+      "Mobile": 47
+     }
+    },
+    {
+     "name": "Typography/line-height/headline-3",
+     "type": "FLOAT",
+     "key": "7ecec6787cf80a24a19a22de9d2fd4d7da0aa4d1",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 26,
+      "Mobile": 31
+     }
+    },
+    {
+     "name": "Typography/paragraph-spacing/none",
+     "type": "FLOAT",
+     "key": "83d079e01b0b19c6482fbfea6dc02f2dd7e26056",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 0,
+      "Mobile": 0
+     }
+    }
+   ]
+  },
+  {
+   "name": "Typography",
+   "key": "260b7836d337e052958cd07ee1b13df74a7e8cf2",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Visa Dialect UI",
+    "Noto Sans",
+    "SF Pro",
+    "Roboto",
+    "Open Sans",
+    "Balsamiq Sans"
+   ],
+   "defaultMode": "Visa Dialect UI",
+   "variables": [
+    {
+     "name": "Font family/font-family",
+     "type": "STRING",
+     "key": "43c95ad5292709346d8c27005b51b5dd8b8e5fa4",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa Dialect UI": "Visa Dialect UI",
+      "Noto Sans": "Noto Sans",
+      "SF Pro": "SF Pro",
+      "Roboto": "Roboto",
+      "Open Sans": "Open Sans",
+      "Balsamiq Sans": "Balsamiq Sans"
+     }
+    },
+    {
+     "name": "Weight/semibold",
+     "type": "STRING",
+     "key": "912eab9803f1d685ca252237f2742cccc991e6c9",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa Dialect UI": "semibold",
+      "Noto Sans": "semibold",
+      "SF Pro": "semibold",
+      "Roboto": "semibold",
+      "Open Sans": "bold",
+      "Balsamiq Sans": "bold"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Theme colors",
+   "key": "0c4d8acd20ee23c6ba545a6ddb13a7306cbc061f",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Visa light",
+    "Visa dark",
+    "Gray blue light",
+    "Gray blue dark",
+    "Purple light",
+    "Purple dark",
+    "Black and white light",
+    "Black and white dark",
+    "Green light",
+    "Green dark"
+   ],
+   "defaultMode": "Visa light",
+   "variables": [
+    {
+     "name": "Color/Active/active",
+     "type": "COLOR",
+     "key": "479aebac567c50ce0c3ae250fc698adc532631c6",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#1434cb",
+      "Visa dark": "#bdeaff",
+      "Gray blue light": "#2947a3",
+      "Gray blue dark": "#b6c2ed",
+      "Purple light": "#92059e",
+      "Purple dark": "#e4bbe7",
+      "Black and white light": "#202020",
+      "Black and white dark": "#ffffff",
+      "Green light": "#295a20",
+      "Green dark": "#cbe589"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-active",
+      "Visa dark": "Visa dark/vdark-active",
+      "Gray blue light": "Gray blue light/gb-active",
+      "Gray blue dark": "Gray blue dark/gbdark-active",
+      "Purple light": "Purple light/p-active",
+      "Purple dark": "Purple dark/pdark-active",
+      "Black and white light": "Black and white light/bw-active",
+      "Black and white dark": "Black and white dark/bwdark-active",
+      "Green light": "Green light/g-active",
+      "Green dark": "Green dark/gdark-active"
+     }
+    },
+    {
+     "name": "Color/Decorative/border",
+     "type": "COLOR",
+     "key": "7507e863f76cc458c91a612f1a2578d70d986780",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#0000001a",
+      "Visa dark": "#ffffff1a",
+      "Gray blue light": "#3d518f1a",
+      "Gray blue dark": "#ffffff1a",
+      "Purple light": "#0000001a",
+      "Purple dark": "#ffffff1a",
+      "Black and white light": "#0000001a",
+      "Black and white dark": "#ffffff1a",
+      "Green light": "#0000001a",
+      "Green dark": "#ffffff1a"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-border",
+      "Visa dark": "Visa dark/vdark-border",
+      "Gray blue light": "Gray blue light/gb-border",
+      "Gray blue dark": "Gray blue dark/gbdark-border",
+      "Purple light": "Purple light/p-border",
+      "Purple dark": "Purple dark/pdark-border",
+      "Black and white light": "Black and white light/bw-border",
+      "Black and white dark": "Black and white dark/bwdark-border",
+      "Green light": "Green light/g-border",
+      "Green dark": "Green dark/gdark-border"
+     }
+    },
+    {
+     "name": "Color/Messaging/negative-text",
+     "type": "COLOR",
+     "key": "2766bcee44503551b39d18e40c2c3fc187d70444",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#ad2929",
+      "Visa dark": "#f7dede",
+      "Gray blue light": "#841f1f",
+      "Gray blue dark": "#f0c1c1",
+      "Purple light": "#841f1f",
+      "Purple dark": "#f0c1c1",
+      "Black and white light": "#841f1f",
+      "Black and white dark": "#f0c1c1",
+      "Green light": "#841f1f",
+      "Green dark": "#f0c1c1"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-negative-text",
+      "Visa dark": "Visa dark/Messaging/vdark-negative-text",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-negative-text",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-negative-text",
+      "Purple light": "Purple light/Messaging/p-negative-text",
+      "Purple dark": "Purple dark/Messaging/pdark-negative-text",
+      "Black and white light": "Black and white light/Messaging/bw-negative-text",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-negative-text",
+      "Green light": "Green light/Messaging/g-negative-text",
+      "Green dark": "Green dark/Messaging/gdark-negative-text"
+     }
+    },
+    {
+     "name": "Color/Messaging/positive-graphics",
+     "type": "COLOR",
+     "key": "3c881a8fdb97ad91ec9e99a8b29fee7aa1277b66",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#40996b",
+      "Visa dark": "#40996b",
+      "Gray blue light": "#3c9065",
+      "Gray blue dark": "#81caa5",
+      "Purple light": "#3c9065",
+      "Purple dark": "#81caa5",
+      "Black and white light": "#3c9065",
+      "Black and white dark": "#81caa5",
+      "Green light": "#3c9065",
+      "Green dark": "#81caa5"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-positive-graphics",
+      "Visa dark": "Visa dark/Messaging/vdark-positive-graphics",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-positive-graphics",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-positive-graphics",
+      "Purple light": "Purple light/Messaging/p-positive-graphics",
+      "Purple dark": "Purple dark/Messaging/pdark-positive-graphics",
+      "Black and white light": "Black and white light/Messaging/bw-positive-graphics",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-positive-graphics",
+      "Green light": "Green light/Messaging/g-positive-graphics",
+      "Green dark": "Green dark/Messaging/gdark-positive-graphics"
+     }
+    },
+    {
+     "name": "Color/Surface/surface-1",
+     "type": "COLOR",
+     "key": "127a202774e245d994512e2cf8871bbd1d5077b2",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#ffffff",
+      "Visa dark": "#2e2e2e",
+      "Gray blue light": "#ffffff",
+      "Gray blue dark": "#272727",
+      "Purple light": "#ffffff",
+      "Purple dark": "#0d0d0d",
+      "Black and white light": "#ffffff",
+      "Black and white dark": "#0d0d0d",
+      "Green light": "#ffffff",
+      "Green dark": "#1a2419"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-surface-1",
+      "Visa dark": "Visa dark/vdark-surface-1",
+      "Gray blue light": "Gray blue light/gb-surface-1",
+      "Gray blue dark": "Gray blue dark/gbdark-surface-1",
+      "Purple light": "Purple light/p-surface-1",
+      "Purple dark": "Purple dark/pdark-surface-1",
+      "Black and white light": "Black and white light/bw-surface-1",
+      "Black and white dark": "Black and white dark/bwdark-surface-1",
+      "Green light": "Green light/g-surface-1",
+      "Green dark": "Green dark/gdark-surface-1"
+     }
+    },
+    {
+     "name": "Color/Surface/surface-highlight",
+     "type": "COLOR",
+     "key": "a3b12eaa7f6c8b75571883897cd65b1a98043d3b",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#b3d7ff59",
+      "Visa dark": "#00000059",
+      "Gray blue light": "#adbcea59",
+      "Gray blue dark": "#00000059",
+      "Purple light": "#f4ebf580",
+      "Purple dark": "#77048199",
+      "Black and white light": "#cccccc59",
+      "Black and white dark": "#40404059",
+      "Green light": "#cbe58959",
+      "Green dark": "#00000059"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-surface-highlight",
+      "Visa dark": "Visa dark/vdark-surface-highlight",
+      "Gray blue light": "Gray blue light/gb-surface-highlight",
+      "Gray blue dark": "Gray blue dark/gbdark-surface-highlight",
+      "Purple light": "Purple light/p-surface-highlight",
+      "Purple dark": "Purple dark/pdark-surface-highlight",
+      "Black and white light": "Black and white light/bw-surface-highlight",
+      "Black and white dark": "Black and white dark/bwdark-surface-highlight",
+      "Green light": "Green light/g-surface-highlight",
+      "Green dark": "Green dark/gdark-surface-highlight"
+     }
+    },
+    {
+     "name": "Color/Text/on-active",
+     "type": "COLOR",
+     "key": "cf66516d715b6dada817858986af8f7d50ea8f17",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#ffffff",
+      "Visa dark": "#2e2e2e",
+      "Gray blue light": "#ffffff",
+      "Gray blue dark": "#272727",
+      "Purple light": "#ffffff",
+      "Purple dark": "#000000",
+      "Black and white light": "#ffffff",
+      "Black and white dark": "#000000",
+      "Green light": "#ffffff",
+      "Green dark": "#1a2419"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-on-active",
+      "Visa dark": "Visa dark/vdark-on-active",
+      "Gray blue light": "Gray blue light/gb-on-active",
+      "Gray blue dark": "Gray blue dark/gbdark-on-active",
+      "Purple light": "Purple light/p-on-active",
+      "Purple dark": "Purple dark/pdark-on-active",
+      "Black and white light": "Black and white light/bw-on-active",
+      "Black and white dark": "Black and white dark/bwdark-on-active",
+      "Green light": "Green light/g-on-active",
+      "Green dark": "Green dark/gdark-on-active"
+     }
+    },
+    {
+     "name": "Color/Text/text",
+     "type": "COLOR",
+     "key": "923cbf177945bf9dd991ca24424b50e2c5e31f99",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#000000",
+      "Visa dark": "#ffffff",
+      "Gray blue light": "#22242a",
+      "Gray blue dark": "#ffffff",
+      "Purple light": "#000000",
+      "Purple dark": "#ffffff",
+      "Black and white light": "#000000",
+      "Black and white dark": "#f6f6f6",
+      "Green light": "#000000",
+      "Green dark": "#ffffff"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-text",
+      "Visa dark": "Visa dark/vdark-text",
+      "Gray blue light": "Gray blue light/gb-text",
+      "Gray blue dark": "Gray blue dark/gbdark-text",
+      "Purple light": "Purple light/p-text",
+      "Purple dark": "Purple dark/pdark-text",
+      "Black and white light": "Black and white light/bw-text",
+      "Black and white dark": "Black and white dark/bwdark-text",
+      "Green light": "Green light/g-text",
+      "Green dark": "Green dark/gdark-text"
+     }
+    }
+   ]
+  }
+ ],
+ "textStyles": [],
+ "effectStyles": [],
+ "paintStyles": [],
+ "gridStyles": [],
+ "remoteVariables": 17
+}

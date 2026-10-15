@@ -1,0 +1,334 @@
+{
+ "url": "https://design.visa.com/components/chips",
+ "title": "Chips | Components | Visa Product Design System",
+ "h1": "Chips",
+ "readAt": "2026-10-15T17:07:13.458Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Chips"
+  },
+  {
+   "k": "p",
+   "t": "Compact elements used to filter content or display user input."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Selection chips",
+    "Removable chips",
+    "Custom chips"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Selection chips"
+  },
+  {
+   "k": "h3",
+   "t": "Default selection chip"
+  },
+  {
+   "k": "text",
+   "t": "Loading chip example Default selection chip"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Selected selection chip"
+  },
+  {
+   "k": "text",
+   "t": "Loading chip example Selected selection chip"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "Removable chips"
+  },
+  {
+   "k": "h2",
+   "t": "Custom chips"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-chip"
+    ],
+    [
+     ".v-chip-selection"
+    ],
+    [
+     ".v-chip-compact"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Value"
+    ],
+    [
+     "--v-chip-align-items",
+     "center"
+    ],
+    [
+     "--v-chip-active-border-color",
+     "var(--palette-default-active-pressed)"
+    ],
+    [
+     "--v-chip-avatar-size",
+     "var(--v-avatar-icon-size)"
+    ],
+    [
+     "--v-chip-background-color",
+     "var(--palette-default-surface-1)"
+    ],
+    [
+     "--v-chip-border-color",
+     "var(--palette-default-active)"
+    ],
+    [
+     "--v-chip-border-radius",
+     "calc(var(--size-rounded-large) * 2)"
+    ],
+    [
+     "--v-chip-border-style",
+     "solid"
+    ],
+    [
+     "--v-chip-border-width",
+     "1px"
+    ],
+    [
+     "--v-chip-button-padding",
+     "0"
+    ],
+    [
+     "--v-chip-button-size",
+     "var(--size-scalable-30)"
+    ],
+    [
+     "--v-chip-checkbox-appearance",
+     "none"
+    ],
+    [
+     "--v-chip-checkbox-clip",
+     "rect(0, 0, 0, 0)"
+    ],
+    [
+     "--v-chip-checkbox-margin",
+     "0"
+    ],
+    [
+     "--v-chip-checkbox-position",
+     "fixed"
+    ],
+    [
+     "--v-chip-compact-border-color",
+     "var(--palette-default-active-subtle)"
+    ],
+    [
+     "--v-chip-compact-border-radius",
+     "var(--size-rounded-small)"
+    ],
+    [
+     "--v-chip-compact-button-padding",
+     "0"
+    ],
+    [
+     "--v-chip-compact-icon-size",
+     "1.1428571429rem"
+    ],
+    [
+     "--v-chip-compact-padding-block",
+     "var(--size-scalable-3)"
+    ],
+    [
+     "--v-chip-compact-padding-inline",
+     "var(--size-scalable-3)"
+    ],
+    [
+     "--v-chip-compact-padding-inline-start",
+     "var(--size-scalable-5)"
+    ],
+    [
+     "--v-chip-compact-avatar-size",
+     "1.5714285714rem"
+    ],
+    [
+     "--v-chip-compact-button-size",
+     "var(--size-scalable-28)"
+    ],
+    [
+     "--v-chip-delete-padding-block",
+     "var(--size-scalable-0)"
+    ],
+    [
+     "--v-chip-delete-padding-inline-end",
+     "var(--size-scalable-0)"
+    ],
+    [
+     "--v-chip-disabled-border-color",
+     "var(--palette-default-disabled)"
+    ],
+    [
+     "--v-chip-disabled-cursor",
+     "default"
+    ],
+    [
+     "--v-chip-display",
+     "inline-flex"
+    ],
+    [
+     "--v-chip-gap",
+     "var(--size-scalable-4)"
+    ],
+    [
+     "--v-chip-hover-border-color",
+     "var(--palette-default-active-hover)"
+    ],
+    [
+     "--v-chip-icon-size",
+     "1.2857142857rem"
+    ],
+    [
+     "--v-chip-inline-size",
+     "fit-content"
+    ],
+    [
+     "--v-chip-lead-inline-start-padding",
+     "var(--size-scalable-3)"
+    ],
+    [
+     "--v-chip-padding-block",
+     "var(--size-scalable-6)"
+    ],
+    [
+     "--v-chip-padding-inline-end",
+     "var(--size-scalable-7)"
+    ],
+    [
+     "--v-chip-padding-inline-start",
+     "var(--v-chip-padding-inline-end)"
+    ],
+    [
+     "--v-chip-readonly-background-color",
+     "var(--palette-default-surface-1)"
+    ],
+    [
+     "--v-chip-readonly-border-color",
+     "var(--palette-default-border)"
+    ],
+    [
+     "--v-chip-readonly-label-color",
+     "var(--palette-default-text-subtle)"
+    ],
+    [
+     "--v-chip-selection-cursor",
+     "pointer"
+    ],
+    [
+     "--v-chip-selection-gap",
+     "var(--size-scalable-6)"
+    ],
+    [
+     "--v-chip-selection-text-color",
+     "var(--palette-default-active)"
+    ],
+    [
+     "--v-chip-static-border-color",
+     "var(--palette-default-border)"
+    ]
+   ]
+  }
+ ]
+}

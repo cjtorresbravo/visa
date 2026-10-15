@@ -1,0 +1,227 @@
+{
+ "url": "https://design.visa.com/components/breadcrumbs/usage",
+ "title": "Breadcrumbs | Components | Visa Product Design System",
+ "h1": "Breadcrumbs",
+ "readAt": "2026-10-15T17:09:14.881Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Breadcrumbs"
+  },
+  {
+   "k": "p",
+   "t": "Supplemental navigation that indicates the user's location in a site or app."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesBreadcrumb trails",
+    "Content",
+    "Platform considerationsMobileWeb",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Breadcrumbs are a supplemental navigation element that help users with wayfinding. They indicate the user’s current location within a website or app and streamline navigation across multiple layers of pages, folders, or files."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Breadcrumb trail, cookie crumb trail."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Link (required): Standalone link component with an underline.  B. Separator (required): Character appearing between each link, either a forward slash: (‘/’) or svg: (‘>’).  C. Current page (required): Non-interactive text representing the user’s current location."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "To help users understand their current location within the information hierarchy of an app or site.",
+     "For linear web pages without multiple levels of page hierarchy."
+    ],
+    [
+     "As a secondary form of navigation.",
+     "In place of a site’s main navigation."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use breadcrumbs consistently across your site. If you use them on one page, use them on all pages where they’re relevant.",
+    "Always include the user’s current page as the last item. The current page isn’t a link and should appear different from the other breadcrumb items, which are active links."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use breadcrumbs to indicate the user’s current location."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use breadcrumbs to show progress through a form."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use breadcrumbs for sites with hierarchical structures, such as blogs."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use breadcrumbs for sites with fewer than three levels of hierarchy."
+  },
+  {
+   "k": "h3",
+   "t": "Breadcrumb trails"
+  },
+  {
+   "k": "p",
+   "t": "There are generally three strategies for generating breadcrumb trails: location-based, path-based, and attribute-based breadcrumbs. These include location-based, path-based, and attribute-based breadcrumbs."
+  },
+  {
+   "k": "p",
+   "t": "Following design recommendations from the Nielsen Norman Group, we suggest primarily using the location-based strategy. However, there may be exceptions where path- and attribute-based breadcrumbs fit your use case."
+  },
+  {
+   "k": "h4",
+   "t": "Location-based breadcrumb trails (recommended)"
+  },
+  {
+   "k": "p",
+   "t": "Location-based breadcrumbs show the user’s location within a site’s hierarchy. They are the suggested form of breadcrumbs because they provide a clear route that is not repetitive or lengthy, which can happen with other types of breadcrumbs."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always start with the home page or base level of hierarchy. This provides a clear starting point and helps users understand the overall hierarchical structure."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Path-based breadcrumbs (alternative strategy)"
+  },
+  {
+   "k": "p",
+   "t": "Path-based trails show the pages a user visited to get to their current page. This strategy shows the specific path a user took but might not reflect site hierarchy."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Include every page a user has visited to ensure the path is accurate and consistent."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Attribute-based breadcrumbs (alternative strategy)"
+  },
+  {
+   "k": "p",
+   "t": "Attribute-based trails show the attributes or characteristics of the items on a page. This works best when page contents can be categorized in multiple ways, not just within a single hierarchical structure, such as an e-commerce site."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Identify both the attribute type and specific attribute in the breadcrumb trail."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Write all content in sentence case, except for acronyms or proper nouns.",
+    "Don’t use punctuation, except for colons in attribute-based trails.",
+    "Ensure labels match page titles to enhance the user’s understanding of the site’s information hierarchy.",
+    "Follow all best practices and guidelines implementing links. Reference Link for more information."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "Breadcrumbs are not common in native mobile apps. Instead, consider using a back-facing arrow UI button to let users navigate back one level in site hierarchy."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reference Link for more information on “Back to” links."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Web"
+  },
+  {
+   "k": "p",
+   "t": "Breadcrumbs are commonly used on websites with many pages that are organized hierarchically."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place breadcrumbs at the top of a page between the navigation bar and page title.",
+    "Don’t use breadcrumbs on sites where every page is accessible from a global navigation bar."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Link"
+  },
+  {
+   "k": "p",
+   "t": "Text-based navigation elements that take users to another destination."
+  }
+ ]
+}

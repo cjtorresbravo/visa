@@ -1,0 +1,230 @@
+{
+ "url": "https://design.visa.com/developing/styles-css/abstracts/action-primary",
+ "title": "Action primary | Abstracts | Styles (CSS) | Visa Product Design System",
+ "h1": "Action primary",
+ "readAt": "2026-10-15T17:06:42.661Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Action primary"
+  },
+  {
+   "k": "p",
+   "t": "Use these generic styles to enhance user interactions with primary buttons designed for accessibility, or customize and create your own components."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Action primary styles"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Nova styles version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Action primary styles"
+  },
+  {
+   "k": "h3",
+   "t": "Default"
+  },
+  {
+   "k": "text",
+   "t": "Loading action-primary example Default"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Disabled"
+  },
+  {
+   "k": "text",
+   "t": "Loading action-primary example Disabled"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-alternate"
+    ],
+    [
+     "v-alternate"
+    ],
+    [
+     ".v-action"
+    ],
+    [
+     ".v-action[disabled]"
+    ],
+    [
+     ".v-action-stateless"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Value"
+    ],
+    [
+     "--v-action-primary-block-size",
+     "var(--size-scalable-38)"
+    ],
+    [
+     "--v-action-primary-font-size",
+     "var(--typography-label-font-size)"
+    ],
+    [
+     "--v-action-primary-font-weight",
+     "600"
+    ],
+    [
+     "--v-action-primary-letter-spacing",
+     "0.25px"
+    ],
+    [
+     "--v-action-primary-line-height",
+     "var(--typography-label-line-height)"
+    ],
+    [
+     "--v-action-primary-padding-block",
+     "calc(var(--size-scalable-10) - var(--v-action-primary-border-size))"
+    ],
+    [
+     "--v-action-primary-padding-inline",
+     "calc(var(--size-scalable-14) - var(--v-action-primary-border-size))"
+    ],
+    [
+     "--v-action-primary-background",
+     "var(--palette-default-active)"
+    ],
+    [
+     "--v-action-primary-border-color",
+     "var(--palette-default-active)"
+    ],
+    [
+     "--v-action-primary-border-radius",
+     "var(--size-rounded-medium)"
+    ],
+    [
+     "--v-action-primary-border-size",
+     "var(--theme-border-size)"
+    ],
+    [
+     "--v-action-primary-border-style",
+     "solid"
+    ],
+    [
+     "--v-action-primary-foreground",
+     "var(--palette-default-text-on-active)"
+    ],
+    [
+     "--v-action-primary-hover-background",
+     "var(--palette-default-active-hover)"
+    ],
+    [
+     "--v-action-primary-hover-border-color",
+     "var(--palette-default-active-hover)"
+    ],
+    [
+     "--v-action-primary-hover-foreground",
+     "var(--palette-default-text-on-active)"
+    ],
+    [
+     "--v-action-primary-focus-background",
+     "var(--palette-default-active-hover)"
+    ],
+    [
+     "--v-action-primary-focus-border-color",
+     "var(--palette-default-active-hover)"
+    ],
+    [
+     "--v-action-primary-focus-foreground",
+     "var(--palette-default-text-on-active)"
+    ],
+    [
+     "--v-action-primary-active-background",
+     "var(--palette-default-active-pressed)"
+    ],
+    [
+     "--v-action-primary-active-border-color",
+     "var(--palette-default-active-pressed)"
+    ],
+    [
+     "--v-action-primary-active-foreground",
+     "var(--palette-default-text-on-active)"
+    ],
+    [
+     "--v-action-primary-disabled-background",
+     "var(--palette-default-disabled)"
+    ],
+    [
+     "--v-action-primary-disabled-border-color",
+     "var(--palette-default-transparent)"
+    ],
+    [
+     "--v-action-primary-disabled-foreground",
+     "var(--palette-default-text-on-active)"
+    ]
+   ]
+  }
+ ]
+}

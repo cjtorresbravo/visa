@@ -1,0 +1,90 @@
+{
+ "url": "https://design.visa.com/base-elements/states",
+ "title": "States | Base elements | Visa Product Design System",
+ "h1": "States",
+ "readAt": "2026-10-15T17:06:55.549Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "States"
+  },
+  {
+   "k": "p",
+   "t": "Consistently apply visual cues and design patterns to communicate a component’s interaction state."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Flutter widget state",
+    "State management"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Flutter widget state"
+  },
+  {
+   "k": "p",
+   "t": "Flutter Widget State is used to manage the state of a widget and its lifecycle. For more details, refer to the official WidgetState Documentation."
+  },
+  {
+   "k": "h3",
+   "t": "Additional widget state resources"
+  },
+  {
+   "k": "text",
+   "t": "Widget Lifecycle"
+  },
+  {
+   "k": "text",
+   "t": "Stateful and Stateless Widgets"
+  },
+  {
+   "k": "h2",
+   "t": "State management"
+  },
+  {
+   "k": "p",
+   "t": "State management is the process of handling the state of an application to ensure it behaves as expected and remains responsive to user interactions. It’s crucial in Flutter to ensure the UI updates correctly when the state changes."
+  },
+  {
+   "k": "h3",
+   "t": "Additional state management resources"
+  },
+  {
+   "k": "text",
+   "t": "Managing State in Flutter"
+  },
+  {
+   "k": "text",
+   "t": "Flutter State Management Options"
+  },
+  {
+   "k": "text",
+   "t": "Flutter State Management Guide"
+  }
+ ]
+}

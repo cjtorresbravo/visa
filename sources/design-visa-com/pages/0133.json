@@ -1,0 +1,109 @@
+{
+ "url": "https://design.visa.com/data-visualization",
+ "title": "Visa Chart Components | Data visualization | Visa Product Design System",
+ "h1": "Visa Chart Components",
+ "readAt": "2026-10-15T17:08:23.142Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Visa Chart Components"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to use Visa Chart Components with the Visa Product Design System for ease and efficiency."
+  },
+  {
+   "k": "p",
+   "t": "The Visa Chart Components library (VCC) is maintained to provide charts that work alongside VPDS’s component libraries. You’ll also find guidelines including general principles on how to craft informative data experiences and how to select effective charts."
+  },
+  {
+   "k": "h2",
+   "t": "Learn about VCC"
+  },
+  {
+   "k": "p",
+   "t": "Visa Chart Components uses a feature-rich API to bring you accessible, framework-agnostic web components with robust accessibility configurations to enhance your workflow and ensure your product meet the latest standards. Learn about our approach below."
+  },
+  {
+   "k": "h3",
+   "t": "Accessibility first"
+  },
+  {
+   "k": "p",
+   "t": "Visa Chart Components are designed to make it easier for product teams to deliver accessible data experiences. We use Visa Global Accessibility Requirements (VGAR) to continuously assess and improve the accessibility of our data components."
+  },
+  {
+   "k": "h3",
+   "t": "Streamlined design"
+  },
+  {
+   "k": "p",
+   "t": "Our component APIs come with built-in design choices tailored for Visa products, reducing the need for developers to code detailed aspects like motion design into each chart. This intentional design choice may offer less flexibility than some other libraries, as VCC is not a low-level library."
+  },
+  {
+   "k": "h3",
+   "t": "Framework agnostic"
+  },
+  {
+   "k": "p",
+   "t": "Visa Chart Components leverage stencil.js, d3.js, and other open-source libraries to build custom web components that work with popular web frameworks like Angular, React, and Vanilla JavaScript. In short, you can use VCC almost anywhere you use JavaScript. At this time, the team doesn’t support mobile chart components yet, but can offer guidance on adjusting for mobile applications."
+  },
+  {
+   "k": "h3",
+   "t": "Unit tested"
+  },
+  {
+   "k": "p",
+   "t": "We’ve developed detailed, semi-automated unit testing to perform robust regression testing, ensuring consistent quality across our components. This helps ensure we’re continuously improving the breadth and depth of our testing coverage."
+  },
+  {
+   "k": "h2",
+   "t": "Learn to use our assets"
+  },
+  {
+   "k": "p",
+   "t": "Craft insightful, inclusive, and accessible data experiences following our data visualization guidelines."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Understand key principles and techniques for visualizing and communicating insights in Data visualization principles.",
+    "Explore how to choose the most effective chart for the information you need to communicate in Selecting the right chart.",
+    "Find usage, code and accessibility guidance for our data visualization components in Chart component library.",
+    "Find chart examples tailored to support common business scenarios and analysis tasks in Chart examples."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Complete your setup"
+  },
+  {
+   "k": "p",
+   "t": "To get started, visit React, Angular, and Vanilla Javascript for instructions on installation and building your first chart."
+  },
+  {
+   "k": "h3",
+   "t": "For designers: Get the Figma design kit"
+  },
+  {
+   "k": "p",
+   "t": "Start designing with VCC components, color palettes, and more with our Figma Data Visualization library (internal only)."
+  },
+  {
+   "k": "h3",
+   "t": "For developers: Install the code library of your choice"
+  },
+  {
+   "k": "p",
+   "t": "Visa Chart Components can be used with React, Angular, Vanilla JavaScript, Python, and Vue. To get started, visit Angular, React, and Vanilla Javascript for instructions on installation and building your first chart."
+  },
+  {
+   "k": "h2",
+   "t": "Connect with us"
+  },
+  {
+   "k": "p",
+   "t": "Have questions or ideas? Visit our office hours, or join Data experience on Teams or get general VPDS help by visiting Support."
+  }
+ ]
+}

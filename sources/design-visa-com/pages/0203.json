@@ -1,0 +1,102 @@
+{
+ "url": "https://design.visa.com/components/icons-illustrations/accessibility",
+ "title": "Icons and illustrations | Components | Visa Product Design System",
+ "h1": "Icons and illustrations",
+ "readAt": "2026-10-15T17:10:01.850Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Icons and illustrations"
+  },
+  {
+   "k": "p",
+   "t": "Explore Visa-branded and generic icon libraries that represent core functions, ideas, and content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Icons library",
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practicesIconsImagesRight to left languages"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "h3",
+   "t": "Icons"
+  },
+  {
+   "k": "p",
+   "t": "Note: Nova icons include aria-hidden=\"true\" by default, which hides them from screen readers."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use an aria-label along with aria-hidden=\"false\" attributes on the svg when needed to give it an accessible name for a screen reader.",
+    "Ensure icon buttons have an aria-label, although the icon it contains should not to avoid duplicate announcements.",
+    "Edit the SVG code and add appropriate attributes to hard-coded custom icons, as a hardcoded fill color won’t adjust in Windows high contrast mode."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Images"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure images using an img element have an alt=\"\" attribute. Ensure purely decorative images have an empty alt value so they’re ignored by screen readers. Ensure images that add meaning have an alt value with a succinct description and a color contrast ratio of at least 3:1.",
+    "Use extreme caution when placing images or background images behind text. Remember that the screen will shift responsively for different screen sizes which will reposition items.",
+    "Perform manual testing when needed as automated testing generally won’t test contrast between an image and foreground text."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Right to left languages"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use VPDS’s rtl class for “back”, “forward”, “previous”, and “next” arrows for left-to-right languages. Also be aware of directional icons including chevrons, “opens in a new window”, or “maximize tiny”.",
+    "Ensure images that are directional or show progress adjust for rtl languages, as VPDS doesn’t have an RTL class for images."
+   ]
+  }
+ ]
+}

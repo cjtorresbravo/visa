@@ -1,0 +1,1766 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/listbox",
+ "title": "Listbox | Component | Nova Angular | Visa Product Design System",
+ "h1": "Listbox",
+ "readAt": "2026-10-15T17:17:25.999Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Listbox"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default single-select listbox",
+    "Single-select listbox with inline message",
+    "Single-select listbox with selected item",
+    "Single-select listbox with resize property",
+    "Single-select listbox with error",
+    "Disabled single-select listbox",
+    "Single-select listbox with disabled item",
+    "Default multi-select listbox",
+    "Multi-select listbox with inline message",
+    "Multi-select listbox with selected item",
+    "Multi-select listbox with resize property",
+    "Multi-select listbox with error",
+    "Disabled multi-select listbox",
+    "Multi-select listbox with disabled item",
+    "Template-driven single-select listbox",
+    "Template-driven multi-select listbox",
+    "Single- and multi-select listboxes in template-driven form",
+    "Model-driven single-select listbox",
+    "Model-driven multi-select listbox",
+    "Single- and multi-select listboxes in model-driven form",
+    "Single- and multi-select listboxes in model-driven form with FormBuilder",
+    "Single-select with automatic selection",
+    "Multi-select listbox with automated scroll to selected item",
+    "Radio group as single-select listbox",
+    "Checkbox group as multi-select listbox",
+    "Reusable listbox demo"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Single-select listboxes"
+  },
+  {
+   "k": "h3",
+   "t": "Default single-select listbox"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Single-select listbox with inline message"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Single-select listbox with selected item"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Single-select listbox with resize property"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Single-select listbox with error"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled single-select listbox"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Single-select listbox with disabled item"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Multi-select listboxes"
+  },
+  {
+   "k": "h3",
+   "t": "Default multi-select listbox"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multi-select listbox with inline message"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multi-select listbox with selected item"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multi-select listbox with resize property"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multi-select listbox with error"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled multi-select listbox"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multi-select listbox with disabled item"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Framework-specific listboxes"
+  },
+  {
+   "k": "h3",
+   "t": "Template-driven single-select listbox"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Value: [ item-c-template ]"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Template-driven multi-select listbox"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Value: [ item-c-multiselect-template ]"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Single- and multi-select listboxes in template-driven form"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "singleselect: [  ]"
+  },
+  {
+   "k": "text",
+   "t": "multiselect: [  ]"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Model-driven single-select listbox"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Value: [ item-c-reactive ]"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Model-driven multi-select listbox"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Value: [ item-c-multiselect-reactive ]"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Single- and multi-select listboxes in model-driven form"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "ssFormControl: [  ]"
+  },
+  {
+   "k": "text",
+   "t": "msFormControl: [  ]"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Single- and multi-select listboxes in model-driven form with FormBuilder"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "ssFormControl: [ null ]"
+  },
+  {
+   "k": "text",
+   "t": "msFormControl: [  ]"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Services with listbox"
+  },
+  {
+   "k": "h3",
+   "t": "Single-select with automatic selection"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multi-select listbox with automated scroll to selected item"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Select and scroll to option 6"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h4",
+   "t": "Using Radio and Checkbox groups within a Listbox"
+  },
+  {
+   "k": "p",
+   "t": "The below examples are radio and checkbox groups at their core. Although they are styled to look like a listbox component, their functionality and API signatures moreso reflect radio and checkbox groups than listbox components."
+  },
+  {
+   "k": "p",
+   "t": "As such, Radio and Checkbox props should be used in this case over ListboxItem props."
+  },
+  {
+   "k": "p",
+   "t": "For example,"
+  },
+  {
+   "k": "list",
+   "items": [
+    "- Radio or Checkbox checked should be used over ListboxItem selected",
+    "- Any invalid prop should be added directly to Radio or checkbox",
+    "- Any disabled prop should be added directly to Radio or checkbox"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Listbox with item coded as radio or checkbox groups"
+  },
+  {
+   "k": "h3",
+   "t": "Radio group as single-select listbox"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Item A"
+  },
+  {
+   "k": "text",
+   "t": "Item B"
+  },
+  {
+   "k": "text",
+   "t": "Item C"
+  },
+  {
+   "k": "text",
+   "t": "Item D"
+  },
+  {
+   "k": "text",
+   "t": "Item E"
+  },
+  {
+   "k": "text",
+   "t": "Item F"
+  },
+  {
+   "k": "text",
+   "t": "Item G"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox group as multi-select listbox"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E",
+    "Item F",
+    "Item G"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Reusable listbox demo"
+  },
+  {
+   "k": "text",
+   "t": "#AI-first"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A",
+    "Item B",
+    "Item C",
+    "Item D",
+    "Item E"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "h4",
+   "t": "Boolean properties"
+  },
+  {
+   "k": "text",
+   "t": "Input message"
+  },
+  {
+   "k": "text",
+   "t": "Auto select"
+  },
+  {
+   "k": "text",
+   "t": "Contain height"
+  },
+  {
+   "k": "text",
+   "t": "Disabled"
+  },
+  {
+   "k": "text",
+   "t": "Invalid"
+  },
+  {
+   "k": "text",
+   "t": "Multiselect"
+  },
+  {
+   "k": "h4",
+   "t": "Text/numeric properties"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "Message"
+  },
+  {
+   "k": "text",
+   "t": "Options (JSON array)"
+  },
+  {
+   "k": "text",
+   "t": "Each option should be an object with \"label\" and \"value\" properties, and optionally \"disabled\" and \"active\"."
+  },
+  {
+   "k": "text",
+   "t": "Apply"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "ListboxContainerDirective",
+    "ListboxDirective",
+    "ListboxItemComponent",
+    "LabelDirective",
+    "InputMessageDirective",
+    "ListboxService",
+    "IdGenerator",
+    "NovaLibService",
+    "AppReadyService"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ListboxContainerDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-listbox-container]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "ariaActiveDescendantInput",
+     "@Input()",
+     "",
+     "string | null",
+     "Aria attribute relaying what active element the listbox container refers to.",
+     "true"
+    ],
+    [
+     "id",
+     "@Input()",
+     "idGenerator.newId('v-listbox-container')",
+     "string",
+     "Sets custom id.",
+     "true"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ListboxDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-listbox]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "containHeight",
+     "@Input()",
+     "",
+     "boolean | null | number, unknown",
+     "Sets CSS variable --v-listbox-block-size-scroll. If true, the default 180px will be the listbox's max-block-size. If set to a number or string representing a number (ie [containHeight]=\"250\"), the variable will be set to that amount of pixels.",
+     "false"
+    ],
+    [
+     "customScrollControl",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Overrides default scroll control behavior. By default the listbox will scroll to the last selected item.",
+     "false"
+    ],
+    [
+     "disabledInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets component and any ListboxItemComponent children as disabled when true. Will automatically become true if all children are disabled.",
+     "false"
+    ],
+    [
+     "id",
+     "@Input()",
+     "idGenerator.newId('v-listbox')",
+     "string",
+     "Sets custom id.",
+     "true"
+    ],
+    [
+     "invalidInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets component and any ListboxItemComponent children as invalid when true.",
+     "false"
+    ],
+    [
+     "multiselect",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets listbox to multiselect variant when true.",
+     "false"
+    ],
+    [
+     "requiredInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Marks component as required when true.",
+     "false"
+    ],
+    [
+     "value",
+     "@Input()",
+     "",
+     "SingleSelectValue | MultiSelectValue | null",
+     "Value of listbox.",
+     "false"
+    ],
+    [
+     "manualUserChange",
+     "@Output()",
+     "",
+     "void",
+     "",
+     ""
+    ],
+    [
+     "value",
+     "@Output()",
+     "",
+     "SingleSelectValue | MultiSelectValue | null",
+     "Value of listbox.",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Component - ListboxItemComponent"
+  },
+  {
+   "k": "text",
+   "t": "[v-listbox-item]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "activeInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Marks item as intitally selected when true. Use the listbox directive's value to update the active state of the items.",
+     "false"
+    ],
+    [
+     "disabledInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Marks item as selected when true.",
+     "false"
+    ],
+    [
+     "idInput",
+     "@Input()",
+     "'v-listbox-item-'",
+     "string | null",
+     "Sets custom id.",
+     "true"
+    ],
+    [
+     "value",
+     "@Input()",
+     "",
+     "string | number",
+     "Value of listbox item. A value must be present on every list item if it does not have a child radio or checkbox.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - LabelDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-label], [v-switch-label]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "htmlForInput",
+     "@Input()",
+     "",
+     "string | null",
+     "Attribute set to the id of the element it's labeling. This property is set by default for radio and checkbox components when used within v-input-container as directed.",
+     "false"
+    ],
+    [
+     "id",
+     "@Input()",
+     "idGenerator.newId('v-label')",
+     "string",
+     "Sets custom id.",
+     "true"
+    ],
+    [
+     "progressLabelInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Swaps v-label class for v-progress-label when true. Intended for use when label is describing a progress component. Automatically set to true when used within a Circular Progress component.",
+     "false"
+    ],
+    [
+     "switchLabel",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - InputMessageDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-input-message]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "ListboxService"
+  },
+  {
+   "k": "code",
+   "t": "import { inject, Injectable, Renderer2, RendererFactory2 } from '@angular/core';\nimport { AppReadyService } from '../app-ready/app-ready.service';\nimport { ListboxItemComponent } from '../listbox-item/listbox-item.component';\nimport {\n  DOWN_ARROW_KEY,\n  END_KEY,\n  ENTER_KEY,\n  HOME_KEY,\n  SPACE_CODE,\n  SPACE_KEY,\n  TAB_KEY,\n  UP_ARROW_KEY\n} from '../nova-lib.constants';\nimport { NovaLibService } from '../nova-lib.service';\nimport { ListboxDirective } from './listbox.directive';\n\n/**\n * Service used to create listbox behavior. Some functions are used within listbox component, others are optional additions.\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class ListboxService {\n  constructor() {\n    this.renderer = this.rendererFactory.createRenderer(null, null);\n  }\n\n  /** @ignore */\n  private appReadyService: AppReadyService = inject(AppReadyService);\n  private novaLibService: NovaLibService = inject(NovaLibService);\n  private rendererFactory: RendererFactory2 = inject(RendererFactory2);\n  /** @ignore */\n  private renderer: Renderer2;\n\n  /**\n   * The setUpListbox method configures the listbox with the expected keyboard behaviors and sets the aria-activedescendant attribute. <br>\n   * This method is called by default within <code>ListboxDirective</code>.\n   * @param listbox Listbox to set up.\n   */\n  public setUpListbox(listbox: ListboxDirective): void {\n    listbox.listeners.forEach((listener) => listener()); // remove previous listeners\n    listbox.listeners = []; // reset listeners\n\n    this.novaLibService.addArrowKeyNavigation(listbox.listItems(), true, 'both', listbox);\n    this.addShortcuts(listbox);\n  }\n\n  /**\n   * The scrollItemIntoView method scrolls given item to top of listbox. <br>\n   * It’s called by default in <code>ListBoxDirective</code> unless <code>customScrollControl</code> is present. <br>\n   * This method can also call to scroll to a custom index. By default it will scroll to the first active item, but you can provide a specific item if desired.\n   * @param listbox Listbox to scroll.\n   * @param indexToScrollTo Optional specific index to scroll to top (othwerwise, scrolls to first active item).\n   */\n  public scrollItemIntoView(listbox: ListboxDirective, indexToScrollTo?: number): void {\n    const listboxReversed = [...listbox.listItems()].reverse();\n    const targetItem: ListboxItemComponent | undefined =\n      indexToScrollTo || indexToScrollTo === 0\n        ? listbox.listItems()[indexToScrollTo]\n        : listbox.multiselect()\n          ? listboxReversed.find((item) => item.active())\n          : listbox.listItems().find((item) => item.active());\n\n    if (targetItem && this.appReadyService.isBrowserAndDomAvailable) {\n      if (!listbox.listboxScrollStylesSet) {\n        // gather variable information\n        listbox.listboxHeight = listbox.el.nativeElement.offsetHeight;\n        listbox.listboxItemHeight = listbox.listItems()[0].el.nativeElement.offsetHeight;\n        listbox.listboxGap = parseInt(window.getComputedStyle(listbox.el.nativeElement).gap, 10);\n        listbox.listboxGap = isNaN(listbox.listboxGap) ? 4 : listbox.listboxGap;\n      }\n\n      let amountScrolledAlready = listbox.el.nativeElement.scrollTop;\n      // determine distance between top of listbox and active item\n      this.renderer.setStyle(listbox.el.nativeElement, 'position', 'relative'); // set position to relative to allow for correct offsetTop of item\n      const fullItemDistanceFromTop = targetItem.el.nativeElement.offsetTop + listbox.listboxItemHeight;\n\n      // if item is in the top view of the listbox..\n      if (fullItemDistanceFromTop < listbox.listboxHeight) {\n        if (!amountScrolledAlready) {\n          return; // do nothing, item is in view (user hasn't scrolled)\n        } else {\n          // scroll to top of listbox (where item is)\n          listbox.el.nativeElement.scrollTo(0, 0);\n        }\n      } else if (\n        /**\n         * Do nothing if the item is between the amount already scrolled and the bottom of the listbox\n         * ie it is in view and the user has scrolled\n         */\n        amountScrolledAlready &&\n        fullItemDistanceFromTop < listbox.listboxHeight + amountScrolledAlready &&\n        fullItemDistanceFromTop > amountScrolledAlready\n      ) {\n        return;\n      } else {\n        // either scroll to top of listbox or scroll item to top\n        if (!listbox.el?.nativeElement.scrollBy) return; // needed for testing\n        listbox.el.nativeElement.scrollBy({\n          top: fullItemDistanceFromTop - listbox.listboxGap - amountScrolledAlready - listbox.listboxItemHeight\n        });\n      }\n    }\n  }\n\n  /* ======= KEYBOARD SHORTCUTS ======= */\n\n  /**\n   * The addShortcuts method adds keyboard shortcuts to the listbox and is called by default within <code>setUpListbox</code>.\n   * @param listbox Listbox to add shortcuts to.\n   */\n  private addShortcuts(listbox: ListboxDirective): void {\n    listbox.listeners.push(\n      this.renderer.listen(listbox.el.nativeElement, 'keydown', (event) => {\n        this.handleKeyDown(event, listbox);\n      })\n    );\n    listbox.listeners.push(\n      this.renderer.listen(listbox.el.nativeElement, 'keyup', (event) => {\n        this.handleKeyUp(event);\n      })\n    );\n  }\n\n  /**\n   * The handleKeyup method handles item selection on keyup events for the listbox and is called by default within <code>addShortcuts</code>.\n   * @param event Keyup event\n   * @param listbox Listbox to handle keyup event for.\n   */\n  private handleKeyUp(event: KeyboardEvent): void {\n    if (event.key === ENTER_KEY || event.key === SPACE_KEY || event.key === HOME_KEY || event.key === END_KEY) {\n      event.preventDefault(); // prevent scrolling\n    }\n  }\n\n  /**\n   * The handleKeydown handles keydown events for the listbox and is called by default within <code>addShortcuts</code>.\n   * @param event Keydown event\n   * @param listbox Listbox to handle keyup event for.\n   */\n  private handleKeyDown(event: KeyboardEvent, listbox: ListboxDirective): void {\n    listbox"
+  },
+  {
+   "k": "text",
+   "t": "IdGenerator"
+  },
+  {
+   "k": "code",
+   "t": "import { APP_ID, inject, Injectable } from '@angular/core';\n\n/**\n * Keeps track of the ID count per prefix. This helps us make the IDs a bit more deterministic.\n */\nlet counters: Record<string, number> = {};\n\n/**\n * Service that generates unique IDs for DOM nodes.\n * Note that this service should not be used inside templates and should only be used within classes or else id will change with every render.\n * @docs {@link https://design.visa.com/developing/angular/services/id-generator | See docs}\n */\n@Injectable({ providedIn: 'root' })\nexport class IdGenerator {\n  private readonly appId: null | string = inject(APP_ID, { optional: true });\n\n  /**\n   * Generates a unique ID with a specific prefix.\n   * @param prefix Prefix to add to the ID.\n   */\n  public newId(prefix: string = ''): string {\n    // Omit the app ID if it's the default `ng`. Since the vast majority of pages have one\n    // Angular app on them, we can reduce the amount of breakages by not adding it.\n    if (this.appId && this.appId !== 'ng') prefix = `${this.appId}-${prefix}`;\n    if (!counters.hasOwnProperty(prefix)) counters[prefix] = 0;\n    return `${prefix}-${counters[prefix]++}`;\n  }\n\n  /**\n   * Resets the counters for the IDs.\n   * This is useful when testing to ensure that the IDs are deterministic.\n   * @deprecated WARNING: This should only be used in tests. Do NOT use this in an actual application.\n   */\n  public static reset(): void {\n    counters = {};\n  }\n}"
+  },
+  {
+   "k": "text",
+   "t": "NovaLibService"
+  },
+  {
+   "k": "code",
+   "t": "import { DOCUMENT } from '@angular/common';\nimport { inject, Injectable, Renderer2, RendererFactory2 } from '@angular/core';\nimport { ButtonDirective } from './button/button.directive';\nimport { CheckboxDirective } from './checkbox/checkbox.directive';\nimport { LinkDirective } from './link/link.directive';\nimport { ListboxItemComponent } from './listbox-item/listbox-item.component';\nimport { DOWN_ARROW_KEY, LEFT_ARROW_KEY, RIGHT_ARROW_KEY, TAB_KEY, UP_ARROW_KEY } from './nova-lib.constants';\nimport { TabItemDirective } from './tab-item/tab-item.directive';\nimport { ListboxDirective } from './listbox/listbox.directive';\n\ntype Item = (ButtonDirective | CheckboxDirective | ListboxItemComponent) | undefined;\ntype Items = readonly Item[];\n/**\n * This service manages navigation states within the application, ensuring smooth transitions and a consistent user experience. <br />\n * It’s primarily used internally by the library but can also be leveraged directly for custom implementations.\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class NovaLibService {\n  private rendererFactory: RendererFactory2 = inject(RendererFactory2);\n  private document: Document | null = inject(DOCUMENT, { optional: true });\n\n  /** @ignore */\n  private renderer: Renderer2 = this.rendererFactory.createRenderer(null, null);\n\n  /**\n   * The addArrowKeyNavigation method adds arrow key navigation to an array of elements of type <code>ButtonDirective</code>, <code>ListboxItemComponent</code>, <code>or CheckboxDirective</code>.\n   * @param itemsArray Array of items to add arrow key navigation to.\n   * @param removeTabNavigation Optionally remove tab navigation from an array you're adding arrow navigation to.\n   * @param arrowDirections Optionally specify which arrow key directions to use for navigation.\n   * @param listbox Optionally specify a ListboxDirective to track highlighted item.\n   */\n  public addArrowKeyNavigation(\n    itemsArray: Items,\n    removeTabNavigation: boolean = false,\n    arrowDirections: 'both' | 'horizontal' | 'vertical' = 'both',\n    listbox?: ListboxDirective\n  ): void {\n    if (!itemsArray || !itemsArray.length) return;\n    itemsArray.forEach((item, index) => {\n      if (!item?.el?.nativeElement) return;\n\n      item.listenerService.navListeners.push(\n        // for each button, add an event listener for arrow \"keydown\"\n        this.renderer.listen(item.el.nativeElement, 'keydown', (event) => {\n          // right and down arrow keys should go to next focusable item\n          if (\n            (event.key === DOWN_ARROW_KEY && arrowDirections !== 'horizontal') ||\n            (event.key === RIGHT_ARROW_KEY && arrowDirections !== 'vertical')\n          ) {\n            event.preventDefault();\n            const focusableIndex = this.nextEnabledItem(itemsArray, index);\n            if (focusableIndex > -1) {\n              const focusableItem = itemsArray?.[focusableIndex];\n              if (!focusableItem?.el?.nativeElement) return;\n              focusableItem?.el.nativeElement.focus();\n              if (listbox) listbox.highlightedItem.set(focusableItem as ListboxItemComponent);\n            }\n          } else if (\n            (event.key === UP_ARROW_KEY && arrowDirections !== 'horizontal') ||\n            (event.key === LEFT_ARROW_KEY && arrowDirections !== 'vertical')\n          ) {\n            // left and up arrow keys should go to previous focusable item\n            event.preventDefault();\n            const focusableIndex = this.previousEnabledItem(itemsArray, index);\n            if (focusableIndex > -1) {\n              const focusableItem = itemsArray?.[focusableIndex];\n              if (!focusableItem?.el?.nativeElement) return;\n              focusableItem?.el.nativeElement.focus();\n              if (listbox) listbox.highlightedItem.set(focusableItem as ListboxItemComponent);\n            }\n          }\n        })\n      );\n    });\n\n    if (removeTabNavigation) this.removeTabNavigation(itemsArray);\n  }\n\n  /**\n   * The removeTabNavigation method removes tab navigation for an array of elements of type ButtonDirective, ListboxItemComponent, or CheckboxDirective. <br />\n   * When this functionality is added, it will disable tabbing between these specified elements.\n   * @param itemsArray Array of items to remove tab navigation from.\n   */\n  private removeTabNavigation(itemsArray: Items, listbox?: ListboxDirective): void {\n    if (!itemsArray || !itemsArray.length) return;\n    this.findStartingFocus(itemsArray);\n\n    itemsArray.forEach((item, index: number) => {\n      if (!item?.el.nativeElement) return;\n\n      item.listenerService.navListeners.push(\n        this.renderer.listen(item.el.nativeElement, 'keydown', (event) => {\n          // as you loop through the items with arrow keys, tabIndex must be updated so that only the item with focus has tabIndex = 0\n          if (event.key === DOWN_ARROW_KEY || event.key === RIGHT_ARROW_KEY) {\n            event.preventDefault(); // prevent scrolling\n            const focusableIndex = this.nextEnabledItem(itemsArray, index);\n            if (focusableIndex === -1) return; // no next item found\n            const focusableItem = itemsArray[focusableIndex];\n            if (!focusableItem?.el.nativeElement) return;\n            // set tabindex for the item that is focused to 0, and all\n            this.renderer.setAttribute(item.el.nativeElement, 'tabIndex', '-1');\n            this.renderer.setAttribute(focusableItem.el.nativeElement, 'tabIndex', '0');\n            if (listbox) listbox.highlightedItem.set(focusableItem as ListboxItemComponent);\n          } else if (event.key === UP_ARROW_KEY || event.key === LEFT_ARROW_KEY) {\n            event.preventDefault(); // prevent scrolling\n            const focusableIndex = this.previousEnabledItem(itemsArray, index);\n            if (focusableIndex === -1) return; // no next item found\n            const focusableItem = itemsArray[focusableIndex];\n            if (!focusableItem?.el.nativeElement) return;\n            // set tabindex for the"
+  },
+  {
+   "k": "text",
+   "t": "AppReadyService"
+  },
+  {
+   "k": "code",
+   "t": "import { DOCUMENT, isPlatformBrowser } from '@angular/common';\nimport { Injectable, PLATFORM_ID, inject } from '@angular/core';\n\n/**\n * @note Where possible, use Angular's new `afterRender` and `afterNextRender` lifecycle hooks instead of this service.\n * This service is used internally by the library and can optionally be used directly. <br />\n * It’s required for SSR integration but not necessary for functions behind Angular's renderer.\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class AppReadyService {\n  private document: Document | null = inject(DOCUMENT, { optional: true });\n  private platformId: object = inject(PLATFORM_ID);\n\n  /**\n   * The isPlatformBrowser property checks if the platform is a browser (as opposed to server).\n   */\n  public readonly isPlatformBrowser: boolean = isPlatformBrowser(this.platformId);\n\n  /**\n   * The isBrowserAndDomAvailable property checks for both the document and the browser platform.\n   */\n  public readonly isBrowserAndDomAvailable: boolean = !!this.document && this.isPlatformBrowser;\n}"
+  }
+ ]
+}

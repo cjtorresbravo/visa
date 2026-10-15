@@ -1,0 +1,108 @@
+{
+ "url": "https://design.visa.com/components/navigation-drawer",
+ "title": "Navigation drawer | Components | Visa Product Design System",
+ "h1": "Navigation drawer",
+ "readAt": "2026-10-15T17:07:35.326Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Navigation drawer"
+  },
+  {
+   "k": "p",
+   "t": "Collapsible navigation panels that float over page content on small screens."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default navigation drawers"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Code switcher loading"
+  },
+  {
+   "k": "h2",
+   "t": "Default navigation drawers"
+  },
+  {
+   "k": "h3",
+   "t": "Default navigation drawer"
+  },
+  {
+   "k": "text",
+   "t": "Loading navigation-drawer example Default navigation drawer"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Navigation drawer with active element"
+  },
+  {
+   "k": "text",
+   "t": "Loading navigation-drawer example Navigation drawer with active element"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-nav-drawer"
+    ],
+    [
+     ".v-alternate"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "p",
+   "t": "No exposed properties for variables."
+  }
+ ]
+}

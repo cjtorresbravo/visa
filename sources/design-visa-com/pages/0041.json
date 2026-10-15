@@ -1,0 +1,190 @@
+{
+ "url": "https://design.visa.com/developing/flutter/changelog",
+ "title": "Changelog | Flutter | Developing | Visa Product Design System",
+ "h1": "Changelog",
+ "readAt": "2026-10-15T17:06:30.355Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Changelog"
+  },
+  {
+   "k": "p",
+   "t": "Keep up-to-date with the latest updates and enhancements in the Flutter changelog."
+  },
+  {
+   "k": "text",
+   "t": "Nova Flutter version"
+  },
+  {
+   "k": "text",
+   "t": "All"
+  },
+  {
+   "k": "text",
+   "t": "8.3.1"
+  },
+  {
+   "k": "text",
+   "t": "8.3.0"
+  },
+  {
+   "k": "text",
+   "t": "8.2.0"
+  },
+  {
+   "k": "text",
+   "t": "8.1.2"
+  },
+  {
+   "k": "text",
+   "t": "8.1.1"
+  },
+  {
+   "k": "text",
+   "t": "8.1.0"
+  },
+  {
+   "k": "h2",
+   "t": "All versions"
+  },
+  {
+   "k": "h3",
+   "t": "8.3.1 (2026-02-25)"
+  },
+  {
+   "k": "h4",
+   "t": "Accessibility"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Improved VComboboxScreen component accessibility: Added screen reader announcements for search result count changes Added “No results found” and “{count} results found” announcements during search filtering Enhanced clear button with proper semantics (label, hint, button role) and “Search field cleared” announcement Improved close button semantics with descriptive label and hint Added liveRegion semantics for empty results state Enhanced list item accessibility with selected state, proper labels, and selection announcements Wrapped list items with Semantics widget for better VoiceOver/TalkBack support"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "8.3.0 (2025-11-19)"
+  },
+  {
+   "k": "h4",
+   "t": "Added"
+  },
+  {
+   "k": "list",
+   "items": [
+    "New errorBorderColor token in VMessageColorSet for WCAG-compliant form validation borders.",
+    "New disabledIcon token in VDefaultThemeProps and VAltThemeProps for disabled icon states.",
+    "Six new disabled-state color tokens for toggle switch (trackDisabledOff, trackDisabledOn, thumbDisabled and dark mode variants).",
+    "New VSwitchStyle properties for disabled state customization: trackDisabledOff, trackDisabledOn, thumbDisabled, borderDisabledOff, borderDisabledOn, thumbBorderDisabled.",
+    "New VAccordion properties: initiallyExpanded, isExpanded, onExpansionChanged for controlled accordion behavior.",
+    "New VToggle property: isMultiSelect for multi-select toggle support.",
+    "New VBottomNavBarStyle property: indicatorColor for tab bar selection indicator customization.",
+    "New VBottomBarItems property: preserveIconColors to preserve original icon colors in bottom navigation bar.",
+    "Added 99 new code examples across Accordion, Avatar, Badge, Banner, Button, Chip, Content Card, Dialog, Dropdown Menu, Link, List Item, Radio, Switch, Toggle, and Typography.",
+    "Added missing demo code examples for Accordion groups, Badge icon variants, Banner close icon, Button sizes and icon buttons, Chip read-only and group variants, Dropdown secondary and disabled variants, Link disabled and external variants, Radio individual buttons and panels, Switch states, and Toggle label variants."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Changed"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Improved WCAG 2.1 Level AA compliance across all disabled states with full opacity colors.",
+    "Form validation error borders now use dedicated errorBorderColor token in dark mode.",
+    "Toggle switch disabled states now use full opacity colors instead of forced opacity.",
+    "Disabled icons in VDropdownMenu, VInput, and VSelect now use disabledIcon token.",
+    "VToggleStyle default height changed from 50.0 to 40.0.",
+    "VToggleStyle default minimumWidth changed from 50.0 to 44.0.",
+    "Fixed toggle label alignment, padding, active font styling, and multiselect behavior.",
+    "Fixed icon alternate color rendering."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Fixed"
+  },
+  {
+   "k": "list",
+   "items": [
+    "VPA accessibility gaps: form field error/validation text contrast in dark mode.",
+    "VPA accessibility gaps: toggle switch “Off” state contrast in light and dark modes.",
+    "VPA accessibility gaps: disabled icon color contrast (Face ID, empty states, dropdowns, inputs).",
+    "Regression fixes across Badge, Banner, Button, Toggle, Checkbox, Chips, Tab Bar, Top App Bar, and Radio.",
+    "Resolved all Dart analyzer warnings and info-level issues across the SDK codebase."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Testing"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Added 6 new test files for material widget forks.",
+    "Added golden snapshot tests for all 28 components.",
+    "Expanded test suite to 740+ tests with 100% pass rate."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "8.2.0 (2025-09-26)"
+  },
+  {
+   "k": "h4",
+   "t": "Features"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Added a collection of patterns: Application layout Chat File Upload Wizard",
+    "Added a new property enableInteractiveSelection to VInput."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "8.1.2 (2025-04-10)"
+  },
+  {
+   "k": "h4",
+   "t": "Features"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Updated license in all files and pubspec.yaml"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "8.1.1 (2025-03-26)"
+  },
+  {
+   "k": "h4",
+   "t": "Features"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Updated pubspec.yaml"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "8.1.0 (2025-03-26)"
+  },
+  {
+   "k": "h4",
+   "t": "Features"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Initial release of the component library.",
+    "Added a collection of components: Accordion App Bar Avatar Badge Banner Bottom Navigation Bar Button Checkbox Chip Combobox Content Card Dialog Divider Dropdown Menu Flag Icon Input Link List Item Navigation Drawer Panel Progress Radio Section Message Select Switch Tab Toggle Wizard"
+   ]
+  }
+ ]
+}

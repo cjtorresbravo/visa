@@ -1,0 +1,170 @@
+{
+ "url": "https://design.visa.com/contributing",
+ "title": "Get started | Contributing | Visa Product Design System",
+ "h1": "Start contributing to VPDS",
+ "readAt": "2026-10-15T17:06:47.083Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Start contributing to VPDS"
+  },
+  {
+   "k": "p",
+   "t": "Learn more about contributions and how you can help shape the future of the Visa Product Design System."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Overview",
+    "Code",
+    "Design"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "The Visa Product Design System (VPDS) is built for our community. We invite designers, developers, and teams across Visa to contribute ideas, solutions, and improvements. Whether you’re enhancing a component, proposing a new pattern, or refining guidance—we welcome your input."
+  },
+  {
+   "k": "p",
+   "t": "Want a quick overview of our contribution process? Take our quiz."
+  },
+  {
+   "k": "p",
+   "t": "Note: While this quiz is publicly available, the VPDS team is only accepting internal design contributions from Visa employees."
+  },
+  {
+   "k": "text",
+   "t": "Take contribution quiz"
+  },
+  {
+   "k": "h2",
+   "t": "What do you plan to contribute?"
+  },
+  {
+   "k": "p",
+   "t": "If your team is contributing both design and code elements, choose the path that you are responsible for."
+  },
+  {
+   "k": "text",
+   "t": "Design or content"
+  },
+  {
+   "k": "text",
+   "t": "Developed code"
+  },
+  {
+   "k": "h2",
+   "t": "Are you sure you want to exit taking the quiz?"
+  },
+  {
+   "k": "text",
+   "t": "Yes"
+  },
+  {
+   "k": "text",
+   "t": "No, continue with quiz"
+  },
+  {
+   "k": "h2",
+   "t": "Why contribute?"
+  },
+  {
+   "k": "p",
+   "t": "Contributing to VPDS helps scale accessible, inclusive, and consistent product experiences across Visa. By contributing, you:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Solve once, share widely: Reusable solutions help other teams and reduce redundant work.",
+    "Promote best practices: Contributions ensure consistent accessibility, usability, and brand standards.",
+    "Showcase your work: Gain recognition from your peers and further the impact of your day-to-day work.",
+    "Foster a stronger design community: Sharing knowledge between teams promotes a healthy design culture.",
+    "Build a system that reflects real needs: Contributions based on real product challenges make the system future-proof.",
+    "Shape the tools you use every day: Your feedback guides the system’s roadmap, priorities, and growth."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Who can contribute?"
+  },
+  {
+   "k": "p",
+   "t": "Anyone at Visa can contribute to VPDS. Whether you’re a product designer, content designer, engineer, accessibility specialist, or researcher—your perspective is valuable. We especially encourage contributions from teams addressing real-world needs or edge cases not yet covered by the system."
+  },
+  {
+   "k": "h2",
+   "t": "What can you contribute?"
+  },
+  {
+   "k": "p",
+   "t": "There are several types of contributions you can make."
+  },
+  {
+   "k": "h3",
+   "t": "New components and patterns"
+  },
+  {
+   "k": "h3",
+   "t": "Component and pattern enhancements"
+  },
+  {
+   "k": "h3",
+   "t": "Code bug fixes"
+  },
+  {
+   "k": "h2",
+   "t": "How do contributions help?"
+  },
+  {
+   "k": "p",
+   "t": "Contributions help VPDS evolve to meet the needs of real products. Your participation helps:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Increase adoption by making the system more comprehensive.",
+    "Improve quality through shared knowledge and testing.",
+    "Make it easier for teams to build the right thing, the right way, faster."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "The more we collaborate, the more powerful the system becomes."
+  },
+  {
+   "k": "h2",
+   "t": "What’s the contribution process?"
+  },
+  {
+   "k": "p",
+   "t": "Contributing to VPDS is a structured but flexible process:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Prep: Review the VPDS backlog (internal only) and existing components or patterns to ensure your idea is unique or an enhancement.",
+    "Intake: Complete the VPDS contribution intake form (internal only) and present your idea to the VPDS Contribution Guild—a group that reviews and recommends contributions.",
+    "Plan: If recommended, your contribution is added to the VPDS backlog and assigned a working group with design, content, development, and accessibility representatives.",
+    "Define: Conduct any necessary discovery and research, using internal or external resources.",
+    "Design: Bring well-developed ideas. The VPDS team is available for support during office hours (internal only) before you submit for final approval.",
+    "Deliver: Once approved, the VPDS team will publish design assets and work with engineering to add development assets to applicable libraries. Changes will be published to the VPDS website, along with quality assessments and communications about your contribution."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Ready to contribute?"
+  },
+  {
+   "k": "p",
+   "t": "Help transform the Visa Product Design System with your contribution."
+  },
+  {
+   "k": "p",
+   "t": "Contribute designs"
+  },
+  {
+   "k": "p",
+   "t": "Contribute code"
+  }
+ ]
+}

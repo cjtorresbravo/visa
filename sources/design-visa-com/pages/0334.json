@@ -1,0 +1,1416 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/input",
+ "title": "Input | Component | Nova Angular | Visa Product Design System",
+ "h1": "Input",
+ "readAt": "2026-10-15T17:17:21.282Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Input"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default input",
+    "Input with initial value",
+    "Input with inline message",
+    "Input with clear text button",
+    "Read-only input",
+    "Disabled input",
+    "Input with error",
+    "Input with prefix",
+    "Input with suffix",
+    "Input with action button",
+    "Input with masked field",
+    "Input with leading icon",
+    "One-time passcode input",
+    "Textarea with resize property",
+    "Textarea without resize property",
+    "Textarea with fixed height",
+    "Textarea with fixed height and resize property",
+    "Textarea with fixed height and character counter",
+    "Textarea with native rows attribute",
+    "Template-driven input",
+    "Template-driven form with inputs",
+    "Model-driven input",
+    "Model-driven form with inputs",
+    "Model-driven form with inputs built using FormBuilder",
+    "Input with inline label and message",
+    "Reusable input demo"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Single-line inputs"
+  },
+  {
+   "k": "h3",
+   "t": "Default input"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Input with initial value"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Input with inline message"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Input with clear text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Read-only input"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Mark input as read-only"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled input"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Mark input as disabled"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Input with error"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Input with prefix"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Input with suffix"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Input with action button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Input with masked field"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Input with leading icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "One-time passcode input"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Multi-line inputs"
+  },
+  {
+   "k": "h3",
+   "t": "Textarea with resize property"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Textarea without resize property"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Textarea with fixed height"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Textarea with fixed height and resize property"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Textarea with fixed height and character counter"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "* indicates a required field"
+  },
+  {
+   "k": "text",
+   "t": "* Label"
+  },
+  {
+   "k": "text",
+   "t": "400 characters remaining"
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Textarea with native rows attribute"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Framework-specific inputs"
+  },
+  {
+   "k": "h3",
+   "t": "Template-driven input"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Value: John Doe"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Template-driven form with inputs"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Model-driven input"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Value: Initial value"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Model-driven form with inputs"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Model-driven form with inputs built using FormBuilder"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Custom input"
+  },
+  {
+   "k": "h3",
+   "t": "Input with inline label and message"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Reusable input demo"
+  },
+  {
+   "k": "text",
+   "t": "#AI-first"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "h4",
+   "t": "Boolean properties"
+  },
+  {
+   "k": "text",
+   "t": "Show action button"
+  },
+  {
+   "k": "text",
+   "t": "Show character counter"
+  },
+  {
+   "k": "text",
+   "t": "Show placeholder"
+  },
+  {
+   "k": "text",
+   "t": "Input message"
+  },
+  {
+   "k": "text",
+   "t": "Clearable"
+  },
+  {
+   "k": "text",
+   "t": "Disabled"
+  },
+  {
+   "k": "text",
+   "t": "Inline"
+  },
+  {
+   "k": "text",
+   "t": "Invalid"
+  },
+  {
+   "k": "text",
+   "t": "Maskable"
+  },
+  {
+   "k": "text",
+   "t": "OTP"
+  },
+  {
+   "k": "text",
+   "t": "Readonly"
+  },
+  {
+   "k": "text",
+   "t": "Required"
+  },
+  {
+   "k": "text",
+   "t": "Show leading icon"
+  },
+  {
+   "k": "text",
+   "t": "Show prefix"
+  },
+  {
+   "k": "text",
+   "t": "Show suffix"
+  },
+  {
+   "k": "text",
+   "t": "Textarea"
+  },
+  {
+   "k": "text",
+   "t": "Resizable"
+  },
+  {
+   "k": "h4",
+   "t": "Text/numeric properties"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "Message"
+  },
+  {
+   "k": "text",
+   "t": "Type"
+  },
+  {
+   "k": "text",
+   "t": "Text"
+  },
+  {
+   "k": "text",
+   "t": "Number"
+  },
+  {
+   "k": "text",
+   "t": "Email"
+  },
+  {
+   "k": "text",
+   "t": "Tel"
+  },
+  {
+   "k": "text",
+   "t": "URL"
+  },
+  {
+   "k": "text",
+   "t": "Password"
+  },
+  {
+   "k": "text",
+   "t": "Search"
+  },
+  {
+   "k": "text",
+   "t": "Apply"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "InputDirective",
+    "InputContainerComponent",
+    "LabelDirective",
+    "InputMessageDirective",
+    "AppReadyService",
+    "IdGenerator"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - InputDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-input]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "ariaActiveDescendantInput",
+     "@Input()",
+     "null '<listbox-item-id>' when input is used within combobox and an option is highlighted or active.",
+     "string | null",
+     "Aria attribute relaying what active element the input refers to.",
+     "true"
+    ],
+    [
+     "ariaAutocompleteInput",
+     "@Input()",
+     "null 'list' when input is used within combobox and no custom value is provided.",
+     "HTMLElement['ariaAutoComplete']",
+     "Aria attribute relaying autocomplete type.",
+     "true"
+    ],
+    [
+     "ariaControlsInput",
+     "@Input()",
+     "null '<listbox-id>' when input is used within combobox and combobox menu is open.",
+     "string | null",
+     "Aria attribute relaying what element the input controls.",
+     "true"
+    ],
+    [
+     "ariaExpandedInput",
+     "@Input()",
+     "null",
+     "boolean | null, unknown",
+     "Aria attribute relaying whether input is expanded.",
+     "true"
+    ],
+    [
+     "ariaHaspopupInput",
+     "@Input()",
+     "null 'listbox' when input is used within combobox and no custom value is given.",
+     "boolean | null, unknown",
+     "Sets input aria-haspopup attribute.",
+     "true"
+    ],
+    [
+     "ariaOwnsInput",
+     "@Input()",
+     "null '<listbox-container-id>' when input is used within combobox and no custom value is given.",
+     "string | null",
+     "Sets input aria-owns attribute.",
+     "true"
+    ],
+    [
+     "disabledInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets component as disabled when true.",
+     "false"
+    ],
+    [
+     "id",
+     "@Input()",
+     "idGenerator.newId('v-input')",
+     "",
+     "Sets custom id.",
+     "true"
+    ],
+    [
+     "invalidInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Marks component as invalid when true.",
+     "false"
+    ],
+    [
+     "noResize",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Removes resize from textarea when true.",
+     "false"
+    ],
+    [
+     "otp",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets input to one-time-passcode (OTP) variant when true.",
+     "false"
+    ],
+    [
+     "readonlyInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets input as readonly when true.",
+     "false"
+    ],
+    [
+     "roleInput",
+     "@Input()",
+     "null 'combobox' when input is used within combobox and no custom role is provided.",
+     "HTMLElement['role']",
+     "Sets custom role.",
+     "true"
+    ],
+    [
+     "value",
+     "@Input()",
+     "",
+     "string | null",
+     "Value of input. Use [value] when you want to handle the value of the input. Use (valuedChange) when you want the library to handle the value of the input, but get notified of changes. Use [(value)] when you want the value to reflect changes by both you and the library.",
+     "false"
+    ],
+    [
+     "inputEvent",
+     "@Output()",
+     "",
+     "string",
+     "Emits value when the input event is triggered or backspace key is pressed.",
+     ""
+    ],
+    [
+     "value",
+     "@Output()",
+     "",
+     "string | null",
+     "Value of input. Use [value] when you want to handle the value of the input. Use (valuedChange) when you want the library to handle the value of the input, but get notified of changes. Use [(value)] when you want the value to reflect changes by both you and the library.",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Component - InputContainerComponent"
+  },
+  {
+   "k": "text",
+   "t": "[v-input-container]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "childButtonsDisabled",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "labelId",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "useCustomIcon",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Removes the default toggle icon when true, allowing you to provide your own. After the closing select tag, provide your custom icon inside a <div class=“v-input-control”>.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - LabelDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-label], [v-switch-label]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "htmlForInput",
+     "@Input()",
+     "",
+     "string | null",
+     "Attribute set to the id of the element it's labeling. This property is set by default for radio and checkbox components when used within v-input-container as directed.",
+     "false"
+    ],
+    [
+     "id",
+     "@Input()",
+     "idGenerator.newId('v-label')",
+     "string",
+     "Sets custom id.",
+     "true"
+    ],
+    [
+     "progressLabelInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Swaps v-label class for v-progress-label when true. Intended for use when label is describing a progress component. Automatically set to true when used within a Circular Progress component.",
+     "false"
+    ],
+    [
+     "switchLabel",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - InputMessageDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-input-message]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "AppReadyService"
+  },
+  {
+   "k": "code",
+   "t": "import { DOCUMENT, isPlatformBrowser } from '@angular/common';\nimport { Injectable, PLATFORM_ID, inject } from '@angular/core';\n\n/**\n * @note Where possible, use Angular's new `afterRender` and `afterNextRender` lifecycle hooks instead of this service.\n * This service is used internally by the library and can optionally be used directly. <br />\n * It’s required for SSR integration but not necessary for functions behind Angular's renderer.\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class AppReadyService {\n  private document: Document | null = inject(DOCUMENT, { optional: true });\n  private platformId: object = inject(PLATFORM_ID);\n\n  /**\n   * The isPlatformBrowser property checks if the platform is a browser (as opposed to server).\n   */\n  public readonly isPlatformBrowser: boolean = isPlatformBrowser(this.platformId);\n\n  /**\n   * The isBrowserAndDomAvailable property checks for both the document and the browser platform.\n   */\n  public readonly isBrowserAndDomAvailable: boolean = !!this.document && this.isPlatformBrowser;\n}"
+  },
+  {
+   "k": "text",
+   "t": "IdGenerator"
+  },
+  {
+   "k": "code",
+   "t": "import { APP_ID, inject, Injectable } from '@angular/core';\n\n/**\n * Keeps track of the ID count per prefix. This helps us make the IDs a bit more deterministic.\n */\nlet counters: Record<string, number> = {};\n\n/**\n * Service that generates unique IDs for DOM nodes.\n * Note that this service should not be used inside templates and should only be used within classes or else id will change with every render.\n * @docs {@link https://design.visa.com/developing/angular/services/id-generator | See docs}\n */\n@Injectable({ providedIn: 'root' })\nexport class IdGenerator {\n  private readonly appId: null | string = inject(APP_ID, { optional: true });\n\n  /**\n   * Generates a unique ID with a specific prefix.\n   * @param prefix Prefix to add to the ID.\n   */\n  public newId(prefix: string = ''): string {\n    // Omit the app ID if it's the default `ng`. Since the vast majority of pages have one\n    // Angular app on them, we can reduce the amount of breakages by not adding it.\n    if (this.appId && this.appId !== 'ng') prefix = `${this.appId}-${prefix}`;\n    if (!counters.hasOwnProperty(prefix)) counters[prefix] = 0;\n    return `${prefix}-${counters[prefix]++}`;\n  }\n\n  /**\n   * Resets the counters for the IDs.\n   * This is useful when testing to ensure that the IDs are deterministic.\n   * @deprecated WARNING: This should only be used in tests. Do NOT use this in an actual application.\n   */\n  public static reset(): void {\n    counters = {};\n  }\n}"
+  }
+ ]
+}

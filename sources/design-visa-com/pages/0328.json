@@ -1,0 +1,197 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/divider",
+ "title": "Divider | Component | Nova Angular | Visa Product Design System",
+ "h1": "Divider",
+ "readAt": "2026-10-15T17:17:11.812Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Divider"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default divider",
+    "Section divider",
+    "Decorative divider",
+    "Vertical divider"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Default divider"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Section divider"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Decorative divider"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Vertical divider"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "DividerDirective",
+    "DividerType"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - DividerDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-divider]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "ariaHidden",
+     "@Input()",
+     "",
+     "HTMLElement['ariaHidden'] | null",
+     "",
+     "false"
+    ],
+    [
+     "dividerType",
+     "@Input()",
+     "'default' / DividerType.DEFAULT",
+     "DividerType",
+     "Sets divider style.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "DividerType"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "DEFAULT",
+     "'default'"
+    ],
+    [
+     "SECTION",
+     "'section'"
+    ],
+    [
+     "DECORATIVE",
+     "'decorative'"
+    ]
+   ]
+  }
+ ]
+}

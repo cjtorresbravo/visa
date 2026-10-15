@@ -1,0 +1,223 @@
+{
+ "url": "https://design.visa.com/data-visualization/charts/overview/examples",
+ "title": "Overview | Charts | Data visualization | Visa Product Design System",
+ "h1": "Charts",
+ "readAt": "2026-10-15T17:12:05.258Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Charts"
+  },
+  {
+   "k": "p",
+   "t": "Explore chart components and best practices for visualizing and communicating data insights."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Charts index",
+    "Examples index"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Explore our collection of chart examples, which have been tailored to support Visa’s most common business scenarios and analysis tasks."
+  },
+  {
+   "k": "p",
+   "t": "Insight category"
+  },
+  {
+   "k": "text",
+   "t": "Composition"
+  },
+  {
+   "k": "text",
+   "t": "Correlation"
+  },
+  {
+   "k": "text",
+   "t": "Current status"
+  },
+  {
+   "k": "text",
+   "t": "Deviation"
+  },
+  {
+   "k": "text",
+   "t": "Distribution"
+  },
+  {
+   "k": "text",
+   "t": "Ranking"
+  },
+  {
+   "k": "text",
+   "t": "Trend"
+  },
+  {
+   "k": "p",
+   "t": "Focus"
+  },
+  {
+   "k": "text",
+   "t": "High and low values"
+  },
+  {
+   "k": "text",
+   "t": "Highlight category"
+  },
+  {
+   "k": "text",
+   "t": "Values relative to threshold"
+  },
+  {
+   "k": "p",
+   "t": "Chart type"
+  },
+  {
+   "k": "text",
+   "t": "Bar"
+  },
+  {
+   "k": "text",
+   "t": "Dumbbell"
+  },
+  {
+   "k": "text",
+   "t": "Heatmap"
+  },
+  {
+   "k": "text",
+   "t": "Line"
+  },
+  {
+   "k": "h3",
+   "t": "Compare category ranking"
+  },
+  {
+   "k": "p",
+   "t": "Bar chart used to compare differences between categories, such as countries or product types."
+  },
+  {
+   "k": "h3",
+   "t": "Compare trend to benchmark"
+  },
+  {
+   "k": "p",
+   "t": "Bar chart used to compare trends to a threshold such as goal, budget or average."
+  },
+  {
+   "k": "h3",
+   "t": "Distribution summary"
+  },
+  {
+   "k": "p",
+   "t": "Bar chart used to summarize the range of values of a distribution and identify the most common values."
+  },
+  {
+   "k": "h3",
+   "t": "Simple trend"
+  },
+  {
+   "k": "p",
+   "t": "Bar chart used to summarize and compare trends."
+  },
+  {
+   "k": "h3",
+   "t": "Trend"
+  },
+  {
+   "k": "p",
+   "t": "Bar chart used to identify high and low values and comparing trends."
+  },
+  {
+   "k": "h3",
+   "t": "Compare trend to benchmark"
+  },
+  {
+   "k": "p",
+   "t": "Dumbbell plot used to identify over or underperforming categories relative to a benchmark."
+  },
+  {
+   "k": "h3",
+   "t": "Current vs previous trend"
+  },
+  {
+   "k": "p",
+   "t": "Dumbbell plot used to compare variance and pace of growth between two date periods."
+  },
+  {
+   "k": "h3",
+   "t": "Category pattern analysis"
+  },
+  {
+   "k": "p",
+   "t": "Heatmap used to compare categories across discrete date parts."
+  },
+  {
+   "k": "h3",
+   "t": "Trend with categories"
+  },
+  {
+   "k": "p",
+   "t": "Dumbbell plot used to compare variance between two categories over time."
+  },
+  {
+   "k": "h3",
+   "t": "Category share of total"
+  },
+  {
+   "k": "p",
+   "t": "Heatmap used to highlight one category's contribution to the total, and compare values to a threshold."
+  },
+  {
+   "k": "h3",
+   "t": "Correlation matrix"
+  },
+  {
+   "k": "p",
+   "t": "Heatmap used to compare two metrics, and identify the most and least common combinations."
+  },
+  {
+   "k": "h3",
+   "t": "Seasonal pattern analysis"
+  },
+  {
+   "k": "p",
+   "t": "Heatmap used to visualize a metric in a calendar format, to identify seasonal peak."
+  },
+  {
+   "k": "h3",
+   "t": "Compare trend to benchmark"
+  },
+  {
+   "k": "p",
+   "t": "Line chart used to compare trends to a threshold such as goal, budget or average."
+  },
+  {
+   "k": "h3",
+   "t": "Current vs. previous trend"
+  },
+  {
+   "k": "p",
+   "t": "Line chart used to compare a primary metric to a secondary metric, such as current to previous year."
+  },
+  {
+   "k": "h3",
+   "t": "One vs. all trend"
+  },
+  {
+   "k": "p",
+   "t": "Line chart used to compare differences in trends between multiple categories, with emphasis on a primary category."
+  },
+  {
+   "k": "h3",
+   "t": "Trend with categories"
+  },
+  {
+   "k": "p",
+   "t": "Line chart used to compare differences in trends between two to five categories."
+  }
+ ]
+}

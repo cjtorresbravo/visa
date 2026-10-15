@@ -1,0 +1,90 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/pdf/annotations",
+ "title": "Annotations | PDF | Global accessibility requirements | Visa Product Design System",
+ "h1": "Annotations",
+ "readAt": "2026-10-15T17:06:10.289Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Annotations"
+  },
+  {
+   "k": "p",
+   "t": "Find annotation requirements for testing PDFs."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Annotations (PDF-8)Links and link text (PDF-8-1)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Annotations (PDF-8)"
+  },
+  {
+   "k": "h3",
+   "t": "Links and link text (PDF-8-1)"
+  },
+  {
+   "k": "p",
+   "t": "Link text in PDF documents is marked up in a way that is identifiable by keyboard and assistive technology users. Links in PDF documents should be represented by a Link tag and objects in its sub-tree, which includes a link object reference (or Link annotation) and one or more text objects. The text object(s) within the Link tag should be utilized by assistive technologies to provide a name for the link."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a screen reader to go through the PDF document.",
+    "Verify that the link is read out properly and its description correctly indicates where the link leads to.",
+    "Verify the tag tree visually to ensure the links are correctly tagged as <Link> with a nested ‘Link-OBJR’ tag.",
+    "Use the Tab key to navigate to each link. Press Enter to verify that the link takes you to the intended target."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All links are accurately tagged, easily read by a screen reader, can be activated using a keyboard, and the link text clearly states the link’s purpose.",
+    "Fail: If any link is inaccurately tagged, cannot be read by a screen reader, can’t be activated with a keyboard, or the link text does not clearly state the link’s purpose.",
+    "NA: There are no links present in the document."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 2.4.4 Link Purpose (In Context)",
+    "PDF-U/A - 7.18.5 Links"
+   ]
+  }
+ ]
+}

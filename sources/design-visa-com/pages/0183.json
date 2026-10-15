@@ -1,0 +1,123 @@
+{
+ "url": "https://design.visa.com/components/color-selector/accessibility",
+ "title": "Color selector | Components | Visa Product Design System",
+ "h1": "Color selector",
+ "readAt": "2026-10-15T17:09:28.758Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Color selector"
+  },
+  {
+   "k": "p",
+   "t": "Menu that allows users to select a specific color through a variety of ways."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Keyboard controls"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "p",
+   "t": "Note: A color selector is an input type=\"color\". Our libraries use this HTML native element.  Browsers render those differently from each other. Color selectors  are handled by the browser so developers have limited amount of control over the component display and behavior, however, most of the work is done by the browser."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure an input type=\"color\" is labeled and associated with related content just as you would with other inputs.",
+    "Consider using a tooltip with additional descriptions to accompany the color selector. Reference the Color selector examples and Tooltip for more."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard controls"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Key",
+     "Behavior"
+    ],
+    [
+     "Tab",
+     "Moves focus to the next focusable element. When the color selector menu is expanded, all focusable elements in the menu are included in the tab sequence. Focus goes in a circular rotation within the menu, so if the the focus was on the last element, the next focus would move to the first interactive element."
+    ],
+    [
+     "Shift + Tab",
+     "Moves focus to the previous focusable element. When color selector menu is expanded, all focusable elements in the menu are included in the shift + tab sequence. Focus goes in a circular rotation within the menu, so if the the focus was on the first element, the next focus would move to the last interactive element."
+    ],
+    [
+     "↑↓←→",
+     "Moves/pans the color well two-dimensional slider. Moves/pans the eye-dropper window."
+    ],
+    [
+     "←→",
+     "Moves left or right through the hue slider."
+    ],
+    [
+     "Space",
+     "Spins the format toggler edit spin box channels - RGB/HSL/HEX."
+    ],
+    [
+     "Enter",
+     "Accepts the adjusted Color well/Eye dropper/Hue/RGB/HSL/HEX values and closes the Color selector menu. Prompts the eye-dropper button. Selects the eye-dropper window color."
+    ],
+    [
+     "Esc",
+     "Dismisses the Color selector menu if no color adjustments are made. If color adjustments are made, the first instance cancels any color adjustments, and then the second instance dismisses the Color selector menu."
+    ],
+    [
+     "Digits (0-9)",
+     "RGB and HSL accepts digits or numerals. RGB and HSL have limits to their values. For RGB input fields, each RGB value ranges between 0-255. Any numeral entry in the RGB input fields exceeding 255, accepts the first two digits numeral. For HSL input fields, H (Hue) input field value ranges between 0-359 degrees; S (Saturation) and L (Lightness) values range between 0-100%."
+    ],
+    [
+     "Alphanumeric (A-Z, 0-9)",
+     "For HEX input field, the format is #RRGGBB and the values range from 00 to FF for each color channel with total possible color combinations of 256 power 3 (16,777,216)."
+    ]
+   ]
+  }
+ ]
+}

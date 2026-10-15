@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "visa-horizontal-create-project-1440",
+    "name": "Visa · Horizontal layout · Create a project · 1440",
+    "breakpoint": "desktop1440",
+    "surfaceMode": "light",
+    "anatomy": "recipe → recipe → recipe",
+    "sectionCount": 3,
+    "components": "1× Horizontal · 1× Content area base · 1× Default footer",
+    "size": "1440 × 1374",
+    "clean": true,
+    "date": "2026-10-15",
+    "basedOn": "kit VPDS Components › Application layouts › Horizontal; design.visa.com › Application layouts › Usage"
+  },
+  {
+    "slug": "visa-vertical-account-settings-1440",
+    "name": "Visa · Vertical layout · Account settings · 1440",
+    "breakpoint": "desktop1440",
+    "surfaceMode": "light",
+    "anatomy": "recipe",
+    "sectionCount": 1,
+    "components": "1× Vertical",
+    "size": "1440 × 1254",
+    "clean": true,
+    "date": "2026-10-15",
+    "basedOn": "kit VPDS Components › Application layouts › Vertical; design.visa.com › Application layouts › Usage › Vertical navigation"
+  }
+]

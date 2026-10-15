@@ -1,0 +1,48 @@
+{
+ "url": "https://design.visa.com/patterns/chat",
+ "title": "Chat | Patterns | Visa Product Design System",
+ "h1": "Chat",
+ "readAt": "2026-10-15T17:08:00.495Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Chat"
+  },
+  {
+   "k": "p",
+   "t": "Interfaces that enable users to conduct conversations with human and AI assistants."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Full-page chat"
+  },
+  {
+   "k": "p",
+   "t": "Chat used in comprehensive tools where conversation is the primary focus."
+  },
+  {
+   "k": "h3",
+   "t": "Dialog chat"
+  },
+  {
+   "k": "p",
+   "t": "Chat that opens in a smaller window that overlays the main content of the page."
+  },
+  {
+   "k": "h3",
+   "t": "Panel chat"
+  },
+  {
+   "k": "p",
+   "t": "Chat that appears beside the main content, enabling users to interact with the rest of the interface simultaneously."
+  }
+ ]
+}

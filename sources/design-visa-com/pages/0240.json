@@ -1,0 +1,247 @@
+{
+ "url": "https://design.visa.com/components/top-app-bar/usage",
+ "title": "Top app bar | Components | Visa Product Design System",
+ "h1": "Top app bar",
+ "readAt": "2026-10-15T17:11:13.476Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Top app bar"
+  },
+  {
+   "k": "p",
+   "t": "Navigation fixed to the top of mobile apps with logo, links, and global search."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesIcons",
+    "BehaviorsScrollingPage titleTop app bars as chat navigation",
+    "Platform considerationsMobileWeb",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "The top app bar is a container enabling users to navigate mobile products or experiences. It’s usually placed at the top of an app or website and turns into a horizontal navigation bar on larger screens.\nAlso known as: App header, navigation bar, menu bar, app bar, NavigationBar (iOS), Toolbar (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Menu icon (optional): Menu containing links to navigate through the application.\nB. Brand mark (optional): Visual element representing Visa, a partner brand, or a fictitious brand associated with the product.\nC. Global search (optional): Icon button prompting a global search bar to find content across the whole site or app.\nD. User profile (optional): Avatar component representing the current user’s account."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Default",
+     "As a simple solution for navigating mobile applications.",
+     "For larger screen sizes. Use horizontal navigation instead."
+    ],
+    [
+     "With search",
+     "To provide easy access to global search.",
+     "If the app is designed for a specific task and doesn’t contain a lot of searchable content."
+    ],
+    [
+     "Page title",
+     "For the child pages of an application.",
+     "If your app only has one page, a page title may not be necessary."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reference Application layouts for help deciding which navigation component is best for your use case.",
+    "Ensure the order of the navigation items is consistent throughout the application, as changing the order may confuse users.",
+    "Consider making the brand mark and/or application name function as a link to the homepage of the experience.",
+    "Ensure the top app bar is visible at all times, or have a clear way to bring it back into view when hidden.",
+    "Follow all guidance found in Search, Navigation drawer, and Avatar when implementing those items in the navigation."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Icons"
+  },
+  {
+   "k": "p",
+   "t": "Top app bars use icons to save space and enable quick access to important functions. There are two types of icons, leading and trailing."
+  },
+  {
+   "k": "h4",
+   "t": "Leading icons"
+  },
+  {
+   "k": "p",
+   "t": "The leading icon refers to the icon on the left side of the screen for left-to-right languages. This icon is reserved for navigational purposes. In the default view, it’s used to expand a navigation drawer. In certain cases, it can be replaced with a upward or backward arrow to move users to their previous screen. To learn more, reference the Page title section below."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use one leading icon for navigation purposes only."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Trailing icons"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place the most-used actions toward the left and least-used actions on the right.",
+    "Limit trailing icons to one or two to avoid overcrowding the menu.",
+    "Only use commonly understood icons to ensure their purpose is clear."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Scrolling"
+  },
+  {
+   "k": "p",
+   "t": "By default, the top app bar is hidden when the user scrolls down on the page to provide full use of the screen. If the top app bar contains important actions, it can be fixed at the top of the screen for easy access."
+  },
+  {
+   "k": "h4",
+   "t": "Scrolls with content"
+  },
+  {
+   "k": "h4",
+   "t": "Stays fixed at top"
+  },
+  {
+   "k": "h3",
+   "t": "Page title"
+  },
+  {
+   "k": "p",
+   "t": "The page title variant is a modified top app bar used for child pages in an application. In this use case, the brandmark is replaced by the current page title, and the hamburger menu is a back arrow enabling users to navigate back to the parent page."
+  },
+  {
+   "k": "h3",
+   "t": "Top app bars as chat navigation"
+  },
+  {
+   "k": "p",
+   "t": "Top app bars can be used as navigation components within chat layouts. The icons can be further customized based on the layout or the intended user function. When implemented in panel chats, top app bar buttons may include a hamburger menu or options menu. The modal chat is less complex and may include minimize and close buttons. Reference Chat for more information."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "Top app bars are used for mobile or very small responsive web screens. As screen size increases, its behavior changes to utilize the additional space."
+  },
+  {
+   "k": "h4",
+   "t": "768 px (tablet)"
+  },
+  {
+   "k": "p",
+   "t": "As screen size increases for tablets or smaller web screens, the top app bar turns into the 786px horizontal navigation component. The lower the resolution, the simpler the navigational bar appears in the viewport. At this size, links are placed in the hamburger menu and the application name and brand mark are centered instead of left-aligned."
+  },
+  {
+   "k": "h3",
+   "t": "Web"
+  },
+  {
+   "k": "p",
+   "t": "When the screen size increases past 768 px, the top app bar turns into a horizontal navigation component. At this size, links are displayed horizontally."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Write all content in sentence case, except for acronyms or proper nouns, like the application name.",
+    "Don’t use punctuation for navigation items.",
+    "Ensure labels match page titles to enhance the user’s understanding of the site’s information hierarchy.",
+    "Follow all best practices and guidelines implementing links. Reference Link for more information.",
+    "Limit labels to a few brief words to prevent unnecessary reflow.",
+    "Reference Grammar and punctuation to learn how to use parallel structure for consistent phrasing."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Navigation drawer"
+  },
+  {
+   "k": "p",
+   "t": "Collapsible navigation panels that float over page content on small screens."
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Menu placed at the top of a site that links to important pages or features."
+  },
+  {
+   "k": "h3",
+   "t": "Information architecture"
+  },
+  {
+   "k": "p",
+   "t": "Identify the best organizational structure based on page types and user needs."
+  }
+ ]
+}

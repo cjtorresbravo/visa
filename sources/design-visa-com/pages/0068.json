@@ -1,0 +1,372 @@
+{
+ "url": "https://design.visa.com/components",
+ "title": "Overview | Components | Visa Product Design System",
+ "h1": "Components",
+ "readAt": "2026-10-15T17:07:02.868Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Components"
+  },
+  {
+   "k": "p",
+   "t": "Get usage, specs, and accessibility guidance for the building blocks of our system."
+  },
+  {
+   "k": "text",
+   "t": "actions"
+  },
+  {
+   "k": "text",
+   "t": "feedback and status"
+  },
+  {
+   "k": "text",
+   "t": "inputs"
+  },
+  {
+   "k": "text",
+   "t": "navigation"
+  },
+  {
+   "k": "text",
+   "t": "selection controls"
+  },
+  {
+   "k": "text",
+   "t": "structure and layout"
+  },
+  {
+   "k": "text",
+   "t": "tables"
+  },
+  {
+   "k": "h2",
+   "t": "Accordion"
+  },
+  {
+   "k": "p",
+   "t": "Sets of vertical headers that reveal or hide subsections of content."
+  },
+  {
+   "k": "h2",
+   "t": "Anchor link menu"
+  },
+  {
+   "k": "p",
+   "t": "Link menus that navigate to sections within the current page."
+  },
+  {
+   "k": "h2",
+   "t": "Avatar"
+  },
+  {
+   "k": "p",
+   "t": "Icons and/or text that represent users or entities."
+  },
+  {
+   "k": "h2",
+   "t": "Badge"
+  },
+  {
+   "k": "p",
+   "t": "Visual indicators that communicate the status of a component."
+  },
+  {
+   "k": "h2",
+   "t": "Banner"
+  },
+  {
+   "k": "p",
+   "t": "Messages that indicate the global status of an application or website."
+  },
+  {
+   "k": "h2",
+   "t": "Breadcrumbs"
+  },
+  {
+   "k": "p",
+   "t": "Supplemental navigation that indicates the user’s location in a site or app."
+  },
+  {
+   "k": "h2",
+   "t": "Button"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that help users take actions within an interface."
+  },
+  {
+   "k": "h2",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Interactive element that lets users select one or more independent choices."
+  },
+  {
+   "k": "h2",
+   "t": "Chips"
+  },
+  {
+   "k": "p",
+   "t": "Compact elements used to filter content or display user input."
+  },
+  {
+   "k": "h2",
+   "t": "Color selector"
+  },
+  {
+   "k": "p",
+   "t": "Menu that allows users to select a specific color through a variety of ways."
+  },
+  {
+   "k": "h2",
+   "t": "Combobox"
+  },
+  {
+   "k": "p",
+   "t": "Dropdown menu that helps users enter text or select items from a list."
+  },
+  {
+   "k": "h2",
+   "t": "Content card"
+  },
+  {
+   "k": "p",
+   "t": "Compact displays that summarize or direct users to more information."
+  },
+  {
+   "k": "h2",
+   "t": "Date and time selectors"
+  },
+  {
+   "k": "p",
+   "t": "Interactive calendar or time selector that allows users to choose a specific date or time."
+  },
+  {
+   "k": "h2",
+   "t": "Dialog"
+  },
+  {
+   "k": "p",
+   "t": "Messages that float over page content and provide time-sensitive alerts."
+  },
+  {
+   "k": "h2",
+   "t": "Divider"
+  },
+  {
+   "k": "p",
+   "t": "Visual elements used to separate and group information on a page."
+  },
+  {
+   "k": "h2",
+   "t": "Dropdown menu"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  },
+  {
+   "k": "h2",
+   "t": "Flag"
+  },
+  {
+   "k": "p",
+   "t": "Messages that provide low-priority updates about a process or event."
+  },
+  {
+   "k": "h2",
+   "t": "Footer"
+  },
+  {
+   "k": "p",
+   "t": "Content fixed at the bottom of a page to provide important information or links."
+  },
+  {
+   "k": "h2",
+   "t": "Horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Menu placed at the top of a site that links to important pages or features."
+  },
+  {
+   "k": "h2",
+   "t": "Icons and illustrations"
+  },
+  {
+   "k": "p",
+   "t": "Explore Visa-branded and generic icon libraries that represent core functions, ideas, and content."
+  },
+  {
+   "k": "h2",
+   "t": "Input"
+  },
+  {
+   "k": "p",
+   "t": "Text fields that enable users to enter free-form content."
+  },
+  {
+   "k": "h2",
+   "t": "Link"
+  },
+  {
+   "k": "p",
+   "t": "Text-based navigation elements that take users to another destination."
+  },
+  {
+   "k": "h2",
+   "t": "List item"
+  },
+  {
+   "k": "p",
+   "t": "Individual containers that can be grouped to create lists in mobile apps."
+  },
+  {
+   "k": "h2",
+   "t": "Listbox"
+  },
+  {
+   "k": "p",
+   "t": "Container that displays a list of items available for selection."
+  },
+  {
+   "k": "h2",
+   "t": "Multiselect"
+  },
+  {
+   "k": "p",
+   "t": "Control that allows users to select multiple options from a dropdown menu."
+  },
+  {
+   "k": "h2",
+   "t": "Navigation drawer"
+  },
+  {
+   "k": "p",
+   "t": "Collapsible navigation panels that float over page content on small screens."
+  },
+  {
+   "k": "h2",
+   "t": "Pagination"
+  },
+  {
+   "k": "p",
+   "t": "Set of links used to navigate content that’s split between multiple pages."
+  },
+  {
+   "k": "h2",
+   "t": "Panel"
+  },
+  {
+   "k": "p",
+   "t": "Collapsible or persistent containers used to present supplementary information."
+  },
+  {
+   "k": "h2",
+   "t": "Progress"
+  },
+  {
+   "k": "p",
+   "t": "Visual representations of the status of a system process."
+  },
+  {
+   "k": "h2",
+   "t": "Radio"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  },
+  {
+   "k": "h2",
+   "t": "Section message"
+  },
+  {
+   "k": "p",
+   "t": "Section-level messages about the status of a page or action."
+  },
+  {
+   "k": "h2",
+   "t": "Select (native)"
+  },
+  {
+   "k": "p",
+   "t": "HTML element that allows users to select one option from a dropdown menu."
+  },
+  {
+   "k": "h2",
+   "t": "Slider"
+  },
+  {
+   "k": "p",
+   "t": "Control that allows users to make a selection along a range."
+  },
+  {
+   "k": "h2",
+   "t": "Switch"
+  },
+  {
+   "k": "p",
+   "t": "Binary control that allows users to toggle between two states like on/off."
+  },
+  {
+   "k": "h2",
+   "t": "Tab bar"
+  },
+  {
+   "k": "p",
+   "t": "Mobile navigation bar that uses icons to navigate between main pages."
+  },
+  {
+   "k": "h2",
+   "t": "Table"
+  },
+  {
+   "k": "p",
+   "t": "Fixed grid that organizes information or data using columns and rows."
+  },
+  {
+   "k": "h2",
+   "t": "Tabs"
+  },
+  {
+   "k": "p",
+   "t": "Organizational element that separates content and allows users to switch views."
+  },
+  {
+   "k": "h2",
+   "t": "Toggle button"
+  },
+  {
+   "k": "p",
+   "t": "Selection element that allows users to switch between states or views."
+  },
+  {
+   "k": "h2",
+   "t": "Tooltip"
+  },
+  {
+   "k": "p",
+   "t": "Short message communicating the function or context of a control or object."
+  },
+  {
+   "k": "h2",
+   "t": "Top app bar"
+  },
+  {
+   "k": "p",
+   "t": "Navigation fixed to the top of mobile apps with logo, links, and global search."
+  },
+  {
+   "k": "h2",
+   "t": "Vertical navigation"
+  },
+  {
+   "k": "p",
+   "t": "Navigation panel located next to page content on screens with sufficient space."
+  }
+ ]
+}

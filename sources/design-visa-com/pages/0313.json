@@ -1,0 +1,168 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components",
+ "title": "Components | Nova Angular | Visa Product Design System",
+ "h1": "Components",
+ "readAt": "2026-10-15T17:16:48.146Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Components"
+  },
+  {
+   "k": "text",
+   "t": "Search components"
+  },
+  {
+   "k": "h3",
+   "t": "Accordion"
+  },
+  {
+   "k": "h3",
+   "t": "Anchor-link-menu"
+  },
+  {
+   "k": "h3",
+   "t": "Avatar"
+  },
+  {
+   "k": "h3",
+   "t": "Badge"
+  },
+  {
+   "k": "h3",
+   "t": "Banner"
+  },
+  {
+   "k": "h3",
+   "t": "Breadcrumbs"
+  },
+  {
+   "k": "h3",
+   "t": "Button"
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox"
+  },
+  {
+   "k": "h3",
+   "t": "Chip"
+  },
+  {
+   "k": "h3",
+   "t": "Color-selector"
+  },
+  {
+   "k": "h3",
+   "t": "Combobox"
+  },
+  {
+   "k": "h3",
+   "t": "Content-card"
+  },
+  {
+   "k": "h3",
+   "t": "Date-and-time-selectors"
+  },
+  {
+   "k": "h3",
+   "t": "Dialog"
+  },
+  {
+   "k": "h3",
+   "t": "Divider"
+  },
+  {
+   "k": "h3",
+   "t": "Dropdown-menu"
+  },
+  {
+   "k": "h3",
+   "t": "Flag"
+  },
+  {
+   "k": "h3",
+   "t": "Footer"
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal-navigation"
+  },
+  {
+   "k": "h3",
+   "t": "Icon"
+  },
+  {
+   "k": "h3",
+   "t": "Input"
+  },
+  {
+   "k": "h3",
+   "t": "Link"
+  },
+  {
+   "k": "h3",
+   "t": "List-item"
+  },
+  {
+   "k": "h3",
+   "t": "Listbox"
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect"
+  },
+  {
+   "k": "h3",
+   "t": "Navigation-drawer"
+  },
+  {
+   "k": "h3",
+   "t": "Pagination"
+  },
+  {
+   "k": "h3",
+   "t": "Panel"
+  },
+  {
+   "k": "h3",
+   "t": "Progress"
+  },
+  {
+   "k": "h3",
+   "t": "Radio"
+  },
+  {
+   "k": "h3",
+   "t": "Section-message"
+  },
+  {
+   "k": "h3",
+   "t": "Select"
+  },
+  {
+   "k": "h3",
+   "t": "Switch"
+  },
+  {
+   "k": "h3",
+   "t": "Table"
+  },
+  {
+   "k": "h3",
+   "t": "Tabs"
+  },
+  {
+   "k": "h3",
+   "t": "Toggle-button"
+  },
+  {
+   "k": "h3",
+   "t": "Tooltip"
+  },
+  {
+   "k": "h3",
+   "t": "Vertical-navigation"
+  }
+ ]
+}

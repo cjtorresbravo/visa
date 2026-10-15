@@ -1,0 +1,141 @@
+{
+ "url": "https://design.visa.com/about-VPDS",
+ "title": "What is VPDS? | About VPDS | Visa Product Design System",
+ "h1": "What is VPDS?",
+ "readAt": "2026-10-15T17:05:43.646Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "What is VPDS?"
+  },
+  {
+   "k": "p",
+   "t": "Learn more about the Visa Product Design System."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "What are the benefits of VPDS?",
+    "What is a design system?",
+    "What’s the history of VPDS?",
+    "Who manages VPDS?",
+    "Ready to get started?"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "The Visa Product Design System (VPDS) is an all-encompassing toolkit designed to revolutionize the product design and development process. Recognized across Visa’s product ecosystem, VPDS:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Enhances collaboration among teams.",
+    "Ensures brand consistency throughout products.",
+    "Accelerates time to market across various platforms."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "This robust system unifies design and development, offering a cohesive approach to creating digital products. Utilizing VPDS helps your product:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Seamlessly integrate with other Visa offerings.",
+    "Facilitate the creation of intuitive user experiences.",
+    "Resonate with Visa’s brand values."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "What are the benefits of VPDS?"
+  },
+  {
+   "k": "p",
+   "t": "VPDS simplifies the product development lifecycle, empowering your team to innovate and deliver high-quality products that go to market faster. The key benefits include:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Efficiency: Accelerate design and development with pre-built components, reducing repetitive tasks and rework.",
+    "Accessibility: Create accessible experiences using libraries pre-tested for global accessibility standards.",
+    "Consistency: Use standardized guidelines, components, and patterns to uphold brand trust and user satisfaction.",
+    "Collaboration: Follow best practices and principles embedded in the system to enable effective teamwork.",
+    "Scalability: Keep products forefront with regular updates based on user feedback and industry standards.",
+    "Innovation: Drive innovation by allowing your team to focus on creative solutions while VPDS covers the basics."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "As a designer, being able to drag-and-drop the components [in Figma] allowed us to focus on the bigger picture, rather than messing with all the details."
+  },
+  {
+   "k": "p",
+   "t": "Design intern, Risk and Identity Product Design Intern, Visa"
+  },
+  {
+   "k": "h2",
+   "t": "What is a design system?"
+  },
+  {
+   "k": "p",
+   "t": "Design systems provide a centralized library of assets and guidelines to ensure consistency and efficiency. This includes extensive libraries of pre-built components, design patterns, and comprehensive content guidelines, all tailored to meet the highest standards of accessibility, usability, and aesthetic excellence. VPDS supports design kits in Figma and code libraries for Angular, React, Styles (CSS), and Flutter. These resources are continuously updated based on user feedback and the latest technological advancements. By leveraging these assets, teams can streamline their workflows, foster innovation, and create cohesive user experiences across all Visa products."
+  },
+  {
+   "k": "h2",
+   "t": "What’s the history of VPDS?"
+  },
+  {
+   "k": "p",
+   "t": "VPDS has undergone several releases since Hamlet launched in 2018. Each release has brought improvements in scale, usability, and accessibility based on community feedback. Support for Hamlet ended in 2022, followed by its successors Vault and Vault Key. The third and final version of the Vault system, Vault Key+, continues to receive support and fixes for the foreseeable future."
+  },
+  {
+   "k": "p",
+   "t": "The latest version of the design system is called Nova. Inspired by the astronomical phenomenon, Nova symbolizes a burst of energy and innovation. This version embodies the VPDS team’s commitment to creating the next wave of Visa products and experiences, marked by enhanced cohesion and consistency. Just as a Nova signifies a powerful transformation in the cosmos, this release represents a significant leap forward in Visa’s design system."
+  },
+  {
+   "k": "p",
+   "t": "Product teams are encouraged to begin migrating to this version as it will continue to receive new additions and support moving forward. For more information on current and past versions, visit Releases."
+  },
+  {
+   "k": "h2",
+   "t": "Who manages VPDS?"
+  },
+  {
+   "k": "p",
+   "t": "The Visa Product Design System is managed by a collaborative team of designers, developers, content designers, accessibility partners, researchers, and ops. Collectively, the team ensures the system remains current and effective by continuously updating resources based on cross-discipline reviews, user feedback, and industry best practices. To connect with the VPDS team or learn more about office hours or quarterly updates, visit Support."
+  },
+  {
+   "k": "h2",
+   "t": "Ready to get started?"
+  },
+  {
+   "k": "p",
+   "t": "Transform your product design and development process by choosing one of the paths below."
+  },
+  {
+   "k": "text",
+   "t": "Start designing"
+  },
+  {
+   "k": "text",
+   "t": "Start developing"
+  }
+ ]
+}

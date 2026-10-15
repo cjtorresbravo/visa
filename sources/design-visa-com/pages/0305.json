@@ -1,0 +1,40 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/file-upload/multi-file-manual-upload",
+ "title": "Multi file manual upload file upload pattern | Example | Nova Angular | Visa Product Design System",
+ "h1": null,
+ "readAt": "2026-10-15T17:15:39.575Z",
+ "blocks": [
+  {
+   "k": "p",
+   "t": "Upload files"
+  },
+  {
+   "k": "p",
+   "t": "Choose one or more files to upload, up to 10MB each. Accepted file types are jpg, pdf, docx, and xlsx."
+  },
+  {
+   "k": "text",
+   "t": "Select file(s)"
+  },
+  {
+   "k": "h2",
+   "t": "Upload files"
+  },
+  {
+   "k": "p",
+   "t": "Upload one or more files, up to 10 MB each. Accepted file types are .jpg, .pdf, .docx, and .xlsx. Only files that meet these requirements will be uploaded."
+  },
+  {
+   "k": "text",
+   "t": "Select file(s)"
+  },
+  {
+   "k": "text",
+   "t": "Upload"
+  },
+  {
+   "k": "text",
+   "t": "Cancel"
+  }
+ ]
+}

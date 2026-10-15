@@ -1,0 +1,20 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/examples/components/anchor-link-menu/default-nested",
+ "title": "Default nested anchor link menu component | Example | Nova Angular | Visa Product Design System",
+ "h1": null,
+ "readAt": "2026-10-15T17:22:54.361Z",
+ "blocks": [
+  {
+   "k": "h2",
+   "t": "Section title"
+  },
+  {
+   "k": "list",
+   "items": [
+    "L1 label 1",
+    "L1 label 2 L2 label 1 L2 label 2",
+    "L1 label 3"
+   ]
+  }
+ ]
+}

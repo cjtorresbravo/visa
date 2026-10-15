@@ -1,0 +1,104 @@
+{
+ "url": "https://design.visa.com/components/section-message/accessibility",
+ "title": "Section message | Components | Visa Product Design System",
+ "h1": "Section message",
+ "readAt": "2026-10-15T17:10:40.788Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Section message"
+  },
+  {
+   "k": "p",
+   "t": "Section-level messages about the status of a page or action."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Keyboard controls"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "p",
+   "t": "Note: Section messages shouldn’t rely on visual cues such as color or icons to communicate to users. Ensure there is additional text to relay  information. Some of our libraries have default values for message type labels such as “success”, “warning”, and “error” but you may want to use custom labels, especially if your app is multilingual."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure section messages use headings in the correct hierarchical order without skipping levels. Headings can be styled to look like a different level. See your preferred library for more information on Typography.",
+    "Use attributes to announce content to screen readers if you need to show a section message dynamically after the page loads. Select which attributes to use based on the message purpose and content.role with a value of status or alert, aria-live, and aria-atomic are useful.",
+    "Ensure screen readers announce the messages at the desired time."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard controls"
+  },
+  {
+   "k": "p",
+   "t": "Note: Section messages are comprised of other elements which use standard keyboard actions. Activating the Escape key does not close the section message, as that might disrupt what the user is doing by closing something else."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Key",
+     "Behavior"
+    ],
+    [
+     "Enter + Space",
+     "Prompts the action associated with the focused interactive element."
+    ],
+    [
+     "Tab",
+     "Moves focus to the next focusable element."
+    ],
+    [
+     "Shift + Tab",
+     "Moves keyboard focus backwards to the previous interactive element in the banner."
+    ]
+   ]
+  }
+ ]
+}

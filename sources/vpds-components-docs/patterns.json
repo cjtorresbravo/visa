@@ -1,0 +1,143 @@
+{
+ "document": "VPDS Components (Community) › page Application layouts",
+ "readAt": "2026-10-15",
+ "version": "VPDS Components (Community), read 2026-10-15",
+ "scope": "The application layouts the kit ships as component sets (Vertical, Vertical-Collapsed, Mixed, Mixed-Collapsed, Horizontal, Horizontal stacked), the Content areas section and the Mobile application layouts section. Anatomy read from the kit through the plugin (read only); purpose and guidance from design.visa.com › Patterns › Application layouts › Usage and Base elements › Responsive grid system.",
+ "sources": {
+  "figma": "VPDS Components (Community) › Application layouts (page 2), read through the plugin on 2026-10-15",
+  "site": [
+   "https://design.visa.com/patterns/application-layouts/usage",
+   "https://design.visa.com/base-elements/responsive-grid-system"
+  ]
+ },
+ "componentMarks": {},
+ "keyScreens": [
+  {
+   "name": "Application page",
+   "frame": ["navigational frame", "Content area base", "Default footer"],
+   "note": "Every layout of the kit is a navigational frame plus Content area + footer; Flag and Dialog with overlay sit hidden on top, toggled by the Show flag / Show dialog properties. Source: kit, page Application layouts; design.visa.com › Application layouts › Usage."
+  }
+ ],
+ "patterns": [
+  {
+   "name": "Horizontal application layout",
+   "status": null,
+   "page": "Application layouts",
+   "purpose": "Layout with horizontal navigation above the main content area. The most common way of displaying the top-level pages of a site. Source: design.visa.com › Application layouts › Usage › Navigational frames.",
+   "anatomy": [
+    "Horizontal (horizontal navigation, 80 high, app name left, navigation right)",
+    "Content area base (full width under the navigation)",
+    "Default footer (64 high, at the bottom)",
+    "Flag: Success (hidden; top right of the content, Show flag)",
+    "Dialog with overlay (hidden; centered, Show dialog)"
+   ],
+   "guidance": [
+    "Sizes in the kit: 768, 1024, 1280, 1440, 1600 Fixed, 1600 Fluid (Size variant). Source: kit, set Horizontal.",
+    "Grid for horizontal layouts: 375 = 4 columns, margins 16, gutters 16; 768 to 1023 = 8 columns, margins 16, gutters 24; 1024 to 1600+ = 12 columns, margins 24, gutters 24; 1600+ fixed = 12 columns, margins 80 minimum, gutters 24. Source: design.visa.com › Responsive grid system › Breakpoints.",
+    "Fluid grids scale with the screen width (dashboards, data-heavy designs); fixed grids keep a maximum width and grow the margins (text-heavy designs). Source: design.visa.com › Responsive grid system › Fixed vs. fluid grids.",
+    "Establish a clear visual hierarchy when using more than one level of navigation. Do not rearrange or mix the pre-built layouts against common UX conventions. Source: design.visa.com › Application layouts › Usage › Do and Don't."
+   ],
+   "examples": ["Form page: Form title, description, Section message, fields, Submit / Save / Cancel (the content the kit shows inside Content area base)"],
+   "components": [],
+   "usesFromLibrary": ["Horizontal", "Content area base", "Default footer", "Flag: Success", "Dialog with overlay"]
+  },
+  {
+   "name": "Stacked horizontal application layout",
+   "status": null,
+   "page": "Application layouts",
+   "purpose": "Layout with a secondary navigation bar under the primary horizontal bar, for applications with a larger number of main navigation items. Source: design.visa.com › Application layouts › Usage › Navigational frames.",
+   "anatomy": [
+    "Stacked horizontal (Horizontal on top, Secondary nav with a horizontal Tab Group under it, bottom border; 149 high)",
+    "Content area base",
+    "Default footer",
+    "Flag: Success (hidden)",
+    "Dialog with overlay (hidden)"
+   ],
+   "guidance": [
+    "Sizes in the kit: 1024, 1280, 1440, 1600 Fixed, 1600 Fluid. Source: kit, set Horizontal stacked.",
+    "Same grid as the horizontal layouts. Source: design.visa.com › Responsive grid system › Horizontal and advanced layouts."
+   ],
+   "examples": ["Form page under a two-level navigation"],
+   "components": [],
+   "usesFromLibrary": ["Stacked horizontal", "Horizontal tab group", "Content area base", "Default footer", "Flag: Success", "Dialog with overlay"]
+  },
+  {
+   "name": "Vertical application layout",
+   "status": null,
+   "page": "Application layouts",
+   "purpose": "Layout with vertical navigation beside the main content area, for a large number of navigation items or when horizontal space is limited. Source: design.visa.com › Application layouts › Usage › Navigational frames.",
+   "anatomy": [
+    "Vertical nav default (242 wide, full height: App name, Nav Items, Bottom items)",
+    "Content area + footer beside it: Content area base over Default footer",
+    "Flag: Success (hidden)",
+    "Dialog with overlay (hidden)"
+   ],
+   "guidance": [
+    "Sizes in the kit: 1024, 1280, 1440, 1600. Source: kit, set Vertical.",
+    "The collapsed variant (set Vertical-Collapsed) replaces the drawer by a 42 wide rail with one UI icon at the bottom; the content area takes the rest. Source: kit.",
+    "Grid for vertical and mixed layouts: begins to the right of the navigation; 12 columns at every size; margins 24 at 1024 to 1279 and 32 from 1280 up; gutters 24. Fixed in Figma, can be built fluid. Source: design.visa.com › Responsive grid system › Vertical and mixed layouts."
+   ],
+   "examples": ["Form page beside a vertical navigation with five L1 items and a user row at the bottom"],
+   "components": [],
+   "usesFromLibrary": ["Vertical nav default", "Vertical nav collapsed", "Content area base", "Default footer", "Flag: Success", "Dialog with overlay"]
+  },
+  {
+   "name": "Mixed application layout",
+   "status": null,
+   "page": "Application layouts",
+   "purpose": "Horizontal and vertical navigation combined, for complex applications: the horizontal bar holds global items, the vertical panel holds local items. Source: design.visa.com › Application layouts › Usage › Navigational frames.",
+   "anatomy": [
+    "Horizontal (80 high, on top)",
+    "Vertical nav default (242 wide) under it, at the left",
+    "Content area + footer beside the vertical nav: Content area base over Default footer",
+    "Flag: Success (hidden)",
+    "Dialog with overlay (hidden)"
+   ],
+   "guidance": [
+    "Sizes in the kit: 1024, 1280, 1440, 1600. Collapsed variant: set Mixed-Collapsed (42 wide rail). Source: kit.",
+    "Same grid as the vertical layouts. Source: design.visa.com › Responsive grid system › Vertical and mixed layouts."
+   ],
+   "examples": ["Form page with global L1 items on top and local L2 items at the left"],
+   "components": [],
+   "usesFromLibrary": ["Horizontal", "Vertical nav default", "Vertical nav collapsed", "Content area base", "Default footer", "Flag: Success", "Dialog with overlay"]
+  },
+  {
+   "name": "Content area",
+   "status": null,
+   "page": "Application layouts",
+   "purpose": "The primary section of the interface where the main information, features and interactive elements are displayed. Can span several columns; information in a logical order along the user flow. Source: design.visa.com › Application layouts › Usage › Content areas.",
+   "anatomy": [
+    "Margins: white space along the edges",
+    "Content area: the space left once margins are defined",
+    "Kit examples inside Content area base: type ramp (Overline, Headline 1 to 4, Subtitle 1 to 3, Body), Dialog: Default, Banner, Panel (Responsive panel title), Form layout (Form title, description, Section message, fields, Submit / Save / Cancel)"
+   ],
+   "guidance": [
+    "Content areas reflow at every breakpoint; define reflow as percentages or column spans (6 columns at 1600 may become 4 at 1280). Source: design.visa.com › Responsive grid system › Content reflow.",
+    "Vertical spacing in factors of four: 16, 24, 32, 48. Avoid half pixels and odd numbers. Source: design.visa.com › Responsive grid system › System baseline.",
+    "Web components have a base height of 38; the mobile scale is 1.25 times larger, base height 46. Body 2 is the base body size: 14 on web, 16 on mobile. Source: design.visa.com › Responsive grid system › Component size, Typography size."
+   ],
+   "examples": ["Form layout", "Dialog over the content", "Panel beside the content"],
+   "components": [],
+   "usesFromLibrary": ["Content area base", "Form layout", "Dialog: Default", "Banner: Informational", "Panel", "Section message: Informational", "Primary text button", "Secondary text button", "Tertiary text button"]
+  },
+  {
+   "name": "Mobile application layout",
+   "status": null,
+   "page": "Application layouts",
+   "purpose": "The same application pages at 375 wide: a Top app bar, the content area, and the mobile footer or tab bar. 375 is the reference width; design responsively. Source: kit, section Mobile application layouts; design.visa.com › Application layouts › Usage › Platform considerations.",
+   "anatomy": [
+    "app-layouts-mobile (375 wide): Top app bar, content area, bottom navigation",
+    "Content area base (375 x 667)",
+    "Form layout (343 wide inside 16 margins)",
+    "Dialog with overlay (375 x 811, hidden)"
+   ],
+   "guidance": [
+    "Mobile grid: 4 columns, margins 16, gutters 16 at 375. Tablet reference width 768: 8 columns, margins 16, gutters 24. Source: design.visa.com › Responsive grid system › Breakpoints.",
+    "Mobile components are 1.25 times the web scale (Platform mode Mobile in the variables). Source: design.visa.com › Responsive grid system › Component size; kit variables, collection Platform."
+   ],
+   "examples": ["Mobile form page"],
+   "components": [],
+   "usesFromLibrary": ["Top app bar", "Tab bar", "Content area base", "Form layout", "Mobile default footer", "Dialog with overlay"]
+  }
+ ]
+}

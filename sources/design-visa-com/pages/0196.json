@@ -1,0 +1,247 @@
+{
+ "url": "https://design.visa.com/components/flag/usage",
+ "title": "Flag | Components | Visa Product Design System",
+ "h1": "Flag",
+ "readAt": "2026-10-15T17:09:50.699Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Flag"
+  },
+  {
+   "k": "p",
+   "t": "Messages that provide low-priority updates about a process or event."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practices",
+    "BehaviorsDismissalAnimation",
+    "Content",
+    "Platform considerationsMobile",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Flags provide contextual, low priority messages to the user. They’re primarily used for success messages or alerts that require minimal actions, if any, from the user."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Toast message, snack bar, notification, banner."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Icon (required): Visual indicator communicating the urgency of the flag.  B. Title (optional): Brief text summarizing the purpose of the flag.  C. Message (required): Descriptive message detailing important contextual information.  D. Close icon button (optional): Icon button used as a close button alternative that allows users to manually dismiss the flag.  E. Button and link (optional): Text button or link that prompts an action or directs users to relevant resources."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Informational",
+     "For low-priority feedback or status updates that don’t require user action or attention.",
+     "For neutral messages that are important enough to disrupt the users workflow but may not require action before continuing. Use a Dialog instead. For low-priority, system-level messages. Use a Banner instead. For low-priority information contextually relevant to a section of a page or workflow. Use a Section message instead."
+    ],
+    [
+     "Success",
+     "For system- or section-level success, including on-page event confirmations. This is the most frequent use case.",
+     "If the user is taken to a success page on submit. Don’t use a messaging component in this case."
+    ],
+    [
+     "Warning",
+     "For low-priority warnings that don’t require user action or attention.",
+     "For medium to high-priority warnings that must be fixed or acknowledged before continuing. Use a Dialog instead. For medium-priority, system-level messages that require attention but not disruption. Use a Banner instead. For medium- or high-priority warnings contextually relevant to a section of a page or workflow. Use a Section message instead."
+    ],
+    [
+     "Error",
+     "Error flags are not a common use case.",
+     "For high-priority errors that must be fixed before continuing. Use a Dialog instead. For high priority, system-level errors that require attention. Use a Banner instead. For high-priority errors contextually relevant to a section of a page or workflow. Use a Section message instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit the use of flags, as overusing can desensitize users and reduce the value.",
+    "Visit Button to learn about best practices for alignment, order, and language for calls to action.",
+    "Visit Feedback and status to learn how to use messaging components, understand their level of disruption, and choose the appropriate messaging component for your context."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Place flags in a consistent area, usually in the bottom corner."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Extend flags across the entire width of the page."
+  },
+  {
+   "k": "p",
+   "t": "Do     Stack flags in order of urgency with higher-priority messages appearing first."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Require users to dismiss messages one at a time before receiving the next one."
+  },
+  {
+   "k": "p",
+   "t": "Do     Float flags over page content and let users scroll to access blocked content."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Block important interactive elements like navigation controls or buttons."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Dismissal"
+  },
+  {
+   "k": "p",
+   "t": "In general, users should be allowed to dismiss flags using a close icon button or text button. Flags should also dismiss when users navigate to a new page or complete an associated action, such as correcting an error. Avoid using timed auto-dismissal for flags, as they may disappear before screen readers finish announcing the text."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use either a close button or a close icon button, and implement them consistently across your experience."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Combine close buttons with close icons or alternate between them in your experience."
+  },
+  {
+   "k": "h3",
+   "t": "Animation"
+  },
+  {
+   "k": "p",
+   "t": "Flags may use animated graphics. They appear by sliding onto the screen from the nearest edge (top, bottom, left, or right)."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure animations are brief, subtle, and unobtrusive.",
+    "Implement animations consistently across flags in your experience, either animating all or none."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Learn how to craft content for messaging components, like flags, visit Messaging.",
+    "Follow guidelines for Link and Button components when labeling actions and destinations within flags."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "Flags are available in both mobile and web and should be implemented similarly across both platforms."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Extend mobile flags across the screen width to ensure they’re large enough to read.",
+    "Place mobile flags consistently at the top or bottom of the screen without covering interactive elements."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use buttons or links to dismiss mobile flags."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Only use a close icon in mobile flags."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Banner"
+  },
+  {
+   "k": "p",
+   "t": "Messages that indicate the global status of an application or website."
+  },
+  {
+   "k": "h3",
+   "t": "Section message"
+  },
+  {
+   "k": "p",
+   "t": "Section-level messages about the status of a page or action."
+  },
+  {
+   "k": "h3",
+   "t": "Messaging"
+  },
+  {
+   "k": "p",
+   "t": "Craft content for alert components to increase trust, reduce errors, and improve system performance."
+  },
+  {
+   "k": "h3",
+   "t": "Feedback and status"
+  },
+  {
+   "k": "p",
+   "t": "Learn which components to use when communicating contextual or system feedback and status."
+  }
+ ]
+}

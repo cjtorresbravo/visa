@@ -1,0 +1,108 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/wizard/compact",
+ "title": "Compact wizard pattern | Example | Nova Angular | Visa Product Design System",
+ "h1": null,
+ "readAt": "2026-10-15T17:16:18.126Z",
+ "blocks": [
+  {
+   "k": "text",
+   "t": "Step 1 label"
+  },
+  {
+   "k": "text",
+   "t": "* Indicates a required field."
+  },
+  {
+   "k": "text",
+   "t": "* Label"
+  },
+  {
+   "k": "text",
+   "t": "Step 2 label"
+  },
+  {
+   "k": "text",
+   "t": "* Indicates a required field."
+  },
+  {
+   "k": "text",
+   "t": "* Label"
+  },
+  {
+   "k": "text",
+   "t": "Step 3 label"
+  },
+  {
+   "k": "text",
+   "t": "* Indicates a required field."
+  },
+  {
+   "k": "text",
+   "t": "* Label"
+  },
+  {
+   "k": "text",
+   "t": "Step 4 label"
+  },
+  {
+   "k": "text",
+   "t": "* Indicates a required field."
+  },
+  {
+   "k": "text",
+   "t": "* Label"
+  },
+  {
+   "k": "text",
+   "t": "Step 5 label"
+  },
+  {
+   "k": "text",
+   "t": "* Indicates a required field."
+  },
+  {
+   "k": "text",
+   "t": "* Label"
+  },
+  {
+   "k": "p",
+   "t": "Changes have been automatically saved."
+  },
+  {
+   "k": "h2",
+   "t": "Exit form?"
+  },
+  {
+   "k": "p",
+   "t": "Your progress has been automatically saved. You can continue where you left off when you return."
+  },
+  {
+   "k": "text",
+   "t": "Exit"
+  },
+  {
+   "k": "text",
+   "t": "Save"
+  },
+  {
+   "k": "text",
+   "t": "Exit"
+  },
+  {
+   "k": "text",
+   "t": "Next"
+  },
+  {
+   "k": "text",
+   "t": "Save"
+  },
+  {
+   "k": "text",
+   "t": "Exit"
+  },
+  {
+   "k": "text",
+   "t": "Next"
+  }
+ ]
+}

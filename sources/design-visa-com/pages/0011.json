@@ -1,0 +1,1368 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/web/interactive",
+ "title": "Interactive | Web | Global accessibility requirements | Visa Product Design System",
+ "h1": "Interactive",
+ "readAt": "2026-10-15T17:05:52.624Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Interactive"
+  },
+  {
+   "k": "p",
+   "t": "Find interactive requirements for testing web experiences."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Form elements (INT-1)Fully descriptive control labels (INT-1-1)Info and relationships (INT-1-2)Group controls using fieldsets (INT-1-3)Required fields (INT-1-4)Specify input purpose programmatically (INT-1-5)Visible and programmatic label consistency (INT-1-6)Multiple authentication methods (INT-1-7)",
+    "Form interactions (INT-2)On focus (INT-2-1)On input (INT-2-2)Activate only on up event (INT-2-3)Redundant entry (INT-2-4)",
+    "Errors & messaging (INT-3)Check for errors (INT-3-1)Summary before submit (INT-3-2)Error suggestion (INT-3-3)Highlight in-line errors visually (INT-3-4)",
+    "Interactive controls (INT-4)Link text in context (INT-4-1)Valid link href attribute (INT-4-2)Click and drag movements (INT-4-3)Target size (INT-4-4)Name (INT-4-5)Role (INT-4-6)Value, states, properties (INT-4-7)",
+    "Diverse user needs (INT-5)Pause, stop, hide moving content (INT-5-1)Pause or adjust volume for auto playing audio (INT-5-2)No blinking or flashing (INT-5-3)Warn about timeout (INT-5-4)Extend timeout (INT-5-5)Flexible orientation (INT-5-6)Motion control (INT-5-7)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Form elements (INT-1)"
+  },
+  {
+   "k": "h3",
+   "t": "Fully descriptive control labels (INT-1-1)"
+  },
+  {
+   "k": "p",
+   "t": "Controls and inputs must have one unique label attribute that fully describes the control’s purpose, including any supplementary information that the visual presentation may also provide (for example: related controls grouped together visually)."
+  },
+  {
+   "k": "p",
+   "t": "Some or all of a label MAY be hidden with CSS if the visual presentation provides the necessary context."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "In the target page, examine each control/input element.",
+    "Use Accessibility Insights > Adhoc Tools > Accessible Names.",
+    "Review the names and confirm they describe the elements."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All form controls have a unique label attribute that fully describes the control purpose and any supplementary information provided by the visual presentation.",
+    "Fail: One or more form controls does not have a unique label fully describing the control purpose and any supplementary information provided by the visual presentation."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.3.2 Labels or Instructions"
+  },
+  {
+   "k": "h3",
+   "t": "Info and relationships (INT-1-2)"
+  },
+  {
+   "k": "p",
+   "t": "Where visual presentation conveys information, structure, or relationships in content, the same information is available programmatically or in text."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Review the page and identify information, structure or relationships communicated visually (examples: large text conveys headings, bold or italic text conveys emphasis, spacing conveys paragraph structure, etc.).",
+    "Review any content identified in step 1 with a screen reader and confirm the same information, relationships, or structure is also conveyed programmatically.",
+    "If the information is not conveyed programmatically, confirm the information is conveyed in text."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All information, relationships, and structure conveyed through visual presentation is also conveyed programmatically or in text.",
+    "Fail: There is information, relationships, or structure on the page that is conveyed visually but not programmatically or through text."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.1 Info and Relationships"
+  },
+  {
+   "k": "h3",
+   "t": "Group controls using fieldsets (INT-1-3)"
+  },
+  {
+   "k": "p",
+   "t": "If there is more than one distinct group of related form controls on a page, the related controls must be grouped programmatically. This may be done using either fieldset/legend or ARIA group role/text container. Text describing the logical grouping MAY be hidden off-screen if it isn’t visually necessary."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "If fieldsets or aria groups are used on the page to group more than one distinct group of related form controls, confirm that the legends/ARIA legends read properly, for example: before each label for the controls in the given group."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Related controls are grouped using Fieldset or ARIA group and the legend/ARIA legend is read correctly by screen reader.",
+    "Fail: Related controls are not grouped using Fieldset or ARIA group or they are but the legend/ARIA legend is read incorrectly or not read by the screen reader.",
+    "NA: No groups of related controls are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.1 Info and Relationships"
+  },
+  {
+   "k": "h3",
+   "t": "Required fields (INT-1-4)"
+  },
+  {
+   "k": "p",
+   "t": "Required fields/controls must use the aria-required=\"true\" attribute. They must also be communicated in text either at the beginning of the form or in-line."
+  },
+  {
+   "k": "p",
+   "t": "Groups of checkboxes should not have the aria-required attribute and the required state should be indicated in text either at the beginning of the form, stating all fields are required, or in the group’s fieldset legend instead."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure that required fields are identified visually with text at the beginning of the form or in-line.",
+    "Tab through each control on the page and confirm that each required form control is announced as such by each supported screen reader."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All required fields are marked with aria-required=\"true\" and read correctly by a screen reader and text is available at the top of the form or in-line.",
+    "Fail: One or more required field is not marked with aria-required=\"true\" and read correctly by a screen reader or text is not available at the top of the form or in-line."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.1 Info and Relationships"
+  },
+  {
+   "k": "h3",
+   "t": "Specify input purpose programmatically (INT-1-5)"
+  },
+  {
+   "k": "p",
+   "t": "If an input field is used to collect information about the user and the field supports autocomplete then the input field’s purpose is identified programmatically."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the Browser inspection to inspect each input field on the page. to determine if the HTML atutocomplete or autofill attributes have been used.",
+    "If these attributes have been used, then they must match the type of information requested from the user."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: There are no automated errors reported and all fields which have autocomplete or autofill defined have correct, valid values that match the requested information.",
+    "Fail: One or more fields are detected which have incorrect or invalid values for autocomplete or autofill or the specified values do not match the information requested from the user.",
+    "NA: No fields with autocomplete or autofill are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 AA - 1.3.5 Identify Input Purpose"
+  },
+  {
+   "k": "h3",
+   "t": "Visible and programmatic label consistency (INT-1-6)"
+  },
+  {
+   "k": "p",
+   "t": "If a control’s visual label differs from the programmatic/accessible name value, then the programmatic/accessible name value includes the visual label."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the ANDI tool and select Buttons/Links from the dropdown menu.",
+    "Use the ANDI Output section to determine whether or not any controls have a programmatic/accessible name value that is different from the visual label.",
+    "For any control that has a different visual label and ANDI output, confirm that the programmatic/accessible name value includes the visual label.",
+    "Repeat these steps using the ANDI Focusable Elements dropdown to review form fields."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All controls which have a different programmatic/accessible name value and visual label have the visual label text within the programmatic/accessible name value text string.",
+    "Fail: One or more control which has a different programmatic/accessible name value and visual label does not have the visual label text within the programmatic/accessible name value text string.",
+    "NA: No controls which have a different programmatic/accessible name value and visual label are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 A - 2.5.3 Label in Name"
+  },
+  {
+   "k": "h3",
+   "t": "Multiple authentication methods (INT-1-7)"
+  },
+  {
+   "k": "p",
+   "t": "User authentication must avoid relying on a cognitive function test by providing multiple means of filling in authentication information."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Ensure that authentication form fields allow any of the following:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "The fields allow autofill of information provided by the browser.",
+    "Information may be pasted into the form fields.",
+    "Biometrics can be used to sign into accounts."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: The authentication fields allow autofill of stored information from the browser or information can be copied and pasted into the fields or biometrics (fingerprints, facial-scan, etc.) can be used to log in.",
+    "Fail: The authentication fields do not allow autofill and information cannot be copied and pasted into the fields and biometrics cannot be used (for example: none of the pass criteria methods are used).",
+    "NA: the page does not require interaction to authenticate."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 3.3.8 Accessible Authentication Methods"
+  },
+  {
+   "k": "h2",
+   "t": "Form interactions (INT-2)"
+  },
+  {
+   "k": "h3",
+   "t": "On focus (INT-2-1)"
+  },
+  {
+   "k": "p",
+   "t": "Focusing or removing focus from an element does not cause a change of context."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Tab to each focusable element.",
+    "Tab away from each focusable element.",
+    "When focus lands on or leaves each element, confirm it does not cause a change of context."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Focusing or removing focus from an element does not cause a change of context.",
+    "Fail: One or more elements cause a change of context when focused or focus is removed."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.2.1 On Focus"
+  },
+  {
+   "k": "h3",
+   "t": "On input (INT-2-2)"
+  },
+  {
+   "k": "p",
+   "t": "Changing the value of any interactive element does not automatically cause a change of context unless the user has been advised beforehand."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate any elements on the page that has a value that can be updated (for example: checkboxes, radio buttons, selects, etc.).",
+    "Change the value for each element.",
+    "Confirm that unexpected changes do not occur."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: No changes of context occur on value change or the user is advised beforehand.",
+    "Fail: One or more changes of context occur on value change and the user is not advised beforehand.",
+    "NA: No interactive elements can accept a value change."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.2.2 On Input"
+  },
+  {
+   "k": "h3",
+   "t": "Activate only on up event (INT-2-3)"
+  },
+  {
+   "k": "p",
+   "t": "Actions completed with mouse or touch input must not use the down-event to execute any part of the function.\n-or-\nMake sure there is a way for the user to abort or undo the action.\n-or-\nAllow the up-event to reverse any outcome of the preceding down-event"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Confirm that there are no actions which are completed using the down-event from mouse or touch input or that there is a way for the user to abort or undo the action or that the up-event allows the user to reverse any outcome of the preceding down-event."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: No actions are completed using the down event or there is a way to abort or undo an action completed on the down-event or the up-event allows the reversal of the preceding down-event.",
+    "Fail: Actions are completed using the down event and there is not a way to abort or undo the action and the up-event does not allow reversal of the preceding down-event."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 A - 2.5.2 Pointer Cancellation"
+  },
+  {
+   "k": "h3",
+   "t": "Redundant entry (INT-2-4)"
+  },
+  {
+   "k": "p",
+   "t": "If a page is contained within a process then information provided on the first step of the process is auto-filled in the next steps unless the information is required for security."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Review the page to determine if it is a step in a process. Ensure that if information is provided in an earlier step in this process, that information is auto-filled in later steps."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Information provided during the process will autofill if later steps require the same information.",
+    "Fail: Fields do not autofill when the same information has been provided on previous steps.",
+    "NA: The page does not contain any process-based functionality or information reentry is essential or required for security."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.3.7 Redundant Entry"
+  },
+  {
+   "k": "h2",
+   "t": "Errors & messaging (INT-3)"
+  },
+  {
+   "k": "h3",
+   "t": "Check for errors (INT-3-1)"
+  },
+  {
+   "k": "p",
+   "t": "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Identify any inputs that have automatic validation.",
+    "For each input, verify that errors are described in text."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Errors are identified and the errors are described to the user in text.",
+    "Fail: Errors are identified but the errors are not described to the user in text.",
+    "NA: There are no inputs with automatic validation."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 3.3.1 Error Identification",
+    "WCAG 2.2 AA - 3.3.3 Error Suggestion"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Summary before submit (INT-3-2)"
+  },
+  {
+   "k": "p",
+   "t": "If user input is collected across multiple pages in order to execute a transaction of some kind the user must be presented with a summary of the input before submitting. The user must be able to change input prior to final submission after reviewing."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Examine the target page to determine whether it allows users to:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "make any legal commitments or financial transactions, or",
+    "modify or delete data in a data storage system, or",
+    "Submit test responses.",
+    "If the page does allow such actions, verify that the following are true: the user is presented with a summary of the input before submitting. user can review, confirm, and correct information before finalizing the submission."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: A summary of user input is provided prior to final submit and the user can edit or make corrections as needed.",
+    "Fail: A summary of user input is not provided prior to final submit or the user cannot edit or make corrections as needed.",
+    "NA: User input is not collected across pages to execute a transaction."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 3.3.4 Error Prevention"
+  },
+  {
+   "k": "h3",
+   "t": "Error suggestion (INT-3-3)"
+  },
+  {
+   "k": "p",
+   "t": "When errors are detected, suggestions are provided to correct them, unless it would jeopardize the security or purpose of the content."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate any errors that can appear on the page.",
+    "Trigger each error.",
+    "Confirm that when possible, an error message describes how to correct the error (eg “username field is required” or “phone number must contain 10 digits”)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Suggestions to fix errors are present.",
+    "Fail: One or more errors exist but users are not informed how to fix the errors.",
+    "NA: No errors exist on the page."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.3.3 Error Suggestion"
+  },
+  {
+   "k": "h3",
+   "t": "Highlight in-line errors visually (INT-3-4)"
+  },
+  {
+   "k": "p",
+   "t": "When an error is detected using in-line validation, highlight the field (for example: with a bold red border, error icon with proper alternative text) and place error helper text near it."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Confirm that when an error is detected using in-line validation, the visual UI highlights the fields with errors (for example: with a red border) and places error helper text above or below each one."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: When an error is detected using in-line validation, the visual UI highlights the field and places error helper text near it.",
+    "Fail: For one or more client-side validated forms when an error is detected using client side validation, the visual UI does not highlight the field or place error helper text near it.",
+    "NA: No forms are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 3.3.1 Error Identification",
+    "WCAG 2.2 AA - 3.3.3 Error Suggestion"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Interactive controls (INT-4)"
+  },
+  {
+   "k": "h3",
+   "t": "Link text in context (INT-4-1)"
+  },
+  {
+   "k": "p",
+   "t": "The destination of a link is clear from either the link text alone or the link text combined with surrounding programmatically associated text."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a screen reader to navigate to each link on the page.",
+    "Confirm that one of the following is true:"
+   ]
+  },
+  {
+   "k": "list",
+   "items": [
+    "The name of the link provides sufficient information to understand its destination. or",
+    "The link destination is clear based on its name and surrounding programmatically associated content (for example: text in the same paragraph, list item, or table cell; content in a table header associated with a table cell containing the link; etc.)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: The destination of all links is clear based on the link text alone or the link text and surrounding programmatically associated text.",
+    "Fail: The destination of one or more links on the page is unclear and the surrounding programmatically associated context also does not provide information about the link’s purpose.",
+    "NA: No links are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.4.4 Link Purpose"
+  },
+  {
+   "k": "h3",
+   "t": "Valid link href attribute (INT-4-2)"
+  },
+  {
+   "k": "p",
+   "t": "Links must contain a valid href attribute value and must not point to \"javascript:void(0);\" nor \"#\"."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Bring up the list of links with ANDI if available and confirm no links HREF points to \"javascript:void(0);\" nor \"#\"."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All links contain valid href attribute values.",
+    "Fail: One or more links do not contain valid href values.",
+    "NA: No links are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 4.1.2 Name, Role, Value"
+  },
+  {
+   "k": "h3",
+   "t": "Click and drag movements (INT-4-3)"
+  },
+  {
+   "k": "p",
+   "t": "An action that relies on clicking and dragging of content can also be achieved by a single pointer without dragging unless dragging is essential to the activity."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Example of single pointer Pass: A quiz relies on users clicking and dragging information into the correct bucket. Users are also able to click once to select an option, then click on the correct bucket.",
+    "Example of essential activity: A medical app requires clicking and dragging an object to a target to accurately measure the user’s precision."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Visually inspect the page to determine whether any functionality requires a user to click and move their mouse to access content.",
+    "For any dragging content, confirm that it can be used with a single pointer without dragging."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All click and drag functionality can also be performed with a single pointer or the dragging movement is essential.",
+    "Fail: Click and drag functionality cannot be completed with a single pointer.",
+    "NA: The page does not contain click and drag functionality."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 2.5.7 Dragging Movements"
+  },
+  {
+   "k": "h3",
+   "t": "Target size (INT-4-4)"
+  },
+  {
+   "k": "p",
+   "t": "Actionable components have a minimum target size of 24x24 CSS pixels except for:"
+  },
+  {
+   "k": "p",
+   "t": "Objects with a target offset of at least 24px."
+  },
+  {
+   "k": "list",
+   "items": [
+    "For example, a 20px width “Cancel” button has its right most edge at least 4px away from a “Submit” button placed on the right. Inline content within a sentence or block of text.",
+    "For example, a wiki paragraph has multiple instances of hyperlinked text. Increasing the height and width of these links would impact the presentation of text and make it more difficult to read."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Use browser inspect tool to view the CSS values under the “Computed” tab. Find the height and width properties for the component.\nEnsure that each control has a width and height greater than or equal to 24px or"
+  },
+  {
+   "k": "list",
+   "items": [
+    "For example, a 20px width “Cancel” button has its right most edge at least 4px away from a “Submit” button placed on the right."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Both height and width are greater than or equal to 24px or less than 24px with sufficient spacing between controls.",
+    "Fail: Either the height or width is less than 24px and the center of the control is less than 24px from another control.",
+    "NA: Target is a link or button in a block of text that requires a specific presentation."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 2.5.8 Target Size (Minimum)"
+  },
+  {
+   "k": "h3",
+   "t": "Name (INT-4-5)"
+  },
+  {
+   "k": "p",
+   "t": "All interactive elements must have a programmatic name accessible to assistive technology"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Review each interactive element with a screen reader.",
+    "For each interactive element, verify the screen reader announces the name of the element."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All interactive elements have a name announced by the screen reader.",
+    "Fail: One or more interactive elements do not have a name announced by the screen reader."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 4.1.2 Name, Role, Value"
+  },
+  {
+   "k": "h3",
+   "t": "Role (INT-4-6)"
+  },
+  {
+   "k": "p",
+   "t": "All elements with semantic meaning have a valid, accurate programmatic role accessible to assistive technology"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate all elements on the page with semantic meaning. (for example: headings, buttons and links, dialogs, etc…).",
+    "For each element with semantic meaning, verify the screen reader announces the role of the element.",
+    "Verify that the role announced for the element is valid and matches the semantic meaning of the element (for example: a link announces a link role, a button announces a button role, etc.)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All elements with semantic meaning have a role announced by the screen reader that matches the semantic meaning of the element.",
+    "Fail: One or more semantic elements do not have a role announced by the screen reader or the role announced does not match the semantic meaning of the element."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 4.1.2 Name, Role, Value"
+  },
+  {
+   "k": "h3",
+   "t": "Value, states, properties (INT-4-7)"
+  },
+  {
+   "k": "p",
+   "t": "States, properties, and values of elements are programmatically available to assistive technology, Any changes to these items are also communicated to assistive technology."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate all elements on the page which have states, properties, and/or values associated (for example: pressed/invalid state, an error message property on an invalid input, a user-input text string value in a “name” text field, etc.).",
+    "For each identified state, property, or value, confirm that the screen reader announces it when interacting with the associated element."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Note: If a state, property, or value has changed, the screen reader can determine the change."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All states, properties, and values are announced by the screen reader when interacting with the associated element.",
+    "Fail: One or more states, properties, or values are not announced to the screen reader when interacting with the associated element.",
+    "NA: No elements with states, properties, or values are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 4.1.2 Name, Role, Value"
+  },
+  {
+   "k": "h2",
+   "t": "Diverse user needs (INT-5)"
+  },
+  {
+   "k": "h3",
+   "t": "Pause, stop, hide moving content (INT-5-1)"
+  },
+  {
+   "k": "p",
+   "t": "A mechanism must be provided to pause, stop, or hide any content that meets the following criteria:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Starts automatically",
+    "Is presented in parallel with other content and",
+    "moves, blinks or scrolls for >5 seconds or",
+    "All auto-updating content regardless of duration"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Perform a visual inspection of the page.",
+    "Confirm that for any content that meets the following criteria, a mechanism is provided to pause, play, or hide the applicable content:"
+   ]
+  },
+  {
+   "k": "list",
+   "items": [
+    "Starts automatically.",
+    "Is presented in parallel with other content. and",
+    "moves, blinks or scrolls for >5 seconds. or",
+    "All auto-updating content regardless of duration."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: A mechanism is provided to pause, stop, or hide auto-playing; moving or blinking; auto-updating content.",
+    "Fail: A mechanism is not provided to pause, stop, or hide auto-playing; moving or blinking; auto-updating content.",
+    "NA: No auto-playing; moving or blinking; auto-updating content is present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.2.2 Pause, Stop, Hide"
+  },
+  {
+   "k": "h3",
+   "t": "Pause or adjust volume for auto playing audio (INT-5-2)"
+  },
+  {
+   "k": "p",
+   "t": "For any audio which 1) plays automatically and 2) lasts for >3 seconds, one of the following must be true:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "A mechanism to pause the content is presented to the user or",
+    "A mechanism for adjusting the volume of the content is presented to the user and it does not rely on the system audio levels to adjust the volume."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Confirm that for any audio which 1) plays automatically and 2) lasts for >3 seconds, one of the following is true:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "A mechanism to pause the content is presented to the user. or",
+    "A mechanism for adjusting the volume of the content is presented to the user and it does not rely on the system audio levels to adjust the volume."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: For all content which plays automatically and lasts for more than 3 seconds a mechanism is provided to pause or adjust volume.",
+    "Fail: A mechanism is not provided to pause or adjust volume for all content which plays automatically and lasts for more than 3 seconds.",
+    "NA: No content which plays automatically and lasts for more than 3 seconds is present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.4.2 Audio Control"
+  },
+  {
+   "k": "h3",
+   "t": "No blinking or flashing (INT-5-3)"
+  },
+  {
+   "k": "p",
+   "t": "Content that blinks or flashes rapidly must never be used."
+  },
+  {
+   "k": "p",
+   "t": "Note: “Rapidly” is blinking/flashing more than 3 times in 1 second. If there is any doubt about the frequency of flashing then this would fail."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Perform a visual inspection of the page.",
+    "Confirm that each page contains no content that blinks or flashes."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Content that blinks or flashes is not used.",
+    "Fail: Content that blinks or flashes is used."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.3.1 Three Flashes or Below Threshold"
+  },
+  {
+   "k": "h3",
+   "t": "Warn about timeout (INT-5-4)"
+  },
+  {
+   "k": "p",
+   "t": "Users must be warned prior to when a session times out and expires."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Confirm that users are warned prior to when a session times out and expires."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Session timeout warning occurs prior to session time out and expiration.",
+    "Fail: Session timeout occurs without warning.",
+    "NA: No session timeout is present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.2.1 Timing Adjustable"
+  },
+  {
+   "k": "h3",
+   "t": "Extend timeout (INT-5-5)"
+  },
+  {
+   "k": "p",
+   "t": "When a session timeout warning occurs, users must be given at least 30 seconds to take action in order to avoid a session time out by extending the time limit (of a session) via a “simple” user action (for example: “press the space bar”)."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Confirm that users are given at least 30 seconds to take action in order to avoid a session time out by extending the time limit (of a session) via a “simple” user action (for example: “press the space bar”)."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Users are given at least 30 seconds to extend the session via a simple user action.",
+    "Fail: Users are given less than 30 seconds to extend the session via a simple user action.",
+    "NA: No session timeout is present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.2.1 Timing Adjustable"
+  },
+  {
+   "k": "h3",
+   "t": "Flexible orientation (INT-5-6)"
+  },
+  {
+   "k": "p",
+   "t": "Content must adapt to the device orientation when orientation is changed from portrait to landscape mode unless a specific orientation is required."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Set display orientation to each orientation mode (portrait and landscape) and review how the content responds."
+  },
+  {
+   "k": "p",
+   "t": "This can be done using OS settings (Start > Settings > System > Display) or inspecting the page in your browser and using the device list to change orientations.\nhttps://developer.chrome.com/docs/devtools/device-mode/orientation/"
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Content adapts to all display orientations.",
+    "Fail: Content does not adapt to all display orientations.",
+    "NA: A specific display orientation is essential (for example: bank check)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 AA- 1.3.4 Orientation"
+  },
+  {
+   "k": "h3",
+   "t": "Motion control (INT-5-7)"
+  },
+  {
+   "k": "p",
+   "t": "If functionality can be operated or activated by device or user motion then it can also be operated or activated through UI components and motion actuation can be turned off to avoid unintentional activation by the user."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All functionality that can be operated or activated by device or user motion has a UI control alternative and motion actuation can be turned off by the user.",
+    "Fail: Any aspect of functionality that can be operated or activated by device or user motion does not have a UI control alternative or motion actuation cannot be turned off by the user.",
+    "NA: No functionality that can be operated or activated by device or user motion is present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 A - 2.5.4 Motion Actuation"
+  }
+ ]
+}

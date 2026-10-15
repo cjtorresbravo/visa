@@ -1,0 +1,142 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/pdf/tables",
+ "title": "Tables | PDF | Global accessibility requirements | Visa Product Design System",
+ "h1": "Tables",
+ "readAt": "2026-10-15T17:06:08.797Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Tables"
+  },
+  {
+   "k": "p",
+   "t": "Find table requirements for testing PDFs."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Tables (PDF-7)Tables (PDF-7-1)No layout tables (PDF-7-2)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Tables (PDF-7)"
+  },
+  {
+   "k": "h3",
+   "t": "Tables (PDF-7-1)"
+  },
+  {
+   "k": "p",
+   "t": "Tables should include headers. Tables can contain column headers, row headers or both. As much information as possible about the structure of tables needs to be available when assistive technology is relied upon. Headers play a key role in providing structural information. Structure elements of type TH should have a Scope attribute. If the table’s structure is not determinable via Headers and IDs, then structure elements of type TH shall have a Scope attribute."
+  },
+  {
+   "k": "p",
+   "t": "Table tagging structures shall only be used to tag content presented within logical row and/or column relationships."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the documents for tables.",
+    "Verify that all content that resembles a table is correctly tagged as a <Table>.",
+    "Verify that all table rows are appropriately tagged using the <TR> tag.",
+    "Verify that table headers are tagged with <TH> tags and have a defined scope and span (if applicable).",
+    "Verify that table data cells are properly tagged with <TD> tags.",
+    "Verify that table caption (if available) is tagged as <Caption> as its first or last child element of the <Table> tag."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All tabular data is correctly tagged with <Table> tags, row/column headers are marked with <TH> tags with an appropriate scope and Span attributes, Table rows are denoted with <TR> tags, table data cells are tagged with <TD> tags, and table captions(if available) are tagged with <Caption>.",
+    "Fail: Any of the following conditions are not met: Tabular data is not tagged with Table tags, row/column headers are not tagged with <TH> tags or they lack a proper scope and Span attributes, Table rows are not tagged with <TR> tags, table data cells are not tagged with <TD> tags, or table captions(if available) are not tagged with <Caption>.",
+    "NA: The content does not include any table elements."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 1.3.1 Info and Relationships",
+    "PDF-U/A - 7.5 Tables"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "No layout tables (PDF-7-2)"
+  },
+  {
+   "k": "p",
+   "t": "Tables are only used for tabular data with a logical column/row relationship and not used for layout or positioning."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Review the Tags panel in Acrobat for Table tags.",
+    "Confirm that no Table tags are used for layout purposes."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Tables are not used for layout purposes.",
+    "Fail: Tables are used for layout purposes.",
+    "NA: No Table tags are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 AA - 2.4.5 Multiple Ways",
+    "PDF-U/A - 7.17 Navigation"
+   ]
+  }
+ ]
+}

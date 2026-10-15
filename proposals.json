@@ -1,0 +1,288 @@
+{
+  "status": "proposed by the plugin scan on 2026-10-15. Nothing is applied until a person confirms.",
+  "colors": {
+    "note": "Roles the build engine needs, found by name in the library variables.",
+    "roles": [
+      {
+        "key": "surface",
+        "label": "surface",
+        "kind": "var",
+        "match": "surface",
+        "proposed": "Color/Messaging/info-surface",
+        "confidence": "low",
+        "why": "first variable in the inventory whose name matches /surface/i",
+        "source": "inventory/foundations.json of vpds-components"
+      },
+      {
+        "key": "surfaceSecondary",
+        "label": "surfaceSecondary",
+        "kind": "var",
+        "match": "surface.*secondary",
+        "proposed": null,
+        "confidence": "none",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "elementPrimary",
+        "label": "elementPrimary",
+        "kind": "var",
+        "match": "element.*primary",
+        "proposed": null,
+        "confidence": "none",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "elementSecondary",
+        "label": "elementSecondary",
+        "kind": "var",
+        "match": "element.*secondary",
+        "proposed": null,
+        "confidence": "none",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "elementOnBrand",
+        "label": "elementOnBrand",
+        "kind": "var",
+        "match": "element.*on.*brand",
+        "proposed": null,
+        "confidence": "none",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "border",
+        "label": "border",
+        "kind": "var",
+        "match": "border",
+        "proposed": "Color/Decorative/border",
+        "confidence": "low",
+        "why": "first variable in the inventory whose name matches /border/i",
+        "source": "inventory/foundations.json of vpds-components"
+      },
+      {
+        "key": "brand",
+        "label": "brand",
+        "kind": "var",
+        "match": "brand",
+        "proposed": null,
+        "confidence": "none",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      }
+    ]
+  },
+  "type": {
+    "note": "Text style roles by size.",
+    "roles": [
+      {
+        "key": "titleXL",
+        "label": "titleXL",
+        "kind": "text",
+        "match": "title.*x.*l",
+        "proposed": "Display/font-scale-8/Light",
+        "confidence": "medium",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "titleLG",
+        "label": "titleLG",
+        "kind": "text",
+        "match": "title.*l.*g",
+        "proposed": "Display/font-scale-7/Light",
+        "confidence": "medium",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "titleMD",
+        "label": "titleMD",
+        "kind": "text",
+        "match": "title.*m.*d",
+        "proposed": "Titles/font-scale-5/Regular",
+        "confidence": "medium",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "titleSM",
+        "label": "titleSM",
+        "kind": "text",
+        "match": "title.*s.*m",
+        "proposed": "Titles/font-scale-3/Semibold",
+        "confidence": "medium",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "titleSection",
+        "label": "titleSection",
+        "kind": "text",
+        "match": "title.*section",
+        "proposed": null,
+        "confidence": "none",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "body",
+        "label": "body",
+        "kind": "text",
+        "match": "body",
+        "proposed": "Body/font-scale-2/Regular",
+        "confidence": "medium",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "bodyBold",
+        "label": "bodyBold",
+        "kind": "text",
+        "match": "body.*bold",
+        "proposed": "Body/font-scale-2/Semibold",
+        "confidence": "medium",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "bodySm",
+        "label": "bodySm",
+        "kind": "text",
+        "match": "body.*sm",
+        "proposed": "Body/font-scale-1/Regular",
+        "confidence": "medium",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "link",
+        "label": "link",
+        "kind": "text",
+        "match": "link",
+        "proposed": "Body/font-scale-2/Regular",
+        "confidence": "medium",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "micro",
+        "label": "micro",
+        "kind": "text",
+        "match": "micro",
+        "proposed": "Body/font-scale-neg-1/Regular",
+        "confidence": "medium",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      }
+    ]
+  },
+  "comps": {
+    "note": "Component roles by name.",
+    "roles": [
+      {
+        "key": "button",
+        "label": "button",
+        "kind": "comp",
+        "match": "button",
+        "proposed": "_Radio Button",
+        "confidence": "medium",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "input",
+        "label": "input",
+        "kind": "comp",
+        "match": "input",
+        "proposed": "_Input do",
+        "confidence": "low",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "textlink",
+        "label": "textlink",
+        "kind": "comp",
+        "match": "textlink",
+        "proposed": "_Link",
+        "confidence": "medium",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "navMain",
+        "label": "navMain",
+        "kind": "comp",
+        "match": "nav.*main",
+        "proposed": null,
+        "confidence": "none",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "footer",
+        "label": "footer",
+        "kind": "comp",
+        "match": "footer",
+        "proposed": "Default footer",
+        "confidence": "low",
+        "why": "first component in the inventory whose name matches /footer/i",
+        "source": "inventory/components.json of vpds-components"
+      },
+      {
+        "key": "hero",
+        "label": "hero",
+        "kind": "comp",
+        "match": "hero",
+        "proposed": null,
+        "confidence": "none",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "tabGroup",
+        "label": "tabGroup",
+        "kind": "comp",
+        "match": "tab.*group",
+        "proposed": "Horizontal tab group",
+        "confidence": "low",
+        "why": "first component in the inventory whose name matches /tab.*group/i",
+        "source": "inventory/components.json of vpds-components"
+      },
+      {
+        "key": "articleCard",
+        "label": "articleCard",
+        "kind": "comp",
+        "match": "article.*card",
+        "proposed": null,
+        "confidence": "none",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      },
+      {
+        "key": "accordion",
+        "label": "accordion",
+        "kind": "comp",
+        "match": "accordion",
+        "proposed": "Accordion",
+        "confidence": "low",
+        "why": "first component in the inventory whose name matches /accordion/i",
+        "source": "inventory/components.json of vpds-components"
+      },
+      {
+        "key": "contentBanner",
+        "label": "contentBanner",
+        "kind": "comp",
+        "match": "content.*banner",
+        "proposed": null,
+        "confidence": "none",
+        "why": "proposed by the plugin scan of the library names",
+        "source": "br_setup_scan over vpds-components"
+      }
+    ]
+  }
+}

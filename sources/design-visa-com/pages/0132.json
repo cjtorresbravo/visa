@@ -1,0 +1,175 @@
+{
+ "url": "https://design.visa.com/content/voice-and-tone",
+ "title": "Voice and tone | Content | Visa Product Design System",
+ "h1": "Voice and tone",
+ "readAt": "2026-10-15T17:08:21.985Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Voice and tone"
+  },
+  {
+   "k": "p",
+   "t": "Ensure products sound and feel like Visa by learning the foundational pillars of our voice and tone."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Voice",
+    "ToneTones to useTones to avoid"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Voice and tone are key elements that establish how products sound and feel. Voice refers to Visa’s personality and values, which should appear consistently across experiences, while tone is an expression of mood and changes depending on context. This section describes the pillars of Visa’s voice and provides context on when and how to emulate different tones."
+  },
+  {
+   "k": "h2",
+   "t": "Voice"
+  },
+  {
+   "k": "p",
+   "t": "To create cohesive, consistent product experiences, we should intentionally craft our content to maintain a voice that feels distinct to Visa. Writing without this voice in mind can create disjointed experiences that leave the user feeling confused and could highlight that content is being authored by multiple people with different approaches."
+  },
+  {
+   "k": "p",
+   "t": "Our voice is embodied by 3 core qualities: active, readable, and human. The following sections unpack these qualities and explain how to use them to ensure our product content remains consistent."
+  },
+  {
+   "k": "h3",
+   "t": "Active"
+  },
+  {
+   "k": "text",
+   "t": "Actionable and global"
+  },
+  {
+   "k": "p",
+   "t": "Visa connects the world through fast, secure financial access enabled by a partner-trusted network. Our content should support and help users complete tasks quickly and efficiently. Ensure everyone, everywhere can meet their goals using clear, actionable language that translates seamlessly across the globe."
+  },
+  {
+   "k": "h3",
+   "t": "Readable"
+  },
+  {
+   "k": "text",
+   "t": "Clear, concise, thoughtful"
+  },
+  {
+   "k": "p",
+   "t": "Make experiences effortless by putting users first. Author content that anticipates what the user needs and answers their questions before they’ve asked—like a trusted advisor. Use direct and consistent language that’s easy to scan, makes task completion easy, and simplifies complex concepts."
+  },
+  {
+   "k": "h3",
+   "t": "Human"
+  },
+  {
+   "k": "text",
+   "t": "Energetic, authentic, personable"
+  },
+  {
+   "k": "p",
+   "t": "Our products are designed by real people for real people behind the screen. Use inclusive language to empathize with users and show consideration and recognition of their humanity. Be personable and conversational—not too formal, not too casual, and never robotic."
+  },
+  {
+   "k": "h2",
+   "t": "Tone"
+  },
+  {
+   "k": "p",
+   "t": "Tone is a device used by an author to elicit a feeling, making our messaging more relevant and useful to users as they complete their tasks and goals. This ensures we deliver the most useful language, exactly when users need it, and in the most effective way possible to reinforce the relationship between users and our products."
+  },
+  {
+   "k": "p",
+   "t": "In general, we recommend a neutral tone that’s straightforward and direct. In certain contexts, tone can be adjusted to convey feelings like encouragement, enthusiasm, or positivity."
+  },
+  {
+   "k": "h3",
+   "t": "Tones to use"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Tone",
+     "Feeling conveyed to users",
+     "Context",
+     "Example"
+    ],
+    [
+     "Celebratory",
+     "Positive, congratulatory",
+     "Success, task completion",
+     "Success! Your account has been created."
+    ],
+    [
+     "Supportive",
+     "Engaging, helpful",
+     "Instructions, support, documentation",
+     "Need help? Our support team is just a click away."
+    ],
+    [
+     "Professional",
+     "Clear, direct",
+     "Error, alert",
+     "Something went wrong while processing your transaction. Try again in a few moments."
+    ],
+    [
+     "Welcoming",
+     "Inviting, enthusiastic",
+     "First-time use, onboarding, support",
+     "Welcome to your dashboard! Ready to get started?"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Tones to avoid"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Tone",
+     "Feeling conveyed to users"
+    ],
+    [
+     "Accusatory",
+     "Aggressive, insensitive, dismissive"
+    ],
+    [
+     "Complex",
+     "Complicated, elaborate, intimidating"
+    ],
+    [
+     "Patronizing",
+     "Condescending, superior, pretentious"
+    ],
+    [
+     "Robotic",
+     "Apathetic, indifferent, lifeless"
+    ],
+    [
+     "Vague",
+     "Ambiguous, confusing, indirect"
+    ]
+   ]
+  }
+ ]
+}

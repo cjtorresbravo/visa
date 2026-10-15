@@ -1,0 +1,76 @@
+{
+ "url": "https://design.visa.com/developing",
+ "title": "Get started | Developing | Visa Product Design System",
+ "h1": "Start developing with VPDS",
+ "readAt": "2026-10-15T17:06:16.791Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Start developing with VPDS"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to start developing with the Visa Product Design System using this step-by-step guide for ease and efficiency."
+  },
+  {
+   "k": "h2",
+   "t": "Browser Support"
+  },
+  {
+   "k": "p",
+   "t": "Our design system supports the latest versions of all major evergreen browsers, including Chrome, Firefox, Safari, and Edge. We do not support legacy or non-evergreen browsers."
+  },
+  {
+   "k": "p",
+   "t": "Why only evergreen browsers?"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Security: Evergreen browsers receive regular security updates, helping protect users and their data.",
+    "Consistency: We use modern HTML and CSS features that are consistently supported across evergreen browsers, ensuring a reliable user experience.",
+    "Performance: By focusing on up-to-date browsers, we can take advantage of the latest web standards for optimal performance.",
+    "Maintainability: Supporting only evergreen browsers allows us to keep our codebase clean and efficient, without the need for legacy workarounds."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "For the best experience, please use the latest version of your preferred browser."
+  },
+  {
+   "k": "h2",
+   "t": "Step 1: Familiarize yourself with the system"
+  },
+  {
+   "k": "p",
+   "t": "Check out the Visa Product Design System documentation. It’s filled with principles and best practices that will provide a solid foundation, even in the absence of a dedicated design or content team."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Understand our foundational principles including Accessibility and Inclusive design in About VPDS.",
+    "Discover our system’s visual and architectural standards used to ensure consistent digital experiences in Base elements.",
+    "Find usage, specs, and accessibility guidance for the building blocks of the system in Components.",
+    "Find layouts for common tasks like uploading a file or requesting a one-time passcode in Patterns.",
+    "Create insightful, inclusive, and accessible data experiences for everyone, everywhere with Data visualization.",
+    "Discover all the essentials for writing product content like voice and tone, grammar, and alert messaging in Content."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Step 2: Install the code library of your choice"
+  },
+  {
+   "k": "p",
+   "t": "VPDS supports core parts of the system in CSS, React, Angular, and Flutter. You can visit get started pages for CSS, React, Angular, and Flutter with quick start guides for each library."
+  },
+  {
+   "k": "h2",
+   "t": "Step 3: Connect with us"
+  },
+  {
+   "k": "p",
+   "t": "Have questions or ideas? Subscribe to our email list, visit our office hours, or join us on Teams by visiting Support."
+  }
+ ]
+}

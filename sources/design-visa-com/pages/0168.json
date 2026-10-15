@@ -1,0 +1,198 @@
+{
+ "url": "https://design.visa.com/components/avatar/usage",
+ "title": "Avatar | Components | Visa Product Design System",
+ "h1": "Avatar",
+ "readAt": "2026-10-15T17:09:06.047Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Avatar"
+  },
+  {
+   "k": "p",
+   "t": "Icons and/or text that represent users or entities."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesAvatar styles",
+    "BehaviorsAvatar used in navigationProfile representation",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Avatars are visual and/or textual representation elements of users and entities within a product. They help to personalize products and tailor experiences to the user and their preferences.\nAlso known as: User icon, user avatar, profile image, profile avatar, thumbnail, UIImageView (iOS), ImageView (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Avatar element (required): Icon, text, initials, or image representing the user or profile.\nB. Dropdown chevron (optional): UI icon indicating the menu can expand or collapse."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "As a visual representation of a user or entity in your application.",
+     "In situations where privacy is a concern, as displaying a user’s avatar might not be appropriate."
+    ],
+    [
+     "For a more personalized user experience. Can be used to indicate who is currently logged in, which is especially useful in multi-user environments.",
+     "If the avatar doesn’t serve a clear function like leading to a user’s profile or settings."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use avatars to identify users in the main part of the app navigation.",
+    "Implement avatars to function as nav menus when used in navigation components.",
+    "Apply proper alt text to any images such as the user’s name when icons, initials, or images are used.",
+    "Enable users to change the avatar style of their experience.",
+    "Reference Fictitious brand and user aliases (internal only) guidelines for placeholder names.",
+    "Follow all guidance for implementing badges on avatars."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Avatar styles"
+  },
+  {
+   "k": "p",
+   "t": "There are four styles of avatars that can be used within an experience. Consider selecting a default avatar style for your application and enabling users to customize this style at a later time."
+  },
+  {
+   "k": "h4",
+   "t": "Icon"
+  },
+  {
+   "k": "p",
+   "t": "The icon avatar is a generic representation of a user using an icon."
+  },
+  {
+   "k": "h4",
+   "t": "Text"
+  },
+  {
+   "k": "p",
+   "t": "The text avatar displays the user’s name in an adjustable text format."
+  },
+  {
+   "k": "h4",
+   "t": "Initials"
+  },
+  {
+   "k": "p",
+   "t": "The initials avatar shows the user’s initials in one or two characters."
+  },
+  {
+   "k": "h4",
+   "t": "Image"
+  },
+  {
+   "k": "p",
+   "t": "The image avatar uses a customizable profile image to represent the user."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Avatar used in navigation"
+  },
+  {
+   "k": "p",
+   "t": "When an avatar is used in navigation components, it’s treated the same as navigation links that activate a nav menu. In the pressed state, the background color of the avatar will change to match the background color of the nav menu. To learn more, reference Horizontal navigation guidance."
+  },
+  {
+   "k": "h3",
+   "t": "Profile representation"
+  },
+  {
+   "k": "p",
+   "t": "Representing a user profile, account, issuer, or brand can use the same basis without the menu button."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use standard icon sizes of 24x24 or 48x48. Whichever size you choose, be consistent throughout the application."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use title case for names including companies or entities.",
+    "Don’t use punctuation.",
+    "Follow all best practices and guidelines implementing links. Reference Link for more information.",
+    "Reference Grammar and punctuation to learn how to use parallel structure for consistent phrasing in navigation."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation"
+  },
+  {
+   "k": "p",
+   "t": "Navigation panel located next to page content on screens with sufficient space."
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Menu placed at the top of a site that links to important pages or features."
+  }
+ ]
+}

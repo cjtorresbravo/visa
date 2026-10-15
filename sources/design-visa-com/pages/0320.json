@@ -1,0 +1,1727 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/button",
+ "title": "Button | Component | Nova Angular | Visa Product Design System",
+ "h1": "Button",
+ "readAt": "2026-10-15T17:16:59.242Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Button"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default primary text button",
+    "Alternate primary text button",
+    "Primary text button with leading icon",
+    "Primary text button with trailing icon",
+    "Disabled primary text button",
+    "Small primary text button",
+    "Large primary text button",
+    "Default secondary text button",
+    "Alternate secondary text button",
+    "Secondary text button with leading icon",
+    "Secondary text button with trailing icon",
+    "Disabled secondary text button",
+    "Small secondary text button",
+    "Large secondary text button",
+    "Default tertiary text button",
+    "Alternate tertiary text button",
+    "Tertiary text button with leading icon",
+    "Tertiary text button with trailing icon",
+    "Disabled tertiary text button",
+    "Small tertiary text button",
+    "Large tertiary text button",
+    "Primary destructive text button",
+    "Secondary destructive text button",
+    "Tertiary destructive text button",
+    "Default primary icon button",
+    "Alternate primary icon button",
+    "Primary icon button with label",
+    "Disabled primary icon button",
+    "Small primary icon button",
+    "Large primary icon button",
+    "Default secondary icon button",
+    "Alternate secondary icon button",
+    "Secondary icon button with label",
+    "Disabled secondary icon button",
+    "Large secondary icon button",
+    "Small UI icon button",
+    "Medium UI icon button",
+    "Large UI icon button",
+    "Subtle UI icon button",
+    "UI icon button with badge",
+    "Alternate UI icon button",
+    "Default stacked icon button",
+    "Alternate stacked icon button",
+    "Button coded as link"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Primary text buttons"
+  },
+  {
+   "k": "h3",
+   "t": "Default primary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Alternate primary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "#alternate"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Primary text button with leading icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Primary text button with trailing icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled primary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Using 'disabled' with an <a> tag:"
+  },
+  {
+   "k": "p",
+   "t": "Disabled links must not include an href attribute."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Small primary text button"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Large primary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Secondary text buttons"
+  },
+  {
+   "k": "h3",
+   "t": "Default secondary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Secondary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Alternate secondary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "#alternate"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Secondary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Secondary text button with leading icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Secondary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Secondary text button with trailing icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Secondary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled secondary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Using 'disabled' with an <a> tag:"
+  },
+  {
+   "k": "p",
+   "t": "Disabled links must not include an href attribute."
+  },
+  {
+   "k": "text",
+   "t": "Secondary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Small secondary text button"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Secondary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Large secondary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Secondary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Tertiary text buttons"
+  },
+  {
+   "k": "h3",
+   "t": "Default tertiary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Tertiary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Alternate tertiary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "#alternate"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Tertiary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Tertiary text button with leading icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Tertiary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Tertiary text button with trailing icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Tertiary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled tertiary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Using 'disabled' with an <a> tag:"
+  },
+  {
+   "k": "p",
+   "t": "Disabled links must not include an href attribute."
+  },
+  {
+   "k": "text",
+   "t": "Tertiary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Small tertiary text button"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Small button"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Large tertiary text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Large Tertiary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Destructive text buttons"
+  },
+  {
+   "k": "h3",
+   "t": "Primary destructive text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Destructive action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Secondary destructive text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Destructive action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Tertiary destructive text button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Destructive action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Primary icon buttons"
+  },
+  {
+   "k": "h3",
+   "t": "Default primary icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Alternate primary icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "#alternate"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Primary icon button with label"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled primary icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Using 'disabled' with an <a> tag:"
+  },
+  {
+   "k": "p",
+   "t": "Disabled links must not include an href attribute."
+  },
+  {
+   "k": "text",
+   "t": "Action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Small primary icon button"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Large primary icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Secondary icon buttons"
+  },
+  {
+   "k": "h3",
+   "t": "Default secondary icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Alternate secondary icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "#alternate"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Secondary icon button with label"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled secondary icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Using 'disabled' with an <a> tag:"
+  },
+  {
+   "k": "p",
+   "t": "Disabled links must not include an href attribute."
+  },
+  {
+   "k": "text",
+   "t": "Action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Large secondary icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "UI icon buttons"
+  },
+  {
+   "k": "h3",
+   "t": "Small UI icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Medium UI icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Large UI icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Subtle UI icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "UI icon button with badge"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Alternate UI icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "#alternate"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Stacked icon buttons"
+  },
+  {
+   "k": "h3",
+   "t": "Default stacked icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Alternate stacked icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "#alternate"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Button coded as link"
+  },
+  {
+   "k": "h3",
+   "t": "Button coded as link"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "ButtonDirective",
+    "ButtonColor",
+    "ButtonSize"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ButtonDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-button], [v-button-icon], [v-button-stacked], [v-panel-toggle]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "ariaCurrentInput",
+     "@Input()",
+     "null",
+     "HTMLButtonElement['ariaCurrent'] | boolean, unknown",
+     "Aria attribute relaying whether button is selected. aria-current and aria-selected cannot be used together.",
+     "true"
+    ],
+    [
+     "ariaDescribedbyInput",
+     "@Input()",
+     "false",
+     "null | string",
+     "Aria attribute pointing to id of descriptive element. If the button has a badge, the aria-describedby will be set to the badge's id by default.",
+     "false"
+    ],
+    [
+     "ariaDisabledInput",
+     "@Input()",
+     "false",
+     "HTMLElement['ariaDisabled']",
+     "Sets aria disabled state for accessibility purposes. When true, indicates that the button is disabled and not interactive.",
+     "false"
+    ],
+    [
+     "ariaExpandedInput",
+     "@Input()",
+     "null",
+     "boolean | null, unknown",
+     "Aria attribute relaying whether button is expanded.",
+     "true"
+    ],
+    [
+     "ariaHaspopupInput",
+     "@Input()",
+     "false true when button is used within combobox and no custom value is given.",
+     "boolean | null, unknown",
+     "Sets button to combobox toggle button when true.",
+     "true"
+    ],
+    [
+     "ariaSelectedInput",
+     "@Input()",
+     "null",
+     "boolean | null, unknown",
+     "Aria attribute relaying whether button is selected. aria-current and aria-selected cannot be used together.",
+     "true"
+    ],
+    [
+     "buttonColorInput",
+     "@Input()",
+     "'primary' / ButtonColor.PRIMARY",
+     "ButtonColor | null",
+     "Sets button color scheme.",
+     "false"
+    ],
+    [
+     "buttonIcon",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "buttonSizeInput",
+     "@Input()",
+     "'medium' / ButtonSize.MEDIUM",
+     "ButtonSize | null",
+     "Sets button size.",
+     "false"
+    ],
+    [
+     "buttonStacked",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "destructive",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Sets button to destructive variant when true.",
+     "false"
+    ],
+    [
+     "disabledInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Disables button when true.",
+     "false"
+    ],
+    [
+     "roleInput",
+     "@Input()",
+     "",
+     "HTMLElement['role']",
+     "Sets role of button. If no custom role is given, role may be set by a parent component (nav, tabs, etc.).",
+     "true"
+    ],
+    [
+     "subtle",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Sets button to subtle variant when true.",
+     "false"
+    ],
+    [
+     "tabindexInput",
+     "@Input()",
+     "null -1 when button is used within combobox and no custom value is given.",
+     "null | number, unknown",
+     "Sets button's tabIndex.",
+     "true"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "ButtonColor"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "PRIMARY",
+     "'primary'"
+    ],
+    [
+     "SECONDARY",
+     "'secondary'"
+    ],
+    [
+     "TERTIARY",
+     "'tertiary'"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "ButtonSize"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "SMALL",
+     "'small'"
+    ],
+    [
+     "MEDIUM",
+     "'medium'"
+    ],
+    [
+     "LARGE",
+     "'large'"
+    ]
+   ]
+  }
+ ]
+}

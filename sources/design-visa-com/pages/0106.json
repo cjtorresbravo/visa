@@ -1,0 +1,220 @@
+{
+ "url": "https://design.visa.com/components/toggle-button",
+ "title": "Toggle button | Components | Visa Product Design System",
+ "h1": "Toggle button",
+ "readAt": "2026-10-15T17:07:49.819Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Toggle button"
+  },
+  {
+   "k": "p",
+   "t": "Selection element that allows users to switch between states or views."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Table of Contents Loading"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "7.0.0"
+  },
+  {
+   "k": "text",
+   "t": "6.0.2"
+  },
+  {
+   "k": "text",
+   "t": "5.1.3"
+  },
+  {
+   "k": "h2",
+   "t": "Single-select toggle buttons"
+  },
+  {
+   "k": "h2",
+   "t": "Multi-select toggle buttons"
+  },
+  {
+   "k": "h2",
+   "t": "Framework-specific toggle buttons"
+  },
+  {
+   "k": "h2",
+   "t": "Custom toggle buttons"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Directives"
+  },
+  {
+   "k": "h4",
+   "t": "ToggleContainerDirective"
+  },
+  {
+   "k": "p",
+   "t": "[v-toggle-container]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Binding Type",
+     "Property Type",
+     "Default",
+     "Description",
+     "Builtin"
+    ],
+    [
+     "disabled",
+     "input",
+     "boolean | null",
+     "false",
+     "Sets component as disabled when true.",
+     "false"
+    ],
+    [
+     "invalid",
+     "input",
+     "boolean | null",
+     "false",
+     "Marks component as invalid when true.",
+     "false"
+    ],
+    [
+     "multiselect",
+     "input",
+     "boolean | null",
+     "false",
+     "Allows multiple buttons to be selected when true. To be used with child Button components, not Radio or Checkbox.",
+     "false"
+    ],
+    [
+     "name",
+     "input",
+     "",
+     "this.idGenerator.newId('v-toggle');",
+     "Sets custom name.",
+     "true"
+    ],
+    [
+     "value",
+     "input",
+     "togglecontainervalue",
+     "null",
+     "Value of toggle container. Use [value] when you want to handle the value of the toggle container. Use (valuedChange) when you want the library to handle the value of the toggle container, but get notified of changes. Use [(value)] when you want the value to reflect changes by both you and the library.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "ToggleDirective"
+  },
+  {
+   "k": "p",
+   "t": "[v-toggle]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Binding Type",
+     "Property Type",
+     "Default",
+     "Description",
+     "Builtin"
+    ],
+    [
+     "toggleIcon",
+     "input",
+     "",
+     "false",
+     "Adds v-toggle-icon class for when toggle has icons only.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Constants"
+  },
+  {
+   "k": "h4",
+   "t": "ToggleContainerValue"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type"
+    ],
+    [
+     "ToggleContainerValue",
+     "number | string | (string | number | null)[] | null"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Related API content"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Selector"
+    ],
+    [
+     "IdGenerator",
+     ""
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1191 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/section-message",
+ "title": "Section message | Component | Nova Angular | Visa Product Design System",
+ "h1": "Section message",
+ "readAt": "2026-10-15T17:17:42.266Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Section message"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Empty informational section message",
+    "Default informational section message",
+    "Informational section message with title",
+    "Informational section message with link",
+    "Informational section message with button",
+    "Informational section message without close icon button",
+    "Empty success section message",
+    "Default success section message",
+    "Success section message with title",
+    "Success section message with link",
+    "Success section message with button",
+    "Success section message without close icon button",
+    "Empty warning section message",
+    "Default warning section message",
+    "Warning section message with title",
+    "Warning section message with link",
+    "Warning section message with button",
+    "Warning section message without close icon button",
+    "Empty error section message",
+    "Default error section message",
+    "Error section message with title",
+    "Error section message with link",
+    "Error section message with button",
+    "Error section message without close icon button",
+    "Empty subtle section message",
+    "Default subtle section message",
+    "Subtle section message with title",
+    "Subtle section message with link",
+    "Subtle section message with button",
+    "Subtle section message without close icon button",
+    "Reusable section message"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Informational section messages"
+  },
+  {
+   "k": "h2",
+   "t": "Set the component headings as needed for your use case."
+  },
+  {
+   "k": "p",
+   "t": "The examples below use heading tags where titles are present."
+  },
+  {
+   "k": "p",
+   "t": "In our demo examples, we use headings that follow our application's hierarchical structure."
+  },
+  {
+   "k": "p",
+   "t": "It is essential that you adjust these heading levels to match the structural needs of your application for optimal semantic accuracy and accessibility."
+  },
+  {
+   "k": "h3",
+   "t": "Empty informational section message"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default informational section message"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational section message with title"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Informational title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational section message with link"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational section message with button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational section message without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Success section messages"
+  },
+  {
+   "k": "h3",
+   "t": "Empty success section message"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default success section message"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success section message with title"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Success title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success section message with link"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success section message with button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success section message without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Warning section messages"
+  },
+  {
+   "k": "h3",
+   "t": "Empty warning section message"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default warning section message"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning section message with title"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Warning title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning section message with link"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning section message with button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning section message without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Error section messages"
+  },
+  {
+   "k": "h3",
+   "t": "Empty error section message"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default error section message"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error section message with title"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Error title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error section message with link"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error section message with button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error section message without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Subtle section messages"
+  },
+  {
+   "k": "h3",
+   "t": "Empty subtle section message"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default subtle section message"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Subtle section message with title"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Warning title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Subtle section message with link"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Subtle section message with button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Subtle section message without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Reusable section message"
+  },
+  {
+   "k": "text",
+   "t": "#AI-first"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Success title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the section message in more detail."
+  },
+  {
+   "k": "h4",
+   "t": "Boolean properties"
+  },
+  {
+   "k": "text",
+   "t": "Show icon"
+  },
+  {
+   "k": "text",
+   "t": "Dismissible"
+  },
+  {
+   "k": "text",
+   "t": "Show button"
+  },
+  {
+   "k": "text",
+   "t": "Show link"
+  },
+  {
+   "k": "h4",
+   "t": "Text/numeric properties"
+  },
+  {
+   "k": "text",
+   "t": "Title"
+  },
+  {
+   "k": "text",
+   "t": "Description"
+  },
+  {
+   "k": "text",
+   "t": "Message type"
+  },
+  {
+   "k": "text",
+   "t": "Success"
+  },
+  {
+   "k": "text",
+   "t": "Information"
+  },
+  {
+   "k": "text",
+   "t": "Warning"
+  },
+  {
+   "k": "text",
+   "t": "Error"
+  },
+  {
+   "k": "text",
+   "t": "Subtle"
+  },
+  {
+   "k": "text",
+   "t": "Title level"
+  },
+  {
+   "k": "text",
+   "t": "Apply"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "SectionMessageDirective",
+    "MessageDirective",
+    "MessageContentDirective",
+    "MessageIconDirective",
+    "MessageType"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - SectionMessageDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-section]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "messageType",
+     "@Input()",
+     "'information' / MessageType.INFORMATION",
+     "MessageType",
+     "Sets message type.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageContentDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message-content]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageIconDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message-icon]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "MessageType"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "CLOSE",
+     "'close'"
+    ],
+    [
+     "ERROR",
+     "'error'"
+    ],
+    [
+     "INFORMATION",
+     "'information'"
+    ],
+    [
+     "SUBTLE",
+     "'subtle'"
+    ],
+    [
+     "SUCCESS",
+     "'success'"
+    ],
+    [
+     "WARNING",
+     "'warning'"
+    ]
+   ]
+  }
+ ]
+}

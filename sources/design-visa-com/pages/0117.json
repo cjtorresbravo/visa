@@ -1,0 +1,41 @@
+{
+ "url": "https://design.visa.com/patterns/file-upload",
+ "title": "File upload | Patterns | Visa Product Design System",
+ "h1": "File upload",
+ "readAt": "2026-10-15T17:08:04.257Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "File upload"
+  },
+  {
+   "k": "p",
+   "t": "An interactive element that combines a file uploader with file cards to enable users to upload and manipulate files."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Task flows",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Automatic file upload"
+  },
+  {
+   "k": "p",
+   "t": "Drag-and-drop file upload with automatic processing and real-time status updates."
+  },
+  {
+   "k": "h3",
+   "t": "Manual file upload"
+  },
+  {
+   "k": "p",
+   "t": "File upload that requires user confirmation before processing selected files."
+  }
+ ]
+}

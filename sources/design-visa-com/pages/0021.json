@@ -1,0 +1,228 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/pdf/graphics",
+ "title": "Graphics | PDF | Global accessibility requirements | Visa Product Design System",
+ "h1": "Graphics",
+ "readAt": "2026-10-15T17:06:04.707Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Graphics"
+  },
+  {
+   "k": "p",
+   "t": "Find graphic requirements for testing PDFs."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Graphics (PDF-4)Text alternatives (PDF-4-1)Decorative images (PDF-4-2)Images with captions (PDF-4-3)No images of text (PDF-4-4)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Graphics (PDF-4)"
+  },
+  {
+   "k": "h3",
+   "t": "Text alternatives (PDF-4-1)"
+  },
+  {
+   "k": "p",
+   "t": "Provide text alternatives for images via an /Alt entry in the property list for a Tag."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the document for all meaningful images.",
+    "Verify the alt text for every image and ensure they are accurate and descriptive.",
+    "Verify that the alternative text is less than 150 characters long.",
+    "For complex images, verify that they have elaborative text descriptions (ideally in a close proximity to the image) rather than long alternative text strings that are more than 150 characters."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All images have descriptive alt text shorter than 150 characters OR visible and elaborative text descriptions for complex images (for example: graphs).",
+    "Fail: One or more images do not have alt text or visible elaborative text descriptions OR the alt text provided is not descriptive OR it is longer than 150 characters.",
+    "NA: No images are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 1.1.1 Non-text Content",
+    "PDF-U/A-1 - 7.3 Graphics"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Decorative images (PDF-4-2)"
+  },
+  {
+   "k": "p",
+   "t": "Purely decorative images in PDF documents MUST be marked with /Artifact so that they can be ignored by Assistive Technology."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the document for all decorative images.",
+    "Verify that every decorative image is appropriately marked as decorative or it is artifacted."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All non-text decorative content has been properly marked as decorative or artifacted.",
+    "Fail: Non-text decorative content has NOT been labeled as an artifact.",
+    "NA: There is no non-text decorative content present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 1.1.1 Non-text Content",
+    "PDF-U/A-1 - 7.3 Graphics"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Images with captions (PDF-4-3)"
+  },
+  {
+   "k": "p",
+   "t": "A caption accompanying a figure shall be tagged with a Caption tag."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the document for the presence of images with captions.",
+    "Verify that caption text is tagged as <Caption> and is a child element of the <Figure> tag that contains the actual image."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All the image captions are correctly tagged as <caption> and are child elements of the <figure> tag that contains the image.",
+    "Fail: Any image caption is not tagged as <caption> or is not a child element of the <figure> tag that contains the image.",
+    "NA: There are no images with captions are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 1.1.1 Non-text Content",
+    "PDF-U/A-1 - 7.3 Graphics"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "No images of text (PDF-4-4)"
+  },
+  {
+   "k": "p",
+   "t": "Text is used to convey information rather than images of text except logos and instances where text within images is unavoidable, such as in graphs or screenshots."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the document for images that contain text.",
+    "Verify that information is conveyed using actual text instead of images that contain text (the only exceptions are logos and instances where text within images is unavoidable, such as in graphs or screenshots)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Images of text are not used.",
+    "Fail: Images of text are used.",
+    "NA: There are no images of the text present OR the images are exempt from the requirement."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 1.1.1 Non-text Content",
+    "PDF-U/A-1 - 7.3 Graphics"
+   ]
+  }
+ ]
+}

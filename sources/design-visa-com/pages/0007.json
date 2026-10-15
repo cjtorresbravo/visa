@@ -1,0 +1,142 @@
+{
+ "url": "https://design.visa.com/what's-new/releases",
+ "title": "Releases | What's new | Visa Product Design System",
+ "h1": "Releases",
+ "readAt": "2026-10-15T17:05:48.118Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Releases"
+  },
+  {
+   "k": "p",
+   "t": "Learn about the latest version of the Visa Product Design System and the release history that got us here."
+  },
+  {
+   "k": "h2",
+   "t": "What are VPDS releases?"
+  },
+  {
+   "k": "p",
+   "t": "The Visa Product Design System team (VPDS) releases new additions and major improvements to its design and code libraries on a quarterly basis. Quarterly releases ensure VPDS maintains the highest standards of accessibility, usability, and aesthetic design. Each library is independently versioned following the semantic versioning standards."
+  },
+  {
+   "k": "p",
+   "t": "Minor releases including bug fixes and patches happen continuously on an as-needed basis."
+  },
+  {
+   "k": "h2",
+   "t": "Version history"
+  },
+  {
+   "k": "p",
+   "t": "Nova is the latest version of VPDS. Complete with design kits in Figma and extensive code libraries, Nova is updated regularly to maintain the highest standards of accessibility, usability, and aesthetic design. To learn more, visit the changelogs for CSS, Flutter, React, Angular, or visit Latest news."
+  },
+  {
+   "k": "h3",
+   "t": "Supported versions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Version",
+     "Description",
+     "Design release date",
+     "CSS version numbers",
+     "Flutter version numbers",
+     "React version numbers",
+     "Angular version numbers"
+    ],
+    [
+     "Nova",
+     "Major system release",
+     "August 2024",
+     "1.2.1–latest",
+     "7.0.0–latest",
+     "1.2.1–latest",
+     "3.1.1–latest"
+    ],
+    [
+     "Vault Key+",
+     "Maintenance only",
+     "August 2022",
+     "Not applicable",
+     "Not applicable",
+     "8.0.3–latest",
+     "10.0.0–latest"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Unsupported versions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Version",
+     "Description",
+     "Design release date",
+     "CSS version numbers",
+     "Flutter version numbers",
+     "React version numbers",
+     "Angular version numbers"
+    ],
+    [
+     "Nova",
+     "Major system release",
+     "August 2022",
+     "Below 1.2.1",
+     "Below 7.0.0",
+     "Below 1.2.1",
+     "Below 3.1.1"
+    ],
+    [
+     "Vault Key+",
+     "Updated brand colors and typography",
+     "April 2022",
+     "Not applicable",
+     "Not applicable",
+     "Below 8.0.3",
+     "Below 10.0.0"
+    ],
+    [
+     "Vault Key",
+     "Minor iteration of Vault to adjust color structure",
+     "December 2020",
+     "Not applicable",
+     "Not applicable",
+     "4.2.0–4.4.1",
+     "3.8.1–5.0.6"
+    ],
+    [
+     "Vault",
+     "Visa’s first in-house design system",
+     "2019",
+     "Not applicable",
+     "Not applicable",
+     "3.0.0–3.9.2",
+     "3.0.0–3.8.5"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Ready to get started?"
+  },
+  {
+   "k": "p",
+   "t": "Discover how VPDS can transform your product development process by choosing\n  one of the paths below."
+  },
+  {
+   "k": "text",
+   "t": "Start designing"
+  },
+  {
+   "k": "text",
+   "t": "Start developing"
+  }
+ ]
+}

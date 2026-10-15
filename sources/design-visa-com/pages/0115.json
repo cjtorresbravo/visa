@@ -1,0 +1,72 @@
+{
+ "url": "https://design.visa.com/patterns/dynamic-table",
+ "title": "Dynamic table | Patterns | Visa Product Design System",
+ "h1": "Dynamic table",
+ "readAt": "2026-10-15T17:08:01.565Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Dynamic table"
+  },
+  {
+   "k": "p",
+   "t": "Dynamic grid enabling data interaction, manipulation, and criteria-based analysis."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Default dynamic tables"
+  },
+  {
+   "k": "p",
+   "t": "Tables that enable users to interact with one column at a time."
+  },
+  {
+   "k": "h3",
+   "t": "Dynamic table loading states"
+  },
+  {
+   "k": "p",
+   "t": "Tables that visually indicate loading or processing states of a task or function."
+  },
+  {
+   "k": "h3",
+   "t": "Multi-select dynamic tables"
+  },
+  {
+   "k": "p",
+   "t": "Tables that enable users to select and interact with multiple rows simultaneously."
+  },
+  {
+   "k": "h3",
+   "t": "Expandable dynamic tables"
+  },
+  {
+   "k": "p",
+   "t": "Tables that enable users to expand individual rows to reveal additional information."
+  },
+  {
+   "k": "h3",
+   "t": "Dynamic table layouts"
+  },
+  {
+   "k": "p",
+   "t": "Tables that support action bars and pagination."
+  },
+  {
+   "k": "h3",
+   "t": "Dynamic table with filters"
+  },
+  {
+   "k": "p",
+   "t": "Tables that enable users to refine results by applying specific criteria."
+  }
+ ]
+}

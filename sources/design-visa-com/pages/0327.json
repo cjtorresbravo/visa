@@ -1,0 +1,715 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/dialog",
+ "title": "Dialog | Component | Nova Angular | Visa Product Design System",
+ "h1": "Dialog",
+ "readAt": "2026-10-15T17:17:09.917Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Dialog"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default dialog",
+    "Error dialog",
+    "Success dialog",
+    "Warning dialog",
+    "Dialog without close button",
+    "Touring tips dialog",
+    "Confirmation dialog",
+    "Reusable dialog demo"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Default dialogs"
+  },
+  {
+   "k": "p",
+   "t": "Install Angular CDK"
+  },
+  {
+   "k": "p",
+   "t": "These examples use CdkFocusTrap directives to trap focus. Use a this library (or an equivalent one) to achieve full VGAR compliance."
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn",
+    "Bun"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "npm install @angular/cdk@21.0.3"
+  },
+  {
+   "k": "text",
+   "t": "Angular CDK documentation"
+  },
+  {
+   "k": "h3",
+   "t": "Default dialog"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Open default dialog"
+  },
+  {
+   "k": "h2",
+   "t": "Default title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the dialog title in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Secondary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error dialog"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Open error dialog"
+  },
+  {
+   "k": "h2",
+   "t": "Error title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the dialog title in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success dialog"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Open success dialog"
+  },
+  {
+   "k": "h2",
+   "t": "Success title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the dialog title in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning dialog"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Open warning dialog"
+  },
+  {
+   "k": "h2",
+   "t": "Warning title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the dialog title in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Dialog without close button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Open dialog without close icon"
+  },
+  {
+   "k": "h2",
+   "t": "Error title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the dialog title in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Touring tips dialog"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Open touring tips dialog"
+  },
+  {
+   "k": "h2",
+   "t": "Touring tips title"
+  },
+  {
+   "k": "p",
+   "t": "Touring tips instructions"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the dialog title in more detail."
+  },
+  {
+   "k": "p",
+   "t": "2 of 4"
+  },
+  {
+   "k": "text",
+   "t": "Previous"
+  },
+  {
+   "k": "text",
+   "t": "Next"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Custom dialog"
+  },
+  {
+   "k": "h3",
+   "t": "Confirmation dialog"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Open confirmation dialog"
+  },
+  {
+   "k": "h2",
+   "t": "Confirmation title 1"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the dialog title in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "h2",
+   "t": "Confirmation title 2"
+  },
+  {
+   "k": "p",
+   "t": "Are you sure you want to close all dialogs?"
+  },
+  {
+   "k": "text",
+   "t": "Close all dialogs"
+  },
+  {
+   "k": "text",
+   "t": "Cancel"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Reusable dialog demo"
+  },
+  {
+   "k": "text",
+   "t": "#AI-first"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Open reusable dialog"
+  },
+  {
+   "k": "h2",
+   "t": "Reusable title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the dialog title in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Secondary action"
+  },
+  {
+   "k": "h4",
+   "t": "Boolean properties"
+  },
+  {
+   "k": "text",
+   "t": "Dismissible"
+  },
+  {
+   "k": "text",
+   "t": "Show icon"
+  },
+  {
+   "k": "text",
+   "t": "Show primary button"
+  },
+  {
+   "k": "text",
+   "t": "Show secondary button"
+  },
+  {
+   "k": "h4",
+   "t": "Text/numeric properties"
+  },
+  {
+   "k": "text",
+   "t": "Title"
+  },
+  {
+   "k": "text",
+   "t": "Description"
+  },
+  {
+   "k": "text",
+   "t": "Message type"
+  },
+  {
+   "k": "text",
+   "t": "Information"
+  },
+  {
+   "k": "text",
+   "t": "Success"
+  },
+  {
+   "k": "text",
+   "t": "Warning"
+  },
+  {
+   "k": "text",
+   "t": "Error"
+  },
+  {
+   "k": "text",
+   "t": "Primary button label"
+  },
+  {
+   "k": "text",
+   "t": "Secondary button label"
+  },
+  {
+   "k": "text",
+   "t": "Apply"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "DialogDirective",
+    "DialogHeaderDirective",
+    "DialogTextDirective",
+    "MessageDirective",
+    "MessageContentDirective",
+    "MessageIconDirective",
+    "MessageType",
+    "IdGenerator"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - DialogDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-dialog]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "descriptionLabelInput",
+     "@Input()",
+     "'<this.id>-description'",
+     "null | string",
+     "Aria attribute pointing to id of descriptive element.",
+     "true"
+    ],
+    [
+     "id",
+     "@Input()",
+     "idGenerator.newId('v-dialog')",
+     "string",
+     "Sets custom id.",
+     "true"
+    ],
+    [
+     "labelInput",
+     "@Input()",
+     "'<this.id>-title'",
+     "null | string",
+     "Aria attribute pointing to id of labelling element.",
+     "true"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - DialogHeaderDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-dialog-header]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "idInput",
+     "@Input()",
+     "'<parent-dialog-id>-label' if no id is provided",
+     "null | string",
+     "Sets custom id.",
+     "true"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - DialogTextDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-dialog-text]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "idInput",
+     "@Input()",
+     "'<parent-dialog-id>-description' if no id is provided.",
+     "HTMLElement['id'] | null",
+     "Sets custom id.",
+     "true"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "messageType",
+     "@Input()",
+     "'information' / MessageType.INFORMATION",
+     "MessageType",
+     "Sets message type.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageContentDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message-content]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageIconDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message-icon]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "MessageType"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "CLOSE",
+     "'close'"
+    ],
+    [
+     "ERROR",
+     "'error'"
+    ],
+    [
+     "INFORMATION",
+     "'information'"
+    ],
+    [
+     "SUBTLE",
+     "'subtle'"
+    ],
+    [
+     "SUCCESS",
+     "'success'"
+    ],
+    [
+     "WARNING",
+     "'warning'"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "IdGenerator"
+  },
+  {
+   "k": "code",
+   "t": "import { APP_ID, inject, Injectable } from '@angular/core';\n\n/**\n * Keeps track of the ID count per prefix. This helps us make the IDs a bit more deterministic.\n */\nlet counters: Record<string, number> = {};\n\n/**\n * Service that generates unique IDs for DOM nodes.\n * Note that this service should not be used inside templates and should only be used within classes or else id will change with every render.\n * @docs {@link https://design.visa.com/developing/angular/services/id-generator | See docs}\n */\n@Injectable({ providedIn: 'root' })\nexport class IdGenerator {\n  private readonly appId: null | string = inject(APP_ID, { optional: true });\n\n  /**\n   * Generates a unique ID with a specific prefix.\n   * @param prefix Prefix to add to the ID.\n   */\n  public newId(prefix: string = ''): string {\n    // Omit the app ID if it's the default `ng`. Since the vast majority of pages have one\n    // Angular app on them, we can reduce the amount of breakages by not adding it.\n    if (this.appId && this.appId !== 'ng') prefix = `${this.appId}-${prefix}`;\n    if (!counters.hasOwnProperty(prefix)) counters[prefix] = 0;\n    return `${prefix}-${counters[prefix]++}`;\n  }\n\n  /**\n   * Resets the counters for the IDs.\n   * This is useful when testing to ensure that the IDs are deterministic.\n   * @deprecated WARNING: This should only be used in tests. Do NOT use this in an actual application.\n   */\n  public static reset(): void {\n    counters = {};\n  }\n}"
+  }
+ ]
+}

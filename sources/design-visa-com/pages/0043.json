@@ -1,0 +1,86 @@
+{
+ "url": "https://design.visa.com/developing/react/accessibility-utilities",
+ "title": "Accessibility utilities | React | Developing | Visa Product Design System",
+ "h1": "Accessibility utilities",
+ "readAt": "2026-10-15T17:06:33.481Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Accessibility utilities"
+  },
+  {
+   "k": "p",
+   "t": "Create screen reader-friendly code in React to enhance the accessibility of your apps."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Accessibility utilities"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Nova React version"
+  },
+  {
+   "k": "text",
+   "t": "3.1.0"
+  },
+  {
+   "k": "text",
+   "t": "3.0.0"
+  },
+  {
+   "k": "text",
+   "t": "2.5.4"
+  },
+  {
+   "k": "h2",
+   "t": "Accessibility utilities"
+  },
+  {
+   "k": "h3",
+   "t": "Screen reader-only text"
+  },
+  {
+   "k": "text",
+   "t": "Loading accessibility example Screen reader-only text"
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "h3",
+   "t": "Screen reader-only table caption"
+  },
+  {
+   "k": "text",
+   "t": "Loading accessibility example Screen reader-only table caption"
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  }
+ ]
+}

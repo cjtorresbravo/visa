@@ -1,0 +1,271 @@
+{
+ "url": "https://design.visa.com/components/pagination/usage",
+ "title": "Pagination | Components | Visa Product Design System",
+ "h1": "Pagination",
+ "readAt": "2026-10-15T17:10:28.769Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Pagination"
+  },
+  {
+   "k": "p",
+   "t": "Set of links used to navigate content that's split between multiple pages."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesDefault paginationSlim paginationPlacementResults per page",
+    "Behaviors",
+    "Platform considerationsWeb (default)Mobile",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Pagination is a set of links that allow users to navigate content split into multiple pages. It typically includes navigational controls such as next and previous buttons, as well as direct links to specific pages.\nAlso known as: Page navigation, page toggle, page numbers, paging."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Skip navigation arrow (optional): Links allowing users to skip to the first or last page.\nB. Sequential navigation arrow (required): Links enabling users to navigate forward or back one page.\nC. Page numbers (required): Visible numbers linking to other pages in the collection.\nD. Selected  page number (required): Indicator of the current page the user is interacting with.\nE. Overflow ellipsis (optional): Non-interactive separator between the start or end page numbers."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Default",
+     "To allow users to navigate a collection of content split into multiple pages.",
+     "For content that can reasonably fit onto one page."
+    ],
+    [
+     "Slim pagination",
+     "When space is limited, especially when other ways to filter down results are present.",
+     "For content split across more than three pages."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure all page numbers and arrows function as interactive links, except the currently selected page.",
+    "Use a clear visual indicator to show which page is currently selected.",
+    "Always allow users to navigate to the first page, last page, back one page, or forward one page using navigation arrows.",
+    "Display a manageable number of page links, using ellipsis to truncate the list if necessary."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure navigation arrows are disabled when the first or last page is selected."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Include too many pages. Ideally, sets should not go over 100 pages."
+  },
+  {
+   "k": "h3",
+   "t": "Default pagination"
+  },
+  {
+   "k": "p",
+   "t": "Default pagination provides a standard way to navigate through large volumes of content or datasets. It’s ideal for larger sets of content because it includes more functionality for users to easily move between pages. It typically includes sequential navigational controls, such as next and previous buttons, as well as ellipses and skip navigation controls for users to move to the first and last pages."
+  },
+  {
+   "k": "h3",
+   "t": "Slim pagination"
+  },
+  {
+   "k": "p",
+   "t": "Slim pagination is a more compact version of default pagination, designed for scenarios where screen space is limited or when a cleaner, less cluttered interface is desired. It includes only the essential navigational controls, such as next and previous buttons, and may omit direct links to specific pages. Slim pagination is ideal for mobile interfaces or when the total number of pages is relatively small and it’s feasible for the user to navigate one page at a time."
+  },
+  {
+   "k": "h3",
+   "t": "Placement"
+  },
+  {
+   "k": "p",
+   "t": "Pagination is usually centered below an element or at the foot of page content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place pagination controls in consistent locations throughout an interface."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Results per page"
+  },
+  {
+   "k": "p",
+   "t": "The “Results per page” feature allows users to control how many items they see on each page of a paginated list. This functionality gives users the flexibility to view more or fewer items per page according to their preferences or needs. It’s particularly useful in scenarios where users may want to adjust the volume of information they are processing, such as in search results, product listings, or data tables."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Set a reasonable default number of results per page that balances performance and usability, such as 10 to 20 items, without overwhelming users with too many choices.",
+    "Clearly indicate the current selection of results per page and make it easy for users to change this setting.",
+    "Save the user’s preference for the number of results per page, so that they don’t have to re-select it each time they return to the same page or application.",
+    "Ensure that the “Results per page” feature works well on mobile devices, where screen space is limited and users may prefer fewer results per page to avoid excessive scrolling."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "p",
+   "t": "Pagination has a number of expected behaviors depending on the type selected. The guidance below outlines the expected behaviors of default pagination."
+  },
+  {
+   "k": "h3",
+   "t": "First four pages selected"
+  },
+  {
+   "k": "p",
+   "t": "When users navigate through pages 1–4 in a pagination set, pagination includes one overflow ellipsis symbol representing the pages between the fifth and last page. When page 1 is selected, the arrow buttons to navigate backward should be disabled."
+  },
+  {
+   "k": "h3",
+   "t": "Middle pages selected"
+  },
+  {
+   "k": "p",
+   "t": "When users select any page other than the first four or last four, pagination includes two overflow ellipsis symbols on either end of three internal page numbers. The selected page should always be the center of the set. The first and last page number should always show and all navigation arrows should be active."
+  },
+  {
+   "k": "h3",
+   "t": "Last four pages selected"
+  },
+  {
+   "k": "p",
+   "t": "When users navigate through the last four pages, pagination includes one overflow ellipsis symbol after the number representing page 1. When the last page is selected, the arrow buttons to navigate forward should be disabled."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Web (default)"
+  },
+  {
+   "k": "p",
+   "t": "For web, pagination is shown in a single line with all four navigational arrows and utilizes the behaviors outlined above around overflow. Depending on the use case, navigational arrows can be simplified to the include only sequential controls."
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "Mobile screen sizes use a five-control design that limits how many pages are available to users. While pagination for mobile screen sizes is available, it’s generally not recommended for use and isn’t available in mobile native."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use the slim pagination component or a mobile alternative when the web screen is too small."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use default pagination on small screen sizes that would require truncating or changing its visual appearance."
+  },
+  {
+   "k": "p",
+   "t": "Consider implementing these common alternatives in place of mobile pagination."
+  },
+  {
+   "k": "h3",
+   "t": "Infinite scrolling"
+  },
+  {
+   "k": "p",
+   "t": "Infinite scrolling automatically loads new content as a user scrolls through the page, eliminating the need to manually navigate to the next page."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use for content-heavy applications where continuous exploration is needed.",
+    "Provide visual feedback if needed, such as a loading spinner, to indicate that new content is being loaded.",
+    "Avoid infinite scrolling for content where users might need to find specific information quickly."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "“Load more” button scrolling"
+  },
+  {
+   "k": "p",
+   "t": "“Load more” buttons allow users to manually load content as needed. It provides more control than infinite scrolling, enabling users to decide when they want more information."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place the “load more” button at the bottom of the content list, ensuring it’s easily accessible.",
+    "Clearly indicate when new content has been loaded to avoid confusion.",
+    "Consider adding a counter or Progress indicator to show how much content remains unloaded."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Table"
+  },
+  {
+   "k": "p",
+   "t": "Fixed grid that organizes information or data using columns and rows."
+  },
+  {
+   "k": "h3",
+   "t": "Dynamic table"
+  },
+  {
+   "k": "p",
+   "t": "Dynamic grid enabling data interaction, manipulation, and criteria-based analysis."
+  }
+ ]
+}

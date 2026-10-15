@@ -1,0 +1,234 @@
+{
+ "url": "https://design.visa.com/components/section-message/usage",
+ "title": "Section message | Components | Visa Product Design System",
+ "h1": "Section message",
+ "readAt": "2026-10-15T17:10:39.498Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Section message"
+  },
+  {
+   "k": "p",
+   "t": "Section-level messages about the status of a page or action."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practices",
+    "BehaviorsDismissal",
+    "Placement",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Section messages offer feedback that is specific to a user’s actions or the status of a particular page section. Rather than applying to the whole site or application, these messages are unique to individual sections and appear near the associated content. They remain visible until the user either engages more or decides to close them."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Informational notice, inline message, alert, callout, message bar, notification."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Icon (required): Visual indicator communicating the urgency of the section message.  B. Title (optional): Brief text summarizing the purpose of the section message.  C. Message (required): Descriptive message detailing important contextual information.  D. Close icon button (optional): Icon button used as a close button alternative that allows users to manually dismiss the message.  E. Button and link (optional): Text button or link that prompts an action or providing access to resources relevant to the message."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Informational",
+     "For low-priority status updates contextually relevant to the user’s current workflow.",
+     "For informational messages that are of high enough priority to disrupt the user’s workflow, even though they may not require immediate action. Use a Dialog instead. For low-priority, system-level messages. Use a Banner instead. For low-priority feedback or status updates that don’t require user action or attention. Use a Flag instead."
+    ],
+    [
+     "Success",
+     "Success section messages are not a common use case.",
+     "For system- or section-level success, including on-page event confirmations. Use a Flag instead. If the user is taken to a success page on submit. Don’t use a messaging component in this case."
+    ],
+    [
+     "Warning",
+     "For medium-priority feedback warning of potential issues within the section. This is the most frequent use case.",
+     "For high-priority warnings that must be fixed or acknowledged before continuing. Use a Dialog instead. For medium-priority, system-level messages that require attention but not disruption. Use a Banner instead. For low-priority warnings that don’t require user action or attention. Use a Flag instead."
+    ],
+    [
+     "Error",
+     "For high-priority feedback alerting that errors or issues have occurred within the section and must be fixed.",
+     "For high-priority errors that must be fixed before continuing. Use a Dialog instead. For high priority, system-level errors that require attention. Use a Banner instead."
+    ],
+    [
+     "Subtle",
+     "For low-priority feedback notifying users of tips or more information.",
+     "For high-priority errors or feedback. Use section messages that denote more critical status instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure section messages do not block interactive elements or content within the page section.",
+    "Visit Button to learn about best practices for alignment, order, and language for calls to action.",
+    "Visit Feedback and status to learn how to use messaging components, understand their level of disruption, and choose the appropriate messaging component for your context."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Place section messages at the top of the respective section, immediately below the section title, within the page content."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Anchor section messages to the top of a page, as they don’t pertain to all the sections."
+  },
+  {
+   "k": "p",
+   "t": "Do     Stack messages within the same section by urgency or importance. This applies to individual sections, not the page."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Exceed more than three messages per section and aim for no more than five total messages per page to maintain clarity."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use subtle section messages as a way to call out information with less visual attention."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use subtle section message to convey critical information or statuses, like errors or warnings."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Dismissal"
+  },
+  {
+   "k": "p",
+   "t": "In general, users should be allowed to dismiss section messages using a close icon button or text button. Section messages should also dismiss when users complete an associated action, such as correcting an error. Avoid using timed auto-dismissal for section messages, as they may disappear before screen readers finish announcing the text."
+  },
+  {
+   "k": "p",
+   "t": "Do     Show all messages simultaneously on page load and allow users to dismiss them at their own pace."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Require users to dismiss messages one at a time before receiving the next one."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use either a close button or a close icon button, and implement them consistently across your experience."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Combine close buttons with close icons or alternate between them in your experience."
+  },
+  {
+   "k": "p",
+   "t": "Do     Allow users to manually dismiss section messages, ensuring the messages persist until they are dismissed by the user."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Auto-dismiss section messages as it may cause users, including screen readers, to miss crucial information."
+  },
+  {
+   "k": "h2",
+   "t": "Placement"
+  },
+  {
+   "k": "p",
+   "t": "Section messages should be placed at the top of the sections they pertain to, either above or below the section title. Consider screen reader order when choosing a placement method. Whichever you choose, implement it consistently across your experience."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Learn how to craft content for messaging components, like section messages, visit Messaging.",
+    "Follow guidelines for Link and Button components when labeling actions and destinations within section messages."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Banner"
+  },
+  {
+   "k": "p",
+   "t": "Messages that indicate the global status of an application or website."
+  },
+  {
+   "k": "h3",
+   "t": "Flag"
+  },
+  {
+   "k": "p",
+   "t": "Messages that provide low-priority updates about a process or event."
+  },
+  {
+   "k": "h3",
+   "t": "Messaging"
+  },
+  {
+   "k": "p",
+   "t": "Craft content for alert components to increase trust, reduce errors, and improve system performance."
+  },
+  {
+   "k": "h3",
+   "t": "Feedback and status"
+  },
+  {
+   "k": "p",
+   "t": "Learn which components to use when communicating contextual or system feedback and status."
+  }
+ ]
+}

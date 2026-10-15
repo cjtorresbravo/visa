@@ -1,0 +1,194 @@
+{
+ "url": "https://design.visa.com/components/badge/usage",
+ "title": "Badge | Components | Visa Product Design System",
+ "h1": "Badge",
+ "readAt": "2026-10-15T17:09:08.720Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Badge"
+  },
+  {
+   "k": "p",
+   "t": "Visual indicators that communicate the status of a component."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesLabel badgesNumber badgesPlacement",
+    "Platform considerationsMobile",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Badges provide brief information, statuses, or counts related to an item or element. They can be used to draw attention to new or important information, such as notifications, messages, or updates.\nAlso known as: Info tag."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Icon (optional): Leading icon used to represent badges that can be used with or without a label.\nB. Label (optional): Brief text providing information about a specific item or element.\nC. Background color (required): Visual indicator to help convey the badge status."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Label badge",
+     "If text is needed to describe the status.",
+     "If the text is too long or complex."
+    ],
+    [
+     "Number badge",
+     "To indicate counts of the element it’s tied to, like notifications.",
+     "If the count doesn’t provide meaningful information to the user."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure badges are static and not interactive.",
+    "Ensure badges are easily noticeable but don’t obscure their associated element or other important information.",
+    "Avoid using badges if they add complexity, ambiguity, or visual noise.",
+    "Ensure the label text, icons, and background color collectively convey the badge information accurately."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Keep badge labels short and succinct."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use verbs within badges as they could be mistaken for an interactive element like a button."
+  },
+  {
+   "k": "h3",
+   "t": "Label badges"
+  },
+  {
+   "k": "p",
+   "t": "Label badges use text to convey information. Ensure the label and background color match to accurately convey the badge information. For example, only use the yellow background color to convey warning information."
+  },
+  {
+   "k": "h4",
+   "t": "Label and icon badge"
+  },
+  {
+   "k": "p",
+   "t": "Use icons to indicate status or condition of an element, especially for common meanings."
+  },
+  {
+   "k": "h4",
+   "t": "Label badge with ellipse"
+  },
+  {
+   "k": "p",
+   "t": "Use the ellipse indicator when more visual emphasis is needed and intuitive icons aren’t available."
+  },
+  {
+   "k": "h3",
+   "t": "Number badges"
+  },
+  {
+   "k": "p",
+   "t": "Number badges are small, circular badges that only convey a count or number. They’re commonly used to indicate notifications. They can be paired with UI icons such as the notification bell or with other components such as tab bars. They’re tied to the element that it represents the count for."
+  },
+  {
+   "k": "h3",
+   "t": "Placement"
+  },
+  {
+   "k": "p",
+   "t": "Badges are typically placed alongside the element they are supporting or calling attention to."
+  },
+  {
+   "k": "h4",
+   "t": "Section notifications"
+  },
+  {
+   "k": "p",
+   "t": "Section notifications group related messages to help organize large numbers of notifications. A number badge can be attached to different sections to show unread items. When a user navigates to a section, the notifications appear, and the badge disappears. Not all sections may need notifications, so consider whether a global notification system might work better for your application."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "In mobile designs, badges can appear as an individual ellipse when the number badge is too large compared to the component or icon. In this scenario, the badge indicates that one or more notifications are available, but doesn’t indicate how many or provide specific status updates."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use simple language—avoid abbreviations or jargon.",
+    "Write all content in sentence case, except for acronyms or proper nouns.",
+    "Don’t use punctuation for badge labels.",
+    "Limit labels to a few short words.",
+    "Reference Grammar and punctuation to learn how to use parallel structure for consistent phrasing."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Feedback and status"
+  },
+  {
+   "k": "p",
+   "t": "Learn which components to use when communicating contextual or system feedback and status."
+  }
+ ]
+}

@@ -1,0 +1,196 @@
+{
+ "url": "https://design.visa.com/base-elements/design-tokens/overview",
+ "title": "Overview | Design tokens | Base elements | Visa Product Design System",
+ "h1": "About design tokens",
+ "readAt": "2026-10-15T17:06:59.499Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "About design tokens"
+  },
+  {
+   "k": "p",
+   "t": "Explore guidance for using design tokens or variables to customize themes and experiences."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "What are design tokens?",
+    "What is theming?",
+    "Themes in our system",
+    "Theme elementsColorTypographyIconsElevationSize and shapeSpacing",
+    "Customizing a theme",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "What are design tokens?"
+  },
+  {
+   "k": "p",
+   "t": "Design tokens are name-value pairs that define small, repeatable design decisions. Tokens can represent colors, typography, spacing, or even icons tailored to specific needs. Designers can use Visa Product Design System (VPDS) design tokens in Figma to easily adjust visual properties, while developers can modify a set of global variables to achieve the same effect in code."
+  },
+  {
+   "k": "h2",
+   "t": "What is theming?"
+  },
+  {
+   "k": "p",
+   "t": "Theming is the practice of using a collection of token values to achieve a specific look or style. A theme is essentially a predefined set of tokens designed to work together harmoniously. Examples of themes include Visa light and dark. Theming can also extend beyond colors to include elevation, spacing, and shape and size."
+  },
+  {
+   "k": "h3",
+   "t": "Theming terms"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Term",
+     "Definition"
+    ],
+    [
+     "Theme",
+     "A collection of visual attributes assigned to the tokens in order to create a specific aesthetic."
+    ],
+    [
+     "Design token",
+     "A role-based identifier that assigns a value to a theme. Design tokens are universal and never change across themes. These are sometimes referred to as variables although not all variables are design tokens."
+    ],
+    [
+     "Value",
+     "The actual style (such as a hex code) assigned to a token."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Themes in our system"
+  },
+  {
+   "k": "h3",
+   "t": "Visa"
+  },
+  {
+   "k": "p",
+   "t": "The Visa theme supports light and dark modes. This theme automatically defaults to your system’s preferences unless you override this behavior. Learn more about switching between light and dark modes."
+  },
+  {
+   "k": "h3",
+   "t": "Default"
+  },
+  {
+   "k": "p",
+   "t": "The Default theme uses the VPDS color theming system for non-Visa branded products. It supports light and dark modes and automatically defaults to your system’s preferences unless you override this behavior. Learn more about switching between light and dark modes."
+  },
+  {
+   "k": "h2",
+   "t": "Theme elements"
+  },
+  {
+   "k": "p",
+   "t": "VPDS supports theming at various levels, from broad adjustments to component-specific changes. Both CSS and Figma can be used to override system values for color, typography, icons, elevation, shape and size, and spacing."
+  },
+  {
+   "k": "h3",
+   "t": "Color"
+  },
+  {
+   "k": "p",
+   "t": "Colors can be adjusted to represent Visa, our clients, or fictitious companies. Each theme is assigned universal color variables based on common roles and usage, ensuring uniform color application across themes while maintaining full styling flexibility. Always consider contrast requirements to ensure designs are accessible to all users.  For more information, visit Color."
+  },
+  {
+   "k": "h3",
+   "t": "Typography"
+  },
+  {
+   "k": "p",
+   "t": "Visa Dialect UI is the standard font for Visa-branded digital interfaces. For non-Visa branded experiences, you can adjust the font choice as needed, but avoid using Visa Dialect or Visa Dialect UI. Mobile applications may benefit from using native fonts based on the platform to take advantage of built-in features. For browser-based applications, we recommend Open Sans. Maintain the size ratios shown in the type ramp to ensure consistent text hierarchy across experiences. \nFor more information, including our type ramp, visit Typography."
+  },
+  {
+   "k": "h3",
+   "t": "Icons"
+  },
+  {
+   "k": "p",
+   "t": "VPDS currently supports two sets of icons: Visa-branded and generic, to represent ideas, actions, and entities. Products using the Visa theme should use the Visa icon set, while all non-Visa themes should use the generic set. To learn more about the icons available for use, visit Icons and illustrations."
+  },
+  {
+   "k": "h3",
+   "t": "Elevation"
+  },
+  {
+   "k": "p",
+   "t": "Elevation tokens define the perceived surface level and shadow, creating depth and hierarchy in your designs. These help simulate realistic lighting and layering effects, ensuring a cohesive and polished visual experience.  For more information, including how to layer elements in CSS, React, and Angular, visit Elevation."
+  },
+  {
+   "k": "h3",
+   "t": "Size and shape"
+  },
+  {
+   "k": "p",
+   "t": "Size and shape define the corner rounding and dimensions of components within the system. Use the Figma assets panel to apply preset rounding options, such as Square, Less rounded, More rounded, or Full rounded. Similarly, the size of individual design elements or entire layouts can be scaled up or down to fit your use case.  For more information, visit Size and shape."
+  },
+  {
+   "k": "h3",
+   "t": "Spacing"
+  },
+  {
+   "k": "p",
+   "t": "Spacing refers to the blank space inside and around elements to achieve various levels of visual density. Use the Figma assets panel to apply preset spacing options, including Dense, Default, or Spacious layouts.   For more information, visit Spacing."
+  },
+  {
+   "k": "h2",
+   "t": "Customizing a theme"
+  },
+  {
+   "k": "p",
+   "t": "Designers and developers can customize their components and styles to deviate from the default Visa light theme. Within Figma, designers can modify one, some, or all of the default token values to create a new theme. Developers can configure these new values in the appropriate files, either replacing the default values or adding new custom tokens."
+  },
+  {
+   "k": "text",
+   "t": "Design tokens for designers"
+  },
+  {
+   "k": "text",
+   "t": "Design tokens for developers"
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Color"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to use Visa brand colors to create and maintain consistent and engaging experiences."
+  },
+  {
+   "k": "h3",
+   "t": "Typography"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance, examples, and code to enhance readability through consistent text styles and hierarchy."
+  }
+ ]
+}

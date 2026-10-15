@@ -1,0 +1,183 @@
+{
+ "url": "https://design.visa.com/data-visualization/charts/heatmap/accessibility",
+ "title": "Heatmap | Charts | Data visualization | Visa Product Design System",
+ "h1": "Heatmap",
+ "readAt": "2026-10-15T17:12:18.319Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Heatmap"
+  },
+  {
+   "k": "p",
+   "t": "Chart where each cell represents the value of the category pairing to show most  and least common combinations of values within a matrix."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Usage",
+    "Accessibility",
+    "Examples",
+    "Code"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practicesMake thoughtful color choicesWrite clear alternative textAdd descriptive labels for data",
+    "Keyboard controls"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "This chart component has built-in accessibility features to support creating accessible charts from the start. These include descriptive tag properties, keyboard navigation controls, and tools to ensure sufficient color contrast. Find accessibility guidance below."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component to create accessible data experiences for everyone, everywhere."
+  },
+  {
+   "k": "h3",
+   "t": "Make thoughtful color choices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure users of all abilities can understand the meaning of colors in your data visualization. Choose color combinations that provide sufficient contrast and add textures to support color-blind and low vision users."
+  },
+  {
+   "k": "h4",
+   "t": "Use accessible color palettes"
+  },
+  {
+   "k": "p",
+   "t": "Do     Use color pairings that distinguish between colors to support different forms of color blindness."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use color combinations known to cause issues for users with color-blindness, like certain reds and greens."
+  },
+  {
+   "k": "h4",
+   "t": "Outline light objects"
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure that light-colored objects on a light background have an outline that meets contrast requirements."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use light-colored objects against a light background or remove the default outline, as this makes it harder to view."
+  },
+  {
+   "k": "h3",
+   "t": "Write clear alternative text"
+  },
+  {
+   "k": "p",
+   "t": "Use the chart components’ descriptive tag properties to provide concise and informative alternative text for screen readers."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Accessibility property",
+     "Guidance",
+     "Example"
+    ],
+    [
+     "longDescription",
+     "Summarize what the chart shows and the type of data. Use simple language for straightforward charts. Describe the layout for uncommon chart types. Avoid repeating the chart title or subtitle.",
+     "“This bar chart shows monthly payment volume for this year compared to last year.” “This strip chart displays transaction volume across major European cities, with each city represented by a circle placed according to spending volume.”"
+    ],
+    [
+     "statisticalNotes",
+     "Clearly state the takeaway and highlight key statistical insights and trends. Group data points to show patterns or outliers. Do not list numbers without explaining their meaning.",
+     "“Sales numbers increased every month except June and July.” “Europe and Asia Pacific had over 5% growth, while Asia Pacific lagged the global average at 1%.”"
+    ],
+    [
+     "contextExplanation",
+     "Explain which controls or filters affect the chart. Communicate any selections that have been applied to exclude or change the displayed data.",
+     "“The values in this chart are based on the filter selections applied to the dashboard.”"
+    ],
+    [
+     "structureNotes",
+     "Note special visual features not covered elsewhere, such as sorting or color grouping. Use only if previous fields do not fully describe the chart.",
+     "“Sorting is applied to show highest values first. Bars that are above average are highlighted in dark blue and all other bars are gray.”"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Add descriptive labels for data"
+  },
+  {
+   "k": "p",
+   "t": "Use the chart components’ custom labeling options to provide clear and descriptive names for displayed data. Labels like “num_transactions” may work during analysis, but “Number of transactions” is easier for users to understand and interpret."
+  },
+  {
+   "k": "h4",
+   "t": "Data labels"
+  },
+  {
+   "k": "h4",
+   "t": "Tooltips"
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard controls"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a row."
+    ],
+    [
+     "Shift+Enter",
+     "Drill up a level on a row or a cell."
+    ],
+    [
+     "←→",
+     "Move among cells across rows when focusing on a row or a cell."
+    ],
+    [
+     "↑↓",
+     "Move among cells across rows when focusing on a row or a cell."
+    ],
+    [
+     "Control+Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (VoiceOver)."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ]
+   ]
+  }
+ ]
+}

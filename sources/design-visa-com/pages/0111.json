@@ -1,0 +1,234 @@
+{
+ "url": "https://design.visa.com/patterns/address",
+ "title": "Address | Patterns | Visa Product Design System",
+ "h1": "Address",
+ "readAt": "2026-10-15T17:07:56.163Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Address"
+  },
+  {
+   "k": "p",
+   "t": "Groups of input or text fields that collect address details from users."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesFamiliar formatting",
+    "BehaviorsAutosuggestAutocompleteStates and provincesCountry code and phone number",
+    "ContentLabels",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "The address pattern is a set of input fields intuitively laid out to collect address information. Users can enter their name, country, street address, city, state, ZIP code, country code, and phone number information.\nAlso known as: Address country code, country selection, address state abbreviations, billing address, mailing address, shipping address."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Name fields (required): Text input field for first name and last name to be entered in separate fields.\nB. Country field (required): Combobox input field for country selection.\nC. Address field (required): Text input field for address entry. The second address line is optional.\nD. City, State, and ZIP code fields (required): Text input fields for City, State and ZIP code entry.\nE. Country code field (required): Combobox input field for country code entry.\nF. Phone number field (required): Numeric input field for phone number entry."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "When user’s address information needs to be collected.",
+     "In cases where the user’s address isn’t necessary or the application requires minimal data collection."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow all guidelines found in Input and Combobox when implementing those items in the address pattern.",
+    "Match address information to local region expectations whenever possible."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Familiar formatting"
+  },
+  {
+   "k": "p",
+   "t": "Display content in a format that’s familiar and intuitive to users. Aim to reflect the pattern that the information is usually presented in for that region to make it easier for users to understand the content. Some fields such as postal code or phone number may include text formatting. The order that these fields appear may also be different from the provided layout. Make sure to use the correct labels and address form fields to increase form success."
+  },
+  {
+   "k": "h4",
+   "t": "Name order"
+  },
+  {
+   "k": "p",
+   "t": "In some regions, the last name should be the first field in this set. If this is a billing address, the name should match the name of the registered card holder. Check with your product team and the US Office of Foreign Assets Control (OFAC) for specific business requirements."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Autosuggest"
+  },
+  {
+   "k": "p",
+   "t": "Each region and locale should have an optimized address format, which may be adjusted based on country selection. Autosuggest provides a list of suggested addresses as the user types. The suggestions typically come from a database of known addresses, and the user can select the correct one from the list. This helps in reducing user errors and speeds up the process of filling out the form. Learn more about Autosuggest in Input."
+  },
+  {
+   "k": "h3",
+   "t": "Autocomplete"
+  },
+  {
+   "k": "p",
+   "t": "Enable autocomplete of the rest of the address fields (such as city, state, and ZIP code) once the user completes typing or selects an address from the autosuggest list. Allow free-form input in the main fields in case there are unregistered addresses."
+  },
+  {
+   "k": "h3",
+   "t": "States and provinces"
+  },
+  {
+   "k": "p",
+   "t": "The user selects their state using a combobox. Refer to the Full menu with automatic selection section in the combobox guidelines for complete keyboard and interaction behavior and guidance on autocomplete functionality."
+  },
+  {
+   "k": "h4",
+   "t": "Shortened field width"
+  },
+  {
+   "k": "h4",
+   "t": "Typed input"
+  },
+  {
+   "k": "h4",
+   "t": "Reopening the field"
+  },
+  {
+   "k": "p",
+   "t": "When reopened, the menu shows the selected item in the context of the full list of menu items."
+  },
+  {
+   "k": "h4",
+   "t": "Error prevention"
+  },
+  {
+   "k": "p",
+   "t": "Invalid entries won’t be automatically selected. Upon exiting the field, it resets to the last valid entry or its default state."
+  },
+  {
+   "k": "h3",
+   "t": "Country code and phone number"
+  },
+  {
+   "k": "p",
+   "t": "The country code field includes a combobox and can be selected by entering the country code or country name. The phone number field is a numeric input field. This field may include formatting with an area code parentheses, spaces, and dashes."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Write all content in sentence case, except for proper nouns.",
+    "Follow guidance in Forms when writing form titles, field labels, and inline messages."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit labels to a few brief words.",
+    "Ensure labels accurately represent the expected input to reduce errors.",
+    "Use parallel structure across labels, using either nouns like “Email” or verbs like “Enter email”."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Inline messages"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit all inline messages (including errors) to one to two short sentences with punctuation.",
+    "Use inline messages to provide additional guidance such as format or specific syntax or values to help avoid errors.",
+    "Provide concise, descriptive, and helpful guidance about the field’s usage and necessity, avoiding technical jargon."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Inline error messages"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use inline error messages to draw attention and to errors without causing frustration.",
+    "Provide clear, prescriptive guidance on correcting the error. Avoid redirecting users to another page to fix it.",
+    "Communicate whether the problem can occur again and offer an alternative backup solution in case it does."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Combobox"
+  },
+  {
+   "k": "p",
+   "t": "Dropdown menu that helps users enter text or select items from a list."
+  },
+  {
+   "k": "h3",
+   "t": "Input"
+  },
+  {
+   "k": "p",
+   "t": "Text fields that enable users to enter free-form content."
+  },
+  {
+   "k": "h3",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance on everything from layouts to validation to ensure forms are clear and usable."
+  }
+ ]
+}

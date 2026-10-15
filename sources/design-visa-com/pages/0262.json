@@ -1,0 +1,228 @@
+{
+ "url": "https://design.visa.com/patterns/file-upload/task-flows",
+ "title": "File upload | Patterns | Visa Product Design System",
+ "h1": "File upload",
+ "readAt": "2026-10-15T17:11:45.893Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "File upload"
+  },
+  {
+   "k": "p",
+   "t": "An interactive element that combines a file uploader with file cards to enable users to upload and manipulate files."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Task flows",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Task flow typesAutomatic file uploadManual file upload",
+    "Feedback flows and status updatesIncorrect file type or sizeNo files selectedNumber of selections exceeds limitMultiple files with errorsDuplicate file selectedNetwork errors",
+    "Communicating success"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Task flows refer to the steps users progress through when interacting with patterns. They’re based on specific scenarios and demonstrate how users can successfully perform tasks within each pattern layout. To find prototypes for the task flow examples shown on this page, visit the Task flows (internal only)."
+  },
+  {
+   "k": "h2",
+   "t": "Task flow types"
+  },
+  {
+   "k": "p",
+   "t": "There are two main file upload task flows: manual and automatic upload. Select the task flow that best matches your use case and product requirements."
+  },
+  {
+   "k": "p",
+   "t": "Note: Any of the task flows below can be adjusted to use the default uploader component or the drag and drop component based on design needs, use case, or product preferences. For more information, reference the File upload guidelines."
+  },
+  {
+   "k": "h3",
+   "t": "Automatic file upload"
+  },
+  {
+   "k": "p",
+   "t": "An automatic file upload begins immediately once a user selects a file from their OS file browser or drops it in the drop zone. Once files are selected, they’re generally represented with file cards underneath the uploader component. Unlike manual uploads, the files are transferred to the server immediately."
+  },
+  {
+   "k": "p",
+   "t": "Note: This is the recommended method as it provides the simplest experience and aligns with user expectations."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Clearly communicate that files will be uploaded automatically using labels and inline messaging."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Manual file upload"
+  },
+  {
+   "k": "p",
+   "t": "In a manual file upload, users select the files they want to upload by placing them in the drop zone or using the OS file browser. Once files are selected, they’re generally represented by file cards underneath the uploader, but aren’t transferred to the server until the user manually sends them, typically by selecting an “Upload” or “Submit” button."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a modal to enable users to review selected files before manually initiating the upload."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Feedback flows and status updates"
+  },
+  {
+   "k": "p",
+   "t": "Feedback typically occurs after the user takes an action to help them correct mistakes or guide next steps. Status refers to updates that typically don’t require user action. Both communicate important information to users such as errors and success."
+  },
+  {
+   "k": "p",
+   "t": "Feedback and status updates can be communicated during file upload flows to ensure users are aware of their upload status."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reference Forms to learn more about form validation, as forms are a key part of a wizard flow.",
+    "Reference Feedback and status to learn more about communicating feedback and status.",
+    "Reference Messaging for guidance on crafting content within alert messages."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Incorrect file type or size"
+  },
+  {
+   "k": "p",
+   "t": "In this flow, the user selects files that don’t meet the file type or size requirements. Feedback should be provided as soon as the system recognizes the files don’t meet the requirements."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use an inline error message to call attention to the error and help the user correct it quickly.",
+    "Clearly specify file requirements to reduce the likelihood of this error occurring."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "No files selected"
+  },
+  {
+   "k": "p",
+   "t": "In this flow, the user attempts to initiate an upload without selecting files. Feedback should be provided as soon as the system recognizes no files were selected."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a section message to call attention to the error and help the user correct it quickly."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Number of selections exceeds limit"
+  },
+  {
+   "k": "p",
+   "t": "In this flow, the user selects too many files for upload. Feedback should be provided as soon as the system recognizes too many files were selected."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a section message to call attention to the error and help the user correct it quickly.",
+    "Clearly specify how many files can be uploaded to reduce the likelihood of this error occurring.",
+    "Limit the number of files that can be selected in the OS file browser when possible.",
+    "Do not upload any files until the error is corrected."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Multiple files with errors"
+  },
+  {
+   "k": "p",
+   "t": "In this flow, multiple files have errors. They may all have the same error or independent ones. Feedback should be provided as soon as the errors are recognized."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a section message to call attention to the error and help the user correct it quickly.",
+    "Use an error state and inline message for each file that failed to upload."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Duplicate file selected"
+  },
+  {
+   "k": "p",
+   "t": "In this flow, the user selects the same file for upload twice. Feedback should be provided as soon as the duplicate selection is recognized."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a dialog to inform the user of the error and include relevant actions such as replacing or renaming the duplicate file."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Network errors"
+  },
+  {
+   "k": "p",
+   "t": "In this flow, network or connectivity errors prevent files from uploading. This status update should be provided immediately in the form of an error."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a banner to notify users of the error and explain the relevant next steps.",
+    "Use an error state and inline message for each file that failed to upload."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Communicating success"
+  },
+  {
+   "k": "p",
+   "t": "Success confirmations indicate that files uploaded successfully. The file card component includes a circular progress indicator that shows a success state upon completion. If your design uses an alternate file display, ensure status is communicated through another accessible method."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reference Feedback and status to learn more about communicating success.",
+    "Reference Messaging for guidance on crafting content within success messages."
+   ]
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider adding a flag to inform users when all files have uploaded successfully. This is especially helpful during multi-file uploads."
+   ]
+  }
+ ]
+}

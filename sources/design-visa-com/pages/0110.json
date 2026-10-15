@@ -1,0 +1,120 @@
+{
+ "url": "https://design.visa.com/patterns",
+ "title": "Overview | Patterns | Visa Product Design System",
+ "h1": "Patterns",
+ "readAt": "2026-10-15T17:07:54.722Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Patterns"
+  },
+  {
+   "k": "p",
+   "t": "Explore solutions for common interactions, from application layouts to multi-step tasks like requesting a one-time passcode."
+  },
+  {
+   "k": "h2",
+   "t": "Address"
+  },
+  {
+   "k": "p",
+   "t": "Groups of input or text fields that collect address details from users."
+  },
+  {
+   "k": "h2",
+   "t": "Application layouts"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to choose a navigational frame based on page content and information architecture."
+  },
+  {
+   "k": "h2",
+   "t": "Card input"
+  },
+  {
+   "k": "p",
+   "t": "Sets of input fields that allow users to enter payment information."
+  },
+  {
+   "k": "h2",
+   "t": "Chat"
+  },
+  {
+   "k": "p",
+   "t": "Interfaces that enable users to conduct conversations with human and AI assistants."
+  },
+  {
+   "k": "h2",
+   "t": "Dynamic table"
+  },
+  {
+   "k": "p",
+   "t": "Dynamic grid enabling data interaction, manipulation, and criteria-based analysis."
+  },
+  {
+   "k": "h2",
+   "t": "Feedback and status"
+  },
+  {
+   "k": "p",
+   "t": "Learn which components to use when communicating contextual or system feedback and status."
+  },
+  {
+   "k": "h2",
+   "t": "File upload"
+  },
+  {
+   "k": "p",
+   "t": "An interactive element that combines a file uploader with file cards to enable users to upload and manipulate files."
+  },
+  {
+   "k": "h2",
+   "t": "Filters"
+  },
+  {
+   "k": "p",
+   "t": "Controls enabling users to refine results in lists, tables, content cards, and charts by applying specific criteria."
+  },
+  {
+   "k": "h2",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance on everything from layouts to validation to ensure forms are clear and usable."
+  },
+  {
+   "k": "h2",
+   "t": "Notification tray"
+  },
+  {
+   "k": "p",
+   "t": "Container that lists alerts, updates, and operational messages from the system."
+  },
+  {
+   "k": "h2",
+   "t": "One-time passcode"
+  },
+  {
+   "k": "p",
+   "t": "A text field paired with CTAs enabling users to a request single-use code to authenticate a transaction or session."
+  },
+  {
+   "k": "h2",
+   "t": "Search"
+  },
+  {
+   "k": "p",
+   "t": "Input fields with technical logic to help users locate specific information in a repository or site using keywords."
+  },
+  {
+   "k": "h2",
+   "t": "Wizard"
+  },
+  {
+   "k": "p",
+   "t": "A tool that combines a wizard stepper with navigation controls to guide users through complex forms."
+  }
+ ]
+}

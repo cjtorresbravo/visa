@@ -1,0 +1,229 @@
+{
+ "url": "https://design.visa.com/components/dialog",
+ "title": "Dialog | Components | Visa Product Design System",
+ "h1": "Dialog",
+ "readAt": "2026-10-15T17:07:19.987Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Dialog"
+  },
+  {
+   "k": "p",
+   "t": "Messages that float over page content and provide time-sensitive alerts."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default dialogs",
+    "Custom dialogs"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Default dialogs"
+  },
+  {
+   "k": "h3",
+   "t": "Default dialog"
+  },
+  {
+   "k": "text",
+   "t": "Loading dialog example Default dialog"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Error dialog"
+  },
+  {
+   "k": "text",
+   "t": "Loading dialog example Error dialog"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "Custom dialogs"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-dialog"
+    ],
+    [
+     ".v-dialog-default"
+    ],
+    [
+     ".v-message"
+    ],
+    [
+     ".v-dialog.v-dialog-default.v-message"
+    ],
+    [
+     ".v-dialog-header"
+    ],
+    [
+     ".v-message-error"
+    ],
+    [
+     ".v-dialog.v-message.v-message-error"
+    ],
+    [
+     ".v-message-success"
+    ],
+    [
+     ".v-dialog.v-message.v-message-success"
+    ],
+    [
+     ".v-message-warning"
+    ],
+    [
+     ".v-dialog.v-message.v-message-warning"
+    ],
+    [
+     ".v-flex"
+    ],
+    [
+     ".v-flex-col"
+    ],
+    [
+     ".v-dialog.v-dialog-default.v-flex.v-flex-col"
+    ],
+    [
+     ".v-content-card-image"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Value"
+    ],
+    [
+     "--v-dialog-background-color",
+     "var(--palette-default-surface-1)"
+    ],
+    [
+     "--v-dialog-header-padding-block",
+     "0 var(--size-scalable-8)"
+    ],
+    [
+     "--v-dialog-content-padding-block",
+     "0"
+    ],
+    [
+     "--v-dialog-content-padding-inline",
+     "0"
+    ],
+    [
+     "--v-dialog-content-word-break",
+     "normal"
+    ],
+    [
+     "--v-dialog-padding",
+     "var(--size-scalable-24)"
+    ],
+    [
+     "--v-dialog-padding-inline-end",
+     "var(--size-scalable-22)"
+    ],
+    [
+     "--v-dialog-padding-block-end",
+     "var(--size-scalable-19)"
+    ],
+    [
+     "--v-dialog-margin",
+     "var(--size-scalable-16)"
+    ]
+   ]
+  }
+ ]
+}

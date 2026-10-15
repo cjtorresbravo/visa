@@ -1,0 +1,116 @@
+{
+ "url": "https://design.visa.com/base-elements/color/accessibility",
+ "title": "Color | Base elements | Visa Product Design System",
+ "h1": "Color",
+ "readAt": "2026-10-15T17:08:51.367Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Color"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to use Visa brand colors to create and maintain consistent and engaging experiences."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Using color for meaning",
+    "Color contrast for accessibility",
+    "Data visualization"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Using color for meaning"
+  },
+  {
+   "k": "p",
+   "t": "While color is an important, it should never be used alone to convey meaning. Always pair color with another communication method, such as text or icons, to ensure everyone can understand and interact with Visa products."
+  },
+  {
+   "k": "h2",
+   "t": "Color contrast for accessibility"
+  },
+  {
+   "k": "p",
+   "t": "Color is measured by the visual contrast between an element and the surface it appears on. Ensuring colors pass contrast requirements means combining them intentionally. When creating your own theme or custom designs, follow the patterns in the Visa theme palette to make sure your product is accessible."
+  },
+  {
+   "k": "p",
+   "t": "If you make changes to Visa theme colors, there are many free browser extensions and other tools which test contrast on a page."
+  },
+  {
+   "k": "p",
+   "t": "Note: Disabled controls are not subject to color contrast ratios."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure text uses foreground colors with a contrast ratio above 4:5:1.",
+    "Ensure user interface elements, graphics, and text that are 14 point bold or larger, use foreground colors with a ratio above 3:1."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "High contrast"
+  },
+  {
+   "k": "p",
+   "t": "Users can select settings in their operating system to increase color contrast because of visual impairment, to reduce eye strain, to reduce distractions, or personal preference. VPDS components and themes handle high contrast modes out of the box. However, please note the following, especially if you use custom themes, icons, or logos. For more, reference Horizontal navigation or Vertical navigation."
+  },
+  {
+   "k": "p",
+   "t": "CSS media queries are used to target OS high contrast settings. There’s also a media query to determine whether a page has a light or dark background. Automated testing doesn’t test page appearance or meaning in high contrast modes. For this reason, manual testing is especially important for Windows high contrast mode."
+  },
+  {
+   "k": "h3",
+   "t": "Windows high contrast mode"
+  },
+  {
+   "k": "p",
+   "t": "Windows high contrast mode completely removes background colors and background images with limited exceptions. It also sets text colors, form control colors, borders and outlines according to the theme chosen by the user."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Replace box shadows with borders or outlines as the shadows will be automatically removed.",
+    "Ensure outlines don’t conflict with focus styles.",
+    "Consider using a border or outline in HC mode if background colors are used to demarcate a section of the page.",
+    "img elements are not changed."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Data visualization"
+  },
+  {
+   "k": "p",
+   "t": "There are additional color requirements for visualizing data. Reference Data visualization."
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "url": "https://design.visa.com/components/vertical-navigation/accessibility",
+ "title": "Vertical navigation | Components | Visa Product Design System",
+ "h1": "Vertical navigation",
+ "readAt": "2026-10-15T17:11:16.489Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Vertical navigation"
+  },
+  {
+   "k": "p",
+   "t": "Navigation panel located next to page content on screens with sufficient space."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Keyboard controls"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "p",
+   "t": "Note: Vertical navs are made up of multiple components. Follow guidelines for each of those."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a native HTML header landmark.",
+    "Ensure any nav landmark elements have unique and descriptive aria-labels. The label text should not include the word “navigation” as the screen reader will already announce that and it will be redundant.",
+    "Only use a header element for the primary navigation if your application has both top and side navigation.",
+    "Use aria-curent=\"page\" on the link which leads to the current page. Links in the vertical menu look like tabs and use css classes for tabs, but are not tabs and don’t have tab roles.",
+    "Ensure the content in the nav responds to a small window."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Logos"
+  },
+  {
+   "k": "p",
+   "t": "Our library has a classname just for the application name in the horizontal navigation component. There is a component for the Visa logo that adjusts for the user’s high contrast settings."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the logo has an accessible name or is inside a link with an accessible name with aria-hidden=\"true\" on the svg.",
+    "Use one of the library’s classes for high contrast for a logo with light or dark foreground if you use a different logo, as setting a contrasting background behind the brand logo ensures it will have maximum contrast in high contrast mode without a visible change in default contrast mode."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Skip to main content link"
+  },
+  {
+   "k": "p",
+   "t": "The skip to main content link allows keyboard users to go directly to the main content of the page. This link is first in the DOM (unless there is a skip to login link). It appears when users land on the page and activates the tab key and is only visible when it receives keyboard focus. Activating the link moves focus to the main component.   Reference the examples to learn how to implement VPDS’s skip-link styles."
+  },
+  {
+   "k": "h3",
+   "t": "Skip to log in link"
+  },
+  {
+   "k": "p",
+   "t": "When navigation includes an account log in, the skip to log in link will appear when users press tab after page load and is tacked onto the top of the navigation bar. If user presses tab again, the user will be prompted with the skip to main content link."
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard controls"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Key",
+     "Behavior"
+    ],
+    [
+     "Enter",
+     "Moves focus to the next focusable element."
+    ],
+    [
+     "Enter or Space",
+     "Prompts the button when focused."
+    ],
+    [
+     "Shift + Tab",
+     "Moves keyboard focus backwards to the previous interactive element in the navigation."
+    ]
+   ]
+  }
+ ]
+}

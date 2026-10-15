@@ -1,0 +1,194 @@
+{
+ "url": "https://design.visa.com/components/avatar",
+ "title": "Avatar | Components | Visa Product Design System",
+ "h1": "Avatar",
+ "readAt": "2026-10-15T17:07:06.601Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Avatar"
+  },
+  {
+   "k": "p",
+   "t": "Icons and/or text that represent users or entities."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Small avatars",
+    "Large avatars",
+    "Custom avatars"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Small avatars"
+  },
+  {
+   "k": "h3",
+   "t": "Small image avatar"
+  },
+  {
+   "k": "text",
+   "t": "Loading avatar example Small image avatar"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Small initials avatar"
+  },
+  {
+   "k": "text",
+   "t": "Loading avatar example Small initials avatar"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "Large avatars"
+  },
+  {
+   "k": "h2",
+   "t": "Custom avatars"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-avatar"
+    ],
+    [
+     ".v-avatar-small"
+    ],
+    [
+     ".v-icon"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Value"
+    ],
+    [
+     "--v-avatar-background",
+     "var(--palette-default-active)"
+    ],
+    [
+     "--v-avatar-foreground",
+     "var(--palette-default-text-on-active)"
+    ],
+    [
+     "--v-avatar-border-radius",
+     "var(--v-avatar-size)"
+    ],
+    [
+     "--v-avatar-size",
+     "3.4285714286rem"
+    ],
+    [
+     "--v-avatar-icon-size",
+     "1.7142857143rem"
+    ],
+    [
+     "--v-avatar-small-size",
+     "2.2857142857rem"
+    ],
+    [
+     "--v-avatar-small-icon-size",
+     "1.7142857143rem"
+    ],
+    [
+     "--v-avatar-small-vertical-icon-size",
+     "1.2857142857rem"
+    ]
+   ]
+  }
+ ]
+}

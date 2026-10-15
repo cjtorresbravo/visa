@@ -1,0 +1,420 @@
+{
+ "url": "https://design.visa.com/content/messaging",
+ "title": "Messaging | Content | Visa Product Design System",
+ "h1": "Messaging",
+ "readAt": "2026-10-15T17:08:18.381Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Messaging"
+  },
+  {
+   "k": "p",
+   "t": "Craft content for alert components to increase trust, reduce errors, and improve system performance."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Best practicesTitlesMessagesCalls to action",
+    "Voice and toneActive and passive voiceTone",
+    "ExamplesInformational messageSuccess messagesWarning messagesError messagesBadges"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Messages provide information about changes in a system or persistent conditions. Messaging applies to a range of components such as badges, banners, dialogs, flags, notification trays, section messages, and tooltips. Language used in these components is critical as they increase trust, reduce the likelihood of errors, and improve system performance."
+  },
+  {
+   "k": "p",
+   "t": "For specific guidance on how to decide on the right component for your context, where to place it, and its level of disruption, visit Feedback and status."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Title (optional):  Descriptive text previewing the purpose of an alert.\nB. Message (required): Text elaborating on the nature of the message or providing important context.\nC. Call to action (CTA) (required): Buttons or links enabling users to respond to alerts by taking relevant actions."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use sentence case except for proper nouns or acronyms.",
+    "Use plain language and avoid abbreviations or jargon.",
+    "Be brief, descriptive, and direct.",
+    "Keep the information useful. Don’t disrupt the user’s experience unless necessary."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Titles"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit titles to three to five descriptive words, using the description to provide additional details.",
+    "Avoid using unnecessary articles like “the” or “an”.",
+    "Don’t include punctuation.",
+    "Use descriptive language that indicates the purpose of the alert instead of terms like “warning” or “error”."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Messages"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Provide details on the reason for the alert without being technical.",
+    "Use contextually relevant language to help users understand why the message is important.",
+    "Clearly outline the simplest way to fix the problem (if applicable) without sending them to another location for answers."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Calls to action"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Give users the opportunity to edit, view, or in some cases undo their actions, especially if they’ve just created something or changed important settings.",
+    "Use clear, actionable language that is easy to understand without additional context or information.",
+    "Avoid using unnecessary articles like “the” or “an”.",
+    "Don’t include punctuation.",
+    "Avoid ableist verbs that focus on senses. For example, use “Play video” instead of “Watch video”.",
+    "Include a “dismiss”, “cancel”, or “close” button if the alert doesn’t include a close “x” in the top right corner.",
+    "Learn more about calls to action in Grammar and punctuation or by visiting Button."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use clear verbs like “Save”, “Remove”, or “Create” when providing a choice."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use vague words like “Continue” or “OK”  when providing choices, as it might be unclear what they mean."
+  },
+  {
+   "k": "h2",
+   "t": "Voice and tone"
+  },
+  {
+   "k": "p",
+   "t": "Voice and tone are key elements to creating alert messages that are helpful without placing blame on the user. The guidance below discusses voice and tone recommendations specific to messages. To learn about voice and tone recommendations in other use cases, visit Grammar and punctuation."
+  },
+  {
+   "k": "h3",
+   "t": "Active and passive voice"
+  },
+  {
+   "k": "p",
+   "t": "Using active or passive voice depends of the context and purpose of the message. As a general rule, active voice works better for providing clear, direct instructions, while passive voice is better for explaining errors or mistakes."
+  },
+  {
+   "k": "p",
+   "t": "Use the active voice whenever possible. If the message sounds harsh, adjust to the passive voice to soften the message."
+  },
+  {
+   "k": "p",
+   "t": "Learn more about active and passive voice in Grammar and punctuation."
+  },
+  {
+   "k": "h4",
+   "t": "Active voice examples"
+  },
+  {
+   "k": "p",
+   "t": "Use the active voice to communicate success, instructions, or neutral updates. This ensures it’s clear to the user what actions they must take or when they’ve completed a task successfully."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "You have successfully logged in.",
+     "The login has been successfully completed."
+    ],
+    [
+     "Your account is now active.",
+     "Account has been activated successfully."
+    ],
+    [
+     "You have 3 unread messages.",
+     "3 messages have been unread."
+    ],
+    [
+     "You can update your privacy preferences in Settings.",
+     "Privacy preferences can be updated in Settings."
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Passive voice examples"
+  },
+  {
+   "k": "p",
+   "t": "Use the passive voice to communicate errors and warnings. This helps avoid placing blame on users and softens negative updates. It’s also helpful when the cause of an error is unclear or nobody is at fault, such as network connection issues."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Page not found.",
+     "We can’t find this page."
+    ],
+    [
+     "Incorrect credentials. Please try again.",
+     "You entered the credentials incorrectly."
+    ],
+    [
+     "Network connection error. Please try again.",
+     "We lost connection. Please try again."
+    ],
+    [
+     "All required fields must be completed.",
+     "You must complete the required fields."
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use passive voice to soften errors and prevent frustration."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Blame users for errors with words like “you” or “your”."
+  },
+  {
+   "k": "h3",
+   "t": "Tone"
+  },
+  {
+   "k": "p",
+   "t": "At Visa, our tone is flexible depending on the context. When writing alert messages, prioritize giving clear, efficient information to help users complete their goals quickly. The tone should be neutral, clear, and helpful."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inform the user without causing alarm. Provide clear, concise instructions that help complete tasks.",
+    "Be direct when providing next steps or instructions for correcting errors.",
+    "Avoid using technical jargon, codes, acronyms, and terminology that assume the user has advanced knowledge.",
+    "Avoid overly playful language, tongue-in-cheek references, or plays on words that aren’t widely understood.",
+    "Avoid accusing or patronizing the user for failing to follow directions or misusing the system."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use clear, neutral language that gets to the point quickly."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Be overly enthusiastic with congratulatory language."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use words like “sorry” or “please” for serious errors requiring the user to take a major action to resolve the issue."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use “sorry” or “please,” for minor mistakes, as they can make the message inefficient."
+  },
+  {
+   "k": "h2",
+   "t": "Examples"
+  },
+  {
+   "k": "h3",
+   "t": "Informational message"
+  },
+  {
+   "k": "p",
+   "t": "Informational messages should provide information without disrupting the user’s workflow. They can communicate a change in state or important information about an experience or feature."
+  },
+  {
+   "k": "h4",
+   "t": "Banner"
+  },
+  {
+   "k": "h4",
+   "t": "Dialog"
+  },
+  {
+   "k": "h4",
+   "t": "Flag"
+  },
+  {
+   "k": "h4",
+   "t": "Section message"
+  },
+  {
+   "k": "h3",
+   "t": "Success messages"
+  },
+  {
+   "k": "p",
+   "t": "Success messages are used to confirm a user’s action or task completion. They usually don’t require additional actions unless providing a pathway to undo the action being confirmed."
+  },
+  {
+   "k": "h4",
+   "t": "Banner"
+  },
+  {
+   "k": "h4",
+   "t": "Dialog"
+  },
+  {
+   "k": "h4",
+   "t": "Flag"
+  },
+  {
+   "k": "h4",
+   "t": "Section message"
+  },
+  {
+   "k": "h3",
+   "t": "Warning messages"
+  },
+  {
+   "k": "p",
+   "t": "Warning messages are used to indicate a potential change in the user’s workflow or access to the system. Warning messages should use clear, informative language that conveys the appropriate level of urgency so the user knows how to respond."
+  },
+  {
+   "k": "h4",
+   "t": "Banner"
+  },
+  {
+   "k": "h4",
+   "t": "Dialog"
+  },
+  {
+   "k": "h4",
+   "t": "Flag"
+  },
+  {
+   "k": "h4",
+   "t": "Section message"
+  },
+  {
+   "k": "h3",
+   "t": "Error messages"
+  },
+  {
+   "k": "p",
+   "t": "Error messages are used to indicate a a problem has already occurred or that there’s been a mistake during the user’s workflow. They should draw attention to what has happened, communicate the consequences, and tell the user what to do to move forward."
+  },
+  {
+   "k": "p",
+   "t": "Error messages should use clear, informative language that conveys the appropriate level of urgency so the user knows how to respond."
+  },
+  {
+   "k": "h4",
+   "t": "Banner"
+  },
+  {
+   "k": "h4",
+   "t": "Dialog"
+  },
+  {
+   "k": "h4",
+   "t": "Flag"
+  },
+  {
+   "k": "h4",
+   "t": "Section message"
+  },
+  {
+   "k": "h4",
+   "t": "Inline error messages"
+  },
+  {
+   "k": "p",
+   "t": "Inline error messages are common across a range of components. For help prototyping content for common error messages, VPDS offers component variants with pre-written messages. Access these in the assets panel of our Design kits."
+  },
+  {
+   "k": "p",
+   "t": "Do     Consider adding “Error:” at the start of the message to help indicate that something’s wrong. If you choose this pattern, be consistent throughout your experiences."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use “Error” alone to indicate incorrect information was entered. Be descriptive, tell the user why the error occurred and give instructions on how to fix it."
+  },
+  {
+   "k": "p",
+   "t": "Do     Provide specific context on how to correct errors."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use vague language that doesn’t explain what happened."
+  },
+  {
+   "k": "p",
+   "t": "Do     Provide enough guidance for the user to understand what went wrong."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Give specific details on how to fix usernames and passwords for security reasons."
+  },
+  {
+   "k": "h3",
+   "t": "Badges"
+  },
+  {
+   "k": "p",
+   "t": "Badges are compact components used to communicate status with limited text. There are generally two categories of badges. The first is numeric badges, which display a count or tally of notifications. The second is informational badges, which provide status updates when the number of notifications is unknown or irrelevant."
+  },
+  {
+   "k": "p",
+   "t": "To learn more, visit Badge guidance."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Do",
+     "Don’t"
+    ],
+    [
+     "Use single-word labels like ”Authorized”, “Pending”, “Paid”, “Unpaid”, “Shipped”, “Overdue”, “Ready”, “Complete”, or “Canceled”.",
+     "Use verbs like “Cancel” as this can lead users to think the badge is a call to action."
+    ],
+    [
+     "Use no more than two to three short words to describe more complex information like “Out of stock”, “In stock”, or “On backorder”.",
+     "Use vague labels that don’t appropriately match the urgency of the status status such as, “information,” where more context is needed."
+    ],
+    [
+     "Use numeric formatting for number badges, like “1”, “12”, “30”, etc.",
+     "Write out numbers in text, as this can take up too much space."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "url": "https://design.visa.com/base-elements/states/usage",
+ "title": "States | Base elements | Visa Product Design System",
+ "h1": "States",
+ "readAt": "2026-10-15T17:08:57.514Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "States"
+  },
+  {
+   "k": "p",
+   "t": "Consistently apply visual cues and design patterns to communicate a component’s interaction state."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Component states",
+    "Interactive target areas"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "States are visual cues and design patterns that are consistently applied to components to help the user better understand the interaction. States include default, hover, focus, and more."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "Three sections showing states. Section A shows a default button state is blue, active hover is brighter, focused with a keyboard is brighter and has an extra dotted border, pressed is dark blue, and disabled is gray. The same states are shown again with a white or transparent button, with hover, keyboard focus, and pressed all having a light blue fill. Section B shows a selected chip is blue with a white checkmark. Section C shows three tabs with the first tab active. The active tab has a light gray background and blue line underneath the text."
+  },
+  {
+   "k": "p",
+   "t": "A. Color: Value of the active and surface color that adjusts based on the component state. \nB. Icon: Visual indicator communicating the selected state. \nC. Active indicator line and text: Line used to indicate the selected view, with text changing to bold when active."
+  },
+  {
+   "k": "h2",
+   "t": "Component states"
+  },
+  {
+   "k": "p",
+   "t": "Component states support user interactions and guide visual design expectations. Not all components will have all of the following states."
+  },
+  {
+   "k": "h3",
+   "t": "Default"
+  },
+  {
+   "k": "p",
+   "t": "The default, enabled state for all interactive elements and components."
+  },
+  {
+   "k": "h3",
+   "t": "Hover"
+  },
+  {
+   "k": "p",
+   "t": "The state when the mouse pointer is placed over the component. Not used on touch devices."
+  },
+  {
+   "k": "h3",
+   "t": "Pressed"
+  },
+  {
+   "k": "p",
+   "t": "The temporary state indicating a component is being tapped, clicked with a mouse, or triggered with a keyboard."
+  },
+  {
+   "k": "h3",
+   "t": "Focus (keyboard)"
+  },
+  {
+   "k": "p",
+   "t": "The state indicating an interactive component is in-focus during keyboard or voice-activated navigation."
+  },
+  {
+   "k": "h3",
+   "t": "Focus (mouse)"
+  },
+  {
+   "k": "p",
+   "t": "The state indicating an input field has been clicked into and is currently in-focus. This isn’t used for any other components."
+  },
+  {
+   "k": "h3",
+   "t": "Active"
+  },
+  {
+   "k": "p",
+   "t": "The state indicating the currently selected item out of a set, menu, or list."
+  },
+  {
+   "k": "h3",
+   "t": "Selected (on/off)"
+  },
+  {
+   "k": "p",
+   "t": "The state showing the user’s selection, usually from a list of options, a checkbox, or a setting."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled"
+  },
+  {
+   "k": "p",
+   "t": "The inactive state of a component, indicating the action is not available and can’t be interacted with."
+  },
+  {
+   "k": "h3",
+   "t": "Read-only"
+  },
+  {
+   "k": "p",
+   "t": "An inactive state which may show possible or past interactions, or the absence of editing rights."
+  },
+  {
+   "k": "h3",
+   "t": "Expanded"
+  },
+  {
+   "k": "p",
+   "t": "State indicating that a component is expanded, with the menu arrow pointing up."
+  },
+  {
+   "k": "h3",
+   "t": "Error"
+  },
+  {
+   "k": "p",
+   "t": "State that uses color and an icon with text to indicate an error and provide user guidance."
+  },
+  {
+   "k": "h2",
+   "t": "Interactive target areas"
+  },
+  {
+   "k": "p",
+   "t": "Ensuring sufficient space around interactive areas is vital as it facilitates easier interaction, particularly for users who may struggle with precise movements. When using components with smaller visual footprints, it’s important to design with ample touch area in mind and avoid placing elements too closely together."
+  },
+  {
+   "k": "h3",
+   "t": "Touch targets"
+  },
+  {
+   "k": "p",
+   "t": "Use the minimum size of 44 x 44 dps for touch areas across all interactive components."
+  },
+  {
+   "k": "p",
+   "t": "For additional context, learn more about challenges faced by users with a limited ability to use a mouse."
+  },
+  {
+   "k": "h3",
+   "t": "Non-touch targets"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the minimum size of 24 x 24 dps for touch areas across all interactive components.",
+    "Rounded corners detract from 24 x 24 target.",
+    "To learn more about accessibility minimum targets, refer to WCAG guidance."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,274 @@
+{
+ "url": "https://design.visa.com/developing/styles-css/abstracts/message",
+ "title": "Message | Abstracts | Styles (CSS) | Visa Product Design System",
+ "h1": "Message",
+ "readAt": "2026-10-15T17:06:46.002Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Message"
+  },
+  {
+   "k": "p",
+   "t": "Use these generic styles to communicate important information with message components, or customize and create your own components."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Message styles"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Nova styles version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Message styles"
+  },
+  {
+   "k": "h3",
+   "t": "Default"
+  },
+  {
+   "k": "text",
+   "t": "Loading message example Default"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Informational"
+  },
+  {
+   "k": "text",
+   "t": "Loading message example Informational"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-message"
+    ],
+    [
+     ".v-message-error"
+    ],
+    [
+     ".v-message-info"
+    ],
+    [
+     ".v-message-success"
+    ],
+    [
+     ".v-message-warning"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Value"
+    ],
+    [
+     "--v-message-border-style",
+     "solid"
+    ],
+    [
+     "--v-message-border-block-end-size",
+     "calc(var(--theme-border-size) * 1.5)"
+    ],
+    [
+     "--v-message-border-block-start-size",
+     "calc(var(--theme-border-size) * 1.5)"
+    ],
+    [
+     "--v-message-border-inline-end-size",
+     "calc(var(--theme-border-size) * 1.5)"
+    ],
+    [
+     "--v-message-border-inline-start-size",
+     "calc(var(--theme-border-size) * 1.5)"
+    ],
+    [
+     "--v-message-border-radius",
+     "var(--size-rounded-none)"
+    ],
+    [
+     "--v-message-display",
+     "flex"
+    ],
+    [
+     "--v-message-elevation",
+     "var(--elevation-none)"
+    ],
+    [
+     "--v-message-gap",
+     "var(--size-scalable-8)"
+    ],
+    [
+     "--v-message-max-inline-size",
+     "none"
+    ],
+    [
+     "--v-message-padding-block-end",
+     "var(--size-scalable-16)"
+    ],
+    [
+     "--v-message-padding-block-start",
+     "var(--size-scalable-16)"
+    ],
+    [
+     "--v-message-padding-inline-end",
+     "var(--size-scalable-16)"
+    ],
+    [
+     "--v-message-padding-inline-start",
+     "var(--size-scalable-16)"
+    ],
+    [
+     "--v-message-icon-size",
+     "1.5714285714rem"
+    ],
+    [
+     "--v-message-icon-color",
+     "var(--palette-messaging-graphics-info)"
+    ],
+    [
+     "--v-message-background",
+     "var(--palette-messaging-highlight-info)"
+    ],
+    [
+     "--v-message-border-color",
+     "var(--palette-messaging-graphics-info)"
+    ],
+    [
+     "--v-message-graphics",
+     "var(--palette-messaging-graphics-info)"
+    ],
+    [
+     "--v-message-text",
+     "var(--palette-messaging-text-info)"
+    ],
+    [
+     "--v-message-background-info",
+     "var(--palette-messaging-highlight-info)"
+    ],
+    [
+     "--v-message-border-color-info",
+     "var(--palette-messaging-graphics-info)"
+    ],
+    [
+     "--v-message-graphics-info",
+     "var(--palette-messaging-graphics-info)"
+    ],
+    [
+     "--v-message-text-info",
+     "var(--palette-messaging-text-info)"
+    ],
+    [
+     "--v-message-background-success",
+     "var(--palette-messaging-surface-positive)"
+    ],
+    [
+     "--v-message-border-color-success",
+     "var(--palette-messaging-graphics-positive)"
+    ],
+    [
+     "--v-message-graphics-success",
+     "var(--palette-messaging-graphics-positive)"
+    ],
+    [
+     "--v-message-text-success",
+     "var(--palette-messaging-text-positive)"
+    ],
+    [
+     "--v-message-background-warning",
+     "var(--palette-messaging-highlight-warning)"
+    ],
+    [
+     "--v-message-border-color-warning",
+     "var(--palette-messaging-graphics-warning)"
+    ],
+    [
+     "--v-message-graphics-warning",
+     "var(--palette-messaging-graphics-warning)"
+    ],
+    [
+     "--v-message-text-warning",
+     "var(--palette-messaging-text-warning)"
+    ],
+    [
+     "--v-message-background-error",
+     "var(--palette-messaging-surface-negative)"
+    ],
+    [
+     "--v-message-border-color-error",
+     "var(--palette-messaging-graphics-negative)"
+    ],
+    [
+     "--v-message-graphics-error",
+     "var(--palette-messaging-graphics-negative)"
+    ],
+    [
+     "--v-message-text-error",
+     "var(--palette-messaging-text-negative)"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,314 @@
+{
+ "url": "https://design.visa.com/components/tab-bar",
+ "title": "Tab bar | Components | Visa Product Design System",
+ "h1": "Tab bar",
+ "readAt": "2026-10-15T17:07:45.712Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Tab bar"
+  },
+  {
+   "k": "p",
+   "t": "Mobile navigation bar that uses icons to navigate between main pages."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Tab bars"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "8.3.1"
+  },
+  {
+   "k": "text",
+   "t": "8.3.0"
+  },
+  {
+   "k": "text",
+   "t": "8.2.0"
+  },
+  {
+   "k": "text",
+   "t": "8.1.2"
+  },
+  {
+   "k": "text",
+   "t": "8.1.1"
+  },
+  {
+   "k": "text",
+   "t": "8.1.0"
+  },
+  {
+   "k": "h2",
+   "t": "Tab bars"
+  },
+  {
+   "k": "h3",
+   "t": "Default tab bar"
+  },
+  {
+   "k": "text",
+   "t": "Dart"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Widget classes"
+  },
+  {
+   "k": "h4",
+   "t": "VBottomNavBar"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Required",
+     "Description"
+    ],
+    [
+     "visaBottomNavBarItems",
+     "List<VBottomBarItems>",
+     "",
+     "yes",
+     "The list of items to be displayed in the navigation bar."
+    ],
+    [
+     "enableLineIndicator",
+     "bool",
+     "true",
+     "no",
+     "Whether to show a line indicator beneath the selected item."
+    ],
+    [
+     "currentIndex",
+     "int",
+     "0",
+     "no",
+     "The index of the currently selected item."
+    ],
+    [
+     "lineIndicatorWidth",
+     "double",
+     "2.0",
+     "no",
+     "The width of the line indicator."
+    ],
+    [
+     "onTap",
+     "Function(int)",
+     "",
+     "yes",
+     "The function to be called when an item is tapped."
+    ],
+    [
+     "gradient",
+     "LinearGradient?",
+     "",
+     "yes",
+     "The gradient to apply on the navigation bar."
+    ],
+    [
+     "style",
+     "VBottomNavBarStyle?",
+     "",
+     "no",
+     "The style of the navigation bar."
+    ],
+    [
+     "vExt",
+     "VExt?",
+     "",
+     "no",
+     "The current theme extension of this widget."
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "VBottomNavBarStyle"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Required",
+     "Description"
+    ],
+    [
+     "backgroundColor",
+     "Color?",
+     "defaultStyle?.surface1",
+     "no",
+     "The background color of the bottom navigation bar."
+    ],
+    [
+     "selectedItemColor",
+     "Color?",
+     "defaultStyle?.active",
+     "no",
+     "The color of the selected item in the navigation bar."
+    ],
+    [
+     "unselectedItemColor",
+     "Color?",
+     "defaultStyle?.subtle",
+     "no",
+     "The color of the unselected item in the navigation bar."
+    ],
+    [
+     "selectedTextColor",
+     "Color?",
+     "defaultStyle?.text",
+     "no",
+     "The color of the text of the selected item."
+    ],
+    [
+     "unselectedTextColor",
+     "Color?",
+     "defaultStyle?.textSubtle",
+     "no",
+     "The color of the text of the unselected item."
+    ],
+    [
+     "splashColor",
+     "Color?",
+     "Colors.transparent",
+     "no",
+     "The color of the splash effect when an item is tapped."
+    ],
+    [
+     "borderColor",
+     "Color?",
+     "defaultStyle?.border",
+     "no",
+     "The border color of the navigation bar."
+    ],
+    [
+     "selectedFontSize",
+     "double?",
+     "12.0",
+     "no",
+     "The font size of the selected item's text."
+    ],
+    [
+     "unselectedFontSize",
+     "double?",
+     "12.0",
+     "no",
+     "The font size of the unselected item's text."
+    ],
+    [
+     "selectedIconSize",
+     "double?",
+     "24.0",
+     "no",
+     "The size of the selected item's icon."
+    ],
+    [
+     "unselectedIconSize",
+     "double?",
+     "24.0",
+     "no",
+     "The size of the unselected item's icon."
+    ],
+    [
+     "indicatorColor",
+     "Color?",
+     "",
+     "no",
+     "An optional color value that sets the color of the selection indicator on the active navigation bar item. If not provided, it uses the selected item color."
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "VBottomBarItems"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Required",
+     "Description"
+    ],
+    [
+     "icon",
+     "String",
+     "",
+     "yes",
+     "A required string that specifies the SVG icon asset path for the navigation bar item."
+    ],
+    [
+     "label",
+     "String",
+     "",
+     "yes",
+     "A required string that specifies the text label displayed below the icon for the navigation bar item."
+    ],
+    [
+     "preserveIconColors",
+     "bool",
+     "false",
+     "no",
+     "A boolean value that determines whether the icon's original colors should be preserved instead of being tinted with the selected/unselected item color. Defaults to false."
+    ]
+   ]
+  }
+ ]
+}

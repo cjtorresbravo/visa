@@ -1,0 +1,325 @@
+{
+ "url": "https://design.visa.com/components/table/usage",
+ "title": "Table | Components | Visa Product Design System",
+ "h1": "Table",
+ "readAt": "2026-10-15T17:10:49.672Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Table"
+  },
+  {
+   "k": "p",
+   "t": "Fixed grid that organizes information or data using columns and rows."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesText alignmentTable styleKey-value pairsGroup headersPagination",
+    "BehaviorsProgress indicatorsScrollSticky header",
+    "Platform considerations",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Tables organize and display information using rows and columns, enabling users to access and analyze data. They’re commonly used to sort large amounts of information or present key-value pairs.\nAlso known as: Fixed table, non-dynamic table, read-only table, non-editable table, constant table, static table."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Header row (required): Row listing the category label for each column.\nB. Data row (required): Horizontal grouping of data cells.\nC. Data column (required): Vertical grouping of data cells under a category label.\nD. Data cell (required): Individual value corresponding to a specific category label.\nE. Pagination (optional): A set of links enabling users to navigate a large table split onto multiple pages."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "To organize and display data that can be grouped in rows and columns.For read-only data that would benefit from being structured in a fixed format.",
+     "For more complex data that requires user interaction like filtering or exporting. Use a Dynamic table instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit the data included to ensure all values support the table’s purpose without overwhelming users.",
+    "Avoid truncating data within cells. If necessary, wrap content to ensure it remains visible.",
+    "Consider using pagination if the user needs to scroll to see the entire table.",
+    "Include clear error messaging if data can’t be loaded or if it’s taking longer than expected."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Include at least two rows of data."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Display more than 75 rows in a single view."
+  },
+  {
+   "k": "p",
+   "t": "Do     Remove unnecessary or distracting visual elements if they don’t add value to the data."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use visuals or icons if they don’t help clarify the table content."
+  },
+  {
+   "k": "h3",
+   "t": "Text alignment"
+  },
+  {
+   "k": "p",
+   "t": "Text alignment refers to how data is positioned within a cell, either to the right or left edge. Numeric data is typically right-aligned, while textual data is left-aligned to ensure readability and facilitate comparison of similar data types. Although different alignments can exist within a table, alignment should remain consistent within each column."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Right-align all numeric data such as number count, currency, and dates.",
+    "Left-align textual data such as names, emails, and locations.",
+    "Ensure row headers match the alignment of the associated cell."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Table style"
+  },
+  {
+   "k": "p",
+   "t": "Tables have two styling options to ensure rows and columns are easy to identify: Bands and dividers. Either method can be used to visually group information. Select the one that best fits your users’ data analysis needs."
+  },
+  {
+   "k": "h3",
+   "t": "Banding"
+  },
+  {
+   "k": "h3",
+   "t": "Dividers"
+  },
+  {
+   "k": "h3",
+   "t": "Key-value pairs"
+  },
+  {
+   "k": "p",
+   "t": "Tables can be used to present key-value pairs. Key-value pairs refer to datasets with two related pieces of information: A unique identifier or key, and its associated value. This format is useful for displaying structured data where each key is paired with a specific value, making it easy to read and understand."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use typography, like bold text, to differentiate the keys from the values.",
+    "Omit the header row from the table unless it adds important context."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Group headers"
+  },
+  {
+   "k": "p",
+   "t": "Group headers span across multiple columns to create categories within a table. They’re helpful for data that can be easily grouped or categorized."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider using group headers if categorizing the table columns would help users analyze or identify the data.",
+    "Ensure the group headers appear visually different from the header row and general data."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Pagination"
+  },
+  {
+   "k": "p",
+   "t": "The pagination component is a set of links enabling users to navigate tables divided across multiple pages. This helps reduce cognitive load by reducing the amount of data shown at once. For general information on the pagination component, reference Pagination."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use pagination when the data can’t be easily viewed on one page or requires significant scrolling.",
+    "Place the pagination component below the last row of the table.",
+    "Use the default pagination component for complex tables when space permits.",
+    "Use the slim pagination component for less complex tables with fewer pages, or when space is limited.",
+    "For very complex tables, consider using a Dynamic table instead to enable users to sort or filter the data."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "p",
+   "t": "Tables have various behaviors designed to make data easy to understand and interact with. Reference the section below to learn about optional features that can be implemented based on the use case."
+  },
+  {
+   "k": "h3",
+   "t": "Progress indicators"
+  },
+  {
+   "k": "p",
+   "t": "Progress indicators help users identify when data hasn’t finished loading. This is especially helpful for complex data tables, which can have lengthy load times. For general guidelines on progress indicators, reference Progress."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a linear progress indicator in most cases to save space and align with the table layout.",
+    "Place the indicator at the top of the table, stretching the entire width.",
+    "Consider using skeleton loading as an additional visual indication that the data in the table is loading.",
+    "Ensure the progress indicator uses different visual styling from the table header."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Scroll"
+  },
+  {
+   "k": "p",
+   "t": "Scrolling can help users access data when there’s limited vertical space and all rows aren’t visible at once. This helps when there are few columns but many rows, when tables are likely to be viewed on mobile devices, or when you want to maintain the visibility of all columns.\nWhen implementing vertical scroll, it’s recommended to use a sticky header. Learn more in the section below."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the scroll bar is displayed by default so users are aware there’s more data available.",
+    "Avoid using a horizontal scroll bar. If there’s enough data that it’s necessary, use a Dynamic table instead."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Sticky header"
+  },
+  {
+   "k": "p",
+   "t": "Sticky headers refer to header rows that remain visible when the user scrolls, ensuring it’s clear what column each cell pertains to. Upon scroll, data rows tuck under the header divider while the sticky header stays fixed at the top. This allows users to view the context of the data they are looking at as they scroll to see more."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider implementing a sticky header when users can’t view all data rows in a single view.",
+    "Use a Divider or other visual indicator to ensure the sticky header appears visually different from other rows.",
+    "Use Elevation to visually indicate that the sticky header is floating “above” the rest of the table’s data."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Recommended for responsive web only"
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use simple language—avoid abbreviations or jargon.",
+    "Use sentence case, except for proper nouns or acronyms.",
+    "Limit use of abbreviations unless the abbreviation is commonly understood and improves readability due to space constraints or line length.",
+    "Ensure column and row headers have distinct labels. If duplicates are required, add additional context to ensure screen readers can differentiate them."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Table titles and subtitles"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use informative titles that describe the table as a whole.",
+    "Use subtitles to describe complex tables.",
+    "Don’t include punctuation for table titles.",
+    "Limit titles to three to five descriptive words. If your title can’t be condensed, consider using a subtitle with your title.",
+    "Limit subtitles to one to two short sentences with punctuation."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Column headers"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Clearly label columns using short, concise, and scannable column headers.",
+    "Ensure column headers accurately describe the contents so users can interpret the data without additional context.",
+    "Include symbols for units or measurement along with its name. For example “Temperature (°F).”"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Table content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use short, scannable content within table rows.",
+    "Don’t include symbols, such as “$”. Only include those within the header to avoid issues with filtering information.",
+    "Only use punctuation when using decimals. Ensure all decimal places are consistent for filtering information."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Pagination"
+  },
+  {
+   "k": "p",
+   "t": "Set of links used to navigate content that’s split between multiple pages."
+  },
+  {
+   "k": "h3",
+   "t": "Dynamic table"
+  },
+  {
+   "k": "p",
+   "t": "Dynamic grid enabling data interaction, manipulation, and criteria-based analysis."
+  }
+ ]
+}

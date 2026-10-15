@@ -1,0 +1,817 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/web/navigation-wayfinding",
+ "title": "Navigation and wayfinding | Web | Global accessibility requirements | Visa Product Design System",
+ "h1": "Navigation and wayfinding",
+ "readAt": "2026-10-15T17:05:53.882Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Navigation and wayfinding"
+  },
+  {
+   "k": "p",
+   "t": "Find navigation and wayfinding requirements for testing web experiences."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Keyboard support (NAV-1)Keyboard support (NAV-1-1)No keyboard trap (NAV-1-2)Mouse hover and keyboard focus are equivalent (NAV-1-3)Content on hover or focus (NAV-1-4)Pointer and multipoint gestures (NAV-1-5)Single character keyboard shortcuts (NAV-1-6)Skip to main content link (NAV-1-7)",
+    "Focus & tab order (NAV-2)Visible keyboard focus (NAV-2-1)Focus not obscured (NAV-2-2)Focus order (NAV-2-3)",
+    "Landmarks (NAV-3)Appropriate use of landmark regions (NAV-3-1)Keep all content in appropriate regions (NAV-3-2)Redundant landmarks have unique names (NAV-3-3)",
+    "Consistent experience (NAV-4)Same relative order (NAV-4-1)Name consistently (NAV-4-2)Consistent help (NAV-4-3)More than one way to find content (NAV-4-4)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard support (NAV-1)"
+  },
+  {
+   "k": "h3",
+   "t": "Keyboard support (NAV-1-1)"
+  },
+  {
+   "k": "p",
+   "t": "All functionality and content must be available to users via keyboard only, without requiring specific timing of keystrokes."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Run through all use cases using keyboard only (for example: without a mouse), confirming that all features and functionality are fully available to users."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All features and functionality are fully available to keyboard users.",
+    "Fail: One or more features or functionality are not fully available to keyboard users."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.1.1 Keyboard"
+  },
+  {
+   "k": "h3",
+   "t": "No keyboard trap (NAV-1-2)"
+  },
+  {
+   "k": "p",
+   "t": "If any part of the UI takes control of keyboard focus (for example: PDF viewer or modal window) it must, through keyboard commands only, allow focus to return to the launching element and browser."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Run through all use cases using keyboard only (for example: without a mouse), confirm that no UI elements take control of keyboard focus unless they also return focus."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: No UI elements take control of keyboard focus without returning it.",
+    "Fail: One or more UI elements takes control of keyboard focus and does not return it."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.1.2 No Keyboard Trap"
+  },
+  {
+   "k": "h3",
+   "t": "Mouse hover and keyboard focus are equivalent (NAV-1-3)"
+  },
+  {
+   "k": "p",
+   "t": "Content which is hidden until it receives mouse hover and then becomes visible must also be shown when it receives keyboard focus and hidden again when focus is removed."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Run through all use cases using the keyboard only (for example: without a mouse).",
+    "Confirm that any mouse hover events are also available to the keyboard when the keyboard focus is placed on the element."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All mouse hover events are also available to the keyboard when the keyboard focus is placed on the element.",
+    "Fail: One or more mouse hover events are not available to the keyboard when the keyboard focus is placed on the element.",
+    "NA: Mouse hover events are not present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.1 AA - 1.4.13 Content on Hover or Focus",
+    "WCAG 2.2 A - 2.1.1 Keyboard"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Content on hover or focus (NAV-1-4)"
+  },
+  {
+   "k": "p",
+   "t": "For tooltips and components that show hidden content when they receive keyboard or pointer focus and hidden after removal of focus ensure they are dismissible, hoverable, and persistent."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "For tooltips and components that show hidden content when they receive keyboard or pointer focus and hidden after removal of focus.",
+    "ensure they are dismissible, hoverable, and persistent."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All of the hover show/hide content is dismissible, hoverable, and persistent.",
+    "Fail: Hover show/hide content is not all dismissible, hoverable, and persistent.",
+    "NA: No hover show/hide content is present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 AA - 1.4.13 Content on Hover or Focus"
+  },
+  {
+   "k": "h3",
+   "t": "Pointer and multipoint gestures (NAV-1-5)"
+  },
+  {
+   "k": "p",
+   "t": "An action that is performed by a ‘path-based gesture’ or multipoint gesture must also be completable using a single pointer gesture and a keyboard or alternative input device."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the keyboard to navigate to all path-based or multipoint gesture operable controls and confirm that they can all be operated with keyboard control.",
+    "Use the mouse to interact with all path-based or multipoint gesture operable controls and confirm that they can all be operated with a single pointer gesture control as well."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All actions that can be performed by a path-based or multipoint gesture can also be completed with a keyboard and a single pointer gesture (individual mouse clicks).",
+    "Fail: One or more actions that can be performed by a path-based or multipoint gesture cannot be completed with a keyboard or a single pointer gesture (individual mouse clicks).",
+    "NA: no actions that can be performed by a path-based or multipoint gesture are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 A - 2.5.1 Pointer Gestures"
+  },
+  {
+   "k": "h3",
+   "t": "Single character keyboard shortcuts (NAV-1-6)"
+  },
+  {
+   "k": "p",
+   "t": "If a single character shortcut is used then users must have the option to either turn it off or remap it to one or more non-printable keyboard characters.\n-or-\nMake sure the single character shortcut is only active when the component it affects has focus."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Confirm that where a single character shortcut is used that users have the option to either turn it off or remap it to one or more non-printable keyboard characters.\n-or-\nMake sure the single character shortcut is only active when the component it affects has focus."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: For all single character shortcuts, users have the option to either turn off or remap it to one or more non-printable keyboard characters or the single character shortcut is only active when the component it affects has focus.",
+    "Fail: For all single character shortcuts, users do not have the option to either turn off or remap it to one or more non-printable keyboard characters and the single character shortcut is active at all times.",
+    "NA: No single character shortcuts are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 A - 2.1.4 Character Key Shortcuts"
+  },
+  {
+   "k": "h3",
+   "t": "Skip to main content link (NAV-1-7)"
+  },
+  {
+   "k": "p",
+   "t": "A “skip to main content” link must be included on every page as the first link (or second if “skip to login” link is present) on the page. The link must skip to the main content of the page or the errors summary if present and may be visually hidden until it has focus."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Hit Tab after the page loads. Confirm that the first or second link on the page is “skip to main content” - it may be visibly hidden until it receives focus. If running the test on a Single Page Application (SPA) refresh the page and confirm that the first or second link is “Skip to main content”."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: A skip to main content link is provided and it is fully operational.",
+    "Fail: A skip to main content link is not provided or the skip to content link is not fully operational."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.4.1 Bypass Blocks"
+  },
+  {
+   "k": "h2",
+   "t": "Focus & tab order (NAV-2)"
+  },
+  {
+   "k": "h3",
+   "t": "Visible keyboard focus (NAV-2-1)"
+  },
+  {
+   "k": "p",
+   "t": "During keyboard navigation, the keyboard focus indicator is visible."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Tab through the entire page.",
+    "Confirm each focusable element has a visible focus indicator."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Each focusable element has a visible focus indicator.",
+    "Fail: One or more focusable elements do not have a visible focus indicator."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 AA - 2.4.7 Focus Visible",
+    "WCAG 2.2 AAA - 2.4.13 Focus Appearance"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Focus not obscured (NAV-2-2)"
+  },
+  {
+   "k": "p",
+   "t": "When a focusable element has keyboard focus, the element is at least partially visible."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Tab through the entire page.",
+    "For each focusable element, when it has focus, confirm at least part of the element is visible (not fully obscured by other content or off the viewport)."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Note: If content can be repositioned by the user, only test the initial position."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Focusable elements are at least partially visible when focused.",
+    "Fail: One or more focusable elements are fully obscured when focused."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 2.4.11 Focus Not Obscured (Minimum)"
+  },
+  {
+   "k": "h3",
+   "t": "Focus order (NAV-2-3)"
+  },
+  {
+   "k": "p",
+   "t": "Tab focus must follow a logical and meaningful order that preserves relationships and matches how the page is naturally read."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Navigate through all interactive elements on the page using the tab key.",
+    "Confirm that focus moves to each element in a logical order (generally top to bottom, left to right)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: The focus order is logical and meaningful, preserving relationships and matching how the page is naturally read.",
+    "Fail: The focus order is not logical. The meaning or relationships in the content are affected."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.4.3 Focus Order"
+  },
+  {
+   "k": "h2",
+   "t": "Landmarks (NAV-3)"
+  },
+  {
+   "k": "h3",
+   "t": "Appropriate use of landmark regions (NAV-3-1)"
+  },
+  {
+   "k": "p",
+   "t": "The page must have a ‘Main’ landmark region defined at a minimum and Banner, Navigation, Search, Complementary, and ContentInfo roles are present if these content types are present in the page."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Open the page in the Chrome browser and use Accessibility Insights > Adhoc Tools >Landmarks to visualize the landmark regions that are present in the page.",
+    "Confirm that the page has a ‘Main’ landmark region defined at a minimum.",
+    "Confirm that the Banner, Navigation, and ContentInfo roles are present if these content types are present in the page."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: The page contains a main landmark region and if content suited for a navigation, banner, or contentinfo region is present then the appropriate roles are applied to each content area respectively.",
+    "Fail: The page does not contain a main landmark region or content suited for a navigation, banner, or contentinfo region is present and the appropriate roles are not applied to each content area respectively.",
+    "NA: The page content is not substantial enough to be grouped in one or more landmark regions."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.4.1 Bypass Blocks"
+  },
+  {
+   "k": "h3",
+   "t": "Keep all content in appropriate regions (NAV-3-2)"
+  },
+  {
+   "k": "p",
+   "t": "All rendered content must be within the appropriate landmark region and the Main landmark must contain all of the primary page content and no blocks of content that repeat on multiple pages are within the Main landmark."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Using the Accessibility Insights Landmarks tool, examine the landmark regions in the page and confirm that:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "All page content is within a landmark region.",
+    "All primary page content is within the Main landmark region.",
+    "No content that repeats on multiple pages is within the Main landmark region."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All page content is within the appropriate landmark region.",
+    "Fail: One or more blocks of page content are not within a landmark region or the Main landmark region does not include all primary page content or content that repeats on multiple pages is within the Main landmark region."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.4.1 Bypass Blocks"
+  },
+  {
+   "k": "h3",
+   "t": "Redundant landmarks have unique names (NAV-3-3)"
+  },
+  {
+   "k": "p",
+   "t": "If a page has multiple landmarks of the same type (for example: Main Nav and Sub Nav), those regions must have unique names applied using an appropriate naming technique and the landmark role type must not be included in the name."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use Accessibility Insights > Adhoc Tools > Landmarks to review all of the landmarkroles in the page.",
+    "Locate any instance of two or more landmarks of the same type (for example: Main Nav and Sub Nav).",
+    "Confirm that each duplicate landmark has a unique name that does not include the landmark role type in the name to help screen reader users distinguish between the two."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All landmark regions of the same role type have unique names applied and the name for each does not include the role type.",
+    "Fail: Two or more landmark roles of the same type are present and they do not have unique names applied or the name of one or more region includes the role type in the name value.",
+    "NA: No landmark regions of the same role type are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 2.4.6 Headings and Labels"
+  },
+  {
+   "k": "h2",
+   "t": "Consistent experience (NAV-4)"
+  },
+  {
+   "k": "h3",
+   "t": "Same relative order (NAV-4-1)"
+  },
+  {
+   "k": "p",
+   "t": "Components, like links, buttons, or contact forms, that appear on multiple pages must appear in the same relative order on every page."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Perform a visual inspection of the page looking for navigation components.",
+    "Confirm that components (links, buttons, contact forms, etc.) that appear on multiple pages appear in the same relative order on every page."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Components that appear on multiple pages appear in the same relative order on every page.",
+    "Fail: One or more component that appears on multiple pages does not appear in the same relative order on every page.",
+    "NA: No component appears on multiple pages."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 3.2.3 Consistent Navigation"
+  },
+  {
+   "k": "h3",
+   "t": "Name consistently (NAV-4-2)"
+  },
+  {
+   "k": "p",
+   "t": "Consistent labels, names, and text alternatives must be used for content that has the same functionality."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Confirm that content with the same functionality has consistent labels, names, and text alternatives."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Content with the same functionality has consistent labels, names, and text alternatives.",
+    "Fail: Content with the same functionality does not have consistent labels, names, or text alternatives.",
+    "NA: No content with the same functionality is present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 3.2.4 Consistent Identification"
+  },
+  {
+   "k": "h3",
+   "t": "Consistent help (NAV-4-3)"
+  },
+  {
+   "k": "p",
+   "t": "If a page includes the help options listed below, they are in the same location on similar pages:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Human contact details;",
+    "Human contact mechanism;",
+    "Self-help option;",
+    "A fully automated contact mechanism."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate if any of the listed help options in exist on the page: Human contact details; Human contact mechanism; Self-help option; A fully automated contact mechanism.",
+    "Determine if the help is in the same location across similar pages."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Help across similar pages is in the same location.",
+    "Fail: Help across similar pages is not in the same location.",
+    "NA: No help options exist on the page."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.2.6 Consistent Help"
+  },
+  {
+   "k": "h3",
+   "t": "More than one way to find content (NAV-4-4)"
+  },
+  {
+   "k": "p",
+   "t": "Users must be provided more than one way to find content within a website except when the web page is the result of a step or process. This provision must include two or more of the following navigational methods:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Links to navigate to related Web pages",
+    "a Table of Contents",
+    "a Site Map",
+    "a search function",
+    "a list of links to all other Web pages",
+    "Linking to all of the pages on the site from the home page"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Review the page and site navigation structure.",
+    "Confirm that the site provides at least 2 of the following ways to find content:"
+   ]
+  },
+  {
+   "k": "list",
+   "items": [
+    "Links to navigate to related Web pages",
+    "Table of Contents",
+    "Site Map",
+    "Search function",
+    "List of links to all other Web pages",
+    "Linking to all of the pages on the site from the home page"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Exception: Small sites (4 pages or fewer) can meet this requirement if the main navigation menu links to all other pages."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: The site provides 2 or more ways to find content.",
+    "Fail: The site provides fewer than 2 ways to find content."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 2.4.5 Multiple Ways"
+  }
+ ]
+}

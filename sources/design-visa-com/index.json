@@ -1,0 +1,4269 @@
+{
+ "site": "https://design.visa.com/",
+ "startedAt": "2026-10-15T17:05:36.722Z",
+ "pages": [
+  {
+   "id": "0001",
+   "url": "https://design.visa.com",
+   "title": "Powering progress, from first step to final product.",
+   "blocks": 17,
+   "chars": 1457,
+   "links": [
+    "https://design.visa.com/welcome",
+    "https://design.visa.com/about-VPDS",
+    "https://design.visa.com/about-VPDS/inclusive-design",
+    "https://design.visa.com/about-VPDS/faqs",
+    "https://design.visa.com/what's-new/latest-news",
+    "https://design.visa.com/what's-new/releases",
+    "https://design.visa.com/global-accessibility-requirements",
+    "https://design.visa.com/global-accessibility-requirements/web/general",
+    "https://design.visa.com/global-accessibility-requirements/web/text",
+    "https://design.visa.com/global-accessibility-requirements/web/interactive",
+    "https://design.visa.com/global-accessibility-requirements/web/navigation-wayfinding",
+    "https://design.visa.com/global-accessibility-requirements/web/visual-design-multimedia",
+    "https://design.visa.com/global-accessibility-requirements/mobile/application",
+    "https://design.visa.com/global-accessibility-requirements/mobile/content",
+    "https://design.visa.com/global-accessibility-requirements/mobile/interaction",
+    "https://design.visa.com/global-accessibility-requirements/mobile/visual",
+    "https://design.visa.com/global-accessibility-requirements/pdf/general",
+    "https://design.visa.com/global-accessibility-requirements/pdf/document-colors",
+    "https://design.visa.com/global-accessibility-requirements/pdf/tags",
+    "https://design.visa.com/global-accessibility-requirements/pdf/graphics",
+    "https://design.visa.com/global-accessibility-requirements/pdf/text",
+    "https://design.visa.com/global-accessibility-requirements/pdf/navigation",
+    "https://design.visa.com/global-accessibility-requirements/pdf/tables",
+    "https://design.visa.com/global-accessibility-requirements/pdf/annotations",
+    "https://design.visa.com/global-accessibility-requirements/pdf/forms",
+    "https://design.visa.com/global-accessibility-requirements/pdf/media",
+    "https://design.visa.com/designing",
+    "https://design.visa.com/designing/design-kits",
+    "https://design.visa.com/designing/brand-guidance-for-products",
+    "https://design.visa.com/developing",
+    "https://design.visa.com/developing/angular",
+    "https://design.visa.com/developing/angular/accessibility-utilities",
+    "https://design.visa.com/developing/angular/services/app-ready",
+    "https://design.visa.com/developing/angular/services/floating-ui",
+    "https://design.visa.com/developing/angular/services/nova-lib",
+    "https://design.visa.com/developing/angular/services/id-generator",
+    "https://design.visa.com/developing/angular/changelog",
+    "https://design.visa.com/developing/flutter",
+    "https://design.visa.com/developing/flutter/accessibility-utilities",
+    "https://design.visa.com/developing/flutter/changelog",
+    "https://design.visa.com/developing/react",
+    "https://design.visa.com/developing/react/accessibility-utilities",
+    "https://design.visa.com/developing/react/hooks/usecardnumbervalidation",
+    "https://design.visa.com/developing/react/hooks/usedebounce",
+    "https://design.visa.com/developing/react/hooks/usefocustrap",
+    "https://design.visa.com/developing/react/changelog",
+    "https://design.visa.com/developing/styles-css",
+    "https://design.visa.com/developing/styles-css/accessibility-styles",
+    "https://design.visa.com/developing/styles-css/changelog",
+    "https://design.visa.com/developing/styles-css/abstracts/action-primary",
+    "https://design.visa.com/developing/styles-css/abstracts/action-secondary",
+    "https://design.visa.com/developing/styles-css/abstracts/input",
+    "https://design.visa.com/developing/styles-css/abstracts/message",
+    "https://design.visa.com/contributing",
+    "https://design.visa.com/base-elements",
+    "https://design.visa.com/base-elements/color",
+    "https://design.visa.com/base-elements/elevation",
+    "https://design.visa.com/base-elements/responsive-grid-system",
+    "https://design.visa.com/base-elements/size-and-shape",
+    "https://design.visa.com/base-elements/spacing",
+    "https://design.visa.com/base-elements/states",
+    "https://design.visa.com/base-elements/surface",
+    "https://design.visa.com/base-elements/typography",
+    "https://design.visa.com/base-elements/design-tokens/overview",
+    "https://design.visa.com/base-elements/design-tokens/tokens-for-designers",
+    "https://design.visa.com/base-elements/design-tokens/tokens-for-developers",
+    "https://design.visa.com/components",
+    "https://design.visa.com/components/accordion",
+    "https://design.visa.com/components/anchor-link-menu",
+    "https://design.visa.com/components/avatar",
+    "https://design.visa.com/components/badge",
+    "https://design.visa.com/components/banner",
+    "https://design.visa.com/components/breadcrumbs",
+    "https://design.visa.com/components/button",
+    "https://design.visa.com/components/checkbox",
+    "https://design.visa.com/components/chips",
+    "https://design.visa.com/components/color-selector",
+    "https://design.visa.com/components/combobox",
+    "https://design.visa.com/components/content-card",
+    "https://design.visa.com/components/date-selector",
+    "https://design.visa.com/components/dialog",
+    "https://design.visa.com/components/divider",
+    "https://design.visa.com/components/dropdown-menu",
+    "https://design.visa.com/components/flag",
+    "https://design.visa.com/components/footer",
+    "https://design.visa.com/components/horizontal-navigation",
+    "https://design.visa.com/components/icons-illustrations",
+    "https://design.visa.com/components/input",
+    "https://design.visa.com/components/link",
+    "https://design.visa.com/components/list-item",
+    "https://design.visa.com/components/listbox",
+    "https://design.visa.com/components/multiselect",
+    "https://design.visa.com/components/navigation-drawer",
+    "https://design.visa.com/components/pagination",
+    "https://design.visa.com/components/panel",
+    "https://design.visa.com/components/progress",
+    "https://design.visa.com/components/radio",
+    "https://design.visa.com/components/section-message",
+    "https://design.visa.com/components/select",
+    "https://design.visa.com/components/slider",
+    "https://design.visa.com/components/switch",
+    "https://design.visa.com/components/tab-bar",
+    "https://design.visa.com/components/table",
+    "https://design.visa.com/components/tabs",
+    "https://design.visa.com/components/toggle-button",
+    "https://design.visa.com/components/tooltip",
+    "https://design.visa.com/components/top-app-bar",
+    "https://design.visa.com/components/vertical-navigation",
+    "https://design.visa.com/patterns",
+    "https://design.visa.com/patterns/address",
+    "https://design.visa.com/patterns/application-layouts",
+    "https://design.visa.com/patterns/card-input",
+    "https://design.visa.com/patterns/chat",
+    "https://design.visa.com/patterns/dynamic-table",
+    "https://design.visa.com/patterns/feedback-and-status",
+    "https://design.visa.com/patterns/file-upload",
+    "https://design.visa.com/patterns/filters",
+    "https://design.visa.com/patterns/forms",
+    "https://design.visa.com/patterns/notification-tray",
+    "https://design.visa.com/patterns/one-time-passcode",
+    "https://design.visa.com/patterns/search",
+    "https://design.visa.com/patterns/wizard",
+    "https://design.visa.com/content",
+    "https://design.visa.com/content/accessible-text",
+    "https://design.visa.com/content/grammar",
+    "https://design.visa.com/content/inclusive-language",
+    "https://design.visa.com/content/information-architecture",
+    "https://design.visa.com/content/messaging",
+    "https://design.visa.com/content/placeholder-text",
+    "https://design.visa.com/content/readability",
+    "https://design.visa.com/content/voice-and-tone",
+    "https://design.visa.com/data-visualization",
+    "https://design.visa.com/data-visualization/development-setup",
+    "https://design.visa.com/data-visualization/design-visualization-guidelines/overview",
+    "https://design.visa.com/data-visualization/design-visualization-guidelines/data-visualization-principles",
+    "https://design.visa.com/data-visualization/design-visualization-guidelines/selecting-a-chart",
+    "https://design.visa.com/data-visualization/charts/overview",
+    "https://design.visa.com/data-visualization/charts/bar-chart",
+    "https://design.visa.com/data-visualization/charts/dumbbell-plot",
+    "https://design.visa.com/data-visualization/charts/heatmap",
+    "https://design.visa.com/data-visualization/charts/line-chart",
+    "https://design.visa.com/support",
+    "https://design.visa.com/terms-of-use"
+   ]
+  },
+  {
+   "id": "0002",
+   "url": "https://design.visa.com/welcome",
+   "title": "Powering progress, from first step to final product.",
+   "blocks": 17,
+   "chars": 1457,
+   "links": []
+  },
+  {
+   "id": "0003",
+   "url": "https://design.visa.com/about-VPDS",
+   "title": "What is VPDS?",
+   "blocks": 28,
+   "chars": 4383,
+   "links": []
+  },
+  {
+   "id": "0004",
+   "url": "https://design.visa.com/about-VPDS/inclusive-design",
+   "title": "Inclusive design",
+   "blocks": 57,
+   "chars": 9979,
+   "links": []
+  },
+  {
+   "id": "0005",
+   "url": "https://design.visa.com/about-VPDS/faqs",
+   "title": "FAQs",
+   "blocks": 57,
+   "chars": 7396,
+   "links": []
+  },
+  {
+   "id": "0006",
+   "url": "https://design.visa.com/what's-new/latest-news",
+   "title": "Latest news",
+   "blocks": 29,
+   "chars": 1406,
+   "links": [
+    "https://design.visa.com/what's-new/latest-news/fy26-q2-release",
+    "https://design.visa.com/what's-new/latest-news/fy25-nova-angular-6",
+    "https://design.visa.com/what's-new/latest-news/fy25-q4-release",
+    "https://design.visa.com/what's-new/latest-news/fy25-q2-release",
+    "https://design.visa.com/what's-new/latest-news/fy24-q4-release",
+    "https://design.visa.com/what's-new/latest-news/fy23-q3-release"
+   ]
+  },
+  {
+   "id": "0007",
+   "url": "https://design.visa.com/what's-new/releases",
+   "title": "Releases",
+   "blocks": 15,
+   "chars": 2126,
+   "links": []
+  },
+  {
+   "id": "0008",
+   "url": "https://design.visa.com/global-accessibility-requirements",
+   "title": "Global accessibility requirements",
+   "blocks": 23,
+   "chars": 2649,
+   "links": [
+    "https://design.visa.com/global-accessibility-requirements/design-practices",
+    "https://design.visa.com/global-accessibility-requirements/development-and-testing-practices"
+   ]
+  },
+  {
+   "id": "0009",
+   "url": "https://design.visa.com/global-accessibility-requirements/web/general",
+   "title": "General",
+   "blocks": 75,
+   "chars": 5313,
+   "links": []
+  },
+  {
+   "id": "0010",
+   "url": "https://design.visa.com/global-accessibility-requirements/web/text",
+   "title": "Text requirements for web",
+   "blocks": 95,
+   "chars": 7468,
+   "links": []
+  },
+  {
+   "id": "0011",
+   "url": "https://design.visa.com/global-accessibility-requirements/web/interactive",
+   "title": "Interactive",
+   "blocks": 287,
+   "chars": 28145,
+   "links": []
+  },
+  {
+   "id": "0012",
+   "url": "https://design.visa.com/global-accessibility-requirements/web/navigation-wayfinding",
+   "title": "Navigation and wayfinding",
+   "blocks": 170,
+   "chars": 15669,
+   "links": []
+  },
+  {
+   "id": "0013",
+   "url": "https://design.visa.com/global-accessibility-requirements/web/visual-design-multimedia",
+   "title": "Visual design and multimedia",
+   "blocks": 145,
+   "chars": 13419,
+   "links": []
+  },
+  {
+   "id": "0014",
+   "url": "https://design.visa.com/global-accessibility-requirements/mobile/application",
+   "title": "Application",
+   "blocks": 102,
+   "chars": 7335,
+   "links": []
+  },
+  {
+   "id": "0015",
+   "url": "https://design.visa.com/global-accessibility-requirements/mobile/content",
+   "title": "Content",
+   "blocks": 125,
+   "chars": 11655,
+   "links": []
+  },
+  {
+   "id": "0016",
+   "url": "https://design.visa.com/global-accessibility-requirements/mobile/interaction",
+   "title": "Interaction",
+   "blocks": 248,
+   "chars": 22000,
+   "links": []
+  },
+  {
+   "id": "0017",
+   "url": "https://design.visa.com/global-accessibility-requirements/mobile/visual",
+   "title": "Visual",
+   "blocks": 83,
+   "chars": 6957,
+   "links": []
+  },
+  {
+   "id": "0018",
+   "url": "https://design.visa.com/global-accessibility-requirements/pdf/general",
+   "title": "General",
+   "blocks": 25,
+   "chars": 1663,
+   "links": []
+  },
+  {
+   "id": "0019",
+   "url": "https://design.visa.com/global-accessibility-requirements/pdf/document-colors",
+   "title": "Document colors",
+   "blocks": 33,
+   "chars": 2777,
+   "links": []
+  },
+  {
+   "id": "0020",
+   "url": "https://design.visa.com/global-accessibility-requirements/pdf/tags",
+   "title": "Tags",
+   "blocks": 63,
+   "chars": 7231,
+   "links": []
+  },
+  {
+   "id": "0021",
+   "url": "https://design.visa.com/global-accessibility-requirements/pdf/graphics",
+   "title": "Graphics",
+   "blocks": 44,
+   "chars": 3600,
+   "links": []
+  },
+  {
+   "id": "0022",
+   "url": "https://design.visa.com/global-accessibility-requirements/pdf/text",
+   "title": "Text",
+   "blocks": 44,
+   "chars": 3544,
+   "links": []
+  },
+  {
+   "id": "0023",
+   "url": "https://design.visa.com/global-accessibility-requirements/pdf/navigation",
+   "title": "Navigation",
+   "blocks": 26,
+   "chars": 1563,
+   "links": []
+  },
+  {
+   "id": "0024",
+   "url": "https://design.visa.com/global-accessibility-requirements/pdf/tables",
+   "title": "Tables",
+   "blocks": 27,
+   "chars": 2721,
+   "links": []
+  },
+  {
+   "id": "0025",
+   "url": "https://design.visa.com/global-accessibility-requirements/pdf/annotations",
+   "title": "Annotations",
+   "blocks": 17,
+   "chars": 1601,
+   "links": []
+  },
+  {
+   "id": "0026",
+   "url": "https://design.visa.com/global-accessibility-requirements/pdf/forms",
+   "title": "Forms",
+   "blocks": 62,
+   "chars": 6309,
+   "links": []
+  },
+  {
+   "id": "0027",
+   "url": "https://design.visa.com/global-accessibility-requirements/pdf/media",
+   "title": "Media content",
+   "blocks": 44,
+   "chars": 3526,
+   "links": []
+  },
+  {
+   "id": "0028",
+   "url": "https://design.visa.com/designing",
+   "title": "Start designing with VPDS",
+   "blocks": 9,
+   "chars": 1474,
+   "links": []
+  },
+  {
+   "id": "0029",
+   "url": "https://design.visa.com/designing/design-kits",
+   "title": "Design kits",
+   "blocks": 29,
+   "chars": 2634,
+   "links": []
+  },
+  {
+   "id": "0030",
+   "url": "https://design.visa.com/designing/brand-guidance-for-products",
+   "title": "Brand guidance for products",
+   "blocks": 8,
+   "chars": 553,
+   "links": []
+  },
+  {
+   "id": "0031",
+   "url": "https://design.visa.com/developing",
+   "title": "Start developing with VPDS",
+   "blocks": 14,
+   "chars": 2290,
+   "links": []
+  },
+  {
+   "id": "0032",
+   "url": "https://design.visa.com/developing/angular",
+   "title": "Start building with Angular",
+   "blocks": 51,
+   "chars": 4367,
+   "links": []
+  },
+  {
+   "id": "0033",
+   "url": "https://design.visa.com/developing/angular/accessibility-utilities",
+   "title": "Accessibility utilities",
+   "blocks": 13,
+   "chars": 297,
+   "links": []
+  },
+  {
+   "id": "0034",
+   "url": "https://design.visa.com/developing/angular/services/app-ready",
+   "title": "App ready check service",
+   "blocks": 17,
+   "chars": 1014,
+   "links": []
+  },
+  {
+   "id": "0035",
+   "url": "https://design.visa.com/developing/angular/services/floating-ui",
+   "title": "Floating UI service",
+   "blocks": 87,
+   "chars": 5911,
+   "links": []
+  },
+  {
+   "id": "0036",
+   "url": "https://design.visa.com/developing/angular/services/nova-lib",
+   "title": "Nova library service",
+   "blocks": 82,
+   "chars": 4832,
+   "links": []
+  },
+  {
+   "id": "0037",
+   "url": "https://design.visa.com/developing/angular/services/id-generator",
+   "title": "Uniqe ID generator service",
+   "blocks": 28,
+   "chars": 942,
+   "links": []
+  },
+  {
+   "id": "0038",
+   "url": "https://design.visa.com/developing/angular/changelog",
+   "title": "Changelog",
+   "blocks": 24,
+   "chars": 2931,
+   "links": []
+  },
+  {
+   "id": "0039",
+   "url": "https://design.visa.com/developing/flutter",
+   "title": "Start building with Flutter",
+   "blocks": 25,
+   "chars": 2230,
+   "links": []
+  },
+  {
+   "id": "0040",
+   "url": "https://design.visa.com/developing/flutter/accessibility-utilities",
+   "title": "Accessibility utilities",
+   "blocks": 21,
+   "chars": 714,
+   "links": []
+  },
+  {
+   "id": "0041",
+   "url": "https://design.visa.com/developing/flutter/changelog",
+   "title": "Changelog",
+   "blocks": 35,
+   "chars": 4278,
+   "links": []
+  },
+  {
+   "id": "0042",
+   "url": "https://design.visa.com/developing/react",
+   "title": "Start building with React",
+   "blocks": 29,
+   "chars": 3934,
+   "links": []
+  },
+  {
+   "id": "0043",
+   "url": "https://design.visa.com/developing/react/accessibility-utilities",
+   "title": "Accessibility utilities",
+   "blocks": 19,
+   "chars": 479,
+   "links": []
+  },
+  {
+   "id": "0044",
+   "url": "https://design.visa.com/developing/react/hooks/usecardnumbervalidation",
+   "title": "useCardNumberValidation",
+   "blocks": 21,
+   "chars": 2958,
+   "links": []
+  },
+  {
+   "id": "0045",
+   "url": "https://design.visa.com/developing/react/hooks/usedebounce",
+   "title": "useDebounce",
+   "blocks": 21,
+   "chars": 654,
+   "links": []
+  },
+  {
+   "id": "0046",
+   "url": "https://design.visa.com/developing/react/hooks/usefocustrap",
+   "title": "useFocusTrap",
+   "blocks": 21,
+   "chars": 993,
+   "links": []
+  },
+  {
+   "id": "0047",
+   "url": "https://design.visa.com/developing/react/changelog",
+   "title": "Changelog",
+   "blocks": 21,
+   "chars": 2545,
+   "links": []
+  },
+  {
+   "id": "0048",
+   "url": "https://design.visa.com/developing/styles-css",
+   "title": "Start building with Nova styles",
+   "blocks": 36,
+   "chars": 3722,
+   "links": []
+  },
+  {
+   "id": "0049",
+   "url": "https://design.visa.com/developing/styles-css/accessibility-styles",
+   "title": "Accessibility styles",
+   "blocks": 24,
+   "chars": 528,
+   "links": []
+  },
+  {
+   "id": "0050",
+   "url": "https://design.visa.com/developing/styles-css/changelog",
+   "title": "Changelog",
+   "blocks": 19,
+   "chars": 1350,
+   "links": []
+  },
+  {
+   "id": "0051",
+   "url": "https://design.visa.com/developing/styles-css/abstracts/action-primary",
+   "title": "Action primary",
+   "blocks": 24,
+   "chars": 2475,
+   "links": []
+  },
+  {
+   "id": "0052",
+   "url": "https://design.visa.com/developing/styles-css/abstracts/action-secondary",
+   "title": "Action secondary",
+   "blocks": 19,
+   "chars": 454,
+   "links": []
+  },
+  {
+   "id": "0053",
+   "url": "https://design.visa.com/developing/styles-css/abstracts/input",
+   "title": "Input",
+   "blocks": 24,
+   "chars": 4425,
+   "links": []
+  },
+  {
+   "id": "0054",
+   "url": "https://design.visa.com/developing/styles-css/abstracts/message",
+   "title": "Message",
+   "blocks": 24,
+   "chars": 2987,
+   "links": []
+  },
+  {
+   "id": "0055",
+   "url": "https://design.visa.com/contributing",
+   "title": "Start contributing to VPDS",
+   "blocks": 35,
+   "chars": 3778,
+   "links": [
+    "https://design.visa.com/contributing/code",
+    "https://design.visa.com/contributing/design"
+   ]
+  },
+  {
+   "id": "0056",
+   "url": "https://design.visa.com/base-elements",
+   "title": "Base elements",
+   "blocks": 20,
+   "chars": 1145,
+   "links": []
+  },
+  {
+   "id": "0057",
+   "url": "https://design.visa.com/base-elements/color",
+   "title": "Color",
+   "blocks": 26,
+   "chars": 3362,
+   "links": [
+    "https://design.visa.com/base-elements/color/usage",
+    "https://design.visa.com/base-elements/color/accessibility"
+   ]
+  },
+  {
+   "id": "0058",
+   "url": "https://design.visa.com/base-elements/elevation",
+   "title": "Elevation",
+   "blocks": 29,
+   "chars": 4184,
+   "links": [
+    "https://design.visa.com/base-elements/elevation/usage"
+   ]
+  },
+  {
+   "id": "0059",
+   "url": "https://design.visa.com/base-elements/responsive-grid-system",
+   "title": "Responsive grid system",
+   "blocks": 50,
+   "chars": 5719,
+   "links": [
+    "https://design.visa.com/base-elements/responsive-grid-system/breakpoints",
+    "https://design.visa.com/base-elements/responsive-grid-system/flex",
+    "https://design.visa.com/base-elements/typography/usage"
+   ]
+  },
+  {
+   "id": "0060",
+   "url": "https://design.visa.com/base-elements/size-and-shape",
+   "title": "Size and shape",
+   "blocks": 16,
+   "chars": 278,
+   "links": []
+  },
+  {
+   "id": "0061",
+   "url": "https://design.visa.com/base-elements/spacing",
+   "title": "Spacing",
+   "blocks": 30,
+   "chars": 1088,
+   "links": []
+  },
+  {
+   "id": "0062",
+   "url": "https://design.visa.com/base-elements/states",
+   "title": "States",
+   "blocks": 19,
+   "chars": 874,
+   "links": [
+    "https://design.visa.com/base-elements/states/usage"
+   ]
+  },
+  {
+   "id": "0063",
+   "url": "https://design.visa.com/base-elements/surface",
+   "title": "Surface",
+   "blocks": 22,
+   "chars": 986,
+   "links": []
+  },
+  {
+   "id": "0064",
+   "url": "https://design.visa.com/base-elements/typography",
+   "title": "Typography",
+   "blocks": 26,
+   "chars": 11148,
+   "links": [
+    "https://design.visa.com/base-elements/typography/accessibility"
+   ]
+  },
+  {
+   "id": "0065",
+   "url": "https://design.visa.com/base-elements/design-tokens/overview",
+   "title": "About design tokens",
+   "blocks": 41,
+   "chars": 5162,
+   "links": []
+  },
+  {
+   "id": "0066",
+   "url": "https://design.visa.com/base-elements/design-tokens/tokens-for-designers",
+   "title": "Design tokens for designers",
+   "blocks": 24,
+   "chars": 3450,
+   "links": []
+  },
+  {
+   "id": "0067",
+   "url": "https://design.visa.com/base-elements/design-tokens/tokens-for-developers",
+   "title": "Design tokens for developers",
+   "blocks": 72,
+   "chars": 10832,
+   "links": [
+    "https://design.visa.com/components/icons-illustrations/code"
+   ]
+  },
+  {
+   "id": "0068",
+   "url": "https://design.visa.com/components",
+   "title": "Components",
+   "blocks": 91,
+   "chars": 3496,
+   "links": []
+  },
+  {
+   "id": "0069",
+   "url": "https://design.visa.com/components/accordion",
+   "title": "Accordion",
+   "blocks": 33,
+   "chars": 3401,
+   "links": [
+    "https://design.visa.com/components/accordion/usage",
+    "https://design.visa.com/components/accordion/accessibility"
+   ]
+  },
+  {
+   "id": "0070",
+   "url": "https://design.visa.com/components/anchor-link-menu",
+   "title": "Anchor link menu",
+   "blocks": 29,
+   "chars": 2143,
+   "links": [
+    "https://design.visa.com/components/anchor-link-menu/usage",
+    "https://design.visa.com/components/anchor-link-menu/accessibility"
+   ]
+  },
+  {
+   "id": "0071",
+   "url": "https://design.visa.com/components/avatar",
+   "title": "Avatar",
+   "blocks": 32,
+   "chars": 1042,
+   "links": [
+    "https://design.visa.com/components/avatar/usage",
+    "https://design.visa.com/components/avatar/accessibility"
+   ]
+  },
+  {
+   "id": "0072",
+   "url": "https://design.visa.com/components/badge",
+   "title": "Badge",
+   "blocks": 34,
+   "chars": 719,
+   "links": [
+    "https://design.visa.com/components/badge/usage",
+    "https://design.visa.com/components/badge/accessibility"
+   ]
+  },
+  {
+   "id": "0073",
+   "url": "https://design.visa.com/components/banner",
+   "title": "Banner",
+   "blocks": 34,
+   "chars": 1166,
+   "links": [
+    "https://design.visa.com/components/banner/usage",
+    "https://design.visa.com/components/banner/accessibility"
+   ]
+  },
+  {
+   "id": "0074",
+   "url": "https://design.visa.com/components/breadcrumbs",
+   "title": "Breadcrumbs",
+   "blocks": 15,
+   "chars": 284,
+   "links": [
+    "https://design.visa.com/components/breadcrumbs/usage",
+    "https://design.visa.com/components/breadcrumbs/accessibility"
+   ]
+  },
+  {
+   "id": "0075",
+   "url": "https://design.visa.com/components/button",
+   "title": "Button",
+   "blocks": 28,
+   "chars": 718,
+   "links": [
+    "https://design.visa.com/components/button/usage",
+    "https://design.visa.com/components/button/accessibility"
+   ]
+  },
+  {
+   "id": "0076",
+   "url": "https://design.visa.com/components/checkbox",
+   "title": "Checkbox",
+   "blocks": 34,
+   "chars": 3404,
+   "links": [
+    "https://design.visa.com/components/checkbox/usage",
+    "https://design.visa.com/components/checkbox/accessibility"
+   ]
+  },
+  {
+   "id": "0077",
+   "url": "https://design.visa.com/components/chips",
+   "title": "Chips",
+   "blocks": 32,
+   "chars": 2977,
+   "links": [
+    "https://design.visa.com/components/chips/usage",
+    "https://design.visa.com/components/chips/accessibility"
+   ]
+  },
+  {
+   "id": "0078",
+   "url": "https://design.visa.com/components/color-selector",
+   "title": "Color selector",
+   "blocks": 26,
+   "chars": 543,
+   "links": [
+    "https://design.visa.com/components/color-selector/usage",
+    "https://design.visa.com/components/color-selector/accessibility"
+   ]
+  },
+  {
+   "id": "0079",
+   "url": "https://design.visa.com/components/combobox",
+   "title": "Combobox",
+   "blocks": 32,
+   "chars": 907,
+   "links": [
+    "https://design.visa.com/components/combobox/usage",
+    "https://design.visa.com/components/combobox/accessibility"
+   ]
+  },
+  {
+   "id": "0080",
+   "url": "https://design.visa.com/components/content-card",
+   "title": "Content card",
+   "blocks": 32,
+   "chars": 2893,
+   "links": [
+    "https://design.visa.com/components/content-card/usage",
+    "https://design.visa.com/components/content-card/accessibility"
+   ]
+  },
+  {
+   "id": "0081",
+   "url": "https://design.visa.com/components/date-selector",
+   "title": "Date and time selectors",
+   "blocks": 14,
+   "chars": 288,
+   "links": [
+    "https://design.visa.com/components/date-selector/usage",
+    "https://design.visa.com/components/date-selector/accessibility"
+   ]
+  },
+  {
+   "id": "0082",
+   "url": "https://design.visa.com/components/dialog",
+   "title": "Dialog",
+   "blocks": 31,
+   "chars": 1437,
+   "links": [
+    "https://design.visa.com/components/dialog/usage",
+    "https://design.visa.com/components/dialog/accessibility"
+   ]
+  },
+  {
+   "id": "0083",
+   "url": "https://design.visa.com/components/divider",
+   "title": "Divider",
+   "blocks": 31,
+   "chars": 1072,
+   "links": [
+    "https://design.visa.com/components/divider/usage",
+    "https://design.visa.com/components/divider/accessibility"
+   ]
+  },
+  {
+   "id": "0084",
+   "url": "https://design.visa.com/components/dropdown-menu",
+   "title": "Dropdown menu",
+   "blocks": 32,
+   "chars": 946,
+   "links": [
+    "https://design.visa.com/components/dropdown-menu/usage",
+    "https://design.visa.com/components/dropdown-menu/accessibility"
+   ]
+  },
+  {
+   "id": "0085",
+   "url": "https://design.visa.com/components/flag",
+   "title": "Flag",
+   "blocks": 34,
+   "chars": 918,
+   "links": [
+    "https://design.visa.com/components/flag/usage",
+    "https://design.visa.com/components/flag/accessibility"
+   ]
+  },
+  {
+   "id": "0086",
+   "url": "https://design.visa.com/components/footer",
+   "title": "Footer",
+   "blocks": 29,
+   "chars": 902,
+   "links": [
+    "https://design.visa.com/components/footer/usage",
+    "https://design.visa.com/components/footer/accessibility"
+   ]
+  },
+  {
+   "id": "0087",
+   "url": "https://design.visa.com/components/horizontal-navigation",
+   "title": "Horizontal navigation",
+   "blocks": 31,
+   "chars": 1018,
+   "links": [
+    "https://design.visa.com/components/horizontal-navigation/usage",
+    "https://design.visa.com/components/horizontal-navigation/accessibility"
+   ]
+  },
+  {
+   "id": "0088",
+   "url": "https://design.visa.com/components/icons-illustrations",
+   "title": "Icons and illustrations",
+   "blocks": 99,
+   "chars": 1670,
+   "links": [
+    "https://design.visa.com/components/icons-illustrations/usage",
+    "https://design.visa.com/components/icons-illustrations/accessibility"
+   ]
+  },
+  {
+   "id": "0089",
+   "url": "https://design.visa.com/components/input",
+   "title": "Input",
+   "blocks": 32,
+   "chars": 4677,
+   "links": [
+    "https://design.visa.com/components/input/usage",
+    "https://design.visa.com/components/input/accessibility"
+   ]
+  },
+  {
+   "id": "0090",
+   "url": "https://design.visa.com/components/link",
+   "title": "Link",
+   "blocks": 36,
+   "chars": 2419,
+   "links": [
+    "https://design.visa.com/components/link/usage",
+    "https://design.visa.com/components/link/accessibility"
+   ]
+  },
+  {
+   "id": "0091",
+   "url": "https://design.visa.com/components/list-item",
+   "title": "List item",
+   "blocks": 25,
+   "chars": 537,
+   "links": [
+    "https://design.visa.com/components/list-item/usage",
+    "https://design.visa.com/components/list-item/accessibility"
+   ]
+  },
+  {
+   "id": "0092",
+   "url": "https://design.visa.com/components/listbox",
+   "title": "Listbox",
+   "blocks": 26,
+   "chars": 603,
+   "links": [
+    "https://design.visa.com/components/listbox/usage",
+    "https://design.visa.com/components/listbox/accessibility"
+   ]
+  },
+  {
+   "id": "0093",
+   "url": "https://design.visa.com/components/multiselect",
+   "title": "Multiselect",
+   "blocks": 30,
+   "chars": 711,
+   "links": [
+    "https://design.visa.com/components/multiselect/usage",
+    "https://design.visa.com/components/multiselect/accessibility"
+   ]
+  },
+  {
+   "id": "0094",
+   "url": "https://design.visa.com/components/navigation-drawer",
+   "title": "Navigation drawer",
+   "blocks": 21,
+   "chars": 618,
+   "links": [
+    "https://design.visa.com/components/navigation-drawer/usage",
+    "https://design.visa.com/components/navigation-drawer/accessibility"
+   ]
+  },
+  {
+   "id": "0095",
+   "url": "https://design.visa.com/components/pagination",
+   "title": "Pagination",
+   "blocks": 20,
+   "chars": 408,
+   "links": [
+    "https://design.visa.com/components/pagination/usage",
+    "https://design.visa.com/components/pagination/accessibility"
+   ]
+  },
+  {
+   "id": "0096",
+   "url": "https://design.visa.com/components/panel",
+   "title": "Panel",
+   "blocks": 32,
+   "chars": 1721,
+   "links": [
+    "https://design.visa.com/components/panel/usage",
+    "https://design.visa.com/components/panel/accessibility"
+   ]
+  },
+  {
+   "id": "0097",
+   "url": "https://design.visa.com/components/progress",
+   "title": "Progress",
+   "blocks": 32,
+   "chars": 2536,
+   "links": [
+    "https://design.visa.com/components/progress/usage",
+    "https://design.visa.com/components/progress/accessibility"
+   ]
+  },
+  {
+   "id": "0098",
+   "url": "https://design.visa.com/components/radio",
+   "title": "Radio",
+   "blocks": 34,
+   "chars": 1350,
+   "links": [
+    "https://design.visa.com/components/radio/usage",
+    "https://design.visa.com/components/radio/accessibility"
+   ]
+  },
+  {
+   "id": "0099",
+   "url": "https://design.visa.com/components/section-message",
+   "title": "Section message",
+   "blocks": 35,
+   "chars": 1334,
+   "links": [
+    "https://design.visa.com/components/section-message/usage",
+    "https://design.visa.com/components/section-message/accessibility"
+   ]
+  },
+  {
+   "id": "0100",
+   "url": "https://design.visa.com/components/select",
+   "title": "Select (native)",
+   "blocks": 31,
+   "chars": 922,
+   "links": [
+    "https://design.visa.com/components/select/usage",
+    "https://design.visa.com/components/select/accessibility"
+   ]
+  },
+  {
+   "id": "0101",
+   "url": "https://design.visa.com/components/slider",
+   "title": "Slider",
+   "blocks": 43,
+   "chars": 3627,
+   "links": [
+    "https://design.visa.com/components/toggle-button/usage"
+   ]
+  },
+  {
+   "id": "0102",
+   "url": "https://design.visa.com/components/switch",
+   "title": "Switch",
+   "blocks": 15,
+   "chars": 263,
+   "links": [
+    "https://design.visa.com/components/switch/usage",
+    "https://design.visa.com/components/switch/accessibility"
+   ]
+  },
+  {
+   "id": "0103",
+   "url": "https://design.visa.com/components/tab-bar",
+   "title": "Tab bar",
+   "blocks": 29,
+   "chars": 3056,
+   "links": [
+    "https://design.visa.com/components/tab-bar/usage"
+   ]
+  },
+  {
+   "id": "0104",
+   "url": "https://design.visa.com/components/table",
+   "title": "Table",
+   "blocks": 49,
+   "chars": 2544,
+   "links": [
+    "https://design.visa.com/components/table/usage",
+    "https://design.visa.com/components/table/accessibility",
+    "https://design.visa.com/undefined"
+   ]
+  },
+  {
+   "id": "0105",
+   "url": "https://design.visa.com/components/tabs",
+   "title": "Tabs",
+   "blocks": 22,
+   "chars": 413,
+   "links": [
+    "https://design.visa.com/components/tabs/usage",
+    "https://design.visa.com/components/tabs/accessibility"
+   ]
+  },
+  {
+   "id": "0106",
+   "url": "https://design.visa.com/components/toggle-button",
+   "title": "Toggle button",
+   "blocks": 31,
+   "chars": 1766,
+   "links": [
+    "https://design.visa.com/components/toggle-button/accessibility"
+   ]
+  },
+  {
+   "id": "0107",
+   "url": "https://design.visa.com/components/tooltip",
+   "title": "Tooltip",
+   "blocks": 45,
+   "chars": 2811,
+   "links": [
+    "https://design.visa.com/components/tooltip/usage",
+    "https://design.visa.com/components/tooltip/accessibility"
+   ]
+  },
+  {
+   "id": "0108",
+   "url": "https://design.visa.com/components/top-app-bar",
+   "title": "Top app bar",
+   "blocks": 9,
+   "chars": 217,
+   "links": [
+    "https://design.visa.com/components/top-app-bar/usage"
+   ]
+  },
+  {
+   "id": "0109",
+   "url": "https://design.visa.com/components/vertical-navigation",
+   "title": "Vertical navigation",
+   "blocks": 19,
+   "chars": 421,
+   "links": [
+    "https://design.visa.com/components/vertical-navigation/usage",
+    "https://design.visa.com/components/vertical-navigation/accessibility"
+   ]
+  },
+  {
+   "id": "0110",
+   "url": "https://design.visa.com/patterns",
+   "title": "Patterns",
+   "blocks": 28,
+   "chars": 1490,
+   "links": []
+  },
+  {
+   "id": "0111",
+   "url": "https://design.visa.com/patterns/address",
+   "title": "Address",
+   "blocks": 48,
+   "chars": 5346,
+   "links": []
+  },
+  {
+   "id": "0112",
+   "url": "https://design.visa.com/patterns/application-layouts",
+   "title": "Application layouts",
+   "blocks": 11,
+   "chars": 570,
+   "links": [
+    "https://design.visa.com/patterns/application-layouts/usage",
+    "https://design.visa.com/patterns/application-layouts/accessibility",
+    "https://design.visa.com/patterns/application-layouts/horizontal",
+    "https://design.visa.com/patterns/application-layouts/stacked-horizontal",
+    "https://design.visa.com/patterns/application-layouts/mixed",
+    "https://design.visa.com/patterns/application-layouts/vertical"
+   ]
+  },
+  {
+   "id": "0113",
+   "url": "https://design.visa.com/patterns/card-input",
+   "title": "Card input",
+   "blocks": 63,
+   "chars": 8030,
+   "links": []
+  },
+  {
+   "id": "0114",
+   "url": "https://design.visa.com/patterns/chat",
+   "title": "Chat",
+   "blocks": 9,
+   "chars": 443,
+   "links": [
+    "https://design.visa.com/patterns/chat/usage",
+    "https://design.visa.com/patterns/chat/accessibility",
+    "https://design.visa.com/patterns/chat/full-page-chat",
+    "https://design.visa.com/patterns/chat/dialog-chat",
+    "https://design.visa.com/patterns/chat/panel-chat"
+   ]
+  },
+  {
+   "id": "0115",
+   "url": "https://design.visa.com/patterns/dynamic-table",
+   "title": "Dynamic table",
+   "blocks": 15,
+   "chars": 727,
+   "links": [
+    "https://design.visa.com/patterns/dynamic-table/usage",
+    "https://design.visa.com/patterns/dynamic-table/accessibility",
+    "https://design.visa.com/patterns/dynamic-table/default",
+    "https://design.visa.com/patterns/dynamic-table/loading-states",
+    "https://design.visa.com/patterns/dynamic-table/multi-select",
+    "https://design.visa.com/patterns/dynamic-table/expandable",
+    "https://design.visa.com/patterns/dynamic-table/layouts",
+    "https://design.visa.com/patterns/dynamic-table/filters"
+   ]
+  },
+  {
+   "id": "0116",
+   "url": "https://design.visa.com/patterns/feedback-and-status",
+   "title": "Feedback and status",
+   "blocks": 51,
+   "chars": 10511,
+   "links": []
+  },
+  {
+   "id": "0117",
+   "url": "https://design.visa.com/patterns/file-upload",
+   "title": "File upload",
+   "blocks": 7,
+   "chars": 390,
+   "links": [
+    "https://design.visa.com/patterns/file-upload/task-flows",
+    "https://design.visa.com/patterns/file-upload/usage",
+    "https://design.visa.com/patterns/file-upload/accessibility",
+    "https://design.visa.com/patterns/file-upload/automatic-file-upload",
+    "https://design.visa.com/patterns/file-upload/manual-file-upload"
+   ]
+  },
+  {
+   "id": "0118",
+   "url": "https://design.visa.com/patterns/filters",
+   "title": "Filters",
+   "blocks": 132,
+   "chars": 15486,
+   "links": []
+  },
+  {
+   "id": "0119",
+   "url": "https://design.visa.com/patterns/forms",
+   "title": "Forms",
+   "blocks": 98,
+   "chars": 14591,
+   "links": []
+  },
+  {
+   "id": "0120",
+   "url": "https://design.visa.com/patterns/notification-tray",
+   "title": "Notification tray",
+   "blocks": 58,
+   "chars": 7977,
+   "links": []
+  },
+  {
+   "id": "0121",
+   "url": "https://design.visa.com/patterns/one-time-passcode",
+   "title": "One-time passcode",
+   "blocks": 45,
+   "chars": 6284,
+   "links": [
+    "https://design.visa.com/patterns/one-time-passcode/task-flows",
+    "https://design.visa.com/patterns/one-time-passcode/code"
+   ]
+  },
+  {
+   "id": "0122",
+   "url": "https://design.visa.com/patterns/search",
+   "title": "Search",
+   "blocks": 89,
+   "chars": 13767,
+   "links": [
+    "https://design.visa.com/patterns/search/task-flows"
+   ]
+  },
+  {
+   "id": "0123",
+   "url": "https://design.visa.com/patterns/wizard",
+   "title": "Wizard",
+   "blocks": 9,
+   "chars": 470,
+   "links": [
+    "https://design.visa.com/patterns/wizard/task-flows",
+    "https://design.visa.com/patterns/wizard/usage",
+    "https://design.visa.com/patterns/wizard/accessibility",
+    "https://design.visa.com/patterns/wizard/multi-page",
+    "https://design.visa.com/patterns/wizard/single-page",
+    "https://design.visa.com/patterns/wizard/custom"
+   ]
+  },
+  {
+   "id": "0124",
+   "url": "https://design.visa.com/content",
+   "title": "Content",
+   "blocks": 18,
+   "chars": 986,
+   "links": []
+  },
+  {
+   "id": "0125",
+   "url": "https://design.visa.com/content/accessible-text",
+   "title": "Accessible text",
+   "blocks": 25,
+   "chars": 3494,
+   "links": []
+  },
+  {
+   "id": "0126",
+   "url": "https://design.visa.com/content/grammar",
+   "title": "Grammar and punctuation",
+   "blocks": 212,
+   "chars": 34148,
+   "links": []
+  },
+  {
+   "id": "0127",
+   "url": "https://design.visa.com/content/inclusive-language",
+   "title": "Inclusive language",
+   "blocks": 166,
+   "chars": 18332,
+   "links": []
+  },
+  {
+   "id": "0128",
+   "url": "https://design.visa.com/content/information-architecture",
+   "title": "Information architecture",
+   "blocks": 63,
+   "chars": 9580,
+   "links": []
+  },
+  {
+   "id": "0129",
+   "url": "https://design.visa.com/content/messaging",
+   "title": "Messaging",
+   "blocks": 80,
+   "chars": 9236,
+   "links": []
+  },
+  {
+   "id": "0130",
+   "url": "https://design.visa.com/content/placeholder-text",
+   "title": "Placeholder text",
+   "blocks": 39,
+   "chars": 5194,
+   "links": []
+  },
+  {
+   "id": "0131",
+   "url": "https://design.visa.com/content/readability",
+   "title": "Readability",
+   "blocks": 35,
+   "chars": 3722,
+   "links": []
+  },
+  {
+   "id": "0132",
+   "url": "https://design.visa.com/content/voice-and-tone",
+   "title": "Voice and tone",
+   "blocks": 27,
+   "chars": 3526,
+   "links": []
+  },
+  {
+   "id": "0133",
+   "url": "https://design.visa.com/data-visualization",
+   "title": "Visa Chart Components",
+   "blocks": 24,
+   "chars": 3193,
+   "links": [
+    "https://design.visa.com/data-visualization/charts/overview/examples",
+    "https://design.visa.com/data-visualization/development-setup/react",
+    "https://design.visa.com/data-visualization/development-setup/vanilla-javascript"
+   ]
+  },
+  {
+   "id": "0134",
+   "url": "https://design.visa.com/data-visualization/development-setup",
+   "title": "Start developing data visualizations",
+   "blocks": 40,
+   "chars": 2944,
+   "links": [
+    "https://design.visa.com/data-visualization/charts/bar-chart/code"
+   ]
+  },
+  {
+   "id": "0135",
+   "url": "https://design.visa.com/data-visualization/design-visualization-guidelines/overview",
+   "title": "Data visualization guidelines",
+   "blocks": 8,
+   "chars": 538,
+   "links": []
+  },
+  {
+   "id": "0136",
+   "url": "https://design.visa.com/data-visualization/design-visualization-guidelines/data-visualization-principles",
+   "title": "Data visualization principles",
+   "blocks": 28,
+   "chars": 3856,
+   "links": []
+  },
+  {
+   "id": "0137",
+   "url": "https://design.visa.com/data-visualization/design-visualization-guidelines/selecting-a-chart",
+   "title": "Selecting a chart",
+   "blocks": 37,
+   "chars": 6209,
+   "links": [
+    "https://design.visa.com/data-visualization/charts/heatmap/examples",
+    "https://design.visa.com/data-visualization/charts/bar-chart/examples",
+    "https://design.visa.com/data-visualization/charts/dumbbell-plot/examples"
+   ]
+  },
+  {
+   "id": "0138",
+   "url": "https://design.visa.com/data-visualization/charts/overview",
+   "title": "Charts",
+   "blocks": 17,
+   "chars": 1084,
+   "links": []
+  },
+  {
+   "id": "0139",
+   "url": "https://design.visa.com/data-visualization/charts/bar-chart",
+   "title": "Bar chart",
+   "blocks": 51,
+   "chars": 7711,
+   "links": [
+    "https://design.visa.com/data-visualization/charts/bar-chart/accessibility"
+   ]
+  },
+  {
+   "id": "0140",
+   "url": "https://design.visa.com/data-visualization/charts/dumbbell-plot",
+   "title": "Dumbbell plot",
+   "blocks": 28,
+   "chars": 4440,
+   "links": [
+    "https://design.visa.com/data-visualization/charts/dumbbell-plot/accessibility",
+    "https://design.visa.com/data-visualization/charts/dumbbell-plot/code"
+   ]
+  },
+  {
+   "id": "0141",
+   "url": "https://design.visa.com/data-visualization/charts/heatmap",
+   "title": "Heatmap",
+   "blocks": 30,
+   "chars": 4653,
+   "links": [
+    "https://design.visa.com/data-visualization/charts/heatmap/accessibility",
+    "https://design.visa.com/data-visualization/charts/heatmap/code"
+   ]
+  },
+  {
+   "id": "0142",
+   "url": "https://design.visa.com/data-visualization/charts/line-chart",
+   "title": "Line chart",
+   "blocks": 58,
+   "chars": 8581,
+   "links": [
+    "https://design.visa.com/data-visualization/charts/line-chart/accessibility",
+    "https://design.visa.com/data-visualization/charts/line-chart/examples",
+    "https://design.visa.com/data-visualization/charts/line-chart/code"
+   ]
+  },
+  {
+   "id": "0143",
+   "url": "https://design.visa.com/support",
+   "title": "Support",
+   "blocks": 10,
+   "chars": 1521,
+   "links": []
+  },
+  {
+   "id": "0144",
+   "url": "https://design.visa.com/terms-of-use",
+   "title": "Terms of Use",
+   "blocks": 18,
+   "chars": 11354,
+   "links": []
+  },
+  {
+   "id": "0145",
+   "url": "https://design.visa.com/what's-new/latest-news/fy26-q2-release",
+   "title": "Evolve product development with expanded patterns and unified accessibility standards",
+   "blocks": 36,
+   "chars": 3026,
+   "links": []
+  },
+  {
+   "id": "0146",
+   "url": "https://design.visa.com/what's-new/latest-news/fy25-nova-angular-6",
+   "title": "Meet Nova Angular 6",
+   "blocks": 82,
+   "chars": 8827,
+   "links": []
+  },
+  {
+   "id": "0147",
+   "url": "https://design.visa.com/what's-new/latest-news/fy25-q4-release",
+   "title": "Accelerate design and development with new patterns, library upgrades, and refreshed icons",
+   "blocks": 49,
+   "chars": 4164,
+   "links": []
+  },
+  {
+   "id": "0148",
+   "url": "https://design.visa.com/what's-new/latest-news/fy25-q2-release",
+   "title": "Announcing the public launch of the Visa Product Design System!",
+   "blocks": 37,
+   "chars": 4229,
+   "links": []
+  },
+  {
+   "id": "0149",
+   "url": "https://design.visa.com/what's-new/latest-news/fy24-q4-release",
+   "title": "New variable modes in Figma libraries",
+   "blocks": 48,
+   "chars": 5880,
+   "links": []
+  },
+  {
+   "id": "0150",
+   "url": "https://design.visa.com/what's-new/latest-news/fy23-q3-release",
+   "title": "😎 Cool off with a refreshing VPDS FY24 Q3 release update",
+   "blocks": 44,
+   "chars": 4272,
+   "links": []
+  },
+  {
+   "id": "0151",
+   "url": "https://design.visa.com/global-accessibility-requirements/design-practices",
+   "title": "Global accessibility requirements",
+   "blocks": 66,
+   "chars": 10286,
+   "links": []
+  },
+  {
+   "id": "0152",
+   "url": "https://design.visa.com/global-accessibility-requirements/development-and-testing-practices",
+   "title": "Global accessibility requirements",
+   "blocks": 65,
+   "chars": 9755,
+   "links": []
+  },
+  {
+   "id": "0153",
+   "url": "https://design.visa.com/contributing/code",
+   "title": "Start contributing to VPDS",
+   "blocks": 41,
+   "chars": 6063,
+   "links": []
+  },
+  {
+   "id": "0154",
+   "url": "https://design.visa.com/contributing/design",
+   "title": "Start contributing to VPDS",
+   "blocks": 41,
+   "chars": 5787,
+   "links": []
+  },
+  {
+   "id": "0155",
+   "url": "https://design.visa.com/base-elements/color/usage",
+   "title": "Color",
+   "blocks": 36,
+   "chars": 3861,
+   "links": []
+  },
+  {
+   "id": "0156",
+   "url": "https://design.visa.com/base-elements/color/accessibility",
+   "title": "Color",
+   "blocks": 23,
+   "chars": 2712,
+   "links": []
+  },
+  {
+   "id": "0157",
+   "url": "https://design.visa.com/base-elements/elevation/usage",
+   "title": "Elevation",
+   "blocks": 16,
+   "chars": 1938,
+   "links": []
+  },
+  {
+   "id": "0158",
+   "url": "https://design.visa.com/base-elements/responsive-grid-system/breakpoints",
+   "title": "Responsive grid system",
+   "blocks": 18,
+   "chars": 349,
+   "links": []
+  },
+  {
+   "id": "0159",
+   "url": "https://design.visa.com/base-elements/responsive-grid-system/flex",
+   "title": "Responsive grid system",
+   "blocks": 41,
+   "chars": 1342,
+   "links": []
+  },
+  {
+   "id": "0160",
+   "url": "https://design.visa.com/base-elements/typography/usage",
+   "title": "Typography",
+   "blocks": 79,
+   "chars": 12136,
+   "links": []
+  },
+  {
+   "id": "0161",
+   "url": "https://design.visa.com/base-elements/states/usage",
+   "title": "States",
+   "blocks": 43,
+   "chars": 3381,
+   "links": []
+  },
+  {
+   "id": "0162",
+   "url": "https://design.visa.com/base-elements/typography/accessibility",
+   "title": "Typography",
+   "blocks": 23,
+   "chars": 2589,
+   "links": []
+  },
+  {
+   "id": "0163",
+   "url": "https://design.visa.com/components/icons-illustrations/code",
+   "title": "Icons and illustrations",
+   "blocks": 41,
+   "chars": 2490,
+   "links": []
+  },
+  {
+   "id": "0164",
+   "url": "https://design.visa.com/components/accordion/usage",
+   "title": "Accordion",
+   "blocks": 87,
+   "chars": 10873,
+   "links": []
+  },
+  {
+   "id": "0165",
+   "url": "https://design.visa.com/components/accordion/accessibility",
+   "title": "Accordion",
+   "blocks": 16,
+   "chars": 1550,
+   "links": []
+  },
+  {
+   "id": "0166",
+   "url": "https://design.visa.com/components/anchor-link-menu/usage",
+   "title": "Anchor link menu",
+   "blocks": 37,
+   "chars": 3649,
+   "links": []
+  },
+  {
+   "id": "0167",
+   "url": "https://design.visa.com/components/anchor-link-menu/accessibility",
+   "title": "Anchor link menu",
+   "blocks": 15,
+   "chars": 1337,
+   "links": []
+  },
+  {
+   "id": "0168",
+   "url": "https://design.visa.com/components/avatar/usage",
+   "title": "Avatar",
+   "blocks": 38,
+   "chars": 3445,
+   "links": []
+  },
+  {
+   "id": "0169",
+   "url": "https://design.visa.com/components/avatar/accessibility",
+   "title": "Avatar",
+   "blocks": 15,
+   "chars": 1430,
+   "links": []
+  },
+  {
+   "id": "0170",
+   "url": "https://design.visa.com/components/badge/usage",
+   "title": "Badge",
+   "blocks": 37,
+   "chars": 3715,
+   "links": []
+  },
+  {
+   "id": "0171",
+   "url": "https://design.visa.com/components/badge/accessibility",
+   "title": "Badge",
+   "blocks": 16,
+   "chars": 1322,
+   "links": []
+  },
+  {
+   "id": "0172",
+   "url": "https://design.visa.com/components/banner/usage",
+   "title": "Banner",
+   "blocks": 57,
+   "chars": 6581,
+   "links": []
+  },
+  {
+   "id": "0173",
+   "url": "https://design.visa.com/components/banner/accessibility",
+   "title": "Banner",
+   "blocks": 21,
+   "chars": 2332,
+   "links": []
+  },
+  {
+   "id": "0174",
+   "url": "https://design.visa.com/components/breadcrumbs/usage",
+   "title": "Breadcrumbs",
+   "blocks": 44,
+   "chars": 4456,
+   "links": []
+  },
+  {
+   "id": "0175",
+   "url": "https://design.visa.com/components/breadcrumbs/accessibility",
+   "title": "Breadcrumbs",
+   "blocks": 15,
+   "chars": 1641,
+   "links": []
+  },
+  {
+   "id": "0176",
+   "url": "https://design.visa.com/components/button/usage",
+   "title": "Button",
+   "blocks": 102,
+   "chars": 12362,
+   "links": []
+  },
+  {
+   "id": "0177",
+   "url": "https://design.visa.com/components/button/accessibility",
+   "title": "Button",
+   "blocks": 15,
+   "chars": 1446,
+   "links": []
+  },
+  {
+   "id": "0178",
+   "url": "https://design.visa.com/components/checkbox/usage",
+   "title": "Checkbox",
+   "blocks": 93,
+   "chars": 11378,
+   "links": []
+  },
+  {
+   "id": "0179",
+   "url": "https://design.visa.com/components/checkbox/accessibility",
+   "title": "Checkbox",
+   "blocks": 15,
+   "chars": 2545,
+   "links": []
+  },
+  {
+   "id": "0180",
+   "url": "https://design.visa.com/components/chips/usage",
+   "title": "Chips",
+   "blocks": 52,
+   "chars": 5417,
+   "links": []
+  },
+  {
+   "id": "0181",
+   "url": "https://design.visa.com/components/chips/accessibility",
+   "title": "Chips",
+   "blocks": 19,
+   "chars": 1670,
+   "links": []
+  },
+  {
+   "id": "0182",
+   "url": "https://design.visa.com/components/color-selector/usage",
+   "title": "Color selector",
+   "blocks": 46,
+   "chars": 5325,
+   "links": []
+  },
+  {
+   "id": "0183",
+   "url": "https://design.visa.com/components/color-selector/accessibility",
+   "title": "Color selector",
+   "blocks": 16,
+   "chars": 3428,
+   "links": []
+  },
+  {
+   "id": "0184",
+   "url": "https://design.visa.com/components/combobox/usage",
+   "title": "Combobox",
+   "blocks": 104,
+   "chars": 15989,
+   "links": []
+  },
+  {
+   "id": "0185",
+   "url": "https://design.visa.com/components/combobox/accessibility",
+   "title": "Combobox",
+   "blocks": 21,
+   "chars": 2262,
+   "links": []
+  },
+  {
+   "id": "0186",
+   "url": "https://design.visa.com/components/content-card/usage",
+   "title": "Content card",
+   "blocks": 58,
+   "chars": 7355,
+   "links": []
+  },
+  {
+   "id": "0187",
+   "url": "https://design.visa.com/components/content-card/accessibility",
+   "title": "Content card",
+   "blocks": 15,
+   "chars": 1743,
+   "links": []
+  },
+  {
+   "id": "0188",
+   "url": "https://design.visa.com/components/date-selector/usage",
+   "title": "Date and time selectors",
+   "blocks": 91,
+   "chars": 13747,
+   "links": []
+  },
+  {
+   "id": "0189",
+   "url": "https://design.visa.com/components/date-selector/accessibility",
+   "title": "Date and time selectors",
+   "blocks": 29,
+   "chars": 4546,
+   "links": []
+  },
+  {
+   "id": "0190",
+   "url": "https://design.visa.com/components/dialog/usage",
+   "title": "Dialog",
+   "blocks": 47,
+   "chars": 6766,
+   "links": []
+  },
+  {
+   "id": "0191",
+   "url": "https://design.visa.com/components/dialog/accessibility",
+   "title": "Dialog",
+   "blocks": 19,
+   "chars": 2291,
+   "links": []
+  },
+  {
+   "id": "0192",
+   "url": "https://design.visa.com/components/divider/usage",
+   "title": "Divider",
+   "blocks": 25,
+   "chars": 2490,
+   "links": []
+  },
+  {
+   "id": "0193",
+   "url": "https://design.visa.com/components/divider/accessibility",
+   "title": "Divider",
+   "blocks": 13,
+   "chars": 1037,
+   "links": []
+  },
+  {
+   "id": "0194",
+   "url": "https://design.visa.com/components/dropdown-menu/usage",
+   "title": "Dropdown menu",
+   "blocks": 37,
+   "chars": 3743,
+   "links": []
+  },
+  {
+   "id": "0195",
+   "url": "https://design.visa.com/components/dropdown-menu/accessibility",
+   "title": "Dropdown menu",
+   "blocks": 18,
+   "chars": 2317,
+   "links": []
+  },
+  {
+   "id": "0196",
+   "url": "https://design.visa.com/components/flag/usage",
+   "title": "Flag",
+   "blocks": 47,
+   "chars": 5326,
+   "links": []
+  },
+  {
+   "id": "0197",
+   "url": "https://design.visa.com/components/flag/accessibility",
+   "title": "Flag",
+   "blocks": 18,
+   "chars": 2018,
+   "links": []
+  },
+  {
+   "id": "0198",
+   "url": "https://design.visa.com/components/footer/usage",
+   "title": "Footer",
+   "blocks": 38,
+   "chars": 4040,
+   "links": []
+  },
+  {
+   "id": "0199",
+   "url": "https://design.visa.com/components/footer/accessibility",
+   "title": "Footer",
+   "blocks": 15,
+   "chars": 1259,
+   "links": []
+  },
+  {
+   "id": "0200",
+   "url": "https://design.visa.com/components/horizontal-navigation/usage",
+   "title": "Horizontal navigation",
+   "blocks": 51,
+   "chars": 5703,
+   "links": []
+  },
+  {
+   "id": "0201",
+   "url": "https://design.visa.com/components/horizontal-navigation/accessibility",
+   "title": "Horizontal navigation",
+   "blocks": 22,
+   "chars": 2888,
+   "links": []
+  },
+  {
+   "id": "0202",
+   "url": "https://design.visa.com/components/icons-illustrations/usage",
+   "title": "Icons and illustrations",
+   "blocks": 44,
+   "chars": 6141,
+   "links": []
+  },
+  {
+   "id": "0203",
+   "url": "https://design.visa.com/components/icons-illustrations/accessibility",
+   "title": "Icons and illustrations",
+   "blocks": 19,
+   "chars": 2453,
+   "links": []
+  },
+  {
+   "id": "0204",
+   "url": "https://design.visa.com/components/input/usage",
+   "title": "Input",
+   "blocks": 102,
+   "chars": 16866,
+   "links": []
+  },
+  {
+   "id": "0205",
+   "url": "https://design.visa.com/components/input/accessibility",
+   "title": "Input",
+   "blocks": 28,
+   "chars": 3484,
+   "links": []
+  },
+  {
+   "id": "0206",
+   "url": "https://design.visa.com/components/link/usage",
+   "title": "Link",
+   "blocks": 83,
+   "chars": 8599,
+   "links": []
+  },
+  {
+   "id": "0207",
+   "url": "https://design.visa.com/components/link/accessibility",
+   "title": "Link",
+   "blocks": 15,
+   "chars": 1635,
+   "links": []
+  },
+  {
+   "id": "0208",
+   "url": "https://design.visa.com/components/list-item/usage",
+   "title": "List item",
+   "blocks": 52,
+   "chars": 5992,
+   "links": []
+  },
+  {
+   "id": "0209",
+   "url": "https://design.visa.com/components/list-item/accessibility",
+   "title": "List item",
+   "blocks": 14,
+   "chars": 2170,
+   "links": []
+  },
+  {
+   "id": "0210",
+   "url": "https://design.visa.com/components/listbox/usage",
+   "title": "Listbox",
+   "blocks": 54,
+   "chars": 8092,
+   "links": []
+  },
+  {
+   "id": "0211",
+   "url": "https://design.visa.com/components/listbox/accessibility",
+   "title": "Listbox",
+   "blocks": 19,
+   "chars": 2457,
+   "links": []
+  },
+  {
+   "id": "0212",
+   "url": "https://design.visa.com/components/multiselect/usage",
+   "title": "Multiselect",
+   "blocks": 78,
+   "chars": 11100,
+   "links": []
+  },
+  {
+   "id": "0213",
+   "url": "https://design.visa.com/components/multiselect/accessibility",
+   "title": "Multiselect",
+   "blocks": 21,
+   "chars": 2594,
+   "links": []
+  },
+  {
+   "id": "0214",
+   "url": "https://design.visa.com/components/navigation-drawer/usage",
+   "title": "Navigation drawer",
+   "blocks": 52,
+   "chars": 5487,
+   "links": []
+  },
+  {
+   "id": "0215",
+   "url": "https://design.visa.com/components/navigation-drawer/accessibility",
+   "title": "Navigation drawer",
+   "blocks": 19,
+   "chars": 2452,
+   "links": []
+  },
+  {
+   "id": "0216",
+   "url": "https://design.visa.com/components/pagination/usage",
+   "title": "Pagination",
+   "blocks": 54,
+   "chars": 7255,
+   "links": []
+  },
+  {
+   "id": "0217",
+   "url": "https://design.visa.com/components/pagination/accessibility",
+   "title": "Pagination",
+   "blocks": 15,
+   "chars": 1739,
+   "links": []
+  },
+  {
+   "id": "0218",
+   "url": "https://design.visa.com/components/panel/usage",
+   "title": "Panel",
+   "blocks": 49,
+   "chars": 6500,
+   "links": []
+  },
+  {
+   "id": "0219",
+   "url": "https://design.visa.com/components/panel/accessibility",
+   "title": "Panel",
+   "blocks": 16,
+   "chars": 1884,
+   "links": []
+  },
+  {
+   "id": "0220",
+   "url": "https://design.visa.com/components/progress/usage",
+   "title": "Progress",
+   "blocks": 39,
+   "chars": 3379,
+   "links": []
+  },
+  {
+   "id": "0221",
+   "url": "https://design.visa.com/components/progress/accessibility",
+   "title": "Progress",
+   "blocks": 21,
+   "chars": 3298,
+   "links": []
+  },
+  {
+   "id": "0222",
+   "url": "https://design.visa.com/components/radio/usage",
+   "title": "Radio",
+   "blocks": 81,
+   "chars": 9810,
+   "links": []
+  },
+  {
+   "id": "0223",
+   "url": "https://design.visa.com/components/radio/accessibility",
+   "title": "Radio",
+   "blocks": 17,
+   "chars": 2519,
+   "links": []
+  },
+  {
+   "id": "0224",
+   "url": "https://design.visa.com/components/section-message/usage",
+   "title": "Section message",
+   "blocks": 44,
+   "chars": 5915,
+   "links": []
+  },
+  {
+   "id": "0225",
+   "url": "https://design.visa.com/components/section-message/accessibility",
+   "title": "Section message",
+   "blocks": 17,
+   "chars": 2309,
+   "links": []
+  },
+  {
+   "id": "0226",
+   "url": "https://design.visa.com/components/select/usage",
+   "title": "Select (native)",
+   "blocks": 74,
+   "chars": 9975,
+   "links": []
+  },
+  {
+   "id": "0227",
+   "url": "https://design.visa.com/components/select/accessibility",
+   "title": "Select (native)",
+   "blocks": 16,
+   "chars": 2075,
+   "links": []
+  },
+  {
+   "id": "0228",
+   "url": "https://design.visa.com/components/toggle-button/usage",
+   "title": "Toggle button",
+   "blocks": 36,
+   "chars": 2951,
+   "links": []
+  },
+  {
+   "id": "0229",
+   "url": "https://design.visa.com/components/switch/usage",
+   "title": "Switch",
+   "blocks": 28,
+   "chars": 2347,
+   "links": []
+  },
+  {
+   "id": "0230",
+   "url": "https://design.visa.com/components/switch/accessibility",
+   "title": "Switch",
+   "blocks": 13,
+   "chars": 1093,
+   "links": []
+  },
+  {
+   "id": "0231",
+   "url": "https://design.visa.com/components/tab-bar/usage",
+   "title": "Tab bar",
+   "blocks": 31,
+   "chars": 2957,
+   "links": []
+  },
+  {
+   "id": "0232",
+   "url": "https://design.visa.com/components/table/usage",
+   "title": "Table",
+   "blocks": 61,
+   "chars": 8476,
+   "links": []
+  },
+  {
+   "id": "0233",
+   "url": "https://design.visa.com/components/table/accessibility",
+   "title": "Table",
+   "blocks": 19,
+   "chars": 2826,
+   "links": []
+  },
+  {
+   "id": "0234",
+   "url": "https://design.visa.com/undefined",
+   "title": "Page not found",
+   "blocks": 5,
+   "chars": 195,
+   "links": []
+  },
+  {
+   "id": "0235",
+   "url": "https://design.visa.com/components/tabs/usage",
+   "title": "Tabs",
+   "blocks": 53,
+   "chars": 6333,
+   "links": []
+  },
+  {
+   "id": "0236",
+   "url": "https://design.visa.com/components/tabs/accessibility",
+   "title": "Tabs",
+   "blocks": 16,
+   "chars": 3080,
+   "links": []
+  },
+  {
+   "id": "0237",
+   "url": "https://design.visa.com/components/toggle-button/accessibility",
+   "title": "Toggle button",
+   "blocks": 19,
+   "chars": 1953,
+   "links": []
+  },
+  {
+   "id": "0238",
+   "url": "https://design.visa.com/components/tooltip/usage",
+   "title": "Tooltip",
+   "blocks": 39,
+   "chars": 3434,
+   "links": []
+  },
+  {
+   "id": "0239",
+   "url": "https://design.visa.com/components/tooltip/accessibility",
+   "title": "Tooltip",
+   "blocks": 15,
+   "chars": 1376,
+   "links": []
+  },
+  {
+   "id": "0240",
+   "url": "https://design.visa.com/components/top-app-bar/usage",
+   "title": "Top app bar",
+   "blocks": 47,
+   "chars": 5527,
+   "links": []
+  },
+  {
+   "id": "0241",
+   "url": "https://design.visa.com/components/vertical-navigation/usage",
+   "title": "Vertical navigation",
+   "blocks": 52,
+   "chars": 5717,
+   "links": []
+  },
+  {
+   "id": "0242",
+   "url": "https://design.visa.com/components/vertical-navigation/accessibility",
+   "title": "Vertical navigation",
+   "blocks": 23,
+   "chars": 3216,
+   "links": []
+  },
+  {
+   "id": "0243",
+   "url": "https://design.visa.com/patterns/application-layouts/usage",
+   "title": "Application layouts",
+   "blocks": 45,
+   "chars": 4651,
+   "links": []
+  },
+  {
+   "id": "0244",
+   "url": "https://design.visa.com/patterns/application-layouts/accessibility",
+   "title": "Application layouts",
+   "blocks": 17,
+   "chars": 2837,
+   "links": []
+  },
+  {
+   "id": "0245",
+   "url": "https://design.visa.com/patterns/application-layouts/horizontal",
+   "title": "Horizontal application layouts",
+   "blocks": 18,
+   "chars": 340,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/application-layouts/horizontal-application-layout"
+   ]
+  },
+  {
+   "id": "0246",
+   "url": "https://design.visa.com/patterns/application-layouts/stacked-horizontal",
+   "title": "Stacked horizontal application layouts",
+   "blocks": 18,
+   "chars": 372,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/application-layouts/stacked-horizontal-application-layout"
+   ]
+  },
+  {
+   "id": "0247",
+   "url": "https://design.visa.com/patterns/application-layouts/mixed",
+   "title": "Mixed application layouts",
+   "blocks": 18,
+   "chars": 320,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/application-layouts/mixed-application-layout"
+   ]
+  },
+  {
+   "id": "0248",
+   "url": "https://design.visa.com/patterns/application-layouts/vertical",
+   "title": "Vertical application layouts",
+   "blocks": 18,
+   "chars": 332,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/application-layouts/vertical-application-layout"
+   ]
+  },
+  {
+   "id": "0249",
+   "url": "https://design.visa.com/patterns/chat/usage",
+   "title": "Chat",
+   "blocks": 101,
+   "chars": 17046,
+   "links": []
+  },
+  {
+   "id": "0250",
+   "url": "https://design.visa.com/patterns/chat/accessibility",
+   "title": "Chat",
+   "blocks": 24,
+   "chars": 4376,
+   "links": []
+  },
+  {
+   "id": "0251",
+   "url": "https://design.visa.com/patterns/chat/full-page-chat",
+   "title": "Full-page chat",
+   "blocks": 17,
+   "chars": 267,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/chat/full-page-chat"
+   ]
+  },
+  {
+   "id": "0252",
+   "url": "https://design.visa.com/patterns/chat/dialog-chat",
+   "title": "Dialog chat",
+   "blocks": 17,
+   "chars": 255,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/chat/dialog-chat"
+   ]
+  },
+  {
+   "id": "0253",
+   "url": "https://design.visa.com/patterns/chat/panel-chat",
+   "title": "Panel chat",
+   "blocks": 17,
+   "chars": 251,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/chat/panel-chat"
+   ]
+  },
+  {
+   "id": "0254",
+   "url": "https://design.visa.com/patterns/dynamic-table/usage",
+   "title": "Dynamic table",
+   "blocks": 100,
+   "chars": 16654,
+   "links": []
+  },
+  {
+   "id": "0255",
+   "url": "https://design.visa.com/patterns/dynamic-table/accessibility",
+   "title": "Dynamic table",
+   "blocks": 28,
+   "chars": 3775,
+   "links": []
+  },
+  {
+   "id": "0256",
+   "url": "https://design.visa.com/patterns/dynamic-table/default",
+   "title": "Default dynamic tables",
+   "blocks": 22,
+   "chars": 485,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/default"
+   ]
+  },
+  {
+   "id": "0257",
+   "url": "https://design.visa.com/patterns/dynamic-table/loading-states",
+   "title": "Dynamic table loading states",
+   "blocks": 19,
+   "chars": 451,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/indeterminate-linear-progress"
+   ]
+  },
+  {
+   "id": "0258",
+   "url": "https://design.visa.com/patterns/dynamic-table/multi-select",
+   "title": "Multi-select dynamic tables",
+   "blocks": 16,
+   "chars": 287,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/multi-select"
+   ]
+  },
+  {
+   "id": "0259",
+   "url": "https://design.visa.com/patterns/dynamic-table/expandable",
+   "title": "Expandable dynamic tables",
+   "blocks": 17,
+   "chars": 327,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/single-row-expandable"
+   ]
+  },
+  {
+   "id": "0260",
+   "url": "https://design.visa.com/patterns/dynamic-table/layouts",
+   "title": "Dynamic table layouts",
+   "blocks": 21,
+   "chars": 399,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/selection-based-action-bar"
+   ]
+  },
+  {
+   "id": "0261",
+   "url": "https://design.visa.com/patterns/dynamic-table/filters",
+   "title": "Dynamic table with filters",
+   "blocks": 18,
+   "chars": 358,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/filter-dialog"
+   ]
+  },
+  {
+   "id": "0262",
+   "url": "https://design.visa.com/patterns/file-upload/task-flows",
+   "title": "File upload",
+   "blocks": 45,
+   "chars": 5900,
+   "links": []
+  },
+  {
+   "id": "0263",
+   "url": "https://design.visa.com/patterns/file-upload/usage",
+   "title": "File upload",
+   "blocks": 121,
+   "chars": 17370,
+   "links": []
+  },
+  {
+   "id": "0264",
+   "url": "https://design.visa.com/patterns/file-upload/accessibility",
+   "title": "File upload",
+   "blocks": 18,
+   "chars": 2940,
+   "links": []
+  },
+  {
+   "id": "0265",
+   "url": "https://design.visa.com/patterns/file-upload/automatic-file-upload",
+   "title": "Automatic file upload",
+   "blocks": 18,
+   "chars": 296,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/file-upload/multi-file-upload"
+   ]
+  },
+  {
+   "id": "0266",
+   "url": "https://design.visa.com/patterns/file-upload/manual-file-upload",
+   "title": "Manual file upload",
+   "blocks": 18,
+   "chars": 320,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/file-upload/multi-file-manual-upload"
+   ]
+  },
+  {
+   "id": "0267",
+   "url": "https://design.visa.com/patterns/one-time-passcode/task-flows",
+   "title": "One-time passcode",
+   "blocks": 40,
+   "chars": 3409,
+   "links": []
+  },
+  {
+   "id": "0268",
+   "url": "https://design.visa.com/patterns/one-time-passcode/code",
+   "title": "One-time passcode",
+   "blocks": 46,
+   "chars": 3833,
+   "links": []
+  },
+  {
+   "id": "0269",
+   "url": "https://design.visa.com/patterns/search/task-flows",
+   "title": "Search",
+   "blocks": 15,
+   "chars": 1209,
+   "links": []
+  },
+  {
+   "id": "0270",
+   "url": "https://design.visa.com/patterns/wizard/task-flows",
+   "title": "Wizard",
+   "blocks": 57,
+   "chars": 7143,
+   "links": []
+  },
+  {
+   "id": "0271",
+   "url": "https://design.visa.com/patterns/wizard/usage",
+   "title": "Wizard",
+   "blocks": 111,
+   "chars": 15295,
+   "links": []
+  },
+  {
+   "id": "0272",
+   "url": "https://design.visa.com/patterns/wizard/accessibility",
+   "title": "Wizard",
+   "blocks": 15,
+   "chars": 2595,
+   "links": []
+  },
+  {
+   "id": "0273",
+   "url": "https://design.visa.com/patterns/wizard/multi-page",
+   "title": "Multi-page wizards",
+   "blocks": 19,
+   "chars": 327,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/wizard/horizontal"
+   ]
+  },
+  {
+   "id": "0274",
+   "url": "https://design.visa.com/patterns/wizard/single-page",
+   "title": "Single-page wizards",
+   "blocks": 18,
+   "chars": 299,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/wizard/in-page"
+   ]
+  },
+  {
+   "id": "0275",
+   "url": "https://design.visa.com/patterns/wizard/custom",
+   "title": "Custom wizards",
+   "blocks": 18,
+   "chars": 293,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/patterns/wizard/compact"
+   ]
+  },
+  {
+   "id": "0276",
+   "url": "https://design.visa.com/data-visualization/charts/overview/examples",
+   "title": "Charts",
+   "blocks": 53,
+   "chars": 2160,
+   "links": []
+  },
+  {
+   "id": "0277",
+   "url": "https://design.visa.com/data-visualization/development-setup/react",
+   "title": "Start developing data visualizations",
+   "blocks": 27,
+   "chars": 2183,
+   "links": []
+  },
+  {
+   "id": "0278",
+   "url": "https://design.visa.com/data-visualization/development-setup/vanilla-javascript",
+   "title": "Start developing data visualizations",
+   "blocks": 41,
+   "chars": 2917,
+   "links": []
+  },
+  {
+   "id": "0279",
+   "url": "https://design.visa.com/data-visualization/charts/bar-chart/code",
+   "title": "Bar chart",
+   "blocks": 20,
+   "chars": 1157,
+   "links": []
+  },
+  {
+   "id": "0280",
+   "url": "https://design.visa.com/data-visualization/charts/heatmap/examples",
+   "title": "Heatmap",
+   "blocks": 76,
+   "chars": 8276,
+   "links": []
+  },
+  {
+   "id": "0281",
+   "url": "https://design.visa.com/data-visualization/charts/bar-chart/examples",
+   "title": "Bar chart",
+   "blocks": 86,
+   "chars": 8872,
+   "links": []
+  },
+  {
+   "id": "0282",
+   "url": "https://design.visa.com/data-visualization/charts/dumbbell-plot/examples",
+   "title": "Dumbbell plot",
+   "blocks": 54,
+   "chars": 6583,
+   "links": []
+  },
+  {
+   "id": "0283",
+   "url": "https://design.visa.com/data-visualization/charts/bar-chart/accessibility",
+   "title": "Bar chart",
+   "blocks": 31,
+   "chars": 4074,
+   "links": []
+  },
+  {
+   "id": "0284",
+   "url": "https://design.visa.com/data-visualization/charts/dumbbell-plot/accessibility",
+   "title": "Dumbbell plot",
+   "blocks": 28,
+   "chars": 3911,
+   "links": []
+  },
+  {
+   "id": "0285",
+   "url": "https://design.visa.com/data-visualization/charts/dumbbell-plot/code",
+   "title": "Dumbbell plot",
+   "blocks": 19,
+   "chars": 1253,
+   "links": []
+  },
+  {
+   "id": "0286",
+   "url": "https://design.visa.com/data-visualization/charts/heatmap/accessibility",
+   "title": "Heatmap",
+   "blocks": 28,
+   "chars": 3990,
+   "links": []
+  },
+  {
+   "id": "0287",
+   "url": "https://design.visa.com/data-visualization/charts/heatmap/code",
+   "title": "Heatmap",
+   "blocks": 16,
+   "chars": 1206,
+   "links": []
+  },
+  {
+   "id": "0288",
+   "url": "https://design.visa.com/data-visualization/charts/line-chart/accessibility",
+   "title": "Line chart",
+   "blocks": 27,
+   "chars": 3961,
+   "links": []
+  },
+  {
+   "id": "0289",
+   "url": "https://design.visa.com/data-visualization/charts/line-chart/examples",
+   "title": "Line chart",
+   "blocks": 116,
+   "chars": 10993,
+   "links": []
+  },
+  {
+   "id": "0290",
+   "url": "https://design.visa.com/data-visualization/charts/line-chart/code",
+   "title": "Line chart",
+   "blocks": 71,
+   "chars": 22743,
+   "links": []
+  },
+  {
+   "id": "0291",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/application-layouts/horizontal-application-layout",
+   "title": "Horizontal application layout application layouts pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/patterns/application-layouts"
+   ]
+  },
+  {
+   "id": "0292",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/application-layouts/stacked-horizontal-application-layout",
+   "title": "Stacked horizontal application layout application layouts pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0293",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/application-layouts/mixed-application-layout",
+   "title": "Mixed application layout application layouts pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0294",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/application-layouts/vertical-application-layout",
+   "title": "Vertical application layout application layouts pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0295",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/chat/full-page-chat",
+   "title": "Full page chat chat pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 8,
+   "chars": 421,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0"
+   ]
+  },
+  {
+   "id": "0296",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/chat/dialog-chat",
+   "title": "Dialog chat chat pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 9,
+   "chars": 309,
+   "links": []
+  },
+  {
+   "id": "0297",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/chat/panel-chat",
+   "title": "Panel chat chat pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0298",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/default",
+   "title": "Default dynamic table pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 173,
+   "links": []
+  },
+  {
+   "id": "0299",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/indeterminate-linear-progress",
+   "title": "Indeterminate linear progress dynamic table pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 81,
+   "links": []
+  },
+  {
+   "id": "0300",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/multi-select",
+   "title": "Multi select dynamic table pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 188,
+   "links": []
+  },
+  {
+   "id": "0301",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/single-row-expandable",
+   "title": "Single row expandable dynamic table pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 222,
+   "links": []
+  },
+  {
+   "id": "0302",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/selection-based-action-bar",
+   "title": "Selection based action bar dynamic table pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 45,
+   "links": []
+  },
+  {
+   "id": "0303",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/filter-dialog",
+   "title": "Filter dialog dynamic table pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 10,
+   "chars": 896,
+   "links": []
+  },
+  {
+   "id": "0304",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/file-upload/multi-file-upload",
+   "title": "Multi file upload file upload pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 4,
+   "chars": 147,
+   "links": []
+  },
+  {
+   "id": "0305",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/file-upload/multi-file-manual-upload",
+   "title": "Multi file manual upload file upload pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 8,
+   "chars": 321,
+   "links": []
+  },
+  {
+   "id": "0306",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/wizard/horizontal",
+   "title": "Horizontal wizard pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 21,
+   "chars": 393,
+   "links": []
+  },
+  {
+   "id": "0307",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/wizard/in-page",
+   "title": "In page wizard pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 110,
+   "links": []
+  },
+  {
+   "id": "0308",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/wizard/compact",
+   "title": "Compact wizard pattern | Example | Nova Angular | Visa Product Design System",
+   "blocks": 25,
+   "chars": 412,
+   "links": []
+  },
+  {
+   "id": "0309",
+   "url": "https://design.visa.com/angular/version/7.0.0/patterns/application-layouts",
+   "title": "Layouts",
+   "blocks": 39,
+   "chars": 712,
+   "links": [
+    "https://design.visa.com/angular",
+    "https://design.visa.com/angular/version/development",
+    "https://design.visa.com/angular/version/7.0.0/components",
+    "https://design.visa.com/angular/version/7.0.0/components/accordion",
+    "https://design.visa.com/angular/version/7.0.0/components/anchor-link-menu",
+    "https://design.visa.com/angular/version/7.0.0/components/avatar",
+    "https://design.visa.com/angular/version/7.0.0/components/badge",
+    "https://design.visa.com/angular/version/7.0.0/components/banner",
+    "https://design.visa.com/angular/version/7.0.0/components/breadcrumbs",
+    "https://design.visa.com/angular/version/7.0.0/components/button",
+    "https://design.visa.com/angular/version/7.0.0/components/checkbox",
+    "https://design.visa.com/angular/version/7.0.0/components/chip",
+    "https://design.visa.com/angular/version/7.0.0/components/color-selector",
+    "https://design.visa.com/angular/version/7.0.0/components/combobox",
+    "https://design.visa.com/angular/version/7.0.0/components/content-card",
+    "https://design.visa.com/angular/version/7.0.0/components/date-and-time-selectors",
+    "https://design.visa.com/angular/version/7.0.0/components/dialog",
+    "https://design.visa.com/angular/version/7.0.0/components/divider",
+    "https://design.visa.com/angular/version/7.0.0/components/dropdown-menu",
+    "https://design.visa.com/angular/version/7.0.0/components/flag",
+    "https://design.visa.com/angular/version/7.0.0/components/footer",
+    "https://design.visa.com/angular/version/7.0.0/components/horizontal-navigation",
+    "https://design.visa.com/angular/version/7.0.0/components/icon",
+    "https://design.visa.com/angular/version/7.0.0/components/input",
+    "https://design.visa.com/angular/version/7.0.0/components/link",
+    "https://design.visa.com/angular/version/7.0.0/components/list-item",
+    "https://design.visa.com/angular/version/7.0.0/components/listbox",
+    "https://design.visa.com/angular/version/7.0.0/components/multiselect",
+    "https://design.visa.com/angular/version/7.0.0/components/navigation-drawer",
+    "https://design.visa.com/angular/version/7.0.0/components/pagination",
+    "https://design.visa.com/angular/version/7.0.0/components/panel",
+    "https://design.visa.com/angular/version/7.0.0/components/progress",
+    "https://design.visa.com/angular/version/7.0.0/components/radio",
+    "https://design.visa.com/angular/version/7.0.0/components/section-message",
+    "https://design.visa.com/angular/version/7.0.0/components/select",
+    "https://design.visa.com/angular/version/7.0.0/components/switch",
+    "https://design.visa.com/angular/version/7.0.0/components/table",
+    "https://design.visa.com/angular/version/7.0.0/components/tabs",
+    "https://design.visa.com/angular/version/7.0.0/components/toggle-button",
+    "https://design.visa.com/angular/version/7.0.0/components/tooltip",
+    "https://design.visa.com/angular/version/7.0.0/components/vertical-navigation",
+    "https://design.visa.com/angular/version/7.0.0/site-map"
+   ]
+  },
+  {
+   "id": "0310",
+   "url": "https://design.visa.com/angular/version/7.0.0",
+   "title": "VPDS Angular | Nova",
+   "blocks": 75,
+   "chars": 5118,
+   "links": []
+  },
+  {
+   "id": "0311",
+   "url": "https://design.visa.com/angular",
+   "title": "403 Forbidden",
+   "blocks": 2,
+   "chars": 17,
+   "links": []
+  },
+  {
+   "id": "0312",
+   "url": "https://design.visa.com/angular/version/development",
+   "title": "Page not found",
+   "blocks": 5,
+   "chars": 195,
+   "links": []
+  },
+  {
+   "id": "0313",
+   "url": "https://design.visa.com/angular/version/7.0.0/components",
+   "title": "Components",
+   "blocks": 40,
+   "chars": 372,
+   "links": []
+  },
+  {
+   "id": "0314",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/accordion",
+   "title": "Accordion",
+   "blocks": 241,
+   "chars": 19174,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-badge",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/subtle",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/subtle-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/subtle-with-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/multi-select-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/multi-select-expanded",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/multi-select-with-disabled-accordion",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/multi-select-subtle",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/single-select-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/single-select-expanded",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/single-select-with-disabled-accordion",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/single-select-subtle",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-programmatic-expansion",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-custom-toggle-icons",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-arrow-key-navigation",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-arrow-keys-and-no-tab-navigation",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/reusable"
+   ]
+  },
+  {
+   "id": "0315",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/anchor-link-menu",
+   "title": "Anchor link menu",
+   "blocks": 51,
+   "chars": 9288,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/anchor-link-menu/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/anchor-link-menu/default-no-title",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/anchor-link-menu/default-nested",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/anchor-link-menu/right-to-left"
+   ]
+  },
+  {
+   "id": "0316",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/avatar",
+   "title": "Avatar",
+   "blocks": 84,
+   "chars": 1613,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/small-image",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/small-initials",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/small-horizontal-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/small-vertical-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/large-image",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/large-initials",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/large-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/large-fictitious-brand",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/as-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/inline-directive"
+   ]
+  },
+  {
+   "id": "0317",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/badge",
+   "title": "Badge",
+   "blocks": 242,
+   "chars": 6515,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-with-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-label-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-with-ellipse",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-no-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-icon-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-icon-no-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-with-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-label-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-with-ellipse",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-no-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-icon-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-icon-no-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/stable-with-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/stable-label-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/stable-with-ellipse",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/stable-no-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/stable-icon-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/stable-icon-no-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/warning-with-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/warning-label-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/warning-with-ellipse",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/warning-no-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/warning-icon-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/warning-icon-no-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/negative-with-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/negative-label-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/negative-with-ellipse",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/negative-no-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/negative-icon-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/negative-icon-no-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/number",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/number-no-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/long-number",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/badge/default"
+   ]
+  },
+  {
+   "id": "0318",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/banner",
+   "title": "Banner",
+   "blocks": 266,
+   "chars": 6781,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/empty-info",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-default-info-banner",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-default-info-banner-title",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-info-banner-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-info-banner-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-default-info-banner-persistent",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/empty-success",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-success-banner",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-success-banner-title",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-success-banner-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-success-banner-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-success-banner-persistent",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/empty-warning",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-warning-banner",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-warning-banner-title",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-warning-banner-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-warning-banner-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-warning-banner-persistent",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/empty-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-error-banner",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-error-banner-title",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-error-banner-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-error-banner-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/nova-error-banner-persistent",
+    "https://design.visa.com/angular/version/7.0.0/examples/shared/app-components/global-banner",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/banner/reusable"
+   ]
+  },
+  {
+   "id": "0319",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/breadcrumbs",
+   "title": "Breadcrumbs",
+   "blocks": 59,
+   "chars": 8148,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/breadcrumbs/default",
+    "https://design.visa.com/angular/version/7.0.0/components/breadcrumbs/breadcrumbs",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/breadcrumbs/custom-separator",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/breadcrumbs/inline-separator",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/breadcrumbs/svg-separator",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/breadcrumbs/custom-items",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/breadcrumbs/dynamic",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/breadcrumbs/service-based-active-crumb"
+   ]
+  },
+  {
+   "id": "0320",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/button",
+   "title": "Button",
+   "blocks": 378,
+   "chars": 8794,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/primary-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/primary-alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/primary-leading-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/primary-trailing-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/primary-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/primary-small",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/primary-large",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/secondary-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/secondary-alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/secondary-leading-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/secondary-trailing-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/secondary-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/secondary-small",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/secondary-large",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/tertiary-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/tertiary-alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/tertiary-leading-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/tertiary-trailing-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/tertiary-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/tertiary-small",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/tertiary-large",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/destructive-primary",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/destructive-secondary",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/destructive-tertiary",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/icon-button-primary",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/icon-button-primary-alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/icon-button-primary-label",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/icon-button-primary-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/icon-button-primary-small",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/icon-button-primary-large",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/icon-button-secondary",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/icon-button-secondary-alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/icon-button-secondary-label",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/icon-button-secondary-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/icon-button-secondary-large",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/ui-icon-small",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/ui-icon-medium",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/ui-icon-large",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/ui-icon-subtle",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/ui-icon-badge",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/ui-icon-alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/stacked-icon-button-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/stacked-icon-button-alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/button/button-as-link"
+   ]
+  },
+  {
+   "id": "0321",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/checkbox",
+   "title": "Checkbox",
+   "blocks": 285,
+   "chars": 11491,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/with-label",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/without-visible-label",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/with-description",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/checked",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/disabled-checked",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/group",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/group-with-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/indeterminate-group",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/indeterminate-group-with-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/horizontal-group",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/panel",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/panel-without-description",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/disabled-panel",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/panel-group",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/panel-group-with-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/template-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/template-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/model-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/model-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/model-driven-fb",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/reusable",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/checkbox/reusable-group"
+   ]
+  },
+  {
+   "id": "0322",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/chip",
+   "title": "Chip",
+   "blocks": 142,
+   "chars": 9273,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/selection-chip",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/selected-selection-chip",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/multi-line-selection-chip",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/disabled-selection-chip",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/disabled-selected-selection-chip",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/set-of-chips-selection-chip",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/delete-chip-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/delete-chip-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/delete-chip-avatar",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/delete-chip-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/compact-delete-chip-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/compact-delete-chip-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/compact-delete-chip-avatar",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/set-of-chips-delete-chips",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/set-of-chips-delete-chips-compact",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/standard-chip",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/chip/custom-chip"
+   ]
+  },
+  {
+   "id": "0323",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/color-selector",
+   "title": "Color selector",
+   "blocks": 45,
+   "chars": 8053,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/color-selector/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/color-selector/available-values"
+   ]
+  },
+  {
+   "id": "0324",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/combobox",
+   "title": "Combobox",
+   "blocks": 267,
+   "chars": 42877,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/with-selected-option",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/with-inline-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/with-clear-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/with-leading-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/read-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/with-disabled-option",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/without-dropdown-chevron",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/with-scroll-bar",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/manual-autocomplete",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/auto-autocomplete",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/template-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/model-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/model-driven-fb",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/with-inline-label",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/open-on-select",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/highlight-on-close",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/dynamic-data-set",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/fully-custom-filter",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/infinite-scroll",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/combobox/shared-combobox-with-delayed-data"
+   ]
+  },
+  {
+   "id": "0325",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/content-card",
+   "title": "Content card",
+   "blocks": 120,
+   "chars": 4003,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/content-card/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/content-card/default-with-ui-buttons",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/content-card/clickable-card",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/content-card/clickable-card-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/content-card/compact",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/content-card/category",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/content-card/icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/content-card/image",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/content-card/compact-dashboard"
+   ]
+  },
+  {
+   "id": "0326",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/date-and-time-selectors",
+   "title": "Date and time selectors",
+   "blocks": 120,
+   "chars": 8882,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/default-date-selector",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/read-only-date-selector",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/disabled-date-selector",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/date-selector-with-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/date-selector-with-disabled-dates",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/date-range-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/date-range-stacked",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/default-time-selector",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/read-only-time-selector",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/disabled-time-selector",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/time-selector-with-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/date-and-time-selectors/date-selector-values"
+   ]
+  },
+  {
+   "id": "0327",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/dialog",
+   "title": "Dialog",
+   "blocks": 143,
+   "chars": 6209,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dialog/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dialog/error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dialog/success",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dialog/warning",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dialog/without-close-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dialog/touring-tips",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dialog/confirmation-dialog",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dialog/reusable"
+   ]
+  },
+  {
+   "id": "0328",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/divider",
+   "title": "Divider",
+   "blocks": 35,
+   "chars": 1043,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/divider/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/divider/section",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/divider/decorative",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/divider/vertical"
+   ]
+  },
+  {
+   "id": "0329",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/dropdown-menu",
+   "title": "Dropdown menu",
+   "blocks": 79,
+   "chars": 11907,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dropdown-menu/text-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dropdown-menu/icon-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dropdown-menu/custom-buttons",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dropdown-menu/custom-links",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dropdown-menu/form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/dropdown-menu/native-popover"
+   ]
+  },
+  {
+   "id": "0330",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/flag",
+   "title": "Flag",
+   "blocks": 229,
+   "chars": 5546,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/empty-info",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/default-info-flag",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/default-info-flag-title",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/info-flag-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/info-flag-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/info-without-close-icon-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/empty-success",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/success-flag",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/success-flag-title",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/success-flag-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/success-flag-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/success-without-close-icon-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/empty-warning",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/warning-flag",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/warning-flag-title",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/warning-flag-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/warning-flag-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/warning-without-close-icon-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/empty-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/error-flag",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/error-flag-title",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/error-flag-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/error-flag-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/error-without-close-icon-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/flag/reusable"
+   ]
+  },
+  {
+   "id": "0331",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/footer",
+   "title": "Footer",
+   "blocks": 24,
+   "chars": 834,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/footer/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/footer/extended"
+   ]
+  },
+  {
+   "id": "0332",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/horizontal-navigation",
+   "title": "Horizontal navigation",
+   "blocks": 129,
+   "chars": 25239,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/horizontal-navigation/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/horizontal-navigation/with-active-element",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/horizontal-navigation/with-active-prop",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/horizontal-navigation/with-icons",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/horizontal-navigation/alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/horizontal-navigation/alternate-with-active-element",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/horizontal-navigation/alternate-with-icons",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/horizontal-navigation/stacked",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/horizontal-navigation/persistent-search",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/horizontal-navigation/stacked-with-persistent-search"
+   ]
+  },
+  {
+   "id": "0333",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/icon",
+   "title": "Icon",
+   "blocks": 94,
+   "chars": 3173,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/icon/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/icon/visa",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/icon/generic",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/icon/tiny-resolution",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/icon/low-resolution",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/icon/high-resolution",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/icon/rtl",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/icon/success",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/icon/warning",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/icon/error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/icon/using-icon-sprite"
+   ]
+  },
+  {
+   "id": "0334",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/input",
+   "title": "Input",
+   "blocks": 290,
+   "chars": 11374,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/initial-value",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/inline-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/with-clear-text-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/read-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/prefix",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/suffix",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/with-masked-field",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/leading-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/one-time-passcode",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/textarea-with-resize",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/textarea-without-resize",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/textarea-with-fixed-height",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/textarea-with-fixed-height-and-resize",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/character-counter",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/textarea-with-native-rows-attribute",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/template-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/template-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/model-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/model-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/model-driven-fb",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/inline",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/input/reusable"
+   ]
+  },
+  {
+   "id": "0335",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/link",
+   "title": "Link",
+   "blocks": 98,
+   "chars": 2746,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/link/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/link/link-with-leading-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/link/link-with-trailing-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/link/alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/link/open-in-new-tab",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/link/disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/link/inline",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/link/without-underline",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/link/button-as-link"
+   ]
+  },
+  {
+   "id": "0336",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/list-item",
+   "title": "List item",
+   "blocks": 257,
+   "chars": 6007,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/one-line",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/one-line-two-column",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/two-line",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/three-line",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/leading-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/leading-icon-with-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/leading-image",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/leading-card-art",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/indicator-line",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/trailing-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/trailing-icon-with-background",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/trailing-image",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/trailing-card-art",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/default-clickthrough",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/disabled-clickthrough",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/disabled-leading-image-clickthrough",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/disabled-leading-icon-clickthrough",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/disabled-card-art-clickthrough",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/disabled-card-art-with-number-clickthrough",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/default-switch",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/disabled-switch",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/default-checkbox",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/disabled-checkbox",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/default-radio",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/disabled-radio",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/default-list",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/default-list-with-dividers",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/default-list-with-title",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/default-list-with-section-title-and-hyperlink",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/clickthrough-list",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/radio-list",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/checkbox-list",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/account-clickthrough-list",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/list-item/transactions-list"
+   ]
+  },
+  {
+   "id": "0337",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/listbox",
+   "title": "Listbox",
+   "blocks": 324,
+   "chars": 26838,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/single-select-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/single-select-with-inline-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/single-select-with-selected-item",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/single-select-with-resize",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/single-select-with-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/disabled-single-select-listbox",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/single-select-with-disabled-item",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/multi-select-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/multi-select-with-inline-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/multi-select-with-selected-item",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/multi-select-with-resize",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/multi-select-with-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/disabled-multi-select-listbox",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/multi-select-with-disabled-item",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/single-select-template-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/multi-select-template-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/template-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/single-select-model-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/multi-select-model-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/model-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/model-driven-fb",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/single-select-automatic-selection",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/multi-select-scroll-to-index",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/single-select-radio-group",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/multi-select-checkbox-group",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/listbox/reusable"
+   ]
+  },
+  {
+   "id": "0338",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/multiselect",
+   "title": "Multiselect",
+   "blocks": 237,
+   "chars": 42474,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/categories",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/inline-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/with-disabled-option",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/read-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/without-dropdown-chevron",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/with-multiple-selections-and-vertical-scroll",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/with-select-and-unselect-all-buttons",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/with-scroll-bar",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/infinite-scroll",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/manual-autocomplete",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/auto-autocomplete",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/template-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/model-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/model-driven-fb",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/multiselect/reusable"
+   ]
+  },
+  {
+   "id": "0339",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/navigation-drawer",
+   "title": "Navigation drawer",
+   "blocks": 66,
+   "chars": 24681,
+   "links": []
+  },
+  {
+   "id": "0340",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/pagination",
+   "title": "Pagination",
+   "blocks": 82,
+   "chars": 7647,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/pagination/default-first-page",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/pagination/default-middle-page",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/pagination/default-last-page",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/pagination/slim",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/pagination/slim-with-count",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/pagination/no-middle-block",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/pagination/reusable"
+   ]
+  },
+  {
+   "id": "0341",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/panel",
+   "title": "Panel",
+   "blocks": 64,
+   "chars": 3602,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/panel/responsive-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/panel/responsive-expanded",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/panel/responsive-expanded-tabbed",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/panel/responsive-expanded-with-custom-placement"
+   ]
+  },
+  {
+   "id": "0342",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/progress",
+   "title": "Progress",
+   "blocks": 180,
+   "chars": 9226,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/indeterminate-progress-bar",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/indeterminate-progress-bar-no-label",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/live-progress-bar",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/determinate-progress-bar-no-label",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/completed-progress-bar",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/error-progress-bar",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/indeterminate-circular-progress-small",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/indeterminate-circular-progress",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/live-circular-progress",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/determinate-circular-progress",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/determinate-circular-progress-completed",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/error-circular-progress",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/custom-linear-progress",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/custom-size-circular-progress",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/custom-slow-circular-progress",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/progress/reusable"
+   ]
+  },
+  {
+   "id": "0343",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/radio",
+   "title": "Radio",
+   "blocks": 265,
+   "chars": 12272,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/with-label",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/without-visible-label",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/with-description",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/selected",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/disabled-and-selected",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/group",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/group-with-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/horizontal-group",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/panel",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/panel-without-description",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/disabled-panel",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/panel-group",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/panel-group-with-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/template-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/model-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/model-driven-fb",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/reusable",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/radio/reusable-group"
+   ]
+  },
+  {
+   "id": "0344",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/section-message",
+   "title": "Section message",
+   "blocks": 275,
+   "chars": 7532,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/empty-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-default-info-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-title-info-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-info-section-message-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-info-section-message-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-persistent-info-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/empty-success",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-default-success-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-title-success-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-success-section-message-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-success-section-message-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-persistent-success-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/empty-warning",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-default-warning-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-title-warning-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-warning-section-message-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-warning-section-message-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-persistent-warning-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/empty-error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-default-error-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-title-error-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-error-section-message-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-error-section-message-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-persistent-error-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/empty-subtle",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-default-subtle-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-title-subtle-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-subtle-section-message-with-link",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-subtle-section-message-with-action-button",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/nova-persistent-subtle-section-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/section-message/reusable"
+   ]
+  },
+  {
+   "id": "0345",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/select",
+   "title": "Select",
+   "blocks": 288,
+   "chars": 8199,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/with-inline-label",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/with-inline-message",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/error",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/read-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/template-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/template-driven-object",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/template-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/model-driven",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/model-driven-object",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/model-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/model-driven-fb",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/mock-data",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/select/reusable"
+   ]
+  },
+  {
+   "id": "0346",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/switch",
+   "title": "Switch",
+   "blocks": 71,
+   "chars": 6196,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/switch/standard",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/switch/optional-text",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/switch/disabled-off",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/switch/disabled-selected",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/switch/reusable"
+   ]
+  },
+  {
+   "id": "0347",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/table",
+   "title": "Table",
+   "blocks": 142,
+   "chars": 7052,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/large-padding-banded-rows",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/medium-padding-banded-rows",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/compact-padding-banded-rows",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/scroll",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/lined-rows",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/outer-border-column-and-row-dividers",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/outer-border-subtle-headers",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/group-headers",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/group-headers-with-empty-cell",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/key-value-table-banded",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/key-value-table-lined",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/fixed-first-column",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/table/reusable"
+   ]
+  },
+  {
+   "id": "0348",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/tabs",
+   "title": "Tabs",
+   "blocks": 212,
+   "chars": 17824,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/vertical-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/vertical-with-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/vertical-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/vertical-with-menu",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/horizontal-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/horizontal-with-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/horizontal-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/horizontal-with-menu",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/stacked-default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/stacked-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/stacked-with-notifications",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/horizontal-alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/vertical-alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/stacked-alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/without-arrow-navigation",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tabs/automatic-activation"
+   ]
+  },
+  {
+   "id": "0349",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/toggle-button",
+   "title": "Toggle button",
+   "blocks": 140,
+   "chars": 10427,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/with-leading-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/with-trailing-icon",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/icon-only",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/one-button-disabled",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/multi-select",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/standalone-multi-select",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/template-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/model-driven-form",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/model-driven-fb",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/single-select-with-radio-buttons",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/toggle/multi-select-with-checkboxes"
+   ]
+  },
+  {
+   "id": "0350",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/tooltip",
+   "title": "Tooltip",
+   "blocks": 92,
+   "chars": 11946,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tooltip/top",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tooltip/bottom",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tooltip/left",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tooltip/right",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tooltip/custom-middleware",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tooltip/custom-events",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/tooltip/with-arrow"
+   ]
+  },
+  {
+   "id": "0351",
+   "url": "https://design.visa.com/angular/version/7.0.0/components/vertical-navigation",
+   "title": "Vertical navigation",
+   "blocks": 145,
+   "chars": 26390,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/examples/components/vertical-navigation/default",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/vertical-navigation/active-element",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/vertical-navigation/with-active-prop",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/vertical-navigation/with-icons",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/vertical-navigation/nested",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/vertical-navigation/with-section-titles",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/vertical-navigation/nested-with-section-titles",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/vertical-navigation/alternate",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/vertical-navigation/alternate-with-active-element",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/vertical-navigation/alternate-with-icons",
+    "https://design.visa.com/angular/version/7.0.0/examples/components/vertical-navigation/links-only"
+   ]
+  },
+  {
+   "id": "0352",
+   "url": "https://design.visa.com/angular/version/7.0.0/site-map",
+   "title": "Site Map",
+   "blocks": 61,
+   "chars": 584,
+   "links": [
+    "https://design.visa.com/angular/version/7.0.0/foundations/grid",
+    "https://design.visa.com/angular/version/7.0.0/services/app-ready",
+    "https://design.visa.com/angular/version/7.0.0/services/combobox",
+    "https://design.visa.com/angular/version/7.0.0/services/floating-ui",
+    "https://design.visa.com/angular/version/7.0.0/services/id-generator",
+    "https://design.visa.com/angular/version/7.0.0/services/listbox",
+    "https://design.visa.com/angular/version/7.0.0/services/nova-lib",
+    "https://design.visa.com/angular/version/7.0.0/services/pagination-control",
+    "https://design.visa.com/angular/version/7.0.0/utilities/accessibility",
+    "https://design.visa.com/angular/version/7.0.0/utilities/breakpoints",
+    "https://design.visa.com/angular/version/7.0.0/utilities/elevation",
+    "https://design.visa.com/angular/version/7.0.0/utilities/flex",
+    "https://design.visa.com/angular/version/7.0.0/utilities/open-in-new-tab",
+    "https://design.visa.com/angular/version/7.0.0/utilities/spacing",
+    "https://design.visa.com/angular/version/7.0.0/utilities/surface",
+    "https://design.visa.com/angular/version/7.0.0/utilities/typography"
+   ]
+  },
+  {
+   "id": "0353",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/default",
+   "title": "Default accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 2,
+   "chars": 89,
+   "links": []
+  },
+  {
+   "id": "0354",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/disabled",
+   "title": "Disabled accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 2,
+   "chars": 89,
+   "links": []
+  },
+  {
+   "id": "0355",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-icon",
+   "title": "With icon accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 74,
+   "links": []
+  },
+  {
+   "id": "0356",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-badge",
+   "title": "With badge accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 2,
+   "chars": 79,
+   "links": []
+  },
+  {
+   "id": "0357",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/subtle",
+   "title": "Subtle accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 74,
+   "links": []
+  },
+  {
+   "id": "0358",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/subtle-disabled",
+   "title": "Subtle disabled accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 74,
+   "links": []
+  },
+  {
+   "id": "0359",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/subtle-with-icon",
+   "title": "Subtle with icon accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 74,
+   "links": []
+  },
+  {
+   "id": "0360",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/multi-select-default",
+   "title": "Multi select default accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 222,
+   "links": []
+  },
+  {
+   "id": "0361",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/multi-select-expanded",
+   "title": "Multi select expanded accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 222,
+   "links": []
+  },
+  {
+   "id": "0362",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/multi-select-with-disabled-accordion",
+   "title": "Multi select with disabled accordion accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 222,
+   "links": []
+  },
+  {
+   "id": "0363",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/multi-select-subtle",
+   "title": "Multi select subtle accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 222,
+   "links": []
+  },
+  {
+   "id": "0364",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/single-select-default",
+   "title": "Single select default accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 222,
+   "links": []
+  },
+  {
+   "id": "0365",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/single-select-expanded",
+   "title": "Single select expanded accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 222,
+   "links": []
+  },
+  {
+   "id": "0366",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/single-select-with-disabled-accordion",
+   "title": "Single select with disabled accordion accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 222,
+   "links": []
+  },
+  {
+   "id": "0367",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/single-select-subtle",
+   "title": "Single select subtle accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 222,
+   "links": []
+  },
+  {
+   "id": "0368",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-programmatic-expansion",
+   "title": "With programmatic expansion accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 4,
+   "chars": 239,
+   "links": []
+  },
+  {
+   "id": "0369",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-custom-toggle-icons",
+   "title": "With custom toggle icons accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 6,
+   "chars": 273,
+   "links": []
+  },
+  {
+   "id": "0370",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-arrow-key-navigation",
+   "title": "With arrow key navigation accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 222,
+   "links": []
+  },
+  {
+   "id": "0371",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/with-arrow-keys-and-no-tab-navigation",
+   "title": "With arrow keys and no tab navigation accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 3,
+   "chars": 222,
+   "links": []
+  },
+  {
+   "id": "0372",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/reusable",
+   "title": "Reusable accordion component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 17,
+   "chars": 255,
+   "links": []
+  },
+  {
+   "id": "0373",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/anchor-link-menu/default",
+   "title": "Default anchor link menu component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 2,
+   "chars": 100,
+   "links": []
+  },
+  {
+   "id": "0374",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/anchor-link-menu/default-no-title",
+   "title": "Default no title anchor link menu component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 87,
+   "links": []
+  },
+  {
+   "id": "0375",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/anchor-link-menu/default-nested",
+   "title": "Default nested anchor link menu component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 2,
+   "chars": 96,
+   "links": []
+  },
+  {
+   "id": "0376",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/anchor-link-menu/right-to-left",
+   "title": "Right to left anchor link menu component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 2,
+   "chars": 96,
+   "links": []
+  },
+  {
+   "id": "0377",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/small-image",
+   "title": "Small image avatar component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0378",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/small-initials",
+   "title": "Small initials avatar component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 2,
+   "links": []
+  },
+  {
+   "id": "0379",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/small-horizontal-icon",
+   "title": "Small horizontal icon avatar component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0380",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/small-vertical-icon",
+   "title": "Small vertical icon avatar component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0381",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/large-image",
+   "title": "Large image avatar component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0382",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/large-initials",
+   "title": "Large initials avatar component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 2,
+   "links": []
+  },
+  {
+   "id": "0383",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/large-icon",
+   "title": "Large icon avatar component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0384",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/large-fictitious-brand",
+   "title": "Large fictitious brand avatar component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0385",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/as-button",
+   "title": "As button avatar component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0386",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/avatar/inline-directive",
+   "title": "Inline directive avatar component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0387",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-with-icon",
+   "title": "Subtle with icon badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 5,
+   "links": []
+  },
+  {
+   "id": "0388",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-label-only",
+   "title": "Subtle label only badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 5,
+   "links": []
+  },
+  {
+   "id": "0389",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-with-ellipse",
+   "title": "Subtle with ellipse badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 5,
+   "links": []
+  },
+  {
+   "id": "0390",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-no-background",
+   "title": "Subtle no background badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0391",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-icon-only",
+   "title": "Subtle icon only badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0392",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/subtle-icon-no-background",
+   "title": "Subtle icon no background badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0393",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-with-icon",
+   "title": "Neutral with icon badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 5,
+   "links": []
+  },
+  {
+   "id": "0394",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-label-only",
+   "title": "Neutral label only badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 5,
+   "links": []
+  },
+  {
+   "id": "0395",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-with-ellipse",
+   "title": "Neutral with ellipse badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 5,
+   "links": []
+  },
+  {
+   "id": "0396",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-no-background",
+   "title": "Neutral no background badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0397",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-icon-only",
+   "title": "Neutral icon only badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0398",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/neutral-icon-no-background",
+   "title": "Neutral icon no background badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 0,
+   "chars": 0,
+   "links": []
+  },
+  {
+   "id": "0399",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/stable-with-icon",
+   "title": "Stable with icon badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 5,
+   "links": []
+  },
+  {
+   "id": "0400",
+   "url": "https://design.visa.com/angular/version/7.0.0/examples/components/badge/stable-label-only",
+   "title": "Stable label only badge component | Example | Nova Angular | Visa Product Design System",
+   "blocks": 1,
+   "chars": 5,
+   "links": []
+  }
+ ],
+ "failed": 0,
+ "queued": 536,
+ "finishedAt": "2026-10-15T17:28:19.904Z",
+ "complete": false
+}

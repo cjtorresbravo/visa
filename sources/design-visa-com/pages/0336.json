@@ -1,0 +1,1169 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/list-item",
+ "title": "List item | Component | Nova Angular | Visa Product Design System",
+ "h1": "List item",
+ "readAt": "2026-10-15T17:17:24.489Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "List item"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "One-line list item",
+    "One-line, two-column list item",
+    "Two-line list item",
+    "Three-line list item",
+    "Leading icon list item",
+    "Leading icon with background list item",
+    "Leading image list item",
+    "Leading card art list item",
+    "Indicator line list item",
+    "Trailing icon list item",
+    "Trailing icon with background list item",
+    "Trailing image list item",
+    "Trailing card art list item",
+    "Default clickthrough list item",
+    "Disabled clickthrough list item",
+    "Disabled leading image clickthrough list item",
+    "Disabled leading icon clickthrough list item",
+    "Disabled card art clickthrough list item",
+    "Disabled card art with number clickthrough list item",
+    "Default switch list item",
+    "Disabled switch list item",
+    "Default checkbox list item",
+    "Disabled checkbox list item",
+    "Default radio list item",
+    "Disabled radio list item",
+    "Default list",
+    "Default list with dividers",
+    "Default list with title",
+    "Default list with section title and hyperlink",
+    "Clickthrough list",
+    "Radio list",
+    "Checkbox list",
+    "Account clickthrough list",
+    "Transactions list"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Static list items"
+  },
+  {
+   "k": "h3",
+   "t": "One-line list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "One-line, two-column list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label 1Item label 2"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Two-line list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item labelSecondary text"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Three-line list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item labelSecondary textTertiary text"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Leading icon list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Leading icon with background list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Leading image list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Leading card art list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Indicator line list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Trailing icon list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Trailing icon with background list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Trailing image list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Trailing card art list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Clickthrough list items"
+  },
+  {
+   "k": "h3",
+   "t": "Default clickthrough list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled clickthrough list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled leading image clickthrough list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled leading icon clickthrough list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled card art clickthrough list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled card art with number clickthrough list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "•••• 1234 Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Switch list items"
+  },
+  {
+   "k": "h3",
+   "t": "Default switch list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled switch list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Checkbox list items"
+  },
+  {
+   "k": "h3",
+   "t": "Default checkbox list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled checkbox list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Radio list items"
+  },
+  {
+   "k": "h3",
+   "t": "Default radio list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled radio list item"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Lists"
+  },
+  {
+   "k": "h3",
+   "t": "Default list"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A label 1Item A label 2",
+    "Item B label 1Item B label 2",
+    "Item C label 1Item C label 2",
+    "Item D label 1Item D label 2"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default list with dividers"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A label 1Item A label 2",
+    "Item B label 1Item B label 2",
+    "Item C label 1Item C label 2",
+    "Item D label 1Item D label 2"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default list with title"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "List title"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A label 1Item A label 2",
+    "Item B label 1Item B label 2",
+    "Item C label 1Item C label 2",
+    "Item D label 1Item D label 2"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default list with section title and hyperlink"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Section title"
+  },
+  {
+   "k": "text",
+   "t": "Hyperlink"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A label 1Item A label 2",
+    "Item B label 1Item B label 2",
+    "Item C label 1Item C label 2",
+    "Item D label 1Item D label 2"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Clickthrough list"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A label",
+    "Item B label",
+    "Item C label",
+    "Item D label"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Radio list"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Section title"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A label 1 Item A label 2",
+    "Item B label 1 Item B label 2",
+    "Item C label 1 Item C label 2",
+    "Item D label 1 Item D label 2"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox list"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Section title"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item A label 1 Item A label 2",
+    "Item B label 1 Item B label 2",
+    "Item C label 1 Item C label 2",
+    "Item D label 1 Item D label 2"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Custom lists"
+  },
+  {
+   "k": "h3",
+   "t": "Account clickthrough list"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Accounts"
+  },
+  {
+   "k": "list",
+   "items": [
+    "•••• 1111Digital Bank Card$1,234.56",
+    "•••• 2222Digital Bank Card$1,234.56",
+    "•••• 3333Digital Bank Card$1,234.56",
+    "•••• 4444Digital Bank Card$1,234.56"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Transactions list"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Transactions"
+  },
+  {
+   "k": "text",
+   "t": "See more"
+  },
+  {
+   "k": "list",
+   "items": [
+    "MNMerchant name- $14.57$1,234.56",
+    "MNMerchant name- $14.57$1,234.56",
+    "MNMerchant name- $14.57$1,234.56",
+    "MNMerchant name- $14.57$1,234.56"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  }
+ ]
+}

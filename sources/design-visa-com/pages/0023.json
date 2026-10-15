@@ -1,0 +1,136 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/pdf/navigation",
+ "title": "Navigation | PDF | Global accessibility requirements | Visa Product Design System",
+ "h1": "Navigation",
+ "readAt": "2026-10-15T17:06:06.994Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Navigation"
+  },
+  {
+   "k": "p",
+   "t": "Find navigation requirements for testing PDFs."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Navigation (PDF-6)Page numbers (PDF-6-1)Bookmarks (PDF-6-2)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Navigation (PDF-6)"
+  },
+  {
+   "k": "h3",
+   "t": "Page numbers (PDF-6-1)"
+  },
+  {
+   "k": "p",
+   "t": "Page numbering displayed in the PDF viewer page controls has the same page numbering as the document."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the document for page numbers.",
+    "Use the keyboard shortcut CMD/CTRL+Shift+N to open a ‘Go To Page’ dialogue.",
+    "Enter a page number and click OK.",
+    "Verify that the entered page numbers match the actual page numbers of the document (from header/footer)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass:Page numbers in PDF reader accurately reflect the Document page number.",
+    "Fail: Page numbers in PDF reader do not accurately reflect the document page number.",
+    "NA: Page numbers are not available in the document."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 AA - 2.4.5 Multiple Ways",
+    "PDF-U/A - 7.17 Navigation"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Bookmarks (PDF-6-2)"
+  },
+  {
+   "k": "p",
+   "t": "Make it possible for users to locate content using bookmarks (outline entries in an Outline dictionary) in documents that are 21 pages or longer."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Open the document in Adobe Acrobat Pro.",
+    "Open the bookmarks pane and verify that bookmarks are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Bookmarks are present.",
+    "Fail: No bookmarks are present.",
+    "NA: The document is less than 21 pages in length."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 AA - 2.4.5 Multiple Ways",
+    "PDF-U/A - 7.17 Navigation"
+   ]
+  }
+ ]
+}

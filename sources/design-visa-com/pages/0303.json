@@ -1,0 +1,153 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/examples/patterns/dynamic-table/filter-dialog",
+ "title": "Filter dialog dynamic table pattern | Example | Nova Angular | Visa Product Design System",
+ "h1": null,
+ "readAt": "2026-10-15T17:15:12.550Z",
+ "blocks": [
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Secondary action"
+  },
+  {
+   "k": "text",
+   "t": "Tertiary action"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "File name",
+     "Added by",
+     "File size",
+     "File type",
+     "Status",
+     "Region",
+     "Actions"
+    ],
+    [
+     "A1-100",
+     "A. Miller",
+     "640 KB",
+     "BMP",
+     "Approved",
+     "North America",
+     ""
+    ],
+    [
+     "A1-107",
+     "S. Taylor",
+     "436 KB",
+     "PPTX",
+     "In progress",
+     "South America",
+     ""
+    ],
+    [
+     "A1-114",
+     "R. Jones",
+     "239 KB",
+     "GIF",
+     "Declined",
+     "Europe",
+     ""
+    ],
+    [
+     "A1-121",
+     "A. Miller",
+     "315 KB",
+     "ZIP",
+     "On hold",
+     "Asia Pacific",
+     ""
+    ],
+    [
+     "A1-128",
+     "S. Taylor",
+     "796 KB",
+     "PNG",
+     "Approved",
+     "North America",
+     ""
+    ],
+    [
+     "A1-135",
+     "R. Jones",
+     "483 KB",
+     "DOCX",
+     "In progress",
+     "South America",
+     ""
+    ],
+    [
+     "A1-142",
+     "A. Miller",
+     "512 KB",
+     "TXT",
+     "Declined",
+     "Europe",
+     ""
+    ],
+    [
+     "A1-149",
+     "S. Taylor",
+     "698 KB",
+     "PDF",
+     "On hold",
+     "Asia Pacific",
+     ""
+    ],
+    [
+     "A1-156",
+     "R. Jones",
+     "550 KB",
+     "CSV",
+     "Approved",
+     "North America",
+     ""
+    ],
+    [
+     "A1-163",
+     "A. Miller",
+     "217 KB",
+     "SVG",
+     "In progress",
+     "South America",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Results per page"
+  },
+  {
+   "k": "text",
+   "t": "10"
+  },
+  {
+   "k": "text",
+   "t": "15"
+  },
+  {
+   "k": "text",
+   "t": "20"
+  },
+  {
+   "k": "text",
+   "t": "Showing 1 - 10 of 100"
+  },
+  {
+   "k": "list",
+   "items": [
+    "1",
+    "2",
+    "3",
+    "10"
+   ]
+  }
+ ]
+}

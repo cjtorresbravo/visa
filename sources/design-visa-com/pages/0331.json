@@ -1,0 +1,138 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/footer",
+ "title": "Footer | Component | Nova Angular | Visa Product Design System",
+ "h1": "Footer",
+ "readAt": "2026-10-15T17:17:16.742Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Footer"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default footer",
+    "Navigational footer"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Default footer"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Navigational footer"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "FooterDirective",
+    "VisaLogoComponent"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - FooterDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-footer]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Component - VisaLogoComponent"
+  },
+  {
+   "k": "text",
+   "t": "[v-logo-visa]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "height",
+     "@Input()",
+     "23",
+     "number, unknown",
+     "Sets height of logo image.",
+     "false"
+    ],
+    [
+     "width",
+     "@Input()",
+     "71",
+     "number, unknown",
+     "Sets width of logo image.",
+     "false"
+    ]
+   ]
+  }
+ ]
+}

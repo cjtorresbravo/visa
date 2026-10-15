@@ -1,0 +1,172 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/patterns/application-layouts",
+ "title": "Application layouts | Pattern | Nova Angular | Visa Product Design System",
+ "h1": "Layouts",
+ "readAt": "2026-10-15T17:16:19.710Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Layouts"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Horizontal application layout",
+    "Stacked horizontal application layout",
+    "Vertical application layout",
+    "Mixed application layout"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Horizontal application layouts"
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal application layout"
+  },
+  {
+   "k": "text",
+   "t": "#patterns"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Skip to content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Stacked horizontal application layouts"
+  },
+  {
+   "k": "h3",
+   "t": "Stacked horizontal application layout"
+  },
+  {
+   "k": "text",
+   "t": "#patterns"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Skip to content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Vertical application layouts"
+  },
+  {
+   "k": "h3",
+   "t": "Vertical application layout"
+  },
+  {
+   "k": "text",
+   "t": "#patterns"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Mixed application layouts"
+  },
+  {
+   "k": "h3",
+   "t": "Mixed application layout"
+  },
+  {
+   "k": "text",
+   "t": "#patterns"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Skip to content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "url": "https://design.visa.com/patterns/application-layouts",
+ "title": "Application layouts | Patterns | Visa Product Design System",
+ "h1": "Application layouts",
+ "readAt": "2026-10-15T17:07:57.587Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Application layouts"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to choose a navigational frame based on page content and information architecture."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal application layouts"
+  },
+  {
+   "k": "p",
+   "t": "Layouts with horizontal navigation above the main content area."
+  },
+  {
+   "k": "h3",
+   "t": "Stacked horizontal application layouts"
+  },
+  {
+   "k": "p",
+   "t": "Layouts with stacked horizontal navigation above the main content area."
+  },
+  {
+   "k": "h3",
+   "t": "Mixed application layouts"
+  },
+  {
+   "k": "p",
+   "t": "Layouts that combine both horizontal and vertical navigation with a central content area."
+  },
+  {
+   "k": "h3",
+   "t": "Vertical application layouts"
+  },
+  {
+   "k": "p",
+   "t": "Layouts with vertical navigation beside the main content area."
+  }
+ ]
+}

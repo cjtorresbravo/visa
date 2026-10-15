@@ -1,0 +1,284 @@
+{
+ "url": "https://design.visa.com/components/icons-illustrations/code",
+ "title": "Icons and illustrations | Components | Visa Product Design System",
+ "h1": "Icons and illustrations",
+ "readAt": "2026-10-15T17:09:00.035Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Icons and illustrations"
+  },
+  {
+   "k": "p",
+   "t": "Explore Visa-branded and generic icon libraries that represent core functions, ideas, and content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Icons library",
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Icon styles",
+    "Icon sizes",
+    "Icon customizations"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "7.0.0"
+  },
+  {
+   "k": "text",
+   "t": "6.0.2"
+  },
+  {
+   "k": "text",
+   "t": "5.1.3"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to adapt Nova icons for your Angular application. For information on importing and using the Nova Angular icon library, visit Start building with Angular."
+  },
+  {
+   "k": "h2",
+   "t": "Icon styles"
+  },
+  {
+   "k": "h3",
+   "t": "Default"
+  },
+  {
+   "k": "text",
+   "t": "Loading icon example Default"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "h3",
+   "t": "Visa"
+  },
+  {
+   "k": "text",
+   "t": "Loading icon example Visa"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "h2",
+   "t": "Icon sizes"
+  },
+  {
+   "k": "h2",
+   "t": "Icon customizations"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Directives"
+  },
+  {
+   "k": "h4",
+   "t": "IconComponent"
+  },
+  {
+   "k": "p",
+   "t": "[v-icon]"
+  },
+  {
+   "k": "p",
+   "t": "IconComponent is intended only for use with icons used with an icon sprite. Standalone icons from @visa/nova-icons-angular is recommended over using the IconComponent.. \nIcon component for displaying icons from VPDS' Icon Library."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Binding Type",
+     "Property Type",
+     "Default",
+     "Description",
+     "Builtin"
+    ],
+    [
+     "customHeight",
+     "input",
+     "string",
+     "'8'",
+     "Set CSS variable --v-icon-height which customizes icon height. isBadgeEllipse must be true for this to have an affect.",
+     "false"
+    ],
+    [
+     "customIcon",
+     "input",
+     "string",
+     "",
+     "Name of custom icon reference. Should refer to an icon within an icon sprite in your application. The href will reference the string provided directly. No library or iconSize will be added.",
+     "false"
+    ],
+    [
+     "customWidth",
+     "input",
+     "string",
+     "'8'",
+     "Set CSS variable --v-icon-width which customizes icon width. isBadgeEllipse must be true for this to have an affect.",
+     "false"
+    ],
+    [
+     "icon",
+     "input",
+     "null | string",
+     "null, { alias: 'icon', }",
+     "Name of icon to display. Should refer to an icon in VPDS' Icon Library.",
+     "false"
+    ],
+    [
+     "iconSize",
+     "input",
+     "iconsize",
+     "'tiny' / IconSize.TINY",
+     "Sets icon resolution/size.",
+     "false"
+    ],
+    [
+     "isBadgeEllipse",
+     "input",
+     "boolean, unknown",
+     "false",
+     "Sets icon to badge-ellipse variant when true. Intended for use in badges with an indicator.",
+     "false"
+    ],
+    [
+     "library",
+     "input",
+     "iconlibrary",
+     "'visa' / IconLibrary.VISA",
+     "Tells icon which library to reference.",
+     "false"
+    ],
+    [
+     "rtl",
+     "input",
+     "boolean, unknown",
+     "false",
+     "Flips icon from right to left when true and dir=\"rtl\" is present on a parent element.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Constants"
+  },
+  {
+   "k": "h4",
+   "t": "IconLibrary"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Property Name",
+     "Value"
+    ],
+    [
+     "VISA",
+     "'visa'"
+    ],
+    [
+     "GENERIC",
+     "'generic'"
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "IconSize"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Property Name",
+     "Value"
+    ],
+    [
+     "TINY",
+     "'tiny'"
+    ],
+    [
+     "LOW",
+     "'low'"
+    ],
+    [
+     "HIGH",
+     "'high'"
+    ]
+   ]
+  }
+ ]
+}

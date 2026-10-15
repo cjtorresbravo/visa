@@ -1,0 +1,351 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/pagination",
+ "title": "Pagination | Component | Nova Angular | Visa Product Design System",
+ "h1": "Pagination",
+ "readAt": "2026-10-15T17:17:30.355Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Pagination"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default pagination with first page selected",
+    "Default pagination with middle page selected",
+    "Default pagination with last page selected",
+    "Default slim pagination",
+    "Slim pagination with item count, custom methods",
+    "Pagination with no middle block",
+    "Reusable pagination demo"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Default paginations"
+  },
+  {
+   "k": "h3",
+   "t": "Default pagination with first page selected"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default pagination with middle page selected"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default pagination with last page selected"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Slim paginations"
+  },
+  {
+   "k": "h3",
+   "t": "Default slim pagination"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Slim pagination with item count, custom methods"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Custom paginations"
+  },
+  {
+   "k": "h3",
+   "t": "Pagination with no middle block"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Reusable pagination demo"
+  },
+  {
+   "k": "text",
+   "t": "#AI-first"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Results per page"
+  },
+  {
+   "k": "text",
+   "t": "5 items"
+  },
+  {
+   "k": "text",
+   "t": "10 items"
+  },
+  {
+   "k": "text",
+   "t": "15 items"
+  },
+  {
+   "k": "text",
+   "t": "20 items"
+  },
+  {
+   "k": "p",
+   "t": "Showing 1 - 10 of 100"
+  },
+  {
+   "k": "h4",
+   "t": "Boolean properties"
+  },
+  {
+   "k": "text",
+   "t": "Compact"
+  },
+  {
+   "k": "text",
+   "t": "Inline"
+  },
+  {
+   "k": "text",
+   "t": "Show items per page"
+  },
+  {
+   "k": "text",
+   "t": "Show page range"
+  },
+  {
+   "k": "h4",
+   "t": "Text/numeric properties"
+  },
+  {
+   "k": "text",
+   "t": "Aria label"
+  },
+  {
+   "k": "text",
+   "t": "Total items"
+  },
+  {
+   "k": "text",
+   "t": "Selected page (initial)"
+  },
+  {
+   "k": "text",
+   "t": "Start block size"
+  },
+  {
+   "k": "text",
+   "t": "End block size"
+  },
+  {
+   "k": "text",
+   "t": "Middle block size"
+  },
+  {
+   "k": "text",
+   "t": "Items per page options (JSON array)"
+  },
+  {
+   "k": "text",
+   "t": "Array of numbers for the items per page dropdown options."
+  },
+  {
+   "k": "text",
+   "t": "Apply"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "PaginationDirective",
+    "PaginationOverflowDirective",
+    "PaginationControl"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - PaginationDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-pagination]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - PaginationOverflowDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-pagination-overflow]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "PaginationControl"
+  },
+  {
+   "k": "code",
+   "t": "import { computed, Signal, signal, WritableSignal } from '@angular/core';\n\n/**\n * Generates an array from number to from + length\n * @param {number} from\n * @param {number} length\n * @returns {number[]}\n */\nexport const generateArray = (from: number, length: number): number[] =>\n  Array.from({ length }, (_, i) => i + from);\n\nexport type PaginationControlOptions = {\n  /** Max block length for all blocks, this gets overwritten by `startBlockMaxLength`, `middleBlockMaxLength`, `endBlockMaxLength` */\n  blockMaxLength: number;\n  /** Forces pages not to paginate */\n  compact: boolean;\n  /** Default selected page */\n  defaultSelected: number;\n  /** Default total amount of page */\n  defaultTotalPages: number;\n  /** What to separate the pagination array up with, usually this delimiter will be replaced with icon or ellipses when shown in the UI */\n  delimiter: number | string;\n  /** Maximum length of pages to show on the end pagination block, overwrites `blockMaxLength` for end block */\n  endBlockMaxLength: number;\n  /** Maximum page number to be shown, (default null for no maximum) */\n  maxPageNumber: number | null;\n  /** Maximum length of pages to show on the middle pagination block, overwrites `blockMaxLength` for middle block */\n  middleBlockMaxLength: number;\n  /** Signal to be used for selected page, otherwise control will create one */\n  selectedPage?: WritableSignal<number> | null;\n  /** Maximum length of pages to show on the start pagination block, overwrites `blockMaxLength` for start block */\n  startBlockMaxLength: number;\n  /** Start from this page */\n  startPage: number;\n};\n\nconst defaultOptions = {\n  blockMaxLength: 3,\n  compact: false,\n  defaultSelected: 1,\n  defaultTotalPages: 1,\n  delimiter: -1,\n  maxPageNumber: null,\n  startPage: 1,\n} satisfies Partial<PaginationControlOptions>;\n\n/**\n * PaginationControl is a signals-based approach to handling and controlling pagination components.\n * It’s customizable, reusable, and allows you to bring your own signal for `selectedPage`.\n * @docs {@link https://design.visa.com/components/pagination/?code_library=angular | See docs}\n */\nexport class PaginationControl {\n  constructor(options?: Partial<PaginationControlOptions>) {\n    const blockMaxLength =\n      options?.blockMaxLength ?? defaultOptions.blockMaxLength;\n    // If we have a blockMaxLength, we should set it for all block max lengths, then we override it with all the options provided by the user\n    this.options = {\n      ...defaultOptions,\n      endBlockMaxLength: blockMaxLength,\n      middleBlockMaxLength: blockMaxLength,\n      startBlockMaxLength: blockMaxLength,\n      ...options,\n    } as PaginationControlOptions;\n    this.totalPages.set(this.options.defaultTotalPages);\n    const defaultStartPage = Math.min(\n      Math.max(this.options.defaultSelected, this.options.startPage),\n      this.options.defaultTotalPages,\n    );\n    this.selectedPage = this.options.selectedPage ?? signal(defaultStartPage);\n    this.selectedPage.set(defaultStartPage);\n    this.compact.set(this.options.compact);\n  }\n\n  /// STATE:\n  public readonly compact = signal<boolean>(false);\n\n  private readonly options: PaginationControlOptions;\n\n  private readonly selectedPage: WritableSignal<number>;\n\n  public readonly totalPages: WritableSignal<number> = signal<number>(0);\n\n  /// DERIVED STATE:\n\n  /** Can paginate or just show all pages */\n  private readonly canPaginate: Signal<boolean> = computed(\n    () =>\n      this.totalPages() >\n        Math.max(\n          this.options.endBlockMaxLength,\n          this.options.startBlockMaxLength,\n        ) +\n          2 && // 1 for end or start number + 1 for single separator show while in start/end blocks\n      this.totalPages() > this.options.middleBlockMaxLength + 4, // 2 for start and end numbers + 2 for separators shown while in middle block\n  );\n\n  /** Pages to show at the end */\n  private readonly endBlock: Signal<number[]> = computed(() =>\n    this.isInEndBlock()\n      ? generateArray(\n          this.lastPage() - this.options.endBlockMaxLength + 1,\n          this.options.endBlockMaxLength,\n        )\n      : [this.lastPage()],\n  );\n\n  /** Ideal last page without maxPageNumber interfering */\n  private readonly idealLastPage: Signal<number> = computed(\n    () => this.totalPages() + this.options.startPage - 1,\n  );\n\n  /** Is first element selected */\n  public readonly isFirstPage: Signal<boolean> = computed(\n    () => this.selectedPage() === this.options.startPage,\n  );\n\n  /** Selected page is in end block */\n  private readonly isInEndBlock: Signal<boolean> = computed(\n    // prevent page from showing in start and end block by not adding here if it isInStartBlock\n    () =>\n      !this.isInStartBlock() &&\n      this.selectedPage() > this.lastPage() - this.options.endBlockMaxLength,\n  );\n\n  /** Selected page is in middle block */\n  private readonly isInMiddleBlock: Signal<boolean> = computed(\n    () => !this.isInStartBlock() && !this.isInEndBlock(),\n  );\n\n  /** Selected page is in start block */\n  private readonly isInStartBlock: Signal<boolean> = computed(\n    () =>\n      this.selectedPage() <\n      this.options.startPage + this.options.startBlockMaxLength,\n  );\n\n  /** Is last element selected */\n  public readonly isLastPage: Signal<boolean> = computed(\n    () => this.selectedPage() === this.lastPage(),\n  );\n\n  /** Last page */\n  private readonly lastPage: Signal<number> = computed(() =>\n    this.options.maxPageNumber === null\n      ? this.idealLastPage()\n      : Math.min(this.options.maxPageNumber, this.idealLastPage()),\n  );\n\n  /** Pages to show in the middle */\n  private readonly middleBlock: Signal<number[]> = computed(() => {\n    if (!this.isInMiddleBlock()) return [];\n    const middleBlockPadding = Math.floor(\n      this.options.middleBlockMaxLength / 2,\n    );\n    if (this.selectedPage() - middleBlockPadding <= this.options.startPage)\n      return generateArray(\n        this.selectedPage() -\n          (this.selectedPage() - this.options.startPage) +\n          1,\n   "
+  }
+ ]
+}

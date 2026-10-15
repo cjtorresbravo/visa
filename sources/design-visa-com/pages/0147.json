@@ -1,0 +1,209 @@
+{
+ "url": "https://design.visa.com/what's-new/latest-news/fy25-q4-release",
+ "title": "Accelerate design and development with new patterns, library upgrades, and refreshed icons | Visa Product Design System",
+ "h1": "Accelerate design and development with new patterns, library upgrades, and refreshed icons",
+ "readAt": "2026-10-15T17:08:40.358Z",
+ "blocks": [
+  {
+   "k": "text",
+   "t": "Back to newsfeed"
+  },
+  {
+   "k": "p",
+   "t": "release update"
+  },
+  {
+   "k": "h1",
+   "t": "Accelerate design and development with new patterns, library upgrades, and refreshed icons"
+  },
+  {
+   "k": "p",
+   "t": "Get the latest on new patterns—including filters, version updates across code libraries, and more."
+  },
+  {
+   "k": "p",
+   "t": "Sep 29, 2025"
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Overview",
+    "Development updates",
+    "Design updates",
+    "Ready to get started?"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Overview"
+  },
+  {
+   "k": "p",
+   "t": "Since our public launch in April 2025, active users of the Visa Product Design System (VPDS) have soared to over 32,000—a clear sign of rapid adoption and growing trust across teams. Whether you’re new to VPDS or a long‑time user, our team has been moving at full speed to deliver more high‑quality assets, empowering you to build the best ways to pay and be paid."
+  },
+  {
+   "k": "p",
+   "t": "This release delivers brand‑new design assets for Filters and an expanded icons library—now available in Figma. You’ll also find coded examples for Application layouts, Chat, File upload, and Wizard patterns, ready for your teams to use. On the engineering side, we’ve upgraded to React 19, Angular 20, and Flutter 3.29 with improved accessibility, along with optimized CSS styles powered by rem-based tokens."
+  },
+  {
+   "k": "p",
+   "t": "Dive into the rest of the updates below."
+  },
+  {
+   "k": "h2",
+   "t": "Development updates"
+  },
+  {
+   "k": "p",
+   "t": "Check out the latest refinements and updates from our engineering and development teams. Stay tuned as we continue to refine and expand our code offerings."
+  },
+  {
+   "k": "h3",
+   "t": "Coded pattern examples"
+  },
+  {
+   "k": "p",
+   "t": "Start coding quickly with new examples for Application layouts, Chat, File upload, and Wizard. Each pattern is available alongside usage and accessibility guidance, ensuring designers and developers are empowered to create consistent experiences without starting from scratch."
+  },
+  {
+   "k": "text",
+   "t": "Explore all Patterns"
+  },
+  {
+   "k": "h3",
+   "t": "Nova Angular for web"
+  },
+  {
+   "k": "p",
+   "t": "Build with the upgraded Nova Angular—now compatible with Angular 20, with support for versions 16 and 17 retired. Take advantage of more efficient change detection and reactive state management powered by Angular’s Signals. Enjoy smoother, more predictable behavior with sync issues eliminated when inputs take priority over internal state."
+  },
+  {
+   "k": "text",
+   "t": "Visit Angular changelog"
+  },
+  {
+   "k": "text",
+   "t": "Find the package, version, and code"
+  },
+  {
+   "k": "h3",
+   "t": "Nova Flutter for mobile"
+  },
+  {
+   "k": "p",
+   "t": "Explore the new features in the Nova Flutter package, including a fresh SDK, improved lifecycle hygiene, and enhanced accessibility. Speed up your first-build times by up to 15% with reduced memory use and ensure VListTile selections are announced correctly in TalkBack and VoiceOver—improving WCAG 4.1.2 compliance."
+  },
+  {
+   "k": "text",
+   "t": "Visit Flutter changelog"
+  },
+  {
+   "k": "text",
+   "t": "Find the package, version, and code"
+  },
+  {
+   "k": "h3",
+   "t": "Nova React for web"
+  },
+  {
+   "k": "p",
+   "t": "Discover leaner runtimes and standard kebab-case ARIA props in Nova React—now upgraded to React 19. Reduce your install size by making the @visa/nova-icons-react package optional, and remove extra forwardRef wrappers so components use the native ref prop for cleaner code and more accurate TypeScript types."
+  },
+  {
+   "k": "text",
+   "t": "Visit React changelog"
+  },
+  {
+   "k": "text",
+   "t": "Find the package, version, and code"
+  },
+  {
+   "k": "h3",
+   "t": "Nova styles for web"
+  },
+  {
+   "k": "p",
+   "t": "Experience smarter theming, fewer overrides, and better scaling with Core CSS.  Adjust dialog spacing instantly with the —v-dialog-margin token, and ensure consistent keyboard focus spacing with the dense list-item pattern. Hybrid themes now automatically follow the operating system’s light/dark setting, with consolidated light and dark styles. All sizing tokens now use rem for accurate icon and text scaling with —theme-scale-factor."
+  },
+  {
+   "k": "text",
+   "t": "Visit CSS (Styles) changelog"
+  },
+  {
+   "k": "text",
+   "t": "Find the package, version, and code"
+  },
+  {
+   "k": "h2",
+   "t": "Design updates"
+  },
+  {
+   "k": "p",
+   "t": "Discover what’s new from our design and content design teams. Stay tuned as we continue to refine and expand our design offerings."
+  },
+  {
+   "k": "h3",
+   "t": "Filters pattern"
+  },
+  {
+   "k": "text",
+   "t": "Explore Filters guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Additions to the icons library"
+  },
+  {
+   "k": "text",
+   "t": "VPDS Icons library"
+  },
+  {
+   "k": "text",
+   "t": "Explore Icons and Illustrations guidelines"
+  },
+  {
+   "k": "h2",
+   "t": "Ready to get started?"
+  },
+  {
+   "k": "p",
+   "t": "Unlock the full potential of VPDS today. Visit the VPDS homepage to explore these updates, access resources, and experience how we’re transforming the way teams create. We also welcome our partners and those outside of Visa to learn about us and how VPDS can enhance your projects."
+  },
+  {
+   "k": "text",
+   "t": "Get started with VPDS"
+  },
+  {
+   "k": "h2",
+   "t": "Stay connected"
+  },
+  {
+   "k": "p",
+   "t": "Have questions or want to join our community? Subscribe to our email list, visit our office hours, or join us on Teams."
+  },
+  {
+   "k": "text",
+   "t": "Visit support"
+  },
+  {
+   "k": "p",
+   "t": "Related topics"
+  }
+ ]
+}

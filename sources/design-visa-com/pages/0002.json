@@ -1,0 +1,76 @@
+{
+ "url": "https://design.visa.com/welcome",
+ "title": "Welcome | Visa Product Design System",
+ "h1": "Powering progress, from first step to final product.",
+ "readAt": "2026-10-15T17:05:42.485Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Powering progress, from first step to final product."
+  },
+  {
+   "k": "p",
+   "t": "Visa leads the way in payments, and now you can lead in\n                  design. The Visa Product Design System was built to help you\n                  get to where you want to be."
+  },
+  {
+   "k": "text",
+   "t": "Play video"
+  },
+  {
+   "k": "h2",
+   "t": "Build solutions for everyone, everywhere."
+  },
+  {
+   "k": "p",
+   "t": "Unlock the potential of your ideas on a global scale. Speed the\n            journey from step one to done with the Visa Product Design System\n            powering you to create world-class solutions."
+  },
+  {
+   "k": "h2",
+   "t": "Small steps. Big impact."
+  },
+  {
+   "k": "p",
+   "t": "Focus on creating exceptional payment experiences from the start.\n          With pre-built, accessibility-approved components and patterns, you\n          can move toward the next phase, faster."
+  },
+  {
+   "k": "text",
+   "t": "Browse libraries"
+  },
+  {
+   "k": "h2",
+   "t": "Where flexibility meets scalability."
+  },
+  {
+   "k": "p",
+   "t": "Use design tokens to craft custom experiences for any brand\n          requirement. Ensure seamless, consistent, and scalable results across\n          products and platforms, aligning perfectly with your team's vision."
+  },
+  {
+   "k": "text",
+   "t": "Learn how to theme"
+  },
+  {
+   "k": "h2",
+   "t": "Streamline and standardize."
+  },
+  {
+   "k": "p",
+   "t": "Use shared, accessibility-tested assets like typography, spacing, and\n          color. Simplify handoff and bridge the design-development gap to\n          enhance your team's process."
+  },
+  {
+   "k": "text",
+   "t": "Explore base elements"
+  },
+  {
+   "k": "h2",
+   "t": "Iterate. Improve. Innovate."
+  },
+  {
+   "k": "p",
+   "t": "Prepare your team for what's next. With continuous updates, the\n            Visa Product Design System ensures your team is equipped with the\n            latest advancements to stay ahead of the curve."
+  },
+  {
+   "k": "text",
+   "t": "Get started"
+  }
+ ]
+}

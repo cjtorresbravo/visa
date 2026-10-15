@@ -1,0 +1,403 @@
+{
+ "url": "https://design.visa.com/components/link/usage",
+ "title": "Link | Components | Visa Product Design System",
+ "h1": "Link",
+ "readAt": "2026-10-15T17:10:05.542Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Link"
+  },
+  {
+   "k": "p",
+   "t": "Text-based navigation elements that take users to another destination."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesStandalone linksInline linksExternal linksNew window or tab”Back to” links",
+    "BehaviorsStyling and coding buttons and links",
+    "ContentLink formulasStandalone linksInline links",
+    "Platform considerationsMobile",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Links are text-based navigational elements that take users to another destination. They may appear as standalone elements or inline with text. Links are commonly used in menus, navigation components, panels, and resources like FAQs.\nAlso known as: Hyperlink, anchor link."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Leading icon (optional): Icon located before the link text used to enhance the meaning of the link. \nB. Destination label (required): Text indicating where the link will take the user. \nC. Trailing icon (optional): Icon located after link to indicate the meaning of the text. \nD. Underline (optional): Line under link text to enhance and indicate a link is present."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Standalone",
+     "For links that appear outside of sentences or paragraphs.",
+     "To prompt an action or event. Use a Button instead."
+    ],
+    [
+     "Inline",
+     "For links that appear within sentences or paragraphs.",
+     "To prompt an action or event. Use a Button instead. In native mobile applications."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Only use links as navigation elements, not for actions. Use a Button to perform actions.",
+    "Use consistent styling for all links across your experience to ensure users recognize them.",
+    "Ensure icons and link text are the same color.",
+    "Ensure users can select a link anywhere on the link text or associated icon.",
+    "Always use an icon to indicate if a link opens in a new tab. Reference VGAR INT-5 for more information.",
+    "Ensure the visible link text closely matches the name of the resource being linked to.",
+    "Ensure links are clearly identifiable by pairing text color with an icon or underline. This does not apply to navigation components like horizontal or vertical navigation, anchor link menus, and footers, where text color alone suffices."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Combine at least one visual cue, such as an underline or icon, with text color to communicate the presence of a link."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Implement links with only text color as a visual cue to communicate the presence of a link."
+  },
+  {
+   "k": "h3",
+   "t": "Standalone links"
+  },
+  {
+   "k": "p",
+   "t": "Standalone links are interactive elements placed outside of body text. They’re often used in menus, footers, and sidebars for quick access to frequently used features within the site or application, or in resource lists to provide access to external sites."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use leading icons to help users quickly identify links."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use uncommon or vague icons."
+  },
+  {
+   "k": "p",
+   "t": "Do     Pair standalone links with leading or trailing icons."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use leading and trailing icons together."
+  },
+  {
+   "k": "h3",
+   "t": "Inline links"
+  },
+  {
+   "k": "p",
+   "t": "Inline links are interactive elements embedded within body text. Inline links are commonly used to provide direct access to additional information or resources without disrupting the flow of the content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit the number of inline links within a paragraph to avoid overwhelming users.",
+    "Ensure inline links are relevant to the surrounding content."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use trailing icons to clarify the outcome of an inline link."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use leading icons with inline links."
+  },
+  {
+   "k": "h3",
+   "t": "External links"
+  },
+  {
+   "k": "p",
+   "t": "Users should be aware of, and have control over, whether they are leaving their current website. To ensure users have choice, make sure to indicate when a link leads to an external website.  \nGenerally, there are two methods to inform users that links lead to external sites."
+  },
+  {
+   "k": "h4",
+   "t": "Maximize icon"
+  },
+  {
+   "k": "p",
+   "t": "The most common method is pairing a maximize icon with links to external sites."
+  },
+  {
+   "k": "list",
+   "items": [
+    "For standalone links without supporting content, use a maximize icon to indicate the link leads to a new website.",
+    "Use the “maximize-link” icon to ensure the line height of the link text is aligned with the icon."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "No icon"
+  },
+  {
+   "k": "p",
+   "t": "In some scenarios, the link label and surrounding content will provide enough context."
+  },
+  {
+   "k": "list",
+   "items": [
+    "For standalone links, use labels with the name of the destination when omitting the maximize icon.",
+    "For inline links, use surrounding content to indicate the link destination without disrupting the flow of content."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "New window or tab"
+  },
+  {
+   "k": "p",
+   "t": "Generally, avoid opening new windows or tabs. Instead, open links in the current window to avoid disorienting users and causing accessibility problems. Only open a new tab or window when directing users to information that will help them complete a task."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use an icon to indicate when a link opens in a new window or tab. This is especially important for assistive technology users, as new tabs can be disruptive or disorienting. For more information, reference VGAR INT-5."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "”Back to” links"
+  },
+  {
+   "k": "p",
+   "t": "A “Back to” link can be used as an extra navigation element to take users back one level in the site hierarchy. “Back to” links are generally paired with a backwards-facing arrow."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always indicate where the “back to” link will take users."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Place the “Back to” link in the top left portion of the interface."
+  },
+  {
+   "k": "p",
+   "t": "Don't      Use a “Back to” link on interfaces that use Breadcrumbs."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Styling and coding buttons and links"
+  },
+  {
+   "k": "p",
+   "t": "In general, buttons should be used for in-page actions and links should be used as navigational tools, like leaving a page. Whenever possible, match the visual styling of these elements with their coded and user-expected behavior. However, buttons and links may be styled like one another in some cases. Learn about these exceptions below."
+  },
+  {
+   "k": "h4",
+   "t": "Button coded as links"
+  },
+  {
+   "k": "p",
+   "t": "Buttons may be coded as links but styled as buttons when necessary. For example, an icon button may be appropriate when linking to a shopping cart."
+  },
+  {
+   "k": "p",
+   "t": "Use the arrow icon whenever possible as a visual cue that selecting will navigate to another page."
+  },
+  {
+   "k": "h4",
+   "t": "Link coded as buttons"
+  },
+  {
+   "k": "p",
+   "t": "Links may be coded as buttons but styled as links when necessary. For example, buttons may be styled as links when information will be presented in an overlay or dialog."
+  },
+  {
+   "k": "p",
+   "t": "Avoid underlining links coded as buttons, as this style is reserved for links, not buttons."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use simple language—avoid abbreviations or jargon.",
+    "Avoid verbs that focus on senses to include all users. For example, use “Visit cart,” instead of “View cart”.",
+    "Use at least two but no more than five words in link labels, unless linking the name of a resource or publication.",
+    "Avoid using articles such as “a,” “an,” or “the”.",
+    "Avoid using “click here,” or “here” as link text.",
+    "Don’t include “link” in link text."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Link formulas"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Combine action or command verbs with nouns to make labels specific. [verb] + [noun] is useful for most product cases. [verb] + [adverb] is typically used for marketing and promotions.",
+    "Only use single word labels for common navigational actions such as “Home,” “Profile,” or “Settings”."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use labels that describe the link destination."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use general or vague labels."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use “Learn more” when content before the link clearly indicates what additional information will be found."
+  },
+  {
+   "k": "p",
+   "t": "Don't      Use “Learn more” when the destination of the link or information it provides is not clear."
+  },
+  {
+   "k": "p",
+   "t": "Do     Customize link labels when using more than one per screen."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use multiple “Learn more” labels on one screen."
+  },
+  {
+   "k": "p",
+   "t": "Do     Punctuate inline links when it’s grammatically necessary."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Punctuate standalone links."
+  },
+  {
+   "k": "h3",
+   "t": "Standalone links"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use sentence case except for acronyms or proper nouns, such as resource titles."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use the verb + noun formula to make labels descriptive."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Link entire sentences."
+  },
+  {
+   "k": "h3",
+   "t": "Inline links"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow the capitalization structure of text surrounding inline links. Only capitalize proper nouns, acronyms, or titles."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use phrasing to embed links naturally in your sentence."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Combine points of view in sentences with inline links."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use title case for links to resources or publications."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use title case for text surrounding inline links."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "Avoid using inline links in native mobile apps, as they can be difficult to select on small screens. If your use case requires inline links in a native mobile app, ensure you implement sufficient touch targets."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Button"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that help users take actions within an interface."
+  },
+  {
+   "k": "h3",
+   "t": "Anchor link menu"
+  },
+  {
+   "k": "p",
+   "t": "Link menus that navigate to sections within the current page."
+  }
+ ]
+}

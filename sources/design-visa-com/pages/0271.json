@@ -1,0 +1,570 @@
+{
+ "url": "https://design.visa.com/patterns/wizard/usage",
+ "title": "Wizard | Patterns | Visa Product Design System",
+ "h1": "Wizard",
+ "readAt": "2026-10-15T17:11:58.470Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Wizard"
+  },
+  {
+   "k": "p",
+   "t": "A tool that combines a wizard stepper with navigation controls to guide users through complex forms."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Task flows",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesHorizontal wizard stepperVertical wizard stepperSingle-page stepperButton placementForm componentsProgressive disclosureSaving progressSummary page",
+    "LayoutsMulti-page layoutsSingle-page layouts",
+    "Platform considerationsMobile",
+    "ContentStep labels",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "The wizard pattern combines a wizard stepper, form components, and navigation buttons to separate long forms into shorter, more manageable steps. For guidance on implementing forms, reference Forms. \nAlso known as: Stepper, step wizard, progress wizard, progress indicator."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Wizard stepper (required): Wizard sub-component indicating the user’s current position and remaining steps.\nB. Step title (required): Brief statement describing the fields contained in a step. \nC. Content area (required): Area containing input fields, selects, and other form components to gather input from users. \nD. Calls to action (required): Button components enabling users to save, exit, or proceed to the next step."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Pattern",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Multi-page",
+     "For longer forms with four or more steps. If steps are longer and contain complex fields.",
+     "For simpler forms with fewer than four steps. If steps are short and don’t require substantial input."
+    ],
+    [
+     "Single-page",
+     "For shorter forms with four or fewer steps. If steps are simple or easy to complete.",
+     "For long forms with many steps."
+    ],
+    [
+     "Compact",
+     "On mobile screens or designs with limited space.",
+     "On screens with sufficient space, as the compact pattern displays limited information."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a wizard stepper as the starting point for all wizard patterns.",
+    "Follow Forms guidance for layout strategies when implementing forms within wizard steps.",
+    "Reference specific component guidelines for Select, Input, and any other components used in steps.",
+    "Follow Button guidance when implementing calls to action within wizard patterns.",
+    "Use tooltips or inline messages so users can access relevant information without leaving the wizard.",
+    "Always let users edit completed steps. Reference Branching wizard for tips on handling branching logic.",
+    "Include an indeterminate progress bar during form processing. Reference Progress for more information.",
+    "Reverse the direction of wizard elements including the stepper and buttons for right-to-left languages, as the layouts provided align with user expectations for left-to-right languages."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal wizard stepper"
+  },
+  {
+   "k": "p",
+   "t": "The horizontal stepper lists steps horizontally from left to right. It’s the most versatile stepper and fits most screens, but can’t accommodate extra long forms with more than six steps. It facilitates multi-page wizard patterns and is used to create the wizard with horizontal stepper layout."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Visually differentiate the user’s current step from others by using active styling.",
+    "Ensure step numbers are interactive so users can select them to navigate."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Scaling and reflow"
+  },
+  {
+   "k": "p",
+   "t": "Scaling and reflow refers to how content behaves as the container size changes, particularly when the container is small and can’t display all its content at once. If space is limited, step titles should wrap to the next line instead of truncating to ensure users can accurately identify each step title."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Wrap step labels to ensure they remain visible to the user as the container size changes.",
+    "Limit labels to two or three words so labels only wrap if it’s necessary."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Animations for horizontal steppers"
+  },
+  {
+   "k": "p",
+   "t": "Steps may animate when an additional step is added. Typically, the existing steps animate by sliding outwards from the new step to make space."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure animations are brief, subtle, and unobtrusive.",
+    "Implement animations consistently across steps, either animating all or none.",
+    "Only add steps after the user’s current step to avoid confusion and ensure they continue progressing forward.",
+    "Reverse the animation if a step is removed."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use the chevron icon to visually separate steps and indicate that the user should progress in order."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Change the direction of the chevron icon to indicate the user’s current step, as steps don’t expand downward."
+  },
+  {
+   "k": "h3",
+   "t": "Vertical wizard stepper"
+  },
+  {
+   "k": "p",
+   "t": "The vertical stepper lists steps vertically instead of horizontally and is the best choice for very long forms with more than six steps. This component facilitates multi-page wizard patterns and is used to create the wizard with vertical stepper layout."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Visually differentiate the user’s current step from others by using active styling.",
+    "Ensure step numbers are interactive so users can select them to navigate."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Animations for vertical steppers"
+  },
+  {
+   "k": "p",
+   "t": "Steps may animate when an additional step is added. Typically, the subsequent steps slide downward to make space for the new step."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure animations are brief, subtle, and unobtrusive.",
+    "Implement animations consistently across steps, either animating all or none.",
+    "Only add steps after the user’s current step to avoid confusion and ensure they continue progressing forward.",
+    "Reverse the animation if a step is removed."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Single-page stepper"
+  },
+  {
+   "k": "p",
+   "t": "The wizard stepper is an interactive navigation element that helps users progress through wizards. The single-page stepper is used for single-page layouts, where each step is contained in an accordion."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Visually differentiate the user’s current step from others by using active styling.",
+    "Ensure step numbers are interactive so users can select them to navigate."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Animations for single-page steppers"
+  },
+  {
+   "k": "p",
+   "t": "Steps may animate when opening or closing for single-page steppers. Typically, they use a smooth, vertical sliding effect. When a user selects a step header, the associated content panel expands downward, revealing the hidden content. When the user proceeds forward or back, the content panel animates upward, hiding the content.\nIf an additional step is added to a single-page stepper, use same animations as the vertical stepper."
+  },
+  {
+   "k": "h3",
+   "t": "Button placement"
+  },
+  {
+   "k": "p",
+   "t": "Buttons are a key element of wizards, as they enable users to save progress or navigate forward and back through steps."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place buttons in a consistent place across steps to avoid disorienting users.",
+    "Reference Button for additional guidance on alignment and placement."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Organize navigation buttons to help users predict what happens when they’re selected."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Place navigation buttons in an unexpected order or switch the order between steps."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use \"Next\" and \"Back\" buttons to help users proceed chronologically."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Allow users to override the prescribed order by skipping steps."
+  },
+  {
+   "k": "p",
+   "t": "Do     Allow users to use step numbers as navigation controls."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Allow users to select steps out of the prescribed order."
+  },
+  {
+   "k": "h3",
+   "t": "Form components"
+  },
+  {
+   "k": "p",
+   "t": "Wizards may include various components used in forms to collect data from users. Grouping related fields, such as address details, contact information, and payment information, reduces the cognitive load placed on users. This helps maintain user focus and prevent errors."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid including too many fields within a step. Limit steps to around five to seven simple fields or three to four complex fields.",
+    "Try to distribute the number of fields evenly across steps to create a balanced experience.",
+    "Start with easier steps and progress to more complex ones to reduce the chance users will abandon the task."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Group related fields according to user expectations."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Group fields according to the system’s data structure."
+  },
+  {
+   "k": "h3",
+   "t": "Progressive disclosure"
+  },
+  {
+   "k": "p",
+   "t": "Progressive disclosure is a method used in forms to prevent cognitive overload. Forms that use progressive disclosure show a few fields at first and reveal more as the user progresses. For example, a second address line is only shown after the user completes the first. Progressive disclosure logic is generally fixed and doesn’t depend on the user’s responses. This differs from branching logic in wizards, where user input determines what steps are relevant moving forward."
+  },
+  {
+   "k": "p",
+   "t": "While progressive disclosure can ease cognitive load in long forms, it’s not recommended for multi-step forms like wizards, as it can be redundant or confusing when combined with branching logic."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider progressive disclosure when forms are moderately complex but may not require multiple steps.",
+    "For more information on using progressive disclosure long forms reference Forms."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Saving progress"
+  },
+  {
+   "k": "p",
+   "t": "Users should be able to exit the wizard without losing progress. There are two methods for allowing users to save progress: autosave (recommended), and a “Save” button. These methods can be implemented together to give users extra control and confidence that their work won’t be lost."
+  },
+  {
+   "k": "h4",
+   "t": "Autosave"
+  },
+  {
+   "k": "p",
+   "t": "Autosave is a feature that automatically saves changes. This prevents progress loss due to network failure or other errors."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider pairing autosave with an additional “Save” button to give users more control.",
+    "Place an inline message near the navigation buttons to indicate that changes have been automatically saved."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Ask for user permission beforehand when saving sensitive information."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Automatically save sensitive information such as credit card or social security number."
+  },
+  {
+   "k": "h4",
+   "t": "”Save” button"
+  },
+  {
+   "k": "p",
+   "t": "“Save” buttons let users save progress manually. This helps users feel in control, but may result in accidental progress loss during network failures or other errors. “Save” buttons can be paired with autosave to enhance confidence and control."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Implement a “Save” button if your project doesn’t use autosave.",
+    "Use a dialog to warn users if they try to exit without saving.",
+    "Place an inline message near the navigation buttons to indicate that changes were successfully saved."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Summary page"
+  },
+  {
+   "k": "p",
+   "t": "Summary pages appear as the final wizard step to allow users to review their responses before submission, reducing the likelihood of incorrect input."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Implement summary pages as the final step before submission.",
+    "Ensure summary pages provide a complete overview of the user’s responses from all steps.",
+    "Provide clear controls that allow users to navigate back to edit their responses."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Layouts"
+  },
+  {
+   "k": "p",
+   "t": "The wizard pattern has multiple layouts to accommodate different visual designs and user needs. Each can be used as a starting point to enable different task flows. To learn about the wizard task flows and how they work with each pattern, visit the Task flows tab."
+  },
+  {
+   "k": "h3",
+   "t": "Multi-page layouts"
+  },
+  {
+   "k": "h4",
+   "t": "Wizard with horizontal stepper"
+  },
+  {
+   "k": "p",
+   "t": "This layout is best for interfaces with single-column designs where the majority of content is centered. It uses a horizontal stepper at the top of the pattern, above the main content area of the page. This is the preferred layout for branching flows, as the horizontal stepper makes it easiest to tell when an additional step has been added to the process."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place the horizontal stepper at the top of the screen, above the main content area of the page.",
+    "Place form contents within the main content area of the page.",
+    "Place buttons below the form contents, aligned to the outer edges of the frame.",
+    "Use shorter step labels to ensure they all fit in the horizontal layout.",
+    "Avoid horizontal steppers with more than six steps, as they can become crowded and hard to navigate."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use the chevron icon to visually separate steps and indicate that the user should progress in order."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Change the direction of the chevron icon to indicate the user’s current step, as steps don’t expand downward."
+  },
+  {
+   "k": "h4",
+   "t": "Wizard with vertical stepper"
+  },
+  {
+   "k": "p",
+   "t": "This layout is best for interfaces with substantial horizontal space, as the stepper and content are organized in two columns rather than centered vertically. It uses a vertical stepper on the left side of the pattern, next to the main content area."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place the vertical stepper component on the left of the main content of the page.",
+    "Place form contents within the main content area of the page.",
+    "Place buttons below the form contents, aligned to the outer edges of the frame.",
+    "Avoid using the vertical stepper on screens with limited horizontal space, unless the form contains more than six steps."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Single-page layouts"
+  },
+  {
+   "k": "h4",
+   "t": "Wizard with single-page stepper"
+  },
+  {
+   "k": "p",
+   "t": "This layout provides flexibility, as it can be placed within interfaces with surrounding content. However, it’s not recommended for long wizards with more than four steps. It uses a single-page stepper, which includes collapsible content areas for every step."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure steps are organized vertically.",
+    "Ensure only one step is expanded at a time.",
+    "Ensure the user’s current step automatically collapses when the user proceeds forward.",
+    "Place buttons below the form contents of each individual step."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Chevron direction"
+  },
+  {
+   "k": "p",
+   "t": "Visually differentiate expanded and collapsed sections using the chevron direction. Only one step should be expanded at a time to streamline the experience and reduce confusion."
+  },
+  {
+   "k": "h5",
+   "t": "Collapsed"
+  },
+  {
+   "k": "p",
+   "t": "Collapsed sections should use the inactive color palette."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the right pointing chevron to indicate the section expands when selected."
+   ]
+  },
+  {
+   "k": "h5",
+   "t": "Expanded"
+  },
+  {
+   "k": "p",
+   "t": "Expanded sections should use the active color palette."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the downward pointing chevron to indicate the section collapses when selected."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "p",
+   "t": "The wizard pattern is available for both web and mobile platforms. Learn about screen size considerations below."
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "The compact wizard variant may be used on mobile platforms to accommodate small screens. This variant requires less space and is placed above the content area."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure users can exit the wizard by clicking the close button.",
+    "Always include navigation buttons, as the compact stepper isn’t interactive and can’t be used to progress forward or back."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Only display the current step label to save screen space."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Show all step labels as this can clutter the screen."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use sentence case for all content except proper nouns or acronyms.",
+    "Follow guidance in Forms when writing form titles, subtitles, field labels, and inline messages.",
+    "Reference Button for guidance on creating effective button labels.",
+    "Review Messaging for specific guidance on how to craft content in success, warning, and error messaging."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Step labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Don’t include any punctuation in step labels.",
+    "Limit step labels to three words or fewer. Use subtitles within steps to provide additional context.",
+    "Ensure labels clearly and accurately summarize the fields contained in the step."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure labels clearly and accurately summarize the fields contained in the step."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use vague or general labels, as this can make it harder for users to predict what information is contained in the step."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Button"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that help users take actions within an interface."
+  },
+  {
+   "k": "h3",
+   "t": "Progress"
+  },
+  {
+   "k": "p",
+   "t": "Visual representations of the status of a system process."
+  },
+  {
+   "k": "h3",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance on everything from layouts to validation to ensure forms are clear and usable."
+  }
+ ]
+}

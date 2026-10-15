@@ -1,0 +1,498 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/icon",
+ "title": "Icon | Component | Nova Angular | Visa Product Design System",
+ "h1": "Icon",
+ "readAt": "2026-10-15T17:17:19.748Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Icon"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default",
+    "Visa",
+    "Generic",
+    "Tiny resolution",
+    "Low resolution",
+    "High resolution",
+    "Icon with right-to-left support",
+    "Success icon",
+    "Warning icon",
+    "Error icon",
+    "Icon referencing icon sprite"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "For our full list of available icons, please visit the full icons library"
+  },
+  {
+   "k": "p",
+   "t": "For guidance on how to use the Angular standalone icons or icon sprites, please visit the  Start building with Angular documentation"
+  },
+  {
+   "k": "h2",
+   "t": "Icon styles"
+  },
+  {
+   "k": "h3",
+   "t": "Default"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Visa"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Generic"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Icon sizes"
+  },
+  {
+   "k": "h3",
+   "t": "Tiny resolution"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Low resolution"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "High resolution"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Icon customizations"
+  },
+  {
+   "k": "h3",
+   "t": "Icon with right-to-left support"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Icon referencing icon sprite"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "IconComponent",
+    "IconLibrary",
+    "IconSize"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Component - IconComponent"
+  },
+  {
+   "k": "p",
+   "t": "IconComponent is intended only for use with icons used with an icon sprite. \nStandalone icons from @visa/nova-icons-angular is recommended over using the IconComponent.. \nIcon component for displaying icons from VPDS' Icon Library."
+  },
+  {
+   "k": "text",
+   "t": "[v-icon]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "customHeight",
+     "@Input()",
+     "'8'",
+     "string",
+     "Set CSS variable --v-icon-height which customizes icon height. isBadgeEllipse must be true for this to have an affect.",
+     "false"
+    ],
+    [
+     "customIcon",
+     "@Input()",
+     "",
+     "string",
+     "Name of custom icon reference. Should refer to an icon within an icon sprite in your application. The href will reference the string provided directly. No library or iconSize will be added.",
+     "false"
+    ],
+    [
+     "customWidth",
+     "@Input()",
+     "'8'",
+     "string",
+     "Set CSS variable --v-icon-width which customizes icon width. isBadgeEllipse must be true for this to have an affect.",
+     "false"
+    ],
+    [
+     "iconInput",
+     "@Input()",
+     "",
+     "null | string",
+     "Name of icon to display. Should refer to an icon in VPDS' Icon Library.",
+     "false"
+    ],
+    [
+     "iconSize",
+     "@Input()",
+     "'tiny' / IconSize.TINY",
+     "IconSize",
+     "Sets icon resolution/size.",
+     "false"
+    ],
+    [
+     "isBadgeEllipse",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Sets icon to badge-ellipse variant when true. Intended for use in badges with an indicator.",
+     "false"
+    ],
+    [
+     "library",
+     "@Input()",
+     "'visa' / IconLibrary.VISA",
+     "IconLibrary",
+     "Tells icon which library to reference.",
+     "false"
+    ],
+    [
+     "rtl",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Flips icon from right to left when true and dir=\"rtl\" is present on a parent element.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "IconLibrary"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "VISA",
+     "'visa'"
+    ],
+    [
+     "GENERIC",
+     "'generic'"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "IconSize"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "TINY",
+     "'tiny'"
+    ],
+    [
+     "LOW",
+     "'low'"
+    ],
+    [
+     "HIGH",
+     "'high'"
+    ]
+   ]
+  }
+ ]
+}

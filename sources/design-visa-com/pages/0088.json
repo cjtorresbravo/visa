@@ -1,0 +1,409 @@
+{
+ "url": "https://design.visa.com/components/icons-illustrations",
+ "title": "Icons and illustrations | Components | Visa Product Design System",
+ "h1": "Icons and illustrations",
+ "readAt": "2026-10-15T17:07:28.090Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Icons and illustrations"
+  },
+  {
+   "k": "p",
+   "t": "Explore Visa-branded and generic icon libraries that represent core functions, ideas, and content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Icons library",
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Search icons"
+  },
+  {
+   "k": "text",
+   "t": "Visual style:"
+  },
+  {
+   "k": "text",
+   "t": "Visa"
+  },
+  {
+   "k": "text",
+   "t": "Generic"
+  },
+  {
+   "k": "p",
+   "t": "Filter by size:"
+  },
+  {
+   "k": "p",
+   "t": "Need an icon we don't have yet?"
+  },
+  {
+   "k": "text",
+   "t": "Request an icon (internal only)"
+  },
+  {
+   "k": "text",
+   "t": "Nova Icons version:"
+  },
+  {
+   "k": "text",
+   "t": "4.0.0"
+  },
+  {
+   "k": "text",
+   "t": "3.1.0"
+  },
+  {
+   "k": "text",
+   "t": "2.0.0"
+  },
+  {
+   "k": "text",
+   "t": "Code library:"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "SVG/Sprite"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "Icon selection, copy, and export controls"
+  },
+  {
+   "k": "text",
+   "t": "Select all"
+  },
+  {
+   "k": "p",
+   "t": "accessibility-high"
+  },
+  {
+   "k": "p",
+   "t": "accessibility-low"
+  },
+  {
+   "k": "p",
+   "t": "accessibility-tiny"
+  },
+  {
+   "k": "p",
+   "t": "accessibility-alt-high"
+  },
+  {
+   "k": "p",
+   "t": "accessibility-alt-low"
+  },
+  {
+   "k": "p",
+   "t": "accessibility-alt-tiny"
+  },
+  {
+   "k": "p",
+   "t": "account-high"
+  },
+  {
+   "k": "p",
+   "t": "account-low"
+  },
+  {
+   "k": "p",
+   "t": "account-tiny"
+  },
+  {
+   "k": "p",
+   "t": "account-add-high"
+  },
+  {
+   "k": "p",
+   "t": "account-add-low"
+  },
+  {
+   "k": "p",
+   "t": "account-add-tiny"
+  },
+  {
+   "k": "p",
+   "t": "account-favorite-high"
+  },
+  {
+   "k": "p",
+   "t": "account-favorite-low"
+  },
+  {
+   "k": "p",
+   "t": "account-favorite-tiny"
+  },
+  {
+   "k": "p",
+   "t": "account-lock-high"
+  },
+  {
+   "k": "p",
+   "t": "account-lock-low"
+  },
+  {
+   "k": "p",
+   "t": "account-lock-tiny"
+  },
+  {
+   "k": "p",
+   "t": "account-remove-high"
+  },
+  {
+   "k": "p",
+   "t": "account-remove-low"
+  },
+  {
+   "k": "p",
+   "t": "account-remove-tiny"
+  },
+  {
+   "k": "p",
+   "t": "acquirer-high"
+  },
+  {
+   "k": "p",
+   "t": "acquirer-low"
+  },
+  {
+   "k": "p",
+   "t": "acquirer-tiny"
+  },
+  {
+   "k": "p",
+   "t": "add-high"
+  },
+  {
+   "k": "p",
+   "t": "add-low"
+  },
+  {
+   "k": "p",
+   "t": "add-tiny"
+  },
+  {
+   "k": "p",
+   "t": "add-alt-high"
+  },
+  {
+   "k": "p",
+   "t": "add-alt-low"
+  },
+  {
+   "k": "p",
+   "t": "add-alt-tiny"
+  },
+  {
+   "k": "p",
+   "t": "analytics-high"
+  },
+  {
+   "k": "p",
+   "t": "analytics-low"
+  },
+  {
+   "k": "p",
+   "t": "analytics-tiny"
+  },
+  {
+   "k": "p",
+   "t": "app-switcher-high"
+  },
+  {
+   "k": "p",
+   "t": "app-switcher-low"
+  },
+  {
+   "k": "p",
+   "t": "app-switcher-tiny"
+  },
+  {
+   "k": "p",
+   "t": "arrow-back-high"
+  },
+  {
+   "k": "p",
+   "t": "arrow-back-low"
+  },
+  {
+   "k": "p",
+   "t": "arrow-back-tiny"
+  },
+  {
+   "k": "p",
+   "t": "arrow-down-high"
+  },
+  {
+   "k": "p",
+   "t": "arrow-down-low"
+  },
+  {
+   "k": "p",
+   "t": "arrow-down-tiny"
+  },
+  {
+   "k": "p",
+   "t": "arrow-end-high"
+  },
+  {
+   "k": "p",
+   "t": "arrow-end-low"
+  },
+  {
+   "k": "p",
+   "t": "arrow-end-tiny"
+  },
+  {
+   "k": "p",
+   "t": "arrow-forward-high"
+  },
+  {
+   "k": "p",
+   "t": "arrow-forward-low"
+  },
+  {
+   "k": "p",
+   "t": "arrow-forward-tiny"
+  },
+  {
+   "k": "p",
+   "t": "arrow-left-high"
+  },
+  {
+   "k": "p",
+   "t": "arrow-left-low"
+  },
+  {
+   "k": "p",
+   "t": "arrow-left-tiny"
+  },
+  {
+   "k": "p",
+   "t": "arrow-right-high"
+  },
+  {
+   "k": "p",
+   "t": "arrow-right-low"
+  },
+  {
+   "k": "p",
+   "t": "arrow-right-tiny"
+  },
+  {
+   "k": "p",
+   "t": "arrow-start-high"
+  },
+  {
+   "k": "p",
+   "t": "arrow-start-low"
+  },
+  {
+   "k": "p",
+   "t": "arrow-start-tiny"
+  },
+  {
+   "k": "p",
+   "t": "arrow-up-high"
+  },
+  {
+   "k": "p",
+   "t": "arrow-up-low"
+  },
+  {
+   "k": "p",
+   "t": "arrow-up-tiny"
+  },
+  {
+   "k": "p",
+   "t": "artificial-intelligence-high"
+  },
+  {
+   "k": "p",
+   "t": "artificial-intelligence-low"
+  },
+  {
+   "k": "p",
+   "t": "artificial-intelligence-tiny"
+  },
+  {
+   "k": "p",
+   "t": "artificial-intelligence-alt-high"
+  },
+  {
+   "k": "p",
+   "t": "artificial-intelligence-alt-low"
+  },
+  {
+   "k": "p",
+   "t": "artificial-intelligence-alt-tiny"
+  },
+  {
+   "k": "p",
+   "t": "atm-high"
+  },
+  {
+   "k": "p",
+   "t": "atm-low"
+  },
+  {
+   "k": "p",
+   "t": "atm-tiny"
+  },
+  {
+   "k": "p",
+   "t": "attachment-high"
+  },
+  {
+   "k": "p",
+   "t": "attachment-low"
+  },
+  {
+   "k": "p",
+   "t": "attachment-tiny"
+  },
+  {
+   "k": "p",
+   "t": "auth-code-high"
+  },
+  {
+   "k": "p",
+   "t": "auth-code-low"
+  },
+  {
+   "k": "p",
+   "t": "auth-code-tiny"
+  },
+  {
+   "k": "p",
+   "t": "auth-face-high"
+  },
+  {
+   "k": "p",
+   "t": "auth-face-low"
+  },
+  {
+   "k": "p",
+   "t": "auth-face-tiny"
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "url": "https://design.visa.com/components/anchor-link-menu",
+ "title": "Anchor link menu | Components | Visa Product Design System",
+ "h1": "Anchor link menu",
+ "readAt": "2026-10-15T17:07:05.346Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Anchor link menu"
+  },
+  {
+   "k": "p",
+   "t": "Link menus that navigate to sections within the current page."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default anchor link menus"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Default anchor link menus"
+  },
+  {
+   "k": "h3",
+   "t": "Default anchor link menu"
+  },
+  {
+   "k": "text",
+   "t": "Loading anchor-link-menu example Default anchor link menu"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Anchor link menu without section title"
+  },
+  {
+   "k": "text",
+   "t": "Loading anchor-link-menu example Anchor link menu without section title"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-anchor-link-menu"
+    ],
+    [
+     ".v-anchor-link-menu-header"
+    ],
+    [
+     "[aria-current=\"true\"]"
+    ],
+    [
+     ".v-anchor-link-menu[dir=\"rtl\"]"
+    ],
+    [
+     "[dir=\"rtl\"]"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Value"
+    ],
+    [
+     "--v-anchor-link-menu-inline-size",
+     "200px"
+    ],
+    [
+     "--v-anchor-link-menu-gap",
+     "var(--size-scalable-6)"
+    ],
+    [
+     "--v-anchor-link-menu-background",
+     "var(--palette-default-surface-1)"
+    ],
+    [
+     "--v-anchor-link-menu-border-style",
+     "solid"
+    ],
+    [
+     "--v-anchor-link-menu-border-color",
+     "var(--palette-default-border)"
+    ],
+    [
+     "--v-anchor-link-menu-border-block-start-size",
+     "var(--size-scalable-0)"
+    ],
+    [
+     "--v-anchor-link-menu-border-block-end-size",
+     "var(--size-scalable-0)"
+    ],
+    [
+     "--v-anchor-link-menu-border-inline-start-size",
+     "var(--size-scalable-1)"
+    ],
+    [
+     "--v-anchor-link-menu-border-inline-end-size",
+     "var(--size-scalable-0)"
+    ],
+    [
+     "--v-anchor-link-menu-padding-block-end",
+     "var(--size-scalable-0)"
+    ],
+    [
+     "--v-anchor-link-menu-padding-block-start",
+     "var(--size-scalable-0)"
+    ],
+    [
+     "--v-anchor-link-menu-padding-inline-end",
+     "var(--size-scalable-10)"
+    ],
+    [
+     "--v-anchor-link-menu-padding-inline-start",
+     "var(--size-scalable-0)"
+    ],
+    [
+     "--v-anchor-link-menu-title-text-color",
+     "var(--palette-default-text-subtle)"
+    ],
+    [
+     "--v-anchor-link-menu-item-padding-block",
+     "var(--size-scalable-6)"
+    ],
+    [
+     "--v-anchor-link-menu-item-padding-inline",
+     "var(--size-scalable-10)"
+    ],
+    [
+     "--v-anchor-link-menu-indicator-color",
+     "inherit"
+    ],
+    [
+     "--v-anchor-link-menu-indicator-style",
+     "solid"
+    ],
+    [
+     "--v-anchor-link-menu-indicator-size",
+     "var(--size-scalable-2)"
+    ],
+    [
+     "--v-anchor-link-menu-indicator-offset",
+     "var(--size-scalable-4)"
+    ],
+    [
+     "--v-anchor-link-menu-indent-ratio",
+     "var(--size-scalable-14)"
+    ]
+   ]
+  }
+ ]
+}

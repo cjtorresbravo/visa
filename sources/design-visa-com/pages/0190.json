@@ -1,0 +1,259 @@
+{
+ "url": "https://design.visa.com/components/dialog/usage",
+ "title": "Dialog | Components | Visa Product Design System",
+ "h1": "Dialog",
+ "readAt": "2026-10-15T17:09:37.382Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Dialog"
+  },
+  {
+   "k": "p",
+   "t": "Messages that float over page content and provide time-sensitive alerts."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practices",
+    "BehaviorsDismissalDialog heightAnimation",
+    "Content",
+    "Platform considerationsMobile",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Dialogs are container that appears over a user’s workflow and provides time-sensitive messages. They can be used to communicate critical status alerts or situations, confirm an action, and facilitate quick user actions."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Modal, lightbox, popup module, alerts (iOS), alert, dialog (Android), dialog feedback, dialog box, overlay."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Title (required): Brief text summarizing the purpose of the dialog.  B. Message (required): Descriptive text, or in some cases limited interactive elements, tables, or graphics.  C. Close button (optional): Icon button that can be used in place of, but not with, a text button to dismiss the dialog.  D. Buttons (optional): Primary and secondary text buttons used to prompt an action.  E. Overlay (required): Shaded overlay communicating to the user that only the dialog is interactive."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Default",
+     "For informational messages that are of high enough priority to disrupt the user’s workflow, even though they may not require immediate action.",
+     "For low-priority, system-level messages. Use a Banner instead. For low-priority messages that don’t require user action or attention. Use a Flag instead."
+    ],
+    [
+     "Success",
+     "Success dialogs are not a common use case as they are too disruptive for low-priority confirmations.",
+     "For system- or section-level success, messages including on-page event confirmations. Use a Flag instead. If the user is taken to a success page on submit. Don’t use a messaging component in this case."
+    ],
+    [
+     "Warning",
+     "For medium-priority messages that are of high enough priority to disrupt the user’s workflow to warn of potential issues that may require action immediately or in the near future.",
+     "For medium-priority, system-level messages that require attention but not disruption. Use a Banner instead. For warnings contextually relevant to a section of a page or workflow. Use a Section message instead. For low-priority warnings that don’t require user action or attention. Use a Flag instead."
+    ],
+    [
+     "Error",
+     "For high-priority alerts communicating that critical errors or issues have occurred when completing a task or operation and must be fixed before continuing.",
+     "For high priority, system-level errors that require attention, instead use a Banner. For high-priority errors contextually relevant to a section of a page or workflow. Use a Section message instead."
+    ],
+    [
+     "Touring tips",
+     "For new features or systems to guide, introduce and explain the functionality of different elements to the users.",
+     "For simple intuitive applications. For experienced users that are familiar with the features or application. For minor changes that could cause frustration."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use dialogs sparingly and design them for efficient task completion, allowing users to return seamlessly to their workflow.",
+    "If the dialog is prompted by an action, return the focus to where the user was in their workflow.",
+    "Left-align buttons except for touring tips and mobile dialogs with full-width buttons. Learn about alignment in Button.",
+    "Visit Feedback and status to learn how to use messaging components, understand their level of disruption, and choose the appropriate messaging component for your context."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Place the dialog over the center of page content using an overlay."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Place the dialog in other areas of the screen or use without an overlay."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use dialogs for brief tasks requiring immediate attention and only include relevant information to the user’s workflow."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use full-screen dialogs. If there’s enough content to fill a page, embed it in the workflow to avoid cognitive overload."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use a dialog to present simple interactions that return the user to their task after completion."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use dialogs to host multiple steps or pages that should be completed with a step-by-step process in the workflow."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Dismissal"
+  },
+  {
+   "k": "p",
+   "t": "In general, users should be allowed to dismiss dialogs using a close icon button or text button. Dialogs should also dismiss when users complete an associated action, such as correcting an error. Avoid using timed auto-dismissal for dialogs, as they may disappear before screen readers finish announcing the text."
+  },
+  {
+   "k": "p",
+   "t": "Do     Omit a close button or icon for critical dialogs that require immediate action, but do so sparingly."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Combine close buttons with close icons or alternate between them across your experience."
+  },
+  {
+   "k": "h3",
+   "t": "Dialog height"
+  },
+  {
+   "k": "p",
+   "t": "While there are no strict minimum or maximum height requirements for dialogs, it’s essential to make adjustments based on factors such as use case, screen size, and content volume. As previously mentioned, avoid using full-page dialogs."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Adjust dialog height according to the use case, screen size, and content volume. Aim for clear, digestible information.",
+    "Be aware of the space above and below the dialog when setting size. Good spacing improves readability.",
+    "For extensive content use a scroll bar, but do so sparingly. If using, always ensure the title and buttons are visible."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Animation"
+  },
+  {
+   "k": "p",
+   "t": "Dialogs may animate. Typically, they fade in with the background overlay and fade out upon dismissal."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure animations are brief, subtle, and unobtrusive.",
+    "Implement animations consistently across flags in your experience, either animating all or none."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Learn how to craft content for messaging components, like dialogs, visit Messaging.",
+    "Follow guidelines for Link and Button components when labeling actions and destinations within dialog."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Position dialogs in the center of the page, ensuring left and right margins are 16 dp.",
+    "Configure buttons to fill the container if necessary to enhance visibility where screen space is limited.",
+    "Use a text button as the default close mechanism for mobile instead of the close icon button in the top right corner.",
+    "Use a close icon button as a close mechanism only if the calls to action are required for other actions."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Banner"
+  },
+  {
+   "k": "p",
+   "t": "Messages that indicate the global status of an application or website."
+  },
+  {
+   "k": "h3",
+   "t": "Section message"
+  },
+  {
+   "k": "p",
+   "t": "Section-level messages about the status of a page or action."
+  },
+  {
+   "k": "h3",
+   "t": "Messaging"
+  },
+  {
+   "k": "p",
+   "t": "Craft content for alert components to increase trust, reduce errors, and improve system performance."
+  },
+  {
+   "k": "h3",
+   "t": "Feedback and status"
+  },
+  {
+   "k": "p",
+   "t": "Learn which components to use when communicating contextual or system feedback and status."
+  }
+ ]
+}

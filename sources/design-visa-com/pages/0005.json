@@ -1,0 +1,243 @@
+{
+ "url": "https://design.visa.com/about-VPDS/faqs",
+ "title": "FAQs | About VPDS | Visa Product Design System",
+ "h1": "FAQs",
+ "readAt": "2026-10-15T17:05:45.824Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "FAQs"
+  },
+  {
+   "k": "p",
+   "t": "Find answers to frequently asked questions about the Visa Product Design System."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "About Nova",
+    "Design",
+    "Development",
+    "Accessibility",
+    "Content",
+    "Data visualization"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "About Nova"
+  },
+  {
+   "k": "h3",
+   "t": "What is Nova?"
+  },
+  {
+   "k": "p",
+   "t": "Nova is the latest version of the Visa Product Design System (VPDS). It embodies the team’s commitment to creating the next wave of Visa products and experiences, marked by enhanced cohesion and consistency.\nTo learn more about Nova and VPDS, visit What is VPDS?"
+  },
+  {
+   "k": "h3",
+   "t": "What is the difference between Nova and Vault Key+?"
+  },
+  {
+   "k": "p",
+   "t": "Nova and Vault Key+ are major versions of VPDS. Vault Key+ is the third and final iteration of the Vault design system. All the code libraries provide low-level accessible Web Content Accessibility Guidelines (WCAG) components to help build experiences that follow Visa’s brand and product guidelines. Nova components are built following Visa Global Accessibility Requirements (VGAR), meeting VGAR, WCAG 2.2, A, and AA standards.\nNova is the current supported version of VPDS and will continue to receive support for the foreseeable future. Since many stable products use Vault Key+, it will continue to receive security and framework upgrades, as well as bug fixes for the foreseeable future. However, all future expansion efforts are now directed toward Nova.\nTo learn more about VPDS versions, visit Releases."
+  },
+  {
+   "k": "h3",
+   "t": "Why is Nova recommended over Vault Key+?"
+  },
+  {
+   "k": "p",
+   "t": "Nova is the latest version of VPDS and will continue to receive support for the foreseeable future. It includes new design tokens for easy theming, updated visuals, and new libraries for icons and mobile components. Nova components are available in Angular, Flutter, React, or Styles (CSS).\nAs with any version of our design system, always follow VGAR Test Procedures to ensure experiences meet accessibility requirements."
+  },
+  {
+   "k": "h3",
+   "t": "Does Nova have a stable release?"
+  },
+  {
+   "k": "p",
+   "t": "Yes. For more information, visit Releases."
+  },
+  {
+   "k": "h3",
+   "t": "Is Nova compatible with Vault Key+?"
+  },
+  {
+   "k": "p",
+   "t": "Nova is the latest version of VPDS and is recommended for all new projects. Its Angular, Flutter, React, or Styles (CSS) components can be used along with Vault Key+ components in stable Vault Key+ applications.\nNova and Vault Key+ are separate libraries with different scopes and names, so Nova isn’t backwards compatible with Vault Key+. This means you can’t use Nova as a drop-in replacement for Vault Key+ because they are designed independently. However, both libraries can coexist in the same application using the same Styles (CSS), React, or Angular library versions."
+  },
+  {
+   "k": "h3",
+   "t": "Can I use both Nova and Vault Key+ in the same project?"
+  },
+  {
+   "k": "p",
+   "t": "Yes, you can swap older, Vault Key+ components for Nova versions or add new features in Nova without upgrading the rest of your application."
+  },
+  {
+   "k": "h3",
+   "t": "What is the process and support available for transitioning from Vault Key+ to Nova?"
+  },
+  {
+   "k": "p",
+   "t": "Nova and Vault Key+ can coexist to support a gradual transition to Nova. In addition, Nova is built with first-class theming capabilities to help make this transition smoother. Our team is available to provide help for migration plans as needed.\nTo get help or join our office hours, visit Support."
+  },
+  {
+   "k": "h3",
+   "t": "Are there any plans to sunset Vault Key+ ?"
+  },
+  {
+   "k": "p",
+   "t": "Currently, there are no plans to sunset Vault Key+. However, as technical specifications evolve and we notice reduced Vault Key+  usage from our analytics, the team may reconsider."
+  },
+  {
+   "k": "h3",
+   "t": "When do I need to upgrade to Nova?"
+  },
+  {
+   "k": "p",
+   "t": "We recommend designing all new Visa products using Nova assets, but there’s no mandated deadline for teams to upgrade to Nova."
+  },
+  {
+   "k": "h3",
+   "t": "What if Nova doesn’t have a component I need?"
+  },
+  {
+   "k": "p",
+   "t": "The VPDS team is continuously adding new assets to the system, including components. If there’s a component you need that’s not in our system, Visa employees can contact the VPDS team by visiting Support."
+  },
+  {
+   "k": "h3",
+   "t": "How do I report a bug or request a feature in Nova?"
+  },
+  {
+   "k": "p",
+   "t": "Reach out to the team for help by visiting Support."
+  },
+  {
+   "k": "h2",
+   "t": "Design"
+  },
+  {
+   "k": "h3",
+   "t": "Can I customize or detach Nova components?"
+  },
+  {
+   "k": "p",
+   "t": "Yes, you can detach components. Many components, such as the Dynamic table, include subcomponents that are easier to manipulate once detached. However, remember that design software has limitations on customizing components, especially if you’re creating a variant that isn’t in the design system yet. Ensure you communicate any customizations to your development team early and again during handoff."
+  },
+  {
+   "k": "h2",
+   "t": "Development"
+  },
+  {
+   "k": "h3",
+   "t": "Can I use the latest Angular, React, or Flutter versions with Nova?"
+  },
+  {
+   "k": "p",
+   "t": "We regularly update to the latest library and framework versions to add new features, improvements, and security updates to our system while keeping our components stable and compliant.\nTo learn more, visit the changelogs for Angular, Flutter, React, or Styles (CSS)."
+  },
+  {
+   "k": "h3",
+   "t": "Can I use Nova with other design systems, like Bootstrap?"
+  },
+  {
+   "k": "p",
+   "t": "Nova’s class names are unique, but other libraries might have CSS resets that can change the box model, root font size, or layout. We recommend moving away from any outdated libraries and embracing Nova to experience all its capabilities, along with modern Styles (CSS) features like Flexbox and Grid."
+  },
+  {
+   "k": "h3",
+   "t": "Vault used to have a Grid component, but that’s not available in Nova. What should I do?"
+  },
+  {
+   "k": "p",
+   "t": "The Grid component within Vault was a layout utility that was created to support old browsers. VPDS encourages teams to embrace modern CSS features like Flexbox and CSS Grid within Nova, which offer more powerful and flexible layout options.\nFor more information, reference Grid resources (internal only)."
+  },
+  {
+   "k": "h2",
+   "t": "Accessibility"
+  },
+  {
+   "k": "h3",
+   "t": "Does VPDS provide accessibility guidance?"
+  },
+  {
+   "k": "p",
+   "t": "Yes, VPDS provides accessibility guidance for components and patterns to help designers and developers create inclusive digital products. We also provide Visa’s Global accessibility requirements, which ensure that Visa’s digital products meet global accessibility standards. These requirements help in planning, design, and development to prevent costly rework. \nTo learn more, visit Global accessibility requirements."
+  },
+  {
+   "k": "h3",
+   "t": "Have VPDS components been accessibility reviewed and tested?"
+  },
+  {
+   "k": "p",
+   "t": "Yes. Nova components are built following VGAR, meeting VGAR, WCAG 2.2, A, and AA standards."
+  },
+  {
+   "k": "h3",
+   "t": "Are VPDS components and assets routinely regression tested?"
+  },
+  {
+   "k": "p",
+   "t": "Yes, VPDS components are regression tested annually."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "h3",
+   "t": "Does VPDS provide guidance for writing content?"
+  },
+  {
+   "k": "p",
+   "t": "Yes. To learn more about crafting thoughtful and concise content, visit Content."
+  },
+  {
+   "k": "h3",
+   "t": "Have VPDS assets been content reviewed?"
+  },
+  {
+   "k": "p",
+   "t": "The Content Design team has partnered with Accessibility to review all available VPDS components for descriptive headings, labels, and more. Additionally, all assets have been reviewed ensuring they follow content guidance for Placeholder text. This means when you use a VPDS component, medium fidelity placeholder content has been added to help your team further edit and customize components."
+  },
+  {
+   "k": "h2",
+   "t": "Data visualization"
+  },
+  {
+   "k": "h3",
+   "t": "What are Visa Chart Components?"
+  },
+  {
+   "k": "p",
+   "t": "Visa Chart Components (VCC) are a library of accessible web chart components with robust accessibility configurations to enhance your workflow and ensure your product meets the latest accessibility standards. The VCC library is maintained to provide charts that work alongside VPDS components. VCC can be used with React, Angular, and Vanilla JavaScript.\nTo learn more, visit Visa Chart Components."
+  },
+  {
+   "k": "h3",
+   "t": "What if I need a chart that’s not in Visa Chart Components?"
+  },
+  {
+   "k": "p",
+   "t": "Visa employees can contact the Data Experience team to discuss needs for any charts that aren’t available in Visa Chart Components (VCC).\nTo get connected with the Data Experience team, visit Support."
+  }
+ ]
+}

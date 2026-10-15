@@ -1,0 +1,130 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/pdf/general",
+ "title": "General | PDF | Global accessibility requirements | Visa Product Design System",
+ "h1": "General",
+ "readAt": "2026-10-15T17:06:01.426Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "General"
+  },
+  {
+   "k": "p",
+   "t": "Find general requirements for testing PDFs."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "General (PDF-1)Use an automated testing tool (PDF-1-1)Document title (PDF-1-2)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "General (PDF-1)"
+  },
+  {
+   "k": "h3",
+   "t": "Use an automated testing tool (PDF-1-1)"
+  },
+  {
+   "k": "p",
+   "t": "When run against the page, the automated PDF Accessibility Checker validation tool MUST NOT report any errors."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Execute the accessibility checker and analyze the results.",
+    "Verify that there are no issues to report (i.e, PDF/UA-1 compliant)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Issues are not reported by Accessibility Checker.",
+    "Fail: Issues are reported by Accessibility Checker."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 - 4.1 Compatible",
+    "PDF-U/A - 6 Conformance - requirements",
+    "PDF-U/A - 7.1 General"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Document title (PDF-1-2)"
+  },
+  {
+   "k": "p",
+   "t": "The document has a title that describes topic or purpose and displays the document title in the title bar of a user agent."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Open the document in Adobe Acrobat Pro and navigate to File > Properties.",
+    "Verify that the document title is both correct and informative.",
+    "Select the ‘Initial View’ tab and verify that ‘Document Title’ is chosen in the ‘Window Options’ dropdown."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: The document has a title that is relevant and explains its content, AND the initial view is set to ‘Document Title’.",
+    "Fail: The document lacks a title, OR the title is not relevant OR it doesn’t explain its content, OR the initial view isn’t set to ‘Document Title’."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 2.4.2 Page Titled",
+    "PDF-U/A - 7.1 General"
+   ]
+  }
+ ]
+}

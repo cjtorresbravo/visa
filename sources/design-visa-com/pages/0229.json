@@ -1,0 +1,150 @@
+{
+ "url": "https://design.visa.com/components/switch/usage",
+ "title": "Switch | Components | Visa Product Design System",
+ "h1": "Switch",
+ "readAt": "2026-10-15T17:10:46.054Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Switch"
+  },
+  {
+   "k": "p",
+   "t": "Binary control that allows users to toggle between two states like on/off."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practices",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Switches are interactive controls used to turn a setting or choice on or off. They’re commonly seen in settings or account configurations.\nAlso known as: Toggle switch, flip switch, light switch, binary switch, UISwitch (iOS), Switch (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Label (required): Text indicating the purpose of the switch.\nB. Description (optional): Optional text that can be used to describe the label in more detail.\nC. Switch control (required): Interactive element used to toggle the switch on or off."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "For settings that have an on/off or true/false state.",
+     "To switch between content views. Use a toggle button instead.In place of a checkbox or radio button."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Don’t use switches in place of radio buttons or checkboxes, except when two radio buttons are being used for a yes/no, on/off, or true/false choice.",
+    "Ensure labels are placed closed to the switch control so it’s clear they’re related.",
+    "Ensure the filled state indicates the switch is in the “on” position."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure changes are applied as soon as the switch is interacted with."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Require additional steps before the selection is applied, unless its part of a longer form or settings page."
+  },
+  {
+   "k": "p",
+   "t": "Do     Keep labels consistent after users interact with the switch."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Change the labels based on the switch state."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use sentence case without punctuation for all labels.",
+    "Avoid acronyms or jargon.",
+    "Keep labels short to avoid unnecessary truncation.",
+    "Phrase labels to describe what the switch will do in the “on” position. For example, toggling to the “on” position should make the statement true.",
+    "Use full sentences with proper punctuation for descriptions.",
+    "Limit descriptions to one to two brief sentences."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Interactive element that lets users select one or more independent choices."
+  },
+  {
+   "k": "h3",
+   "t": "Radio"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  },
+  {
+   "k": "h3",
+   "t": "Toggle button"
+  },
+  {
+   "k": "p",
+   "t": "Selection element that allows users to switch between states or views."
+  }
+ ]
+}

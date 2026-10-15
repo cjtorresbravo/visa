@@ -1,0 +1,128 @@
+{
+  "colors": {
+    "surface": "Color/Surface/surface-1",
+    "surfaceSecondary": "Color/Surface/surface-2",
+    "elementPrimary": "Color/Text/text",
+    "elementSecondary": "Color/Text/text-subtle",
+    "elementOnBrand": "Color/Text/on-active",
+    "border": "Color/Decorative/border",
+    "brand": "Color/Active/active",
+    "_mode": {
+      "light": "Visa light",
+      "dark": "Visa dark"
+    }
+  },
+  "updated": "2026-10-15T17:31:01.983Z",
+  "source": "Claudio Torres, in chat, 2026-10-15: two default pages, one per navigational frame, built in Test visa and verified",
+  "type": {
+    "titleXL": "Display 1",
+    "titleLG": "Display 2",
+    "titleMD": "Headline 1",
+    "titleSM": "Headline 2",
+    "titleSection": "Headline 3",
+    "body": "Body 2",
+    "bodyBold": "Body 2 bold",
+    "bodySm": "Body 3",
+    "link": "Body 2 link",
+    "micro": "UI label small"
+  },
+  "comps": {
+    "button": "Primary text button",
+    "input": "Input: Default",
+    "textlink": "Link",
+    "navMain": "Horizontal",
+    "footer": "Default footer",
+    "tabGroup": "Horizontal tab group",
+    "articleCard": "Content card: Default",
+    "accordion": "Accordion",
+    "hero": null,
+    "contentBanner": null
+  },
+  "sections": {
+    "vpds-components-horizontal-application-layout": "use",
+    "vpds-components-stacked-horizontal-application-layout": "use",
+    "vpds-components-vertical-application-layout": "use",
+    "vpds-components-mixed-application-layout": "use",
+    "vpds-components-content-area": "use",
+    "vpds-components-mobile-application-layout": "use"
+  },
+  "_ready": {
+    "sections": true,
+    "sources": true
+  },
+  "sourcesClosedBy": "Claudio Torres, in chat, 2026-10-15: the sources are VPDS Components, VPDS Icons, the Application layouts page, design.visa.com (docs) and developer.visa.com (website); no Storybook",
+  "rules": {
+    "layout-1": "use",
+    "layout-2": "use",
+    "layout-3": "use",
+    "layout-4": "use",
+    "layout-5": "use",
+    "layout-6": "use",
+    "layout-7": "use",
+    "layout-8": "use",
+    "layout-9": "use",
+    "layout-10": "use",
+    "layout-11": "use",
+    "layout-12": "use",
+    "color-1": "use",
+    "color-2": "use",
+    "color-3": "use",
+    "color-4": "use",
+    "color-5": "use",
+    "color-6": "use",
+    "type-1": "use",
+    "type-2": "use",
+    "type-3": "use",
+    "type-4": "use",
+    "type-5": "use",
+    "type-6": "use",
+    "type-7": "use",
+    "shape-1": "use",
+    "shape-2": "use",
+    "comp-1": "use",
+    "comp-2": "use",
+    "comp-3": "use",
+    "comp-4": "use",
+    "comp-5": "use",
+    "comp-6": "use",
+    "comp-7": "use",
+    "comp-8": "use",
+    "comp-9": "use",
+    "msg-1": "use",
+    "msg-2": "use",
+    "msg-3": "use",
+    "msg-4": "use",
+    "content-1": "use",
+    "content-2": "use",
+    "content-3": "use",
+    "content-4": "use",
+    "a11y-1": "use",
+    "a11y-2": "use",
+    "a11y-3": "use",
+    "a11y-4": "use",
+    "engine-1": "use"
+  },
+  "accept": {
+    "status": "done",
+    "decidedBy": "Claudio Torres, in chat, 2026-10-15: two default pages, one per navigational frame, built in Test visa and verified",
+    "date": "2026-10-15",
+    "screens": [
+      {
+        "spec": "visa-horizontal-create-project-1440",
+        "name": "Visa · Horizontal layout · Create a project · 1440",
+        "node": "9:12490",
+        "built": "2026-10-15",
+        "verify": "pass: tokens, geometry, contrast; L3 placeholder-text on [Placeholder logo] (declared gap: the Community kit has no Visa logo)"
+      },
+      {
+        "spec": "visa-vertical-account-settings-1440",
+        "name": "Visa · Vertical layout · Account settings · 1440",
+        "node": "9:13291",
+        "built": "2026-10-15",
+        "verify": "pass: tokens, geometry, contrast; L3 placeholder-text on [Placeholder logo] twice (declared gap)"
+      }
+    ],
+    "file": "Test visa",
+    "engine": "DS Bridge 2.0 core + pack"
+  }
+}

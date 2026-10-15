@@ -1,0 +1,136 @@
+{
+ "url": "https://design.visa.com/patterns/chat/accessibility",
+ "title": "Chat | Patterns | Visa Product Design System",
+ "h1": "Chat",
+ "readAt": "2026-10-15T17:11:29.123Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Chat"
+  },
+  {
+   "k": "p",
+   "t": "Interfaces that enable users to conduct conversations with human and AI assistants."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practicesScreen readersSender identificationChat announcements",
+    "Keyboard controls"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use headings and proper structural elements to organize the chat interface and help users navigate efficiently.",
+    "Avoid moving focus automatically as it can be disorienting for some users. Let users navigate at their own pace.",
+    "Make your chat interface consistent with common chat implementations to improve learnability and usability.",
+    "Provide fast‑navigation controls such as a visible button and optional keyboard shortcut that allows users to quickly jump to important messages in the chat, such as the most recent reply or the next unread message. These controls must not replace standard navigation and should follow accessibility and conflict‑avoidance guidelines.",
+    "Use off-screen text to announce new messages or indicate other changes in the chat state for screen reader users.",
+    "Use landmarks such as aside and headings <h2>, <h3>, etc. Ensure the headings are in hierarchical order.",
+    "Use role=“alert”, role=“status”, or aria-live to announce new messages."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Screen readers"
+  },
+  {
+   "k": "p",
+   "t": "Screen readers use different modes to read different kinds of content. One mode lets users tab from one actionable item to another using the Tab key. In this mode, a user should be able to tab to each chat bubble.  Another mode lets users read regular, non-actionable text using a combination of keys including the arrow keys. The exact key combination for this mode varies by device, browser, and user settings."
+  },
+  {
+   "k": "p",
+   "t": "Landmarks and headings help screen reader users quickly navigate and scan a page. People who rely on screen readers don’t just read the page from top to bottom, they can pull up a list of headings and landmarks to get a sense of the page and jump to the items they want."
+  },
+  {
+   "k": "p",
+   "t": "Communicating incoming messages is to a screen reader is a common challenge because a message might be split into multiple parts. Screen readers react to the browser, so there will always be some lag between the visual chat and the screen reader. Keep in mind that many people who rely on screen readers have them set to read very quickly."
+  },
+  {
+   "k": "h3",
+   "t": "Sender identification"
+  },
+  {
+   "k": "p",
+   "t": "If there are two or more people in a chat, the sender needs to be announced. The sender should always be identified as part of each chat bubble, but it’s crucial to announce when there are multiple people in the chat. Even if the chat is between the user and AI, the user still needs to be able to navigate back to their own messages, which need to be identified as theirs, because the user might not remember what they asked or who said what."
+  },
+  {
+   "k": "h3",
+   "t": "Chat announcements"
+  },
+  {
+   "k": "p",
+   "t": "Each chat announcement, even polite ones, interrupts the user experience and can be disruptive. Consider how the chat is used in your experience and aim to minimize disruption for the user. For example, in a full-page chat interface, users are focused on the conversation, so announcements about new message are less likely to cause issues. However, for a chat that’s a secondary part of a larger page, like a help chat in the corner, frequent announcements are potentially more distracting to the user’s main task on the page."
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard controls"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Key",
+     "Behavior"
+    ],
+    [
+     "SpaceorEnter",
+     "Prompts the action associated with the focused interactive element."
+    ],
+    [
+     "Tab",
+     "Moves keyboard focus to the next interactive element in the chat."
+    ],
+    [
+     "Shift+Tab",
+     "Moves keyboard focus to the previous interactive element in the chat."
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Note: Keyboard shortcuts commonly used for editing text should be maintained unless uniquely specified."
+  }
+ ]
+}

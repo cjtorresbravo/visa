@@ -1,0 +1,208 @@
+{
+ "url": "https://design.visa.com/components/slider",
+ "title": "Slider | Components | Visa Product Design System",
+ "h1": "Slider",
+ "readAt": "2026-10-15T17:07:43.540Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Slider"
+  },
+  {
+   "k": "p",
+   "t": "Control that allows users to make a selection along a range."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesDiscrete vs. continuous sliders",
+    "Min-max rangeMin-max values in textMin-max values using icons",
+    "BehaviorsDual-point sliders",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Sliders are interactive controls enabling users to set or select a value along a range. They’re typically used in settings or configurations."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Range selector, range slider, trackbar, scale, control slider, value selector, UISlider (iOS), SeekBar (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Label (required): Text indicating the purpose of the slider. \nB. Tooltip (optional): Tooltip component used to indicate the currently selected value. \nC. Rail (required): Background element representing the available range for the slider.\nD. Min/max value (optional): Text or icon indicating the range of available values.\nE. Switch circle (required): Interactive element used to set the value along the rail."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "To enable users to make a selection along a range of values.",
+     "To switch between content views. Use a toggle button instead. In place of a checkbox or radio button."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Position the lower value on the left and the higher on the right for left-to-right languages.",
+    "Consider using a checkbox group or radio if there are only a handful of options, as they can be easier to interact with."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Always identify what the slider is used for. Keep the labels short and straightforward."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use or modify sliders for binary options. Use a toggle button instead."
+  },
+  {
+   "k": "p",
+   "t": "Do     Include the units whenever you can in the focus tooltip or as part of the control label."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use sliders if other form controls convey the information better for the user."
+  },
+  {
+   "k": "h3",
+   "t": "Discrete vs. continuous sliders"
+  },
+  {
+   "k": "p",
+   "t": "Sliders can be discrete or continuous, which refers to how the values behave when the slider is adjusted. Learn about each option below."
+  },
+  {
+   "k": "h4",
+   "t": "Discrete"
+  },
+  {
+   "k": "p",
+   "t": "Discrete sliders snap to specific values along the rail. They often have defined gaps in the values, like sets of five."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use discrete sliders when users need to select a distinct number from a range of predefined choices or steps."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Continuous"
+  },
+  {
+   "k": "p",
+   "t": "Continuous sliders don’t snap to specific values and can be set anywhere along the range."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use continuous sliders when users can select any value from a range, or the specific value is vague or not critical."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Min-max range"
+  },
+  {
+   "k": "p",
+   "t": "Minimum and maximum values can be added to clarify the slider’s range. Min-max values can be implemented with text or icons."
+  },
+  {
+   "k": "h3",
+   "t": "Min-max values in text"
+  },
+  {
+   "k": "p",
+   "t": "Textual values give exact numbers representing the minimum and maximum. This is helpful when the values are known and relevant to the user."
+  },
+  {
+   "k": "h3",
+   "t": "Min-max values using icons"
+  },
+  {
+   "k": "p",
+   "t": "Icon min-max values visualize the range of values without specifying exact numbers. This is helpful when the values are unknown or not relevant to the user."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Dual-point sliders"
+  },
+  {
+   "k": "p",
+   "t": "A dual-point or double slider indicates an upper and lower boundary. Values can be adjusted from both ends, indicating a starting and ending value. This type of slider can be used instead two sliders and is common for filtering search results."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use sentence case without punctuation for all labels.",
+    "Keep labels short to avoid unnecessary truncation.",
+    "Avoid acronyms or jargon."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Interactive element that lets users select one or more independent choices."
+  },
+  {
+   "k": "h3",
+   "t": "Radio"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  }
+ ]
+}

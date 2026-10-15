@@ -1,0 +1,171 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/pdf/document-colors",
+ "title": "Document colors | PDF | Global accessibility requirements | Visa Product Design System",
+ "h1": "Document colors",
+ "readAt": "2026-10-15T17:06:02.502Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Document colors"
+  },
+  {
+   "k": "p",
+   "t": "Find document colors requirements for testing PDFs."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Document colors (PDF-2)Color contrast ratio (PDF-2-1)Non-text contrast ratio (PDF-2-2)Not only color (PDF-2-3)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Document colors (PDF-2)"
+  },
+  {
+   "k": "h3",
+   "t": "Color contrast ratio (PDF-2-1)"
+  },
+  {
+   "k": "p",
+   "t": "The visual presentation of text and images of text has a contrast ratio of at least 4.5:1. However, if the text is 18pt or 14pt bold or larger, a lower ratio of 3:1 is acceptable."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the CCA tool (or any similar tool) to analyze the color contrast ratio between text and its background, as well as images of text against their backgrounds.",
+    "Make sure the contrast ratio is at least 4.5:1. However, if the text is 18pt or 14pt bold or larger, a lower ratio of 3:1 is acceptable."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Text meets the required minimum contrast ratio.",
+    "Fail: Text doesn’t meet the minimum required contrast ratio.",
+    "NA: Text is part of an inactive UI component or purely decorative."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 AA - 1.4.3 Contrast (Minimum)",
+    "PDF-U/A-1 - 7.1 General"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Non-text contrast ratio (PDF-2-2)"
+  },
+  {
+   "k": "p",
+   "t": "All significant user interface elements and graphics have a contrast ratio of at least 3:1 against adjacent colors including the background and other non-text objects."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the CCA tool (or any similar tool) to analyze the color contrast ratio between all significant user interface elements and graphics against the background.",
+    "Verify that there is a contrast ratio of at least 3:1 against adjacent colors including the background and other non-text objects"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All significant elements of the user interface and graphics maintain a 3:1 contrast ratio with surrounding colors.",
+    "Fail: Important user interface elements or graphics don’t maintain a 3:1 contrast ratio with the colors around them."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.1 AA - 1.4.11 Non-text Contrast",
+    "PDF-U/A-1 - 7.1 General"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Not only color (PDF-2-3)"
+  },
+  {
+   "k": "p",
+   "t": "Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Perform a visual inspection of the document.",
+    "Verify that whenever a difference in color is used to convey information, that information is also available in text or through some other alternative method."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: A non-color alternative is presented along with color.",
+    "Fail: Only color is used to indicate meaning.",
+    "NA: Color is not used to convey meaning."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 1.4.1 Use of Color",
+    "PDF-U/A-1 - 7.1 General"
+   ]
+  }
+ ]
+}

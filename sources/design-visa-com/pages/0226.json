@@ -1,0 +1,375 @@
+{
+ "url": "https://design.visa.com/components/select/usage",
+ "title": "Select | Components | Visa Product Design System",
+ "h1": "Select (native)",
+ "readAt": "2026-10-15T17:10:41.999Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Select (native)"
+  },
+  {
+   "k": "p",
+   "t": "HTML element that allows users to select one option from a dropdown menu."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesSelect vs. dropdownAppearanceOptional vs. required labels",
+    "BehaviorsPre-selected optionsSelection method",
+    "ContentLabelsOption labelsInline messages",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Select allows users to select one option from a list. They often appear in forms to save space and provide a clear, concise selection process."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Select menu, dropdown, select input, menu, UIPickerView (iOS), Spinner (Android), Menu (Android), MenuItem (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Label (required): Text summarizing the options available for selection.\nB. Field (required): Field displaying an empty state or the selected option.\nC. Chevron icon button (required): UI icon button that expands or collapses menu.\nD. Menu (required): Container displaying list of options that includes scroll bar as needed.\nE. Option (required): Selectable text representing a single option."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Default select",
+     "To present a list of options when the user can only select one. For long lists where all options can’t be viewed at once or require scrolling. If space is limited and displaying options in a collapsible menu would help.",
+     "If users can select multiple options. Use Multiselect instead. For short lists where all options can be viewed without scrolling. Use a Radio button group instead. For long lists where users would benefit from entering text to filter or search the list options. Use a Combobox instead. To present a list of actions. Use a Dropdown menu instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "List options in a logical order, either alphabetically or according to the most common or likely selection.",
+    "Follow the default appearance and interaction of the select component on different browsers.",
+    "Limit the number of options to avoid overwhelming users. Keep the options simple and straightforward."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Select vs. dropdown"
+  },
+  {
+   "k": "p",
+   "t": "Select and Dropdown menus seem similar but have different functions and code. The select appearance will be determined by the browser, while the dropdown list can be styled as needed."
+  },
+  {
+   "k": "h4",
+   "t": "Select"
+  },
+  {
+   "k": "p",
+   "t": "Selects present a list of options from which the users can select only one option. They’re typically used in forms to help users choose an option from the list and submit data."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the select component when users need to choose a single option from a list, especially when the choice is part of a form submission process."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Dropdown"
+  },
+  {
+   "k": "p",
+   "t": "Dropdowns present a list of options that users can select one or several options from that list. However, the options are used for taking an action, filtering, or sorting existing content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the dropdown component when users need to select one or multiple actions from a list, particularly when the actions involve sorting or filtering existing content."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Appearance"
+  },
+  {
+   "k": "p",
+   "t": "Native selects are difficult to style consistently across different browsers as they leverage the native appearance. Each browser will render the menu differently, so it’s important to test the select component on various devices."
+  },
+  {
+   "k": "h4",
+   "t": "Collapsed"
+  },
+  {
+   "k": "p",
+   "t": "The chevron should point down when the menu is collapsed."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Allow users to expand the menu by selecting anywhere in the field, not just the chevron icon."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Expanded"
+  },
+  {
+   "k": "p",
+   "t": "The chevron should point up when the menu is expanded."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Allow users to collapse the menu by removing focus from the field, not just by selecting the chevron icon."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Optional vs. required labels"
+  },
+  {
+   "k": "p",
+   "t": "Always ensure required fields are clearly labeled. While this may seem repetitive, it helps users scan for necessary information and reduces errors. There are two methods for labeling required fields based on your use case. Whichever method you select, use it consistently across your experiences. \nNote: Previous VPDS guidance recommended only marking optional fields. Our guidance has been updated to reflect current Nielsen Norman Group recommendations. Learn more about optional vs. required labels in Forms."
+  },
+  {
+   "k": "h3",
+   "t": "“Required” in the label (preferred method)"
+  },
+  {
+   "k": "p",
+   "t": "Including “required” within the label ensures it’s easy to find, particularly when instructions at the top might not be visible while scrolling. This method bolsters accessibility for both sighted and non-sighted users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Mark all fields that are required. This ensures you’re as explicit and transparent as possible.",
+    "Include “(required)” in field label with a space between the last word and the first parenthesis."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Asterisk in the label (alternative method)"
+  },
+  {
+   "k": "p",
+   "t": "Asterisks are commonly used to indicate required fields. The main advantage to using this method is that it doesn’t take up much space, helps users along a common edge, and can be used in addition to formatting hints in the label."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include a legend or key at the top of the content area noting that the asterisk indicates a required field.",
+    "Place the asterisk at the beginning of the label with a space between the symbol and the first word."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "When required is implied"
+  },
+  {
+   "k": "h3",
+   "t": "Labeling optional fields"
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Pre-selected options"
+  },
+  {
+   "k": "p",
+   "t": "Some browsers require the native select component to have an option selected by default. This is typically the first option in the list. To ensure users don’t mistake this preselected option as their own choice, developers can use one of two methods.\nNote: Always work with your development team to ensure that the implementation of the select component design aligns with this default behavior."
+  },
+  {
+   "k": "h4",
+   "t": "First option empty"
+  },
+  {
+   "k": "p",
+   "t": "An empty option can be included as the first option. This option will be selected by default but does not represent a valid selection, prompting the user to make a choice. If the field is required, selecting the empty option and attempting to submit will result in an error. However, if the field is not required, it will not prompt an error if left empty."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Leave field empty, both visually and programatically.",
+    "Use descriptive labels to guide users to make a selection.",
+    "Use error messages to guide users when a valid option is not selected."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "First option disabled"
+  },
+  {
+   "k": "p",
+   "t": "The first option can be set as ‘disabled’ and ‘selected’ simultaneously, acting as a pseudo-placeholder. This option will be selected by default, but the user will not be able to choose it, encouraging them to select a different option. Once a user changes the selection, they cannot select the empty option anymore unless they reload the form/page."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a descriptive text for the first, disabled option such as “Select an option” or “Choose an option.”",
+    "Ensure the option is visually distinct from the rest of the options using disabled styling."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Selection method"
+  },
+  {
+   "k": "p",
+   "t": "Users can select an option from the menu using the following method, which aims to simplify the process and prevent accidental selections."
+  },
+  {
+   "k": "p",
+   "t": "Note: If you want to use an instant selection method, build your own using our low-level components and your own logic. Product teams using this method are responsible for ensuring accessibility standards and practices are met."
+  },
+  {
+   "k": "h4",
+   "t": "Select and confirm"
+  },
+  {
+   "k": "p",
+   "t": "Select and confirm requires users to confirm their choice before it’s displayed in the field. When the user places focus on an option within the menu, it won’t appear as the selected value in the field until the user selects the option they want on click or using the enter key."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the selected option is not displayed until the user confirms their choice. This prevents accidental selection and gives users the opportunity to change their mind before submission."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use sentence case except for proper nouns or acronyms.",
+    "Use plain language and avoid abbreviations or jargon.",
+    "Reference Content for additional guidance on crafting content within apps and experiences.",
+    "Avoid using unnecessary articles like “the” or “an”, unless they’re included in the proper name of a product or service."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit field labels to a maximum of three to five words.",
+    "Be consistent when using plural language or “(s)” in field labels. For example, use “Select card type”, “Select card types”, or “Select card type(s)” consistently. If using “(s)”, use the asterisk method to label required fields instead of “(required)” within parenthesis to keep concise.",
+    "Use parallel structure across field labels, using either nouns like “Services” or verbs like “Select a service”. Learn more about parallel structure in Grammar and punctuation."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Option labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit option labels to three words or fewer unless referencing proper nouns, such as product names.",
+    "Avoid using unnecessary articles like “the” or “an”, unless they’re included in the proper name of a product or service.",
+    "Consistently order labels across experiences based on logical sequence, either alphabetically or by importance."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Inline messages"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use full sentences with proper punctuation.",
+    "Limit descriptions to 80 characters or 20 words including spaces.",
+    "Provide useful information such as why a field is required (if not obvious) without being technical.",
+    "Give an example or specific syntax or values for inputs to help avoid errors."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Inline error message"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use inline error messages to draw attention and to errors without causing frustration.",
+    "Provide clear, prescriptive guidance on correcting the error. Avoid redirecting users to another page to fix it.",
+    "Communicate whether the problem can occur again and offer an alternative backup solution in case it does."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Dropdown menu"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  },
+  {
+   "k": "h3",
+   "t": "Listbox"
+  },
+  {
+   "k": "p",
+   "t": "Container that displays a list of items available for selection."
+  },
+  {
+   "k": "h3",
+   "t": "Radio"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  }
+ ]
+}

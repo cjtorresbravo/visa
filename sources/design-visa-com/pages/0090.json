@@ -1,0 +1,298 @@
+{
+ "url": "https://design.visa.com/components/link",
+ "title": "Link | Components | Visa Product Design System",
+ "h1": "Link",
+ "readAt": "2026-10-15T17:07:30.880Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Link"
+  },
+  {
+   "k": "p",
+   "t": "Text-based navigation elements that take users to another destination."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Standalone links",
+    "Inline links",
+    "Links coded as buttons",
+    "Custom links",
+    "APIClassesVariables"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Standalone links"
+  },
+  {
+   "k": "h3",
+   "t": "Default link"
+  },
+  {
+   "k": "text",
+   "t": "Loading link example Default link"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Link with leading icon"
+  },
+  {
+   "k": "text",
+   "t": "Loading link example Link with leading icon"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Link with trailing icon"
+  },
+  {
+   "k": "text",
+   "t": "Loading link example Link with trailing icon"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "Inline links"
+  },
+  {
+   "k": "h2",
+   "t": "Links coded as buttons"
+  },
+  {
+   "k": "h2",
+   "t": "Custom links"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-link.v-alternate"
+    ],
+    [
+     ".v-link-no-underline"
+    ],
+    [
+     ".v-link"
+    ],
+    [
+     "[target=\"_blank\"]"
+    ],
+    [
+     "[rel=\"noreferrer\"]"
+    ],
+    [
+     "[rel=\"noopenner\"]"
+    ],
+    [
+     "button.v-link[disabled]"
+    ],
+    [
+     "button.v-link"
+    ],
+    [
+     ".v-link.v-content-card-clickable"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Value"
+    ],
+    [
+     "--v-link-display",
+     "inline-flex"
+    ],
+    [
+     "--v-link-padding-block",
+     "var(--size-scalable-0)"
+    ],
+    [
+     "--v-link-padding-inline",
+     "var(--size-scalable-0)"
+    ],
+    [
+     "--v-link-icon-gap",
+     "0.2857142857rem"
+    ],
+    [
+     "--v-link-icon-top",
+     "3px"
+    ],
+    [
+     "--v-link-icon-transformation",
+     "translateY(3px)"
+    ],
+    [
+     "--v-link-text-decoration",
+     "underline"
+    ],
+    [
+     "--v-link-background",
+     "var(--palette-default-transparent)"
+    ],
+    [
+     "--v-link-border-color",
+     "var(--palette-default-transparent)"
+    ],
+    [
+     "--v-link-border-radius",
+     "var(--size-rounded-none)"
+    ],
+    [
+     "--v-link-border-size",
+     "calc(var(--theme-border-size) * 0)"
+    ],
+    [
+     "--v-link-border-style",
+     "solid"
+    ],
+    [
+     "--v-link-foreground",
+     "var(--palette-default-active)"
+    ],
+    [
+     "--v-link-hover-background",
+     "var(--palette-default-surface-highlight)"
+    ],
+    [
+     "--v-link-hover-border-color",
+     "var(--palette-default-transparent)"
+    ],
+    [
+     "--v-link-hover-foreground",
+     "var(--palette-default-active-hover)"
+    ],
+    [
+     "--v-link-focus-background",
+     "var(--palette-default-surface-highlight)"
+    ],
+    [
+     "--v-link-focus-border-color",
+     "var(--palette-default-transparent)"
+    ],
+    [
+     "--v-link-focus-foreground",
+     "var(--palette-default-active-hover)"
+    ],
+    [
+     "--v-link-active-background",
+     "var(--palette-default-surface-lowlight)"
+    ],
+    [
+     "--v-link-active-border-color",
+     "var(--palette-default-transparent)"
+    ],
+    [
+     "--v-link-active-foreground",
+     "var(--palette-default-active-pressed)"
+    ],
+    [
+     "--v-link-disabled-background",
+     "var(--palette-default-surface-1)"
+    ],
+    [
+     "--v-link-disabled-border-color",
+     "var(--palette-default-transparent)"
+    ],
+    [
+     "--v-link-disabled-foreground",
+     "var(--palette-default-disabled)"
+    ]
+   ]
+  }
+ ]
+}

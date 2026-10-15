@@ -1,0 +1,269 @@
+{
+ "url": "https://design.visa.com/patterns/feedback-and-status",
+ "title": "Feedback and status | Patterns | Visa Product Design System",
+ "h1": "Feedback and status",
+ "readAt": "2026-10-15T17:08:02.688Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Feedback and status"
+  },
+  {
+   "k": "p",
+   "t": "Learn which components to use when communicating contextual or system feedback and status."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Feedback component examplesDialogEmpty stateFlagSection message (error and warning)",
+    "Status component examplesBadgeBannerProgress bars and indicatorsSection message (informational)",
+    "Visual indicators",
+    "Level of disruption",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Feedback and status let users know what’s happening, understand the results of actions, discover what they can do next, and avoid mistakes. Both provide information to users that may (or may not) require action and are used across a range of components that can be broadly categorized as alerts or status updates. This guidance outlines the differences between feedback and status, and the components used to communicate both. It covers everything from how to decide on the right component for your context, where to place it, and its level of disruption. \nFor specific guidance on how to craft content for feedback and status components including information, success, warning, and error messaging, visit Messaging. \nAlso known as: System messaging, status alert, global status message, informational notice, site notice, page notification, validation bar."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use sparingly, especially when interrupting tasks.",
+    "Only offer essential information to the system or workflow.",
+    "Limit the use for common actions, but always use to confirm destructive actions that users can’t undo.",
+    "Provide the appropriate visual cues and responses to help users quickly assess and identify the alert and respond.",
+    "Only display one feedback or status alert at a time. Alerts should not be stacked one after another.",
+    "Include actions as needed. In most cases, alerts would be dismissed by other user interaction elsewhere.",
+    "Reference individual component guidelines to learn about best practices for different screen sizes."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Feedback component examples"
+  },
+  {
+   "k": "p",
+   "t": "Feedback typically occurs when a user takes action, interacts with a system or with an item in a system. The effects of that action are then communicated back to the user in the form of messaging that guides their next action—creating a feedback loop. Below are some examples of the components commonly used to create a feedback alert."
+  },
+  {
+   "k": "h3",
+   "t": "Dialog"
+  },
+  {
+   "k": "p",
+   "t": "Dialogs are a modal interface that gives feedback on an action that was just taken that requires additional action before the user can move forward."
+  },
+  {
+   "k": "p",
+   "t": "Usage: Since the main mechanism is disruption to the user’s workflow, limit use to critical moments, confirmations of destructive actions, or tasks that require action.\nPlacement: Appears in the middle of the user’s main workflow.\nPersistence: Should persist, keeping the user’s focus and blocking their access to the parent window until the required action is taken or window is dismissed. \nExplore dialog guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Empty state"
+  },
+  {
+   "k": "p",
+   "t": "Empty states communicate feedback when there’s no information to display and instruct the user on how to move forward."
+  },
+  {
+   "k": "p",
+   "t": "Usage: Typically appears the first time a user interacts with a product or page and can be used when data has been deleted or is unavailable. Common uses include: a screen where no files or folders have been created, the resulting screen after completing all tasks in a to-do list manager, an error screen in an instant messaging system when a command isn’t supported, and a filtered or unfiltered search with no results. Don’t default to total empty states, which can cause confusion about whether the system is working.\nPlacement:  Can appear at the system or site level or within a main workflow or content area.\nPersistence: Persists until data is available to display."
+  },
+  {
+   "k": "h3",
+   "t": "Flag"
+  },
+  {
+   "k": "p",
+   "t": "Flags provide simple, contextual feedback to inform the user of non-critical information that does not require specific attention or action, and does not prevent usage of the workflow."
+  },
+  {
+   "k": "p",
+   "t": "Usage:  Primarily used for low priority messages such as confirmations of tasks and success messages related to the page or workflow.\nPlacement:  Floats over the page in a consistent screen area (top or bottom of a window or page) without blocking vital or interactive content.\nPersistence: Should persist passively until the user takes action or dismisses. \nExplore flag guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Section message (error and warning)"
+  },
+  {
+   "k": "p",
+   "t": "Error and warning section messages provide contextual feedback on a user action that was just taken that requires additional action."
+  },
+  {
+   "k": "p",
+   "t": "Usage:  Limit use of error and warning section messages to critical and high priority messages to highlight potential issues relevant to the user’s workflow.\nPlacement:   Appears above the section of the page the user is interacting with, usually below the page title, and does not block any information. \nPersistence: Should persist until the user takes action (corrects the issue) or dismisses the message.\nExplore section message guidelines"
+  },
+  {
+   "k": "h2",
+   "t": "Status component examples"
+  },
+  {
+   "k": "p",
+   "t": "Status messaging doesn’t typically require user action to occur. Instead, these alerts are usually passive, meaning users can view it when they need it. The messaging describes the condition or state of a system or item within a system at a particular time."
+  },
+  {
+   "k": "h3",
+   "t": "Badge"
+  },
+  {
+   "k": "p",
+   "t": "Badges are a supplementary component that communicates contextually relevant information about the status of an element or something relevant to the user’s workflow."
+  },
+  {
+   "k": "p",
+   "t": "Usage:  Primarily used to provide various status updates from low to critical priority in lists, dashboards, data tables, data visualizations, and network diagrams.\nPlacement:   Placed alongside the element it’s supporting or highlighting.  \nPersistence: Not interactive and cannot be dismissed by the user. \nExplore badge guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Banner"
+  },
+  {
+   "k": "p",
+   "t": "Banners provide messaging that communicate changes to information on the state or status of a website or app at the global level that is relevant to the user."
+  },
+  {
+   "k": "p",
+   "t": "Usage: Primarily used to provide updates from low to critical priority where high and critical priority messages may require action and low to medium messages may feature a call to action to learn more or complete a minor task.\nPlacement: Fills the width of the page at the site or application level.\nPersistence: Can persist passively, requiring no immediate action (low and medium priority) or persist until the user takes required action (high and critical priority).\nExplore banner guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Progress bars and indicators"
+  },
+  {
+   "k": "p",
+   "t": "Progress bars and progress indicators communicate real-time status updates including the duration and progression of a process towards completion."
+  },
+  {
+   "k": "p",
+   "t": "Usage: Typically used to indicate how much longer a user will need to wait, or in some cases, indicate indeterminate progression when there’s no predetermined end. Common uses include download, file transfer, and installation.\nPlacement: Depends on the type of progress indicator used.\nPersistence: Not interactive; persists until progress is complete. \nExplore progress guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Section message (informational)"
+  },
+  {
+   "k": "p",
+   "t": "Informational section messages communicate contextual changes in a state or status updates that typically don’t require any additional action. Can feature a call to action to learn more, undo, or complete a minor task."
+  },
+  {
+   "k": "p",
+   "t": "Usage: Limit use of informational section messages to low priority messages that passively communicate relevant information.\nPlacement: Appears above the section of the page the user is interacting with and does not block any information. \nPersistence: Should persist until the user takes action (if applicable) or dismisses the message. \nExplore section message guidelines"
+  },
+  {
+   "k": "h2",
+   "t": "Visual indicators"
+  },
+  {
+   "k": "p",
+   "t": "Visual indicators can be used to reflect the urgency or priority of an alert or message. Typically, this includes set colors and icons to grab the user’s attention and draw focus where the the alert or message is placed within the experience. For badges, this also includes stable colors and icons."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Low attention: Indicate when something’s ready to view or to signify that there’s been a change since the last interaction. For example, information or subtle messages that relay status or added details about a system or app.",
+    "Medium attention: Indicate when no immediate user action is required or to confirm a user action. For example, success messages that confirm an action after task completion.",
+    "High attention: Indicate status change or that user action is required BEFORE someone takes action to avoid the loss of data or an error. For example, warning messages that confirm risky action like changing permissions.",
+    "Critical attention: Indicate when user action is needed immediately to address an issue including irregularity in the system, malfunctions, invalid entries, and more. For example, error messages that tell users a problem has occurred."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Indicators",
+     "Type",
+     "User attention required",
+     "Usage"
+    ],
+    [
+     "",
+     "Subtle",
+     "Low",
+     "Indicate minor difference from the default state in a badge"
+    ],
+    [
+     "",
+     "Info (informational, neutral, default)",
+     "Low",
+     "Indicate important information"
+    ],
+    [
+     "",
+     "Positive (success, stable)",
+     "Medium",
+     "Indicate important information"
+    ],
+    [
+     "",
+     "Warning",
+     "High",
+     "Indicate a change in status that requires attention"
+    ],
+    [
+     "",
+     "Negative (error, critical)",
+     "Critical",
+     "Indicate high priority situations, errors, or critical status"
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Learn more about using icons in Icons and illustrations and messaging color sets in Color."
+  },
+  {
+   "k": "h2",
+   "t": "Level of disruption"
+  },
+  {
+   "k": "p",
+   "t": "Disruption is typically determined by the placement and persistence of the alert or message and describes the interruption experienced by the user. Some components are more disruptive than others while some are passive, meaning the user can view the message when relevant. Disruption can also occur when drawing focus to the alert using visual indicators like color and icons, and words that communicate urgency."
+  },
+  {
+   "k": "p",
+   "t": "For example, a high level of disruption would be a dialog used to communicate that a critical update is needed to continue using an app. The dialog would disrupt the user’s experience, preventing them from continuing to use the app until the user takes action. The visual indicators would draw the user’s focus using red or yellow colors and error or warning indicators, and the words used would communicate the requirement to proceed. \nFor guidance on how to word messaging to draw user attention, visit our guidance on Messaging."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Color"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to use Visa brand colors to create and maintain consistent and engaging experiences."
+  },
+  {
+   "k": "h3",
+   "t": "Messaging"
+  },
+  {
+   "k": "p",
+   "t": "Craft content for alert components to increase trust, reduce errors, and improve system performance."
+  }
+ ]
+}

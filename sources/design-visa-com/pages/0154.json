@@ -1,0 +1,217 @@
+{
+ "url": "https://design.visa.com/contributing/design",
+ "title": "Design | Contributing | Visa Product Design System",
+ "h1": "Start contributing to VPDS",
+ "readAt": "2026-10-15T17:08:48.727Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Start contributing to VPDS"
+  },
+  {
+   "k": "p",
+   "t": "Learn more about contributions and how you can help shape the future of the Visa Product Design System."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Overview",
+    "Code",
+    "Design"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Prep: Make sure it’s needed",
+    "Intake: Propose your idea",
+    "Plan: Align and scope",
+    "Define: Discovery and research",
+    "Design: Create and refine",
+    "Deliver: Approval and handoff",
+    "Want to contribute code or report a bug?"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Prep: Make sure it’s needed"
+  },
+  {
+   "k": "p",
+   "t": "Before proposing a new component, pattern, or enhancement, make sure your contribution is necessary.  Start by exploring existing resources and checking the VPDS backlog."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Explore existing resources: Browse components and patterns to avoid duplication.",
+    "Check the VPDS backlog: Search for open items labeled “contribution” or “in progress” in the VPDS backlog (internal only)."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Note: At this time the VPDS team is only accepting internal design contributions from Visa employees."
+  },
+  {
+   "k": "h3",
+   "t": "Questions to ask"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Does your contribution solve a common problem?",
+    "Is it flexible enough to serve multiple use cases?",
+    "Will it help other design system users?",
+    "Does it replicate anything in the system? If so, is there evidence that your solution is more effective?",
+    "Is it an enhancement of an existing area of the system, or something new?",
+    "Does it align with Visa’s accessibility and brand standards?",
+    "What impact could your solution have on existing implementations?",
+    "Do you have the necessary resources—such as people, time, and tools—to ensure the contribution meets VPDS standards?"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Not sure what kind of contribution you have or where to start? Take our quiz."
+  },
+  {
+   "k": "text",
+   "t": "Take contribution quiz"
+  },
+  {
+   "k": "h2",
+   "t": "What do you plan to contribute?"
+  },
+  {
+   "k": "p",
+   "t": "If your team is contributing both design and code elements, choose the path that you are responsible for."
+  },
+  {
+   "k": "text",
+   "t": "Design or content"
+  },
+  {
+   "k": "text",
+   "t": "Developed code"
+  },
+  {
+   "k": "h2",
+   "t": "Are you sure you want to exit taking the quiz?"
+  },
+  {
+   "k": "text",
+   "t": "Yes"
+  },
+  {
+   "k": "text",
+   "t": "No, continue with quiz"
+  },
+  {
+   "k": "h2",
+   "t": "Intake: Propose your idea"
+  },
+  {
+   "k": "p",
+   "t": "Once you’ve confirmed there’s a gap or opportunity, formally propose your idea. The VPDS team will review your submission, provide feedback, and schedule follow-ups if needed."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Submit an intake form: Complete the VPDS contribution intake form (internal only) and include all required documentation.",
+    "Initial review: The VPDS team will review your submission, provide feedback, and schedule follow-ups if needed.",
+    "Present to the contribution guild: If your proposal moves forward, you’ll be invited to present it to the VPDS guild. This meeting provides the opportunity to explain your idea, answer questions, and gather additional feedback.",
+    "Guild decision: After your presentation, the contribution guild will review and vote on your proposal, considering backlog priorities, business needs, and feasibility. You’ll be notified once a decision is made."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Plan: Align and scope"
+  },
+  {
+   "k": "p",
+   "t": "If your idea is approved, you’ll move into the planning phase. Here, you and the VPDS team will work with you to define the scope and clarify roles."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Form a working group: Collaborate with the VPDS team—including design, content, development, and accessibility experts—to align on roles and responsibilities.",
+    "Define the scope: Decide together what’s in and out of scope, establish required deliverables, and set timelines.",
+    "Clarify support pathways: Set up check-ins with your VPDS working group or attend office hours (internal only) for additional support."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Define: Discovery and research"
+  },
+  {
+   "k": "p",
+   "t": "In this phase, gather additional information or use existing research to outline what’s needed, why it’s needed, and how it might be used across different contexts."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Conduct or gather existing research: Interview stakeholders to identify pain points and understand constraints (such as accessibility, responsiveness, interactivity, and localization). Research industry trends and best practices from organizations like the Nielsen Norman Group.",
+    "Competitive analysis: Review how other teams at Visa or other design systems have addressed similar needs. Collect screenshots, prototypes, or code, and document relevant solutions.",
+    "Create a design brief: Clearly document the design needs using the Contribution template (internal only) in Figma."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Design: Create and refine"
+  },
+  {
+   "k": "p",
+   "t": "Contributors are responsible for creating and refining the design based on the design brief, while the VPDS team provides feedback throughout."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Sketch and draft: Sketch your idea or refine existing designs. Begin drafting initial guidelines—such as when to use or not use the component, best practices, and more—using the Usage guidelines template (internal only).",
+    "Prototype and outline specs: Refer to the Nova Figma library to turn your sketches into prototypes. Document states, redlines, platform scaling, and details using the VPDS specs checklist (internal only).",
+    "Refine and review: Continue refining your design and documentation, ensuring all states, redlines, and scaling considerations are captured. Keep deliverables up to date and respond to VPDS feedback as needed."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Deliver: Approval and handoff"
+  },
+  {
+   "k": "p",
+   "t": "Contributors are responsible for finalizing and delivering all required designs and documentation. The VPDS team will review and provide any final feedback before approval."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Present to the VPDS team: Walk the team through your designs and documentation, highlighting key decisions and addressing questions.",
+    "Apply final feedback: Gather any final feedback and make necessary updates.",
+    "Submit final designs and documentation: Package and deliver the final designs and usage guidance to the VPDS team for approval and inclusion in the system."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Want to contribute code or report a bug?"
+  },
+  {
+   "k": "p",
+   "t": "Learn how you can contribute code or report issues."
+  },
+  {
+   "k": "text",
+   "t": "Contribute code"
+  }
+ ]
+}

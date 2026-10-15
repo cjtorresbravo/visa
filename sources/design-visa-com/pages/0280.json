@@ -1,0 +1,615 @@
+{
+ "url": "https://design.visa.com/data-visualization/charts/heatmap/examples",
+ "title": "Heatmap | Charts | Data visualization | Visa Product Design System",
+ "h1": "Heatmap",
+ "readAt": "2026-10-15T17:12:10.579Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Heatmap"
+  },
+  {
+   "k": "p",
+   "t": "Chart where each cell represents the value of the category pairing to show most  and least common combinations of values within a matrix."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Usage",
+    "Accessibility",
+    "Examples",
+    "Code"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Category pattern analysis",
+    "Correlation matrix",
+    "Seasonal pattern analysis",
+    "Category share of total"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Explore our heatmap examples to see how the VCC heatmap component can be customized for specific business scenarios and analysis tasks."
+  },
+  {
+   "k": "p",
+   "t": "Find design assets for these heatmap examples in our Figma Data Experience Charts (internal only) library."
+  },
+  {
+   "k": "h2",
+   "t": "Category pattern analysis"
+  },
+  {
+   "k": "text",
+   "t": "Correlation"
+  },
+  {
+   "k": "text",
+   "t": "Trend"
+  },
+  {
+   "k": "text",
+   "t": "High And Low Values"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business questions: ”Do customers prefer to shop on weekdays or weekends, or on a specific day of the week?” and “Which key market segments have similar or different customer purchase patterns?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use color encoding to make very large and very small numbers easier to spot. In this example, this heatmap uses a the full range of colors in the sequential blue palette, with darker colors representing higher quantities.",
+    "Data labels: Label every data marker to make it easier to interpret the exact value of each data point.",
+    "Grouping categorical variable: Combine smaller groups into one category called “other” to help users focus on the largest categories.",
+    "Grouping time variable: Group exact dates into segments, like days of the week or times of day, to help users identify recurring seasonal patterns.",
+    "Legend: Use a gradient color legend to help users focus on overall patterns or clusters of high and low values, instead of attempting to use color to interpret precise values of individual cells."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "When do cardholders prefer to shop?"
+  },
+  {
+   "k": "h2",
+   "t": "When do cardholders prefer to shop?"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Category",
+     "Day",
+     "Value"
+    ],
+    [
+     "Restaurant",
+     "Monday",
+     "120"
+    ],
+    [
+     "Travel",
+     "Monday",
+     "89"
+    ],
+    [
+     "Shopping",
+     "Monday",
+     "73"
+    ],
+    [
+     "Other",
+     "Monday",
+     "83"
+    ],
+    [
+     "Restaurant",
+     "Tuesday",
+     "121"
+    ],
+    [
+     "Travel",
+     "Tuesday",
+     "93"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a row."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a cell or row."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling rows or cells when focusing on a row or a cell."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Analyze customer purchase patterns for weekdays versus weekends, across key market segments."
+  },
+  {
+   "k": "text",
+   "t": "Loading..."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  },
+  {
+   "k": "h2",
+   "t": "Correlation matrix"
+  },
+  {
+   "k": "text",
+   "t": "Correlation"
+  },
+  {
+   "k": "text",
+   "t": "High And Low Values"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business question: “Is there a meaningful relationship between how much a cardholder spends and how frequently they shop?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use color to highlight important patterns. In this example, the complementary blue palette makes the most common combinations of spend amount and purchase frequency easier to spot.",
+    "Data labels: Label every data marker to make it easier to interpret the exact value of each data point.",
+    "Grouping categorical variables: Translate continuous numeric variable into a few clear categories (like small, medium, and large) to simplify comparisons.",
+    "Simplified number format: Rounding data labels to whole percentage points to reduce the effort needed to compare values."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Consumer spend behavior insights"
+  },
+  {
+   "k": "h2",
+   "t": "Consumer spend behavior insights"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Share",
+     "Size",
+     "Share of cardholders"
+    ],
+    [
+     "Low Frequency",
+     "Small",
+     "5%"
+    ],
+    [
+     "Medium Frequency",
+     "Small",
+     "11%"
+    ],
+    [
+     "High Frequency",
+     "Small",
+     "33%"
+    ],
+    [
+     "Low Frequency",
+     "Medium",
+     "1%"
+    ],
+    [
+     "Medium Frequency",
+     "Medium",
+     "12%"
+    ],
+    [
+     "High Frequency",
+     "Medium",
+     "11%"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a row."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a cell or row."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling rows or cells when focusing on a row or a cell."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Explore the correlation between cardholder annual spend amount and purchase frequency."
+  },
+  {
+   "k": "text",
+   "t": "Loading..."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  },
+  {
+   "k": "h2",
+   "t": "Seasonal pattern analysis"
+  },
+  {
+   "k": "text",
+   "t": "Correlation"
+  },
+  {
+   "k": "text",
+   "t": "Trend"
+  },
+  {
+   "k": "text",
+   "t": "High And Low Values"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business questions: “Are there any seasonal patterns when there are peaks or dips in new accounts?” and “Have the slow and busy seasons remained steady, or do they change from year to year?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use color to make clusters with very large and very small numbers easier to spot. In this example, the plum color palette represents the total of new accounts for each month, with darker colors indicating higher quantities.",
+    "Data labels: Label every data marker to make it easier to interpret the exact value of each data point.",
+    "Legend: Use a color legend to help users easily interpret the color encoding of heatmap cells. In this example, each heatmap cell is labeled with its corresponding month and the legend tells users how to interpret each cell’s color."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Customer acquisition seasonal patterns"
+  },
+  {
+   "k": "h2",
+   "t": "Customer acquisition seasonal patterns"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Date",
+     "Acquired customers"
+    ],
+    [
+     "January 4, 2022",
+     "18.0k"
+    ],
+    [
+     "February 14, 2022",
+     "37.0k"
+    ],
+    [
+     "March 24, 2022",
+     "26.0k"
+    ],
+    [
+     "April 4, 2022",
+     "45.0k"
+    ],
+    [
+     "May 14, 2022",
+     "41.0k"
+    ],
+    [
+     "June 24, 2022",
+     "36.0k"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a row."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a cell or row."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling rows or cells when focusing on a row or a cell."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Explore peaks in total monthly new account activations."
+  },
+  {
+   "k": "text",
+   "t": "Loading..."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  },
+  {
+   "k": "h2",
+   "t": "Category share of total"
+  },
+  {
+   "k": "text",
+   "t": "Composition"
+  },
+  {
+   "k": "text",
+   "t": "Current Status"
+  },
+  {
+   "k": "text",
+   "t": "Highlight Category"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business questions: “What share of all requests have been completed?” and “How close did we get to our target for resolving requests?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use color to show highlight important data. In this example, the gray and blue palette highlights the resolved requests category compared to all requests.",
+    "Subtitle: Use subtitles to provide a clear and concise summary of the key takeaways from the chart.",
+    "Annotation: Use annotations to emphasize the exact value of the highlighted category and make it easier to understand how to read the chart.",
+    "Reference line: Provide a visual indicator of the set goal, making it easy to see the progress made and the distance remaining to achieve the goal."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Backlog summary"
+  },
+  {
+   "k": "h2",
+   "t": "Backlog summary"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Item Row",
+     "Item Column",
+     "Resolved(1) / Unresolved (0)"
+    ],
+    [
+     "1",
+     "1",
+     "0"
+    ],
+    [
+     "2",
+     "1",
+     "0"
+    ],
+    [
+     "3",
+     "1",
+     "1"
+    ],
+    [
+     "4",
+     "1",
+     "1"
+    ],
+    [
+     "5",
+     "1",
+     "1"
+    ],
+    [
+     "6",
+     "1",
+     "1"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a row."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a cell or row."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling rows or cells when focusing on a row or a cell."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Loading..."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  }
+ ]
+}

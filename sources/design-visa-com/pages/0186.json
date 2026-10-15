@@ -1,0 +1,306 @@
+{
+ "url": "https://design.visa.com/components/content-card/usage",
+ "title": "Content card | Components | Visa Product Design System",
+ "h1": "Content card",
+ "readAt": "2026-10-15T17:09:32.380Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Content card"
+  },
+  {
+   "k": "p",
+   "t": "Compact displays that summarize or direct users to more information."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesIcons and imagesDividers and bordersCard collections",
+    "BehaviorsClickable card elevation",
+    "Platform considerationsResponsive scale and reflow",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Content cards are stylized containers that group elements and actions for a single, related subject. As one of the most customizable components, they can be tailored to meet specific user needs or preferences. Content cards are often displayed within a page’s content area and provide a preview or summary of another page’s content to encourage users to click-through for more details. They are often presented in multiples, offering various topics or aspects for users to explore."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Tile, card, snapshot, spotlight."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Card (required): Container featuring related content, icons, images, and actions.  B. Icon (optional): Static icon enhancing or communicating the meaning of the card.  C. Card title (optional): Brief text summarizing the subject of the content card. Can be used with or without the subtitle.  D. Subtitle (optional): Additional text communicating more details. Can be used with or without the card title.  E. Body text (optional): Brief message detailing important information about the content card.  F. Button or link (optional): Text button and/or link that prompts an action or directs users to relevant resources.  G. UI icon button (optional): Visual representation of an action that doesn’t require text to convey meaning.  H. Image (optional): Graphic, illustration, or photography representing or communicating the meaning of the card."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Default",
+     "To provide information and actions related to a single subject.",
+     "To display large amounts of information or information that isn’t related. As a Dialog or modal, as content cards do not float over the main content area of a page."
+    ],
+    [
+     "Clickable",
+     "To make the entire card selectable.",
+     "If no additional information or actions are associated with the card."
+    ],
+    [
+     "Compact",
+     "To save space on small screens.",
+     "For detailed information that’s difficult to read in a small format."
+    ],
+    [
+     "Dashboard",
+     "To represent simple data visualizations.",
+     "For complex or interactive data visualizations without customizing. While the dashboard card can serve as a starting point, it may require additional design iteration to represent more intricate data visualizations."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use consistent elements for cards within the same layout or content area to help users scan and understand information.",
+    "Establish a clear visual hierarchy within the container to enhance scannability and readability.",
+    "Use visuals such as icons, images, or illustrations to enhance the meaning and aid in quick comprehension of the content.",
+    "Avoid cluttering the card with too many elements or actions. Keep the design simple and focused on the primary task."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Icons and images"
+  },
+  {
+   "k": "p",
+   "t": "Icons and images add visual interest and enhance the meaning of content cards. By integrating relevant icons and images, you can quickly and effectively convey the essence of the content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid overloading a card with too many elements that detract from the main message.",
+    "Always ensure visuals align with the content and support the user’s understanding."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Icons"
+  },
+  {
+   "k": "p",
+   "t": "Icons can be used to add visual interest or enhance the meaning of the card."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use universally recognized icons to ensure comprehension for all users.",
+    "Use one icon per card to maintain simplicity and avoid confusion."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Category icons"
+  },
+  {
+   "k": "p",
+   "t": "Icons and labels can be used to categorize specific subjects under a broader subject."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use distinct and descriptive category names and icons for easy identification.",
+    "Use one icon per category card to ensure it clearly represents and differentiates each category."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "UI icon buttons"
+  },
+  {
+   "k": "p",
+   "t": "UI icons buttons visually represent an action without text. They’re typically used for actions related to the entire card."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure icons clearly and intuitively indicate the action they represent without accompanying text.",
+    "Make sure UI icons are large enough to be usable, especially on touch devices."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Images"
+  },
+  {
+   "k": "p",
+   "t": "Images such as illustrations and photography add visual interest and meaning to content cards."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Only use images when relevant or to enhance the understanding of the content.",
+    "Avoid using intricate illustrations that may not be clear on smaller screens."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Dividers and borders"
+  },
+  {
+   "k": "p",
+   "t": "Dividers and borders can be used to enhance the visual appeal and readability of content-heavy cards by breaking down dense information and improving organization."
+  },
+  {
+   "k": "h4",
+   "t": "Content dividers"
+  },
+  {
+   "k": "p",
+   "t": "Dividers can be added between content to break up sections or give the card a sense of hierarchy."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use dividers to provide a clear separation and organize information for easy consumption.",
+    "Place dividers in consistent areas across content cards used in your experiences."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Card borders"
+  },
+  {
+   "k": "p",
+   "t": "Borders can be added to the bottom for emphasis or as a hover state to indicate the entire card is clickable."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use color to further distinguish multiple cards in a group, such as category cards.",
+    "Use bottom borders consistently across content cards used in your experiences."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Card collections"
+  },
+  {
+   "k": "p",
+   "t": "Content cards are typically presented as a grid or collection, reading left right, with each card the same size. For more complex grids, like the one below, reading order should follow a left to right, top to bottom pattern. The layout of these groups can influence user perception, so they should be organized for easy scanning and understanding."
+  },
+  {
+   "k": "list",
+   "items": [
+    "For left-to-right languages, the order should go from top left to bottom right.",
+    "For right-to-left languages, the order should go from top right to bottom left."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Clickable card elevation"
+  },
+  {
+   "k": "p",
+   "t": "On hover, a clickable card may transition from a small to medium elevated surface. The default surface for content cards has a 1px border, small elevation, and a background of Surface 1. Surfaces are intended to be customizable to the individual needs of an application, as styling needs will change based on number of cards and desired emphasis."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Responsive scale and reflow"
+  },
+  {
+   "k": "p",
+   "t": "Content cards scale to adapt to different screen sizes, and their position and alignment can also change. Content card layouts may be fluid or fixed width. When used in a fluid grid, a card’s width can adjust across grid columns and rows."
+  },
+  {
+   "k": "p",
+   "t": "Content will also resize and reflow accordingly. Some content may not be appropriate to resize due to limitations or visual distortion. Learn more by visiting Responsive grid system."
+  },
+  {
+   "k": "h4",
+   "t": "Fixed grid"
+  },
+  {
+   "k": "h4",
+   "t": "Fluid grid"
+  },
+  {
+   "k": "p",
+   "t": "Do     Stack cards vertically on Mobile, not horizontally, to accommodate narrower screens."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use more than 2-columns for content cards on Mobile due to the limited screen width on mobile devices."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Responsive grid system"
+  },
+  {
+   "k": "p",
+   "t": "Use the responsive grid system to organize design elements for visual consistency across pages."
+  },
+  {
+   "k": "h3",
+   "t": "Charts"
+  },
+  {
+   "k": "p",
+   "t": "Explore usage, accessibility, and design best practices for visualizing and communicating data insights."
+  }
+ ]
+}

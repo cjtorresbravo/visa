@@ -1,0 +1,63 @@
+{
+ "url": "https://design.visa.com/support",
+ "title": "Support | Visa Product Design System",
+ "h1": "Support",
+ "readAt": "2026-10-15T17:08:35.417Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Support"
+  },
+  {
+   "k": "p",
+   "t": "Get help from the experts, share knowledge, and receive updates."
+  },
+  {
+   "k": "h2",
+   "t": "Reference our guidance"
+  },
+  {
+   "k": "p",
+   "t": "Explore the Visa Product Design System documentation first to find answers to common questions."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Browse our FAQs for answers to frequent community questions.",
+    "Understand our foundational principles including Accessibility and Inclusive design.",
+    "Discover our system’s visual and architectural standards used to ensure consistent digital experiences in Base elements.",
+    "Find usage, specs, and accessibility guidance for the building blocks of the system in Components.",
+    "Explore solutions for common interactions, from application layouts to multi-step tasks like requesting a one-time passcode in Patterns.",
+    "Create insightful, inclusive, and accessible data experiences for everyone, everywhere with Data visualization.",
+    "Discover all the essentials for writing product content like voice and tone, grammar, and alert messaging in Content."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Join the conversation (internal only)"
+  },
+  {
+   "k": "p",
+   "t": "Visa employees can find information and get help through Microsoft Teams, office hours, regular quarterly update sessions, or by creating tickets for bugs or fixes."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Join our Microsoft Teams channel.",
+    "Get design and development support, including data visualization and accessibility, during office hours.",
+    "Create tickets for bugs or fixes.",
+    "Sign up to receive VPDS updates in your inbox."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Stay in touch"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Email us with any questions or suggestions at productdesignsystem@visa.com."
+   ]
+  }
+ ]
+}

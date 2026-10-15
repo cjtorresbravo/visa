@@ -1,0 +1,529 @@
+{
+ "url": "https://design.visa.com/patterns/chat/usage",
+ "title": "Chat | Patterns | Visa Product Design System",
+ "h1": "Chat",
+ "readAt": "2026-10-15T17:11:27.704Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Chat"
+  },
+  {
+   "k": "p",
+   "t": "Interfaces that enable users to conduct conversations with human and AI assistants."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesRepresenting chat participantsPrompt suggestionsResponse feedbackTime stampsChat historyAction menuPinning a chatFile uploadProgressDisplaying errors",
+    "LayoutsFull-pagePanelDialog",
+    "Platform considerationsMobile",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Chat patterns provide a framework for designing chat interfaces. This includes person-to-person chats, as well as interactions with AI assistants or chatbots. They typically include components such as input fields, avatars, icons, message bubbles, and more.\nAlso known as: AI assistant, chatbot, dialogue design, conversation interface."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Navigation (required): Vertical navigation or top app bar containing actions and navigation items.\nB. Message bubble (required): Area containing chat participants’ sent or received messages.\nC. Avatar (optional): Icon, initials, or image avatar representing chat participants.\nD. Message actions (optional): Icon buttons enabling users to perform actions like flagging responses or copying content.\nE. Message area (required): Area containing sent and received messages between chat participants.\nF. Input field (required): Text area containing icon buttons enabling users to enter text or perform actions."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Pattern",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Full-page",
+     "For more complex chat scenarios like long-form content generation, code creation, or to provide access to chat histories.To enable users to focus on the chat interface without distractions.",
+     "To provide access to other elements in the interface during the chat experience. Use a panel or dialog instead."
+    ],
+    [
+     "Panel",
+     "To provide access to other elements in the interface during the chat experience.",
+     "If users are unlikely to multi-task between the chat and the rest of the interface.If users would benefit from only focusing on the chat."
+    ],
+    [
+     "Dialog",
+     "To provide easy access to support across the site or application.To provide access to other elements in the interface during the chat experience.If users don’t need access to chat histories.",
+     "For more complex chat scenarios like long-form content generation, code creation, or to provide access to chat histories.If users would benefit from only focusing on the chat."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure chat interfaces are easy to use with clear options for sending messages, sharing content, or ending the conversation.",
+    "Always be transparent about how user data is handled and ensure sensitive conversations are protected.",
+    "Ensure sent and received messages appear visually different so users can differentiate between them.",
+    "Ensure AI chatbots can handle a wide range of inputs including typos or different wording.",
+    "Ensure AI chatbots are regularly updated based on user interactions and feedback.",
+    "Ensure users can easily get help or escalate issues, especially when interacting with AI.",
+    "Provide appropriate feedback about the status of messages, such as sent, delivered, or read."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Be transparent with users about bot versus human communication to manage expectations and build trust."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use AI without informing users, as unexpected AI interactions can cause confusion and lead to mistrust."
+  },
+  {
+   "k": "p",
+   "t": "Do     Allow users to copy and paste code snippets using a copy code button."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Require users to highlight and manually copy the code snippets. This can be tedious and error-prone."
+  },
+  {
+   "k": "p",
+   "t": "Do     Indicate when a conversations with a chatbot has started or ended."
+  },
+  {
+   "k": "p",
+   "t": "Don't     End a chatbot conversation without notifying the user in advance."
+  },
+  {
+   "k": "h3",
+   "t": "Representing chat participants"
+  },
+  {
+   "k": "p",
+   "t": "Accurately representing chat participants helps users identify whether they’re communicating with a human or AI. Components such as message bubbles, avatars, display names, and icons help distinguish participants and provide essential context during a conversation."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use clear icons to help users identify whether they’re communicating with human or AI participants.",
+    "Use the message bubble placement to differentiate between sent and received messages. For left-to-right languages, align the sender’s messages to the right and recipient’s messages to the left. Reverse this alignment for right-to-left languages.",
+    "Incorporate the user’s avatar or display name to personalize the experience and provide visual cues.",
+    "Maintain consistent styling and placement for these components across the experience to avoid confusion."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use an avatar, icon, or display name in addition to message placement to identify chat participants."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use the same or similar avatars, icons, display names, or message placement for participants, as it can be confusing."
+  },
+  {
+   "k": "h3",
+   "t": "Prompt suggestions"
+  },
+  {
+   "k": "p",
+   "t": "Prompt suggestions help users understand the purpose of a chat interface and encourage them to initiate conversation in a way that’s easy to understand and respond to. While they can be used in any chat setting, they are especially useful in interactions with chatbots or generative AI, as they guide users to provide information in a format that the AI can understand and respond to effectively. For more on placement, visit the Layouts section below."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Provide prompts that are simple, clear, and easy to understand.",
+    "Include prompts if they’re helpful and relevant to the context of the chat.",
+    "Ensure users can always bypass or ignore the prompt suggestions."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Provide suggestions that help coach new users on the types of requests or actions they can make."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Truncate or use incomplete prompts that require users to enter additional information, as this may be confusing."
+  },
+  {
+   "k": "h3",
+   "t": "Response feedback"
+  },
+  {
+   "k": "p",
+   "t": "Enabling users to provide feedback gives valuable insight on how well the chat interactions are being received. This is especially important for chatbots and generative AI and can be achieved through actions such as like/dislike icons or flags."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always allows users to report any inaccuracies, inappropriate content, or areas of improvement for AI outputs.",
+    "Keep the process of receiving feedback straightforward and quick, not requiring users to navigate away from the chat.",
+    "Consider providing an option for users to leave more detailed feedback along with flagging or voting."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Time stamps"
+  },
+  {
+   "k": "p",
+   "t": "Time stamps indicate when messages were sent and received. Timestamps should always be included for human-to-human chats to help manage expectations, but are not necessary for generative AI. To provide additional context, consider the following:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Indicating the exact length since a message was sent for new messages, such as “15 minutes ago” or “Just now”.",
+    "Display the time without the date for messages sent earlier in the same day but more than an hour ago, such as “10:30 AM”.",
+    "Use “Yesterday” along with the time for messages sent between 24 and 48 hours ago, such as “Yesterday, 10:30 AM”.",
+    "Display the date and time for messages sent more than two days ago, such as “10/05/2021, 10:30 AM”."
+   ]
+  },
+  {
+   "k": "list",
+   "items": [
+    "Position time stamps in a consistent location, usually next the user’s name or avatar.",
+    "Ensure time stamps clearly indicate when messages were sent to help users follow the conversation.",
+    "Consider the user’s location and time zone. Follow date and time format guidelines found in Grammar and punctuation."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use concise and relevant time stamps, providing only necessary information."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use overly detailed time stamps when the information may not be relevant to the user."
+  },
+  {
+   "k": "h3",
+   "t": "Chat history"
+  },
+  {
+   "k": "p",
+   "t": "Chat histories allow users to keep track of and continue past and present conversations, enabling them to revisit previous queries and responses. They are commonly used in generative AI and support chats, although their functionalities might vary in each context."
+  },
+  {
+   "k": "p",
+   "t": "Note: Always ensure the handling of chat histories is in compliance with relevant data protection and privacy regulations."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure chat histories are easily accessible. Learn more about the placement of chat history in Layouts below.",
+    "Ensure chat histories include all past interactions, queries, responses, and timestamps for the duration they are stored.",
+    "Be transparent about how long chat histories are stored and how they are used.",
+    "Allow users to search their chat history. This can be particularly helpful in long or complex interactions."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Action menu"
+  },
+  {
+   "k": "p",
+   "t": "Action menus allow users to perform various operations related to their conversation. Users can rename a conversation, search within it, download the transcript, or even delete the chat. In human-to-human chats, options like muting a conversation or adding participants are common. In chats with chatbots or generative AI, users might find options to start a new conversation, rename it, or download the chat helpful."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider including an option to rename the conversation. This helps users distinguish between different chats.",
+    "Provide a search functionality within the chat. This can help users find specific information from past messages quickly.",
+    "Allow users to download the chat. This can be useful for users who wish to save or archive their conversations."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure the menu is easy to find. It should be a prominent part of the chat interface."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Clutter the action menu with too many options. Limit it to only the most essential actions."
+  },
+  {
+   "k": "h3",
+   "t": "Pinning a chat"
+  },
+  {
+   "k": "p",
+   "t": "Pinning a chat enables users to save important interactions for future reference. This is particularly helpful in advanced chat tools, where it enhances user accessibility and organization. The most common method is using a pin icon. In the context of human-to-human chats, pinning can be used to prioritize ongoing conversations or to keep track of important discussions. In interactions with chatbots or generative AI, pinning could be used to highlight useful bot responses or to earmark complex interactions for further review."
+  },
+  {
+   "k": "p",
+   "t": "Note: This isn’t recommended for mobile applications as it can be difficult to implement with space constraints."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always ensure the pinning process is simple and intuitive.",
+    "Use clear visual indicators such as icons and states to show which chats or messages have been pinned."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "File upload"
+  },
+  {
+   "k": "p",
+   "t": "File uploads help users share information, enhancing the depth and versatility of conversations. In human-to-human interactions, file uploads enable users to exchange data beyond text. In human-to-AI chats, users can provide additional data to the AI, such as documents for analysis or images for processing. File uploads can be implemented in many ways based on use case and technical capabilities. For more, reference File upload."
+  },
+  {
+   "k": "h3",
+   "t": "Progress"
+  },
+  {
+   "k": "p",
+   "t": "Progress indicators help manage user expectations during interactions with generative AI. Indeterminate progress indicators are used when a process cannot be precisely calculated. They’re used to inform users about ongoing processes in the background and help maintain user engagement by signaling that the chatbot is actively working on a task."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow all best practices and guidelines for indeterminate progress indicators in Progress.",
+    "Ensure the progress indicators are easily noticeable but not disruptive to the chat experience.",
+    "Offer an estimated completion time or a cancel option when processing times are expected to be long."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Typing indicators"
+  },
+  {
+   "k": "p",
+   "t": "Typing indicators provide a real-time indication that the other party is actively writing a message. They enhance the communication experience in both human-to-human and human-to-chatbot interactions, reducing frustration and facilitating more immediate and interactive exchanges. There are generally two ways to indicate real-time typing: text or graphic."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use real-time typing indicators to enrich the conversational flow, making it feel more natural and engaging.",
+    "Consider simulating real-time typing for chatbots to mimic a more human-like conversation."
+   ]
+  },
+  {
+   "k": "h5",
+   "t": "Text-based typing indicators"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use in group chats to help clarify who’s typing.",
+    "Use to reduce visual elements in the interface."
+   ]
+  },
+  {
+   "k": "h5",
+   "t": "Graphic-based typing indicators"
+  },
+  {
+   "k": "p",
+   "t": "Graphic-based typing indicators, such as an animated ellipsis, provide a visually simple and space-efficient way to signal real-time typing activity."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use in one-on-one chats when it’s clear who’s typing.",
+    "Ensure the animation simple and universally understood."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Displaying errors"
+  },
+  {
+   "k": "p",
+   "t": "Error messages help indicate when something’s gone wrong and inform users how to proceed. They can appear for individual messages or chat conversations as a whole, depending on the error."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow all best practices and guidelines found in Messaging.",
+    "Always provide options for users to re-send a message that failed."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use error messages to notify users when messages fail to send or to indicate connection problems."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use error messages to respond to unclear prompts. Consider a generated response within the chat window instead."
+  },
+  {
+   "k": "h2",
+   "t": "Layouts"
+  },
+  {
+   "k": "p",
+   "t": "The chat pattern has multiple layouts to accommodate different visual designs and user needs."
+  },
+  {
+   "k": "h3",
+   "t": "Full-page"
+  },
+  {
+   "k": "p",
+   "t": "Full-page chats are often used for comprehensive chat tools where conversation is the primary focus, as the larger interface provides space for additional features like managing chat history, accessing saved chats, and initiating new conversations. These are most commonly used for generative AI. In this layout, chat history is usually included using vertical navigation."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Position the “New chat” button in a consistent place on every page of your interface.",
+    "Use vertical navigation to provide easy access to chat history and saved chats.",
+    "Include a landing page with an introduction to the tool and prompt recommendations for first-time users.",
+    "Consider allowing users to change language models or source libraries within a settings menu when possible."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Panel"
+  },
+  {
+   "k": "p",
+   "t": "The panel layout is best for multitasking environments, as the chat panel can remain open while users interact with the main content on the page. It’s commonly placed to the side of the main content, providing easy access for ongoing discussions without distracting from additional content on the screen."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Position the panel on the side of the main content for multitasking.",
+    "Include an option to close the panel when user interaction is not required.",
+    "Allow users to minimize the panel without ending the chat."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Dialog"
+  },
+  {
+   "k": "p",
+   "t": "The dialog layout opens the chat in a smaller window that overlays the main content of the page. This layout is best for brief, targeted chats, providing a non-intrusive way to provide real-time support without disrupting the user’s primary navigation."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Position the dialog window consistently, typically to the right of the screen, to avoid covering the main content.",
+    "Display the chat history within the dialog, with the latest messages near the bottom.",
+    "Provide a clear option to close the dialog, typically an “X” or “Close” button in the upper right corner, to allow users to return to the main content whenever they wish.",
+    "Allow users to minimize dialog without ending the chat."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "p",
+   "t": "Chat is available for both web and mobile platforms. Learn about screen size considerations below."
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "The mobile chat variant may be used to accommodate small screens."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure mobile chats always open in a full screen.",
+    "Ensure users can exit the chat at any point by including the appropriate icons, like back or close."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use clear and concise language. Avoid jargon, complex sentences, or ambiguous phrases that might confuse users.",
+    "Use sentence case, except for proper nouns or acronyms.",
+    "Follow guidance in Horizontal navigation and Vertical navigation when writing navigation labels.",
+    "Reference Button for guidance on creating effective button labels.",
+    "Visit Messaging for specific guidance on how to craft content for success, warning, and error messaging."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Voice and tone"
+  },
+  {
+   "k": "p",
+   "t": "Voice and tone are key elements that establish how products sound and feel. Voice refers to Visa’s personality and values, which should appear consistently across experiences, while tone is an expression of mood and changes depending on the context. Learn how to create products that sound and feel like Visa by learning the foundational pillars of our Voice and tone."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Maintain a consistent voice that aligns with Visa product experiences throughout the chat experience.",
+    "Adjust the tone for the context. For example, use an instructional and helpful tone for error messages."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Button"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that help users take actions within an interface."
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Menu placed at the top of a site that links to important pages or features."
+  },
+  {
+   "k": "h3",
+   "t": "Progress"
+  },
+  {
+   "k": "p",
+   "t": "Visual representations of the status of a system process."
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation"
+  },
+  {
+   "k": "p",
+   "t": "Navigation panel located next to page content on screens with sufficient space."
+  }
+ ]
+}

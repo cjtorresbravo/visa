@@ -1,0 +1,531 @@
+{
+ "url": "https://design.visa.com/components/combobox/usage",
+ "title": "Combobox | Components | Visa Product Design System",
+ "h1": "Combobox",
+ "readAt": "2026-10-15T17:09:29.980Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Combobox"
+  },
+  {
+   "k": "p",
+   "t": "Dropdown menu that helps users enter text or select items from a list."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesClear text buttonChevron directionLeading iconsPre-selected optionsEmpty stateOptional vs. required labels",
+    "BehaviorsInput and menu functionalitySelection methodScaling and reflow",
+    "ContentLabelsOption labelsInline messages",
+    "Platform considerationsMobile",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Comboboxes enable users to select one option from a menu or input custom text. This component combines an input field and single-select listbox to ensure users can find and select an option quickly."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Combo box, autocomplete, autosuggest, UIPickerView (iOS), Spinner (Android), Menu (Android), MenuItem (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Label (required): Text summarizing the options available for selection.  B. Input (required): Text field enabling users to enter custom text or filter menu options.  C. Inline message (optional): Brief text describing the field label in more detail. D. Chevron icon button (optional): UI icon button that expands or collapses the menu.E. Leading icon (optional): Visual indication that the input field is interactive.F. Clear text button (optional): UI icon button that clears the text input or selected option. G. Menu (required): Container displaying the list of options that includes scrollbar as needed.\nH. Option (required): Selectable text representing a single option."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "To present a list of options where users can select only one.",
+     "If users can select multiple options from the list. Use Multiselect instead."
+    ],
+    [
+     "For long lists where all options can’t be viewed at once or require scrolling.",
+     "For short lists where all options can be viewed without scrolling. Use a Radio button group instead."
+    ],
+    [
+     "If users would benefit from entering text to filter or search the list options.",
+     "If list options are unfamiliar and users wouldn’t benefit from searching for specific terms. Use Select (native) instead."
+    ],
+    [
+     "If space is limited and displaying options in a collapsible menu would help.",
+     "To present a list of actions. Use a Dropdown menu instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the selected option appears visually different from unselected options by using an icon and selected state.",
+    "Ensure users can select anywhere within an option label to select an option.",
+    "List options in a logical order, either alphabetically or according to the most common or likely selection.",
+    "Ensure comboboxes appear collapsed on page load to save space."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Clear text button"
+  },
+  {
+   "k": "p",
+   "t": "Clear text buttons allow users to clear their input or selection from the field."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Only display the clear text button when the user is actively inputting text to prevent confusion or accidental clearing."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Chevron direction"
+  },
+  {
+   "k": "p",
+   "t": "The chevron UI icon button enables users to manually expand or collapse the menu. The direction it points should indicate what happens when it’s selected."
+  },
+  {
+   "k": "h4",
+   "t": "Collapsed"
+  },
+  {
+   "k": "p",
+   "t": "The chevron should point down when the menu is collapsed."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the chevron icon can be used to manually expand the menu when selected."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Expanded"
+  },
+  {
+   "k": "p",
+   "t": "The chevron should point up when the menu is expanded."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure users can collapse the menu by removing focus from the field, not just by using the chevron icon."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Leading icons"
+  },
+  {
+   "k": "p",
+   "t": "Leading icons are placed at the beginning of an input field and are not interactive. They visually indicate the type of information required, such as an avatar for selecting a recipient."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use one leading icon per input field as multiple icons can confuse users.",
+    "Use icons that are universally understood and directly relate to expected entry.",
+    "Use leading icons consistently across experiences to help users learn and predict behavior."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Pre-selected options"
+  },
+  {
+   "k": "p",
+   "t": "In general, all comboboxes should appear empty by default. This ensures users have full control over their choices and prevents confusion that a selection has already been made. When possible, leave all options unselected both visually and programatically. \nSome browsers require an option to be selected by default. If this occurs, the first option can be used as a placeholder that can’t be selected by the user. For required fields, leaving the placeholder option selected causes an error during submission. For optional fields, no error is shown. This ensures users must make an active choice and can’t accidentally submit the placeholder option."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use disabled styling so the placeholder option is visually distinct from the others.",
+    "Ensure placeholder text is clear and helpful to avoid confusing or frustrating the user.",
+    "Ensure placeholder text uses a font color with a 4:5:1 contrast ratio."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Empty state"
+  },
+  {
+   "k": "p",
+   "t": "An empty state occurs when when text entered in the input field doesn’t match the available options within the menu."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use clear language to inform users that their input doesn’t match any options, as users may misinterpret an empty state for a loading state and wait for options to appear."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Optional vs. required labels"
+  },
+  {
+   "k": "p",
+   "t": "Always ensure required fields are clearly labeled. While this may seem repetitive, it helps users scan for necessary information and reduces errors. There are two methods for labeling required fields based on your use case. Whichever method you select, use it consistently across your experiences. \nNote: Previous VPDS guidance recommended only marking optional fields. Our guidance has been updated to reflect current Nielsen Norman Group recommendations. Learn more about optional vs. required labels in Forms."
+  },
+  {
+   "k": "h3",
+   "t": "“Required” in the label (preferred method)"
+  },
+  {
+   "k": "p",
+   "t": "Including “required” within the label ensures it’s easy to find, particularly when instructions at the top might not be visible while scrolling. This method bolsters accessibility for both sighted and non-sighted users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Mark all fields that are required. This ensures you’re as explicit and transparent as possible.",
+    "Include “(required)” in field label with a space between the last word and the first parenthesis."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Asterisk in the label (alternative method)"
+  },
+  {
+   "k": "p",
+   "t": "Asterisks are commonly used to indicate required fields. The main advantage to using this method is that it doesn’t take up much space, helps users along a common edge, and can be used in addition to formatting hints in the label."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include a legend or key at the top of the content area noting that the asterisk indicates a required field.",
+    "Place the asterisk at the beginning of the label with a space between the symbol and the first word."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "When required is implied"
+  },
+  {
+   "k": "h3",
+   "t": "Labeling optional fields"
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "p",
+   "t": "Comboboxes can be implemented in a variety of ways to help users easily find and select an option. Reference the guidance below to learn about features of this component and optional behaviors you may implement based on use case."
+  },
+  {
+   "k": "p",
+   "t": "Note: This section introduces features that aren’t automatically included in the component design and can be implemented in various ways. Product teams can determine how to load and filter data for their use case and should work closely with developers and designers to determine the appropriate level of complexity for their product."
+  },
+  {
+   "k": "h3",
+   "t": "Input and menu functionality"
+  },
+  {
+   "k": "p",
+   "t": "Input fields in combobox components can be implemented with a variety of methods that help users find and select menu options. Product teams should work with their designers and developers to choose the appropriate method for their use case."
+  },
+  {
+   "k": "h4",
+   "t": "Manually expandable menu"
+  },
+  {
+   "k": "p",
+   "t": "Comboboxes can be implemented with menus that display all the selectable options upon expansion. In this method, the user can select an option from the menu without typing in the input field. The input field can optionally be implemented with a search or filter feature. Learn more about these below."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Include the chevron UI icon button to enable users to expand the menu without typing.",
+    "Implement optional user input with a search or filter behavior to help users find options."
+   ]
+  },
+  {
+   "k": "h5",
+   "t": "Menu search"
+  },
+  {
+   "k": "p",
+   "t": "In this method, the text field is used to search the options displayed in the menu. When the user types, the menu jumps so the option that matches their input best appears at the top of the field, and focus is placed on that option."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Only show the clear text button when the input field is in focus to prevent users from accidentally clearing their input.",
+    "Use this method when users may want to browse options that are similar to their input but don’t match exactly."
+   ]
+  },
+  {
+   "k": "h5",
+   "t": "Menu filter"
+  },
+  {
+   "k": "p",
+   "t": "In this method, the text field is used to filter the options displayed in the menu. When the user types, the options displayed in the menu are temporarily reduced so only those matching the entry remain."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Include the clear text icon to enable users to remove their text input and return the menu to its original state without collapsing the menu.",
+    "Use this method when users are likely to know exactly what option they’re looking for."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "With custom input"
+  },
+  {
+   "k": "p",
+   "t": "Comboboxes can also be implemented to accept custom input, which means users can create a custom option that isn’t available in the menu. This method is particularly helpful for providing flexibility when you can’t predict all potential inputs. \nWhen implementing comboboxes that accept custom input, ensure field accepts flexible formatting to avoid frustrating users with errors.  If the system can’t accommodate varying formats, use a pre-defined menu without custom input. To learn more, reference flexible input."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pair this functionality with a filtering behavior like autosuggest or autocomplete so users can tell if their input matches a pre-defined option.",
+    "Only show the clear text button when the input field is in focus to prevent users from accidentally clearing their selection."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Input-prompted menu"
+  },
+  {
+   "k": "p",
+   "t": "Comboboxes can be implemented with a menu that only appears after the user enters text in the input field. This method is generally used for complex scenarios where a large number of options are available and can’t all be displayed immediately. \nIt’s common to implement this type of combobox with autocomplete or autosuggest. To learn more, reference Input."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider including a leading icon to indicate the purpose of the input field.",
+    "Only show the clear text button when the input field is in focus to prevent users from accidentally clearing their input.",
+    "Don’t include a chevron icon, even when the menu is open. Users can collapse the menu by removing focus from the field."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Selection method"
+  },
+  {
+   "k": "p",
+   "t": "Users can select an option using one of the following methods that aim to simplify the process and prevent accidental selections. Selection methods can be combined with search, filter, or autocomplete/autosuggest behaviors to create custom interactions. Consider your desired filtering behavior when implementing a selection method, as filtering behaviors affect how and when focus is placed on a menu option."
+  },
+  {
+   "k": "h4",
+   "t": "Manual selection (preferred)"
+  },
+  {
+   "k": "p",
+   "t": "Select and confirm requires users to confirm their choice before it’s displayed in the field. When the user places focus on an option within the menu, it won’t appear as the selected value in the field until the user selects the option they want by clicking or using the enter key. This is the preferred method as it’s the most accessible and provides users full control over their selection."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the selected option isn’t displayed until the user confirms their choice. This prevents accidental selection and gives users the opportunity to change their mind before submission."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Automatic selection"
+  },
+  {
+   "k": "p",
+   "t": "Automatic selection doesn’t require the user to confirm their choice before it’s displayed in the field. When focus is placed on an option in the menu, it automatically appears as the selected value when the user tabs out of the menu or removes focus from the combobox as a whole. \nWhile this method can provide a streamlined selection process, it’s not as accessible as manual selection. Product teams using this method are responsible for ensuring accessibility standards and practices are met."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the selected option isn’t displayed until the user confirms their choice. This prevents accidental selection and gives users the opportunity to change their mind before submission."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Scaling and reflow"
+  },
+  {
+   "k": "p",
+   "t": "Scaling and reflow refers to how content behaves as the container size changes, particularly when the container is small and can’t display all content at once. This is common with comboboxes, as they’re often used when screenspace is limited. While the option menu can scale vertically, the input field has a fixed height."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Scale the option menu vertically until the maximum height is reached.",
+    "Implement a scroll bar when the maximum height is reached to enable users to access all the options."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Implement a scroll bar when the maximum height is reached to enable users to access all the options."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Scale the menu indefinitely, as this may take up too much space and overwhelm users."
+  },
+  {
+   "k": "p",
+   "t": "Do     Allow option labels to reflow with container size to ensure the full label is visible."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Crop content, as users may not know what they’re selecting if the full label isn’t visible."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use sentence case except for proper nouns or acronyms.",
+    "Use plain language and avoid abbreviations or jargon.",
+    "Reference Content for additional guidance on crafting content within apps and experiences.",
+    "Avoid using unnecessary articles like “the” or “an”, unless they’re included in the proper name of a product or service."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit field labels to three to five words when possible.",
+    "Be consistent when using plural language or “(s)” in field labels. For example, use “Select card type,” “Select card types,” or “Select card type(s)” consistently. If using “(s),” use the asterisk method over “(required)” to keep labels concise.",
+    "Use parallel structure across field labels, using either nouns like “Services” or verbs like “Select a service”. Learn more about parallel structure in Grammar and punctuation."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Option labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit option labels to three words or fewer unless referencing proper nouns, such as product names.",
+    "Avoid using unnecessary articles like “the” or “an,” unless they’re included in the proper name of a product or service."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Inline messages"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use full sentences with proper punctuation.",
+    "Limit descriptions to 80 characters or 20 words including spaces.",
+    "Provide useful information such as why a field is required (if not obvious) without being technical.",
+    "Give an example or specific syntax or values for inputs to help avoid errors."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Inline error message"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use inline error messages to draw attention to errors without causing frustration.",
+    "Provide clear, prescriptive guidance on correcting the error. Avoid redirecting users to another page to fix it.",
+    "Communicate whether the problem can occur again and offer an alternative backup solution in case it does."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "On mobile screens, the combobox opens as a full-screen and spans the width of the page. Once users make a selection, the fullscreen view closes automatically and the user is returned to their place in the form."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure users can exit the fullscreen view by selecting the close button in the top app bar.",
+    "Remove the chevron icon button from the input field when the combobox is in fullscreen view."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Input"
+  },
+  {
+   "k": "p",
+   "t": "Text fields that enable users to enter free-form content."
+  },
+  {
+   "k": "h3",
+   "t": "Listbox"
+  },
+  {
+   "k": "p",
+   "t": "Container that displays a list of items available for selection."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect"
+  },
+  {
+   "k": "p",
+   "t": "Control that allows users to select multiple options from a dropdown menu."
+  },
+  {
+   "k": "h3",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance on everything from layouts to validation to ensure forms are clear and usable."
+  }
+ ]
+}

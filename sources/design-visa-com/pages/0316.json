@@ -1,0 +1,385 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/avatar",
+ "title": "Avatar | Component | Nova Angular | Visa Product Design System",
+ "h1": "Avatar",
+ "readAt": "2026-10-15T17:16:53.080Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Avatar"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Small image avatar",
+    "Small initials avatar",
+    "Small horizontal icon avatar",
+    "Small vertical icon avatar",
+    "Large image avatar",
+    "Large initials avatar",
+    "Large icon avatar",
+    "Large fictitious brand avatar",
+    "Avatar as button",
+    "Icon avatar with inline directive"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Small avatars"
+  },
+  {
+   "k": "h3",
+   "t": "Small image avatar"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Small initials avatar"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "AM"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Small horizontal icon avatar"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Small vertical icon avatar"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Large avatars"
+  },
+  {
+   "k": "h3",
+   "t": "Large image avatar"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Large initials avatar"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "AM"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Large icon avatar"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Large fictitious brand avatar"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Custom avatars"
+  },
+  {
+   "k": "h3",
+   "t": "Avatar as button"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Icon avatar with inline directive"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "AvatarDirective"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - AvatarDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-avatar]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "role",
+     "@Input()",
+     "",
+     "HTMLElement['role'] | null",
+     "",
+     "false"
+    ],
+    [
+     "small",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Sets avatar to small variant when true.",
+     "false"
+    ]
+   ]
+  }
+ ]
+}

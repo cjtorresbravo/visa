@@ -1,0 +1,586 @@
+{
+ "url": "https://design.visa.com/base-elements/typography/usage",
+ "title": "Typography | Base elements | Visa Product Design System",
+ "h1": "Typography",
+ "readAt": "2026-10-15T17:08:56.300Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Typography"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance, examples, and code to enhance readability through consistent text styles and hierarchy."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Type rampHeadlinesOverlineBodyOrdered and unordered listsDetail",
+    "Applying the type ramp",
+    "Hierarchy",
+    "Text alignment",
+    "Paragraph spacing",
+    "Line height",
+    "Line length",
+    "Language considerations",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "We created a new humanistic typeface, Visa Dialect, designed specifically for our brand. Its foundation is built on our core brand attributes: accessible, inclusive, and approachable. It’s modern, but still feels like it has been crafted by the human hand. It has been designed to be approachable, unique, and easily read on any device."
+  },
+  {
+   "k": "p",
+   "t": "Visa branded digital experiences use Visa Dialect UI. Visa Dialect UI has been created specifically for user interfaces. It has narrower forms than Visa Dialect and has been designed to be highly efficient for small typographic settings."
+  },
+  {
+   "k": "p",
+   "t": "Internal users can access Visa Dialect UI on Sharepoint (internal only)."
+  },
+  {
+   "k": "p",
+   "t": "For digital experiences that are not Visa branded, font choice can vary as needed, but should not be Visa Dialect. Mobile applications may be best suited to use native fonts based on platform, to take advantage of built in features. For browser based applications, we recommend Open Sans, which is from Google’s Open Fonts Directory."
+  },
+  {
+   "k": "h2",
+   "t": "Type ramp"
+  },
+  {
+   "k": "p",
+   "t": "For this ramp, there are type categories built in to support and simplify usage. While applying the styles, keep in mind the typographic hierarchy set in place and the intended use for each type style."
+  },
+  {
+   "k": "h3",
+   "t": "Headlines"
+  },
+  {
+   "k": "p",
+   "t": "The headline category is meant for page and section titles. Display 1 and 2 are intended for banner areas and landing pages, and may not be suitable for use across a whole application."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Start most page designs with Headline 1 as your largest headline size.",
+    "Use typography with a line height about 1.3x the size of the text, referred to as ‘line-height-short’ in the system.",
+    "Use sentence case.",
+    "Avoid adding punctuation such as periods, commas, colons, or semicolons unless completing sentences or for impact."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Label",
+     "Web",
+     "Mobile",
+     "Letter spacing",
+     "Weight",
+     "Tags"
+    ],
+    [
+     "Display 1",
+     "Size/line height: 60 px/78 px Paragraph spacing: 0px",
+     "Size/line height: 70 px/91 px Paragraph spacing: 0px",
+     "0px",
+     "Semibold/ 600",
+     "H1"
+    ],
+    [
+     "Display 2",
+     "Size/line height: 48 px/62 px Paragraph spacing: 0px",
+     "Size/line height: 58 px/75 px Paragraph spacing: 0px",
+     "0px",
+     "Semibold/ 600",
+     "H1, H2"
+    ],
+    [
+     "Headline 1",
+     "Size/line height: 32 px/42 px Paragraph spacing: 0px",
+     "Size/line height: 36 px/47 px Paragraph spacing: 0px",
+     "0.5px",
+     "Semibold/ 600",
+     "H1, H2"
+    ],
+    [
+     "Headline 2",
+     "Size/line height: 25 px/33 px Paragraph spacing: 0px",
+     "Size/line height: 28 px/36 px Paragraph spacing: 0px",
+     "0px",
+     "Medium/ 500",
+     "H1-H3"
+    ],
+    [
+     "Headline 3",
+     "Size/line height: 20 px/26 px Paragraph spacing: 0px",
+     "Size/line height: 24 px/31 px Paragraph spacing: 0px",
+     "0px",
+     "Semibold/ 600",
+     "H2-H5"
+    ],
+    [
+     "Headline 4",
+     "Size/line height: 18 px/24 px Paragraph spacing: 0px",
+     "Size/line height: 22 px/29 px Paragraph spacing: 0px",
+     "0px",
+     "Semibold/ 600",
+     "H2-H5"
+    ],
+    [
+     "Subtitle 1",
+     "Size/line height: 16 px/21 px Paragraph spacing: 0px",
+     "Size/line height: 18 px/23 px Paragraph spacing: 0px",
+     "0px",
+     "Semibold/ 600",
+     "H3-H6"
+    ],
+    [
+     "Subtitle 2",
+     "Size/line height: 16 px/21 px Paragraph spacing: 0px",
+     "Size/line height: 18 px/23 px Paragraph spacing: 0px",
+     "0px",
+     "Medium/ 500",
+     "H3-H6"
+    ],
+    [
+     "Subtitle 3",
+     "Size/line height: 14 px/18 px Paragraph spacing: 0px",
+     "Size/line height: 16 px/21 px Paragraph spacing: 0px",
+     "0px",
+     "Semibold/ 600",
+     "H3-H6"
+    ],
+    [
+     "Overline",
+     "Size/line height: 10 px/13 px Paragraph spacing: 0px",
+     "Size/line height: 11 px/14 px Paragraph spacing: 0px",
+     "1px",
+     "Semibold/ 600",
+     "H2-H6"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Overline"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pair overline headlines with display, headline, or subtitle content. These are sometimes called an eyebrow or category.",
+    "Use all caps for overline headlines, containing no periods, commas, colons, or semicolons after sentence fragments, and limit to 1–3 words."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Body"
+  },
+  {
+   "k": "p",
+   "t": "The body category is meant for paragraph styling for the main content areas of your page. Most applications will use Body 2 as the default body copy styling, and doing so will ensure proper relationship between the content of your page and the design system components."
+  },
+  {
+   "k": "list",
+   "items": [
+    "To increase readability, typography in this category uses a line height about 1.5x the size of the text. We define this is ‘line-height-default’ in the system.",
+    "Body 1, 2, and 3 should always use sentence case and all standard punctuation."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Label",
+     "Web",
+     "Mobile",
+     "Letter spacing",
+     "Weight",
+     "Tags"
+    ],
+    [
+     "Body 1",
+     "Size/line height: 16 px/24 px Paragraph spacing: TBD",
+     "Size/line height: 18 px/27 px Paragraph spacing: TBD",
+     "0px",
+     "Regular/ 400",
+     "p, span"
+    ],
+    [
+     "Body 2 (Default body copy and input field body size)",
+     "Size/line height: 14px/ 22px Paragraph spacing: 16px",
+     "Size/line height: 16px/ 24px Paragraph spacing: 16px",
+     "0px",
+     "Regular/ 400",
+     "p, span/ document/ body default"
+    ],
+    [
+     "Body 2 bold",
+     "Size/line height: 14px/ 22px Paragraph spacing: TBD",
+     "Size/line height: 16px/ 24px Paragraph spacing: 16px",
+     "0px",
+     "Semibold/ 600",
+     "body, default"
+    ],
+    [
+     "Body 2 list",
+     "Size/line height: 14px/ 22px Paragraph spacing: 12px",
+     "Size/line height: 16px/ 24px Paragraph spacing: 12px",
+     "0px",
+     "Regular/ 400",
+     "ul, li"
+    ],
+    [
+     "Body 2 link",
+     "Size/line height: 14px/ 22px Paragraph spacing: 16px",
+     "Size/line height: 16px/ 24 px Paragraph spacing: 16px",
+     "0px",
+     "Medium/ 500",
+     "——"
+    ],
+    [
+     "Body 2 medium",
+     "Size/line height: 14px/ 22px Paragraph spacing: 16px",
+     "Size/line height: 16px/ 24px Paragraph spacing: 16px",
+     "0px",
+     "Medium/ 500",
+     "——"
+    ],
+    [
+     "Body 3",
+     "Size/line height: 12px/ 18px Paragraph spacing: 16px",
+     "Size/line height: 14px/ 21px Paragraph spacing: TBD",
+     "0px",
+     "Regular/ 400",
+     "p, span"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Ordered and unordered lists"
+  },
+  {
+   "k": "h4",
+   "t": "Ordered lists"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item 1 - with enough words to make a text wrap, so paragraph spacing is apparent.",
+    "Item 2",
+    "Item 3"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Use ordered lists when the sequence of the items is important, such as step-by-step instructions."
+  },
+  {
+   "k": "h4",
+   "t": "Unordered lists"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Item 1 - with enough words to make a text wrap, so paragraph spacing is apparent.",
+    "Item 2",
+    "Item 3"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Use unordered lists when the sequence is not important."
+  },
+  {
+   "k": "h3",
+   "t": "Detail"
+  },
+  {
+   "k": "p",
+   "t": "Typography in the detail category is applied to the interactive components in the design system."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use typography with a line height about 1.3x the size of the text, defined as “line-height-short” in the system.",
+    "Use UI label large for tables, tabs, and navigation; it matches Body 2.",
+    "Use UI label for labels on input fields and form elements.",
+    "Use UI label small for labels on icon buttons."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Label",
+     "Web",
+     "Mobile",
+     "Letter spacing",
+     "Weight"
+    ],
+    [
+     "Button large",
+     "Size/line height: 14px/ 18px Paragraph spacing: 0px",
+     "Size/line height: 16px/ 22px Paragraph spacing: 0px",
+     "0.25px",
+     "Semibold/ 600"
+    ],
+    [
+     "Button medium",
+     "Size/line height: 12px/ 16px Paragraph spacing: 0px",
+     "Size/line height: 14px/ 18px Paragraph spacing: 0px",
+     "0.25px",
+     "Semibold/ 600"
+    ],
+    [
+     "Button small",
+     "Size/line height: 12px/ 16px Paragraph spacing: 0px",
+     "Size/line height: 14px/ 18px Paragraph spacing: 16px",
+     "0.25px",
+     "Medium/ 500"
+    ],
+    [
+     "UI label large",
+     "Size/line height: 14px/ 18px Paragraph spacing: 12px",
+     "Size/line height: 16px/ 20px Paragraph spacing: 0px",
+     "0px",
+     "Regular/ 400"
+    ],
+    [
+     "UI label large active",
+     "Size/line height: 14px/ 18px Paragraph spacing: 12px",
+     "Size/line height: 16px/ 20px Paragraph spacing: 0px",
+     "0px",
+     "Medium/ 500"
+    ],
+    [
+     "UI label",
+     "Size/line height: 12px/ 16px Paragraph spacing: 0px",
+     "Size/line height: 14px/ 18px Paragraph spacing: 0px",
+     "0px",
+     "Regular 400"
+    ],
+    [
+     "UI label active",
+     "Size/line height: 12px/ 16px Paragraph spacing: 0px",
+     "Size/line height: 14px/ 18px Paragraph spacing: 0px",
+     "0px",
+     "Medium/ 500"
+    ],
+    [
+     "UI label small",
+     "Size/line height: 11px/ 14px Paragraph spacing: 0px",
+     "Size/line height: 12px/ 16px Paragraph spacing: 0px",
+     "0px",
+     "Regular/ 400"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Applying the type ramp"
+  },
+  {
+   "k": "p",
+   "t": "When using the type ramp to build an interface, it is recommended not to modify or change properties such as weight, size, and color for any type style. Each type style has been selected with consideration for user needs and systemization within the overall design system."
+  },
+  {
+   "k": "p",
+   "t": "Do     Limit use of numerous font variations to prevent typographic hierarchy confusion."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use a font (size, weight, color) that does not follow the Typography guidelines."
+  },
+  {
+   "k": "h2",
+   "t": "Hierarchy"
+  },
+  {
+   "k": "p",
+   "t": "Effective typographic hierarchy makes content easy to consume and understand. It enhances scan-ability and guides users on what information to focus on first. Use it as a tool to direct the reader’s attention to the content in the desired order."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Headline 2 <h2> Financial inclusion",
+    "Headline 3 <h3> What is Financial inclusion?",
+    "Body 2 No barriers between you and the financial services you need to survive and thrive.",
+    "Subtitle 1 <h4> Where we focus our efforts",
+    "Body 2 We’re using the power of our network to create new solutions, stimulate investment and innovation, promote usage, and encourage strong enabling environments, from China to Colombia, Africa to America."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Consistent appearance"
+  },
+  {
+   "k": "p",
+   "t": "Maintain a consistent appearance for text within the same category."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use the same size, color, and font for headings in the same category."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Make headings in different categories too similar in. Ensure they are distinct from each other to improve scannability."
+  },
+  {
+   "k": "h3",
+   "t": "Sentence case"
+  },
+  {
+   "k": "p",
+   "t": "Use sentence case, as Visa adopts this in nearly all scenarios."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use headings that differ in size, weight, and color to indicate importance."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Change letter cases to indicate significance or hierarchy."
+  },
+  {
+   "k": "h2",
+   "t": "Text alignment"
+  },
+  {
+   "k": "p",
+   "t": "There are three options for text alignment: right-aligned, center-aligned, and left-aligned."
+  },
+  {
+   "k": "h3",
+   "t": "Right-aligned"
+  },
+  {
+   "k": "p",
+   "t": "Right-align text for side notes or visual grouping."
+  },
+  {
+   "k": "h3",
+   "t": "Center-aligned"
+  },
+  {
+   "k": "p",
+   "t": "Center-align text for copy in UI elements such as buttons."
+  },
+  {
+   "k": "h3",
+   "t": "Left-aligned"
+  },
+  {
+   "k": "p",
+   "t": "Left-align text for product copy. This is most common in left-to-right-languages."
+  },
+  {
+   "k": "h2",
+   "t": "Paragraph spacing"
+  },
+  {
+   "k": "p",
+   "t": "Spacing between paragraphs can affect how users perceive relationships between information. Keep paragraph spacing between 0.75 and 1.25 times your font size. In Microsoft Word, this equates to a full line of spacing between paragraphs."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use line spacing to indicate new paragraphs."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use indentation to indicate new paragraphs."
+  },
+  {
+   "k": "h2",
+   "t": "Line height"
+  },
+  {
+   "k": "p",
+   "t": "Line height, also known as leading, is the space between baselines in a block of text. It measures the distance from the bottom of one line of text to the bottom of the next. \nWe recommend a line height approximately 1.5 times the font size, translating to 1.5 line spacing in Microsoft Word. On iOS, this is measured in pixels (px), and on Android, in density-independent pixels (dp)."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use 20 pt type with 30 px line height."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use 20 pt type with 20 px line height."
+  },
+  {
+   "k": "h2",
+   "t": "Line length"
+  },
+  {
+   "k": "p",
+   "t": "The ideal line length is around 50-75 characters, including spaces, or 12-14 words per line. Longer lines of text can feel intimidating and overwhelming to users, potentially leading them to avoid reading. Conversely, lines that are too short disrupt the reader’s rhythm by requiring frequent eye movements."
+  },
+  {
+   "k": "p",
+   "t": "Table adapted from the Baymard Institute."
+  },
+  {
+   "k": "p",
+   "t": "Do     Keep line length to about 50-85 characters, or 12-14 words, per line."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use line lengths that span longer than 14 words per line."
+  },
+  {
+   "k": "h2",
+   "t": "Language considerations"
+  },
+  {
+   "k": "p",
+   "t": "Visa Dialect has a vast Latin and Cyrillic character set, making it suitable for many languages. For languages not supported by Visa Dialect, we use Noto Sans, a free font available from Google."
+  },
+  {
+   "k": "p",
+   "t": "Languages vary in average word lengths and heights, which can affect typography layout. When internationalizing our typeface, consider the differences in word length, alignment, height, and language categories. Reference Material’s guidance regarding language support for more information."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "About design tokens"
+  },
+  {
+   "k": "p",
+   "t": "Explore guidance for using design tokens or variables to customize themes and experiences."
+  },
+  {
+   "k": "h3",
+   "t": "Readability"
+  },
+  {
+   "k": "p",
+   "t": "Make your content easy to read and understand so people can quickly find what they're looking for."
+  }
+ ]
+}

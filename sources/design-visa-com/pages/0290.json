@@ -1,0 +1,1251 @@
+{
+ "url": "https://design.visa.com/data-visualization/charts/line-chart/code",
+ "title": "Line chart | Charts | Data visualization | Visa Product Design System",
+ "h1": "Line chart",
+ "readAt": "2026-10-15T17:12:23.671Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Line chart"
+  },
+  {
+   "k": "p",
+   "t": "Chart showing points connected by line segments, used to represent how a number changes over time."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Usage",
+    "Accessibility",
+    "Examples",
+    "Code"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default line chart"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Default line chart"
+  },
+  {
+   "k": "h3",
+   "t": "Where do customers prefer to shop?"
+  },
+  {
+   "k": "h2",
+   "t": "Where do customers prefer to shop?"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Date",
+     "Category",
+     "Total transactions"
+    ],
+    [
+     "January",
+     "In-store",
+     "7.67b"
+    ],
+    [
+     "February",
+     "In-store",
+     "7.63b"
+    ],
+    [
+     "March",
+     "In-store",
+     "8.36b"
+    ],
+    [
+     "April",
+     "In-store",
+     "8.33b"
+    ],
+    [
+     "May",
+     "In-store",
+     "8.59b"
+    ],
+    [
+     "June",
+     "In-store",
+     "8.48b"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a line."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a point or line."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling lines or points when focusing on a line or a point."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Compare trends for online versus in-store monthly transactions."
+  },
+  {
+   "k": "p",
+   "t": "Keyboard Interactive line-chart, Titled: Where do customers prefer to shop?. To view the chart data, use the Display data table button. To view keyboard instructions, use the Display keyboard instructions button."
+  },
+  {
+   "k": "h2",
+   "t": "Chart title: Where do customers prefer to shop?"
+  },
+  {
+   "k": "h3",
+   "t": "Long Description"
+  },
+  {
+   "k": "p",
+   "t": "This chart compares trends for online versus in-store monthly transactions in a year."
+  },
+  {
+   "k": "p",
+   "t": "The values displayed in this chart are based on the filter selections made in the dashboard filter bar."
+  },
+  {
+   "k": "h3",
+   "t": "Structure"
+  },
+  {
+   "k": "h4",
+   "t": "Statistical Information"
+  },
+  {
+   "k": "p",
+   "t": "In-store shopping surpassed online shopping throughout the year. In-store shopping is balanced, whereas online shopping is more volatile, showing peaks between March and May and in November."
+  },
+  {
+   "k": "h4",
+   "t": "Chart Layout Description"
+  },
+  {
+   "k": "p",
+   "t": "Line-chart. Line: 2, point: 24."
+  },
+  {
+   "k": "p",
+   "t": "The chart has a horizontal X axis. Title  .  Start value Jan, end value Dec."
+  },
+  {
+   "k": "p",
+   "t": "The chart has a primary vertical Y axis. Title  . Start value 0, end value 12b."
+  },
+  {
+   "k": "h3",
+   "t": "Number of reference lines: 0. Number of annotations: 0."
+  },
+  {
+   "k": "p",
+   "t": "Display Keyboard Instructions"
+  },
+  {
+   "k": "text",
+   "t": "Interactive line-chart."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Layout"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "height",
+     "number",
+     "300",
+     "Height in px of the chart container."
+    ],
+    [
+     "width",
+     "number",
+     "650",
+     "Width in px of the chart container."
+    ],
+    [
+     "mainTitle",
+     "string",
+     "\"Line Chart Title\"",
+     "The \"dynamic\" tag of title for the chart (or you can create your own separately). See \"highestHeadingLevel\" prop for how tags get assigned."
+    ],
+    [
+     "subTitle",
+     "string/[ISubTitleType](../types/src/prop-types.ts)",
+     "\"This is a subtitle\"",
+     "The \"dynamic\" tag for a sub title for the chart (or you can create your own separately). See \"highestHeadingLevel\" prop for how tags get assigned."
+    ],
+    [
+     "highestHeadingLevel",
+     "string/number",
+     "\"h2\"",
+     "Sets the heading level (which also sets sublevels) for the chart. \"p\", \"span\", and \"div\" are also valid."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Subtitle"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "text",
+     "string",
+     "‘’",
+     "Text of the subtitle."
+    ],
+    [
+     "keywordsHighlight",
+     "[IKeywordsHighlightType](../types/src/prop-types.ts)[]",
+     "",
+     "Configuration used to create highlighted words in the subtitle, an array of objects which includes \"text\", \"mode\", \"color\" and \"index\" keys. See \"IKeywordsHighlightType\" definition below for additional details."
+    ],
+    [
+     "text",
+     "string",
+     "",
+     "A string of one or multiple words in the subtitle text to be given the highlight treatment."
+    ],
+    [
+     "color",
+     "string",
+     "",
+     "HEX code color string to apply to the highlight treatment."
+    ],
+    [
+     "mode",
+     "'text' or 'background'",
+     "\"background\"",
+     "\"text\" will highlight the text itself with the provided color, using \"ensureTextContrast\" utility to ensure text contrast. \"background\" will highlight the background-color of the created \"span\" with the provided color."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Data"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "ordinalAccessor",
+     "string",
+     "\"label\"",
+     "Key used to determine line's categorical property."
+    ],
+    [
+     "valueAccessor",
+     "string",
+     "\"value\"",
+     "Key used to determine line's numeric property. Note: see \"Line interpolation behavior\" below for further details on behavior of lines based on valueAccessor data passed."
+    ],
+    [
+     "seriesAccessor",
+     "string",
+     "\"series\"",
+     "Key used to determine series."
+    ],
+    [
+     "uniqueID",
+     "string",
+     "undefined",
+     "ID used to identify chart (must be unique per chart), helpful for validation messages. Defaults to UUID v4 standard."
+    ],
+    [
+     "data",
+     "object[]",
+     "undefined",
+     "Data used to create chart, an array of objects which includes keys that map to above accessors."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Secondary lines"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "secondaryLines",
+     "object (custom type)",
+     "[ISecondaryType](../types/src/prop-types.ts)",
+     "Array of values used to classify series as secondary."
+    ],
+    [
+     "keys",
+     "string[]",
+     "[]",
+     "Assign keys of secondary lines."
+    ],
+    [
+     "showDataLabel",
+     "boolean",
+     "true",
+     "Sets the visibility of data labels on secondary lines."
+    ],
+    [
+     "showSeriesLabel",
+     "boolean",
+     "true",
+     "Sets the visibility of series labels on secondary lines."
+    ],
+    [
+     "opacity",
+     "number",
+     "1",
+     "Sets the opacity of secondary lines."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Accessibility"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "accessibility",
+     "object (custom type)",
+     "[IAccessibilityType](../types/src/prop-types.ts)",
+     "Manages messages and settings for chart accessibility, see object definition below."
+    ],
+    [
+     "longDescription",
+     "string",
+     "",
+     "Use this to add a helpful description of the chart."
+    ],
+    [
+     "executiveSummary",
+     "string",
+     "",
+     "Use this to describe the biggest takeaway of the chart."
+    ],
+    [
+     "purpose",
+     "string",
+     "",
+     "Use this to describe the purpose of this particular chart."
+    ],
+    [
+     "contextExplanation",
+     "string",
+     "",
+     "Use this to explain any controls or content on your page that affect or are affected by this chart."
+    ],
+    [
+     "title",
+     "string",
+     "",
+     "Gives the chart an alternate title to be used by screen readers."
+    ],
+    [
+     "elementDescriptionAccessor",
+     "string",
+     "",
+     "Optional key used to add an additional description to any element, from your data."
+    ],
+    [
+     "statisticalNotes",
+     "string",
+     "",
+     "Use this to provide any statistical explanations, such as trends, clusters, patterns, or outliers."
+    ],
+    [
+     "structureNotes",
+     "string",
+     "",
+     "Use this to describe special visual features of the chart, such as sorting, color grouping, etc."
+    ],
+    [
+     "includeDataKeyNames",
+     "boolean",
+     "false",
+     "If true, includes data key names in voice over description of each element. (EG \"Year over year growth: 5.6%\" instead of just \"5.6%\")."
+    ],
+    [
+     "hideDataTableButton",
+     "boolean",
+     "false",
+     "If true, hides the data table button (but it is still available to screen reader users)."
+    ],
+    [
+     "disableValidation",
+     "boolean",
+     "false",
+     "If true, disables validations of accessibility props for this chart. Validation is intended to be used during development; upon completion, validation should be disabled."
+    ],
+    [
+     "elementsAreInterface",
+     "any/boolean",
+     "null",
+     "Defaults to null. Set to true if interacting with the elements in this chart affects your application. Otherwise, must be set to false."
+    ],
+    [
+     "onChangeFunc",
+     "function",
+     "undefined",
+     "Custom event listener (changeFunc) that enables dev to control accessibility page experience when chart data updates."
+    ],
+    [
+     "showSmallLabels",
+     "boolean",
+     "false",
+     "Defaults to false. Set to true if you would like to display labels on small elements that are likely to overlap. Note, this could impact accessibility of your graphic."
+    ],
+    [
+     "hideStrokes",
+     "boolean",
+     "false",
+     "Defaults to false. Set to true if you would like to remove automated stroke outlines from the chart. Note, this could impact accessibility of your graphic."
+    ],
+    [
+     "hideTextures",
+     "boolean",
+     "false",
+     "Defaults to false. Set to true if you would like to remove textures from the chart, note, this could impact accessibility of your graphic."
+    ],
+    [
+     "keyboardNavConfig",
+     "[IKeyConfig](../types/src/prop-types.ts)",
+     "{ disabled: false }",
+     "Defaults disabled to false. May be set to true if \"accessibility.elementsAreInterface = false\" and \"suppressEvents = true\". This will disable keyboard navigation and simplify chart instructions for screen reader users."
+    ],
+    [
+     "showExperimentalTextures",
+     "boolean",
+     "false",
+     "Defaults to false. Set to true if you would like leverage our textures which are still undergoing research and development."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Localization"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "localization",
+     "object (custom type)",
+     "[ILocalizationType](../types/src/prop-types.ts)",
+     "Manages messages and settings for chart localization, see object definition below."
+    ],
+    [
+     "language",
+     "string/object",
+     "en",
+     "Use this to add a language to a chart. This can be string value like \"en\" or valid translation object."
+    ],
+    [
+     "numeralLocale",
+     "string/object",
+     "US",
+     "Use this to add a numerical locale to a chart. This can be string value like \"US\" or valid numeralLocale object."
+    ],
+    [
+     "overwrite",
+     "boolean",
+     "false",
+     "Use this to describe the purpose of this particular chart."
+    ],
+    [
+     "skipValidation",
+     "boolean",
+     "false",
+     "If true, disables validations of localization props for this chart. Validation is intended to be used during development; upon completion, validation should be disabled."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Annotation"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "annotations",
+     "array[{annotations}]",
+     "[]",
+     "Adds annotations to the chart."
+    ],
+    [
+     "accessibilityDescription",
+     "string",
+     "undefined",
+     "Sets the accessibility description for the annotation for screen reader users."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Axis"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "xAxis",
+     "object (custom type)",
+     "[IAxisType](../types/src/prop-types.ts)",
+     "Manages settings for the chart's x axis, see object definition below."
+    ],
+    [
+     "yAxis",
+     "object (custom type)",
+     "[IAxisType](../types/src/prop-types.ts)",
+     "Manages settings for the chart's y axis, see object definition below."
+    ],
+    [
+     "minValueOverride",
+     "number",
+     "undefined",
+     "Overrides the calculated default min value."
+    ],
+    [
+     "maxValueOverride",
+     "number",
+     "undefined",
+     "Overrides the calculated default max value."
+    ],
+    [
+     "showBaselineX",
+     "boolean",
+     "false",
+     "When selected, shows the x baseline"
+    ],
+    [
+     "wrapLabel",
+     "boolean",
+     "true",
+     "When selected, wraps axis labels."
+    ],
+    [
+     "visible",
+     "boolean",
+     "true",
+     "Toggles the visibility of the axis."
+    ],
+    [
+     "displayOnly",
+     "string/array",
+     "\"all\"",
+     "Sets display of the available data labels. Options: \"all\", \"first\", \"last\", \"min\" \"max\". Combinations can be done with array."
+    ],
+    [
+     "gridVisible",
+     "boolean",
+     "true",
+     "Toggles the visibility of the axis grid."
+    ],
+    [
+     "label",
+     "string",
+     "\"X Axis\"",
+     "Sets the label for the axis."
+    ],
+    [
+     "unit",
+     "string",
+     "\"\" or \"month\"",
+     "Sets the unit of padding for the axis when accessor is a date."
+    ],
+    [
+     "format",
+     "string",
+     "\"\" or \"%b %y\" or \"0[.][0][0]a\"",
+     "Sets the formatting for axis elements."
+    ],
+    [
+     "tickInterval",
+     "number",
+     "1",
+     "Can be used to reduce the frequency of axis ticks. This number sets the interval of axis ticks that are shown."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Interaction"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "suppressEvents",
+     "boolean",
+     "false",
+     "Suppresses and disables click, hover and mouseOut event emitters. Setting to true can increase performance for non-interactive charts."
+    ],
+    [
+     "cursor",
+     "string",
+     "\"default\"",
+     "Changes pointer type during mouse over on elements. Valid values are \"default\" or \"pointer\"."
+    ],
+    [
+     "onClickEvent",
+     "function",
+     "undefined",
+     "When clickEvent event occurs (e.g., mouse/keyboard click on chart geometry), this event handler will be called with the custom event object (e.g., e), containing data and target node at e.detail \"{data: d, target: n}\". You will need to construct your own functionality of what actions to take within the callback."
+    ],
+    [
+     "clickHighlight",
+     "object[]",
+     "[]",
+     "Data used to track chart selections, an array of objects which includes keys that map to above accessors."
+    ],
+    [
+     "clickStyle",
+     "object (custom type)",
+     "[IClickStyleType](../types/src/prop-types.ts)",
+     "Sets the styling of elements when they are selected, see object definition below."
+    ],
+    [
+     "onHoverEvent",
+     "function",
+     "undefined",
+     "When hoverEvent event occurs (e.g., mouse hover/keyboard focus on chart geometry), this event handler will be called with the custom event object (e.g., e), containing data and target node at e.detail \"{data: d, target: n}\". You will need to construct your own functionality of what actions to take within the callback."
+    ],
+    [
+     "onMouseOutEvent",
+     "function",
+     "undefined",
+     "When mouseOutEvent event occurs (e.g., mouse/keyboard blur on chart geometry), this event handler will be called, and has no data object. You will need to construct your own functionality of what actions to take within the callback."
+    ],
+    [
+     "hoverHighlight",
+     "object",
+     "{}",
+     "Datum object used to track active chart element, the object should include keys that map to above accessors."
+    ],
+    [
+     "hoverStyle",
+     "object (custom type)",
+     "[IHoverStyleType](../types/src/prop-types.ts)",
+     "Sets the styling of elements when they are hovered/focused, see object definition below."
+    ],
+    [
+     "interactionKeys",
+     "string[]",
+     "[]",
+     "Sets the column names of data to interact with."
+    ],
+    [
+     "hoverOpacity",
+     "number",
+     "1",
+     "Sets opacity of inactive elements when hovering/focused on a chart geometry."
+    ],
+    [
+     "onInitialLoadEvent",
+     "function",
+     "undefined",
+     "When initalLoad event occurs (e.g., chart is mounted to window), this event handler will be called with the custom event object (e.g., e), containing the corresponding chartID at e.detail. You will need to construct your own functionality of what actions to take within the callback."
+    ],
+    [
+     "onInitialLoadEndEvent",
+     "function",
+     "undefined",
+     "When initalLoadEnd event occurs (e.g., chart has been mounted to window), this event handler will be called with the custom event object (e.g., e), containing the corresponding chartID at e.detail. You will need to construct your own functionality of what actions to take within the callback."
+    ],
+    [
+     "onDrawStartEvent",
+     "function",
+     "undefined",
+     "When drawStart event occurs (e.g., chart render function is called), this event handler will be called with the custom event object (e.g., e), containing the corresponding chartID at e.detail. You will need to construct your own functionality of what actions to take within the callback."
+    ],
+    [
+     "onDrawEndEvent",
+     "function",
+     "undefined",
+     "When drawEnd event occurs (e.g., chart's stencil lifecycle completes), this event handler will be called with the custom event object (e.g., e), containing the corresponding chartID at e.detail. You will need to construct your own functionality of what actions to take within the callback."
+    ],
+    [
+     "onTransitionEndEvent",
+     "function",
+     "undefined",
+     "When transitionEnd event occurs (e.g., chart geometry's transition lifecycle completes), this event handler will be called with the custom event object (e.g., e), containing the corresponding chartID at e.detail. You will need to construct your own functionality of what actions to take within the callback."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Click style"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "color",
+     "string",
+     "",
+     "Sets the color of the clicked element (requires clickHighlight to be valid and sent)."
+    ],
+    [
+     "strokeWidth",
+     "number",
+     "2",
+     "Sets the stroke width of the clicked element (requires clickHighlight to be valid and sent)."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Hover style"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "color",
+     "string",
+     "",
+     "Sets the color of the hovered element (requires hoverHighlight to be valid and sent)."
+    ],
+    [
+     "strokeWidth",
+     "number",
+     "2",
+     "Sets the stroke width of the hovered element (requires hoverHighlight to be valid and sent)."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Label"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "dataLabel",
+     "object (custom type)",
+     "[IDataLabelType](../types/src/prop-types.ts)",
+     "Controls visibility, styling and placement of data labels, see object definition below."
+    ],
+    [
+     "dataKeyNames",
+     "object",
+     "undefined",
+     "Object that contains mapping of data keys (e.g., accessors) and user friendly names of the data fields. This prop can be used to enable translation of data keys between languages, or just provide a meaningful name for data elements within a chart. The key:value pairs in this object will effect tooltips, data table, aria labels, axes, etc. Anywhere in chart where data key may be exposed to consumers."
+    ],
+    [
+     "seriesLabel",
+     "object (custom type)",
+     "[ISeriesLabelType](../types/src/prop-types.ts)",
+     "Controls visibility, styling and placement of series labels, see object definition below."
+    ],
+    [
+     "legend",
+     "object (custom type)",
+     "[ILegendType](../types/src/prop-types.ts)",
+     "Controls visibility and label of the chart legend, see object definition below."
+    ],
+    [
+     "showTooltip",
+     "boolean",
+     "true",
+     "Toggles whether to display the tooltip on hover/focus on chart geometries."
+    ],
+    [
+     "tooltipLabel",
+     "object (custom type)",
+     "[ITooltipLabelType](../types/src/prop-types.ts)",
+     "Controls visibility, content and format of the chart tooltip, see object definition below."
+    ],
+    [
+     "labelAccessor",
+     "string",
+     "",
+     "Key used to determine label's property."
+    ],
+    [
+     "visible",
+     "boolean",
+     "true",
+     "Toggles the visibility (opacity) of the data labels."
+    ],
+    [
+     "placement",
+     "string",
+     "\"top\"",
+     "Sets the placement of the data label, accepts \"top\" or \"bottom\". Placement option \"auto\" leverages the [resolveLabelCollision](../utils#resolve-label-collision) algorithm and places labels without overlaps in available space on the chart."
+    ],
+    [
+     "format",
+     "string",
+     "\"0[.][0][0]a\"",
+     "Sets the formatting for the data labels. If used with \"text\" or \"string\" values, the value declared in \"labelAccessor\" will be used without any additional formatting."
+    ],
+    [
+     "collisionHideOnly",
+     "boolean",
+     "false",
+     "Toggles whether to run [resolveLabelCollision](../utils#resolve-label-collision) algorithm and hide labels if collision is detected (vs hide and then place). This is overridden by placement being set to \"auto\"."
+    ],
+    [
+     "collisionPlacement",
+     "string",
+     "\"all\"",
+     "Sets the placement of the data label when [resolveLabelCollision](../utils#resolve-label-collision) algorithm is run (dataLabel.placement must be \"auto\"). Examples of values are \"all\", \"top\", \"middle\", \"bottom\", \"left\" and \"right\"."
+    ],
+    [
+     "label",
+     "string[]",
+     "[]",
+     "An array which determines the labels for each line, in order."
+    ],
+    [
+     "visible",
+     "boolean",
+     "true",
+     "Toggles the visibility (opacity) of the series labels."
+    ],
+    [
+     "placement",
+     "string",
+     "\"right\"",
+     "Sets the placement of the series label, accepts \"left\" or \"right\". Placement option \"auto\" leverages the [resolveLabelCollision](../utils#resolve-label-collision) algorithm and places labels without overlaps in available space on the chart."
+    ],
+    [
+     "collisionHideOnly",
+     "boolean",
+     "false",
+     "Toggles whether to run [resolveLabelCollision](../utils#resolve-label-collision) algorithm and hide series labels if collision is detected (vs hide and then place). This is overridden by placement being set to \"auto\"."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Legend"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "visible",
+     "boolean",
+     "true",
+     "Toggles the visibility (opacity/display) of the legend."
+    ],
+    [
+     "interactive",
+     "boolean",
+     "false",
+     "Toggles the interactivity of the legend."
+    ],
+    [
+     "format",
+     "string",
+     "",
+     "Sets the formatting for the legend labels."
+    ],
+    [
+     "labels",
+     "string[]",
+     "",
+     "An array that sets each label in the legend, in order. Passing empty string will populate legend labels directly from data values."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Tooltip label"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "labelAccessor",
+     "string[]",
+     "[]",
+     "An array that determines which property of the data is displayed in the tooltip."
+    ],
+    [
+     "labelTitle",
+     "string[]",
+     "[]",
+     "An array that sets the title for each data property in the tooltip."
+    ],
+    [
+     "format",
+     "string",
+     "",
+     "Sets the formatting for the data properties in the tooltip."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Margin and padding"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "margin",
+     "object (custom type)",
+     "[IBoxModelType](../types/src/prop-types.ts)",
+     "Margin between the subtitle and the chart area, or between the title and chart area if no subtitle is specified, see object definition below."
+    ],
+    [
+     "padding",
+     "object (custom type)",
+     "[IBoxModelType](../types/src/prop-types.ts)",
+     "Padding between plot area and axes lines, see object definition below."
+    ],
+    [
+     "top",
+     "number",
+     "height \\* 0.01",
+     "Sets the top margin/padding for the chart container."
+    ],
+    [
+     "bottom",
+     "number",
+     "height \\* 0.01",
+     "Sets the bottom margin/padding for the chart container."
+    ],
+    [
+     "left",
+     "number",
+     "width \\* 0.01",
+     "Sets the top margin/padding for the chart container."
+    ],
+    [
+     "right",
+     "number",
+     "width \\* 0.01",
+     "Sets the top margin/padding for the chart container."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Style"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "colorPalette",
+     "string",
+     "\"diverging_RtoB\"",
+     "Included color palettes can be found in our design library. Overridden by colors."
+    ],
+    [
+     "colors",
+     "string[]",
+     "undefined",
+     "Accepts array of color strings or color values to customize colors beyond our palettes Colors assigned in order."
+    ],
+    [
+     "dotRadius",
+     "number",
+     "4",
+     "Sets the radius of data points, if visible."
+    ],
+    [
+     "lineCurve",
+     "string",
+     "\"linear\"",
+     "Sets the d3 curve of the line, accepts \"linear\" or \"step\"."
+    ],
+    [
+     "showDots",
+     "boolean",
+     "true",
+     "When selected, makes data point dots visible."
+    ],
+    [
+     "strokeWidth",
+     "string",
+     "\"2\"",
+     "Changes stroke width of series lines."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Reference line"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "referenceLines",
+     "object[]",
+     "[]",
+     "Data that sets the location and labeling of the reference line(s) see object definition below."
+    ],
+    [
+     "referenceStyle",
+     "object (custom type)",
+     "[IReferenceStyleType](../types/src/prop-types.ts)",
+     "Sets the styling of reference line(s) placed on the chart, see object definition below."
+    ],
+    [
+     "label",
+     "string",
+     "undefined",
+     "Sets the label to show for the reference line."
+    ],
+    [
+     "labelPlacementHorizontal",
+     "string",
+     "Chart horizontal layout mode: \"left\" or \"middle\" or \"right\". Chart vertical layout mode: \"top\" or \"bottom\".",
+     "Sets the horizontal label placement for the reference line."
+    ],
+    [
+     "labelPlacementVertical",
+     "string",
+     "Chart horizontal layout mode: \"left\" or \"right\". Chart vertical layout mode: \"top\" or \"middle\" or \"bottom\".",
+     "Sets the vertical label placement for the reference line."
+    ],
+    [
+     "value",
+     "number",
+     "undefined",
+     "Sets the value where to place the reference line, per the axis."
+    ],
+    [
+     "accessibilityDescription",
+     "string",
+     "undefined",
+     "Descriptive text for the reference line which will be provided to screen reader users via VCCs accessibility description's utility."
+    ],
+    [
+     "accessibilityDecorationOnly",
+     "boolean",
+     "undefined",
+     "When the reference line is decorative (e.g., does not provide any additional information), set accessibilityDecorationOnly to true to avoid unnecessary reference line content in VCCs accessibility descriptions."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Reference line style"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "color",
+     "string",
+     "\"pri_grey\"",
+     "Sets the color of the reference line."
+    ],
+    [
+     "strokeWidth",
+     "number",
+     "1",
+     "Sets the stroke width of the reference line."
+    ],
+    [
+     "opacity",
+     "number",
+     "1",
+     "Sets the opacity of the reference line."
+    ],
+    [
+     "dashed",
+     "string",
+     "",
+     "Sets the dash array property of the path element of the reference line."
+    ]
+   ]
+  }
+ ]
+}

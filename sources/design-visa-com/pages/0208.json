@@ -1,0 +1,287 @@
+{
+ "url": "https://design.visa.com/components/list-item/usage",
+ "title": "List item | Components | Visa Product Design System",
+ "h1": "List item",
+ "readAt": "2026-10-15T17:10:10.023Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "List item"
+  },
+  {
+   "k": "p",
+   "t": "Individual containers that can be grouped to create lists in mobile apps."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesStatic list itemClickthrough list itemSwitch list itemCheckbox list itemRadio list item",
+    "Platform considerationsWeb",
+    "ContentLabels",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "A list item is an individual container used to represent options in a list within mobile apps. List items can vary functionally and visually based on the needs of the app or interface.\nAlso known as: List element, list entry, UITableViewCell (iOS), View (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. List title (optional): Label used to group list items.\nB. Hyperlink (optional): Link that navigates users to a new screen, often to show more content.\nC. Leading visual element (optional): Element, such as avatar, icon, or image, used to represent the list item.\nD. List item (required): Label representing the individual list item option.\nE. Divider (optional): Visual element separating the items in a list."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Static list item",
+     "To display a simple list of options or information.",
+     "If the list content needs to be nested more than one level deep and becomes overly complex or lengthy."
+    ],
+    [
+     "Clickthrough list item",
+     "If each item in the list navigates to a different page or section.",
+     "If the list content is simple and doesn’t need to be expanded."
+    ],
+    [
+     "Switch list item",
+     "To allow users to turn on or off certain options in the list. For settings or preference interfaces.",
+     "To switch between alternate options or content views. Use a toggle instead."
+    ],
+    [
+     "Checkbox list item",
+     "If users can select multiple options from the list.",
+     "If options on the list are mutually exclusive."
+    ],
+    [
+     "Radio list item",
+     "If users can select only one option from the list.",
+     "If users may need to select more than one option from the list."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Organize content logically and predictably to help users scan information easily.",
+    "Use icons, avatars, or images consistently to enhance the meaning of list items or to provide additional context.",
+    "Consider implementing a scroll bar once the list reaches a maximum height to allow access to all options without overwhelming the user."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use visual elements to enhance meaning and make list items easily scannable."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use inconsistent visual elements and typography."
+  },
+  {
+   "k": "h3",
+   "t": "Static list item"
+  },
+  {
+   "k": "p",
+   "t": "Static list items are options within a list that users can’t interact with. They only display information and don’t give users the option to select or change the values."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use static list items to present data that doesn’t need to be changed."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Clickthrough list item"
+  },
+  {
+   "k": "p",
+   "t": "Clickthrough list items act as buttons or links that navigate users to a new page or open additional content upon selection."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Clearly indicate that options lead to more information by using visual cues like the arrow icon.",
+    "Ensure the entire list item container is clickable, not just the trailing icon.",
+    "Follow all Link guidance for implementing clickthrough list items."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Switch list item"
+  },
+  {
+   "k": "p",
+   "t": "Switch list items enable users to toggle between two states, usually “on” or “off”. They’re typically used for settings or features that can enabled or disabled."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid using switches for irreversible actions.",
+    "Follow all Switch guidance for implementing switch list items."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox list item"
+  },
+  {
+   "k": "p",
+   "t": "Checkbox list items allow users to select multiple options from a list. Each list item has an associated checkbox that users can check or uncheck. Use checkboxes for multi-select scenarios where users might want to choose more than one item."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Provide immediate visual feedback when a checkbox is selected or deselected to confirm the user’s action.",
+    "Follow all Checkbox guidance for implementing checkbox list items."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Radio list item"
+  },
+  {
+   "k": "p",
+   "t": "Radio list items enable users to select only one option from a list of options. Each item has an associated radio button and selecting one option deselects any previously selected option."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Clearly indicate the selected state of a radio list item.",
+    "Follow all Radio guidance for implementing radio list items."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Group similar or relevant items in the same list set."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Group unrelated items within the same list set."
+  },
+  {
+   "k": "p",
+   "t": "Do     Group static, clickthrough, and switch list items if needed."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Mix radio and checkbox list items together."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Web"
+  },
+  {
+   "k": "p",
+   "t": "List items can also be utilized in web and responsive web applications. Ensure that list items adapt to different screen sizes by allowing option labels to reflow with the container."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use sentence case except for proper nouns or acronyms.",
+    "Use plain language and avoid abbreviations or jargon.",
+    "Avoid using long lines of text, as it decreases readability.",
+    "Reference Content for additional guidance on crafting content within apps and experiences."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit labels to three to five words when possible.",
+    "Be consistent when using plural language or “(s)” in field labels. For example, use “Card type,” “Card types,” or “Card type(s)” consistently. If using “(s),”, use the asterisk method over “(required)” to keep labels concise.",
+    "Avoid using unnecessary articles like “the” or “an,” unless they’re included in the proper name of a product or service.",
+    "Use parallel structure across field labels, using either nouns like “Services” or verbs like “Select a service”. Learn more about parallel structure in Grammar and punctuation."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Accordion"
+  },
+  {
+   "k": "p",
+   "t": "Sets of vertical headers that reveal or hide subsections of content."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Interactive element that lets users select one or more independent choices."
+  },
+  {
+   "k": "h3",
+   "t": "Radio"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  },
+  {
+   "k": "h3",
+   "t": "Switch"
+  },
+  {
+   "k": "p",
+   "t": "Binary control that allows users to toggle between two states like on/off."
+  }
+ ]
+}

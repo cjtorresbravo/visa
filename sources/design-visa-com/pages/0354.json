@@ -1,0 +1,16 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/disabled",
+ "title": "Disabled accordion component | Example | Nova Angular | Visa Product Design System",
+ "h1": null,
+ "readAt": "2026-10-15T17:18:20.145Z",
+ "blocks": [
+  {
+   "k": "text",
+   "t": "Accordion title"
+  },
+  {
+   "k": "text",
+   "t": "This is required text that describes the accordion section in more detail."
+  }
+ ]
+}

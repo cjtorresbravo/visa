@@ -1,0 +1,196 @@
+{
+ "url": "https://design.visa.com/components/anchor-link-menu/usage",
+ "title": "Anchor link menu | Components | Visa Product Design System",
+ "h1": "Anchor link menu",
+ "readAt": "2026-10-15T17:09:03.782Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Anchor link menu"
+  },
+  {
+   "k": "p",
+   "t": "Link menus that navigate to sections within the current page."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesSection titles and nesting",
+    "BehaviorsScrolling behavior",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "The anchor link menu is a set of links mapping to different sections of the same page. It provides a high-level view of the page’s structure and content, and enables users to navigate quickly without having to manually scroll.\nAlso known as: Jump menu, skip navigation menu, page jump menu, in-page navigation menu, table-of-contents links."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Section title (optional): Label used to group or organize navigational links.\nB. Active link indicator (required): Visual indicator showing the active menu item.\nC. Navigational link (required): Label indicating the destination of the menu item on the page.\nD. Vertical rule (required): Element separating the anchor link menu from page content."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "To quickly navigate to the main sections of a page.",
+     "To jump to every sub-section on a page."
+    ],
+    [
+     "As a form of table of contents for a webpage.",
+     "For mobile experiences. Consider using a Navigation drawer instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the order of the menu items is consistent with the corresponding section headings throughout the application.",
+    "Ensure text within the anchor link menu wraps to a second line instead of truncating to ensure it’s fully visible to users.",
+    "Clearly indicate the active menu item to help users know which item corresponds to the displayed content section.",
+    "Avoid exceeding two levels of hierarchy within menus.",
+    "Follow Link guidance when implementing anchor link menus."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use anchor link menus to help users navigate within the same page."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use anchor link menus to navigate to different pages."
+  },
+  {
+   "k": "h3",
+   "t": "Section titles and nesting"
+  },
+  {
+   "k": "p",
+   "t": "Section titles refer to static text used to group navigation items under a common category. This text isn’t interactive and can be used with or without nested navigation items. Nesting refers to organizing navigational items according to their level of hierarchy on the page. Both methods group related content and help users navigate easily."
+  },
+  {
+   "k": "h4",
+   "t": "Section titles"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use only one section title per menu."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Nesting"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit nesting to two level of hierarchy for simplicity."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Scrolling behavior"
+  },
+  {
+   "k": "p",
+   "t": "When a user clicks on a navigational link in the menu, the page will scroll to that content section. The active indicator then moves to the corresponding menu item. As the user scrolls down the page, the current location within the menu should be updated. The anchor link menu should always remain visible and in the same position."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Write all content in sentence case, except for acronyms or proper nouns,",
+    "Ensure menu items match section headings to enhance the user’s understanding of the site’s information hierarchy.",
+    "Don’t use punctuation for links.",
+    "Limit menu labels to a few brief words to prevent unnecessary reflow.",
+    "Reference Grammar and punctuation to learn how to use parallel structure for consistent phrasing."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation"
+  },
+  {
+   "k": "p",
+   "t": "Navigation panel located next to page content on screens with sufficient space."
+  },
+  {
+   "k": "h3",
+   "t": "Link"
+  },
+  {
+   "k": "p",
+   "t": "Text-based navigation elements that take users to another destination."
+  },
+  {
+   "k": "h3",
+   "t": "Navigation drawer"
+  },
+  {
+   "k": "p",
+   "t": "Collapsible navigation panels that float over page content on small screens."
+  },
+  {
+   "k": "h3",
+   "t": "Information architecture"
+  },
+  {
+   "k": "p",
+   "t": "Identify the best organizational structure based on page types and user needs."
+  }
+ ]
+}

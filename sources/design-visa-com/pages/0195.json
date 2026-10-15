@@ -1,0 +1,111 @@
+{
+ "url": "https://design.visa.com/components/dropdown-menu/accessibility",
+ "title": "Dropdown menu | Components | Visa Product Design System",
+ "h1": "Dropdown menu",
+ "readAt": "2026-10-15T17:09:48.560Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Dropdown menu"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Keyboard controls"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "p",
+   "t": "Note: Dropdown menu is a composite component.  Some of the following requirements are handled by the component out of the box. The contents of the menu are coded in a list comprised of buttons or links so screen readers announce the number of items in the menu."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the button that opens the menu uses aria-expanded, which is true when the menu is open, and aria-controls with the id value of the menu container.",
+    "Ensure the menu (which is a container with a list) uses aria-hidden, which is false when the menu is closed, and an id which is referenced by the triggering button."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard controls"
+  },
+  {
+   "k": "p",
+   "t": "Dropdown menus are not coded as listboxes, unlike some similar components. Elements within the dropdown menu use their native roles and shouldn’t have added role attributes."
+  },
+  {
+   "k": "p",
+   "t": "For menu items with actionable items (given the role of buttons in this case), Up/Down arrow keys are not applicable. When the menu is expanded, the user can navigate within the menu using Tab/Shift+Tab keys."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Key",
+     "Behavior"
+    ],
+    [
+     "Enter or Space",
+     "Prompts button."
+    ],
+    [
+     "Tab",
+     "Moves to the next focusable element within the menu (unlike listbox). If focus is on the last item, tab closes the menu and moves to the next focusable element on the page."
+    ],
+    [
+     "Shift+Tab",
+     "Moves to the previous focusable element within the menu; if focus is on the first item, shift + tab moves to the triggering element."
+    ],
+    [
+     "Esc",
+     "Closes the menu."
+    ]
+   ]
+  }
+ ]
+}

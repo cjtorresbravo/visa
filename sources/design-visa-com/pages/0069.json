@@ -1,0 +1,339 @@
+{
+ "url": "https://design.visa.com/components/accordion",
+ "title": "Accordion | Components | Visa Product Design System",
+ "h1": "Accordion",
+ "readAt": "2026-10-15T17:07:04.191Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Accordion"
+  },
+  {
+   "k": "p",
+   "t": "Sets of vertical headers that reveal or hide subsections of content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default accordions",
+    "Single-select accordions",
+    "Multi-select accordions",
+    "Custom accordions"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Default accordions"
+  },
+  {
+   "k": "h3",
+   "t": "Collapsed accordion"
+  },
+  {
+   "k": "text",
+   "t": "Loading accordion example Collapsed accordion"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Expanded accordion"
+  },
+  {
+   "k": "text",
+   "t": "Loading accordion example Expanded accordion"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "Single-select accordions"
+  },
+  {
+   "k": "h2",
+   "t": "Multi-select accordions"
+  },
+  {
+   "k": "h2",
+   "t": "Custom accordions"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-accordion"
+    ],
+    [
+     "details.v-accordion"
+    ],
+    [
+     ".v-accordion-heading"
+    ],
+    [
+     "summary.v-accordion-heading"
+    ],
+    [
+     ".v-accordion-toggle-icon"
+    ],
+    [
+     ".v-accordion-toggle-icon-open"
+    ],
+    [
+     ".v-accordion-toggle-icon-closed"
+    ],
+    [
+     ".v-accordion-panel"
+    ],
+    [
+     ".v-accordion-subtle"
+    ],
+    [
+     ".v-accordion-heading.v-button-tertiary"
+    ],
+    [
+     "summary.v-accordion-heading[disabled]"
+    ],
+    [
+     ".v-accordion[open]"
+    ],
+    [
+     "details.v-accordion[open]"
+    ],
+    [
+     ".v-button[aria-controls=\"panel-id\"]"
+    ],
+    [
+     ".v-button[aria-expanded=\"false\"]"
+    ],
+    [
+     ".v-accordion-panel[aria-hidden=\"false\"]"
+    ],
+    [
+     ".v-accordion-heading>span"
+    ],
+    [
+     ".v-accordion[aria-controls=\"panel-id\"]"
+    ],
+    [
+     ".v-accordion[aria-expanded=\"false\"]"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Value"
+    ],
+    [
+     "--v-accordion-align-items",
+     "flex-start"
+    ],
+    [
+     "--v-accordion-block-size",
+     "var(--size-scalable-46)"
+    ],
+    [
+     "--v-accordion-button-padding-block-large",
+     "calc((var(--v-button-default-block-size-large) - var(--v-accordion-icon-size)) / 2)"
+    ],
+    [
+     "--v-accordion-button-padding-block-medium",
+     "calc((var(--v-button-default-block-size) - var(--v-accordion-icon-size)) / 2)"
+    ],
+    [
+     "--v-accordion-button-padding-block-small",
+     "calc((var(--v-button-default-block-size-small) - var(--v-accordion-icon-size)) / 2)"
+    ],
+    [
+     "--v-accordion-icon-color",
+     "var(--palette-default-active)"
+    ],
+    [
+     "--v-accordion-icon-margin",
+     "var(--size-scalable-3)"
+    ],
+    [
+     "--v-accordion-icon-size",
+     "1.5714285714rem"
+    ],
+    [
+     "--v-accordion-items-gap",
+     "var(--size-scalable-6)"
+    ],
+    [
+     "--v-accordion-justify-content",
+     "flex-start"
+    ],
+    [
+     "--v-accordion-padding-block",
+     "0px"
+    ],
+    [
+     "--v-accordion-padding-inline",
+     "var(--size-scalable-12)"
+    ],
+    [
+     "--v-accordion-toggle-icon-size",
+     "1.1428571429rem"
+    ],
+    [
+     "--v-accordion-background",
+     "var(--palette-default-surface-1)"
+    ],
+    [
+     "--v-accordion-border-color",
+     "var(--palette-default-border)"
+    ],
+    [
+     "--v-accordion-border-size",
+     "calc(var(--theme-border-size) / 2)"
+    ],
+    [
+     "--v-accordion-border-radius",
+     "var(--size-rounded-medium)"
+    ],
+    [
+     "--v-accordion-border-style",
+     "solid"
+    ],
+    [
+     "--v-accordion-foreground-initial",
+     "var(--palette-default-text)"
+    ],
+    [
+     "--v-accordion-expanded-foreground",
+     "var(--palette-default-active)"
+    ],
+    [
+     "--v-accordion-panel-background-color",
+     "var(--v-accordion-background)"
+    ],
+    [
+     "--v-accordion-panel-border-color",
+     "var(--v-accordion-border-color)"
+    ],
+    [
+     "--v-accordion-panel-border-radius",
+     "var(--size-rounded-medium)"
+    ],
+    [
+     "--v-accordion-panel-border-size",
+     "calc(var(--theme-border-size) / 2)"
+    ],
+    [
+     "--v-accordion-panel-border-style",
+     "solid"
+    ],
+    [
+     "--v-accordion-panel-padding-block",
+     "var(--size-scalable-8) var(--size-scalable-16)"
+    ],
+    [
+     "--v-accordion-panel-padding-inline",
+     "var(--size-scalable-40)"
+    ],
+    [
+     "--v-accordion-subtle-background",
+     "var(--palette-default-transparent)"
+    ],
+    [
+     "--v-accordion-subtle-gap",
+     "var(--size-scalable-2)"
+    ],
+    [
+     "--v-accordion-subtle-foreground-initial",
+     "var(--palette-default-active)"
+    ],
+    [
+     "--v-accordion-subtle-padding-inline",
+     "var(--size-scalable-8)"
+    ]
+   ]
+  }
+ ]
+}

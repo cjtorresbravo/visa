@@ -1,0 +1,75 @@
+{
+ "url": "https://design.visa.com/base-elements/size-and-shape",
+ "title": "Size and shape | Base elements | Visa Product Design System",
+ "h1": "Size and shape",
+ "readAt": "2026-10-15T17:06:53.130Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Size and shape"
+  },
+  {
+   "k": "p",
+   "t": "Find examples and classes for defining the dimensions and shape of elements in your designs."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Sizes",
+    "Shapes"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Sizes"
+  },
+  {
+   "k": "h2",
+   "t": "Shapes"
+  }
+ ]
+}

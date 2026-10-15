@@ -1,0 +1,166 @@
+{
+ "url": "https://design.visa.com/components/horizontal-navigation",
+ "title": "Horizontal navigation | Components | Visa Product Design System",
+ "h1": "Horizontal navigation",
+ "readAt": "2026-10-15T17:07:26.849Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Menu placed at the top of a site that links to important pages or features."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default horizontal navigations",
+    "Horizontal navigations with persistent serach",
+    "Custom horizontal navigations",
+    "APIClassesVariables"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Default horizontal navigations"
+  },
+  {
+   "k": "h3",
+   "t": "Default horizontal navigation"
+  },
+  {
+   "k": "text",
+   "t": "Loading horizontal-navigation example Default horizontal navigation"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal navigation with active element"
+  },
+  {
+   "k": "text",
+   "t": "Loading horizontal-navigation example Horizontal navigation with active element"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "Horizontal navigations with persistent serach"
+  },
+  {
+   "k": "h2",
+   "t": "Custom horizontal navigations"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-nav"
+    ],
+    [
+     ".v-nav-horizontal"
+    ],
+    [
+     ".v-alternate"
+    ],
+    [
+     ".v-desktop-container-hide"
+    ],
+    [
+     ".v-mobile-container-hide"
+    ],
+    [
+     ".v-xs-container-hide"
+    ],
+    [
+     "a[aria-current=\"page\"]"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "p",
+   "t": "No exposed properties for variables."
+  }
+ ]
+}

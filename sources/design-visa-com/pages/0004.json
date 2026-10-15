@@ -1,0 +1,261 @@
+{
+ "url": "https://design.visa.com/about-VPDS/inclusive-design",
+ "title": "Inclusive design | About VPDS | Visa Product Design System",
+ "h1": "Inclusive design",
+ "readAt": "2026-10-15T17:05:44.710Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Inclusive design"
+  },
+  {
+   "k": "p",
+   "t": "Gain insight into the use of inclusive design to ensure Visa products include everyone, everywhere."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Inclusive design processThe design process at Visa",
+    "Inclusive research",
+    "ImpactFinancial inclusionOpportunities within payment",
+    "Resources (internal only)",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Inclusive Design considers the full range of human uniqueness and the diversity of perspectives, abilities, and backgrounds throughout the product design and development process. The intent is to fulfill as many needs as possible and drive innovation that unlocks equitable, accessible, and ethical experiences. This guidance provides an overview of key concepts and their impacts, such as how Design@Visa infuses Inclusive Design throughout its practices and embodies an equity-driven approach."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "h3",
+   "t": "Embody an equity-based approach"
+  },
+  {
+   "k": "p",
+   "t": "Strive for an equity-based approach. When designing, we start by addressing the needs of underrepresented groups, ensuring fair treatment and opportunity, and then design outward. This approach helps us create digital experiences that are truly inclusive and beneficial to all users."
+  },
+  {
+   "k": "p",
+   "t": "This is the counterpart to an equality-based approach, in which resources are allocated equally regardless of barriers that may prevent some groups from accessing or utilizing them. In an equity-based approach, fair treatment and opportunity are afforded while striving to deconstruct barriers that prevent the all groups from participating equally."
+  },
+  {
+   "k": "h3",
+   "t": "Embrace the complexity of human uniqueness"
+  },
+  {
+   "k": "p",
+   "t": "Human identities are complex intersections of various factors such as class, gender, ethnicity, and more. These elements interplay and can’t be singled out to determine how inequity impacts an individual. During your product design process, respect this complexity to build digital experiences that enhance access and reduce barriers for all users, especially those from underrepresented groups."
+  },
+  {
+   "k": "h3",
+   "t": "Avoid centering on dominant culture"
+  },
+  {
+   "k": "p",
+   "t": "Consciously avoid designing from the perspective of a dominant culture, which often becomes the default lens for design decisions. Recognizing dominant defaults allows us to disrupt these norms, creating more inclusive designs."
+  },
+  {
+   "k": "p",
+   "t": "One way to accomplish this is by using the term “misrepresented” instead of “marginalized,” “underserved,” “unserved,” “vulnerable,” or similar terms. Misrepresented identities are those that have been defined by the dominant culture and denied the ability to define themselves on their own terms. They are falsely or narrowly represented.  In terms of financial terminology, avoid phrases like “underbanked” or “unbanked,” as they don’t fully encompass financial inclusion. Instead, use “underinvested”."
+  },
+  {
+   "k": "h3",
+   "t": "Strive for greater financial inclusion"
+  },
+  {
+   "k": "p",
+   "t": "As a global leader in digital payments, Visa is committed to fostering inclusion, particularly financial inclusion, as a part of our corporate responsibility. Our mission is to uplift all individuals, everywhere, by providing the best payment solutions. Strive to dismantle barriers to financial access, such as expanding account accessibility to include more participants in the global economy."
+  },
+  {
+   "k": "h2",
+   "t": "Inclusive design process"
+  },
+  {
+   "k": "p",
+   "t": "The design process is the way in which product teams approach meeting a user need and is imperative to bringing a product to market. The core group of cross-functional team members, or Triad, is responsible for product delivery and are responsible for proactively addressing inclusion at every step of the process. The Triad includes a product lead, a design lead, and a technology lead (engineering). All three are involved in all the conversations of end-to-end product delivery."
+  },
+  {
+   "k": "h3",
+   "t": "The design process at Visa"
+  },
+  {
+   "k": "p",
+   "t": "Our design process is an iterative approach in which:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Design is an end-to end partner to product, technology, and beyond",
+    "Designers work iteratively to discover, define, develop, and deliver great experiences and outcomes",
+    "Design teams are structured across three pillars: Opportunity, Experience, and Solution"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Human-centered design and inclusive design"
+  },
+  {
+   "k": "p",
+   "t": "Inclusive Design is a part of human-centered design, where both put real humans and the problems they face at the center of the design and development process. At its core, human-centered design is based on a philosophy made to ensure products and services are tailored to the needs of as many users within an audience as possible.\nInclusive design is more focused and considers the full range of human diversity, including physical and mental abilities, language, race, gender, age, and other forms of human differences. It aims to drive innovation that unlocks equitable, accessible, and ethical experiences for all backgrounds and abilities. When practicing human-centered design, inclusive design should be considered a part of your process."
+  },
+  {
+   "k": "h4",
+   "t": "Universal design and accessible design"
+  },
+  {
+   "k": "p",
+   "t": "Universal and accessible design are often confused for one another. While the two concepts are closely related to inclusive design, accessibility is focused on ensuring that people of all abilities can use digital products and tools equally, where universal design aims to create one experience that can be accessed, understood, and used to the greatest extent possible by all users with a wide range of abilities, disabilities, and other characteristics.\nUniversal design differs from human-centered design as universal design is more conceptual and philosophical, while user-centered design process-focused. When using human-centered design processes, keep inclusive, universal, and accessible design philosophies and methodologies in mind to help reduce barriers between humans and technology."
+  },
+  {
+   "k": "h2",
+   "t": "Inclusive research"
+  },
+  {
+   "k": "p",
+   "t": "Design research is heavily involved in the Discover and Define phases of the design process. These phases focus on deep discovery of a user need (getting the right need) and definition of the need (getting the need right), while surfacing recommendations for when a solution gets designed. Research is user-driven, as it is directed at generating new ideas or evaluating what’s been built to provide the best experience possible for users. Design research should be performed by design researchers, and in the absence of design researchers, designers, developers, and product managers should partner to ensure inclusion is incorporated in the design process. Teams should consult with the design research organization to ensure they are measuring their product team inclusion (using the Inclusion score), and incorporating inclusion into their process in the recommended manner."
+  },
+  {
+   "k": "h3",
+   "t": "Examples of how design research can boost inclusion:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Validate that the need actually exists with users (don’t design for something they don’t need)",
+    "Include the right data by ensuring there’s a proper sample size to provide useful feedback and including secondary and tertiary personas in addition to primary personas..",
+    "Enlist co-design, a participatory approach in which the community of users is treated as an equal collaborator",
+    "Ensure diversity of collaborators, and involve them early in the design process"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Impact"
+  },
+  {
+   "k": "p",
+   "t": "Companies are expected to be transparent around their business approach now more than ever. ​Consumers have become more conscious as they desire to align themselves with brands, companies, and products that share their social, political, and moral values."
+  },
+  {
+   "k": "h3",
+   "t": "Financial inclusion"
+  },
+  {
+   "k": "p",
+   "t": "As a global leader in digital commerce and finance, Visa processes billions of transactions daily and drives economies worldwide with its vast payment network. This positions us uniquely to foster global financial inclusion. It’s our responsibility to ensure our services are designed for all individuals and businesses, regardless of their demographic or business attributes. We also have the capacity to create opportunities for those previously unable to partake in local and global economies.\nTo achieve this, we apply inclusive design practices in our focused areas. Throughout the design and development lifecycle, the cost of change can escalate considerably. However, this can be mitigated by understanding the real needs of users and businesses and translating these needs into appropriate specifications from the beginning of the design process."
+  },
+  {
+   "k": "h3",
+   "t": "Opportunities within payment"
+  },
+  {
+   "k": "p",
+   "t": "Within the payments space there are many emerging B2C and B2B business cases to build more inclusive products. Below are a few examples of how Visa is working to create inclusive experiences."
+  },
+  {
+   "k": "p",
+   "t": "Enabling digitally inclusive government-to-citizen payments​"
+  },
+  {
+   "k": "p",
+   "t": "Designing with government beneficiaries and financial institutions to increase cards used as a payment tool instead of a cash-access tool in government disbursement programs."
+  },
+  {
+   "k": "p",
+   "t": "Increasing affordability with installments"
+  },
+  {
+   "k": "p",
+   "t": "Designing with consumers to help manage cash flow and budget based on their current financial position."
+  },
+  {
+   "k": "p",
+   "t": "Ensuring global mobility with Tap to Phone"
+  },
+  {
+   "k": "p",
+   "t": "Designing with consumers and small- and mid-sized businesses may to help increase the types of phones that work with Tap to Phone (TTP)."
+  },
+  {
+   "k": "p",
+   "t": "Allowing chosen name on credit cards"
+  },
+  {
+   "k": "p",
+   "t": "Designing with LGBTQIA+ consumers and financial institutions to reduce false positives on credit applications, or help issuers avoid deadnaming LGBTQIA+ community members."
+  },
+  {
+   "k": "h4",
+   "t": "ESG reports"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Explore Visa’s current and past Environmental, Social and Governance Reports to learn how we’re delivering our purpose to uplift everyone, everywhere by being the best way to pay and be paid."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Case studies"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Learn how Visa is collaborating with Fintech partners to help pioneer new modes of commerce and new ways to pay."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "White papers"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Explore the Visa Economic Empowerment Institute’s white papers on fostering digital inclusion."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Resources (internal only)"
+  },
+  {
+   "k": "list",
+   "items": [
+    "VGAR SharePoint",
+    "Inclusion & Diversity Hub"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Content"
+  },
+  {
+   "k": "p",
+   "t": "Explore our content guidelines to craft thoughtful and consistent interface content for a well-designed user experience."
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "url": "https://design.visa.com/patterns/wizard/task-flows",
+ "title": "Wizard | Patterns | Visa Product Design System",
+ "h1": "Wizard",
+ "readAt": "2026-10-15T17:11:57.085Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Wizard"
+  },
+  {
+   "k": "p",
+   "t": "A tool that combines navigation controls and numbered steps to guide users through complex forms."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Task flows",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Task flow typesFixed wizardBranching wizard",
+    "Feedback flows and status updatesFeedback within stepsFeedback between stepsAddressing network errors",
+    "Communicating successSuccess messageSuccess page"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Task flows refer to the steps users progress through when interacting with patterns. They’re based on specific scenarios and demonstrate how users can successfully perform tasks within each pattern layout. To find prototypes for the task flow examples shown on this page, visit our Task flows (internal only)."
+  },
+  {
+   "k": "h2",
+   "t": "Task flow types"
+  },
+  {
+   "k": "p",
+   "t": "There are two types of wizard task flows: fixed and branching. Fixed wizards have a predetermined number of steps, while branching wizards add or remove steps dynamically based on user input. Both task flows can be implemented with any of the patterns outlined in the usage guidelines."
+  },
+  {
+   "k": "p",
+   "t": "Note: For both flow types, the multi-page example is shown using the “wizard with horizontal stepper” pattern. To create these flows with a vertical multi-page pattern, reference the wizard with vertical stepper. In addition, the mobile pattern is only shown with the fixed flow, but can be implemented with branching logic as needed."
+  },
+  {
+   "k": "h3",
+   "t": "Fixed wizard"
+  },
+  {
+   "k": "p",
+   "t": "Fixed wizards have a predetermined structure. All users encounter the same fields regardless of their input and may return to previous steps and change their input without affecting their progression through the form."
+  },
+  {
+   "k": "h4",
+   "t": "Fixed wizard with multi-page pattern"
+  },
+  {
+   "k": "h4",
+   "t": "Fixed wizard with single-page pattern"
+  },
+  {
+   "k": "h4",
+   "t": "Fixed wizard mobile pattern"
+  },
+  {
+   "k": "h3",
+   "t": "Branching wizard"
+  },
+  {
+   "k": "p",
+   "t": "Branching wizards update dynamically based on the user input. As fields are completed, branching logic determines if additional fields are relevant moving forward."
+  },
+  {
+   "k": "p",
+   "t": "Note: Multi-page patterns are the preferred pattern for branching wizards, as it’s easier for users to tell when an additional step has been added. The single-page pattern is only recommended for shorter forms with minimal branching logic."
+  },
+  {
+   "k": "h4",
+   "t": "Branching wizard with multi-page pattern"
+  },
+  {
+   "k": "h4",
+   "t": "Branching wizard with single-page pattern"
+  },
+  {
+   "k": "p",
+   "t": "Do     Add additional fields by creating a new step to avoid disorienting users."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Add new fields to existing steps, as it complicates branching logic and can lead to confusion."
+  },
+  {
+   "k": "p",
+   "t": "Do     Add or remove steps after the user’s current step so they can continue progressing forward."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Add or remove steps behind the user’s current step, as this may be confusing or frustrating."
+  },
+  {
+   "k": "h2",
+   "t": "Feedback flows and status updates"
+  },
+  {
+   "k": "p",
+   "t": "Feedback typically occurs after the user takes an action to help them correct mistakes or guide next steps. Status refers to updates that typically don’t require user action. Both communicate important information to users such as errors and success."
+  },
+  {
+   "k": "p",
+   "t": "Feedback and status updates can be communicated during the wizard flow, either in the middle of a step or when the user transitions between steps."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reference Forms to learn more about form validation, as forms are a key part of a wizard flow.",
+    "Reference Feedback and status to learn more about communicating feedback and status.",
+    "Reference Messaging for guidance on crafting content within alert messages."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Feedback within steps"
+  },
+  {
+   "k": "p",
+   "t": "Feedback within steps refers to error feedback that’s provided as soon as the user removes focus from a field. This can help catch simple mistakes as soon as they happen."
+  },
+  {
+   "k": "h4",
+   "t": "Removing focus from a field"
+  },
+  {
+   "k": "p",
+   "t": "In this flow, the user removes focus from a field, either leaving it blank or inputting data in the wrong format. Feedback should be provided immediately in the form of an error."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use an inline error message to call attention to the error and help the user correct it quickly.",
+    "Use clear language to explain the error and how to fix it. For example, ensure the message highlights if the field was left blank or provides the correct format so the user can correct it quickly."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Feedback between steps"
+  },
+  {
+   "k": "p",
+   "t": "Feedback between steps occurs when errors are caught as the user tries to move from one step to the next. This type of feedback calls attention to errors that weren’t caught earlier and notifies users that they can’t proceed without making corrections."
+  },
+  {
+   "k": "h4",
+   "t": "Trying to proceed with errors"
+  },
+  {
+   "k": "p",
+   "t": "In this flow, the user tries to move past their current step with errors. This can happen if errors weren’t caught as soon as they occurred or if they’re more difficult to catch, such as an invalid credit card number."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use inline error messages to call attention to fields with errors.",
+    "Use a section message to notify users that they can’t proceed past their current step without correcting errors.",
+    "Use clear language to tell the user what went wrong and how to fix it."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Allow users to select the “Next” button, even if the section is incomplete, as this is what prompts messaging to appear."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Disable the “Next” button, as users may not understand why they can’t proceed."
+  },
+  {
+   "k": "h4",
+   "t": "Editing previous steps in branching flows"
+  },
+  {
+   "k": "p",
+   "t": "In this flow, the user edits a previously completed step in a branching flow. Their new input affects step logic and causes an additional step to be added."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a section message to inform users that a step has been added as soon as branching logic determines one is necessary. This prevents confusion by calling attention to the change in the user’s workflow."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Addressing network errors"
+  },
+  {
+   "k": "p",
+   "t": "In this flow, network or connectivity errors prevent submission. This can happen due to network or server failures when users try to move from one step to the next or submit the form at the end of the flow."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a banner to notify users that there’s a network error preventing form submission."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Communicating success"
+  },
+  {
+   "k": "p",
+   "t": "Success confirmations give users confidence that they’ve successfully completed a wizard. There are two methods for communicating success: using a flag or navigating to a separate page. Whichever method you select, use it consistently across your experiences."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use either a success flag or a success page, not both.",
+    "Include calls to action when applicable, such as a tracking link or button to print responses.",
+    "Reference Feedback and status to learn more about communicating success.",
+    "Reference Messaging for guidance on crafting content within success messages."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Success message"
+  },
+  {
+   "k": "p",
+   "t": "Success messages appear on the page that the user is directed to after exiting a wizard. Use a success flag instead of a success page when there are no follow-up actions required from the user."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a flag to communicate system- or section-level success messages."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Success page"
+  },
+  {
+   "k": "p",
+   "t": "A success page is a landing page the user is directed to after submission. Use this method to encourage further engagement, such as visiting additional resources or starting a new task."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Provide a summary within the main content area of the page to communicate what the user completed.",
+    "Use clear calls to action to ensure users can easily navigate to the main site or relevant resources."
+   ]
+  }
+ ]
+}

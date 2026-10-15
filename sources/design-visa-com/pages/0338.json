@@ -1,0 +1,1637 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/multiselect",
+ "title": "Multiselect | Component | Nova Angular | Visa Product Design System",
+ "h1": "Multiselect",
+ "readAt": "2026-10-15T17:17:27.402Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Multiselect"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default multiselect",
+    "Multiselect with inline message",
+    "Multiselect with error",
+    "Multiselect with disabled option",
+    "Disabled multiselect",
+    "Read-only multiselect",
+    "Multiselect without dropdown chevron",
+    "Multiselect with multiple selections and vertical scroll",
+    "Multiselect with select and unselect all buttons",
+    "Multiselect with scrollbar",
+    "Multiselect with infinite menu scroll",
+    "Multiselect with filterable menu and manual selection",
+    "Multiselect with filterable menu and automatic selection",
+    "Template-driven multiselect",
+    "Model-driven multiselect",
+    "Model-driven multiselect form with FormBuilder",
+    "Reusable multiselect demo"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Default multiselects"
+  },
+  {
+   "k": "h3",
+   "t": "Default multiselect"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect with inline message"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect with error"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect with disabled option"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled multiselect"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "Mark input as disabled"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Read-only multiselect"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "(read-only)"
+  },
+  {
+   "k": "text",
+   "t": "Mark input as read-only"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect without dropdown chevron"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect with multiple selections and vertical scroll"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "Option A"
+  },
+  {
+   "k": "text",
+   "t": "Option B"
+  },
+  {
+   "k": "text",
+   "t": "Option C"
+  },
+  {
+   "k": "text",
+   "t": "Option D"
+  },
+  {
+   "k": "text",
+   "t": "Option E"
+  },
+  {
+   "k": "text",
+   "t": "Option F"
+  },
+  {
+   "k": "text",
+   "t": "Option G"
+  },
+  {
+   "k": "text",
+   "t": "Option H"
+  },
+  {
+   "k": "text",
+   "t": "Option I"
+  },
+  {
+   "k": "text",
+   "t": "Option J"
+  },
+  {
+   "k": "text",
+   "t": "Option K"
+  },
+  {
+   "k": "text",
+   "t": "Option L"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect with select and unselect all buttons"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect with scrollbar"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect with infinite menu scroll"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Multiselect behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect with filterable menu and manual selection"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect with filterable menu and automatic selection"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "Option A"
+  },
+  {
+   "k": "text",
+   "t": "Option B"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Framework-specific multiselects"
+  },
+  {
+   "k": "h3",
+   "t": "Template-driven multiselect"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "Option B"
+  },
+  {
+   "k": "text",
+   "t": "Label: Option B"
+  },
+  {
+   "k": "text",
+   "t": "Value: [option-b]"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Model-driven multiselect"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "Option A"
+  },
+  {
+   "k": "text",
+   "t": "Label: Option A"
+  },
+  {
+   "k": "text",
+   "t": "Value: [option-a]"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Model-driven multiselect form with FormBuilder"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "Value: null"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Reusable multiselect demo"
+  },
+  {
+   "k": "text",
+   "t": "#AI-first"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "h4",
+   "t": "Boolean properties"
+  },
+  {
+   "k": "text",
+   "t": "Input message"
+  },
+  {
+   "k": "text",
+   "t": "Auto filter"
+  },
+  {
+   "k": "text",
+   "t": "Auto select"
+  },
+  {
+   "k": "text",
+   "t": "Disabled"
+  },
+  {
+   "k": "text",
+   "t": "Hide dropdown button"
+  },
+  {
+   "k": "text",
+   "t": "Hide selection buttons"
+  },
+  {
+   "k": "text",
+   "t": "Invalid"
+  },
+  {
+   "k": "text",
+   "t": "Readonly"
+  },
+  {
+   "k": "h4",
+   "t": "Text/numeric properties"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "Message"
+  },
+  {
+   "k": "text",
+   "t": "Options (JSON array)"
+  },
+  {
+   "k": "text",
+   "t": "Each option should be an object with \"label\" and \"value\" properties, and optionally \"disabled\"."
+  },
+  {
+   "k": "text",
+   "t": "Apply"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "ComboboxDirective",
+    "FloatingUIContainer",
+    "InputContainerComponent",
+    "LabelDirective",
+    "InputDirective",
+    "FloatingUITriggerDirective",
+    "ListboxDirective",
+    "FloatingUIElementDirective",
+    "IconToggleComponent",
+    "ComboboxService",
+    "ListboxService",
+    "FloatingUIService",
+    "AppReadyService",
+    "IdGenerator",
+    "NovaLibService",
+    "ComboboxFilterType",
+    "FloatingUIPlacements",
+    "FloatingUIVisibility",
+    "IconToggle"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ComboboxDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-combobox]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "disabledInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets component as disabled when true.",
+     "false"
+    ],
+    [
+     "disabledInputChild",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "inputValueEffect",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "invalidInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Marks component as invalid when true.",
+     "false"
+    ],
+    [
+     "invalidInternal",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "listboxValueEffect",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "readonly",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "readonlyInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets component as readonly when true.",
+     "false"
+    ],
+    [
+     "removeReadonlyText",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Removes appended screenreader readonly text when true. By default (when removeReadonlyText=\"false\"), if a combobox is readonly, a span element with text '(readonly)' will be appended to the label element for screenreader support.",
+     "false"
+    ],
+    [
+     "required",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Marks component as required when true.",
+     "false"
+    ],
+    [
+     "selectedItemLabelReady",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "selectFirstFilteredItemEffect",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "value",
+     "@Input()",
+     "",
+     "ComboboxValue",
+     "Value of combobox. Use [value] when you want to handle the value of the combobox. Use (valuedChange) when you want the library to handle the value of the combobox, but get notified of changes. Use [(value)] when you want the value to reflect changes by both you and the library.",
+     "false"
+    ],
+    [
+     "valueEffect",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "filter",
+     "@Output()",
+     "",
+     "{ type: ComboboxFilterType; listbox: SingleSelectValue | MultiSelectValue | null; input?: string | null; }",
+     "Emitted when a listbox item is selected, when an input value is entered, and when the combobox is reset. Subscribe to provide your own filter function when this event is emitted. Emits { type: 'selection' | 'input' | 'reset'; listbox: string; input: string } where type is the type of filter event, listbox is the value of the selected item(s), and input is the value of the input.",
+     ""
+    ],
+    [
+     "filteredListEmitter",
+     "@Output()",
+     "",
+     "any[]",
+     "Emits the filtered array of ListboxItemComponents when the list is filtered by ComboboxService.",
+     ""
+    ],
+    [
+     "itemSelected",
+     "@Output()",
+     "",
+     "SingleSelectValue | MultiSelectValue | null",
+     "Emits value of selected item(s).",
+     ""
+    ],
+    [
+     "value",
+     "@Output()",
+     "",
+     "ComboboxValue",
+     "Value of combobox. Use [value] when you want to handle the value of the combobox. Use (valuedChange) when you want the library to handle the value of the combobox, but get notified of changes. Use [(value)] when you want the value to reflect changes by both you and the library.",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - FloatingUIContainer"
+  },
+  {
+   "k": "text",
+   "t": "[v-floating-ui-container]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "closeOnClick",
+     "@Input()",
+     "true",
+     "boolean, unknown",
+     "Closes the menu on item click/select when true. If multiselect is set to true, it will not take effect.",
+     "false"
+    ],
+    [
+     "eventsArrayInput",
+     "@Input()",
+     "[ [new UIEvent('mouseenter'), FloatingUIVisibility.SHOW], [new UIEvent('mouseleave'), FloatingUIVisibility.HIDE], [new UIEvent('focus'), FloatingUIVisibility.SHOW], [new UIEvent('blur'), FloatingUIVisibility.HIDE] ] for tooltip [ [new UIEvent('click')] ] for dropdown-menu and floating-ui-element [] Ie. events are removed for combobox.",
+     "UIEventVisibilityPair | null",
+     "Events array for FloatingUIService. This array specifies whether to show or hide the floating element on a given UIEvent. This should be an array of [UIEvent, FloatingUIVisibility].",
+     "false"
+    ],
+    [
+     "middlewareInput",
+     "@Input()",
+     "[ offset(2), flip(), shift() ] for tooltip [ offset(0), flip(), shift() ] for combobox",
+     "Middleware[] | null",
+     "Middleware for FloatingUIService. See Floating UI for options.",
+     "false"
+    ],
+    [
+     "placement",
+     "@Input()",
+     "FloatingUIPlacements.BOTTOM_START",
+     "FloatingUIPlacements",
+     "Placement of floating content relevant to triggering element. See 'FloatingUIPlacements'.",
+     "false"
+    ],
+    [
+     "floatingUIToggled",
+     "@Output()",
+     "",
+     "boolean",
+     "Emits whether or not the floating UI element is visible.",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Component - InputContainerComponent"
+  },
+  {
+   "k": "text",
+   "t": "[v-input-container]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "childButtonsDisabled",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "labelId",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "useCustomIcon",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Removes the default toggle icon when true, allowing you to provide your own. After the closing select tag, provide your custom icon inside a <div class=“v-input-control”>.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - LabelDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-label], [v-switch-label]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "htmlForInput",
+     "@Input()",
+     "",
+     "string | null",
+     "Attribute set to the id of the element it's labeling. This property is set by default for radio and checkbox components when used within v-input-container as directed.",
+     "false"
+    ],
+    [
+     "id",
+     "@Input()",
+     "idGenerator.newId('v-label')",
+     "string",
+     "Sets custom id.",
+     "true"
+    ],
+    [
+     "progressLabelInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Swaps v-label class for v-progress-label when true. Intended for use when label is describing a progress component. Automatically set to true when used within a Circular Progress component.",
+     "false"
+    ],
+    [
+     "switchLabel",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - InputDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-input]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "ariaActiveDescendantInput",
+     "@Input()",
+     "null '<listbox-item-id>' when input is used within combobox and an option is highlighted or active.",
+     "string | null",
+     "Aria attribute relaying what active element the input refers to.",
+     "true"
+    ],
+    [
+     "ariaAutocompleteInput",
+     "@Input()",
+     "null 'list' when input is used within combobox and no custom value is provided.",
+     "HTMLElement['ariaAutoComplete']",
+     "Aria attribute relaying autocomplete type.",
+     "true"
+    ],
+    [
+     "ariaControlsInput",
+     "@Input()",
+     "null '<listbox-id>' when input is used within combobox and combobox menu is open.",
+     "string | null",
+     "Aria attribute relaying what element the input controls.",
+     "true"
+    ],
+    [
+     "ariaExpandedInput",
+     "@Input()",
+     "null",
+     "boolean | null, unknown",
+     "Aria attribute relaying whether input is expanded.",
+     "true"
+    ],
+    [
+     "ariaHaspopupInput",
+     "@Input()",
+     "null 'listbox' when input is used within combobox and no custom value is given.",
+     "boolean | null, unknown",
+     "Sets input aria-haspopup attribute.",
+     "true"
+    ],
+    [
+     "ariaOwnsInput",
+     "@Input()",
+     "null '<listbox-container-id>' when input is used within combobox and no custom value is given.",
+     "string | null",
+     "Sets input aria-owns attribute.",
+     "true"
+    ],
+    [
+     "disabledInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets component as disabled when true.",
+     "false"
+    ],
+    [
+     "id",
+     "@Input()",
+     "idGenerator.newId('v-input')",
+     "",
+     "Sets custom id.",
+     "true"
+    ],
+    [
+     "invalidInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Marks component as invalid when true.",
+     "false"
+    ],
+    [
+     "noResize",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Removes resize from textarea when true.",
+     "false"
+    ],
+    [
+     "otp",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets input to one-time-passcode (OTP) variant when true.",
+     "false"
+    ],
+    [
+     "readonlyInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets input as readonly when true.",
+     "false"
+    ],
+    [
+     "roleInput",
+     "@Input()",
+     "null 'combobox' when input is used within combobox and no custom role is provided.",
+     "HTMLElement['role']",
+     "Sets custom role.",
+     "true"
+    ],
+    [
+     "value",
+     "@Input()",
+     "",
+     "string | null",
+     "Value of input. Use [value] when you want to handle the value of the input. Use (valuedChange) when you want the library to handle the value of the input, but get notified of changes. Use [(value)] when you want the value to reflect changes by both you and the library.",
+     "false"
+    ],
+    [
+     "inputEvent",
+     "@Output()",
+     "",
+     "string",
+     "Emits value when the input event is triggered or backspace key is pressed.",
+     ""
+    ],
+    [
+     "value",
+     "@Output()",
+     "",
+     "string | null",
+     "Value of input. Use [value] when you want to handle the value of the input. Use (valuedChange) when you want the library to handle the value of the input, but get notified of changes. Use [(value)] when you want the value to reflect changes by both you and the library.",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - FloatingUITriggerDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-floating-ui-trigger]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ListboxDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-listbox]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "containHeight",
+     "@Input()",
+     "",
+     "boolean | null | number, unknown",
+     "Sets CSS variable --v-listbox-block-size-scroll. If true, the default 180px will be the listbox's max-block-size. If set to a number or string representing a number (ie [containHeight]=\"250\"), the variable will be set to that amount of pixels.",
+     "false"
+    ],
+    [
+     "customScrollControl",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Overrides default scroll control behavior. By default the listbox will scroll to the last selected item.",
+     "false"
+    ],
+    [
+     "disabledInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets component and any ListboxItemComponent children as disabled when true. Will automatically become true if all children are disabled.",
+     "false"
+    ],
+    [
+     "id",
+     "@Input()",
+     "idGenerator.newId('v-listbox')",
+     "string",
+     "Sets custom id.",
+     "true"
+    ],
+    [
+     "invalidInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets component and any ListboxItemComponent children as invalid when true.",
+     "false"
+    ],
+    [
+     "multiselect",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets listbox to multiselect variant when true.",
+     "false"
+    ],
+    [
+     "requiredInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Marks component as required when true.",
+     "false"
+    ],
+    [
+     "value",
+     "@Input()",
+     "",
+     "SingleSelectValue | MultiSelectValue | null",
+     "Value of listbox.",
+     "false"
+    ],
+    [
+     "manualUserChange",
+     "@Output()",
+     "",
+     "void",
+     "",
+     ""
+    ],
+    [
+     "value",
+     "@Output()",
+     "",
+     "SingleSelectValue | MultiSelectValue | null",
+     "Value of listbox.",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - FloatingUIElementDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-floating-ui-element]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "idInput",
+     "@Input()",
+     "",
+     "string | null",
+     "Sets custom ID.",
+     "false"
+    ],
+    [
+     "inlineSize",
+     "@Input()",
+     "",
+     "string",
+     "",
+     "false"
+    ],
+    [
+     "zIndex",
+     "@Input()",
+     "200;",
+     "number | string, unknown",
+     "Provides custom z-index to control stacking order.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Component - IconToggleComponent"
+  },
+  {
+   "k": "text",
+   "t": "v-icon-visa-toggle"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "rotatedInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Shows the rotated template when true and the default template when false.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "ComboboxService"
+  },
+  {
+   "k": "code",
+   "t": "import { Injectable } from '@angular/core';\nimport { ListboxItemComponent } from '../listbox-item/listbox-item.component';\nimport { ComboboxFilterType } from './combobox.constants';\nimport { ComboboxDirective } from './combobox.directive';\n\n/**\n * Service containing optional functions for the ComboboxDirective. <br />\n * Can only be used within the context of a ComboboxDirective. <br />\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class ComboboxService {\n  /**\n   * The closeMenuOnItemClick method automatically closes the menu when an item is selected. <br />\n   * To keep the menu open after an item is selected, you must provide <code>[closeOnClick]=\"false\"</code> to the combobox component.\n   * @param combobox Combobox to apply behavior to.\n   */\n  public closeMenuOnItemClick(combobox: ComboboxDirective): void {\n    const listbox = combobox.listbox();\n    listbox?.listItems()?.forEach((item: ListboxItemComponent) => {\n      combobox.listenerService.subscriptions.push(\n        item.clicked.subscribe(() => {\n          combobox.floatingContainer?.floatingUIService?.hidefloatingUI();\n        })\n      );\n    });\n  }\n\n  /**\n   * The selectHighlightedOnMenuClose method selects the last highlighted item when the menu is closed.\n   * This method is called by default within <code>autoSelectItem</code>. <br />\n   * @param combobox Combobox to apply behavior to.\n   */\n  public selectHighlightedOnMenuClose(combobox: ComboboxDirective): void {\n    combobox.listenerService.subscriptions.push(\n      combobox.floatingContainer?.floatingUIToggled.subscribe((isShown) => {\n        if (!isShown && combobox.highlightedIndex() !== null) {\n          combobox.listbox()?.highlightedItem()?.selectItem(true);\n        }\n      })\n    );\n  }\n\n  /**\n   * The autoFilter method filters items in the combobox based on the list of items you pass. <br />\n   * This method allows customization of the filtering criteria, enabling you to filter items based on properties such as id, label, value, etc. To access the filtered list, subscribe to <code>the filteredListEmitter</code>, which emits the filtered list in the same shape as <code>fullList</code>. <br />\n   * @param combobox Combobox to apply filter function to.\n   * @param fullList List of all items to filter through.\n   * @param condition Condition to filter the list by. Should match what is passed to the listbox item's inner text. ie if you want to use id, your html should look like `<li v-listbox-item>{{ item.id }}</li>`\n   */\n  public autoFilter<T extends Record<string | number, unknown> = Record<string | number, unknown>>(\n    combobox: ComboboxDirective,\n    fullList: T[],\n    condition: string = 'label'\n  ): void {\n    this.autoFilterBasedOnList(combobox, fullList, condition);\n  }\n\n  /**\n   * The autoFilterBasedOnList method filters items in the combobox based on the list of items you pass. <br />\n   * This method allows customization of the filtering criteria, enabling you to filter items based on properties such as id, label, value, etc. To access the filtered list, subscribe to <code>the filteredListEmitter</code>, which emits the filtered list in the same shape as <code>fullList</code>. <br />\n   * @param combobox Combobox to apply filter function to.\n   * @param fullList List of all items to filter through.\n   * @param condition Condition to filter the list by. Should match what is passed to the listbox item's inner text. ie if you want to use id, your html should look like `<li v-listbox-item>{{ item.id }}</li>`\n   */\n  public autoFilterBasedOnList<T extends Record<string | number, unknown> = Record<string | number, unknown>>(\n    combobox: ComboboxDirective,\n    fullList: T[],\n    condition: keyof T = 'label'\n  ): void {\n    const listData = fullList;\n    let filteredData: T[] = fullList;\n\n    if (!combobox || !listData || !filteredData) return;\n    // filter list with defaultValue\n    if (combobox.value()) {\n      // only filter single select combobox on initial render\n      if (!combobox.listbox()?.multiselect()) {\n        const selectedItem = listData?.find(\n          (item) => item[condition]?.toString()?.toLowerCase() === combobox.value()?.['label']?.toLocaleLowerCase()\n        );\n        if (selectedItem) {\n          filteredData = selectedItem ? [selectedItem] : [];\n          combobox.prevActiveItem = selectedItem;\n          this.updateList(combobox, filteredData);\n        }\n      }\n    }\n\n    combobox.listenerService.subscriptions.push(\n      combobox.filter.subscribe((filterEvent) => {\n        filteredData = [];\n        if (filterEvent.type === ComboboxFilterType.SELECTION) {\n          if (combobox.listbox()?.multiselect()) {\n            filteredData = listData;\n          } else {\n            // if an item is selected, the list should only include that item\n            filteredData = listData?.filter(\n              (item) => item[condition]?.toString()?.toLowerCase() === filterEvent.input?.toLowerCase()\n            );\n            if (filteredData && filteredData.length === 1) combobox.prevActiveItem = filteredData[0];\n          }\n        } else if (filterEvent.type === ComboboxFilterType.INPUT) {\n          const inputText = filterEvent.input?.toLowerCase();\n          // filter list based on input value\n          if (!inputText) {\n            filteredData = listData;\n          } else if (inputText.length > 0) {\n            // filter list based on input value\n            listData.forEach((item) => {\n              if (item[condition]?.toString()?.toLowerCase().includes(inputText)) {\n                filteredData.push(item);\n              }\n            });\n          }\n        } else if (filterEvent.type === ComboboxFilterType.RESET) {\n          filteredData = listData;\n        }\n        this.updateList(combobox, filteredData);\n      })\n    );\n  }\n\n  /**\n   * The updateList method updates the combobox component with the given filtered list items,\n   setting the active and highlighted index appropriately. <br />\n   * This method is called by default with"
+  },
+  {
+   "k": "text",
+   "t": "ListboxService"
+  },
+  {
+   "k": "code",
+   "t": "import { inject, Injectable, Renderer2, RendererFactory2 } from '@angular/core';\nimport { AppReadyService } from '../app-ready/app-ready.service';\nimport { ListboxItemComponent } from '../listbox-item/listbox-item.component';\nimport {\n  DOWN_ARROW_KEY,\n  END_KEY,\n  ENTER_KEY,\n  HOME_KEY,\n  SPACE_CODE,\n  SPACE_KEY,\n  TAB_KEY,\n  UP_ARROW_KEY\n} from '../nova-lib.constants';\nimport { NovaLibService } from '../nova-lib.service';\nimport { ListboxDirective } from './listbox.directive';\n\n/**\n * Service used to create listbox behavior. Some functions are used within listbox component, others are optional additions.\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class ListboxService {\n  constructor() {\n    this.renderer = this.rendererFactory.createRenderer(null, null);\n  }\n\n  /** @ignore */\n  private appReadyService: AppReadyService = inject(AppReadyService);\n  private novaLibService: NovaLibService = inject(NovaLibService);\n  private rendererFactory: RendererFactory2 = inject(RendererFactory2);\n  /** @ignore */\n  private renderer: Renderer2;\n\n  /**\n   * The setUpListbox method configures the listbox with the expected keyboard behaviors and sets the aria-activedescendant attribute. <br>\n   * This method is called by default within <code>ListboxDirective</code>.\n   * @param listbox Listbox to set up.\n   */\n  public setUpListbox(listbox: ListboxDirective): void {\n    listbox.listeners.forEach((listener) => listener()); // remove previous listeners\n    listbox.listeners = []; // reset listeners\n\n    this.novaLibService.addArrowKeyNavigation(listbox.listItems(), true, 'both', listbox);\n    this.addShortcuts(listbox);\n  }\n\n  /**\n   * The scrollItemIntoView method scrolls given item to top of listbox. <br>\n   * It’s called by default in <code>ListBoxDirective</code> unless <code>customScrollControl</code> is present. <br>\n   * This method can also call to scroll to a custom index. By default it will scroll to the first active item, but you can provide a specific item if desired.\n   * @param listbox Listbox to scroll.\n   * @param indexToScrollTo Optional specific index to scroll to top (othwerwise, scrolls to first active item).\n   */\n  public scrollItemIntoView(listbox: ListboxDirective, indexToScrollTo?: number): void {\n    const listboxReversed = [...listbox.listItems()].reverse();\n    const targetItem: ListboxItemComponent | undefined =\n      indexToScrollTo || indexToScrollTo === 0\n        ? listbox.listItems()[indexToScrollTo]\n        : listbox.multiselect()\n          ? listboxReversed.find((item) => item.active())\n          : listbox.listItems().find((item) => item.active());\n\n    if (targetItem && this.appReadyService.isBrowserAndDomAvailable) {\n      if (!listbox.listboxScrollStylesSet) {\n        // gather variable information\n        listbox.listboxHeight = listbox.el.nativeElement.offsetHeight;\n        listbox.listboxItemHeight = listbox.listItems()[0].el.nativeElement.offsetHeight;\n        listbox.listboxGap = parseInt(window.getComputedStyle(listbox.el.nativeElement).gap, 10);\n        listbox.listboxGap = isNaN(listbox.listboxGap) ? 4 : listbox.listboxGap;\n      }\n\n      let amountScrolledAlready = listbox.el.nativeElement.scrollTop;\n      // determine distance between top of listbox and active item\n      this.renderer.setStyle(listbox.el.nativeElement, 'position', 'relative'); // set position to relative to allow for correct offsetTop of item\n      const fullItemDistanceFromTop = targetItem.el.nativeElement.offsetTop + listbox.listboxItemHeight;\n\n      // if item is in the top view of the listbox..\n      if (fullItemDistanceFromTop < listbox.listboxHeight) {\n        if (!amountScrolledAlready) {\n          return; // do nothing, item is in view (user hasn't scrolled)\n        } else {\n          // scroll to top of listbox (where item is)\n          listbox.el.nativeElement.scrollTo(0, 0);\n        }\n      } else if (\n        /**\n         * Do nothing if the item is between the amount already scrolled and the bottom of the listbox\n         * ie it is in view and the user has scrolled\n         */\n        amountScrolledAlready &&\n        fullItemDistanceFromTop < listbox.listboxHeight + amountScrolledAlready &&\n        fullItemDistanceFromTop > amountScrolledAlready\n      ) {\n        return;\n      } else {\n        // either scroll to top of listbox or scroll item to top\n        if (!listbox.el?.nativeElement.scrollBy) return; // needed for testing\n        listbox.el.nativeElement.scrollBy({\n          top: fullItemDistanceFromTop - listbox.listboxGap - amountScrolledAlready - listbox.listboxItemHeight\n        });\n      }\n    }\n  }\n\n  /* ======= KEYBOARD SHORTCUTS ======= */\n\n  /**\n   * The addShortcuts method adds keyboard shortcuts to the listbox and is called by default within <code>setUpListbox</code>.\n   * @param listbox Listbox to add shortcuts to.\n   */\n  private addShortcuts(listbox: ListboxDirective): void {\n    listbox.listeners.push(\n      this.renderer.listen(listbox.el.nativeElement, 'keydown', (event) => {\n        this.handleKeyDown(event, listbox);\n      })\n    );\n    listbox.listeners.push(\n      this.renderer.listen(listbox.el.nativeElement, 'keyup', (event) => {\n        this.handleKeyUp(event);\n      })\n    );\n  }\n\n  /**\n   * The handleKeyup method handles item selection on keyup events for the listbox and is called by default within <code>addShortcuts</code>.\n   * @param event Keyup event\n   * @param listbox Listbox to handle keyup event for.\n   */\n  private handleKeyUp(event: KeyboardEvent): void {\n    if (event.key === ENTER_KEY || event.key === SPACE_KEY || event.key === HOME_KEY || event.key === END_KEY) {\n      event.preventDefault(); // prevent scrolling\n    }\n  }\n\n  /**\n   * The handleKeydown handles keydown events for the listbox and is called by default within <code>addShortcuts</code>.\n   * @param event Keydown event\n   * @param listbox Listbox to handle keyup event for.\n   */\n  private handleKeyDown(event: KeyboardEvent, listbox: ListboxDirective): void {\n    listbox"
+  },
+  {
+   "k": "text",
+   "t": "FloatingUIService"
+  },
+  {
+   "k": "code",
+   "t": "import {\n  effect,\n  ElementRef,\n  EventEmitter,\n  inject,\n  Injectable,\n  isDevMode,\n  Renderer2,\n  RendererFactory2,\n  signal,\n  WritableSignal\n} from '@angular/core';\nimport { arrow, autoUpdate, computePosition, ComputePositionReturn, flip, offset, shift, hide } from '@floating-ui/dom';\nimport { TooltipArrowDirective } from '../arrow/arrow.directive';\nimport { FloatingUIPlacements, FloatingUIVisibility, UIEventVisibilityPair } from './floating-ui.constants';\n\n/**\n * This internal service is used by Combobox, Dropdown Menu, and Tooltip components. <br />\n * It can be used with generic FloatingUIContainer, FloatingUIElementDirective, and FloatingUITriggerDirective to create your own custom floating-ui. <br />\n * If you are using any of the components mentioned, you will typically not need to use this service directly. <br />\n * Derived from [Floating UI documentation](https://floating-ui.com/).\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class FloatingUIService {\n  /** @ignore */\n  private readonly rendererFactory: RendererFactory2 = inject(RendererFactory2);\n  /** @ignore */\n  private renderer: Renderer2 = this.rendererFactory.createRenderer(null, null);\n\n  /** @ignore */\n  private trigger?: Element;\n  /** @ignore */\n  private floatingUI?: ElementRef;\n  /** @ignore */\n  private arrow?: TooltipArrowDirective;\n  /** @ignore */\n  private offset: number = 0;\n  /** @ignore */\n  private offsetDefault: number = 2;\n  /** @ignore */\n  public comboboxMiddleware: any = [offset(0), flip(), shift(), hide()];\n  /** @ignore */\n  private middlewareDefault: any = [offset(this.offsetDefault), flip(), shift(), hide()];\n  /** @ignore */\n  private middleware: any = this.middlewareDefault;\n  /** @ignore */\n  private placement: FloatingUIPlacements = FloatingUIPlacements.BOTTOM;\n  /** @ignore */\n  public isShown: WritableSignal<boolean> = signal(false);\n  private readonly isShownEffect = effect(() => {\n    const isShown = this.isShown();\n    this.isShownEmitter.emit(isShown);\n    if (!isShown && this.floatingUI) return this.renderer.setStyle(this.floatingUI.nativeElement, 'display', 'none');\n    const triggerDisabled = this.trigger?.getAttribute('disabled');\n    // only show the floating UI if the trigger and element exist, menu is set to shown, and trigger is not disabled\n    if (!this.trigger || !this.floatingUI || !isShown || triggerDisabled) return;\n    this.positionFloatingUI();\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'display', this.display);\n  });\n\n  /**\n   * Displays property of the floating UI element.\n   * @default 'flex'\n   */\n  private display: string = 'flex';\n\n  /**\n   * Time in milliseconds to wait before hiding the floating UI element when the trigger is hovered over.\n   * @default A factor of the offset middleware option if provided, otherwise 50.\n   */\n  private hideOnHoverTimeout: number = 0;\n\n  // store unlisten functions\n  private rendererListeners: (() => void)[] = [];\n\n  /**\n   * Emits true when this floating UI element is shown and false when hidden.\n   */\n  readonly isShownEmitter: EventEmitter<boolean> = new EventEmitter<boolean>();\n\n  /**\n   * The setUpFloatingUI method is required to initialize the floating element and its trigger. <br />\n   * Called by default with FloatingUIContainer or ComboboxDirective.\n   * @param referenceEl References element that will trigger floating UI.\n   * @param floatingEl References floating UI element.\n   * @param eventArray Array of events for the reference/trigger element to listen for. <br> i.e. <code>[new UIEvent('focus'), FloatingUIVisibility.SHOW]</code> <br> tells the element to show the floating UI when the triggering element is focused.\n   */\n  public setUpfloatingUI(\n    referenceEl: ElementRef | HTMLElement,\n    floatingEl: ElementRef,\n    eventArray: UIEventVisibilityPair | null\n  ): void {\n    this.rendererListeners?.forEach((unlisten) => unlisten());\n    this.rendererListeners = [];\n    this.trigger = this.nativeElement(referenceEl);\n    this.floatingUI = floatingEl;\n    if (!this.trigger && isDevMode()) return console.error('Floating UI trigger element is not defined.');\n    if (!this.floatingUI && isDevMode()) return console.error('Floating UI element is not defined.');\n\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'top', '0');\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'left', '0');\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'display', 'none');\n\n    if (eventArray) {\n      this.setUpTrigger(eventArray);\n    } else if (isDevMode()) {\n      console.error('No events provided to trigger the Floating UI.');\n    }\n  }\n\n  /**\n   * The nativeElement method returns the Element type of the reference element.\n   * @param element Element to be converted to Element type.\n   * @returns Element\n   */\n  private nativeElement(element: ElementRef<any> | HTMLElement): Element {\n    if (element instanceof ElementRef) {\n      return element.nativeElement;\n    }\n    return element;\n  }\n\n  /**\n   * The customizeFloatingUI method allows you to provide custom placement and middleware options to the Floating UI service.\n   * @param placement Optional. See <code>FloatingUIPlacements</code> enum.\n   * @param middleware Optional. Visit the official Floating UI documentation for more on [middleware options](https://floating-ui.com/docs/computePosition#middleware).\n   * @param display Optional. Sets CSS display property for the floating UI element.\n   * @param tooltipArrow Optional. Directive reference to the arrow element. See TooltipArrowDirective.\n   */\n  public customizeFloatingUI(\n    placement?: FloatingUIPlacements | null,\n    middleware?: any | null,\n    display?: string | null,\n    tooltipArrow?: TooltipArrowDirective | null\n  ): void {\n    // custom placement\n    if (placement) this.placement = placement;\n\n    // custom middleware\n    if (middleware) {\n      this.middleware = middleware;\n      // save a custom offset\n      const customOffset = (this.middleware.find((m: any) => m['name'] ="
+  },
+  {
+   "k": "text",
+   "t": "AppReadyService"
+  },
+  {
+   "k": "code",
+   "t": "import { DOCUMENT, isPlatformBrowser } from '@angular/common';\nimport { Injectable, PLATFORM_ID, inject } from '@angular/core';\n\n/**\n * @note Where possible, use Angular's new `afterRender` and `afterNextRender` lifecycle hooks instead of this service.\n * This service is used internally by the library and can optionally be used directly. <br />\n * It’s required for SSR integration but not necessary for functions behind Angular's renderer.\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class AppReadyService {\n  private document: Document | null = inject(DOCUMENT, { optional: true });\n  private platformId: object = inject(PLATFORM_ID);\n\n  /**\n   * The isPlatformBrowser property checks if the platform is a browser (as opposed to server).\n   */\n  public readonly isPlatformBrowser: boolean = isPlatformBrowser(this.platformId);\n\n  /**\n   * The isBrowserAndDomAvailable property checks for both the document and the browser platform.\n   */\n  public readonly isBrowserAndDomAvailable: boolean = !!this.document && this.isPlatformBrowser;\n}"
+  },
+  {
+   "k": "text",
+   "t": "IdGenerator"
+  },
+  {
+   "k": "code",
+   "t": "import { APP_ID, inject, Injectable } from '@angular/core';\n\n/**\n * Keeps track of the ID count per prefix. This helps us make the IDs a bit more deterministic.\n */\nlet counters: Record<string, number> = {};\n\n/**\n * Service that generates unique IDs for DOM nodes.\n * Note that this service should not be used inside templates and should only be used within classes or else id will change with every render.\n * @docs {@link https://design.visa.com/developing/angular/services/id-generator | See docs}\n */\n@Injectable({ providedIn: 'root' })\nexport class IdGenerator {\n  private readonly appId: null | string = inject(APP_ID, { optional: true });\n\n  /**\n   * Generates a unique ID with a specific prefix.\n   * @param prefix Prefix to add to the ID.\n   */\n  public newId(prefix: string = ''): string {\n    // Omit the app ID if it's the default `ng`. Since the vast majority of pages have one\n    // Angular app on them, we can reduce the amount of breakages by not adding it.\n    if (this.appId && this.appId !== 'ng') prefix = `${this.appId}-${prefix}`;\n    if (!counters.hasOwnProperty(prefix)) counters[prefix] = 0;\n    return `${prefix}-${counters[prefix]++}`;\n  }\n\n  /**\n   * Resets the counters for the IDs.\n   * This is useful when testing to ensure that the IDs are deterministic.\n   * @deprecated WARNING: This should only be used in tests. Do NOT use this in an actual application.\n   */\n  public static reset(): void {\n    counters = {};\n  }\n}"
+  },
+  {
+   "k": "text",
+   "t": "NovaLibService"
+  },
+  {
+   "k": "code",
+   "t": "import { DOCUMENT } from '@angular/common';\nimport { inject, Injectable, Renderer2, RendererFactory2 } from '@angular/core';\nimport { ButtonDirective } from './button/button.directive';\nimport { CheckboxDirective } from './checkbox/checkbox.directive';\nimport { LinkDirective } from './link/link.directive';\nimport { ListboxItemComponent } from './listbox-item/listbox-item.component';\nimport { DOWN_ARROW_KEY, LEFT_ARROW_KEY, RIGHT_ARROW_KEY, TAB_KEY, UP_ARROW_KEY } from './nova-lib.constants';\nimport { TabItemDirective } from './tab-item/tab-item.directive';\nimport { ListboxDirective } from './listbox/listbox.directive';\n\ntype Item = (ButtonDirective | CheckboxDirective | ListboxItemComponent) | undefined;\ntype Items = readonly Item[];\n/**\n * This service manages navigation states within the application, ensuring smooth transitions and a consistent user experience. <br />\n * It’s primarily used internally by the library but can also be leveraged directly for custom implementations.\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class NovaLibService {\n  private rendererFactory: RendererFactory2 = inject(RendererFactory2);\n  private document: Document | null = inject(DOCUMENT, { optional: true });\n\n  /** @ignore */\n  private renderer: Renderer2 = this.rendererFactory.createRenderer(null, null);\n\n  /**\n   * The addArrowKeyNavigation method adds arrow key navigation to an array of elements of type <code>ButtonDirective</code>, <code>ListboxItemComponent</code>, <code>or CheckboxDirective</code>.\n   * @param itemsArray Array of items to add arrow key navigation to.\n   * @param removeTabNavigation Optionally remove tab navigation from an array you're adding arrow navigation to.\n   * @param arrowDirections Optionally specify which arrow key directions to use for navigation.\n   * @param listbox Optionally specify a ListboxDirective to track highlighted item.\n   */\n  public addArrowKeyNavigation(\n    itemsArray: Items,\n    removeTabNavigation: boolean = false,\n    arrowDirections: 'both' | 'horizontal' | 'vertical' = 'both',\n    listbox?: ListboxDirective\n  ): void {\n    if (!itemsArray || !itemsArray.length) return;\n    itemsArray.forEach((item, index) => {\n      if (!item?.el?.nativeElement) return;\n\n      item.listenerService.navListeners.push(\n        // for each button, add an event listener for arrow \"keydown\"\n        this.renderer.listen(item.el.nativeElement, 'keydown', (event) => {\n          // right and down arrow keys should go to next focusable item\n          if (\n            (event.key === DOWN_ARROW_KEY && arrowDirections !== 'horizontal') ||\n            (event.key === RIGHT_ARROW_KEY && arrowDirections !== 'vertical')\n          ) {\n            event.preventDefault();\n            const focusableIndex = this.nextEnabledItem(itemsArray, index);\n            if (focusableIndex > -1) {\n              const focusableItem = itemsArray?.[focusableIndex];\n              if (!focusableItem?.el?.nativeElement) return;\n              focusableItem?.el.nativeElement.focus();\n              if (listbox) listbox.highlightedItem.set(focusableItem as ListboxItemComponent);\n            }\n          } else if (\n            (event.key === UP_ARROW_KEY && arrowDirections !== 'horizontal') ||\n            (event.key === LEFT_ARROW_KEY && arrowDirections !== 'vertical')\n          ) {\n            // left and up arrow keys should go to previous focusable item\n            event.preventDefault();\n            const focusableIndex = this.previousEnabledItem(itemsArray, index);\n            if (focusableIndex > -1) {\n              const focusableItem = itemsArray?.[focusableIndex];\n              if (!focusableItem?.el?.nativeElement) return;\n              focusableItem?.el.nativeElement.focus();\n              if (listbox) listbox.highlightedItem.set(focusableItem as ListboxItemComponent);\n            }\n          }\n        })\n      );\n    });\n\n    if (removeTabNavigation) this.removeTabNavigation(itemsArray);\n  }\n\n  /**\n   * The removeTabNavigation method removes tab navigation for an array of elements of type ButtonDirective, ListboxItemComponent, or CheckboxDirective. <br />\n   * When this functionality is added, it will disable tabbing between these specified elements.\n   * @param itemsArray Array of items to remove tab navigation from.\n   */\n  private removeTabNavigation(itemsArray: Items, listbox?: ListboxDirective): void {\n    if (!itemsArray || !itemsArray.length) return;\n    this.findStartingFocus(itemsArray);\n\n    itemsArray.forEach((item, index: number) => {\n      if (!item?.el.nativeElement) return;\n\n      item.listenerService.navListeners.push(\n        this.renderer.listen(item.el.nativeElement, 'keydown', (event) => {\n          // as you loop through the items with arrow keys, tabIndex must be updated so that only the item with focus has tabIndex = 0\n          if (event.key === DOWN_ARROW_KEY || event.key === RIGHT_ARROW_KEY) {\n            event.preventDefault(); // prevent scrolling\n            const focusableIndex = this.nextEnabledItem(itemsArray, index);\n            if (focusableIndex === -1) return; // no next item found\n            const focusableItem = itemsArray[focusableIndex];\n            if (!focusableItem?.el.nativeElement) return;\n            // set tabindex for the item that is focused to 0, and all\n            this.renderer.setAttribute(item.el.nativeElement, 'tabIndex', '-1');\n            this.renderer.setAttribute(focusableItem.el.nativeElement, 'tabIndex', '0');\n            if (listbox) listbox.highlightedItem.set(focusableItem as ListboxItemComponent);\n          } else if (event.key === UP_ARROW_KEY || event.key === LEFT_ARROW_KEY) {\n            event.preventDefault(); // prevent scrolling\n            const focusableIndex = this.previousEnabledItem(itemsArray, index);\n            if (focusableIndex === -1) return; // no next item found\n            const focusableItem = itemsArray[focusableIndex];\n            if (!focusableItem?.el.nativeElement) return;\n            // set tabindex for the"
+  },
+  {
+   "k": "text",
+   "t": "ComboboxFilterType"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "SELECTION",
+     "'selection'"
+    ],
+    [
+     "INPUT",
+     "'input'"
+    ],
+    [
+     "RESET",
+     "'reset'"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "FloatingUIPlacements"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "TOP",
+     "'top'"
+    ],
+    [
+     "TOP_START",
+     "'top-start'"
+    ],
+    [
+     "TOP_END",
+     "'top-end'"
+    ],
+    [
+     "RIGHT",
+     "'right'"
+    ],
+    [
+     "RIGHT_START",
+     "'right-start'"
+    ],
+    [
+     "RIGHT_END",
+     "'right-end'"
+    ],
+    [
+     "BOTTOM",
+     "'bottom'"
+    ],
+    [
+     "BOTTOM_START",
+     "'bottom-start'"
+    ],
+    [
+     "BOTTOM_END",
+     "'bottom-end'"
+    ],
+    [
+     "LEFT",
+     "'left'"
+    ],
+    [
+     "LEFT_START",
+     "'left-start'"
+    ],
+    [
+     "LEFT_END",
+     "'left-end'"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "FloatingUIVisibility"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "SHOW",
+     "'show'"
+    ],
+    [
+     "HIDE",
+     "'hide'"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "IconToggle"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "ACCORDION_COLLAPSED",
+     "'chevron-right'"
+    ],
+    [
+     "ACCORDION_EXPANDED",
+     "'chevron-down'"
+    ],
+    [
+     "COLLAPSED",
+     "'chevron-down'"
+    ],
+    [
+     "EXPANDED",
+     "'chevron-up'"
+    ]
+   ]
+  }
+ ]
+}

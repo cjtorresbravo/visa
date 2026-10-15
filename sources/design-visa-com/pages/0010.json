@@ -1,0 +1,457 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/web/text",
+ "title": "Text | Web | Global accessibility requirements | Visa Product Design System",
+ "h1": "Text requirements for web",
+ "readAt": "2026-10-15T17:05:51.521Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Text requirements for web"
+  },
+  {
+   "k": "p",
+   "t": "Find text requirements for testing web experiences."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Heading structure (TXT-1)Headings and labels (TXT-1-1)Use a single descriptive H1 (TXT-1-2)Sequential headings (TXT-1-3)",
+    "Semantic markup (TXT-2)Group items with lists (TXT-2-1)",
+    "Logical order (TXT-3)Code order = logical content order (TXT-3-1)",
+    "Non-sensory instructions (TXT-4)Instructions don’t rely on sensory cues (TXT-4-1)",
+    "Tables (TXT-5)No layout tables (TXT-5-1)Markup tables (TXT-5-2)Identify tables (TXT-5-3)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Heading structure (TXT-1)"
+  },
+  {
+   "k": "h3",
+   "t": "Headings and labels (TXT-1-1)"
+  },
+  {
+   "k": "p",
+   "t": "Headings and labels must accurately describe their content."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reveal headings via Accessibility Insights > Ad hoc tools>Accessible Names.",
+    "View all headings and labels on the page.",
+    "Confirm that the page headings and labels accurately describe their content."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Headings and labels are used and they accurately describe their content.",
+    "Fail: Headings and labels are not used or they do not accurately describe their content.",
+    "NA: There is not sufficient content to warrant the use of headings or labels."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 2.4.6 Headings and Labels"
+  },
+  {
+   "k": "h3",
+   "t": "Use a single descriptive H1 (TXT-1-2)"
+  },
+  {
+   "k": "p",
+   "t": "Each page must have only one H1 which is descriptive of the overall page topic/purpose. The H1 and the page title should be similar and consistent."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reveal headings via Accessibility Insights > Ad hoc tools > Headings.",
+    "View all headings and confirm there is a single H1 on the page.",
+    "Confirm that the H1 is descriptive of the overall page topic/purpose.",
+    "Confirm that the H1 and page title are similar and consistent."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: There is only one H1 level heading present and it is descriptive of the page topic/purpose and similar to the page title.",
+    "Fail: There are two or more H1 level headings present or the H1 is not descriptive of the page topic/purpose or not similar to the page title."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.1 Info and Relationships"
+  },
+  {
+   "k": "h3",
+   "t": "Sequential headings (TXT-1-3)"
+  },
+  {
+   "k": "p",
+   "t": "Headings must be implemented sequentially in order without skipping levels. (for example: Heading 1, then Heading 2, then Heading 3 and so on). Headings of the same level may be repeated (for example: H2, H2, H2, etc.)."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reveal headings via Accessibility Insights > Ad hoc tools > Headings.",
+    "View all headings and confirm that headings occur in sequential order without skipping levels. (for example: Heading 1, then Heading 2, then Heading 3 and so on, no skipping numbers)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Headings descend in single increments with no skipping.",
+    "Fail: Headings do not descend in single increments and levels are skipped."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.2 Meaningful Sequence"
+  },
+  {
+   "k": "h2",
+   "t": "Semantic markup (TXT-2)"
+  },
+  {
+   "k": "h3",
+   "t": "Group items with lists (TXT-2-1)"
+  },
+  {
+   "k": "p",
+   "t": "Groups of items (for example: a navigation menu or group of tabs) must be marked up as a list."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate any text content that is presented in a list format such as bulleted or numbered lists.",
+    "Locate any groups of items that should be marked up as lists (for example: a navigation menu or group of tabs).",
+    "Use the browser inspect feature to examine the HTML for these list components and confirm that they are properly marked up as lists."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All groups of items are marked as lists.",
+    "Fail: All groups of items are not marked as lists.",
+    "NA: No groups of items are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.1 Info and Relationships"
+  },
+  {
+   "k": "h2",
+   "t": "Logical order (TXT-3)"
+  },
+  {
+   "k": "h3",
+   "t": "Code order = logical content order (TXT-3-1)"
+  },
+  {
+   "k": "p",
+   "t": "The logical order of content must be present in the code order, allowing for successful use of the content when linearized and/or without CSS."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Open the WAVE tool with the page you are testing open in your browser.",
+    "Use the toggle switch to ‘Disable styles’.",
+    "Confirm that the logical order of content is present in the code order."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: The logical order of the content is followed.",
+    "Fail: The logical order of the content is not followed."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.2 Meaningful Sequence"
+  },
+  {
+   "k": "h2",
+   "t": "Non-sensory instructions (TXT-4)"
+  },
+  {
+   "k": "h3",
+   "t": "Instructions don’t rely on sensory cues (TXT-4-1)"
+  },
+  {
+   "k": "p",
+   "t": "Instructions must never refer solely to sensory cues such as size, shape, color, sound, or spatial directions."
+  },
+  {
+   "k": "p",
+   "t": "Note: When instructions refer to an interactive element, use the programmatic name of the element."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Review any instruction text (on-screen and screen reader only).",
+    "Confirm that Instructions and interactions never refer solely to sensory cues such as size, shape, color, sound, or spatial directions."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Instructions and interactions never refer solely to sensory cues such as size, shape, color, sound, or spatial directions.",
+    "Fail: Instructions and interactions refer solely to sensory cues such as size, shape, color, sound, or spatial directions.",
+    "NA: No instructions are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.3 Sensory Characteristics"
+  },
+  {
+   "k": "h2",
+   "t": "Tables (TXT-5)"
+  },
+  {
+   "k": "h3",
+   "t": "No layout tables (TXT-5-1)"
+  },
+  {
+   "k": "p",
+   "t": "Tables must not be used for layout purposes. Layout tables are not a direct WCAG 2.2 AA failure, however when a table is linearized it can complicate or confuse the linear order of the content (See WCAG F49 for details)."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Run the ANDI tool on the page.",
+    "Locate any table elements identified by ANDI on the page.",
+    "Confirm that none of the tables are used for layout purposes."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Tables are not used for layout positioning; CSS is used instead.",
+    "Fail: One or more layout table(s) is used."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.2 Meaningful Sequence"
+  },
+  {
+   "k": "h3",
+   "t": "Markup tables (TXT-5-2)"
+  },
+  {
+   "k": "p",
+   "t": "All data tables must use THs and every TH must have scope=“col” or “row” set unless any implied relationships would be untrue. In that case, headers= must be used to hard code how headers are read to users."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Run the ANDI tool on the page.",
+    "Locate any table elements identified by ANDI on the page.",
+    "Confirm that <th> elements are used as appropriate and every <th> element has scope as appropriate. If present, confirm that headers point to the correct <th> elements’ IDs."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Tables have correct <th> elements, <td> elements, and scope applied appropriately.",
+    "Fail: One or more tables does not have correct <th> elements, <td> elements, and scope applied appropriately.",
+    "NA: No tables are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.1 Info and Relationships"
+  },
+  {
+   "k": "h3",
+   "t": "Identify tables (TXT-5-3)"
+  },
+  {
+   "k": "p",
+   "t": "Data tables must be identified for screen readers by including the “title” of the table in its <caption> element, for example: “Transaction History for x2304”."
+  },
+  {
+   "k": "p",
+   "t": "Note: The caption may be hidden visually with CSS."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Bring up the list of tables (or cycle through each if a list is not available) with each supported screen reader and confirm that each table is identified."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All tables have titles that are read by the screen reader.",
+    "Fail: One or more tables does not have a title that is read by the screen reader.",
+    "NA: No tables are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.1 Info and Relationships"
+  }
+ ]
+}

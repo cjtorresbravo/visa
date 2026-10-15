@@ -1,0 +1,328 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/pdf/forms",
+ "title": "Forms | PDF | Global accessibility requirements | Visa Product Design System",
+ "h1": "Forms",
+ "readAt": "2026-10-15T17:06:11.398Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Find form requirements for testing PDFs."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Forms (PDF-9)Form controls (PDF-9-1)Form tooltips (PDF-9-2)Form radio buttons (PDF-9-3)Required form controls (PDF-9-4)Form input validation (PDF-9-5)Target size (PDF-9-6)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Forms (PDF-9)"
+  },
+  {
+   "k": "h3",
+   "t": "Form controls (PDF-9-1)"
+  },
+  {
+   "k": "p",
+   "t": "A Widget annotation shall be nested within a Form tag. Widget annotations are used for interactive forms."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the document for the presence of form fields.",
+    "Open the tags pane and review tags for all form fields.",
+    "Verify that they are correctly tagged using <form> with a nested ‘Field name-OBJR’ tag.",
+    "Verify that the <form> tag appears after and at the same level as the tag containing the visual text label of the field."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All form fields are tagged correctly using <form> with a nested ‘Field name-OBJR’ tag and appears after and at the same level as the tag containing the visual text label of the field.",
+    "Fail: Any of the form controls do not have <form> tag with a nested ‘Field name-OBJR’ tag OR form tags do not appear after and at the same level as the tag containing the visual text label of the field.",
+    "NA: Form fields/controls are not present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "h3",
+   "t": "Form tooltips (PDF-9-2)"
+  },
+  {
+   "k": "p",
+   "t": "Provide name, role, state, and value information for all form components to enable compatibility with assistive technology."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the document for the presence of form fields.",
+    "Open the ‘Prepare Form’ tool and right-click on form fields to open the properties window.",
+    "Verify that each form field has accurate, descriptive, and unique tooltips."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All form fields have accurate, descriptive and unique tooltips.",
+    "Fail: Any of the form controls do not have accurate, descriptive and unique tooltips.",
+    "NA: Form fields/controls are not present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 4.1.2 Name, Role, Value",
+    "PDF-U/A - 7.18.4 Forms"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Form radio buttons (PDF-9-3)"
+  },
+  {
+   "k": "p",
+   "t": "Make sure forms are accessible and usable by programmatically associating labels that convey the purpose of the fields."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Navigate to the ‘Tags’ panel in Acrobat and find each radio button element.",
+    "Verify that visually grouped radio buttons share identical ‘Name’ and ‘Title’ attributes.",
+    "Verify that the radio button choice is correct for each option."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All radio buttons are accurately grouped, and each has the correct choice option text.",
+    "Fail: Radio buttons are either not grouped accurately or their Choice option text is incorrect.",
+    "NA: There are no radio buttons present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 4.1.2 Name, Role, Value",
+    "PDF-U/A - 7.18.4 Forms"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Required form controls (PDF-9-4)"
+  },
+  {
+   "k": "p",
+   "t": "Notify the user when a field that must be completed has not been completed in a PDF form."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the document for the presence of ‘Required’ form fields that need to be filled in.",
+    "Verify that visual form label includes the word ‘required’.",
+    "Open the ‘Prepare Form’ tool and right-click on form fields to open the properties window.",
+    "Verify that form’s tooltip includes the word ‘required’.",
+    "Under the common properties, verify that “Required” check box is checked."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Each required form field includes the word ‘required’ in its visual label and tooltip. Additionally, the ‘required’ checkbox in properties is checked.",
+    "Fail:Any required form field does not include the word ‘required’ in its visual label or tooltip, or the ‘required’ checkbox in properties is not checked.",
+    "NA: Required Form fields/controls are not present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 3.3.1: Error Identification",
+    "WCAG 2.2 A - 3.3.2: Labels or Instructions",
+    "PDF-U/A - 7.18.4 Forms"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Form input validation (PDF-9-5)"
+  },
+  {
+   "k": "p",
+   "t": "Notify the user when user input to a field that requires a specific, required format (for example: date fields) is not submitted in that format."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the document for the presence of form fields with added input validations.",
+    "Verify that forms indicate when user input deviates from the required format and that the error messages are clear and accurate for all users including Assistive Technology users."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Error messages are clear and accurate for all users.",
+    "Fail:Error messages are not clear or accurate for all users.",
+    "NA: No Form fields/controls with input validations."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 A - 3.3.1: Error Identification",
+    "WCAG 2.2 A - 3.3.2: Labels or Instructions",
+    "PDF-U/A - 7.18.4 Forms"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Target size (PDF-9-6)"
+  },
+  {
+   "k": "p",
+   "t": "Actionable components have a minimum target size of 24x24 CSS pixels except for:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Objects with a target offset of at least 24px. For example, a 20px width “Cancel” button has its right most edge at least 4px away from a “Submit” button placed on the right.",
+    "Inline content within a sentence or block of text. For example, a wiki paragraph has multiple instances of hyperlinked text. Increasing the height and width of these links would impact the presentation of text and make it more difficult to read."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the document for the presence of form fields and controls.",
+    "Use the Adobe’s ‘Prepare Form’ tool to find the height and width of a control.",
+    "Verify that each control has a width and height greater than or equal to 24px OR is less than 24px with sufficient spacing between controls (24px = .25in). For example, a 20px width “Cancel” button has its right most edge at least 4px away from a “Submit” button placed on the right."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Both height and width are greater than or equal to 24px OR less than 24px with sufficient spacing between controls.",
+    "Fail: Either the height or width is less than 24px AND the center of the control is less than 24px from another control.",
+    "NA: Target is a link or button in a block of text that requires a specific presentation."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.2 AA - 2.5.8 Target Size (Minimum)",
+    "PDF-U/A - 7.18.4 Forms"
+   ]
+  }
+ ]
+}

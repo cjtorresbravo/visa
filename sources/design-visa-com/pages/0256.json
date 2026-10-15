@@ -1,0 +1,99 @@
+{
+ "url": "https://design.visa.com/patterns/dynamic-table/default",
+ "title": "Default dynamic tables | Visa Product Design System",
+ "h1": "Default dynamic tables",
+ "readAt": "2026-10-15T17:11:37.631Z",
+ "blocks": [
+  {
+   "k": "text",
+   "t": "Back to Dynamic table code overview"
+  },
+  {
+   "k": "h1",
+   "t": "Default dynamic tables"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Preview",
+    "Code"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "7.0.0"
+  },
+  {
+   "k": "text",
+   "t": "6.0.2"
+  },
+  {
+   "k": "text",
+   "t": "5.1.3"
+  },
+  {
+   "k": "text",
+   "t": "Example"
+  },
+  {
+   "k": "text",
+   "t": "Default table"
+  },
+  {
+   "k": "text",
+   "t": "Table with multiple action buttons"
+  },
+  {
+   "k": "text",
+   "t": "Table with column header actions"
+  },
+  {
+   "k": "text",
+   "t": "Table with vertical scroll and sticky row"
+  },
+  {
+   "k": "text",
+   "t": "Table with pinned column and horizontal scroll"
+  },
+  {
+   "k": "text",
+   "t": "Table with vertical and horizontal scroll"
+  },
+  {
+   "k": "text",
+   "t": "Table with notifications"
+  },
+  {
+   "k": "text",
+   "t": "Device width (px)"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Loading Default dynamic tables example Default table"
+  }
+ ]
+}

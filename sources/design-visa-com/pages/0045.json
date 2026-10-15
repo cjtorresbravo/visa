@@ -1,0 +1,119 @@
+{
+ "url": "https://design.visa.com/developing/react/hooks/usedebounce",
+ "title": "useDebounce | Hooks | React | Visa Product Design System",
+ "h1": "useDebounce",
+ "readAt": "2026-10-15T17:06:35.799Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "useDebounce"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to utilize the useDebounce hook to delay the execution of an expensive function."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Behavior and usage",
+    "Arguments",
+    "Returns",
+    "Client side only"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Nova React version"
+  },
+  {
+   "k": "text",
+   "t": "3.1.0"
+  },
+  {
+   "k": "text",
+   "t": "3.0.0"
+  },
+  {
+   "k": "text",
+   "t": "2.5.4"
+  },
+  {
+   "k": "h2",
+   "t": "Behavior and usage"
+  },
+  {
+   "k": "text",
+   "t": "Loading use-debounce example"
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "h2",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Required",
+     "Description"
+    ],
+    [
+     "callback",
+     "(...args: any[]) => void",
+     "",
+     "yes",
+     "Function that runs after last delay"
+    ],
+    [
+     "delay",
+     "number",
+     "250",
+     "",
+     "Length of time to wait since last call was made (milliseconds)"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Returns"
+  },
+  {
+   "k": "text",
+   "t": "typeof callback"
+  },
+  {
+   "k": "h2",
+   "t": "Client side only"
+  },
+  {
+   "k": "text",
+   "t": "true"
+  }
+ ]
+}

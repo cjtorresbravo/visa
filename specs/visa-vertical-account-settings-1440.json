@@ -1,0 +1,74 @@
+{
+  "breakpoint": "desktop1440",
+  "name": "Visa · Vertical layout · Account settings · 1440",
+  "surfaceMode": "light",
+  "sections": [
+    {
+      "type": "recipe",
+      "name": "Application layouts › Vertical",
+      "props": {
+        "Size": "1440"
+      },
+      "texts": [
+        "[Placeholder logo]",
+        "Visa Developer",
+        "Dashboard",
+        "Projects",
+        "Support",
+        "APIs",
+        "Billing",
+        "Ana Pérez",
+        "Account settings",
+        "Update the contact details and the notifications for this account.",
+        "Changes to the contact email take effect after you confirm it from the new address.",
+        "Full name (required)",
+        "Contact email (required)",
+        "Time zone",
+        "Pacific Time (UTC-8)",
+        "Used for reports and scheduled notifications.",
+        "Email notifications",
+        "Project changes",
+        "API status",
+        "Billing",
+        "Product news",
+        "Address (required)",
+        "Two-step verification (required)",
+        "Authenticator app",
+        "Text message",
+        "Security key",
+        "Off",
+        "Save changes",
+        "Reset",
+        "Cancel",
+        "[Placeholder logo]",
+        "Copyright © 2026 Visa. All rights reserved.",
+        "Contact us",
+        "Privacy",
+        "Terms of use"
+      ],
+      "id": "component:Vertical",
+      "recipe": {
+        "id": "component:Vertical",
+        "name": "Vertical",
+        "kind": "component",
+        "readiness": null,
+        "readinessMeaning": null,
+        "purpose": null,
+        "decision": "use",
+        "source": "inventory of VPDS Components (Community)",
+        "component": {
+          "name": "Vertical",
+          "key": "81e789152897066fd7503104ee96e060e36e4f57",
+          "kind": "set",
+          "library": "VPDS Components (Community)"
+        },
+        "parts": [],
+        "gaps": []
+      }
+    }
+  ],
+  "nonLib": [
+    "Placeholder logo: the Community kit ships no Visa logo; the placeholder stays until the brand asset is provided"
+  ],
+  "basedOn": "kit VPDS Components › Application layouts › Vertical; design.visa.com › Application layouts › Usage › Vertical navigation"
+}

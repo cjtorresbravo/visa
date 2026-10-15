@@ -1,0 +1,203 @@
+{
+ "url": "https://design.visa.com/components/progress/usage",
+ "title": "Progress | Components | Visa Product Design System",
+ "h1": "Progress",
+ "readAt": "2026-10-15T17:10:34.395Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Progress"
+  },
+  {
+   "k": "p",
+   "t": "Visual representations of the status of a system process."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesDeterminate progressIndeterminate progressPlacement",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Progress components are non-interactive elements that visually indicate the progress of a task or function.\nAlso known as: Progress indicator, progress bar, loading indicator, progress ring, spinner, loader, progress loader, activity indicator, ProgressView(iOS), ProgressBar(Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Progress indicator (required): Animated fill indicating the function is in progress.\nB. Label (optional): Label indicating what’s in progress, such as a file name.\nC. Status (optional): Label indicating how much process has been completed for determinate indicators."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use"
+    ],
+    [
+     "Linear progress",
+     "When space is limited."
+    ],
+    [
+     "Circular progress",
+     "When the design has sufficient space."
+    ],
+    [
+     "Progress gauge",
+     "For a more detailed progress indicator, such as in dashboards or control panels.Note: Progress gauges are only available as determinate indicators. Learn more below."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid using progress components for very lengthy load times, as users may perceive that the app is slow or frozen.",
+    "Only use determinate progress indicators if the exact amount of completion is known. Learn more below."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do"
+  },
+  {
+   "k": "p",
+   "t": "Use inline messages as needed to help indicate what’s in progress"
+  },
+  {
+   "k": "p",
+   "t": "Don't"
+  },
+  {
+   "k": "p",
+   "t": "Use the progress component to display user progression in a workflow. Use a Wizard instead."
+  },
+  {
+   "k": "p",
+   "t": "Do     Display the progress component as soon as the operation starts if the task takes more than two seconds to complete."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Make indeterminate processes take longer than 5 seconds. Please reference performance requirements."
+  },
+  {
+   "k": "p",
+   "t": "Do     Display content as it loads or load it in the background as much as possible so that it won't impact users."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Apply the progress component to individual content loading."
+  },
+  {
+   "k": "h3",
+   "t": "Determinate progress"
+  },
+  {
+   "k": "p",
+   "t": "Determinate progress indicators display how long a process will take. They include an exact percentage or fraction indicating how much progress has been made."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Only use determinate indicators when the amount of completion is known, as estimating can be misleading or cause frustration."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Indeterminate progress"
+  },
+  {
+   "k": "p",
+   "t": "Indeterminate progress indicators display unknown wait times. Indeterminate progress indicators may turn into determinate progress when more information is available."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use indeterminate indicators when the amount of progress is unknown or not important."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Placement"
+  },
+  {
+   "k": "p",
+   "t": "In general, progress indicators should be placed near the function they represent. o show that an entire page or app is loading, place a linear indicator at the top of the page or just below the navigation bar."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider using skeleton loading to further indicate that loading is in progress."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use plain language without abbreviations or jargon.",
+    "Annotate the percentage completed in determinate progress components."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance on everything from layouts to validation to ensure forms are clear and usable."
+  },
+  {
+   "k": "h3",
+   "t": "Wizard"
+  },
+  {
+   "k": "p",
+   "t": "A tool that combines a wizard stepper with navigation controls to guide users through complex forms."
+  }
+ ]
+}

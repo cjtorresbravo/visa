@@ -1,0 +1,203 @@
+{
+ "url": "https://design.visa.com/patterns/application-layouts/usage",
+ "title": "Application layouts | Patterns | Visa Product Design System",
+ "h1": "Application layouts",
+ "readAt": "2026-10-15T17:11:17.622Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Application layouts"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to choose a navigational frame based on page content and information architecture."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Navigational frames",
+    "Grid systems",
+    "Platform considerations",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "An application layout consists of a navigational frame and a content area organized within a Responsive grid system. It provides a foundational framework to establish consistency throughout a product experience, and serves as a key starting point for designers and developers."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Start with the pre-built layouts in our component library and adjust as needed.",
+    "Use layouts to establish default positioning for panels, forms, and messaging components and toggle their visibility to fit your application.",
+    "Customize navigation styles, color palettes, and background colors as needed.",
+    "Select the appropriate layout variants to accommodate different page widths and content area layouts."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Note: To use the VPDS grid system, add the Components library to your Figma project, then navigate to Layout guide in the Properties panel."
+  },
+  {
+   "k": "p",
+   "t": "Do     Establish a clear visual hierarchy when using more than one level of navigation."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Rearrange and mix the pre-built layouts in ways that don’t align with common UX conventions."
+  },
+  {
+   "k": "h2",
+   "t": "Navigational frames"
+  },
+  {
+   "k": "p",
+   "t": "VPDS supports four main navigational frames: horizontal, stacked horizontal, vertical, and mixed."
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Horizontal navigation is the most common way of displaying the top-level pages of a site. It’s typically placed at the top of the page and occupies horizontal space directly above the main content area."
+  },
+  {
+   "k": "h3",
+   "t": "Stacked horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Stacked horizontal navigation adds a secondary navigation bar under the primary horizontal bar. This works best for applications with a larger number of main navigation items to help declutter the experience."
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation"
+  },
+  {
+   "k": "p",
+   "t": "Vertical navigation is located next to the main content area on the page, and can be used when a website has a large number of navigation items or when horizontal space is limited."
+  },
+  {
+   "k": "h3",
+   "t": "Mixed navigation"
+  },
+  {
+   "k": "p",
+   "t": "Mixed navigation combines horizontal and vertical navigation in complex applications. The horizontal bar has global navigation items, while the vertical panel has local navigation items."
+  },
+  {
+   "k": "h2",
+   "t": "Grid systems"
+  },
+  {
+   "k": "p",
+   "t": "Each layout uses a responsive grid system that can adjust to different screen sizes. The grid changes depending on which panels are included, such as navigation or information sections, so it fits the layout and page width. For example, the grid designed for vertical and mixed layouts adapts to accommodate the left navigation panel. Learn more about grid systems in Responsive grid system."
+  },
+  {
+   "k": "h3",
+   "t": "Content areas"
+  },
+  {
+   "k": "p",
+   "t": "A content area is the primary section of the interface where the main information, features, and interactive elements of an application are displayed. Content areas can span multiple columns, and information should be displayed in a logical order based on the intended user flow.\nContent areas reflow and adapt to varying page widths and breakpoints. When working on a responsive design, consider how the content areas will shift as the page grows and shrinks, and communicate intentions for this reflow with your development team."
+  },
+  {
+   "k": "p",
+   "t": "A. Margins: White space along the edges of the screen that ensures content doesn’t get cut off.B. Content area: Space available for content to occupy once margins have been defined."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "For mobile experiences, 375px is a common reference width. However, actual screen widths vary across devices, so layouts should be designed responsively to accommodate different sizes."
+  },
+  {
+   "k": "h3",
+   "t": "Tablet"
+  },
+  {
+   "k": "p",
+   "t": "For tablet experiences, 768px is a common reference width.  However, actual screen widths vary across devices, so layouts should be designed responsively to accommodate different sizes."
+  },
+  {
+   "k": "h3",
+   "t": "Ultra wide screen views"
+  },
+  {
+   "k": "p",
+   "t": "There are fixed and fluid grid options for use cases where the screen size is 1600px or greater. Keep in mind how your content areas will shift as the page grows and shrinks, and communicate the intended experience with your development team. Learn more about fixed and fluid grid options in Responsive grid design."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Responsive grid system"
+  },
+  {
+   "k": "p",
+   "t": "Use the responsive grid system to organize design elements for visual consistency across pages."
+  },
+  {
+   "k": "h3",
+   "t": "Footer"
+  },
+  {
+   "k": "p",
+   "t": "Content fixed at the bottom of a page to provide important information or links."
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Menu placed at the top of a site that links to important pages or features."
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation"
+  },
+  {
+   "k": "p",
+   "t": "Navigation panel located next to page content on screens with sufficient space."
+  }
+ ]
+}

@@ -1,0 +1,520 @@
+{
+ "url": "https://design.visa.com/components/button/usage",
+ "title": "Button | Components | Visa Product Design System",
+ "h1": "Button",
+ "readAt": "2026-10-15T17:09:17.495Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Button"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that help users take actions within an interface."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesPrimary buttonsSecondary buttonsTertiary buttonsDestructive buttonsIcon buttonsUI icon buttonsOrderAlignmentSize",
+    "BehaviorsStyling and coding buttons and links",
+    "Content",
+    "Platform considerationsMobile",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Buttons are selectable elements that allow users to take action. They typically communicate a call to action (CTA) using text, icons, or both. Buttons are utilized across a range of interfaces including dialogs, forms, and content cards."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Push button, actions drop-down, action menu, UI button (Native iOS), button (Android), elevated button (Flutter)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Leading icon (optional): Icon located before the button text used to enhance the meaning of the text.\nB. Label (required): Text communicating what action will be performed when the user interacts with it.\nC. Trailing icon (optional): Icon located after the button text used to enhance the meaning of the text."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Primary button",
+     "To emphasize the most important or common call to action.",
+     "For actions of equal importance to others or another primary button."
+    ],
+    [
+     "Secondary button",
+     "For calls to action that are less important or the opposite of the primary.",
+     "For the principle or most important action or without a primary button."
+    ],
+    [
+     "Tertiary button",
+     "For the least important call to action. For sub actions when the primary and secondary are present.",
+     "For actions of high use or importance. For destructive actions that might be accidentally selected."
+    ],
+    [
+     "Destructive button",
+     "To emphasize that an action could have a destructive or irreversible effect, such as deleting data.",
+     "For non-destructive actions."
+    ],
+    [
+     "Icon button",
+     "For displaying actions in a compact area.To implement buttons with more visual appeal.",
+     "When the meaning of an icon is unclear.When icon buttons aren’t consistently used within the UI."
+    ],
+    [
+     "UI Icon button",
+     "Within components and when the action is universally recognized.",
+     "When the meaning of an icon is unclear."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Only use buttons for actions, not navigational elements. Use a Link to take users to a new destination.",
+    "Use consistent design, placement, and behavior for buttons throughout interfaces. This helps users predict interactions.",
+    "Avoid using more than five text buttons per interface. Consider using a Dropdown menu to group more than five actions.",
+    "Group buttons into logically based on the relationship or tasks users are trying to accomplish with your interface."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use leading or trailing icons with text labels when appropriate and commonly associated with the action."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use leading or trailing icons when they are not commonly associated with the action."
+  },
+  {
+   "k": "h3",
+   "t": "Primary buttons"
+  },
+  {
+   "k": "p",
+   "t": "Primary buttons are high emphasis and use fill to draw attention. They can be used independently or in groups where one call to action needs to stand out more than others."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use them sparingly to draw attention to the most important action on a screen.",
+    "Place primary buttons in expected locations, ensuing they are easy to find and follow the natural flow of the page."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use one primary button per screen, not including headers, dialogs, content cards or panels."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use multiple primary buttons per screen. This can distract users, causing uncertainty about the next action."
+  },
+  {
+   "k": "h3",
+   "t": "Secondary buttons"
+  },
+  {
+   "k": "p",
+   "t": "Secondary buttons are medium emphasis and use an outline with no fill. They’re commonly paired with primary buttons to perform the opposite or negative action compared to primary buttons, for example “Next” and “Back”, or “Submit” and “Cancel”. However, they can also be used independently or in groups."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use secondary buttons for common actions when high emphasis isn’t needed."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use primary and secondary button styles together to express different levels of emphasis."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use more than two secondary buttons for smaller, mobile interfaces or three for larger, web experiences."
+  },
+  {
+   "k": "h3",
+   "t": "Tertiary buttons"
+  },
+  {
+   "k": "p",
+   "t": "Tertiary buttons are the least prominent compared to primary and secondary buttons. They can be used independently or in groups with primary and secondary buttons for less important actions."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use tertiary buttons for less important, less frequently used actions. Overuse can dilute their meaning and confuse users.",
+    "Ensure tertiary buttons are easy to locate and not so subtle that they’re easy to overlook or hard to interact with."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Place tertiary buttons in a location that doesn't interfere with the main workflow."
+  },
+  {
+   "k": "p",
+   "t": "Don't     A tertiary button labeled with primary call to action <Submit.>"
+  },
+  {
+   "k": "h3",
+   "t": "Destructive buttons"
+  },
+  {
+   "k": "p",
+   "t": "Destructive buttons should be used sparingly. They have three styles: primary, secondary, and tertiary."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Alert users with a warning dialog before a destructive action happens, especially if resulting in data loss.",
+    "Prevent data loss by placing destructive buttons where they’re less likely to be selected by mistake.",
+    "Allow users to undo destructive actions when possible to give users more control over their actions."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use both color and and descriptive labels to ensure destructive buttons are accessible."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use more than two primary destructive buttons per screen as it can lead to confusion or accidental selections."
+  },
+  {
+   "k": "p",
+   "t": "Do     Pair icons with destructive buttons to enhance the meaning of the button."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use icons alone for destructive buttons, as these could lead to user error or data loss."
+  },
+  {
+   "k": "h3",
+   "t": "Icon buttons"
+  },
+  {
+   "k": "p",
+   "t": "Icon buttons are circular, enclosed icons that represent an action. They include an optional label and are available in a medium and large size. Unlike text buttons, icon buttons offer visual appeal and stack vertically in limited horizontal space."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use icon buttons thoughtfully, don’t add visual appeal for the sake of visual appeal.",
+    "Size icons consistently and use or exclude icon button labels across experiences."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use icon buttons without labels when their meaning is clear."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use unlabeled icon buttons when their meaning is unclear."
+  },
+  {
+   "k": "h3",
+   "t": "UI icon buttons"
+  },
+  {
+   "k": "p",
+   "t": "UI icons buttons are visual representations of an action that don’t require labels. They exist within other components or on their own."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure icons clearly and intuitively indicate the action they represent.",
+    "Make sure UI icons are large enough to be usable, especially on touch devices."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use one UI icon within a component."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Create clutter by using too many UI icons in a component."
+  },
+  {
+   "k": "h3",
+   "t": "Order"
+  },
+  {
+   "k": "p",
+   "t": "Order refers to the sequence of buttons and which action comes first in a group. Buttons should be ordered logically based on user expectations. This frequently aligns with reading order, meaning primary buttons appear on the left for left-to-right languages. However, common exceptions exist. For example, navigational buttons in a form or wizard where “Next” would be placed in the right position to indicate forward progress."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Be consistent across your interface. If the primary action is usually on the left, avoid switching it for specific instances.",
+    "Group related actions, for example, “Cut”, “Copy”, and “Paste” are often grouped together in text editing interfaces."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Place the 'Back' button to the left of the 'Next' button to follow the natural reading order for left-to-right languages."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Assume the same logical order applies to right-to-left languages where users may have different expectations."
+  },
+  {
+   "k": "h3",
+   "t": "Alignment"
+  },
+  {
+   "k": "p",
+   "t": "Alignment refers to the position of buttons or button groups along a common edge within a container. In left-to-right languages, users typically scan content left-to-right, then top-to-bottom. Buttons should follow this pattern and align with the content within the container to match these expectations.\nButtons within components are typically left-aligned except in wizards, touring tips, or components with full-width buttons."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Left-align buttons by default for left-to-right languages so it’s easier for users to scan content along a common edge."
+   ]
+  },
+  {
+   "k": "list",
+   "items": [
+    "Right-align navigational buttons to reinforce that there will be forward progress."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Size"
+  },
+  {
+   "k": "p",
+   "t": "Text and icon buttons are available in medium and large sizes. UI icon buttons are available in small, medium, and large sizes."
+  },
+  {
+   "k": "h4",
+   "t": "Medium buttons"
+  },
+  {
+   "k": "p",
+   "t": "Medium buttons are the default button size for most use cases, such as forms and dialogs."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use medium buttons to allow space for interfaces with multiple interactive elements."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Large buttons"
+  },
+  {
+   "k": "p",
+   "t": "Large buttons are more expressive and may balance large headings commonly found across landing or web pages."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use large buttons when space is available and there are few other interactive elements present."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Styling and coding buttons and links"
+  },
+  {
+   "k": "p",
+   "t": "In general, buttons should be used for in-page actions and links should be used as navigational tools, like leaving a page. Whenever possible, match the visual styling of these elements with their coded and user-expected behavior. However, buttons and links may be styled like one another in some cases. Learn about these exceptions below."
+  },
+  {
+   "k": "h4",
+   "t": "Button coded as links"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the arrow icon whenever possible as a visual cue that selecting will navigate to another page."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Link coded as buttons"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid underlining links coded as buttons, as this style is reserved for links, not buttons."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use sentence case except for proper nouns or acronyms.",
+    "Use clear, actionable, language that is easy to understand without additional context or information.",
+    "Avoid abelist verbs that focus on senses. For example, use “Play video,” instead of “Watch video” or “Explore results” instead of “See results”."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Button formulas"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Combine action or command verbs with nouns to make buttons specific. {verb} + {noun} is useful for most product cases. {verb} + {adverb} is typically used for marketing and promotions.",
+    "Only use single word labels for common navigational actions such as, “Next,” “Continue,” “Back,” “Close,” “Cancel,” “OK,” “Accept,” “Done,” or “Finish.”"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure button text helps users predict what will happen."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use vague language that is not descrptive."
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure all button labels clearly indicate a single action that will happen when selected."
+  },
+  {
+   "k": "p",
+   "t": "Don't      Include multiple actions in one button. This creates confusing and long labels that wrap on multiple lines."
+  },
+  {
+   "k": "p",
+   "t": "Do     Limit button labels to one to three words."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Include articles such as “a”, “an”, or “the”."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use a question mark to add meaning for “Forgot password?” or “Forgot username?” button labels."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Include punctuation in any other button label as they don’t add meaning to button labels."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "h4",
+   "t": "Full-width buttons"
+  },
+  {
+   "k": "p",
+   "t": "Full-width buttons make it easier for users to select options on mobile devices and reduce the chance of missed selections."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use full-width buttons within containers when users would benefit from extra touch space.",
+    "Avoid using more than two full-width buttons per container to help prevent accidental selections."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Stacked buttons"
+  },
+  {
+   "k": "p",
+   "t": "Stacked buttons adds visual balance and provide a larger touch area on small screens."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Arrange buttons in a vertical stack at the bottom of the screen to use the available space more effectively.",
+    "Avoid stacking too many buttons to prevent overwhelming the user. Limit the options to the most important actions.",
+    "Help users prioritize actions by placing the most important or expected button at the top."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Icon buttons as navigation"
+  },
+  {
+   "k": "p",
+   "t": "Icon buttons can be used in mobile interfaces to provide compact navigation."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Only use icons as navigation when the icon is commonly understood.",
+    "Use text in addition to the icon if an icon can be interpreted in multiple ways.",
+    "Maintain consistent styles for icons. This includes the design as well as placement and behavior."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Link"
+  },
+  {
+   "k": "p",
+   "t": "Text-based navigation elements that take users to another destination."
+  },
+  {
+   "k": "h3",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance on everything from layouts to validation to ensure forms are clear and usable."
+  }
+ ]
+}

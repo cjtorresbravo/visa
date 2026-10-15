@@ -1,0 +1,222 @@
+{
+ "url": "https://design.visa.com/components/icons-illustrations/usage",
+ "title": "Icons and illustrations | Components | Visa Product Design System",
+ "h1": "Icons and illustrations",
+ "readAt": "2026-10-15T17:10:00.528Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Icons and illustrations"
+  },
+  {
+   "k": "p",
+   "t": "Explore Visa-branded and generic icon libraries that represent core functions, ideas, and content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Icons library",
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Icon best practices",
+    "Visa icons",
+    "Generic icons",
+    "Icon size",
+    "Illustration best practices"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Icons are visual representations of core ideas, functions, or content. The Visa Product Design System currently supports two sets of icons: Visa-branded and generic for all other uses."
+  },
+  {
+   "k": "p",
+   "t": "Creating on-brand illustrations and visuals is key to designing cohesive, familiar product experiences. Using our brand symbol as the foundation, we extended our iconic color ratio into a unique icon and illustration system. Our new system is consistent and cohesive across our icons, enriched icons, and illustrations. The icons and enriched icons can scale into our illustration style to tell a more comprehensive story. These visual elements broaden our visual language to help us effectively communicate stories, actions, and ideas."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Tiny resolution (16x16): Simplified icons placed within components or areas with limited space.  B. Low resolution (24x24): Icons with more detail placed within components when space permits.  C. High resolution (48x48): Detailed icons placed outside components to add visual interest and meaning.  D. Illustration: Larger visuals used to demonstrate complex ideas, add visual interest, or show processes."
+  },
+  {
+   "k": "h2",
+   "t": "Icon best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the Visa icon set for Visa-branded products and the generic set for fictitious or partner brands. Reference Fictitious brands and user aliases (internal only) for more information.",
+    "Use icons only when they add meaning, especially when used within interactive components.",
+    "Avoid relying solely on icons to convey meaning unless they are universally understood by most users.",
+    "Use the predefined or recommended icon sizes that correspond to each specific component design."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Combine text with icons when creating labels, especially in navigation. This ensure users have a visual cue while also offering context using text."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use icons as the only form of labels, especially in navigation. While it's possible to use standalone icons on mobile, do so sparingly. An example is a hamburger menu icon."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use icons in components without changing their original size or detail level."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Replace small or tiny icons with high-resolution versions as these are too detailed and complex for small icon spaces."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use the Visa icon set for applications that use the Visa brand."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use the Visa icon set for designs that use fictitious or partner brands."
+  },
+  {
+   "k": "h2",
+   "t": "Visa icons"
+  },
+  {
+   "k": "p",
+   "t": "The icon set for Visa-branded products is designed to mirror Visa’s original brand assets as closely as possible. Any additions should follow brand guidelines. Existing icons and brand guidelines are available for review on Visa Creative Asset Manager (VCAM). First-time users must contact Visa Brand & Marketing Governance or visit Insite (internal only) to set up an account."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use single-color icons for most use cases.",
+    "Use two-color icons when appropriate for dark surfaces."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Design specifications"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Designed with a consistent 2px stroke width, suitable for all canvas sizes",
+    "Incorporates open shapes to provide a unique and distinctive style",
+    "Uses a corner radius that’s typically set at zero, although it may be adjusted depending on specific requirements",
+    "Visit the Visa brand guidelines for more details on design specifications"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Generic icons"
+  },
+  {
+   "k": "p",
+   "t": "Generic icons should be used for mockups or any product that does not specifically represent the Visa brand. This icon set originated from Vault, the previous iteration of the design system before Nova."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use single-color icons all generic use cases."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Design specifications"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Designed with a 2px stroke width for use on tiny and low-resolution canvas sizes",
+    "High-res icons combine 2px stroke with 3px stroke width used for details",
+    "Uses closed shapes to create clear and distinct icons",
+    "Uses a corner radius that’s set at 1px for tiny and low-resolution canvases, and 2px for high-resolution canvases"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Icon size"
+  },
+  {
+   "k": "p",
+   "t": "To provide flexibility,  each icon is designed in three different sizes within each set. Although all versions of an icon share the same basic design, additional details are incorporated as the canvas size increases to ensure they maintain clarity and visibility."
+  },
+  {
+   "k": "h3",
+   "t": "Tiny resolution"
+  },
+  {
+   "k": "p",
+   "t": "Tiny-resolution icons are the smallest and simplest. They’re designed on a 16px by 16px canvas. Tiny icons are referred to as “UI icons” in the Visa Brand Identity Guide."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Many components within the design system use the tiny icon size. This includes tabs, navigation components, badges, and more."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Low resolution"
+  },
+  {
+   "k": "p",
+   "t": "Low-resolution icons have more detail. They’re designed on a 24px by 24px canvas. Low-resolution icons are referred to as “Icons” in the Visa Brand Identity Guide."
+  },
+  {
+   "k": "list",
+   "items": [
+    "When space permits, it’s recommended to use the low-resolution icons, as they communicate the purpose more clearly when compared to smaller versions."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "High resolution"
+  },
+  {
+   "k": "p",
+   "t": "High-resolution icons include additional details to provide visual interest. They’re designed on a 48px by 48px canvas. High-resolution icons are referred to as “Enriched icons” in the Visa Brand Identity Guide."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use on content cards or for other, non-component use cases where space allows and visual interest is needed."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Illustration best practices"
+  },
+  {
+   "k": "p",
+   "t": "Product teams must reference Visa’s brand guidelines throughout the design and development process to make informed decisions. Brand offers documentation for illustration guidance in the Brand Identity Asset Library.  In the future, we may offer an extension of this guidance specific to user experiences."
+  },
+  {
+   "k": "p",
+   "t": "Refer to the Visa Brand Identity Guide on Visa Creative Asset Manager (VCAM) to learn more. First-time users on VCAM must contact Visa Brand & Marketing Governance or visit Insite (internal only) to set up an account."
+  }
+ ]
+}

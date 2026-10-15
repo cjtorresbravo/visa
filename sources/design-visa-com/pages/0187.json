@@ -1,0 +1,96 @@
+{
+ "url": "https://design.visa.com/components/content-card/accessibility",
+ "title": "Content card | Components | Visa Product Design System",
+ "h1": "Content card",
+ "readAt": "2026-10-15T17:09:33.621Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Content card"
+  },
+  {
+   "k": "p",
+   "t": "Compact displays that summarize or direct users to more information."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Keyboard controls"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure buttons and links have meaningful aria-labels if there are multiple content cards with generic link or button labels. For example, use “close cardA” so a screen reader will announce which card the button goes to.",
+    "Ensure clickable cards don’t have additional controls like a close button, as the whole card is a button.",
+    "Consider using an HTML heading element for each card to help with keyboard navigation and page summaries for screen readers. Be sure to use the right heading level for the hierarchy of the page so that there aren’t skipped levels, even if you style the heading to look like a different level."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard controls"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Key",
+     "Behavior"
+    ],
+    [
+     "Enter",
+     "Prompts the default action associated with a button."
+    ],
+    [
+     "Tab",
+     "Moves to the next focusable element."
+    ],
+    [
+     "Shift + Tab",
+     "Moves to the previous focusable element."
+    ]
+   ]
+  }
+ ]
+}

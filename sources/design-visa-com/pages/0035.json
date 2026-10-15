@@ -1,0 +1,509 @@
+{
+ "url": "https://design.visa.com/developing/angular/services/floating-ui",
+ "title": "Floating UI | Services | Angular | Visa Product Design System",
+ "h1": "Floating UI service",
+ "readAt": "2026-10-15T17:06:22.368Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Floating UI service"
+  },
+  {
+   "k": "p",
+   "t": "Create and manage floating elements seamlessly with our internal Floating UI service."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Properties",
+    "Methods"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Nova Angular version"
+  },
+  {
+   "k": "text",
+   "t": "7.0.0"
+  },
+  {
+   "k": "text",
+   "t": "6.0.2"
+  },
+  {
+   "k": "text",
+   "t": "5.1.3"
+  },
+  {
+   "k": "p",
+   "t": "This internal service is used by Combobox, Dropdown Menu, and Tooltip components. \nIt can be used with generic FloatingUIContainer, FloatingUIElementDirective, and FloatingUITriggerDirective to create your own custom floating-ui. \nIf you are using any of the components mentioned, you will typically not need to use this service directly. \nDerived from Floating UI documentation."
+  },
+  {
+   "k": "h2",
+   "t": "Properties"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "closeAndFocus",
+     "",
+     "() => {...}",
+     "The closeAndFocus method hides the Floating UI element and focuses the trigger element. This is typically used when closing the menu with the escape key or clicking outside of the floating UI element."
+    ],
+    [
+     "display",
+     "string",
+     "'flex'",
+     "Displays property of the floating UI element."
+    ],
+    [
+     "hideOnHoverTimeout",
+     "number",
+     "A factor of the offset middleware option if provided, otherwise 50.",
+     "Time in milliseconds to wait before hiding the floating UI element when the trigger is hovered over."
+    ],
+    [
+     "isShownEffect",
+     "",
+     "effect(() => { const isShown = this.isShown(); this.isShownEmitter.emit(isShown); if (!isShown && this.floatingUI) return this.renderer.setStyle(this.floatingUI.nativeElement, 'display', 'none'); const triggerDisabled = this.trigger?.getAttribute('disabled'); // only show the floating UI if the trigger and element exist, menu is set to shown, and trigger is not disabled if (!this.trigger || !this.floatingUI || !isShown || triggerDisabled) return; this.positionFloatingUI(); this.renderer.setStyle(this.floatingUI.nativeElement, 'display', this.display); })",
+     ""
+    ],
+    [
+     "isShownEmitter",
+     "EventEmitter<boolean>",
+     "new EventEmitter()",
+     "Emits true when this floating UI element is shown and false when hidden."
+    ],
+    [
+     "rendererListeners",
+     "(function)[]",
+     "[]",
+     ""
+    ],
+    [
+     "restoreFocus",
+     "",
+     "() => {...}",
+     "The restoreFocus method focuses the trigger element. This method is useful if you've set closeOnClick to false and want to manually restore focus."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Methods"
+  },
+  {
+   "k": "h3",
+   "t": "addCloseActions"
+  },
+  {
+   "k": "p",
+   "t": "The addCloseActions method adds default close actions to the Floating UI component. These actions include closing the menu when the escape key is pressed or when clicking outside of the floating element."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "p",
+   "t": "No arguments for this method."
+  },
+  {
+   "k": "h3",
+   "t": "cleanupListeners"
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "p",
+   "t": "No arguments for this method."
+  },
+  {
+   "k": "h3",
+   "t": "closeOnClickOut"
+  },
+  {
+   "k": "p",
+   "t": "The closeOnClickOut method closes the menu when a click occurs outside of the menu and the triggering element."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "event",
+     "Event",
+     "Document click event."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "customizeFloatingUI"
+  },
+  {
+   "k": "p",
+   "t": "The customizeFloatingUI method allows you to provide custom placement and middleware options to the Floating UI service."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "placement",
+     "FloatingUIPlacements | null",
+     "Optional. See FloatingUIPlacements enum."
+    ],
+    [
+     "middleware",
+     "any | null",
+     "Optional. Visit the official Floating UI documentation for more on middleware options."
+    ],
+    [
+     "display",
+     "string | null",
+     "Optional. Sets CSS display property for the floating UI element."
+    ],
+    [
+     "tooltipArrow",
+     "TooltipArrowDirective | null",
+     "Optional. Directive reference to the arrow element. See TooltipArrowDirective."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "hidefloatingUI"
+  },
+  {
+   "k": "p",
+   "t": "The hideFloatingUI method hides the Floating UI element."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "p",
+   "t": "No arguments for this method."
+  },
+  {
+   "k": "h3",
+   "t": "keepOnHover"
+  },
+  {
+   "k": "p",
+   "t": "The keepOnHover method keeps the floating element visible when hovering over the trigger or the floating element."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "p",
+   "t": "No arguments for this method."
+  },
+  {
+   "k": "h3",
+   "t": "nativeElement"
+  },
+  {
+   "k": "p",
+   "t": "The nativeElement method returns the Element type of the reference element."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "Element"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "element",
+     "ElementRef<any> | HTMLElement",
+     "Element to be converted to Element type."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "positionFloatingUI"
+  },
+  {
+   "k": "p",
+   "t": "The positionFloatingUI method positions the Floating UI based on the given placement and middleware. \nFor more details on the internal function, refer to Floating UI's compute position documentation."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "trigger",
+     "Element | undefined",
+     "The triggering element."
+    ],
+    [
+     "floatingUI",
+     "HTMLElement | undefined",
+     "The element that will \"float\" when triggered."
+    ],
+    [
+     "placement",
+     "FloatingUIPlacements",
+     "Reference FloatingUIPlacements."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "setUpfloatingUI"
+  },
+  {
+   "k": "p",
+   "t": "The setUpFloatingUI method is required to initialize the floating element and its trigger. \nCalled by default with FloatingUIContainer or ComboboxDirective."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "referenceEl",
+     "ElementRef | HTMLElement",
+     "References element that will trigger floating UI."
+    ],
+    [
+     "floatingEl",
+     "ElementRef",
+     "References floating UI element."
+    ],
+    [
+     "eventArray",
+     "UIEventVisibilityPair | null",
+     "Array of events for the reference/trigger element to listen for. i.e. [new UIEvent('focus'), FloatingUIVisibility.SHOW] tells the element to show the floating UI when the triggering element is focused."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "setUpTrigger"
+  },
+  {
+   "k": "p",
+   "t": "The setUpTrigger method configures the triggering element by setting up the events to listen for and the actions to take when those events are triggered."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "eventArray",
+     "UIEventVisibilityPair",
+     "Array of events for the reference/trigger element to listen for. i.e. [new UIEvent('focus'), FloatingUIVisibility.SHOW] tells the element to show the floating UI when the triggering element is focused."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "showfloatingUI"
+  },
+  {
+   "k": "p",
+   "t": "The showFloatingUI method displays the Floating UI element."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "p",
+   "t": "No arguments for this method."
+  },
+  {
+   "k": "h3",
+   "t": "toggleFloatingUI"
+  },
+  {
+   "k": "p",
+   "t": "The toggleFloatingUI method toggles the visibility of the Floating UI element."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "p",
+   "t": "No arguments for this method."
+  }
+ ]
+}

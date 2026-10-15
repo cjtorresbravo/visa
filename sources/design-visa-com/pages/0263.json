@@ -1,0 +1,597 @@
+{
+ "url": "https://design.visa.com/patterns/file-upload/usage",
+ "title": "File upload | Patterns | Visa Product Design System",
+ "h1": "File upload",
+ "readAt": "2026-10-15T17:11:47.023Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "File upload"
+  },
+  {
+   "k": "p",
+   "t": "An interactive element that combines a file uploader with file cards to enable users to upload and manipulate files."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Task flows",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesFile uploaderFile cardsUI icon buttonsSingle-file uploadsMulti-file uploads",
+    "LayoutsWith file cardsWith alternate file display",
+    "BehaviorsUpload buttonDrag and drop zoneDrag and drop magnetic effectOS file browser",
+    "Platform considerationsMobile",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "The file upload pattern combines file uploader, file card, and button components with other context-dependent components to enable users to upload files from their device to a platform, server, or form."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: File input, file selection, file picker, media uploader."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Uploader title (required): Brief text indicating the uploader’s function.\nB. Uploader description (optional): Brief text providing upload instructions or file requirements.\nC. Select file(s) button (required): Button that opens the system’s file browser so users can select a file.\nD. Drag and drop zone (optional): Outlined container enabling users to place files for upload.\nE. File card thumbnail (optional): Icon or compressed image indicating the file type.\nF. File card name (required): Text communicating the file name as indicated by the user’s device.\nG. File size (optional): Text indicating the size of the file.\nH. File card progress indicator (required): Circular progress indicator showing the upload status.\nI. Delete icon button (required): UI icon button enabling users to remove a selected file.\nJ. Submit button (optional): Button enabling users to submit successful uploads."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Pattern",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "With file cards",
+     "To help users identify and perform quick actions on files they’ve selected for upload. To communicate upload progress.",
+     "In interfaces with limited space or specific design requirements."
+    ],
+    [
+     "With alternate file display",
+     "To accommodate uploaders placed in compact interfaces with specific design requirements.",
+     "When there’s sufficient space to represent selected files with cards."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow all guidance and best practices for implementing file uploaders and file cards.",
+    "Only include one file uploader per page or interface to avoid overwhelming users.",
+    "Follow guidance for buttons when implementing calls to action within file upload patterns.",
+    "Specify accepted file types and sizes to prevent errors and avoid frustration.",
+    "Use clear language to indicate whether users can upload multiple files or just one.",
+    "Allow users to cancel or delete a file at any point in the file upload process.",
+    "Always accept as many file types and sizes as possible based on server capabilities."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "File uploader"
+  },
+  {
+   "k": "p",
+   "t": "File uploaders allow users to select and upload files from their device to a specific location, such as a server. They’re often used in forms, but can also appear as standalone elements."
+  },
+  {
+   "k": "h4",
+   "t": "Default (drag and drop)"
+  },
+  {
+   "k": "p",
+   "t": "The drag-and-drop method enables users to upload files by placing files in the drop zone or using their OS browser."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use this for desktop applications when there’s sufficient space to accommodate the drop zone.",
+    "Follow best practices in the Drag and drop zone section to ensure this method is accessible for all users."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Button only"
+  },
+  {
+   "k": "p",
+   "t": "The button-only method enables users to upload files with their OS browser without drag-and-drop functionality."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use this method for mobile applications or if space is limited.",
+    "Use this method if the uploader is placed within other elements or crowded interfaces."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use the uploader description to indicate how many files can be selected for upload."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Disable the drop zone or button when users have selected too many files, as this can frustrate or confuse users."
+  },
+  {
+   "k": "h3",
+   "t": "File cards"
+  },
+  {
+   "k": "p",
+   "t": "File cards are visual representations of files selected for upload. They display important information like the file name, upload status, and key actions like retry or delete."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Provide clear feedback about the status of a file, like whether it’s still uploading, failed to upload, or successfully uploaded.",
+    "Include relevant inline actions such as retry or delete to enable users to quickly manipulate selected files."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "File card order"
+  },
+  {
+   "k": "p",
+   "t": "In general, it’s best to display file cards in the order they’re selected in the OS file browser or placed in the drop zone. This supports findability and is generally the simplest method for ordering files."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid changing the order of file cards whenever possible, as this can disorient the user."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use one file card to represent each file."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Represent multiple files within the same file card."
+  },
+  {
+   "k": "h4",
+   "t": "File thumbnails"
+  },
+  {
+   "k": "p",
+   "t": "File thumbnails can be used to help users quickly identify the type of file being uploaded or display a compressed version of the selected media. There are two types of file thumbnails: file icons and compressed image previews.\nNote: Including file thumbnails increases the server load during file processing. Product teams should work closely with their developers and designers to determine the correct method for their specific use case."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use file icons in most cases to give context without placing stress on the server."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use icons that are ambiguous. Clearly indicate file type to provide context and boost the user’s understanding."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use compressed image previews for media uploads if it could help the user identify what they selected for upload."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use compressed image previews for text or data-heavy documents such .csv or .txt files."
+  },
+  {
+   "k": "h4",
+   "t": "Inline actions"
+  },
+  {
+   "k": "p",
+   "t": "Inline actions can be added to file cards to enable users to directly manipulate individual files. Common actions include download, retry, or rename. File cards should always include actions that enable users to cancel or delete their upload. This helps prevent mistakes and gives users control over their experience."
+  },
+  {
+   "k": "p",
+   "t": "Do     Prioritize essential actions such as delete, retry, or download to help users complete tasks quickly."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Overload file cards with too many inline actions, as this can overwhelm users and crowd the file card."
+  },
+  {
+   "k": "h4",
+   "t": "Progress indicators"
+  },
+  {
+   "k": "p",
+   "t": "File cards include progress indicators to communicate the status of an upload. If the upload fails, the progress indicator is replaced with an inline action enabling the user to try again. When the upload completes, the progress indicator shows a success state. This ensures users are aware of the status of their upload."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use an indeterminate progress indicator to communicate upload status."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Replace the progress indicator with an inline action enabling the user to retry the upload if it fails."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Replace the progress indicator with an error icon, as this may cause redundant announcements for screen reader users."
+  },
+  {
+   "k": "h3",
+   "t": "UI icon buttons"
+  },
+  {
+   "k": "p",
+   "t": "File upload patterns can be prompted with a UI icon button when space is limited. This method should work like the default file uploader and prompt the user to select a file using their OS file browser."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Don’t use icon buttons to prompt a drop zone."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Only use commonly recognized icon buttons like an upload or paperclip icon."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use unclear or vague icons, as this may cause confusion or make the uploader unclear."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use UI icon buttons when context clues and user expectations are sufficient for indicating the uploader."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use UI icon buttons in unexpected contexts as users might not know what they mean."
+  },
+  {
+   "k": "h3",
+   "t": "Single-file uploads"
+  },
+  {
+   "k": "p",
+   "t": "File uploaders can support single or multi-file uploads. Single-file uploads allow users to select and upload one file at a time. They’re typically used when only one file is required from the user, like profile photos, applications, or forms."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use clear messaging to indicate that only one file can be submitted for upload.",
+    "Replace the “Select file(s)” button with a file card to provide a clear visual cue that only one file can be uploaded. This helps prevent errors by signaling that additional files can’t be selected.",
+    "Remove the select file(s) button and/or the drop zone after the user selects a file. This helps prevent errors by signaling that additional files can’t be selected."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Multi-file uploads"
+  },
+  {
+   "k": "p",
+   "t": "File uploaders can also support unlimited uploads, or limit selections to any specific number. This is typical when users need to upload several files at once, such as multiple photos in an album, documents for a project, or records to a database, but the number of files is not too large. In this scenario, files are manually selected by the user, and the server processes each file individually."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use clear messaging to indicate how many files can be submitted for upload.",
+    "Consider adding controls to enable users to “Select all” or “Delete all” files selected. This is particularly helpful when users are expected to upload many files at once."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Adding additional files"
+  },
+  {
+   "k": "p",
+   "t": "Users should always be able to add additional files for upload after their initial selection. At any point in the process, the “Select file(s)” button or drop zone should remain active to ensure users can select more as needed. \nNew file cards can be placed before or after existing ones. Whichever method you choose, implement it consistently."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Keep any files the user already selected to ensure a seamless experience and avoid frustration."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Alternate labels"
+  },
+  {
+   "k": "p",
+   "t": "File upload patterns should always have a title or label clearly indicating their purpose. While the uploader component includes a title in the build, hiding it can provide design flexibility or space for more context. If the title within the component build is hidden, include an alternate label or provide enough context clues to explain the purpose of the uploader."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include the title programmatically for accessibility to ensure screen reader users can identify the file uploader."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Layouts"
+  },
+  {
+   "k": "p",
+   "t": "The file upload pattern has multiple layouts to accommodate different visual designs and use cases. Each can be used as a starting point to enable different task flows. To learn about the file upload task flows and how they work with each pattern, visit the Task flows tab. \nNote: Any layout can be created with both the default uploader component or the drag and drop component."
+  },
+  {
+   "k": "h3",
+   "t": "With file cards"
+  },
+  {
+   "k": "p",
+   "t": "File cards are visual representations of files selected for upload and are the default method for representing files selected for upload. They’re placed between the uploader component and the optional “Submit” button to ensure the user can easily access the files they’ve selected, understand the upload status, and perform quick actions. This layout can be placed within various contexts or interfaces, like in a form."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use secondary button styling in the file uploader component so it doesn’t conflict with other primary buttons in the interface."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "With alternate file display"
+  },
+  {
+   "k": "p",
+   "t": "Some scenarios require alternate file displays if the use case or design can’t accommodate file cards. This layout provides flexibility for alternate file representations, such as files that are listed in table rows. This layout can be modified or applied in any use case where file cards don’t fit within the interface or context."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always communicate upload status using a progress indicator and success state."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "p",
+   "t": "File uploaders have various behaviors to help users select and upload files. Reference the guidance below to learn about common behaviors of this component and features you may implement based on use case."
+  },
+  {
+   "k": "h3",
+   "t": "Upload button"
+  },
+  {
+   "k": "p",
+   "t": "The “Upload” button is an additional call to action used to transfer selected files to the server in manual task flows. This provides extra control and security by allowing users to manipulate file cards before transferring them to the server. This button should not be used in automatic flows. For more information on manual task flows, visit the Task flows tab."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use clear language such as “Upload” or “Upload files” to ensure the purpose of the button is clear.",
+    "Use primary styling for the “Upload” button to emphasize that files must be manually uploaded."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Drag and drop zone"
+  },
+  {
+   "k": "p",
+   "t": "The drag and drop zone is a container enabling users to place files from their device to initiate an upload. When the user hovers over the drop zone with files, it displays an active state to indicate it’s ready to receive files. This is an optional element and can be removed to accommodate smaller screens or compact designs."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use active styling when the user hovers above the drop zone to indicate the zone is ready to receive files.",
+    "Add file cards as soon as the user places files in the drop zone to provide quick confirmation that the file was received.",
+    "Always pair a drag and drop zone with an upload button allowing users to select files from their OS file browser instead."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Always pair the drag and drop zone with a button to ensure the uploader is accessible to all users."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use a drag and drop zone alone, as this method isn’t fully accessible and doesn’t work on all platforms."
+  },
+  {
+   "k": "h3",
+   "t": "Drag and drop magnetic effect"
+  },
+  {
+   "k": "p",
+   "t": "The magnetic effect refers to a border around the drag and drop zone allowing users to drop files in a slightly larger area. This can reduce errors by increasing the touch target without requiring more screen space.\nNote: Product teams should work closely with their designers and developers to determine how large the magnetic zone should be. In some cases, the magnetic effect can include a slightly larger area than the drop zone. In other cases, teams may choose to include the full screen in the magnetic effect, enabling users to place their file anywhere on the page to initiate an upload. Explore the content below for an overview of common strategies for implementing a magnetic effect."
+  },
+  {
+   "k": "h4",
+   "t": "Extended drop zone"
+  },
+  {
+   "k": "p",
+   "t": "An extended drop zone can be used to slightly extend the drop zone. When the enters the extended drop zone, it displays an active state to indicate they can drop the file to initiate an upload.\nNote: In the visual below, the pink border is shown to help illustrate the active drop zone, but appearance will vary based on your use case and design."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a visual indicator to communicate to users that the drop zone is active on hover."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Full page drop zone"
+  },
+  {
+   "k": "p",
+   "t": "A full page drop zone extends the magnetic effect to cover the full content area of a page. containing the drop zone. When the user hovers over the page with a file, borders appear with a section message indicating they can drop the file to initiate an upload."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use an overlay or other visual indicator to ensure it’s clear that the drop zone is active.",
+    "Include a section message on the page indicating files can be dropped."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "OS file browser"
+  },
+  {
+   "k": "p",
+   "t": "The OS file browser refers to the default file browser in the user’s system. When users select the “Select files(s) button,” the OS file browser dialog is automatically prompted."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Disable unsupported file types in the OS file browser when possible to prevent users from selecting invalid files and reduce the chance of errors."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "When implementing file uploaders on mobile platforms, use the default variant without the drag and drop zone to save space and enhance usability."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Allow users to upload from their file system or directly from their camera gallery.",
+    "Always ask for permission before accessing the user’s camera gallery."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use sentence case for all content except proper nouns or acronyms.",
+    "Avoid abbreviations, acronyms, or jargon unless they’re commonly understood or necessary.",
+    "Indicate the purpose of the drag and drop zone with clear text like “Drag and drop files”."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Title"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Don’t include punctuation.",
+    "Limit the title to two or three words.",
+    "Indicate the purpose of the element by using clear language like “Upload files” or “Attach files”."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Description"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use full sentences with proper punctuation.",
+    "Specify the number of files that can be uploaded, accepted file types, and size limits."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Calls to action"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow Button guidelines for help crafting content in calls to action.",
+    "Include a verb like “Select” in the uploader CTA label to clearly indicate the button enables users to select files. For example, use labels like “Select attachments” or “ Select files from folder”.",
+    "Use clear language to indicate the purpose of the manual upload button such as “Submit” or “Upload”."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "File cards"
+  },
+  {
+   "k": "h4",
+   "t": "File name"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the file name matches how it’s displayed in the user’s system.",
+    "Include the file type extension at the end of the file name."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Truncate long file names in the middle of the label to ensure the file extension is still visible."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Truncate long file names at the end, as this will omit the file extension from the file name."
+  },
+  {
+   "k": "h4",
+   "t": "File size"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Include the file size without a space between the number and unit abbreviation. For example, use “10MB”."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Button"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that help users take actions within an interface."
+  },
+  {
+   "k": "h3",
+   "t": "Progress"
+  },
+  {
+   "k": "p",
+   "t": "Visual representations of the status of a system process."
+  }
+ ]
+}

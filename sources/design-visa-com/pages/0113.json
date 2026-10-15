@@ -1,0 +1,345 @@
+{
+ "url": "https://design.visa.com/patterns/card-input",
+ "title": "Card input | Patterns | Visa Product Design System",
+ "h1": "Card input",
+ "readAt": "2026-10-15T17:07:59.144Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Card input"
+  },
+  {
+   "k": "p",
+   "t": "Sets of input fields that allow users to enter payment information."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practices",
+    "BehaviorsCard number fieldExpiration dateSecurity code",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "The card input pattern is a set of input and select components intuitively laid out for users to enter their payment information.\nAlso known as: Card number entry."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Card number field (required): Numeric input field for card number entry.\nB. Trailing icon (required): Displays the generic card icon or network indicator when the card number field is in focus.\nC. Expiration date fields (required): Select fields for card expiration month and year entry.\nD. Security code field (required): Numeric input field for security code entry that should be hidden upon user entry.\nE. Security code information icon (required): Icon displaying important information about the security code when selected."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "If users need to enter their payment information to complete a transaction securely.",
+     "If the website or application doesn’t have the necessary security measures in place to process and store user’s card information. If a payment isn’t actually being processed and card information is only being inputted for information collection purposes (i.e. account validation)."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow guidance found in Input and Select (native) when implementing those items in the card input pattern.",
+    "Ensure date formatting aligns with the user’s region when possible."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Follow the card input design layout to mimic a physical credit card and help users accurately enter their information."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Reorder the fields in the suggested layout as it will likely cause input errors or confusion."
+  },
+  {
+   "k": "p",
+   "t": "Do     Autoformat the card number to apply spaces between digits to prevent errors and allow users to review their input easier. Visit Recognizing the network below to learn more."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Implement a character limit for credit card fields, as users may input spaces on their own, causing the field to reject the number of characters needed for the card."
+  },
+  {
+   "k": "p",
+   "t": "Do     Only show the last four digits of the card number in prefilled scenarios to prevent security and privacy risks."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Show the entire card number in prefilled scenarios without discussing with Risk beforehand."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Card number field"
+  },
+  {
+   "k": "h4",
+   "t": "Card number focus state"
+  },
+  {
+   "k": "p",
+   "t": "When the focus is on the card number field, the generic card icon will appear in the trailing position."
+  },
+  {
+   "k": "h4",
+   "t": "Network indicator"
+  },
+  {
+   "k": "p",
+   "t": "The network indicator appears when the field is in focus and  the network has been detected based on the first three digits."
+  },
+  {
+   "k": "h4",
+   "t": "Auto-formatting"
+  },
+  {
+   "k": "p",
+   "t": "The card number is autoformatted with spacing to match the network. Reference Recognizing the network below for details on how autoformatting occurs."
+  },
+  {
+   "k": "h4",
+   "t": "Recognizing the network"
+  },
+  {
+   "k": "p",
+   "t": "Setting up card input fields to recognize and adapt to the specific patterns associated with different card networks helps to improve the user experience and reduce input errors. Implement autoformatting to automatically add spaces or dashes as users type their card numbers. This makes the input process smoother and aligns the user input with the visual formatting of their physical cards. For example, Visa and Mastercard typically use a 4-4-4-4 spacing pattern, whereas American Express uses a 4-6-5 pattern.\nThe first few digits of a card number, known as the Issuer Identification Number (IIN), can identify the card network. Your application can recognize these early in the input process and adjust the field to match the expected format for that network."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Card network",
+     "Length",
+     "IIN ranges",
+     "Spacing patterns"
+    ],
+    [
+     "Visa",
+     "13, 16, 19",
+     "4",
+     "#### #### #### #### (4-4-4-4)"
+    ],
+    [
+     "MasterCard",
+     "16",
+     "51-55222100-272099",
+     "#### #### #### #### (4-4-4-4)"
+    ],
+    [
+     "Maestro",
+     "12-19",
+     "500000-509999,560000-589999,600000-699999",
+     "#### #### ##### (4-4-5) #### ###### ##### (4-6-5)#### #### #### #### (4-4-4-4)#### #### #### #### ### (4-4-4-4-3)"
+    ],
+    [
+     "American Express",
+     "15",
+     "34, 37",
+     "#### ###### ##### (4-6-5)"
+    ],
+    [
+     "Discover",
+     "16, 19",
+     "6011,622126‑622925,644‑649, 65",
+     "#### #### #### #### (4-4-4-4)"
+    ],
+    [
+     "Elo",
+     "16",
+     "#### #### #### #### (4-4-4-4)",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Expiration date"
+  },
+  {
+   "k": "p",
+   "t": "The set should be labeled “Expires (MM/YY)” to match the credit card formatting. The slash symbol (/) is placed between the two select fields to align with the visual formatting of physical cards. While the contents are relatively short, the larger width of the form fields accommodate better placement for error message content, especially for localization."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Don’t give users the option to select an expiration date combination that occurs in the past.",
+    "Enable users to type, jump to an option and select it without having to open the menu.",
+    "Don’t automatically add or guess missing numbers for the month or year if the user doesn’t enter the full amount."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Expiration month"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Display all 12 months in the MM format and list them in the menu options."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Expiration year"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Display the present year and following 19 years after for a total of 20 years in the YY format."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Security code"
+  },
+  {
+   "k": "p",
+   "t": "The number of digits required in the security code, three or four digits, is determined by the card’s IIN."
+  },
+  {
+   "k": "h4",
+   "t": "Filled state"
+  },
+  {
+   "k": "p",
+   "t": "The security code should be hidden as it’s being typed in so onlookers can’t read the characters."
+  },
+  {
+   "k": "h4",
+   "t": "Security code icon button"
+  },
+  {
+   "k": "p",
+   "t": "Selecting this icon shows users more information about where to find the security code on their physical card. Upon expansion/collapse, the screen reader will announce “expanded” or “collapsed”, respectively. When users move the focus to the content, the screen reader will also announce the content of the disclosure. Most security codes are three digits, however American Express has four."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Write all content in sentence case, except for proper nouns.",
+    "Follow guidance in Forms when writing form titles, field labels, and inline messages.",
+    "Follow guidance found in Messaging when crafting error messages."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit labels to a few brief words.",
+    "Ensure labels accurately represent the expected input to reduce errors.",
+    "Use parallel structure across labels, using either nouns like “Email” or verbs like “Enter email”."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Inline messages"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit all inline messages (including errors) to one to two short sentences with punctuation.",
+    "Use inline messages to provide additional guidance such as format or specific syntax or values to help avoid errors.",
+    "Provide concise, descriptive, and helpful guidance about the field’s usage and necessity, avoiding technical jargon."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Inline error messages"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use inline error messages to draw attention and to errors without causing frustration.",
+    "Provide clear, prescriptive guidance on correcting the error. Avoid redirecting users to another page to fix it."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Card number errors"
+  },
+  {
+   "k": "p",
+   "t": "When users enter an invalid card number, an incomplete number or don’t fill in the field at all,  communicate using inline error messages to suggest how users can correct the field.\nIn situations where the card brand has been identified, but the number doesn’t align to the IIN pattern, be specific about asking the user to review the card number entered. For example, “Please check the Visa card number you entered.”"
+  },
+  {
+   "k": "h4",
+   "t": "Expiration date errors"
+  },
+  {
+   "k": "p",
+   "t": "When the user only fills one field, the empty field should have a corresponding error message. Use one message when both fields aren’t filled out."
+  },
+  {
+   "k": "h4",
+   "t": "Security code errors"
+  },
+  {
+   "k": "p",
+   "t": "When the user doesn’t enter the security code or enters an incomplete value, communicate to the user that they need to enter a valid security code. When possible, let the user know how they can fix the error, for example, if they user enters four digits when they need to enter only three."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Input"
+  },
+  {
+   "k": "p",
+   "t": "Text fields that enable users to enter free-form content."
+  },
+  {
+   "k": "h3",
+   "t": "Select (native)"
+  },
+  {
+   "k": "p",
+   "t": "HTML element that allows users to select one option from a dropdown menu."
+  }
+ ]
+}

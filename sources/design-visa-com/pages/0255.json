@@ -1,0 +1,151 @@
+{
+ "url": "https://design.visa.com/patterns/dynamic-table/accessibility",
+ "title": "Dynamic table | Patterns | Visa Product Design System",
+ "h1": "Dynamic table",
+ "readAt": "2026-10-15T17:11:36.400Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Dynamic table"
+  },
+  {
+   "k": "p",
+   "t": "Dynamic grid enabling data interaction, manipulation, and criteria-based analysis."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practicesTable structureARIA labels and descriptionsSortingSelectable rowsExpandable rowsPaginationLoading states"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "p",
+   "t": "Follow general best practice guidance to create accessible experiences for users of all abilities."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure focus is not lost when table data is updated dynamically, such as during sorting, filtering, or pagination actions.",
+    "If a table has no interactive elements, ensure that screen readers can still navigate the table structure effectively. This may involve using tabIndex to put focus on the table element itself."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Table structure"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow Table accessibility guidelines for multi-select implementations.",
+    "Use proper table markup with <table>, <thead>, <tbody>, <th>, and <td> elements to ensure screen readers can correctly interpret the table structure.",
+    "Apply scope='col' to all column headers (<th>) to explicitly associate them with their respective columns.",
+    "Apply scope='row' to the cell within each row that best serves as a name or identifier for the entire row. This is typically the first column in the row and helps screen reader users understand the row’s context."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "ARIA labels and descriptions"
+  },
+  {
+   "k": "list",
+   "items": [
+    "When using aria-label on cells, avoid including role names such as “row”, “table”, “column”, or “cell” in the label text. Screen readers will already announce the element’s role, so including it again creates redundant information.",
+    "Ensure any row-wide aria-label attributes or aria-labelledby references point to the cell with scope='row' (the row header) to provide consistent context across the row.",
+    "Use aria-describedby to associate additional descriptive information with cells when needed, such as error messages or supplementary details."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Sorting"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Add aria-sort to column headers that are actively sorted, using the appropriate value: ascending or descending. This helps screen reader users understand the current sort order.",
+    "Ensure sort buttons have clear aria-label attributes that describe both the column name and the action, such as “Sort by Status, ascending” or “Sort by Date, descending”.",
+    "Provide visual and programmatic feedback when sort order changes to keep all users informed of the current state."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Selectable rows"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow Checkbox accessibility guidelines for multi-select implementations."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Expandable rows"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow Accordion accessibility guidelines for expandable row implementations."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Pagination"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow Pagination accessibility guidelines to ensure users can navigate between pages efficiently."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Loading states"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use role='status' or aria-live='polite' for loading indicators to announce when data is being fetched without interrupting the user’s current task.",
+    "Use aria-busy='true' on the table element while data is loading to inform assistive technologies that the content is being updated."
+   ]
+  }
+ ]
+}

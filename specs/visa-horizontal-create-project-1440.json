@@ -1,0 +1,118 @@
+{
+  "breakpoint": "desktop1440",
+  "name": "Visa · Horizontal layout · Create a project · 1440",
+  "surfaceMode": "light",
+  "sections": [
+    {
+      "type": "recipe",
+      "name": "Horizontal navigation › Horizontal",
+      "texts": {
+        "Application Name": "Visa Developer",
+        "L1 Label 1": "Dashboard",
+        "L1 Label 2": "Projects",
+        "L1 Label 3": "APIs",
+        "L1 Label 4": "Support"
+      },
+      "id": "component:Horizontal",
+      "recipe": {
+        "id": "component:Horizontal",
+        "name": "Horizontal",
+        "kind": "component",
+        "readiness": null,
+        "readinessMeaning": null,
+        "purpose": null,
+        "decision": "use",
+        "source": "inventory of VPDS Components (Community)",
+        "component": {
+          "name": "Horizontal",
+          "key": "c581f1f3367534d233a2495de2cdee3c26f62e7d",
+          "kind": "set",
+          "library": "VPDS Components (Community)"
+        },
+        "parts": [],
+        "gaps": []
+      }
+    },
+    {
+      "type": "recipe",
+      "name": "Content area base",
+      "props": {
+        "Show banner": false,
+        "Show panel (responsive)": false
+      },
+      "texts": [
+        "Create a project",
+        "Give the project a name and choose the APIs it will use. You can change both later.",
+        "Projects created today start in the sandbox. Move to production from the project settings.",
+        "Project name (required)",
+        "Organization (required)",
+        "Region",
+        "North America",
+        "Where the project data is stored. This cannot be changed later.",
+        "APIs (required)",
+        "Visa Direct",
+        "Visa Token Service",
+        "Visa B2B Connect",
+        "Visa Risk Manager",
+        "Description (required)",
+        "Environment (required)",
+        "Sandbox",
+        "Certification",
+        "Production",
+        "Production and sandbox",
+        "Create project",
+        "Save draft",
+        "Cancel"
+      ],
+      "id": "component:Content area base",
+      "recipe": {
+        "id": "component:Content area base",
+        "name": "Content area base",
+        "kind": "component",
+        "readiness": null,
+        "readinessMeaning": null,
+        "purpose": null,
+        "decision": "use",
+        "source": "inventory of VPDS Components (Community)",
+        "component": {
+          "name": "Content area base",
+          "key": "4ab2341228df4b037f2c3106ab728d70ae8baa82",
+          "kind": "component",
+          "library": "VPDS Components (Community)"
+        },
+        "parts": [],
+        "gaps": []
+      }
+    },
+    {
+      "type": "recipe",
+      "name": "Default footer",
+      "texts": {
+        "Copyright": "Copyright © 2026 Visa. All rights reserved."
+      },
+      "id": "component:Default footer",
+      "recipe": {
+        "id": "component:Default footer",
+        "name": "Default footer",
+        "kind": "component",
+        "readiness": null,
+        "readinessMeaning": null,
+        "purpose": null,
+        "decision": "use",
+        "source": "inventory of VPDS Components (Community)",
+        "component": {
+          "name": "Default footer",
+          "key": "7a80605655822a02081d18bc2455bd743be2f517",
+          "kind": "component",
+          "library": "VPDS Components (Community)"
+        },
+        "parts": [],
+        "gaps": []
+      }
+    }
+  ],
+  "nonLib": [
+    "Placeholder logo: the Community kit ships no Visa logo; the placeholder stays until the brand asset is provided"
+  ],
+  "basedOn": "kit VPDS Components › Application layouts › Horizontal; design.visa.com › Application layouts › Usage"
+}

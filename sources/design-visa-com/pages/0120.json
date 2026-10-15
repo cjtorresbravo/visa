@@ -1,0 +1,299 @@
+{
+ "url": "https://design.visa.com/patterns/notification-tray",
+ "title": "Notification tray | Patterns | Visa Product Design System",
+ "h1": "Notification tray",
+ "readAt": "2026-10-15T17:08:07.725Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Notification tray"
+  },
+  {
+   "k": "p",
+   "t": "Container that lists alerts, updates, and operational messages from the system."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesAction-based notification trayActivity-based notification trayCombination notification tray",
+    "BehaviorsRead vs. unread messagesEmpty state",
+    "Platform considerations",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "The notification tray pattern combines badge and link components with text and icons to provide a focused, consistent place for users to access messages within an app or system.\nAlso known as: Notification center, system notifications, notification bar, system messages."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Notification icon (required): Icon that opens and closes the tray and shows the number of unread notifications.\nB. Section label (optional): Header text summarizing the content within the tray or section.\nC. Title (optional): Brief text summarizing the purpose and severity of the notification.\nD. Message (required):  Descriptive text providing important contextual information.\nE. Link (optional): Call to action that provides the user with a direct pathway, used in action-based notifications.\nF. Active tab visual indicator (required): Border indicating the current view.\nG. Timestamp (optional): Text indicating either relative or absolute time, based on the type of notification.\nH: View all link (optional): Link allowing users to view all notifications.\nI. Mark as read button (optional): Button that marks all notifications as read.\nJ. Icon (required for error and warning notifications): Visual indicator communicating the urgency of the notification.\nK: Settings icon (optional): Icon allowing users to manage the frequency of non-critical notifications to reduce disruption."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "To provide a centralized place for users to view all notifications. To allow users to refer back to persistent notifications. When detailed information or multiple actions are needed for notifications.",
+     "For critical alerts requiring immediate user attention. Use a banner, section message, or dialog instead. When high volume could overwhelm users with notifications. For redundant or duplicate notifications that could lead to fatigue."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Enable users to dismiss or mark notifications as read.",
+    "Enable users to customize their notification preferences.",
+    "Include timestamps on each notification to give context on their relevance.",
+    "Ensure the tray is easily accessible from any part of the application.",
+    "Keep notifications in the tray until the user views or takes action on them.",
+    "Follow all guidance found in Badge and Link when implementing those items within a notification tray."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do"
+  },
+  {
+   "k": "p",
+   "t": "Prioritize and group notifications with the most important first, using icons and color to differentiate between types."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Send unimportant messages or the same notification multiple times even if the user hasn’t viewed or responded."
+  },
+  {
+   "k": "h3",
+   "t": "Action-based notification tray"
+  },
+  {
+   "k": "p",
+   "t": "Action-based trays generally present a list of tasks in the format of a to-do list. They are typically system-generated tasks that require action from the user."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include a call to action, either in the form of a link or make the entire notification selectable to open the pathway."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Incorporate quick actions or shortcuts to remediation pathways when possible."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Present users with multiple actions within the same notification."
+  },
+  {
+   "k": "h3",
+   "t": "Activity-based notification tray"
+  },
+  {
+   "k": "p",
+   "t": "Activity-based trays are generally presented in the format of a news feed or activity log. They are typically user-generated notifications that communicate edits, changes, or comments to other users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Order notifications by time, with the newest at the top.",
+    "Use more friendly, less formal formats for timestamps such as “1 minute ago,” “2 hours ago,” or “3 days ago.”",
+    "Include the exact date and time if necessary.",
+    "Reference Grammar and punctuation to learn more about formatting date and time."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Combination notification tray"
+  },
+  {
+   "k": "p",
+   "t": "Combination trays use patterns from both action-based and activity-based notification trays. They can include system-generated tasks or user-generated notifications that communicate activity from other users in the product or system."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place the most urgent or highest priority action-based messages first to ensure the most critical tasks are completed first.",
+    "Always include call to actions within the section including action-based messages.",
+    "Use section titles in addition to icons and color to help users scan the notifications.",
+    "Include time stamps, either exact times or less formal options when relevant to your context."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "p",
+   "t": "Notifications can be either passive or active depending on the importance of the message and whether action is needed. The persistence of the notification depends on the urgency of the action required. System-generated errors or actions that require users to act on them before continuing with their workflow are the most critical."
+  },
+  {
+   "k": "h3",
+   "t": "Read vs. unread messages"
+  },
+  {
+   "k": "p",
+   "t": "Effectively distinguishing between read and unread messages is crucial for user experience. There are several methods to mark messages as read and manage unread notifications. Consider the following:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Implement a “Mark all as read” or “Dismiss all” option for dismissing notifications.",
+    "Action-based notifications may be marked as read after the call to action is selected or when the task has been completed.",
+    "Activity-feed notifications may be marked as read after panel is opened, or disappear completely when “Mark as read” or “Dismiss all” is selected. Ensure this is a low effort for users and don’t require them to select each message to dismiss."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Unread messages"
+  },
+  {
+   "k": "p",
+   "t": "Unread messages indicate new information or tasks that require attention and have not yet been reviewed."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use badge counters to represent unread notifications.",
+    "Highlight unread messages with bold text and active tab indicators to distinguish from read messages."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Read messages"
+  },
+  {
+   "k": "p",
+   "t": "Read messages have been acknowledged and can be referenced for historical information or follow-up actions."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Update badge counters as users view unread messages.",
+    "Display read messages with standard text and no active tab indicators."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Empty state"
+  },
+  {
+   "k": "p",
+   "t": "When there are no notifications, the tray will display an empty state message."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "p",
+   "t": "Notification trays can be accessed multiple ways in mobile. This includes the hamburger menu, top nav trailing icons, or the bottom tab bar. In mobile, notifications are viewed as a full page versus a drawer."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow best practices outlined in Messaging when writing content for individual notifications within the tray.",
+    "Use sentence case for all content except for section labels, proper nouns, or acronyms.",
+    "Avoid abbreviations, acronyms, or jargon unless they’re commonly understood or necessary."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Section label"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Don’t include punctuation.",
+    "Use all caps with no punctuation following the overline typography pattern.",
+    "Indicate the purpose of the notification with clear text like “To do” or “News feed”.",
+    "Limit section labels to a few brief words."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Calls to action"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow Link and Button guidelines for help crafting content for calls to action and buttons.",
+    "Limit link labels and buttons to a few briefs words such as “Mark as read,” “Dismiss all,” or “View all.”",
+    "Use clear language to indicate the purpose of the link or button such as “Update now.”"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Banner"
+  },
+  {
+   "k": "p",
+   "t": "Messages that indicate the global status of an application or website."
+  },
+  {
+   "k": "h3",
+   "t": "Flag"
+  },
+  {
+   "k": "p",
+   "t": "Messages that provide low-priority updates about a process or event."
+  },
+  {
+   "k": "h3",
+   "t": "Messaging"
+  },
+  {
+   "k": "p",
+   "t": "Craft content for alert components to increase trust, reduce errors, and improve system performance."
+  },
+  {
+   "k": "h3",
+   "t": "Feedback and status"
+  },
+  {
+   "k": "p",
+   "t": "Learn which components to use when communicating contextual or system feedback and status."
+  }
+ ]
+}

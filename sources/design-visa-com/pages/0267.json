@@ -1,0 +1,176 @@
+{
+ "url": "https://design.visa.com/patterns/one-time-passcode/task-flows",
+ "title": "One time passcode | Patterns | Visa Product Design System",
+ "h1": "One-time passcode",
+ "readAt": "2026-10-15T17:11:53.281Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "One-time passcode"
+  },
+  {
+   "k": "p",
+   "t": "A text field paired with CTAs enabling users to a request single-use code to authenticate a transaction or session."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Usage",
+    "Task flows",
+    "Code"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Verification task flows",
+    "Resend task flows",
+    "Validation task flowsClient-side validationServer-side validation"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Task flows refer to the steps users progress through when interacting with patterns. They’re based on specific scenarios and demonstrate how users can successfully perform tasks within each pattern layout. To find prototypes for the task flow examples shown on this page, visit our Task flows (internal only)."
+  },
+  {
+   "k": "h2",
+   "t": "Verification task flows"
+  },
+  {
+   "k": "p",
+   "t": "In verification flows, users are either completing the initial setup of their account information or using their verification method after setup. User success in this flow type is illustrated by the following scenarios."
+  },
+  {
+   "k": "h3",
+   "t": "Registering verification method"
+  },
+  {
+   "k": "p",
+   "t": "To verify their identity, the user must first set up a verification method. This initiates the verification process for their account and may follow account setup, recovery, or security settings for 2-step authentication."
+  },
+  {
+   "k": "h3",
+   "t": "Verifying identity with verification method"
+  },
+  {
+   "k": "p",
+   "t": "After setting up at least one verification method, the user can initiate the flow to verify their identity. They will be prompted with a step up to verify their account or identity with an OTP."
+  },
+  {
+   "k": "h3",
+   "t": "Selecting verification method"
+  },
+  {
+   "k": "p",
+   "t": "If the user has set up multiple verification methods, they can select which one they wish to use to verify their account. Verification methods may vary depending on the product."
+  },
+  {
+   "k": "h2",
+   "t": "Resend task flows"
+  },
+  {
+   "k": "p",
+   "t": "In resend flows, users are requesting a new verification code to be sent to them. User success in this flow type is illustrated by the following scenarios."
+  },
+  {
+   "k": "p",
+   "t": "30s timer countdown after Resend was initiated. Debounce when the user requests new OTP through “Resend.” Disable “Resend” after press."
+  },
+  {
+   "k": "h3",
+   "t": "Resending code through same method"
+  },
+  {
+   "k": "p",
+   "t": "The user chooses to have a new code sent through the same method they used the first time."
+  },
+  {
+   "k": "h3",
+   "t": "Resending code through alternate method"
+  },
+  {
+   "k": "p",
+   "t": "The user chooses to have a new code sent through a different method."
+  },
+  {
+   "k": "h2",
+   "t": "Validation task flows"
+  },
+  {
+   "k": "p",
+   "t": "Validation flows illustrate user attempts to verify their identities and error pathways preventing success. To learn more about client-side validation and server-side validation, refer to Forms."
+  },
+  {
+   "k": "h3",
+   "t": "Client-side validation"
+  },
+  {
+   "k": "h4",
+   "t": "Tabbing out of input field"
+  },
+  {
+   "k": "p",
+   "t": "When tabbing out of the input field before attempting to confirm the code, the user receives feedback stating that they didn’t enter all 6 digits."
+  },
+  {
+   "k": "h4",
+   "t": "Submitting incomplete form"
+  },
+  {
+   "k": "p",
+   "t": "After entering an incomplete code or no code at all and attempting to submit, the user receives feedback instructing them to properly fill out the erroneous field."
+  },
+  {
+   "k": "h3",
+   "t": "Server-side validation"
+  },
+  {
+   "k": "h4",
+   "t": "Submitting incorrect code"
+  },
+  {
+   "k": "p",
+   "t": "The user submitted the incorrect code and is instructed to re-enter it correctly."
+  },
+  {
+   "k": "h4",
+   "t": "Submitting expired code"
+  },
+  {
+   "k": "p",
+   "t": "The user submits an expired code and receives feedback instructing them to request a new OTP."
+  },
+  {
+   "k": "h4",
+   "t": "Maxing out code entry attempts"
+  },
+  {
+   "k": "p",
+   "t": "The user entered the code incorrectly and reached the maximum number of attempts with the current code. They can verify their identity with a new code."
+  },
+  {
+   "k": "h4",
+   "t": "Maxing out identity verification attempts"
+  },
+  {
+   "k": "p",
+   "t": "The user has reached the maximum number of attempts to confirm their identity after entering mismatched data on three different codes. They can no longer confirm their identity on that device."
+  }
+ ]
+}

@@ -1,0 +1,1098 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/vertical-navigation",
+ "title": "Vertical navigation | Component | Nova Angular | Visa Product Design System",
+ "h1": "Vertical navigation",
+ "readAt": "2026-10-15T17:17:53.113Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Vertical navigation"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default vertical navigation",
+    "Vertical navigation with active element",
+    "Vertical navigation with active property",
+    "Vertical navigation with icons",
+    "Vertical navigation with nested elements",
+    "Vertical navigation with section titles",
+    "Vertical navigation with nested elements and section titles",
+    "Alternate vertical navigation",
+    "Alternate vertical navigation with active element",
+    "Alternate vertical navigation with icons",
+    "Vertical navigation without logo or application name"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Default vertical navigations"
+  },
+  {
+   "k": "h4",
+   "t": "Vertical navigation examples"
+  },
+  {
+   "k": "p",
+   "t": "The below vertical navigation examples are built with the following html layout and css:"
+  },
+  {
+   "k": "p",
+   "t": "HTML"
+  },
+  {
+   "k": "code",
+   "t": "<div class=\"app-container\">\n  <div v-nav ..> ... </div>\n  <div class=\"main-content\"></div>\n</div>"
+  },
+  {
+   "k": "p",
+   "t": "CSS"
+  },
+  {
+   "k": "code",
+   "t": ".app-container {\n  min-block-size: 700px;\n  display: grid;\n  grid-template-columns: auto 1fr;\n\n  &:has(.v-nav .v-tabs) {\n    // the open navigation should be 242px\n    grid-template-columns: 242px 1fr;\n  }\n\n  @container (max-width: 500px) {\n    grid-template-columns: 1fr;\n  }\n}\n\n.main-content {\n  background-color: whitesmoke;\n  min-block-size: 300px;\n  padding: 12px;\n}"
+  },
+  {
+   "k": "h3",
+   "t": "Default vertical navigation"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Main content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation with active element"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Use Angular's Routerlink to identify the active route."
+  },
+  {
+   "k": "p",
+   "t": "For further information, visit the Angular documentation ."
+  },
+  {
+   "k": "text",
+   "t": "Main content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation with active property"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Main content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation with icons"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Main content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation with nested elements"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Main content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation with section titles"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Main content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation with nested elements and section titles"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Main content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Alternate vertical navigation"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Main content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Alternate vertical navigation with active element"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Use Angular's Routerlink to identify the active route."
+  },
+  {
+   "k": "p",
+   "t": "For further information, visit the Angular documentation ."
+  },
+  {
+   "k": "text",
+   "t": "Main content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Alternate vertical navigation with icons"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Main content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Custom vertical navigation"
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation without logo or application name"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Main content"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "NavDirective",
+    "SurfaceDirective",
+    "SkipToContentDirective",
+    "TabListDirective",
+    "TabItemDirective",
+    "ButtonDirective",
+    "LinkDirective",
+    "VisaLogoComponent",
+    "FloatingUIContainer",
+    "DropdownMenuDirective",
+    "IconToggleComponent",
+    "FloatingUITriggerDirective",
+    "AvatarDirective",
+    "VisaLogoComponent",
+    "FloatingUIService",
+    "NovaLibService",
+    "IconToggle"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - NavDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-nav]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "drawer",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Sets navigation to drawer variation when true.",
+     "false"
+    ],
+    [
+     "vertical",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Sets navigation to vertical orientation when true.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - SurfaceDirective"
+  },
+  {
+   "k": "p",
+   "t": "Directive to add default surface class, class=\"v-surface\", to the host element."
+  },
+  {
+   "k": "text",
+   "t": "[vSurface]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "vSurface",
+     "@Input()",
+     "",
+     "SurfaceType | '' | null",
+     "Applies given surface class.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - SkipToContentDirective"
+  },
+  {
+   "k": "p",
+   "t": "Directive to provide a skip to content link."
+  },
+  {
+   "k": "text",
+   "t": "[v-skip-to-content]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - TabListDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-tabs]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "roleInput",
+     "@Input()",
+     "'tablist' null if nested tab list or within Navigation.",
+     "HTMLElement['role']",
+     "Sets custom role.",
+     "true"
+    ],
+    [
+     "vertical",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Sets tab list to vertical orientation when true.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - TabItemDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-tab-item]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "active",
+     "@Input()",
+     "",
+     "boolean | string | null",
+     "Marks item as selected when true. Can be used with navigational tabs as an alternative to Angular Router's routerLinkActive. When active is true, child buttons will automatically receive aria-current=\"page\". Use [active] when you want to handle the active state of the tab item. Use (activeChange) when you want the library to handle the active state of the tab item, but get notified of changes. Use [(active)] when you want the active state to reflect changes by both you and the library.",
+     "false"
+    ],
+    [
+     "disclosureTab",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Marks the tab as a disclosure item when true. This item cannot be active and should expand and collapse when pressed.",
+     "false"
+    ],
+    [
+     "expanded",
+     "@Input()",
+     "false",
+     "boolean | null | string",
+     "Sets expanded state of disclosure tab item. Use [expanded] when you want to handle the expanded state of the tab item. Use (expandedChange) when you want the library to handle the expanded state of the tab item, but get notified of changes. Use [(expanded)] when you want the expanded state to reflect changes by both you and the library.",
+     "false"
+    ],
+    [
+     "roleInput",
+     "@Input()",
+     "",
+     "HTMLElement['role']",
+     "Sets role of tab item. If no custom role is set, role may be set by a parent component (nav, tabs, etc.).",
+     "true"
+    ],
+    [
+     "sectionTitle",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Marks the tab as a section title when true. This item titles a subset of tabs and is not interactive.",
+     "false"
+    ],
+    [
+     "active",
+     "@Output()",
+     "",
+     "boolean | string | null",
+     "Marks item as selected when true. Can be used with navigational tabs as an alternative to Angular Router's routerLinkActive. When active is true, child buttons will automatically receive aria-current=\"page\". Use [active] when you want to handle the active state of the tab item. Use (activeChange) when you want the library to handle the active state of the tab item, but get notified of changes. Use [(active)] when you want the active state to reflect changes by both you and the library.",
+     ""
+    ],
+    [
+     "disclosureTabToggled",
+     "@Output()",
+     "",
+     "boolean",
+     "Emits expanded state when the child button is clicked.",
+     ""
+    ],
+    [
+     "expanded",
+     "@Output()",
+     "",
+     "boolean | null | string",
+     "Sets expanded state of disclosure tab item. Use [expanded] when you want to handle the expanded state of the tab item. Use (expandedChange) when you want the library to handle the expanded state of the tab item, but get notified of changes. Use [(expanded)] when you want the expanded state to reflect changes by both you and the library.",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ButtonDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-button], [v-button-icon], [v-button-stacked], [v-panel-toggle]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "ariaCurrentInput",
+     "@Input()",
+     "null",
+     "HTMLButtonElement['ariaCurrent'] | boolean, unknown",
+     "Aria attribute relaying whether button is selected. aria-current and aria-selected cannot be used together.",
+     "true"
+    ],
+    [
+     "ariaDescribedbyInput",
+     "@Input()",
+     "false",
+     "null | string",
+     "Aria attribute pointing to id of descriptive element. If the button has a badge, the aria-describedby will be set to the badge's id by default.",
+     "false"
+    ],
+    [
+     "ariaDisabledInput",
+     "@Input()",
+     "false",
+     "HTMLElement['ariaDisabled']",
+     "Sets aria disabled state for accessibility purposes. When true, indicates that the button is disabled and not interactive.",
+     "false"
+    ],
+    [
+     "ariaExpandedInput",
+     "@Input()",
+     "null",
+     "boolean | null, unknown",
+     "Aria attribute relaying whether button is expanded.",
+     "true"
+    ],
+    [
+     "ariaHaspopupInput",
+     "@Input()",
+     "false true when button is used within combobox and no custom value is given.",
+     "boolean | null, unknown",
+     "Sets button to combobox toggle button when true.",
+     "true"
+    ],
+    [
+     "ariaSelectedInput",
+     "@Input()",
+     "null",
+     "boolean | null, unknown",
+     "Aria attribute relaying whether button is selected. aria-current and aria-selected cannot be used together.",
+     "true"
+    ],
+    [
+     "buttonColorInput",
+     "@Input()",
+     "'primary' / ButtonColor.PRIMARY",
+     "ButtonColor | null",
+     "Sets button color scheme.",
+     "false"
+    ],
+    [
+     "buttonIcon",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "buttonSizeInput",
+     "@Input()",
+     "'medium' / ButtonSize.MEDIUM",
+     "ButtonSize | null",
+     "Sets button size.",
+     "false"
+    ],
+    [
+     "buttonStacked",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "destructive",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Sets button to destructive variant when true.",
+     "false"
+    ],
+    [
+     "disabledInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Disables button when true.",
+     "false"
+    ],
+    [
+     "roleInput",
+     "@Input()",
+     "",
+     "HTMLElement['role']",
+     "Sets role of button. If no custom role is given, role may be set by a parent component (nav, tabs, etc.).",
+     "true"
+    ],
+    [
+     "subtle",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Sets button to subtle variant when true.",
+     "false"
+    ],
+    [
+     "tabindexInput",
+     "@Input()",
+     "null -1 when button is used within combobox and no custom value is given.",
+     "null | number, unknown",
+     "Sets button's tabIndex.",
+     "true"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - LinkDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-link]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "disabled",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Disables link when true. Adds role=\"link\" and aria-disabled=\"true\" when true for a11y.",
+     "false"
+    ],
+    [
+     "noUnderline",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Removes underline on link when true.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Component - VisaLogoComponent"
+  },
+  {
+   "k": "text",
+   "t": "[v-logo-visa]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "height",
+     "@Input()",
+     "23",
+     "number, unknown",
+     "Sets height of logo image.",
+     "false"
+    ],
+    [
+     "width",
+     "@Input()",
+     "71",
+     "number, unknown",
+     "Sets width of logo image.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - FloatingUIContainer"
+  },
+  {
+   "k": "text",
+   "t": "[v-floating-ui-container]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "closeOnClick",
+     "@Input()",
+     "true",
+     "boolean, unknown",
+     "Closes the menu on item click/select when true. If multiselect is set to true, it will not take effect.",
+     "false"
+    ],
+    [
+     "eventsArrayInput",
+     "@Input()",
+     "[ [new UIEvent('mouseenter'), FloatingUIVisibility.SHOW], [new UIEvent('mouseleave'), FloatingUIVisibility.HIDE], [new UIEvent('focus'), FloatingUIVisibility.SHOW], [new UIEvent('blur'), FloatingUIVisibility.HIDE] ] for tooltip [ [new UIEvent('click')] ] for dropdown-menu and floating-ui-element [] Ie. events are removed for combobox.",
+     "UIEventVisibilityPair | null",
+     "Events array for FloatingUIService. This array specifies whether to show or hide the floating element on a given UIEvent. This should be an array of [UIEvent, FloatingUIVisibility].",
+     "false"
+    ],
+    [
+     "middlewareInput",
+     "@Input()",
+     "[ offset(2), flip(), shift() ] for tooltip [ offset(0), flip(), shift() ] for combobox",
+     "Middleware[] | null",
+     "Middleware for FloatingUIService. See Floating UI for options.",
+     "false"
+    ],
+    [
+     "placement",
+     "@Input()",
+     "FloatingUIPlacements.BOTTOM_START",
+     "FloatingUIPlacements",
+     "Placement of floating content relevant to triggering element. See 'FloatingUIPlacements'.",
+     "false"
+    ],
+    [
+     "floatingUIToggled",
+     "@Output()",
+     "",
+     "boolean",
+     "Emits whether or not the floating UI element is visible.",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - DropdownMenuDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-menu], [v-dropdown-menu]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "idInput",
+     "@Input()",
+     "",
+     "null | string",
+     "Sets custom ID.",
+     "false"
+    ],
+    [
+     "zIndex",
+     "@Input()",
+     "200;",
+     "number | string, unknown",
+     "Provides custom z-index to control stacking order.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Component - IconToggleComponent"
+  },
+  {
+   "k": "text",
+   "t": "v-icon-visa-toggle"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "rotatedInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Shows the rotated template when true and the default template when false.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - FloatingUITriggerDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-floating-ui-trigger]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - AvatarDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-avatar]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "role",
+     "@Input()",
+     "",
+     "HTMLElement['role'] | null",
+     "",
+     "false"
+    ],
+    [
+     "small",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Sets avatar to small variant when true.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Component - VisaLogoComponent"
+  },
+  {
+   "k": "text",
+   "t": "[v-logo-visa]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "height",
+     "@Input()",
+     "23",
+     "number, unknown",
+     "Sets height of logo image.",
+     "false"
+    ],
+    [
+     "width",
+     "@Input()",
+     "71",
+     "number, unknown",
+     "Sets width of logo image.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "FloatingUIService"
+  },
+  {
+   "k": "code",
+   "t": "import {\n  effect,\n  ElementRef,\n  EventEmitter,\n  inject,\n  Injectable,\n  isDevMode,\n  Renderer2,\n  RendererFactory2,\n  signal,\n  WritableSignal\n} from '@angular/core';\nimport { arrow, autoUpdate, computePosition, ComputePositionReturn, flip, offset, shift, hide } from '@floating-ui/dom';\nimport { TooltipArrowDirective } from '../arrow/arrow.directive';\nimport { FloatingUIPlacements, FloatingUIVisibility, UIEventVisibilityPair } from './floating-ui.constants';\n\n/**\n * This internal service is used by Combobox, Dropdown Menu, and Tooltip components. <br />\n * It can be used with generic FloatingUIContainer, FloatingUIElementDirective, and FloatingUITriggerDirective to create your own custom floating-ui. <br />\n * If you are using any of the components mentioned, you will typically not need to use this service directly. <br />\n * Derived from [Floating UI documentation](https://floating-ui.com/).\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class FloatingUIService {\n  /** @ignore */\n  private readonly rendererFactory: RendererFactory2 = inject(RendererFactory2);\n  /** @ignore */\n  private renderer: Renderer2 = this.rendererFactory.createRenderer(null, null);\n\n  /** @ignore */\n  private trigger?: Element;\n  /** @ignore */\n  private floatingUI?: ElementRef;\n  /** @ignore */\n  private arrow?: TooltipArrowDirective;\n  /** @ignore */\n  private offset: number = 0;\n  /** @ignore */\n  private offsetDefault: number = 2;\n  /** @ignore */\n  public comboboxMiddleware: any = [offset(0), flip(), shift(), hide()];\n  /** @ignore */\n  private middlewareDefault: any = [offset(this.offsetDefault), flip(), shift(), hide()];\n  /** @ignore */\n  private middleware: any = this.middlewareDefault;\n  /** @ignore */\n  private placement: FloatingUIPlacements = FloatingUIPlacements.BOTTOM;\n  /** @ignore */\n  public isShown: WritableSignal<boolean> = signal(false);\n  private readonly isShownEffect = effect(() => {\n    const isShown = this.isShown();\n    this.isShownEmitter.emit(isShown);\n    if (!isShown && this.floatingUI) return this.renderer.setStyle(this.floatingUI.nativeElement, 'display', 'none');\n    const triggerDisabled = this.trigger?.getAttribute('disabled');\n    // only show the floating UI if the trigger and element exist, menu is set to shown, and trigger is not disabled\n    if (!this.trigger || !this.floatingUI || !isShown || triggerDisabled) return;\n    this.positionFloatingUI();\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'display', this.display);\n  });\n\n  /**\n   * Displays property of the floating UI element.\n   * @default 'flex'\n   */\n  private display: string = 'flex';\n\n  /**\n   * Time in milliseconds to wait before hiding the floating UI element when the trigger is hovered over.\n   * @default A factor of the offset middleware option if provided, otherwise 50.\n   */\n  private hideOnHoverTimeout: number = 0;\n\n  // store unlisten functions\n  private rendererListeners: (() => void)[] = [];\n\n  /**\n   * Emits true when this floating UI element is shown and false when hidden.\n   */\n  readonly isShownEmitter: EventEmitter<boolean> = new EventEmitter<boolean>();\n\n  /**\n   * The setUpFloatingUI method is required to initialize the floating element and its trigger. <br />\n   * Called by default with FloatingUIContainer or ComboboxDirective.\n   * @param referenceEl References element that will trigger floating UI.\n   * @param floatingEl References floating UI element.\n   * @param eventArray Array of events for the reference/trigger element to listen for. <br> i.e. <code>[new UIEvent('focus'), FloatingUIVisibility.SHOW]</code> <br> tells the element to show the floating UI when the triggering element is focused.\n   */\n  public setUpfloatingUI(\n    referenceEl: ElementRef | HTMLElement,\n    floatingEl: ElementRef,\n    eventArray: UIEventVisibilityPair | null\n  ): void {\n    this.rendererListeners?.forEach((unlisten) => unlisten());\n    this.rendererListeners = [];\n    this.trigger = this.nativeElement(referenceEl);\n    this.floatingUI = floatingEl;\n    if (!this.trigger && isDevMode()) return console.error('Floating UI trigger element is not defined.');\n    if (!this.floatingUI && isDevMode()) return console.error('Floating UI element is not defined.');\n\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'top', '0');\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'left', '0');\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'display', 'none');\n\n    if (eventArray) {\n      this.setUpTrigger(eventArray);\n    } else if (isDevMode()) {\n      console.error('No events provided to trigger the Floating UI.');\n    }\n  }\n\n  /**\n   * The nativeElement method returns the Element type of the reference element.\n   * @param element Element to be converted to Element type.\n   * @returns Element\n   */\n  private nativeElement(element: ElementRef<any> | HTMLElement): Element {\n    if (element instanceof ElementRef) {\n      return element.nativeElement;\n    }\n    return element;\n  }\n\n  /**\n   * The customizeFloatingUI method allows you to provide custom placement and middleware options to the Floating UI service.\n   * @param placement Optional. See <code>FloatingUIPlacements</code> enum.\n   * @param middleware Optional. Visit the official Floating UI documentation for more on [middleware options](https://floating-ui.com/docs/computePosition#middleware).\n   * @param display Optional. Sets CSS display property for the floating UI element.\n   * @param tooltipArrow Optional. Directive reference to the arrow element. See TooltipArrowDirective.\n   */\n  public customizeFloatingUI(\n    placement?: FloatingUIPlacements | null,\n    middleware?: any | null,\n    display?: string | null,\n    tooltipArrow?: TooltipArrowDirective | null\n  ): void {\n    // custom placement\n    if (placement) this.placement = placement;\n\n    // custom middleware\n    if (middleware) {\n      this.middleware = middleware;\n      // save a custom offset\n      const customOffset = (this.middleware.find((m: any) => m['name'] ="
+  },
+  {
+   "k": "text",
+   "t": "NovaLibService"
+  },
+  {
+   "k": "code",
+   "t": "import { DOCUMENT } from '@angular/common';\nimport { inject, Injectable, Renderer2, RendererFactory2 } from '@angular/core';\nimport { ButtonDirective } from './button/button.directive';\nimport { CheckboxDirective } from './checkbox/checkbox.directive';\nimport { LinkDirective } from './link/link.directive';\nimport { ListboxItemComponent } from './listbox-item/listbox-item.component';\nimport { DOWN_ARROW_KEY, LEFT_ARROW_KEY, RIGHT_ARROW_KEY, TAB_KEY, UP_ARROW_KEY } from './nova-lib.constants';\nimport { TabItemDirective } from './tab-item/tab-item.directive';\nimport { ListboxDirective } from './listbox/listbox.directive';\n\ntype Item = (ButtonDirective | CheckboxDirective | ListboxItemComponent) | undefined;\ntype Items = readonly Item[];\n/**\n * This service manages navigation states within the application, ensuring smooth transitions and a consistent user experience. <br />\n * It’s primarily used internally by the library but can also be leveraged directly for custom implementations.\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class NovaLibService {\n  private rendererFactory: RendererFactory2 = inject(RendererFactory2);\n  private document: Document | null = inject(DOCUMENT, { optional: true });\n\n  /** @ignore */\n  private renderer: Renderer2 = this.rendererFactory.createRenderer(null, null);\n\n  /**\n   * The addArrowKeyNavigation method adds arrow key navigation to an array of elements of type <code>ButtonDirective</code>, <code>ListboxItemComponent</code>, <code>or CheckboxDirective</code>.\n   * @param itemsArray Array of items to add arrow key navigation to.\n   * @param removeTabNavigation Optionally remove tab navigation from an array you're adding arrow navigation to.\n   * @param arrowDirections Optionally specify which arrow key directions to use for navigation.\n   * @param listbox Optionally specify a ListboxDirective to track highlighted item.\n   */\n  public addArrowKeyNavigation(\n    itemsArray: Items,\n    removeTabNavigation: boolean = false,\n    arrowDirections: 'both' | 'horizontal' | 'vertical' = 'both',\n    listbox?: ListboxDirective\n  ): void {\n    if (!itemsArray || !itemsArray.length) return;\n    itemsArray.forEach((item, index) => {\n      if (!item?.el?.nativeElement) return;\n\n      item.listenerService.navListeners.push(\n        // for each button, add an event listener for arrow \"keydown\"\n        this.renderer.listen(item.el.nativeElement, 'keydown', (event) => {\n          // right and down arrow keys should go to next focusable item\n          if (\n            (event.key === DOWN_ARROW_KEY && arrowDirections !== 'horizontal') ||\n            (event.key === RIGHT_ARROW_KEY && arrowDirections !== 'vertical')\n          ) {\n            event.preventDefault();\n            const focusableIndex = this.nextEnabledItem(itemsArray, index);\n            if (focusableIndex > -1) {\n              const focusableItem = itemsArray?.[focusableIndex];\n              if (!focusableItem?.el?.nativeElement) return;\n              focusableItem?.el.nativeElement.focus();\n              if (listbox) listbox.highlightedItem.set(focusableItem as ListboxItemComponent);\n            }\n          } else if (\n            (event.key === UP_ARROW_KEY && arrowDirections !== 'horizontal') ||\n            (event.key === LEFT_ARROW_KEY && arrowDirections !== 'vertical')\n          ) {\n            // left and up arrow keys should go to previous focusable item\n            event.preventDefault();\n            const focusableIndex = this.previousEnabledItem(itemsArray, index);\n            if (focusableIndex > -1) {\n              const focusableItem = itemsArray?.[focusableIndex];\n              if (!focusableItem?.el?.nativeElement) return;\n              focusableItem?.el.nativeElement.focus();\n              if (listbox) listbox.highlightedItem.set(focusableItem as ListboxItemComponent);\n            }\n          }\n        })\n      );\n    });\n\n    if (removeTabNavigation) this.removeTabNavigation(itemsArray);\n  }\n\n  /**\n   * The removeTabNavigation method removes tab navigation for an array of elements of type ButtonDirective, ListboxItemComponent, or CheckboxDirective. <br />\n   * When this functionality is added, it will disable tabbing between these specified elements.\n   * @param itemsArray Array of items to remove tab navigation from.\n   */\n  private removeTabNavigation(itemsArray: Items, listbox?: ListboxDirective): void {\n    if (!itemsArray || !itemsArray.length) return;\n    this.findStartingFocus(itemsArray);\n\n    itemsArray.forEach((item, index: number) => {\n      if (!item?.el.nativeElement) return;\n\n      item.listenerService.navListeners.push(\n        this.renderer.listen(item.el.nativeElement, 'keydown', (event) => {\n          // as you loop through the items with arrow keys, tabIndex must be updated so that only the item with focus has tabIndex = 0\n          if (event.key === DOWN_ARROW_KEY || event.key === RIGHT_ARROW_KEY) {\n            event.preventDefault(); // prevent scrolling\n            const focusableIndex = this.nextEnabledItem(itemsArray, index);\n            if (focusableIndex === -1) return; // no next item found\n            const focusableItem = itemsArray[focusableIndex];\n            if (!focusableItem?.el.nativeElement) return;\n            // set tabindex for the item that is focused to 0, and all\n            this.renderer.setAttribute(item.el.nativeElement, 'tabIndex', '-1');\n            this.renderer.setAttribute(focusableItem.el.nativeElement, 'tabIndex', '0');\n            if (listbox) listbox.highlightedItem.set(focusableItem as ListboxItemComponent);\n          } else if (event.key === UP_ARROW_KEY || event.key === LEFT_ARROW_KEY) {\n            event.preventDefault(); // prevent scrolling\n            const focusableIndex = this.previousEnabledItem(itemsArray, index);\n            if (focusableIndex === -1) return; // no next item found\n            const focusableItem = itemsArray[focusableIndex];\n            if (!focusableItem?.el.nativeElement) return;\n            // set tabindex for the"
+  },
+  {
+   "k": "text",
+   "t": "IconToggle"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "ACCORDION_COLLAPSED",
+     "'chevron-right'"
+    ],
+    [
+     "ACCORDION_EXPANDED",
+     "'chevron-down'"
+    ],
+    [
+     "COLLAPSED",
+     "'chevron-down'"
+    ],
+    [
+     "EXPANDED",
+     "'chevron-up'"
+    ]
+   ]
+  }
+ ]
+}

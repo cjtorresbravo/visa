@@ -1,0 +1,290 @@
+{
+ "url": "https://design.visa.com/components/listbox/usage",
+ "title": "Listbox | Components | Visa Product Design System",
+ "h1": "Listbox",
+ "readAt": "2026-10-15T17:10:13.418Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Listbox"
+  },
+  {
+   "k": "p",
+   "t": "Container that displays a list of items available for selection."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Best practices",
+    "UsageUsing in formsUsing as menusOptional vs. required labels",
+    "ContentLabelsItem labelsInline messages",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Listboxes are a container that organize and display items in a list format. They enable users to select one or more items in a list, navigate to a page, or perform an action. They are a key element in user interfaces and form the foundation for select menus like Combobox and Multiselect, as well as Horizontal navigation and Dropdown menus to perform actions."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: List, menu, dropdown, UIPickerView (iOS), Spinner (Android), Menu (Android), MenuItem (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Label (required): Text summarizing the items available for selection. \nB. Menu (required): Container displaying the list of items that includes scrollbar. \nC. Scrollbar (optional): Control allowing users to navigate long menus. \nD. Item (required): Selectable text representing a single item.\nE. Inline message (optional): Brief text describing the label in more detail."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always keep the context in which the listbox is being used in mind to ensure the best possible user experience."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Single-select listbox",
+     "To present a list of items when the user can only select one. For long lists where all items can’t be viewed at once or require scrolling.",
+     "For fewer than four items or short lists that can be viewed without scrolling. Use a radio button group instead. For long lists when users would benefit from entering text to filter or search the list items. Use a combobox group instead. If space is limited and displaying items in a collapsible menu would help. Use select (native) instead. To present a list of actions. Use a dropdown menu instead."
+    ],
+    [
+     "Multi-select listbox",
+     "To present a list of items where the user can select one or multiple. For long lists where all items can’t be viewed at once or require scrolling.",
+     "For fewer than four items or short lists where all items can be viewed without scrolling. Use a checkbox button group instead. For long lists where users would benefit from entering text to filter or search the list items. Use a multiselect instead. If space is limited and displaying items in a collapsible menu would help. Use a multiselect instead."
+    ],
+    [
+     "Menu",
+     "As menus for a components including multiselect, combobox, dropdown menu, navigation menu.",
+     "When presenting items doesn’t require user interaction to expand the list. Use a single- or multi-select listbox instead."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Using in forms"
+  },
+  {
+   "k": "p",
+   "t": "Listboxes are commonly used as a selection control in an always expanded state within forms or on page. They provide users with a straightforward and efficient way to select single or multiple items from a list. Unlike dropdown menus, where items are hidden until interaction, the always expanded state of a listbox allows all items to be visible and directly accessible."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider the length and complexity of your list, aiming to a small to medium number of items.",
+    "Combine with scroll behaviors for longer lists to ensure ease of navigation."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Single-select listbox (radio)"
+  },
+  {
+   "k": "p",
+   "t": "Single-select listboxes are coded as radio buttons, allowing users to select only one item from the list at any given time."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow all Radio guidance for implementing single-select listboxes."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Multi-select listbox (checkbox)"
+  },
+  {
+   "k": "p",
+   "t": "Multi-select listboxes are coded as checkboxes, allowing users to select multiple items from the list at once."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow all Checkbox guidance for implementing single-select listboxes."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Pre-selected items"
+  },
+  {
+   "k": "p",
+   "t": "While some native select components may have an item preselected by default, listboxes should generally not have any preselected items upon page load. This ensures users are not influenced by any preconceived selections and can make their own choices based on their specific needs and preferences. \nNote: In some cases, the listbox may load with a preselected item. This is usually due to a user setting or a saved configuration in which the user previously selected the item(s)."
+  },
+  {
+   "k": "h3",
+   "t": "Using as menus"
+  },
+  {
+   "k": "p",
+   "t": "Listboxes are used as the foundation for multiple components like navigation menus, dropdown menus, multiselect, and combobox. In these cases, the behavior of the listbox may be modified to suit the needs of the component. Always consult with accessibility partners before modifying these behaviors further."
+  },
+  {
+   "k": "h3",
+   "t": "Optional vs. required labels"
+  },
+  {
+   "k": "p",
+   "t": "Always ensure required fields are clearly labeled. While this may seem repetitive, it helps users scan for necessary information and reduces errors. There are two methods for labeling required fields based on your use case. Whichever method you select, use it consistently across your experiences. \nNote: Previous VPDS guidance recommended only marking optional fields. Our guidance has been updated to reflect current Nielsen Norman Group recommendations. Learn more about optional vs. required labels in Forms."
+  },
+  {
+   "k": "h3",
+   "t": "“Required” in the label (preferred method)"
+  },
+  {
+   "k": "p",
+   "t": "Including “required” within the label ensures it’s easy to find, particularly when instructions at the top might not be visible while scrolling. This method bolsters accessibility for both sighted and non-sighted users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Mark all fields that are required. This ensures you’re as explicit and transparent as possible.",
+    "Include “(required)” in field label with a space between the last word and the first parenthesis."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Asterisk in the label (alternative method)"
+  },
+  {
+   "k": "p",
+   "t": "Asterisks are commonly used to indicate required fields. The main advantage to using this method is that it doesn’t take up much space, helps users along a common edge, and can be used in addition to formatting hints in the label."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include a legend or key at the top of the content area noting that the asterisk indicates a required field.",
+    "Place the asterisk at the beginning of the label with a space between the symbol and the first word."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "When required is implied"
+  },
+  {
+   "k": "h3",
+   "t": "Labeling optional fields"
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use sentence case except for proper nouns or acronyms.",
+    "Use plain language and avoid abbreviations or jargon.",
+    "Reference Content for additional guidance on crafting content within apps and experiences."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit labels to three to five words when possible.",
+    "Be consistent when using plural language or “(s)” in field labels. For example, use “Select card type,” “Select card types,” or “Select card type(s)” consistently. If using “(s)”, use the asterisk method over “(required)” to keep labels concise.",
+    "Use parallel structure across field labels, using either nouns like “Services” or verbs like “Select a service”. Learn more about parallel structure in Grammar and punctuation."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Item labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit item labels to three words or fewer unless referencing proper nouns, such as product names.",
+    "Avoid using unnecessary articles like “the” or “an,” unless they’re included in the proper name of a product or service."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Inline messages"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use full sentences with proper punctuation.",
+    "Limit descriptions to 80 characters or 20 words including spaces.",
+    "Provide useful information such as why a field is required (if not obvious) without being technical.",
+    "Give an example or specific syntax or values for inputs to help avoid errors."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Inline error message"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use inline error messages to draw attention and to errors without causing frustration.",
+    "Provide clear, prescriptive guidance on correcting the error. Avoid redirecting users to another page to fix it.",
+    "Communicate whether the problem can occur again and offer an alternative backup solution in case it does."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Combobox"
+  },
+  {
+   "k": "p",
+   "t": "Dropdown menu that helps users enter text or select items from a list."
+  },
+  {
+   "k": "h3",
+   "t": "Dropdown menu"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  }
+ ]
+}

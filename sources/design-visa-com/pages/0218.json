@@ -1,0 +1,261 @@
+{
+ "url": "https://design.visa.com/components/panel/usage",
+ "title": "Panel | Components | Visa Product Design System",
+ "h1": "Panel",
+ "readAt": "2026-10-15T17:10:31.495Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Panel"
+  },
+  {
+   "k": "p",
+   "t": "Collapsible or persistent containers used to present supplementary information."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesDefault panelsExpandable panelsTabbed panels",
+    "BehaviorsModal panelsResponsive panels",
+    "Platform considerationsWebMobile",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Panels are sections of content that provide supplementary information. They’re commonly used for help content and can include follow-up actions using buttons or links.\nAlso known as: (Side/bottom) sheet, drawer, tray, flyout, side panel."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Title (required): Brief text describing the panel content.\nB. Close icon button (required): UI icon button used to close a default panel or exit the full screen view on mobile devices.\nC. Subtitle (optional): Area displaying content, action buttons, or links.\nD. Content area (required): Area displaying content, action buttons, or links.\nE. Collapse icon button (optional): Icon button used to collapse or expand the panel.\nF. Skrim (optional): Semi-transparent overlay distinguishing the panel from the content underneath."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Default",
+     "To provide contextual information prompted by a link, button, or similar interactive element. For information related to a specific action or part of the experience.",
+     "If users may need to access the information repeatedly. Use an expandable panel instead."
+    ],
+    [
+     "Expandable",
+     "To provide supplementary information the user may want to reference repeatedly. For information relating to the whole page or content area.",
+     "To provide critical guidance, as users may miss important details if they’re hidden in a collapsed panel."
+    ],
+    [
+     "Tabbed",
+     "To divide panel content into categories of information.",
+     "If you have only a small amount of information or if the information doesn’t naturally divide into categories."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use vertical scrolling if there’s overflow content, but avoid horizontal scrolling to maintain readability.",
+    "Ensure all content in the panel relates to the main page content.",
+    "Ensure panel content is brief and specific. Avoid using panels for long paragraphs or sections of text."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use panels to provide supplementary information relevant to the main content on the page."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use panels for critical information or required actions, as users may not find them."
+  },
+  {
+   "k": "h3",
+   "t": "Default panels"
+  },
+  {
+   "k": "p",
+   "t": "Default panels provide contextual information prompted by UI controls, such as buttons or links. They can be dismissed using a close icon button. Default panels are best for providing additional details or controls related to a particular step or action within the main page, which users are likely to access once during their workflow, rather than repeatedly."
+  },
+  {
+   "k": "h3",
+   "t": "Expandable panels"
+  },
+  {
+   "k": "p",
+   "t": "Expandable panels provide supplemental information that can be expanded or collapsed at any time during the experience. They’re best for providing information relevant to the entire page, which users may want to reference multiple times throughout their workflow. The expand/collapse button remains available at all times, enabling users to access the information whenever needed."
+  },
+  {
+   "k": "h3",
+   "t": "Tabbed panels"
+  },
+  {
+   "k": "p",
+   "t": "Tabbed panels are similar to expandable panels, but include Tabs that divide the content into logical groups or categories. They’re best for larger amounts information that may benefit from being broken into categories. Tabbed panels enable users to navigate between different sections of information easily, making it easier to find specific details within a broader context."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Modal panels"
+  },
+  {
+   "k": "p",
+   "t": "Modal panels lay on top of the main content using elevation or a semi-transparent skrim overlay. When the panel is open, all other page content is disabled until the panel is dismissed."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use modal panels when you need to capture the user’s focus for critical actions or decisions that shouldn’t be distracted by other content on the page.",
+    "Don’t use modal panels if users need to interact with both the panel and the main content simultaneously."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Elevation vs. skrim"
+  },
+  {
+   "k": "p",
+   "t": "Modal panels can be indicated using elevation or a semi-transparent skrim overlay. This ensures it’s clear that the page content isn’t interactive when the panel is open. For more information, reference Elevation."
+  },
+  {
+   "k": "h3",
+   "t": "Responsive panels"
+  },
+  {
+   "k": "p",
+   "t": "Responsive panels push content to the side when open. They don’t limit the interactivity of other elements on the page, so users can interact with the panel and the main page simultaneously."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use responsive panels when users need to interact with both the panel and the main content simultaneously, such as performing tasks that benefit from a side-by-side layout."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Web"
+  },
+  {
+   "k": "p",
+   "t": "In web platforms, panels fill the full height of the content area and are anchored to the right side of the screen."
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "In mobile platforms, panels can either occupy a portion of the screen or take up the full screen, but they always function as Modal panels, meaning functionality is limited on the rest of the screen. If they don’t take up the full screen, they should be anchored at the bottom."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider using a Dialog instead to present options or actions. This provides more ergonomic and mobile-friendly interaction.",
+    "Ensure mobile panels always include a close icon button."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use simple language—avoid abbreviations or jargon.",
+    "Use sentence case, except for proper nouns or acronyms."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Panel headings"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use short, concise content that describes the panel content clearly.",
+    "Only use punctuation when labels are phrased as questions, such as “How do I edit my billing information?”"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Panel content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use complete sentences and proper punctuation within each section or panel.",
+    "Keep the content within each panel concise and to the point.",
+    "Avoid unnecessary details or complex language.",
+    "Provide users with the answers they need as quickly and efficiently as possible.",
+    "If content within the panel is becoming too lengthy, it may be a sign that the information should be presented in a different way, such as being broken down further, moved to a separate page, or even represented visually."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Elevation"
+  },
+  {
+   "k": "p",
+   "t": "Discover how to use elevation to layer elements and surfaces to create more intuitive and visually appealing interfaces."
+  },
+  {
+   "k": "h3",
+   "t": "Dialog"
+  },
+  {
+   "k": "p",
+   "t": "Messages that float over page content and provide time-sensitive alerts."
+  }
+ ]
+}

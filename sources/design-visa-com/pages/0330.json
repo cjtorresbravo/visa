@@ -1,0 +1,1001 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/flag",
+ "title": "Flag | Component | Nova Angular | Visa Product Design System",
+ "h1": "Flag",
+ "readAt": "2026-10-15T17:17:14.867Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Flag"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Empty informational flag",
+    "Default informational flag",
+    "Informational flag with title",
+    "Informational flag with link",
+    "Informational flag with button",
+    "Informational flag without close icon button",
+    "Empty success flag",
+    "Default success flag",
+    "Success flag with title",
+    "Success flag with link",
+    "Success flag with button",
+    "Success flag without close icon button",
+    "Empty warning flag",
+    "Default warning flag",
+    "Warning flag with title",
+    "Warning flag with link",
+    "Warning flag with button",
+    "Warning flag without close icon button",
+    "Empty error flag",
+    "Default error flag",
+    "Error flag with title",
+    "Error flag with link",
+    "Error flag with button",
+    "Error flag without close icon button",
+    "Reusable flag demo"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Informational flags"
+  },
+  {
+   "k": "h2",
+   "t": "Set the component headings as needed for your use case."
+  },
+  {
+   "k": "p",
+   "t": "The examples below use heading tags where titles are present."
+  },
+  {
+   "k": "p",
+   "t": "In our demo examples, we use headings that follow our application's hierarchical structure."
+  },
+  {
+   "k": "p",
+   "t": "It is essential that you adjust these heading levels to match the structural needs of your application for optimal semantic accuracy and accessibility."
+  },
+  {
+   "k": "h3",
+   "t": "Empty informational flag"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default informational flag"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational flag with title"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Informational title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational flag with link"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational flag with button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational flag without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Success flags"
+  },
+  {
+   "k": "h3",
+   "t": "Empty success flag"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default success flag"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success flag with title"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Success title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success flag with link"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success flag with button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success flag without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Warning flags"
+  },
+  {
+   "k": "h3",
+   "t": "Empty warning flag"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default warning flag"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning flag with title"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Warning title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning flag with link"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning flag with button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning flag without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Error flags"
+  },
+  {
+   "k": "h3",
+   "t": "Empty error flag"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default error flag"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error flag with title"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Error title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error flag with link"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error flag with button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error flag without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Reusable flag demo"
+  },
+  {
+   "k": "text",
+   "t": "#AI-first"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Success title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the flag in more detail."
+  },
+  {
+   "k": "h4",
+   "t": "Boolean properties"
+  },
+  {
+   "k": "text",
+   "t": "Show icon"
+  },
+  {
+   "k": "text",
+   "t": "Dismissible"
+  },
+  {
+   "k": "text",
+   "t": "Show button"
+  },
+  {
+   "k": "text",
+   "t": "Show link"
+  },
+  {
+   "k": "h4",
+   "t": "Text/numeric properties"
+  },
+  {
+   "k": "text",
+   "t": "Title"
+  },
+  {
+   "k": "text",
+   "t": "Description"
+  },
+  {
+   "k": "text",
+   "t": "Message type"
+  },
+  {
+   "k": "text",
+   "t": "Success"
+  },
+  {
+   "k": "text",
+   "t": "Information"
+  },
+  {
+   "k": "text",
+   "t": "Warning"
+  },
+  {
+   "k": "text",
+   "t": "Error"
+  },
+  {
+   "k": "text",
+   "t": "Title level"
+  },
+  {
+   "k": "text",
+   "t": "Apply"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "FlagDirective",
+    "MessageDirective",
+    "MessageContentDirective",
+    "MessageIconDirective",
+    "MessageType"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - FlagDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-flag]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "messageType",
+     "@Input()",
+     "'information' / MessageType.INFORMATION",
+     "MessageType",
+     "Sets message type.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageContentDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message-content]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageIconDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message-icon]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "MessageType"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "CLOSE",
+     "'close'"
+    ],
+    [
+     "ERROR",
+     "'error'"
+    ],
+    [
+     "INFORMATION",
+     "'information'"
+    ],
+    [
+     "SUBTLE",
+     "'subtle'"
+    ],
+    [
+     "SUCCESS",
+     "'success'"
+    ],
+    [
+     "WARNING",
+     "'warning'"
+    ]
+   ]
+  }
+ ]
+}

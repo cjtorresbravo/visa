@@ -1,0 +1,267 @@
+{
+ "url": "https://design.visa.com/components/chips/usage",
+ "title": "Chips | Components | Visa Product Design System",
+ "h1": "Chips",
+ "readAt": "2026-10-15T17:09:22.297Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Chips"
+  },
+  {
+   "k": "p",
+   "t": "Compact elements used to filter content or display user input."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesSelection chipsRemovable chips",
+    "BehaviorsSelection chipsRemovable chipsScaling and reflow",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Chips are compact, interactive elements that represent an input or option. They often appear in groups helping users filter content, enter data, or complete tasks efficiently."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Pills, tags, lozenges, selectable tag, dismissible tag."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Label (required): Brief text describing the chip.  B. Avatar (optional): Thumbnail image or logo representing users or entities.  C. Leading icon (optional): Icon used to represent the chip.  D. Clear button (required): Button used to deselect removable chips."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Selection",
+     "To enable users to filter content by selecting from a set of pre-determined chips. If there’s sufficient space to display all the available selection chips at once.",
+     "If there is only one option. Consider using a Default checkbox instead."
+    ],
+    [
+     "Removable",
+     "To provide a visual representation of options selected from a checkbox group or multiselect component. For more complex filtering scenarios where only the selected options should be displayed in chips.",
+     "If the list of options is brief or simple and it would be easier to select and deselct chips directly."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Maintain consistent spacing and margins between chips to enhance readability and visual consistency. Reference Scaling and reflow for more guidance.",
+    "Organize chips into logical groups to help users understand relationships between options or categories."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Selection chips"
+  },
+  {
+   "k": "p",
+   "t": "Selection chips enable users to make choices by manually selecting a chip from a set or group. They can be used to filter content or indicate selected items. Selection chips are similar to checkboxes or toggle components, where clicking the chip selects it, and clicking it again deselects it."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Clearly indicate when a chip is selected using color, a checkmark, or another visual indicator.",
+    "Display all selection chips at once, including those that have been deselected."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Removable chips"
+  },
+  {
+   "k": "p",
+   "t": "Removable chips represent selections by appearing once the user has selected an item from a checkbox group, multiselect component, or set of filters. They show brief information about each selection and provide an easy way for users to remove individual items. These chips provide a visual representation of items the user has selected, but aren’t selectable themselves."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always provide a clear button to remove chips.",
+    "Always hide chip options after removal.",
+    "Consider asking for confirmation before removal if the chip removal has significant impact."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Removable chip size"
+  },
+  {
+   "k": "p",
+   "t": "Removable chips come in two sizes depending on their location, standard and compact. For both sizes, selecting the clear button will remove the chip."
+  },
+  {
+   "k": "h5",
+   "t": "Standard"
+  },
+  {
+   "k": "p",
+   "t": "Standard-sized chips appear outside of components and display options or filters that have been applied by the user."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Arrange chips in a logical order, such as by order of selection or alphabetically."
+   ]
+  },
+  {
+   "k": "h5",
+   "t": "Compact"
+  },
+  {
+   "k": "p",
+   "t": "Compact chips appear inside components like input fields or comboboxes after user selection or input."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Keep chip labels concise to maintain readability and prevent truncation."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "p",
+   "t": "Chips have various behaviors designed to enhance user interaction and functionality. This section provides guidance on the the expected behaviors of the chip variants, selection and removable chips."
+  },
+  {
+   "k": "h3",
+   "t": "Selection chips"
+  },
+  {
+   "k": "p",
+   "t": "Selection chips toggle between selected and deselected stated when clicked by the user."
+  },
+  {
+   "k": "p",
+   "t": "Do     Display all selection chips at once, using clear visual indicators to show which are selected."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Hide selection chips when they are deselected."
+  },
+  {
+   "k": "h3",
+   "t": "Removable chips"
+  },
+  {
+   "k": "p",
+   "t": "Removable chips allow the user to perform one action on the chip, usually removing the settings from the list."
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure users can remove chips using the clear button."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Include multiple action buttons in a removable chip."
+  },
+  {
+   "k": "h3",
+   "t": "Scaling and reflow"
+  },
+  {
+   "k": "p",
+   "t": "Scaling and reflow refers to how content behaves as the container size changes, particularly when the container is too small to display all content at once. This describes the behavior of chips as their number increases and they wrap in a container and how individual chips behave when their content is too long."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Display chip labels fully when possible.",
+    "Maintain consistent spacing between chips during reflow.",
+    "Keep chip labels concise to maintain readability and prevent truncation."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Allow chips to reflow within responsive containers to ensure the full labels are visible."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Truncate chip information or display it in a surface that doesn’t allow for content to reflow."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use clear, concise text to label chips.",
+    "Use sentence case, except for proper nouns or acronyms.",
+    "Use simple language - avoid abbreviations or jargon.",
+    "Don’t include punctuation in chip labels.",
+    "Limit chip labels to a 20-character maximum."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Interactive element that lets users select one or more independent choices."
+  },
+  {
+   "k": "h3",
+   "t": "Toggle button"
+  },
+  {
+   "k": "p",
+   "t": "Selection element that allows users to switch between states or views."
+  }
+ ]
+}

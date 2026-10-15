@@ -1,0 +1,79 @@
+{
+ "url": "https://design.visa.com/patterns/chat/panel-chat",
+ "title": "Panel chat | Visa Product Design System",
+ "h1": "Panel chat",
+ "readAt": "2026-10-15T17:11:33.931Z",
+ "blocks": [
+  {
+   "k": "text",
+   "t": "Back to Chat code overview"
+  },
+  {
+   "k": "h1",
+   "t": "Panel chat"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Preview",
+    "Code"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "7.0.0"
+  },
+  {
+   "k": "text",
+   "t": "6.0.2"
+  },
+  {
+   "k": "text",
+   "t": "5.1.3"
+  },
+  {
+   "k": "text",
+   "t": "Example"
+  },
+  {
+   "k": "text",
+   "t": "Default panel chat"
+  },
+  {
+   "k": "text",
+   "t": "Device width (px)"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Loading Panel chat example Default panel chat"
+  }
+ ]
+}

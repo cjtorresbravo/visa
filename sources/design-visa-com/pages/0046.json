@@ -1,0 +1,142 @@
+{
+ "url": "https://design.visa.com/developing/react/hooks/usefocustrap",
+ "title": "useFocusTrap | Hooks | React | Visa Product Design System",
+ "h1": "useFocusTrap",
+ "readAt": "2026-10-15T17:06:36.991Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "useFocusTrap"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to utilize the useFocusTrap hook to confine focus within a specified container."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Behavior and usage",
+    "Properties",
+    "Returns",
+    "Client side only"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Nova React version"
+  },
+  {
+   "k": "text",
+   "t": "3.1.0"
+  },
+  {
+   "k": "text",
+   "t": "3.0.0"
+  },
+  {
+   "k": "text",
+   "t": "2.5.4"
+  },
+  {
+   "k": "h2",
+   "t": "Behavior and usage"
+  },
+  {
+   "k": "text",
+   "t": "Loading use-focus-trap example"
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "h2",
+   "t": "Properties"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Required",
+     "Description"
+    ],
+    [
+     "document",
+     "Document",
+     "",
+     "",
+     "Document object"
+    ],
+    [
+     "querySelector",
+     "string",
+     "a[href], button:not(disabled), textarea:not(disabled), input:not(disabled), select:not(disabled)",
+     "",
+     "DOM elements selector"
+    ],
+    [
+     "ref",
+     "RefObject",
+     "",
+     "",
+     "Ref object to use if ref isn't supplied in properties."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Returns"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "onKeyNavigation",
+     "(e: KeyboardEvent, open?: boolean) => void",
+     "Function that handles on key down for navigation"
+    ],
+    [
+     "ref",
+     "MutableRefObject",
+     "Ref object to use if ref isn't supplied in props"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Client side only"
+  },
+  {
+   "k": "text",
+   "t": "true"
+  }
+ ]
+}

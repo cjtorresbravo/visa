@@ -1,0 +1,721 @@
+{
+ "url": "https://design.visa.com/data-visualization/charts/bar-chart/examples",
+ "title": "Bar chart | Charts | Data visualization | Visa Product Design System",
+ "h1": "Bar chart",
+ "readAt": "2026-10-15T17:12:11.770Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Bar chart"
+  },
+  {
+   "k": "p",
+   "t": "Chart that uses rectangular bars to represent and compare values across different categories or groups."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Usage",
+    "Accessibility",
+    "Examples",
+    "Code"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Simple trend",
+    "Trend",
+    "Compare trend to benchmark",
+    "Compare category ranking",
+    "Distribution summary"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Explore our bar chart examples to see how the VCC bar chart component can be customized for specific business scenarios and analysis tasks."
+  },
+  {
+   "k": "p",
+   "t": "Find design assets for these bar chart examples in our Figma Data Experience Charts (internal only) library."
+  },
+  {
+   "k": "h2",
+   "t": "Simple trend"
+  },
+  {
+   "k": "text",
+   "t": "Trend"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business question, “How did performance change over time?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use one color for every bar to emphasize the overall shape of the trend without overwhelming users. This example uses the neutral blue from our single color palette.",
+    "Data labels: Show labels directly over each bar to make it easier to interpret the exact value of each data point.",
+    "Gridlines: Use horizontal gridlines to make it easier to compare heights between non-adjacent bars."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Monthly transactions"
+  },
+  {
+   "k": "h2",
+   "t": "Monthly transactions"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Month",
+     "Total transactions"
+    ],
+    [
+     "January",
+     "1.8k"
+    ],
+    [
+     "February",
+     "3.7k"
+    ],
+    [
+     "March",
+     "2.6k"
+    ],
+    [
+     "April",
+     "4.5k"
+    ],
+    [
+     "May",
+     "4.1k"
+    ],
+    [
+     "June",
+     "3.6k"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a bar group."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a bar or bar group."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling bar groups or bars when focusing on a bar group or a bar."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "How have total monthly transactions changed over the last 12 months?"
+  },
+  {
+   "k": "text",
+   "t": "Loading..."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  },
+  {
+   "k": "h2",
+   "t": "Trend"
+  },
+  {
+   "k": "text",
+   "t": "Trend"
+  },
+  {
+   "k": "text",
+   "t": "High And Low Values"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business question, “How did performance change over time?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use sequential colors with a legend to categorize bars according to their values and make it easier to spot the high and low values. This example uses the secondary blue sequential color palette.",
+    "Data labels: Show lables directly over each bar to make it easier to interpret the exact value of each data point.",
+    "Gridlines: Use horizontal gridlines to make it easier to compare heights between non-adjacent bars."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Monthly transactions"
+  },
+  {
+   "k": "h2",
+   "t": "Monthly transactions"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Category",
+     "Month",
+     "Total transactions"
+    ],
+    [
+     "<2.5k",
+     "January",
+     "1.8k"
+    ],
+    [
+     "2.5k-3.5k",
+     "February",
+     "3.5k"
+    ],
+    [
+     "3.5k-4.5k",
+     "March",
+     "3.7k"
+    ],
+    [
+     "2.5k-3.5k",
+     "April",
+     "2.6k"
+    ],
+    [
+     ">4.5k",
+     "May",
+     "4.6k"
+    ],
+    [
+     "3.5k-4.5k",
+     "June",
+     "4.1k"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a bar group."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a bar or bar group."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling bar groups or bars when focusing on a bar group or a bar."
+    ],
+    [
+     "↑ / ↓",
+     "Move among points across bar groups on a bar group or bar."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How have total monthly transactions changed over the last 12 months?"
+  },
+  {
+   "k": "text",
+   "t": "Loading..."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  },
+  {
+   "k": "h2",
+   "t": "Compare trend to benchmark"
+  },
+  {
+   "k": "text",
+   "t": "Trend"
+  },
+  {
+   "k": "text",
+   "t": "Values Relative To Threshold"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business question, “How did performance change over time?” and “When did our performance beat the market average?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use a combination of bold and subtle colors to emphasize which bars fall above or below the benchmark. This example uses the gray and blue highlight palette.",
+    "Data labels: Show lables at the bottom of each bar to make it easier to interpret the exact value of each data point without overcrowding the benchmark line.",
+    "Reference line: Use the reference line to help users understand which values are good, bad, or typical."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Monthly transactions"
+  },
+  {
+   "k": "h2",
+   "t": "Monthly transactions"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Month",
+     "Total transactions"
+    ],
+    [
+     "January",
+     "1.8k"
+    ],
+    [
+     "February",
+     "3.7k"
+    ],
+    [
+     "March",
+     "2.6k"
+    ],
+    [
+     "April",
+     "4.5k"
+    ],
+    [
+     "May",
+     "3.5k"
+    ],
+    [
+     "June",
+     "4.2k"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a bar group."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a bar or bar group."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling bar groups or bars when focusing on a bar group or a bar."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Loading..."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  },
+  {
+   "k": "h2",
+   "t": "Compare category ranking"
+  },
+  {
+   "k": "text",
+   "t": "Ranking"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business question, “Which countries performed better?”, and “What are the similarities and differences between regions?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use the categorical palette to group bars into relevant groups. In this example, this helps indicate which regions had countries that ranked towards the top or the bottom and compare countries within a region.",
+    "Data labels: Show lables directly over each bar to make it easier to interpret the exact value of each data point.",
+    "Reference line: Use the reference line to provide a reference point between each country and the average value.",
+    "Order: Order countries from highest to lowest to make it easy to identify the ranking of countries at a quick glance."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Where do cardholders spend more per transaction?"
+  },
+  {
+   "k": "h2",
+   "t": "Where do cardholders spend more per transaction?"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Country",
+     "Average transactions",
+     "Region"
+    ],
+    [
+     "China",
+     "$27",
+     "Asia"
+    ],
+    [
+     "Japan",
+     "$10",
+     "Asia"
+    ],
+    [
+     "United States",
+     "$114",
+     "North America"
+    ],
+    [
+     "Canada",
+     "$24",
+     "North America"
+    ],
+    [
+     "India",
+     "$21",
+     "Asia"
+    ],
+    [
+     "Indonesia",
+     "$111",
+     "Asia"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a bar group."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a bar or bar group."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling bar groups or bars when focusing on a bar group or a bar."
+    ],
+    [
+     "↑ / ↓",
+     "Move among points across bar groups on a bar group or bar."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Compare average transaction amount across countries and regions."
+  },
+  {
+   "k": "text",
+   "t": "Loading..."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  },
+  {
+   "k": "h2",
+   "t": "Distribution summary"
+  },
+  {
+   "k": "text",
+   "t": "Distribution"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business question, “What is the range of values of low to high spenders?” and “What are the most common values, and how do they compare to the average?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use sequential colors to emphasize the value of bars, typically with darker bars indicating larger values. This example uses the purple sequential color palette.",
+    "Annotations: Include annotations to provide a summary of the important data points and in-context instructions to help users interpret the chart.",
+    "Center baseline axis: Use a centered baseline on the Y axis to keep the focus on the overall shape of the distribution."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Customer spending patterns"
+  },
+  {
+   "k": "h2",
+   "t": "Customer spending patterns"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Annual Spend Bins",
+     "Percent of cardholders"
+    ],
+    [
+     "0",
+     "20"
+    ],
+    [
+     "10k",
+     "15"
+    ],
+    [
+     "15k",
+     "9"
+    ],
+    [
+     "20k",
+     "8"
+    ],
+    [
+     "25k",
+     "4"
+    ],
+    [
+     "30k",
+     "4"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a bar group."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a bar or bar group."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling bar groups or bars when focusing on a bar group or a bar."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Explore your cardholders' annual spend distribution."
+  },
+  {
+   "k": "text",
+   "t": "Loading..."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  }
+ ]
+}

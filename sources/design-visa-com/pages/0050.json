@@ -1,0 +1,101 @@
+{
+ "url": "https://design.visa.com/developing/styles-css/changelog",
+ "title": "Changelog | Styles (CSS) | Developing | Visa Product Design System",
+ "h1": "Changelog",
+ "readAt": "2026-10-15T17:06:41.619Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Changelog"
+  },
+  {
+   "k": "p",
+   "t": "Keep up-to-date with the latest updates and enhancements in the Styles (CSS) changelog."
+  },
+  {
+   "k": "text",
+   "t": "Nova styles version"
+  },
+  {
+   "k": "text",
+   "t": "All"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "All versions"
+  },
+  {
+   "k": "h3",
+   "t": "1.6.5 (2026-03-19)"
+  },
+  {
+   "k": "h4",
+   "t": "Features"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Added Surface 2 and Surface 3 examples."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Bug Fixes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Improved dark mode support for color, date, and time inputs.",
+    "Fixed table row scope attributes and adjusted inline table padding.",
+    "Fixed Select RTL support.",
+    "Fixed Select options background color styling.",
+    "Improved link wrapping behavior with trailing icons.",
+    "Updated Typography active color variable."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "1.6.4 (2025-09-26)"
+  },
+  {
+   "k": "h4",
+   "t": "Features"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Added patterns: Application layouts Wizard",
+    "Added List item component.",
+    "Added several classes: v-accordion-subtle v-icon-success v-icon-warning v-icon-error v-surface-2 v-surface-3",
+    "Consolidated themes."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "1.6.2 (2025-04-11)"
+  },
+  {
+   "k": "h4",
+   "t": "Features"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Initial release of the component library.",
+    "Added a collection of components: Accordion Anchor link menu Avatar Badge Banner Breadcrumbs Button Checkbox Chip Color selector Combobox Content card Date and time selectors Dialog Divider Dropdown menu Flag Footer Horizontal navigation Icon Input Label Link Listbox Logo Multiselect Navigation drawer Pagination Panel Progress Radio Section message Select Switch Table Tabs Toggle button Tooltip Vertical navigation Wizard"
+   ]
+  }
+ ]
+}

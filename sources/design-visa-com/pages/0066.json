@@ -1,0 +1,173 @@
+{
+ "url": "https://design.visa.com/base-elements/design-tokens/tokens-for-designers",
+ "title": "Tokens for designers | Design tokens | Base elements | Visa Product Design System",
+ "h1": "Design tokens for designers",
+ "readAt": "2026-10-15T17:07:00.599Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Design tokens for designers"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to leverage design tokens to customize components effortlessly while maintaining a cohesive visual identity and experience."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Before you begin",
+    "Using variable mode presets",
+    "Create custom themes"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Before you begin"
+  },
+  {
+   "k": "p",
+   "t": "Make sure you understand the basics by visiting Design tokens and theming."
+  },
+  {
+   "k": "h3",
+   "t": "Common use for design tokens and theming"
+  },
+  {
+   "k": "list",
+   "items": [
+    "White labeling for non-Visa products: Easily adapt your designs for external brands.",
+    "Mockups using fictitious brands: Create realistic prototypes for presentations and pitches."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Common ways to theme in Figma"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Batch adjust components with presets: Use variable modes to change multiple components simultaneously.",
+    "Create custom themes: Modify one, some, or all of the default token values (variables) to create a new theme."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Using variable mode presets"
+  },
+  {
+   "k": "p",
+   "t": "Design tokens are represented by variables within Figma. These variables can be changed to alternate preset values through the Figma user interface. Using variable modes helps to ensure that customizations are within the design system’s rules and capabilities. For example, the color themes have been tested to ensure proper contrast when applied to VPDS components."
+  },
+  {
+   "k": "h3",
+   "t": "Step 1: Select a page, frame, or component"
+  },
+  {
+   "k": "p",
+   "t": "Add or select a component within your workspace to activate the properties panel on the right. Select the Apply variable mode button, represented by an icon of two hexagons with a dot in the middle, to explore the presets."
+  },
+  {
+   "k": "h3",
+   "t": "Step 2: Start customizing"
+  },
+  {
+   "k": "p",
+   "t": "Once you’ve explored the presets provided by VPDS, use the variable modes to swap the theme background, typography, shape, and more. You can also select multiple components or the entire frame to apply consistent styles."
+  },
+  {
+   "k": "p",
+   "t": "The table below includes the names of the base elements, along with their corresponding variable mode in Figma, and preset values. These will help you navigate the system and customize your designs effectively."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Base element",
+     "Variable mode",
+     "Preset values",
+     "Design tokens"
+    ],
+    [
+     "Color",
+     "Color theme",
+     "Visa light, Visa dark, Gray blue light, Gray blue dark, Purple light, Purple dark, Green light, Green dark, Black and white light, Black and white dark",
+     "Color"
+    ],
+    [
+     "Responsive grid system",
+     "Platform",
+     "Web, mobile",
+     "N/A"
+    ],
+    [
+     "Elevation",
+     "N/A",
+     "N/A",
+     "Elevation"
+    ],
+    [
+     "Icons",
+     "N/A",
+     "Visa, Generic (modified through properties)",
+     "N/A"
+    ],
+    [
+     "Size",
+     "N/A",
+     "Use Figma scale tool",
+     "Size and shape"
+    ],
+    [
+     "Shape",
+     "Shape",
+     "Rounded (default), Less rounded, Full rounded, square",
+     "Size and shape"
+    ],
+    [
+     "Spacing",
+     "Padding",
+     "Default, Spacious, Dense",
+     "Spacing"
+    ],
+    [
+     "Typography",
+     "Typography",
+     "Visa Dialect UI, Open Sans, Noto Sans, SF Pro, Roboto",
+     "Typography"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Create custom themes"
+  },
+  {
+   "k": "p",
+   "t": "Customizing beyond the provided properties can create additional development work. For maximum efficiency, continue the application of system rules throughout your customizations whenever possible. To make implementation of custom themes easier for your team:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Edit the values of the existing design tokens (linked in the table above).",
+    "Define values for a custom color theme by understanding how colors are applied to components to ensure proper contrast. Visit Color accessibility to learn more.",
+    "Create custom components using existing design system components as building blocks whenever possible. Follow system rules for communicating States."
+   ]
+  }
+ ]
+}

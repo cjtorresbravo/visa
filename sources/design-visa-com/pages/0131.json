@@ -1,0 +1,210 @@
+{
+ "url": "https://design.visa.com/content/readability",
+ "title": "Readability | Content | Visa Product Design System",
+ "h1": "Readability",
+ "readAt": "2026-10-15T17:08:20.845Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Readability"
+  },
+  {
+   "k": "p",
+   "t": "Make your content easy to read and understand so people can quickly find what they're looking for."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reading levelSimple languageSentence length",
+    "Hierarchy and spacing"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Readability is a measure of how easy it is to read text-based content, which is critical for designing efficient and effective experiences. Users don’t spend a lot of time absorbing information, so it’s important to design experiences that promote scanability with high reading comprehension. This section provides guidance on maintaining clear, readable content."
+  },
+  {
+   "k": "p",
+   "t": "Ensuring readability requires a combination careful language and phrasing, and visual design. While this section primarily focuses on language, reference Typography to learn more about, access, and download Visa typefaces to help support readability."
+  },
+  {
+   "k": "h2",
+   "t": "Reading level"
+  },
+  {
+   "k": "p",
+   "t": "Reading level is one method for measuring readability. Certain formulas, like the the Flesch Reading Ease Score (FRES) and the Flesch-Kincaid Grade Level Test, can help with this. For high readability, Visa uses a 6th grade reading level for all product and documentation content at a global scale."
+  },
+  {
+   "k": "h3",
+   "t": "Simple language"
+  },
+  {
+   "k": "p",
+   "t": "Many words have synonyms with a different reading level. Always choose shorter, simpler words to increase reading speed and decrease reading level."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "About",
+     "Approximately"
+    ],
+    [
+     "Buy",
+     "Purchase"
+    ],
+    [
+     "Go",
+     "Proceed"
+    ],
+    [
+     "Help",
+     "Assist"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Sentence length"
+  },
+  {
+   "k": "p",
+   "t": "Shorter sentences promote readability. Use shorter and simpler words, phrases, sentences, and sentence structures to express clearer thoughts. Long, complex sentences keep users from being able to understand information quickly."
+  },
+  {
+   "k": "p",
+   "t": "Use this chart when writing to help you boost readability:"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Number of words per sentence",
+     "Difficulty"
+    ],
+    [
+     "8 words or fewer",
+     "Very easy to read"
+    ],
+    [
+     "11 words",
+     "Easy"
+    ],
+    [
+     "14 words",
+     "Fairly easy"
+    ],
+    [
+     "17 words",
+     "Standard"
+    ],
+    [
+     "21 words",
+     "Fairly difficult"
+    ],
+    [
+     "25 words",
+     "Difficult"
+    ],
+    [
+     "29 words or more",
+     "Very difficult"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Hierarchy and spacing"
+  },
+  {
+   "k": "p",
+   "t": "Effective hierarchy makes content easy to consume and understand. It helps with scanability and tells users what information to focus on first. Think of it as your tool in guiding the reader’s attention to the content you want in the order you want them to see it."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure headings are descriptive to support scanning.",
+    "Keep the appearance of text in the same category consistent. For more information, reference Typography.",
+    "Always use sentence case except for proper nouns or acronyms. For more information, reference Grammar and punctuation.",
+    "Use sufficient negative space to prevent information overload."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Have the largest sized text be headings, followed by subheadings then body text."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use the same text style for all text."
+  },
+  {
+   "k": "p",
+   "t": "Do     Make all headings in the same category be the same size, color, and font."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Make headings in different categories too similar in style. They should be visually distinct from each other."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use headings that differ in size, weight, and color to indicate importance."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Change letter cases to indicate significance or hierarchy."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use line spacing to indicate new paragraphs."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use indentation to indicate new paragraphs."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use negative space between items to increase readability."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Group items too closely together."
+  },
+  {
+   "k": "p",
+   "t": "Do     Promote readability with appropriate margins and padding  using negative space."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Detract from text readability with insufficient margins or padding."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use white space to draw attention to headlines and enhance readability."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Group text too close together, which can lead to misreading text or making mistakes."
+  }
+ ]
+}

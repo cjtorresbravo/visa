@@ -1,0 +1,128 @@
+{
+ "url": "https://design.visa.com/designing/design-kits",
+ "title": "Design kits | Designing | Visa Product Design System",
+ "h1": "Design kits",
+ "readAt": "2026-10-15T17:06:14.620Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Design kits"
+  },
+  {
+   "k": "p",
+   "t": "Prototype quickly with VPDS design kits, equipped with everything you need to create user-friendly experiences."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Internal users",
+    "External users",
+    "Start designing"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Internal users"
+  },
+  {
+   "k": "h4",
+   "t": "Step 1: Sign into Figma using Visa SSO"
+  },
+  {
+   "k": "p",
+   "t": "Visa employees should be added to our Figma organization automatically. Once signed in, there’s no need to join or request to join any specific team to access the Nova Figma libraries."
+  },
+  {
+   "k": "h4",
+   "t": "Step 2: Ensure VPDS libraries are enabled"
+  },
+  {
+   "k": "p",
+   "t": "In your design file, navigate to the left-side navigation panel and select Libraries. A modal will pop up."
+  },
+  {
+   "k": "p",
+   "t": "The Nova: Components and Nova: Icons libraries will be enabled automatically and indicated by a checkmark. Additional libraries such as Data Experience: Charts can also be enabled from this modal using the search field or by navigating to Your organization and then selecting the Visa Product Design System (VPDS)."
+  },
+  {
+   "k": "h2",
+   "t": "External users"
+  },
+  {
+   "k": "h4",
+   "t": "Step 1: Sign into Figma"
+  },
+  {
+   "k": "p",
+   "t": "Use your credentials to access the Figma platform. If you don’t have an account, you can create one for free."
+  },
+  {
+   "k": "h4",
+   "t": "Step 2: Get the libraries"
+  },
+  {
+   "k": "p",
+   "t": "Navigate to the Visa Product Design System within the Figma community."
+  },
+  {
+   "k": "h4",
+   "t": "Step 3: Duplicate the file to your workspace"
+  },
+  {
+   "k": "p",
+   "t": "Explore the Visa Product Design System files and select one to duplicate in your own workspace."
+  },
+  {
+   "k": "h2",
+   "t": "Start designing"
+  },
+  {
+   "k": "h4",
+   "t": "Find and place components"
+  },
+  {
+   "k": "p",
+   "t": "The Visa Product Design System includes more than 50 components, patterns, and their variants. Navigate to or search for components from the Assets tab in the left-side navigation panel, and drag and drop them to the stage. Use the Application layouts to start your designs from preset examples."
+  },
+  {
+   "k": "p",
+   "t": "For more help on how to use Figma, visit Figma Learn"
+  },
+  {
+   "k": "h4",
+   "t": "Adjust component properties"
+  },
+  {
+   "k": "p",
+   "t": "Drag the component you wish to use onto canvas. The component will be selected, allowing you to view the name of the component in the right-side properties panel until deselected. If the component has variants, you’ll see fields underneath the component name to configure the properties and values of that component set."
+  },
+  {
+   "k": "p",
+   "t": "Need to customize a component beyond the properties provided in the panel? Find out more about theming and customization in Design tokens for designers."
+  },
+  {
+   "k": "h4",
+   "t": "Apply color and text styles"
+  },
+  {
+   "k": "p",
+   "t": "Visa Product Design System color and typography design tokens are surfaced in Figma using styles. As you design, you can use these styles to ensure consistency as you add your own elements. Access these styles in the right-side properties panel under Appearance.\nLearn more about using color, typography, and more in Base elements.\nFor more help on how using variables in Figma, visit Figma Learn"
+  }
+ ]
+}

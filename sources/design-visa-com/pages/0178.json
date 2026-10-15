@@ -1,0 +1,464 @@
+{
+ "url": "https://design.visa.com/components/checkbox/usage",
+ "title": "Checkbox | Components | Visa Product Design System",
+ "h1": "Checkbox",
+ "readAt": "2026-10-15T17:09:19.682Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Interactive element that lets users select one or more independent choices."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesStandalone checkboxesCheckbox panelsCheckbox groupsLabel size for panel groupsHidden labelsNested optionsDefault selectionsOptional vs. required labels",
+    "ContentDescriptionsLabels",
+    "Platform considerationsMobile",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Checkboxes enable users to select one or more options from a short list. They are commonly used in forms, filter menus, or any scenario where users may want to select multiple options from a short list."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Check box, tick box, checkBox (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Checkbox (required): Interactive element enabling users to select an option.\nB. Option label (required): Brief text describing the checkbox option.\nC. Description (optional): Brief message detailing important information about the option. \nD. Checkbox group (optional): Two or more related checkboxes presented in a group. \nE. Group label (required): Brief description of options available for selection."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Default checkbox",
+     "To present a binary choice where the user can select or deselect a single option.",
+     "To present multiple options the user can choose between. Use a checkbox group instead."
+    ],
+    [
+     "Checkbox group",
+     "To present a short list of options where the user can select one or multiple.",
+     "If users must select one option from a short list. Use a Radio button group instead. For long lists where all options can’t be viewed at once or require scrolling. Use a Multi-select listbox instead. For long lists where users would benefit from entering text to filter or search the list options. Use Multiselect instead. To present a list of actions. Use a Dropdown menu instead."
+    ],
+    [
+     "Checkbox panel",
+     "To present a binary choice where the user can select or deselect a single option. To provide an increased touch area.",
+     "To present multiple checkbox panels in a list. Use a checkbox panel group instead. When space is limited."
+    ],
+    [
+     "Checkbox panel group",
+     "To present a short list options where the user can select one or multiple. To provide an increased touch area.",
+     "If users can only select one option from a list. Use a Radio panel group instead. When space in limited."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure checkboxes appear visually different when selected and unselected by using the fill color and “check” icon.",
+    "Ensure users can select anywhere within the checkbox or associated option label to choose an option.",
+    "List options in a logical order, either alphabetically or according to the most common or likely selection.",
+    "Avoid using a horizontal layout for checkbox groups and panel groups, as vertical layouts are easier to scan and more adaptable for small screens.",
+    "Always indicate that more than one option can be selected using phrasing like “Select one or more options”."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use one checkbox for each selectable option in a group."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use a checkbox to prompt actions or other controls."
+  },
+  {
+   "k": "h3",
+   "t": "Standalone checkboxes"
+  },
+  {
+   "k": "p",
+   "t": "Standalone checkboxes refer to checkboxes used alone to present a single, independent option that doesn’t relate to any others. They’re typically used to enable settings, agree to terms and conditions, or present a binary choice, where selecting the checkbox indicates agreement and not selecting indicates disagreement."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the default checkbox component to present a standalone option.",
+    "Frame options so that selecting the checkbox indicates agreement and not selecting the checkbox indicates disagreement."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use a standalone checkbox to present a choice with a clear opposite state such as yes/no, agree/disagree, or opt-in/out."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use two checkboxes to present opposite choices, as users could select both checkboxes at once."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox panels"
+  },
+  {
+   "k": "p",
+   "t": "Checkbox panels are an alternative to default checkboxes. They’re available as standalone elements or in groups and can be used to draw attention to the checkbox or provide an increased touch area on small screens."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure users can select anywhere within the checkbox, label, or panel to choose an option."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use panel states with the checkbox panel component."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use checkbox states with the checkbox panel component."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use checkbox panels to draw attention to a standalone checkbox or checkbox group."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use too many checkbox panels in the same area, as they may be visually overwhelming."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox groups"
+  },
+  {
+   "k": "p",
+   "t": "Checkbox groups and panel groups are sets of default checkboxes or checkbox panels placed under a single group label. They’re commonly used to present a short list of related options available for selection."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a checkbox group or panel group for short lists where all options can be viewed without scrolling."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use a checkbox group when there are multiple options available under the same category or prompt."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use standalone checkboxes when options could be consolidated under one group label."
+  },
+  {
+   "k": "h3",
+   "t": "Label size for panel groups"
+  },
+  {
+   "k": "p",
+   "t": "Group labels for panel groups are available in two sizes. Use whichever is appropriate depending on your use case and the overall hierarchy of your experience."
+  },
+  {
+   "k": "h4",
+   "t": "Default"
+  },
+  {
+   "k": "p",
+   "t": "The default option is the UI label font size and matches the text in option descriptions."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the default size to reduce visual weight for users when multiple checkbox panel groups are used together."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Large"
+  },
+  {
+   "k": "p",
+   "t": "The large UI label size is an alternative option that can be used to draw attention to the checkbox panel group label."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the large size to draw attention to a standalone checkbox panel group."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Hidden labels"
+  },
+  {
+   "k": "p",
+   "t": "Checkbox groups and panel groups should always include a group label. However, there are some cases where hiding the group label can provide design flexibility or space for additional context. If the group label within the component build is hidden, include an alternate label elsewhere on the screen as well as within the code for accessibility."
+  },
+  {
+   "k": "h3",
+   "t": "Nested options"
+  },
+  {
+   "k": "p",
+   "t": "In some cases it may be appropriate to format checkbox groups with nested options. Users can select all nested options by selecting the parent or top-level checkbox, or unselect all nested options to by unselecting the parent checkbox. Alternatively, users can select nested options individually when the parent option is not selected. When the parent checkbox shows the indeterminate state, selecting it causes all nested options to be selected."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure all nested options are related to the parent option.",
+    "Use the unselected state for the parent option when all nested options are unselected.",
+    "Use the selected state for the parent option when all nested options are selected.",
+    "Include a chevron UI icon button to enable users to expand and collapse the nested options."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Note: The indeterminate state is not fully accessible for screen readers. To learn about alternative methods for nested checkbox groups, visit Accessibility."
+  },
+  {
+   "k": "h4",
+   "t": "Collapsed"
+  },
+  {
+   "k": "p",
+   "t": "The user selects the chevron UI icon button to reveal the nested options."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the right pointing chevron to indicate collapsed content."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Expanded"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the downward pointing chevron to indicate expanded content."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure a clear distinction between checkbox actions and chevron actions to prevent accidental selections."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Place checkboxes too close to the chevron UI icon button to avoid accidental selections."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use the indeterminate state for the parent option when some but not all nested options are selected."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use the indeterminate state for checkboxes that aren’t the parent of a nested group."
+  },
+  {
+   "k": "h3",
+   "t": "Default selections"
+  },
+  {
+   "k": "p",
+   "t": "In general, checkboxes should be unselected by default to give users full control over their choices. The main exception is when a choice is required and the selection indicates a default or system setting."
+  },
+  {
+   "k": "p",
+   "t": "Do     Select the safest, most secure, and private option if a default selection is necessary."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use the indeterminate state for checkboxes that aren’t the parent of a nested group."
+  },
+  {
+   "k": "h3",
+   "t": "Optional vs. required labels"
+  },
+  {
+   "k": "p",
+   "t": "Always ensure required fields are clearly labeled. While this may seem repetitive, it helps users scan for necessary information and reduces errors. There are two methods for labeling required fields based on your use case. Whichever method you select, use it consistently across your experiences. \nNote: Previous VPDS guidance recommended only marking optional fields. Our guidance has been updated to reflect current Nielsen Norman Group recommendations. Learn more about optional vs. required labels in Forms."
+  },
+  {
+   "k": "h3",
+   "t": "“Required” in the label (preferred method)"
+  },
+  {
+   "k": "p",
+   "t": "Including “required” within the label ensures it’s easy to find, particularly when instructions at the top might not be visible while scrolling. This method bolsters accessibility for both sighted and non-sighted users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Mark all fields that are required. This ensures you’re as explicit and transparent as possible.",
+    "Include “(required)” in field label with a space between the last word and the first parenthesis."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Asterisk in the label (alternative method)"
+  },
+  {
+   "k": "p",
+   "t": "Asterisks are commonly used to indicate required fields. The main advantage to using this method is that it doesn’t take up much space, helps users along a common edge, and can be used in addition to formatting hints in the label."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include a legend or key at the top of the content area noting that the asterisk indicates a required field.",
+    "Place the asterisk at the beginning of the label with a space between the symbol and the first word."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "When required is implied"
+  },
+  {
+   "k": "h3",
+   "t": "Labeling optional fields"
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use sentence case except for proper nouns or acronyms.",
+    "Use plain language and avoid abbreviations or jargon.",
+    "Visit Content for additional guidance on crafting content within apps and experiences."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Descriptions"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use full sentences with proper punctuation.",
+    "Limit descriptions to 80 characters or 20 words including spaces."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Don’t include punctuation.",
+    "Ensure group labels accurately summarize the options available for selection.",
+    "Limit labels to three words or fewer unless referencing proper nouns, such as product names.",
+    "Use Parallel structure for labels across your experience, either starting with verbs such as “Select a notification preference” or nouns such as “Notification preferences”."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Phrase labels so the statement is true when selected."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Include multiple options in one label."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "Checkboxes are available in mobile and web and should be implemented similarly on both platforms."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use checkbox panels to provide a larger touch area when necessary.",
+    "Use default checkboxes to save space and prevent user overload, especially when there are many checkbox groups used together in a form."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Dropdown menu"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  },
+  {
+   "k": "h3",
+   "t": "Radio"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect"
+  },
+  {
+   "k": "p",
+   "t": "Control that allows users to select multiple options from a dropdown menu."
+  },
+  {
+   "k": "h3",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance on everything from layouts to validation to ensure forms are clear and usable."
+  }
+ ]
+}

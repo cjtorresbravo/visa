@@ -1,0 +1,435 @@
+{
+ "url": "https://design.visa.com/components/accordion/usage",
+ "title": "Accordion | Components | Visa Product Design System",
+ "h1": "Accordion",
+ "readAt": "2026-10-15T17:09:01.199Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Accordion"
+  },
+  {
+   "k": "p",
+   "t": "Sets of vertical headers that reveal or hide subsections of content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesMulti-select accordionsSingle-select accordionsChevron direction",
+    "BehaviorsApplying accordion functionalityAnimation",
+    "Platform considerationsMobile",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Accordions are vertically stacked sections of content that, when selected, expand or collapse to reveal or conceal related content panels. They’re a type of progressive disclosure that simplify large amounts of content and minimize scrolling."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Summary (html), expand/collapse, hide/show."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Chevron (required): Interactive element indicating that users can expand or collapse the accordion.  B.  Header section (required): Area containing the accordion title which briefly describes the content in the expanded panel.  C. Panel (required): Area containing content that, when expanded, provides details relevant to the header."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Multi-select",
+     "To present users with multiple sections of content that can be expanded simultaneously. This is the most common use case.",
+     "To organize content into clear, distinct categories where only one category should be viewed at a time. Use single-select accordion instead. If there is not enough content to warrant condensing. Add this content to the main content area of the page instead. To organize large volumes of content into separate, distinct categories. Use Tabs instead. To provide a visual summary of information. Use a Content card instead."
+    ],
+    [
+     "Single-select",
+     "To present users with multiple sections of content, but only one can be expanded or viewed at a time.",
+     "If users would benefit from viewing information between multiple sections simultaneously. Use a multi-select accordion instead. For complex, step-by-step tasks. Use a Wizard instead.To provide a visual summary of information. Use a Content card instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use accordions carefully as they diminish content visibility and increase interaction cost.",
+    "Never hide critical information that should be easily accessible within an accordion.",
+    "Enhance usability by making the header section clickable for content expansion."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use accordions for multiple content sections to efficiently manage screen space and minimize cognitive load."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use accordions for single sections of content, especially for important information that would benefit from easier access."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use accordions to group related information at the same level, enhancing content findability and navigation."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Nest accordion sections as it can make content harder to find and navigate through."
+  },
+  {
+   "k": "h3",
+   "t": "Multi-select accordions"
+  },
+  {
+   "k": "p",
+   "t": "Multi-select accordions provide users with control over how they view the information by allowing them to expand multiple sections of content at once. They are typically used for FAQs, product descriptions, and event or course details."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Allow users to reference or compare multiple sections of content at the same time.",
+    "Place in logical locations to maintain the natural flow of the page, ensuring they’re easy to find and use."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure content within multi-select accordions is concise and organized for easy navigation with multiple sections open."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use accordions for long, complex content as it can cause navigation issues when multiple sections are open at once."
+  },
+  {
+   "k": "h3",
+   "t": "Single-select accordions"
+  },
+  {
+   "k": "p",
+   "t": "Single-select accordions only allow users to view one section of content at a time. They are ideal for small screen sizes as they minimize clutter and focus user attention on specific content. Learn more in Platform considerations."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use single-select accordions sparingly as they reduce user control and can lead to frustration.",
+    "Position single-select accordions logically to preserve page flow, ensuring easy discovery and interaction."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use single-select accordions to make content easier to view, enabling users to focus on one category at a time."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use single-select accordions for complex, step-by-step tasks that require complex interactions."
+  },
+  {
+   "k": "h4",
+   "t": "Automatic closure"
+  },
+  {
+   "k": "p",
+   "t": "Single-select accordions only allow users to expand one section at a time. The expanded section should automatically collapse when the user selects a new section."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure users also have the ability to control when they want to close a section and open another."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Chevron direction"
+  },
+  {
+   "k": "p",
+   "t": "Visually differentiate expanded and collapsed sections using the chevron direction. In some cases, it may be appropriate to use a plus (+) or minus (-) icon instead of a chevron. Whichever method you choose, use it consistently."
+  },
+  {
+   "k": "h4",
+   "t": "Collapsed"
+  },
+  {
+   "k": "p",
+   "t": "Collapsed sections should use the inactive color palette."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the right pointing chevron to indicate collapsed content can be expanded.",
+    "Use the plus (+) icon to indicate that the section can be expanded."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Expanded"
+  },
+  {
+   "k": "p",
+   "t": "Expanded sections should use the active color palette."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the downward pointing chevron to indicate expanded content can be collapsed.",
+    "Use the minus (-) icon to indicate that the section can be collapsed."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Applying accordion functionality"
+  },
+  {
+   "k": "p",
+   "t": "In some cases, it may be appropriate to combine interactive elements to achieve accordion-like functionality. Unlike standard accordions that only reveal or conceal content, these combinations can be used to show or hide additional user options or actions. This functionality can be accomplished using a UI icon button or text button to expand or collapse the section. Keep in mind that these combinations have different accessibility considerations than single- and multi-select accordions."
+  },
+  {
+   "k": "h4",
+   "t": "Revealing a checkbox group"
+  },
+  {
+   "k": "p",
+   "t": "Accordion functionality can be used to expand or collapse additional options within a checkbox group. This is achieved by combining a UI icon button with checkbox group, where selecting the chevron would show or hide additional, nested options. This design requires careful consideration as it introduces a two-step process which can add confusion for users."
+  },
+  {
+   "k": "h5",
+   "t": "Collapsed"
+  },
+  {
+   "k": "p",
+   "t": "The user selects the chevron button to reveal the options within the checkbox group."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the checkbox is visible when the accordion is collapsed to indicate there’s an action to be taken.",
+    "Use the right pointing chevron to indicate collapsed content."
+   ]
+  },
+  {
+   "k": "h5",
+   "t": "Expanded"
+  },
+  {
+   "k": "p",
+   "t": "The user makes their selection from the available options within the checkbox group."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Group related options and order them logically by either the order of importance or alphabetically.",
+    "Use the downward pointing chevron to indicate expanded content."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure a clear distinction between checkbox actions and  accordion actions to prevent accidental selections."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Place checkboxes too close to the accordion's expand/collapse control to avoid accidental selections."
+  },
+  {
+   "k": "p",
+   "t": "Do     Follow Checkbox guidance when providing visual cues that indicate when an option is selected or indeterminate."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Allow users to select all options at once when dealing with critical choices like privacy settings or terms and conditions."
+  },
+  {
+   "k": "h4",
+   "t": "Revealing a panel"
+  },
+  {
+   "k": "p",
+   "t": "Accordion functionality can be used to expand or collapse a panel through a button. For example, showing additional filters and fields for advanced search. A similar function is used to expand an inline help panel for credit card security codes using a tooltip button to reveal a content section beneath the input field when selected."
+  },
+  {
+   "k": "h5",
+   "t": "Collapsed"
+  },
+  {
+   "k": "p",
+   "t": "The user selects the “Show filters” button to reveal or hide the panel."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use text or context clues to indicate that the panel will expand to reveal additional actions.",
+    "Use the plus (+) icon to indicate collapsed content will expand when selected."
+   ]
+  },
+  {
+   "k": "h5",
+   "t": "Expanded"
+  },
+  {
+   "k": "p",
+   "t": "The user then makes their selection from the available options."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Allow users to collapse the section by selecting the same action that expanded the section.",
+    "Use the minus (-) to indicate expanded content will collapse when selected."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Animation"
+  },
+  {
+   "k": "p",
+   "t": "Accordions may animate. Typically, they use a smooth, vertical sliding effect. When a user clicks on an accordion header, the associated content panel expands downward, revealing the hidden content. Conversely, when the header is clicked again, the content panel collapses upward, hiding the content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure animations are brief, subtle, and unobtrusive.",
+    "Implement animations consistently across accordions in your experience, either animating all or none."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "h4",
+   "t": "Full-width accordions"
+  },
+  {
+   "k": "p",
+   "t": "Full-width accordions make it easier for users to select and expand sections on mobile devices and reduce the chance of missed selections. While there’s no set limit to the number of accordions on a mobile interface, excessive use can create a cluttered and overwhelming experience."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use full-width accordions for screen sizes where users would benefit from extra touch space.",
+    "Consider simplifying the interface or reevaluating the information architecture if many accordions are needed."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use simple language—avoid abbreviations or jargon.",
+    "Use sentence case, except for proper nouns or acronyms.",
+    "Use accordions to simplify the interface by hiding content, not to fit more onto the screen."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Accordion titles"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use short, concise content across headers or section labels. Aim for a range of five to ten words.",
+    "Only use punctuation when labels are phrased as questions, such as “How do I edit my billing information?”",
+    "Ensure labels accurately describe the content within the section to help users predict what they will find when expanded.",
+    "Use parallel structure for all labels, using either questions, statements, or nouns. Learn more about parallel structure by visiting Grammar and punctuation."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Panel content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use complete sentences and proper punctuation within each section or panel.",
+    "Keep the content within each panel concise and to the point.",
+    "Avoid unnecessary details or complex language.",
+    "Provide users with the answers they need as quickly and efficiently as possible.",
+    "If content within the accordion is becoming too lengthy, it may be a sign that the information should be presented in a different way, such as being broken down further, moved to a separate page, or even represented visually."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Content card"
+  },
+  {
+   "k": "p",
+   "t": "Compact displays that summarize or direct users to more information."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Interactive element that lets users select one or more independent choices."
+  },
+  {
+   "k": "h3",
+   "t": "Tabs"
+  },
+  {
+   "k": "p",
+   "t": "Organizational element that separates content and allows users to switch views."
+  },
+  {
+   "k": "h3",
+   "t": "Wizard"
+  },
+  {
+   "k": "p",
+   "t": "A tool that combines a wizard stepper with navigation controls to guide users through complex forms."
+  }
+ ]
+}

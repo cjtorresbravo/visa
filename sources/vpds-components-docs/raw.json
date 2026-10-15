@@ -1,0 +1,1828 @@
+{
+ "file": "VPDS Components (Community)",
+ "readAt": "2026-10-15T17:05:21.537Z",
+ "how": "read inside the file through the plugin, read only",
+ "pages": [
+  {
+   "file": "VPDS Components (Community)",
+   "totalPages": 53,
+   "page": "Application layouts",
+   "pageId": "16085:165809",
+   "frames": [
+    {
+     "name": "Vertical",
+     "type": "COMPONENT_SET",
+     "id": "62206:68596",
+     "x": -9177,
+     "y": -3143,
+     "w": 5540,
+     "h": 1355,
+     "texts": [
+      {
+       "t": "[Placeholder logo]",
+       "size": 16,
+       "style": null,
+       "inComponent": true
+      },
+      {
+       "t": "Application Name",
+       "size": 16,
+       "style": "Subtitle 1",
+       "inComponent": true
+      },
+      {
+       "t": "Form title",
+       "size": 25,
+       "style": "Headline 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is an optional description telling the user what to expect.",
+       "size": 16,
+       "style": "Body 1",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 1",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 2",
+       "size": 14,
+       "style": "UI label large active",
+       "inComponent": true
+      },
+      {
+       "t": "This is text that describes the section message in more detail.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 5",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Field three",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Option",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is optional text that describes the label in more detail.",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Group label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Label 1",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Submit",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Save",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Cancel",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Alex Miller",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Copyright © YYYY-YYYY Visa. All rights reserved.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Contact us",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Privacy",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Terms of use",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      }
+     ],
+     "uses": {
+      "Vertical nav default (local)": 4,
+      "Content area base (local)": 4,
+      "Default footer (local)": 4
+     }
+    },
+    {
+     "name": "Vertical-Collapsed",
+     "type": "COMPONENT_SET",
+     "id": "62206:68625",
+     "x": -9181,
+     "y": -1663,
+     "w": 5537,
+     "h": 1349,
+     "texts": [
+      {
+       "t": "Form title",
+       "size": 25,
+       "style": "Headline 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is an optional description telling the user what to expect.",
+       "size": 16,
+       "style": "Body 1",
+       "inComponent": true
+      },
+      {
+       "t": "This is text that describes the section message in more detail.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Field three",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Option",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is optional text that describes the label in more detail.",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Group label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Label 1",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Submit",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Save",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Cancel",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Copyright © YYYY-YYYY Visa. All rights reserved.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Contact us",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Privacy",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Terms of use",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "[Placeholder logo]",
+       "size": 16,
+       "style": null,
+       "inComponent": true
+      }
+     ],
+     "uses": {
+      "Vertical nav collapsed (local)": 4,
+      "Content area base (local)": 4,
+      "Default footer (local)": 4
+     }
+    },
+    {
+     "name": "Content areas",
+     "type": "SECTION",
+     "id": "62206:68654",
+     "x": 254,
+     "y": 479,
+     "w": 1800,
+     "h": 4968,
+     "texts": [
+      {
+       "t": "OVERLINE",
+       "size": 10,
+       "style": "Overline"
+      },
+      {
+       "t": "Headline 1",
+       "size": 32,
+       "style": "Headline 1"
+      },
+      {
+       "t": "As a company advancing human economic progress, Visa's imagery should be future-leaning, innovative and modern. This means building upon our strong brand equity to propel us forward as a digital-first brand.",
+       "size": 14,
+       "style": "Body 2"
+      },
+      {
+       "t": "Headline 2",
+       "size": 25,
+       "style": "Headline 2"
+      },
+      {
+       "t": "Our mission at Visa is to connect the world in order to enable individuals, businesses and economies to thrive. This is driven by our belief that economies that include everyone everywhere, uplift everyone everywhere.",
+       "size": 14,
+       "style": "Body 2"
+      },
+      {
+       "t": "Headline 3",
+       "size": 20,
+       "style": "Headline 3"
+      },
+      {
+       "t": "In every creative project, we make the choice to include people from different backgrounds, cultures and identities. This helps us demonstrate our commitment to being the uplifting, accessible and universal language of commerce for a worldwide audience.",
+       "size": 14,
+       "style": "Body 2"
+      },
+      {
+       "t": "Headline 4",
+       "size": 18,
+       "style": "Headline 4"
+      },
+      {
+       "t": "This helps us demonstrate our commitment to being the uplifting, accessible and universal language of commerce for a worldwide audience.",
+       "size": 14,
+       "style": "Body 2"
+      },
+      {
+       "t": "Subtitle 1",
+       "size": 16,
+       "style": "Subtitle 1"
+      },
+      {
+       "t": "Subtitle 2",
+       "size": 16,
+       "style": "Subtitle 2"
+      },
+      {
+       "t": "Subtitle 3",
+       "size": 14,
+       "style": null
+      },
+      {
+       "t": "Default title",
+       "size": 20,
+       "style": "Headline 3",
+       "inComponent": true
+      },
+      {
+       "t": "This is required text that describes the dialog title in more detail.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Primary action",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Secondary action",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "This is required text that describes the banner in more detail.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Responsive panel title",
+       "size": 20,
+       "style": "Headline 3",
+       "inComponent": true
+      },
+      {
+       "t": "Panel adjustments",
+       "size": 16,
+       "style": "Subtitle 2",
+       "inComponent": true
+      },
+      {
+       "t": "Information about having to adjust panel height? Tip about being able to change panel type?",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Form title",
+       "size": 25,
+       "style": "Headline 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is an optional description telling the user what to expect.",
+       "size": 16,
+       "style": "Body 1",
+       "inComponent": true
+      },
+      {
+       "t": "This is text that describes the section message in more detail.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Field three",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Option",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is optional text that describes the label in more detail.",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Group label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Label 1",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Submit",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Save",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Cancel",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      }
+     ],
+     "uses": {
+      "Dialog: Default (local)": 1,
+      "Banner: Success (local)": 1,
+      "Form layout (local)": 1,
+      "Panel (local)": 1
+     }
+    },
+    {
+     "name": "Mobile application layouts",
+     "type": "SECTION",
+     "id": "62206:68690",
+     "x": 2258,
+     "y": 481,
+     "w": 1809,
+     "h": 3267,
+     "texts": [
+      {
+       "t": "[Placeholder logo]",
+       "size": 16,
+       "style": null,
+       "inComponent": true
+      },
+      {
+       "t": "Form title",
+       "size": 28,
+       "style": "Headline 2"
+      },
+      {
+       "t": "This is required text that describes the banner in more detail.",
+       "size": 16,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Form title",
+       "size": 28,
+       "style": "Headline 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is an optional description telling the user what to expect.",
+       "size": 16,
+       "style": "Body 2"
+      },
+      {
+       "t": "This is an optional description telling the user what to expect.",
+       "size": 16,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Close",
+       "size": 16,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "This is text that describes the section message in more detail.",
+       "size": 16,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Label (required)",
+       "size": 14,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Option",
+       "size": 16,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Group label (required)",
+       "size": 14,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Label 1",
+       "size": 16,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 2",
+       "size": 16,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 3",
+       "size": 16,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 4",
+       "size": 16,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Submit",
+       "size": 14,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Save",
+       "size": 14,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Cancel",
+       "size": 14,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Overline",
+       "size": 11,
+       "style": "Overline"
+      },
+      {
+       "t": "Headline 1",
+       "size": 36,
+       "style": "Headline 1"
+      },
+      {
+       "t": "As a company advancing human economic progress, Visa's imagery should be future-leaning, innovative and modern. This means building upon our strong brand equity to propel us forward as a digital-first brand.",
+       "size": 16,
+       "style": "Body 2"
+      },
+      {
+       "t": "Default title",
+       "size": 24,
+       "style": "Headline 3",
+       "inComponent": true
+      },
+      {
+       "t": "This is required text that describes the dialog title in more detail.",
+       "size": 16,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Headline 2",
+       "size": 28,
+       "style": "Headline 2"
+      },
+      {
+       "t": "Our mission at Visa is to connect the world in order to enable individuals, businesses and economies to thrive. This is driven by our belief that economies that include everyone everywhere, uplift everyone everywhere.",
+       "size": 16,
+       "style": "Body 2"
+      },
+      {
+       "t": "Headline 3",
+       "size": 24,
+       "style": "Headline 3"
+      },
+      {
+       "t": "In every creative project, we make the choice to include people from different backgrounds, cultures and identities. This helps us demonstrate our commitment to being the uplifting, accessible and universal language of commerce for a worldwide audience.",
+       "size": 16,
+       "style": "Body 2"
+      },
+      {
+       "t": "Headline 4",
+       "size": 22,
+       "style": "Headline 4"
+      },
+      {
+       "t": "This helps us demonstrate our commitment to being the uplifting, accessible and universal language of commerce for a worldwide audience.",
+       "size": 16,
+       "style": "Body 2"
+      },
+      {
+       "t": "Subtitle 1",
+       "size": 18,
+       "style": "Subtitle 1"
+      },
+      {
+       "t": "Subtitle 2",
+       "size": 18,
+       "style": "Subtitle 2"
+      },
+      {
+       "t": "Subtitle 3",
+       "size": 16,
+       "style": "Subtitle 3"
+      }
+     ],
+     "uses": {
+      "Content area base (local)": 1,
+      "Top app bar (local)": 1,
+      "Tab bar (local)": 1,
+      "Section message: Success (local)": 1,
+      "Input: Default (local)": 2,
+      "Combobox (local)": 1,
+      "Checkbox group (local)": 1,
+      "Multi-line (local)": 1,
+      "Radio button group (local)": 1,
+      "Primary text button (local)": 1,
+      "Secondary text button (local)": 1,
+      "Tertiary text button (local)": 1,
+      "Dialog: Default (local)": 1,
+      "Banner: Success (local)": 1,
+      "Form layout (local)": 1
+     }
+    },
+    {
+     "name": "Mixed",
+     "type": "COMPONENT_SET",
+     "id": "62206:68747",
+     "x": -9181,
+     "y": -90,
+     "w": 5512,
+     "h": 1435,
+     "texts": [
+      {
+       "t": "9",
+       "size": 12,
+       "style": "UI label active",
+       "inComponent": true
+      },
+      {
+       "t": "[Placeholder logo]",
+       "size": 16,
+       "style": null,
+       "inComponent": true
+      },
+      {
+       "t": "Application Name",
+       "size": 20,
+       "style": "Headline 3",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 1",
+       "size": 14,
+       "style": "UI label large active",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L2 label 1",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 1",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L2 label 2",
+       "size": 14,
+       "style": "UI label large active",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 2",
+       "size": 14,
+       "style": "UI label large active",
+       "inComponent": true
+      },
+      {
+       "t": "Form title",
+       "size": 25,
+       "style": "Headline 2",
+       "inComponent": true
+      },
+      {
+       "t": "L2 label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "This is an optional description telling the user what to expect.",
+       "size": 16,
+       "style": "Body 1",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L2 label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "This is text that describes the section message in more detail.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "L2 label 5",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 5",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Field three",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Option",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is optional text that describes the label in more detail.",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Group label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Label 1",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Submit",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Save",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Cancel",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Copyright © YYYY-YYYY Visa. All rights reserved.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Contact us",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Privacy",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Terms of use",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      }
+     ],
+     "uses": {
+      "Horizontal (local)": 4,
+      "Vertical nav default (local)": 4,
+      "Content area base (local)": 4,
+      "Default footer (local)": 4
+     }
+    },
+    {
+     "name": "Mixed-Collapsed",
+     "type": "COMPONENT_SET",
+     "id": "62206:68784",
+     "x": -9193,
+     "y": 1751,
+     "w": 5537,
+     "h": 1429,
+     "texts": [
+      {
+       "t": "9",
+       "size": 12,
+       "style": "UI label active",
+       "inComponent": true
+      },
+      {
+       "t": "[Placeholder logo]",
+       "size": 16,
+       "style": null,
+       "inComponent": true
+      },
+      {
+       "t": "Application Name",
+       "size": 20,
+       "style": "Headline 3",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 1",
+       "size": 14,
+       "style": "UI label large active",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Form title",
+       "size": 25,
+       "style": "Headline 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is an optional description telling the user what to expect.",
+       "size": 16,
+       "style": "Body 1",
+       "inComponent": true
+      },
+      {
+       "t": "This is text that describes the section message in more detail.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Field three",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Option",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is optional text that describes the label in more detail.",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Group label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Label 1",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Submit",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Save",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Cancel",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Copyright © YYYY-YYYY Visa. All rights reserved.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Contact us",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Privacy",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Terms of use",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      }
+     ],
+     "uses": {
+      "Horizontal (local)": 4,
+      "Vertical nav collapsed (local)": 4,
+      "Content area base (local)": 4,
+      "Default footer (local)": 4
+     }
+    },
+    {
+     "name": "Horizontal",
+     "type": "COMPONENT_SET",
+     "id": "62218:75251",
+     "x": -9181,
+     "y": -6538,
+     "w": 8078,
+     "h": 1461,
+     "texts": [
+      {
+       "t": "9",
+       "size": 12,
+       "style": "UI label active",
+       "inComponent": true
+      },
+      {
+       "t": "[Placeholder logo]",
+       "size": 16,
+       "style": null,
+       "inComponent": true
+      },
+      {
+       "t": "Application Name",
+       "size": 20,
+       "style": "Headline 3",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 1",
+       "size": 14,
+       "style": "UI label large active",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Form title",
+       "size": 25,
+       "style": "Headline 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is an optional description telling the user what to expect.",
+       "size": 16,
+       "style": "Body 1",
+       "inComponent": true
+      },
+      {
+       "t": "This is text that describes the section message in more detail.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Field three",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Option",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is optional text that describes the label in more detail.",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Group label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Label 1",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Submit",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Save",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Cancel",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Copyright © YYYY-YYYY Visa. All rights reserved.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Contact us",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Privacy",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Terms of use",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      }
+     ],
+     "uses": {
+      "Horizontal (local)": 5,
+      "Content area base (local)": 6,
+      "Default footer (local)": 6,
+      "Horizontal (768) (local)": 1
+     }
+    },
+    {
+     "name": "Horizontal stacked",
+     "type": "COMPONENT_SET",
+     "id": "62218:75290",
+     "x": -9181,
+     "y": -4965,
+     "w": 7246,
+     "h": 1646,
+     "texts": [
+      {
+       "t": "9",
+       "size": 12,
+       "style": "UI label active",
+       "inComponent": true
+      },
+      {
+       "t": "Application Name",
+       "size": 20,
+       "style": "Headline 3",
+       "inComponent": true
+      },
+      {
+       "t": "[Placeholder logo]",
+       "size": 16,
+       "style": null,
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 1",
+       "size": 14,
+       "style": "UI label large active",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 Label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 1 item 1",
+       "size": 14,
+       "style": "UI label large active",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 1 item 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 1 item 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 1 item 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "L1 label 1 item 5",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Form title",
+       "size": 25,
+       "style": "Headline 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is an optional description telling the user what to expect.",
+       "size": 16,
+       "style": "Body 1",
+       "inComponent": true
+      },
+      {
+       "t": "This is text that describes the section message in more detail.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Field three",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Option",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "This is optional text that describes the label in more detail.",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Group label (required)",
+       "size": 12,
+       "style": "UI label",
+       "inComponent": true
+      },
+      {
+       "t": "Label 1",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 2",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 3",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Label 4",
+       "size": 14,
+       "style": "UI label large",
+       "inComponent": true
+      },
+      {
+       "t": "Submit",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Save",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Cancel",
+       "size": 12,
+       "style": "Button medium",
+       "inComponent": true
+      },
+      {
+       "t": "Copyright © YYYY-YYYY Visa. All rights reserved.",
+       "size": 14,
+       "style": "Body 2",
+       "inComponent": true
+      },
+      {
+       "t": "Contact us",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Privacy",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      },
+      {
+       "t": "Terms of use",
+       "size": 14,
+       "style": "Body 2 link",
+       "inComponent": true
+      }
+     ],
+     "uses": {
+      "Stacked horizontal (local)": 5,
+      "Content area base (local)": 5,
+      "Default footer (local)": 5
+     }
+    }
+   ],
+   "sets": [
+    {
+     "name": "Vertical",
+     "key": "81e789152897066fd7503104ee96e060e36e4f57",
+     "variants": 4,
+     "w": 1600,
+     "h": 1248,
+     "description": "Blank page layout with vertical navigation\n\nAlso known as: Template",
+     "props": [
+      {
+       "name": "Show dialog",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Show flag",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Size",
+       "type": "VARIANT",
+       "options": [
+        "1024",
+        "1280",
+        "1440",
+        "1600"
+       ],
+       "default": "1600"
+      }
+     ]
+    },
+    {
+     "name": "Vertical-Collapsed",
+     "key": "0a6e3bf51b655a9e76bab12e5514a452f6ecd2a9",
+     "variants": 4,
+     "w": 1600,
+     "h": 1248,
+     "description": "Blank page layout with collapsed vertical navigation\n\nAlso known as: Template",
+     "props": [
+      {
+       "name": "Show flag",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Show dialog",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Size",
+       "type": "VARIANT",
+       "options": [
+        "1024",
+        "1280",
+        "1440",
+        "1600"
+       ],
+       "default": "1600"
+      }
+     ]
+    },
+    {
+     "name": "Mixed",
+     "key": "a62e32ebb12a6e1d70340bdc094cbd8bbbda6fb9",
+     "variants": 4,
+     "w": 1600,
+     "h": 1328,
+     "description": "Blank page layout with mixed navigation (vertical and horizontal)\n\nAlso known as: Template",
+     "props": [
+      {
+       "name": "Show flag",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Show dialog",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Size",
+       "type": "VARIANT",
+       "options": [
+        "1024",
+        "1280",
+        "1440",
+        "1600"
+       ],
+       "default": "1600"
+      }
+     ]
+    },
+    {
+     "name": "Mixed-Collapsed",
+     "key": "3970be2c958dc445008a093f243e81cff459bbd8",
+     "variants": 4,
+     "w": 1600,
+     "h": 1328,
+     "description": "Blank page layout with mixed navigation (collapsed vertical and horizontal)\n\nAlso known as: Template",
+     "props": [
+      {
+       "name": "Show dialog",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Show flag",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Size",
+       "type": "VARIANT",
+       "options": [
+        "1024",
+        "1280",
+        "1440",
+        "1600"
+       ],
+       "default": "1600"
+      }
+     ]
+    },
+    {
+     "name": "Horizontal",
+     "key": "f70350ea3f56d6a6a72f8b1dd02a54c547260909",
+     "variants": 6,
+     "w": 1600,
+     "h": 1328,
+     "description": "Blank page layout with horizontal navigation\n\nAlso known as: Template",
+     "props": [
+      {
+       "name": "Show Flag",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Show Dialog",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Size",
+       "type": "VARIANT",
+       "options": [
+        "1024",
+        "1280",
+        "1440",
+        "1600 Fixed",
+        "1600 Fluid",
+        "768"
+       ],
+       "default": "1600 Fluid"
+      }
+     ]
+    },
+    {
+     "name": "Horizontal stacked",
+     "key": "63f524d1dd17cb5ee6e8d3b772c3f2a2c99ebf42",
+     "variants": 5,
+     "w": 1600,
+     "h": 1397,
+     "description": "Blank page layout with horizontal stacked navigation\n\nAlso known as: Template",
+     "props": [
+      {
+       "name": "Show Dialog",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Show Flag",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Size",
+       "type": "VARIANT",
+       "options": [
+        "1024",
+        "1280",
+        "1440",
+        "1600 Fixed",
+        "1600 Fluid"
+       ],
+       "default": "1600 Fluid"
+      }
+     ]
+    }
+   ],
+   "components": [
+    {
+     "name": "Type ramp",
+     "key": "bceb7dc7c46d0d8054e3f5257e8654e9979a6554",
+     "w": 603,
+     "h": 982,
+     "props": []
+    },
+    {
+     "name": "Dialog with overlay",
+     "key": "b180f41f5a4a5f0011bfb905ae7d39f7b0401f1c",
+     "w": 1600,
+     "h": 1394,
+     "props": []
+    },
+    {
+     "name": "Content area base",
+     "key": "4ab2341228df4b037f2c3106ab728d70ae8baa82",
+     "w": 1600,
+     "h": 1233,
+     "props": [
+      {
+       "name": "Page content",
+       "type": "INSTANCE_SWAP"
+      },
+      {
+       "name": "Show panel (responsive)",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Show banner",
+       "type": "BOOLEAN",
+       "default": true
+      }
+     ]
+    },
+    {
+     "name": "app-layouts-mobile",
+     "key": "da2c7d5265ef033ec586e0dce65abc5901588b29",
+     "w": 375,
+     "h": 1360,
+     "description": "Blank page layout with page title\n\nAlso known as: Template",
+     "props": [
+      {
+       "name": "Show flag",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Show panel",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Show dialog",
+       "type": "BOOLEAN",
+       "default": false
+      },
+      {
+       "name": "Show nav drawer",
+       "type": "BOOLEAN",
+       "default": false
+      }
+     ]
+    },
+    {
+     "name": "Form layout",
+     "key": "5931212b2bd3f8bd2bf79d0d15437befc41874a2",
+     "w": 343,
+     "h": 1158,
+     "props": [
+      {
+       "name": "Show section message",
+       "type": "BOOLEAN",
+       "default": true
+      }
+     ]
+    },
+    {
+     "name": "Dialog with overlay",
+     "key": "2360ea0e44ab1e5527423e5ecda9c5f8e5cd84eb",
+     "w": 375,
+     "h": 811,
+     "props": []
+    },
+    {
+     "name": "Type ramp",
+     "key": "3d125c1bbddfbb928c57aba9d5d975b808dff829",
+     "w": 343,
+     "h": 1406,
+     "props": []
+    },
+    {
+     "name": "Content area base",
+     "key": "c036a8e454edec4b6a131887e53f51573eac451b",
+     "w": 375,
+     "h": 667,
+     "props": [
+      {
+       "name": "Show banner",
+       "type": "BOOLEAN",
+       "default": true
+      },
+      {
+       "name": "Page content",
+       "type": "INSTANCE_SWAP"
+      }
+     ]
+    }
+   ],
+   "totalFrames": 8
+  }
+ ]
+}

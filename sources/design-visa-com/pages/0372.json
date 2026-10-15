@@ -1,0 +1,76 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/examples/components/accordion/reusable",
+ "title": "Reusable accordion component | Example | Nova Angular | Visa Product Design System",
+ "h1": null,
+ "readAt": "2026-10-15T17:22:15.433Z",
+ "blocks": [
+  {
+   "k": "text",
+   "t": "Success title 0"
+  },
+  {
+   "k": "text",
+   "t": "This is required text that describes the accordion in more detail."
+  },
+  {
+   "k": "h4",
+   "t": "Boolean properties"
+  },
+  {
+   "k": "text",
+   "t": "Disabled"
+  },
+  {
+   "k": "text",
+   "t": "Multiselect"
+  },
+  {
+   "k": "text",
+   "t": "Open first accordion"
+  },
+  {
+   "k": "text",
+   "t": "Padding"
+  },
+  {
+   "k": "text",
+   "t": "Show badge"
+  },
+  {
+   "k": "text",
+   "t": "Show icon"
+  },
+  {
+   "k": "text",
+   "t": "Show toggle icon"
+  },
+  {
+   "k": "text",
+   "t": "Subtle"
+  },
+  {
+   "k": "h4",
+   "t": "Text/numeric properties"
+  },
+  {
+   "k": "text",
+   "t": "Number of accordions"
+  },
+  {
+   "k": "text",
+   "t": "Title"
+  },
+  {
+   "k": "text",
+   "t": "Description"
+  },
+  {
+   "k": "text",
+   "t": "Apply"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  }
+ ]
+}

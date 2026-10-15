@@ -1,0 +1,780 @@
+{
+ "url": "https://design.visa.com/data-visualization/charts/line-chart/examples",
+ "title": "Line chart | Charts | Data visualization | Visa Product Design System",
+ "h1": "Line chart",
+ "readAt": "2026-10-15T17:12:22.262Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Line chart"
+  },
+  {
+   "k": "p",
+   "t": "Chart showing points connected by line segments, used to represent how a number changes over time."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Usage",
+    "Accessibility",
+    "Examples",
+    "Code"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Trend with categories",
+    "Current vs. previous trend",
+    "Compare trend to benchmark",
+    "One vs. all trend"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Explore our line chart examples to see how the VCC line chart component can be customized for specific business scenarios and analysis tasks."
+  },
+  {
+   "k": "p",
+   "t": "Find design assets for these line chart examples in our Figma Data Experience Charts (internal only) library."
+  },
+  {
+   "k": "h2",
+   "t": "Trend with categories"
+  },
+  {
+   "k": "text",
+   "t": "Trend"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business questions, “How did performance change over time?” and “Is the gap between the two categories growing or shrinking?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use colors from the categorical color palette to ensure both categories have equal visual emphasis and importance.",
+    "Data labels: Show labels directly over each data marker to make it easier to interpret the exact value of each data point.",
+    "Gridlines: Show horizontal gridlines to make it easier to compare differences across all data points."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Where do customers prefer to shop?"
+  },
+  {
+   "k": "h2",
+   "t": "Where do customers prefer to shop?"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Date",
+     "Category",
+     "Total transactions"
+    ],
+    [
+     "January",
+     "In-store",
+     "7.67b"
+    ],
+    [
+     "February",
+     "In-store",
+     "7.63b"
+    ],
+    [
+     "March",
+     "In-store",
+     "8.36b"
+    ],
+    [
+     "April",
+     "In-store",
+     "8.33b"
+    ],
+    [
+     "May",
+     "In-store",
+     "8.59b"
+    ],
+    [
+     "June",
+     "In-store",
+     "8.48b"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a line."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a point or line."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling lines or points when focusing on a line or a point."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Compare trends for online versus in-store monthly transactions."
+  },
+  {
+   "k": "p",
+   "t": "Keyboard Interactive line-chart, Titled: Where do customers prefer to shop?. To view the chart data, use the Display data table button. To view keyboard instructions, use the Display keyboard instructions button."
+  },
+  {
+   "k": "h2",
+   "t": "Chart title: Where do customers prefer to shop?"
+  },
+  {
+   "k": "h3",
+   "t": "Long Description"
+  },
+  {
+   "k": "p",
+   "t": "This chart compares trends for online versus in-store monthly transactions in a year."
+  },
+  {
+   "k": "p",
+   "t": "The values displayed in this chart are based on the filter selections made in the dashboard filter bar."
+  },
+  {
+   "k": "h3",
+   "t": "Structure"
+  },
+  {
+   "k": "h4",
+   "t": "Statistical Information"
+  },
+  {
+   "k": "p",
+   "t": "In-store shopping surpassed online shopping throughout the year. In-store shopping is balanced, whereas online shopping is more volatile, showing peaks between March and May and in November."
+  },
+  {
+   "k": "h4",
+   "t": "Chart Layout Description"
+  },
+  {
+   "k": "p",
+   "t": "Line-chart. Line: 2, point: 24."
+  },
+  {
+   "k": "p",
+   "t": "The chart has a horizontal X axis. Title  .  Start value Jan, end value Dec."
+  },
+  {
+   "k": "p",
+   "t": "The chart has a primary vertical Y axis. Title  . Start value 0, end value 12b."
+  },
+  {
+   "k": "h3",
+   "t": "Number of reference lines: 0. Number of annotations: 0."
+  },
+  {
+   "k": "p",
+   "t": "Display Keyboard Instructions"
+  },
+  {
+   "k": "text",
+   "t": "Interactive line-chart."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  },
+  {
+   "k": "h2",
+   "t": "Current vs. previous trend"
+  },
+  {
+   "k": "text",
+   "t": "Trend"
+  },
+  {
+   "k": "text",
+   "t": "Highlight Category"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business questions, “How did performance change over time?” and “How much difference is there between this year and last year’s performance?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use bold and subtle colors to emphasize the change in values over time. This example uses a gray and blue highlight color palette to emphasize the current year’s trend line.",
+    "Data labels: Show labels directly over each data marker on the current year’s line to make it easier to interpret the exact value of each data point, and help direct attention to the most recent data. This allows users to estimate the gap between current and previous year’s data points without overcrowding the chart.",
+    "Stepped line style: Use a stepped line chart to emphasize the exact value of each data point and the change between consecutive data points. In this example, the stepped line style helps users easily interpret small changes, and make more precise comparisons between two line series.",
+    "Y axis labels: Use axis labels to help users estimate the value of unlabeled data points."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Monthly transactions"
+  },
+  {
+   "k": "h2",
+   "t": "Monthly transactions"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Date",
+     "Category",
+     "Total transactions"
+    ],
+    [
+     "January",
+     "Current",
+     "1.8b"
+    ],
+    [
+     "February",
+     "Current",
+     "3.0b"
+    ],
+    [
+     "March",
+     "Current",
+     "2.7b"
+    ],
+    [
+     "April",
+     "Current",
+     "3.6b"
+    ],
+    [
+     "May",
+     "Current",
+     "2.7b"
+    ],
+    [
+     "June",
+     "Current",
+     "2.3b"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a line."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a point or line."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling lines or points when focusing on a line or a point."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "How do total monthly transactions this year compared to last year?"
+  },
+  {
+   "k": "p",
+   "t": "Keyboard Interactive line-chart, Titled: Monthly transactions. To view the chart data, use the Display data table button. To view keyboard instructions, use the Display keyboard instructions button."
+  },
+  {
+   "k": "h2",
+   "t": "Chart title: Monthly transactions"
+  },
+  {
+   "k": "h3",
+   "t": "Long Description"
+  },
+  {
+   "k": "p",
+   "t": "Transaction counts by month for the past 12 months for the current and previous year."
+  },
+  {
+   "k": "p",
+   "t": "The data in this view is filtered based on the dashboard filter selections made by the user."
+  },
+  {
+   "k": "h3",
+   "t": "Structure"
+  },
+  {
+   "k": "h4",
+   "t": "Statistical Information"
+  },
+  {
+   "k": "p",
+   "t": "The lowest transactions per month are $1.8 billion in January, and the maximum is $4.2 billion in December. Transaction counts for the current year are consistently higher than the previous year."
+  },
+  {
+   "k": "h4",
+   "t": "Chart Layout Description"
+  },
+  {
+   "k": "p",
+   "t": "Line-chart. Line: 2, point: 24."
+  },
+  {
+   "k": "p",
+   "t": "The chart has a horizontal X axis. Title  .  Start value Jan, end value Dec."
+  },
+  {
+   "k": "p",
+   "t": "The chart has a primary vertical Y axis. Title  . Start value 0, end value 4.5b."
+  },
+  {
+   "k": "h3",
+   "t": "Number of reference lines: 0. Number of annotations: 0."
+  },
+  {
+   "k": "p",
+   "t": "Display Keyboard Instructions"
+  },
+  {
+   "k": "text",
+   "t": "Interactive line-chart."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  },
+  {
+   "k": "h2",
+   "t": "Compare trend to benchmark"
+  },
+  {
+   "k": "text",
+   "t": "Trend"
+  },
+  {
+   "k": "text",
+   "t": "Values Relative To Threshold"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business questions, “How did expenses change over time?” and “When did expenses exceed budget?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use bold and subtle colors to emphasize which data points fall above or below the benchmark. This example uses the gray and red color palette to emphasize months where expenses exceeded the budget.",
+    "Data labels: Show labels directly over each data marker to make it easier to interpret the exact value of each data point.",
+    "Gridlines: Show horizontal gridlines make it easier to compare differences across all data points.",
+    "Reference line: Provide a comparison to the target budget threshold to help users understand which values are good or bad."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Monthly expense tracker"
+  },
+  {
+   "k": "h2",
+   "t": "Monthly expense tracker"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Date",
+     "Category",
+     "Total expenses"
+    ],
+    [
+     "January",
+     "Expense",
+     "$13k"
+    ],
+    [
+     "February",
+     "Expense",
+     "$11k"
+    ],
+    [
+     "March",
+     "Expense",
+     "$26k"
+    ],
+    [
+     "April",
+     "Expense",
+     "$22k"
+    ],
+    [
+     "May",
+     "Expense",
+     "$29k"
+    ],
+    [
+     "June",
+     "Expense",
+     "$28k"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a line."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a point or line."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling lines or points when focusing on a line or a point."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Loading..."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  },
+  {
+   "k": "h2",
+   "t": "One vs. all trend"
+  },
+  {
+   "k": "text",
+   "t": "Trend"
+  },
+  {
+   "k": "text",
+   "t": "Highlight Category"
+  },
+  {
+   "k": "p",
+   "t": "In this example, the chart is optimized to answer the key business question, “Which countries are experiencing faster or slower pace of growth?”. The following elements help emphasize the key takeaways:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Color palette: Use bold and subtle colors to emphasize overall trend patterns. In this example, the gray and blue highlight color palette emphasizes the worldwide trend line.",
+    "Data abstraction: Using the first date period (Q1 FY21) as a baseline allows for easier comparisons of relative growth across countries with diverse economic sizes.",
+    "Number formatting: Use symbols and formatting to clarify the meaning. In this example, including a plus sign (+) in the axis labels helps clearly communicate growth rates."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Customer growth global and regional trends"
+  },
+  {
+   "k": "h2",
+   "t": "Customer growth global and regional trends"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Quarter",
+     "Country",
+     "Customer growth rate"
+    ],
+    [
+     "Q1 FY21",
+     "United States",
+     "0.0%"
+    ],
+    [
+     "Q2 FY21",
+     "United States",
+     "3.0%"
+    ],
+    [
+     "Q3 FY21",
+     "United States",
+     "3.6%"
+    ],
+    [
+     "Q4 FY21",
+     "United States",
+     "6.1%"
+    ],
+    [
+     "Q1 FY22",
+     "United States",
+     "8.7%"
+    ],
+    [
+     "Q2 FY22",
+     "United States",
+     "10.9%"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a line."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a point or line."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling lines or points when focusing on a line or a point."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Keyboard Interactive line-chart, Titled: Customer growth global and regional trends. To view the chart data, use the Display data table button. To view keyboard instructions, use the Display keyboard instructions button."
+  },
+  {
+   "k": "h2",
+   "t": "Chart title: Customer growth global and regional trends"
+  },
+  {
+   "k": "h3",
+   "t": "Compare the pace of worldwide customer growth to the top 5 fastest growing countries. Displaying quarterly growth in active cardholders, relative to FY21 Q1."
+  },
+  {
+   "k": "h3",
+   "t": "Long Description"
+  },
+  {
+   "k": "p",
+   "t": "This chart displays customer growth rate by quarter for the past 3 years."
+  },
+  {
+   "k": "p",
+   "t": "The countries included in this chart default to the top 5 fastest growing; additional countries can be added using the country selector control."
+  },
+  {
+   "k": "h3",
+   "t": "Structure"
+  },
+  {
+   "k": "h4",
+   "t": "Statistical Information"
+  },
+  {
+   "k": "p",
+   "t": "The values in this chart are indexed off of the value of Q1 FY21."
+  },
+  {
+   "k": "h4",
+   "t": "Chart Layout Description"
+  },
+  {
+   "k": "p",
+   "t": "Line-chart. Line: 7, point: 79."
+  },
+  {
+   "k": "p",
+   "t": "The chart has a horizontal X axis. Title  .  Start value Q1 FY21, end value Q1 FY24."
+  },
+  {
+   "k": "p",
+   "t": "The chart has a primary vertical Y axis. Title  . Start value +0%, end value +28%."
+  },
+  {
+   "k": "h4",
+   "t": "Notes about the chart structure"
+  },
+  {
+   "k": "p",
+   "t": "This chart has a highlighted data series, that is applied on the worldwide customer growth line (the specific value is +19.4%)."
+  },
+  {
+   "k": "h3",
+   "t": "Number of reference lines: 0. Number of annotations: 0."
+  },
+  {
+   "k": "p",
+   "t": "Display Keyboard Instructions"
+  },
+  {
+   "k": "text",
+   "t": "Interactive line-chart."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  }
+ ]
+}

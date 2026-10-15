@@ -1,0 +1,95 @@
+{
+ "url": "https://design.visa.com/components/checkbox/accessibility",
+ "title": "Checkbox | Components | Visa Product Design System",
+ "h1": "Checkbox",
+ "readAt": "2026-10-15T17:09:20.840Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Interactive element that lets users select one or more independent choices."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Keyboard controls"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Don’t use the aria-checked attribute for indeterminate checkboxes. Instead, set its indeterminate property to true or false using JavaScript. Reference the coded examples.",
+    "fieldset and legend indicate a set of checkbox elements grouped together. Always use the legend element to indicate a set of checkbox elements are grouped together. It can be visually hidden if necessary using the library’s screen reader class. Use an HTML list for the checkboxes to ensure screen readers will announce how many checkboxes are in the group.",
+    "Ensure additional instructions or error messaging are associated with the checkbox group so screen readers will read them. Reference Angular or React for examples.",
+    "Always use the required attribute for legal acknowledgments.",
+    "Ensure each checkbox input has an id associating it with its label. Be sure to associate additional text and error messages to its relevant checkbox input or fieldset. Reference the code for more.",
+    "Ensure all checkboxes used in tables have accessible names for screen readers that communicate which row or column they’re associated with. For example, “Select ProjectA”."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard controls"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Key",
+     "Behavior"
+    ],
+    [
+     "Tab",
+     "Moves keyboard focus to the next checkbox in a group or next interactive element."
+    ],
+    [
+     "Space",
+     "Selects/unselects the checkbox when the component is in focus. When the parent checkbox shows the unselected state, all nested checkboxes are unselected. When the parent checkbox shows the indeterminate state, selecting the parent checkbox selects all nested options. When the parent checkbox shows the selected state, all nested checkboxes are selected."
+    ]
+   ]
+  }
+ ]
+}

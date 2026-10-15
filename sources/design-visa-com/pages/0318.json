@@ -1,0 +1,1167 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/banner",
+ "title": "Banner | Component | Nova Angular | Visa Product Design System",
+ "h1": "Banner",
+ "readAt": "2026-10-15T17:16:56.340Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Banner"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Empty informational banner",
+    "Default informational banner",
+    "Informational banner with title",
+    "Informational banner with link",
+    "Informational banner with button",
+    "Informational banner without close icon button",
+    "Empty success banner",
+    "Default success banner",
+    "Success banner with title",
+    "Success banner with link",
+    "Success banner with button",
+    "Success banner without close icon button",
+    "Empty warning banner",
+    "Default warning banner",
+    "Warning banner with title",
+    "Warning banner with link",
+    "Warning banner with button",
+    "Warning banner without close icon button",
+    "Empty error banner",
+    "Default error banner",
+    "Error banner with title",
+    "Error banner with link",
+    "Error banner with button",
+    "Error banner without close icon button",
+    "Global banner",
+    "Reusable banner demo"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Informational banners"
+  },
+  {
+   "k": "h2",
+   "t": "Set the component headings as needed for your use case."
+  },
+  {
+   "k": "p",
+   "t": "The examples below use heading tags where titles are present."
+  },
+  {
+   "k": "p",
+   "t": "In our demo examples, we use headings that follow our application's hierarchical structure."
+  },
+  {
+   "k": "p",
+   "t": "It is essential that you adjust these heading levels to match the structural needs of your application for optimal semantic accuracy and accessibility."
+  },
+  {
+   "k": "h3",
+   "t": "Empty informational banner"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default informational banner"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational banner with title"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Informational title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational banner with link"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational banner with button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Informational banner without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Success banners"
+  },
+  {
+   "k": "h3",
+   "t": "Empty success banner"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default success banner"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success banner with title"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Success title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success banner with link"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success banner with button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Success banner without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Warning banners"
+  },
+  {
+   "k": "h3",
+   "t": "Empty warning banner"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default warning banner"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning banner with title"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Warning title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning banner with link"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning banner with button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Warning banner without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Error banners"
+  },
+  {
+   "k": "h3",
+   "t": "Empty error banner"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Default error banner"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error banner with title"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Error title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error banner with link"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error banner with button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Error banner without close icon button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Custom banner"
+  },
+  {
+   "k": "h3",
+   "t": "Global banner"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Guidance for global banners:"
+  },
+  {
+   "k": "p",
+   "t": "Ensure that the global banner is not covering any content that might be important for the user. Global banners should have role=\"alert\", aria-live=\"assertive\", and aria-atomic=\"true\" attributes. This is so the screen reader is forced to read the content of the banner when it appears."
+  },
+  {
+   "k": "text",
+   "t": "Open global banner"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Reusable banner demo"
+  },
+  {
+   "k": "text",
+   "t": "#AI-first"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Success title"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that describes the banner in more detail."
+  },
+  {
+   "k": "h4",
+   "t": "Boolean properties"
+  },
+  {
+   "k": "text",
+   "t": "Show icon"
+  },
+  {
+   "k": "text",
+   "t": "Dismissible"
+  },
+  {
+   "k": "text",
+   "t": "Show button"
+  },
+  {
+   "k": "text",
+   "t": "Show link"
+  },
+  {
+   "k": "text",
+   "t": "Global banner"
+  },
+  {
+   "k": "text",
+   "t": "When enabled, the banner sticks to the top of its container (not the full screen) and increases the container's height."
+  },
+  {
+   "k": "h4",
+   "t": "Text/numeric properties"
+  },
+  {
+   "k": "text",
+   "t": "Title"
+  },
+  {
+   "k": "text",
+   "t": "Description"
+  },
+  {
+   "k": "text",
+   "t": "Message type"
+  },
+  {
+   "k": "text",
+   "t": "Success"
+  },
+  {
+   "k": "text",
+   "t": "Information"
+  },
+  {
+   "k": "text",
+   "t": "Warning"
+  },
+  {
+   "k": "text",
+   "t": "Error"
+  },
+  {
+   "k": "text",
+   "t": "Subtle"
+  },
+  {
+   "k": "text",
+   "t": "Title level"
+  },
+  {
+   "k": "text",
+   "t": "Apply"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "BannerDirective",
+    "MessageDirective",
+    "MessageContentDirective",
+    "MessageIconDirective",
+    "MessageType"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - BannerDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-banner]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "isGlobal",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Provides sticky styling for global banners. When true, the following CSS rules are applied - position: sticky; top: 0; z-index: 888;.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "messageType",
+     "@Input()",
+     "'information' / MessageType.INFORMATION",
+     "MessageType",
+     "Sets message type.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageContentDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message-content]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - MessageIconDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-message-icon]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "MessageType"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "CLOSE",
+     "'close'"
+    ],
+    [
+     "ERROR",
+     "'error'"
+    ],
+    [
+     "INFORMATION",
+     "'information'"
+    ],
+    [
+     "SUBTLE",
+     "'subtle'"
+    ],
+    [
+     "SUCCESS",
+     "'success'"
+    ],
+    [
+     "WARNING",
+     "'warning'"
+    ]
+   ]
+  }
+ ]
+}

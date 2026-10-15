@@ -1,0 +1,247 @@
+{
+ "url": "https://design.visa.com/base-elements/spacing",
+ "title": "Spacing | Base elements | Visa Product Design System",
+ "h1": "Spacing",
+ "readAt": "2026-10-15T17:06:54.218Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Spacing"
+  },
+  {
+   "k": "p",
+   "t": "Access resources to ensure consistent spacing between, outside, and within digital elements."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Gap",
+    "Margin",
+    "Padding"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Gap"
+  },
+  {
+   "k": "h3",
+   "t": "Default gap"
+  },
+  {
+   "k": "text",
+   "t": "Loading spacing example Default Gap"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Column gap"
+  },
+  {
+   "k": "text",
+   "t": "Loading spacing example Column Gap"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "Margin"
+  },
+  {
+   "k": "h2",
+   "t": "Padding"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-col-gap-20"
+    ],
+    [
+     ".v-gap-20"
+    ],
+    [
+     ".v-gap-inherit"
+    ],
+    [
+     ".v-row-gap-inherit"
+    ],
+    [
+     ".v-col-gap-inherit"
+    ],
+    [
+     ".v-gap-normal"
+    ],
+    [
+     ".v-row-gap-normal"
+    ],
+    [
+     ".v-col-gap-normal"
+    ],
+    [
+     ".v-row-gap-20"
+    ],
+    [
+     ".v-m-20"
+    ],
+    [
+     ".v-mb-20"
+    ],
+    [
+     ".v-mx-20"
+    ],
+    [
+     ".v-m-inherit"
+    ],
+    [
+     ".v-mt-inherit"
+    ],
+    [
+     ".v-mb-inherit"
+    ],
+    [
+     ".v-ml-inherit"
+    ],
+    [
+     ".v-mr-inherit"
+    ],
+    [
+     ".v-my-inherit"
+    ],
+    [
+     ".v-mx-inherit"
+    ],
+    [
+     ".v-ml-20"
+    ],
+    [
+     ".v-mr-20"
+    ],
+    [
+     ".v-mt-20"
+    ],
+    [
+     ".v-my-20"
+    ],
+    [
+     ".v-p-20"
+    ],
+    [
+     ".v-pb-20"
+    ],
+    [
+     ".v-px-20"
+    ],
+    [
+     ".v-p-inherit"
+    ],
+    [
+     ".v-pt-inherit"
+    ],
+    [
+     ".v-pb-inherit"
+    ],
+    [
+     ".v-pl-inherit"
+    ],
+    [
+     ".v-pr-inherit"
+    ],
+    [
+     ".v-py-inherit"
+    ],
+    [
+     ".v-px-inherit"
+    ],
+    [
+     ".v-pl-20"
+    ],
+    [
+     ".v-pr-20"
+    ],
+    [
+     ".v-pt-20"
+    ],
+    [
+     ".v-py-20"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "p",
+   "t": "No exposed properties for variables."
+  }
+ ]
+}

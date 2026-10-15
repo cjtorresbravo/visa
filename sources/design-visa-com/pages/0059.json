@@ -1,0 +1,334 @@
+{
+ "url": "https://design.visa.com/base-elements/responsive-grid-system",
+ "title": "Responsive grid system | Base elements | Visa Product Design System",
+ "h1": "Responsive grid system",
+ "readAt": "2026-10-15T17:06:51.789Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Responsive grid system"
+  },
+  {
+   "k": "p",
+   "t": "Use the responsive grid system to organize design elements for visual consistency across pages."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Usage",
+    "Breakpoints",
+    "Flex"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Fixed vs. fluid grids",
+    "Breakpoints",
+    "System baseline",
+    "Content reflow",
+    "Screen sizeExample layouts",
+    "Component size",
+    "Typography size",
+    "Units",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "A responsive grid system is a framework enabling apps and website to adapt their layouts to fit different screen sizes or orientations. This helps ensure visual consistency throughout a product experience while still allowing for flexibility in design."
+  },
+  {
+   "k": "p",
+   "t": "VPDS grids guide element placement on a page, working with VPDS components, spacing, and typography. They adjust sizing based on the platform to ensure designs are consistent, usable, and appealing on any screen or device."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Margin: The empty space on the two outer edges of the grid.  B. Column: Vertical guides spanning the width of the screen.  C. Gutter: Empty space between columns with fixed widths based on the defined breakpoints.  D. Content area: Area containing page content or components that can span any number of columns."
+  },
+  {
+   "k": "h2",
+   "t": "Fixed vs. fluid grids"
+  },
+  {
+   "k": "h3",
+   "t": "Fixed grids"
+  },
+  {
+   "k": "p",
+   "t": "Fixed grids have a set maximum width with fixed columns and gutters. As the screen size changes, the content areas maintain a fixed width and the margins grow or shrink. They’re ideal for text-heavy designs, enhancing readability."
+  },
+  {
+   "k": "h3",
+   "t": "Fluid grids"
+  },
+  {
+   "k": "p",
+   "t": "Fluid grids scale with screen width, using all the available space. Columns expand as the screen grows, while gutters and margins remain fixed. They’re ideal for dashboards or data-heavy designs."
+  },
+  {
+   "k": "h2",
+   "t": "Breakpoints"
+  },
+  {
+   "k": "p",
+   "t": "Breakpoints are specific points where the layout changes to match different screen sizes. The grid system was designed around the different Application layouts that VPDS offers. Each grid adapts to both the screen width as well as the navigational structure for each layout."
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal and advanced layouts"
+  },
+  {
+   "k": "p",
+   "t": "The grid designed for horizontal and advanced layouts is simple and flexible. Its variants are fluid by design with one option for a fixed grid at larger screen sizes."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Breakpoint",
+     "Number of columns",
+     "Margins",
+     "Gutters"
+    ],
+    [
+     "375",
+     "4",
+     "16px",
+     "16px"
+    ],
+    [
+     "768-1023",
+     "8",
+     "16px",
+     "24px"
+    ],
+    [
+     "1024-1600+",
+     "12",
+     "24px",
+     "24px"
+    ],
+    [
+     "1600+ fixed",
+     "12",
+     "80px min",
+     "24px"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Vertical and mixed layouts"
+  },
+  {
+   "k": "p",
+   "t": "The grid designed for vertical and mixed layouts adapts to accommodate the left navigation panel. The grid begins to the right of the left navigation, with the space between the navigation panel and the first column serving as the left margin. While the grid system is fixed in Figma, it can also be built as fluid."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Breakpoint",
+     "# columns",
+     "Margins",
+     "Gutters"
+    ],
+    [
+     "1024-1279 vertical nav",
+     "12",
+     "24px",
+     "24px"
+    ],
+    [
+     "1024-1279 vertical nav, collapsed",
+     "12",
+     "24px",
+     "24px"
+    ],
+    [
+     "1280-1439 vertical nav",
+     "12",
+     "32px",
+     "24px"
+    ],
+    [
+     "1280-1439 vertical nav, collapsed",
+     "12",
+     "32px",
+     "24px"
+    ],
+    [
+     "1440-1599 vertical nav",
+     "12",
+     "32px",
+     "24px"
+    ],
+    [
+     "1440-1599 vertical nav, collapsed",
+     "12",
+     "32px",
+     "24px"
+    ],
+    [
+     "1600+ vertical nav",
+     "12",
+     "32px",
+     "24px"
+    ],
+    [
+     "1600+ vertical nav, collapsed",
+     "12",
+     "32px",
+     "24px"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "System baseline"
+  },
+  {
+   "k": "p",
+   "t": "A baseline grid ensures consistency within content areas across platforms. It guides the design of foundational elements like typography and iconography, as well as main components."
+  },
+  {
+   "k": "h3",
+   "t": "Factors of four"
+  },
+  {
+   "k": "p",
+   "t": "The VPDS grid system is based on factors of four as the base unit. For example, for vertical spacing, it is suggested to use spacing blocks of 16px, 24px, 32px, 48px, etc."
+  },
+  {
+   "k": "p",
+   "t": "Note: Aligning to half pixels and using odd numbers may disrupt clean pixel alignment."
+  },
+  {
+   "k": "h2",
+   "t": "Content reflow"
+  },
+  {
+   "k": "p",
+   "t": "As screen width changes, consider how your content areas will shift or reflow. It’s crucial to communicate this reflow to the development team, ensuring they understand how the design should adapt at each breakpoint. Reflow can be defined in terms of percentages or column spanning. For instance, if a content area occupies 50% (6 columns) at 1600px, it might occupy 25% (4 columns) at 1280px. Define your reflow patterns based on the components within your content areas."
+  },
+  {
+   "k": "h2",
+   "t": "Screen size"
+  },
+  {
+   "k": "p",
+   "t": "The VPDS grid system is designed to scale across multiple platforms, from mobile to ultra-wide screens. Each view is designed for seamless content scaling. Note the grid dimension changes from mobile to desktop: Margins increase from 16px to 24px, and the number of columns changes with screen width. Mobile components fit easily into the predefined mobile grid."
+  },
+  {
+   "k": "h3",
+   "t": "Example layouts"
+  },
+  {
+   "k": "p",
+   "t": "The following is an example of a form designed in both web and mobile."
+  },
+  {
+   "k": "h3",
+   "t": "Web"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "h2",
+   "t": "Component size"
+  },
+  {
+   "k": "h3",
+   "t": "Web scale"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile scale"
+  },
+  {
+   "k": "h2",
+   "t": "Typography size"
+  },
+  {
+   "k": "p",
+   "t": "Typography also scales up for mobile platforms. Body 2 is the base body copy size for the design system. Body 2 is defined as 14 px for web platforms and 16 px for mobile platforms. Get more detailed specifications in Typography."
+  },
+  {
+   "k": "h2",
+   "t": "Units"
+  },
+  {
+   "k": "p",
+   "t": "Not all screens and platforms have the same pixel density, which is the number of pixels in a given area. This results in elements appearing larger on screens with lower pixel density and smaller on screens with higher density."
+  },
+  {
+   "k": "p",
+   "t": "To address this, iOS uses points (pts) to determine the pixel density of Apple devices. Android uses density-independent pixels (dps) to scale designs uniformly across all screens. A density-independent pixel uses a physical pixel on a screen with a density of 160 pixels per inch as the base."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Unit",
+     "Usage"
+    ],
+    [
+     "density-independent pixels (dp)",
+     "Android"
+    ],
+    [
+     "pixels per inch",
+     "Image resolution"
+    ],
+    [
+     "point",
+     "iOS"
+    ],
+    [
+     "pixel",
+     "Web"
+    ],
+    [
+     "rems",
+     "Type scaling"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Application layouts"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to choose a navigational frame based on page content and information architecture."
+  }
+ ]
+}

@@ -1,0 +1,562 @@
+{
+ "url": "https://design.visa.com/patterns/dynamic-table/usage",
+ "title": "Dynamic table | Patterns | Visa Product Design System",
+ "h1": "Dynamic table",
+ "readAt": "2026-10-15T17:11:35.052Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Dynamic table"
+  },
+  {
+   "k": "p",
+   "t": "Dynamic grid enabling data interaction, manipulation, and criteria-based analysis."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practices",
+    "LayoutsDefaultMulti-selectExpandable",
+    "BehaviorsFilteringSortingColumn actionsPaginationRow actionsAction barNotificationsScrollProgress indicators",
+    "Content",
+    "Platform considerations",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Dynamic tables combine a static Table with various other components to enable users to interact with one or more rows of data."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: data grids, interactive table, editable table, live table, clickable table, responsive table, UITableView (iOS), ListView (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Action bar (optional): Area containing actions related to the entire table or selected rows within the table. \nB. Table (required): Table component consisting of rows and columns. \nC. Column actions button (required):  UI icon button that launches an actions menu for the associated column. Can also be displayed as a sorting button when additional actions aren’t needed. \nD. Row actions button (optional):  UI icon button that launches an actions menu for the associated row. \nE. Pagination (optional):  A set of links that allow users to navigate a large collection of data split into multiple pages."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Default",
+     "For basic interactivity such as sorting, filtering, and pagination.",
+     "If complex interactivity is needed for individual or multiple rows."
+    ],
+    [
+     "Multi-select",
+     "If users need to select one or more table rows to perform actions.",
+     "If users don’t need to select rows for further actions."
+    ],
+    [
+     "Expandable",
+     "If there is supplementary information or data that does not need to be immediately displayed to the user.If supplementary data requires extra query time.",
+     "If there is important information that should be displayed to the user immediately."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit visual elements that don’t add meaning or interactivity to the data displayed in the table.",
+    "Ensure the default view uses a logical sorting method, such as most to least relevant to the user.",
+    "Consider using pagination if the user needs to scroll to see the entire table.",
+    "Include clear error messaging if data can’t be loaded or if it’s taking longer than expected."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Include at least two rows of data."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Display more than 75 rows in a single view."
+  },
+  {
+   "k": "h2",
+   "t": "Layouts"
+  },
+  {
+   "k": "p",
+   "t": "The dynamic table pattern has multiple layouts to accommodate different visual designs and user needs."
+  },
+  {
+   "k": "h3",
+   "t": "Default"
+  },
+  {
+   "k": "p",
+   "t": "The default layout is ideal for providing basic interactivity like sorting, filtering, and pagination. It enables users to take actions on one row at a time, but doesn’t enable bulk actions."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Include inline actions or a Row actions button within each row to enable users to perform actions.",
+    "Consider adding an Action bar for actions that apply to the whole table, such as filtering."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Limit icon buttons to two per row to avoid cluttering the table or overwhelming the user."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Overload the row with too many actions, as this can be overwhelming or confusing for users."
+  },
+  {
+   "k": "h3",
+   "t": "Multi-select"
+  },
+  {
+   "k": "p",
+   "t": "The selectable rows layout enables users to interact with multiple rows at once. This is helpful for tables requiring complicated or bulk actions.\nThis functionality is generally indicated by a checkbox in the first column. Users can select a row by selecting its associated checkbox. Selecting the checkbox in the column header automatically selects every row."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Include an Action bar to allow users to perform actions on the selected rows.",
+    "Consider including Row actions button for actions that can only be applied to one row at a time.",
+    "Use clear visual styling to indicate selected rows, such as a selected icon or a change in background color.",
+    "Consider displaying the number of columns selected to inform users how many selections they’ve made."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Expandable"
+  },
+  {
+   "k": "p",
+   "t": "The expandable rows layout uses accordions that don’t display all the available data until manually expanded by the user. This is helpful when there’s a significant amount of data that can’t be shown at once, or to provide notes or additional data that isn’t represented by a table column."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a chevron UI icon button to clearly indicate when there’s more data available.",
+    "Use clear placement so users can identify if expanded content pertains to specific column headings.",
+    "Maintain the expanded or collapsed state of rows if the user leaves and returns to the page.",
+    "Ensure expanded information loads quickly to prevent user frustration. If there’s a delay, use a Progress indicator.",
+    "Ensure the behavior of expanded rows is consistent across other data tables in the same application.",
+    "Ensure screen readers announce whether a row is expanded or collapsed. For more information, reference Accordion.",
+    "Avoid complex interactions within expanded content to ensure all users can fully access and interact with important data."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Limit the number of nested rows to avoid overwhelming users with information."
+  },
+  {
+   "k": "p",
+   "t": "Don't"
+  },
+  {
+   "k": "p",
+   "t": "Put too much data in the expandable area. Consider taking the user to a separate page for more content."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "p",
+   "t": "Dynamic tables have various behaviors designed to make data easy to understand and interact with. Reference the section below to learn about optional features that can be implemented based on the use case."
+  },
+  {
+   "k": "h3",
+   "t": "Filtering"
+  },
+  {
+   "k": "p",
+   "t": "Filters refine results by including or excluding items based on specific criteria, so only the most relevant information is presented. Reference the Filters pattern for additional layouts and more details."
+  },
+  {
+   "k": "h4",
+   "t": "In-table filters"
+  },
+  {
+   "k": "p",
+   "t": "In-table filters are specifically used in dynamic tables and enable users to refine the table data directly from a menu in the column header. Users can open a dialog by selecting the options button within the header. Selecting “Apply” closes the dialog and applies the chosen filters. Only one table column can be filtered at a time."
+  },
+  {
+   "k": "h4",
+   "t": "Filter dialog"
+  },
+  {
+   "k": "p",
+   "t": "In this layout, filters are displayed in a temporary dialog activated by a filter button, typically located in an action bar. The dialog closes when the user selects “Apply” or dismisses it by interacting outside the dialog. Selecting outside the dialog without selecting “Apply” will discard any changes."
+  },
+  {
+   "k": "h3",
+   "t": "Sorting"
+  },
+  {
+   "k": "p",
+   "t": "Sorting helps users find the information they need by organizing data into a preferred order. It can help identify trends, patterns, or anomalies within a dataset. Unlike filtering, sorting only reorders existing data—it doesn’t hide or remove items. Common ways to sort data include alphabetically, numerically, and chronologically."
+  },
+  {
+   "k": "p",
+   "t": "In the example below, the rows are sorted from most to least critical based on the “Status” column."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Enable users to sort a column by selecting the icon button.",
+    "Ensure the column order reverses if users select a header or arrow a second time.",
+    "Use the sortable or sortable-alt icon to indicate a column can be sorted.",
+    "Use an up-facing arrow to indicate the column is in ascending order.",
+    "Use a down-facing arrow to indicate the column is in descending order."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Ascending and descending order"
+  },
+  {
+   "k": "p",
+   "t": "Use the following table to identify the ascending or descending order for common data types."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Data type",
+     "Ascending",
+     "Descending"
+    ],
+    [
+     "Numerical values",
+     "Lowest to highest value",
+     "Highest to lowest value"
+    ],
+    [
+     "Dates",
+     "Earliest date to most recent date",
+     "Most recent date to earliest date"
+    ],
+    [
+     "Status",
+     "Least critical to most critical item",
+     "Most critical to least critical item"
+    ],
+    [
+     "Alphabetical order",
+     "A-Z",
+     "Z-A"
+    ],
+    [
+     "Boolean values",
+     "‘True’ appears at the top",
+     "‘False’ appears at the top"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Column actions"
+  },
+  {
+   "k": "p",
+   "t": "When columns require more actions than sorting, use a dropdown column actions button. Common actions include sorting, pinning, hiding, and filtering columns."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a commonly recognized icon such as three dots or a gear to signify there are more actions.",
+    "Only include multiple column actions in complex dynamic tables that require advanced features."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Managing which columns are shown"
+  },
+  {
+   "k": "p",
+   "t": "For large tables with many columns, consider enabling users to decide which ones are displayed in the table. This can be achieved by including a dropdown menu in an action bar. It’s also common to include “Hide column” as an option in the column actions menu."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Show all columns by default to ensure users are aware of all the data included in the table.",
+    "Ensure users can hide a column from view by deselecting it from the menu.",
+    "Ensure that users cannot hide columns that are essential to the function of the table, such as actions.",
+    "Consider displaying the number of columns hidden to clearly indicate the current state of the table."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Pagination"
+  },
+  {
+   "k": "p",
+   "t": "The pagination component is a set of links enabling users to navigate tables divided across multiple pages. This helps reduce cognitive load by reducing the amount of data shown at once. For general information on the pagination component, reference Pagination."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use pagination when the data can’t be easily viewed on one page or requires significant scrolling.",
+    "Place the pagination component below the last row of the dynamic table.",
+    "Use the default pagination component for complex tables when space permits.",
+    "Use the slim pagination component for less complex table with fewer pages, or when space is limited."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Row actions"
+  },
+  {
+   "k": "p",
+   "t": "Row actions enable users to edit, delete, or perform other actions on an individual row. They’re typically used in complex tables when there are multiple actions the user can take.\nRow actions can be included using inline icon buttons, or with a dropdown menu. Inline icon buttons work well if there are one or two actions, while a dropdown menu can be used to provide more than two."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use icon buttons rather than text buttons within rows to avoid information overload.",
+    "Make sure the actions are relevant and allowed. For example, don’t allow users to download sensitive or private data."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Action bar"
+  },
+  {
+   "k": "p",
+   "t": "The action bar contains actions that apply to the whole table or multiple selected rows in the table. It’s typically placed above the table to ensure it’s visible and accessible to users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow Button guidelines to implement primary, secondary, and tertiary buttons to visually differentiate actions.",
+    "Include a clear button or selection chip to enable users to deselect all selected rows at once.",
+    "Consider disabling actions that can’t be performed on the whole table until rows are selected to avoid frustration."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Notifications"
+  },
+  {
+   "k": "p",
+   "t": "Dynamic tables can also include a notification column to indicate new or unread notifications. This helps provide users with critical updates and alerts within the context of their data."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a Badge component to indicate unread notifications.",
+    "Consider placing new or unread notifications at the top of the table to ensure they’re seen or announced first.",
+    "Consider including “Notification status” as a sort or filter criteria so users can access unread notifications quickly.",
+    "Provide a clear method for clearing notifications, such as a row action or “Mark all as read” button in the action bar."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Scroll"
+  },
+  {
+   "k": "p",
+   "t": "Scroll bars enable users to navigate tables with many rows that aren’t all visible at once. This is particularly helpful when interfaces have limited space to ensure users can still access the data.\nScrolling can be implemented to allow vertical scrolling, horizontal scrolling, or both. Vertical scrolling is helpful when there’s limited vertical space, while horizontal scrolling is helpful when there’s limited horizontal space. Learn about both scrolling methods below."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the scroll bar is visible to help indicate the user’s location in the table and how much more content is available.",
+    "Ensure column headers and corresponding rows are directly aligned to avoid confusion."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Vertical scroll with sticky header"
+  },
+  {
+   "k": "p",
+   "t": "Vertical scroll can help users access data when there’s limited vertical space and all rows aren’t visible at once. This is the default scrolling behavior for most tables and is generally more intuitive for users. This helps when there are few columns but many rows, tables are likely to be viewed on mobile devices, or you want to maintain the visibility of all columns.\nWhen implementing vertical scroll, it’s recommended to use a sticky header. Sticky headers remain fixed at the top of the table even when the user scrolls, ensuring they can easily identify what column a cell pertains to."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a Divider or other visual indicator to ensure the sticky header appears visually different from other rows.",
+    "Use elevation to visually indicate that the sticky header is floating “above” the rest of the table’s data.",
+    "Ensure the scroll bar is displayed by default so users are aware there’s more data available."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Horizontal scroll"
+  },
+  {
+   "k": "p",
+   "t": "Horizontal scroll can help users access data when there’s limited horizontal space and all columns aren’t visible at once. This helps when there are many columns and users need to be able to see all the data.\nIt’s recommended to enable users to pin a column when implementing horizontal scrolling. This enables users to keep a single column in view for easier comparison."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use elevation to visually indicate that the sticky header is floating “above” the rest of the table’s data.",
+    "Ensure the scroll bar is displayed by default so users are aware there’s more data available."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Vertical and horizontal scroll"
+  },
+  {
+   "k": "p",
+   "t": "In certain cases, especially with large data sets, vertical and horizontal scrolling can be combined to provide access to all the data cells. Use this method sparingly, as it creates a complicated interaction and can be difficult to navigate on mobile devices."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider alternate ways to present data such as pagination, filters, or expandable rows whenever possible.",
+    "Ensure the scroll bars are displayed by default so users are aware there’s more data available."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Progress indicators"
+  },
+  {
+   "k": "p",
+   "t": "Progress indicators help users identify when data hasn’t finished loading. This is especially helpful for complex data tables, which can have lengthy load times. For general guidelines on progress indicators, reference Progress."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a linear progress indicator in most cases to save space and align with the table layout.",
+    "Place the indicator at the top of the table, stretching the entire width.",
+    "Skeleton loading can be used as additional visual indication that the data in the table is loading.",
+    "Ensure the progress indicator uses different visual styling from the table header."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use sentence case for all content except proper nouns, names, or abbreviations.",
+    "Use straightforward language without jargon.",
+    "Limit use of abbreviations unless the abbreviation is commonly understood and improves readability due to space constraints or line length.",
+    "Ensure column and row headers have distinct labels. If duplicates are required, add additional context to ensure screenreaders can differentiate them."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Table titles and subtitles"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use informative titles that describe the table as a whole.",
+    "Use subtitles to describe complex tables.",
+    "Don’t include punctuation for table titles.",
+    "Limit titles to three to five descriptive words. If your title can’t be condensed, consider using a subtitle with your title.",
+    "Limit subtitles to one to two short sentences with punctuation."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Column headers"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Clearly label columns using short, concise, and scannable column headers.",
+    "Ensure column headers accurately describe the contents so users can interpret the data without additional context.",
+    "Include symbols for units or measurement along with its name. For example “Temperature (°F)“"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Table content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use short, scannable content within table rows.",
+    "Don’t include symbols, such as “$”. Only include those within the header to avoid issues filtering information.",
+    "Only use punctuation when using decimals. Ensure all decimal places are consistent for filtering information."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Recommended for responsive web only"
+  },
+  {
+   "k": "p",
+   "t": "When dynamic tables are complex and dense, they are best suited for responsive web sites and applications. Use caution implementing dynamic table on screen sizes smaller than 768px."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Table"
+  },
+  {
+   "k": "p",
+   "t": "Fixed grid that organizes information or data using columns and rows."
+  },
+  {
+   "k": "h3",
+   "t": "Pagination"
+  },
+  {
+   "k": "p",
+   "t": "Set of links used to navigate content that’s split between multiple pages."
+  },
+  {
+   "k": "h3",
+   "t": "Progress"
+  },
+  {
+   "k": "p",
+   "t": "Visual representations of the status of a system process."
+  }
+ ]
+}

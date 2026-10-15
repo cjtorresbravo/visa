@@ -1,0 +1,202 @@
+{
+ "url": "https://design.visa.com/components/dropdown-menu/usage",
+ "title": "Dropdown menu | Components | Visa Product Design System",
+ "h1": "Dropdown menu",
+ "readAt": "2026-10-15T17:09:45.879Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Dropdown menu"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesButtons vs. linksIcon usage",
+    "BehaviorsDestructive actionsPlacement",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Dropdown menus enable users to select an action from a list of options. They’re commonly used to save space by grouping related actions, or to provide actions in a confined space like a table column.\nAlso known as: Menu, select menu, command menu dropdown, actions drop-down, action menu, picker (IOS), menu (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Button (required): Text or icon button used to open or close the dropdown menu.\nB. Menu option (required): Individual option representing an action.\nC. Divider (optional): Horizontal line used to group related actions."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Text button dropdown menu",
+     "When there’s sufficient space to provide a list of actions with a label.",
+     "As form input. Use select instead."
+    ],
+    [
+     "Icon button dropdown menu",
+     "When space is limited and an icon can accurately summarize the options in the list.",
+     "As form input. Use select instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Group related actions together in the menu.",
+    "Avoid using dropdown menus for critical actions that should be immediately available.",
+    "Ensure icon buttons are recognizable so users can anticipate what actions are included in the menu.",
+    "Include a scrollbar if menus are long and the container needs to have a maximum height.",
+    "Avoid using a dropdown menu for navigation. If a dropdown menu needs to be used for navigation, follow guidance found in Link for “Styling and coding buttons and links.”"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use a dropdown menu to save space by grouping multiple related actions."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use dropdown menus for navigation unless it can’t be avoided."
+  },
+  {
+   "k": "h3",
+   "t": "Buttons vs. links"
+  },
+  {
+   "k": "p",
+   "t": "Dropdown menus are intended to be used for actions only, but it rare cases, they may contain links. Always consult with accessibility partners to ensure interactions are accessible for all users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Don’t mix buttons and links within a dropdown menu.",
+    "Follow all guidelines for labeling links to ensure it’s clear what they do and where they lead."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Icon usage"
+  },
+  {
+   "k": "p",
+   "t": "Icons can be used in dropdown menus to make scanning easier and reinforce familiar ideas."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use icons consistently throughout the menu. For example, if you use icons for some options, use them for all.",
+    "Ensure icons are relevant and easy to understand to avoid unnecessary visual elements."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Destructive actions"
+  },
+  {
+   "k": "p",
+   "t": "Destructive actions refer to actions that delete or remove data. Dropdown menus can contain destructive actions as necessary. For more information, reference Button guidelines."
+  },
+  {
+   "k": "h3",
+   "t": "Placement"
+  },
+  {
+   "k": "p",
+   "t": "Menus can align to either side of the button based on its placement in the interface."
+  },
+  {
+   "k": "p",
+   "t": "Do     Overlay page content when opening dropdown menus."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Push content when opening dropdown menus."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Write all content in sentence case, except for acronyms or proper nouns, like the application name.",
+    "Don’t use punctuation.",
+    "Avoid abbreviations where possible.",
+    "Limit labels to a few brief words to prevent unnecessary reflow.",
+    "Follow all additional guidance found in Button for crafting action labels.",
+    "Use parallel structure for menu option labels, either always starting with nouns or command verbs. Learn more about parallel structure in Grammar and punctuation."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Combobox"
+  },
+  {
+   "k": "p",
+   "t": "Dropdown menu that helps users enter text or select items from a list."
+  },
+  {
+   "k": "h3",
+   "t": "Multiselect"
+  },
+  {
+   "k": "p",
+   "t": "Control that allows users to select multiple options from a dropdown menu."
+  }
+ ]
+}

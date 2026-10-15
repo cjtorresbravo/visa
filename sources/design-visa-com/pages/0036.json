@@ -1,0 +1,509 @@
+{
+ "url": "https://design.visa.com/developing/angular/services/nova-lib",
+ "title": "Nova library | Services | Angular | Visa Product Design System",
+ "h1": "Nova library service",
+ "readAt": "2026-10-15T17:06:24.411Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Nova library service"
+  },
+  {
+   "k": "p",
+   "t": "Access a suite of helper functions designed specifically for Nova components."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Properties",
+    "Methods"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Nova Angular version"
+  },
+  {
+   "k": "text",
+   "t": "7.0.0"
+  },
+  {
+   "k": "text",
+   "t": "6.0.2"
+  },
+  {
+   "k": "text",
+   "t": "5.1.3"
+  },
+  {
+   "k": "p",
+   "t": "This service manages navigation states within the application, ensuring smooth transitions and a consistent user experience. \nIt’s primarily used internally by the library but can also be leveraged directly for custom implementations."
+  },
+  {
+   "k": "h2",
+   "t": "Properties"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Description"
+    ],
+    [
+     "document",
+     "Document | null",
+     "inject(DOCUMENT, { optional: true })",
+     ""
+    ],
+    [
+     "rendererFactory",
+     "RendererFactory2",
+     "inject(RendererFactory2)",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Methods"
+  },
+  {
+   "k": "h3",
+   "t": "addArrowKeyNavigation"
+  },
+  {
+   "k": "p",
+   "t": "The addArrowKeyNavigation method adds arrow key navigation to an array of elements of type ButtonDirective, ListboxItemComponent, or CheckboxDirective."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "itemsArray",
+     "Items",
+     "Array of items to add arrow key navigation to."
+    ],
+    [
+     "removeTabNavigation",
+     "boolean",
+     "Optionally remove tab navigation from an array you're adding arrow navigation to."
+    ],
+    [
+     "arrowDirections",
+     "\"both\" | \"horizontal\" | \"vertical\"",
+     "Optionally specify which arrow key directions to use for navigation."
+    ],
+    [
+     "listbox",
+     "ListboxDirective",
+     "Optionally specify a ListboxDirective to track highlighted item."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "addAutomaticActivation"
+  },
+  {
+   "k": "p",
+   "t": "The addAutomaticActivation method enables automatic tab activation for the specified tab or listbox list. \nWhen this functionality is added, focusing on an item will also select and activate it."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "items",
+     "",
+     "Array of items to add automatic activation to."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "findStartingFocus"
+  },
+  {
+   "k": "p",
+   "t": "The findStartingFocus method finds the item to start navigation on. \nThe starting focusable item is either the first item or the currently selected item."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "itemsArray",
+     "Items",
+     "Array of items to find starting focus for."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "firstEnabledItem"
+  },
+  {
+   "k": "p",
+   "t": "The firstEnabledItem methods retrieves the first item in array that is not disabled."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "number"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "items",
+     "Items",
+     "Array of items to search for first enabled item."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "handleAriaCurrent"
+  },
+  {
+   "k": "p",
+   "t": "The handleAriaCurrent method handles the aria-current value on click for a list of links."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "links",
+     "",
+     "List of links to add aria-current functionality to."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "lastEnabledItem"
+  },
+  {
+   "k": "p",
+   "t": "The lastEnabledItem method retrieves the last item in an array that is not disabled."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "number"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "items",
+     "Items",
+     "Array of items to search for last enabled item."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "nextEnabledItem"
+  },
+  {
+   "k": "p",
+   "t": "The nextEnabledItem method finds the next item in the array that is not disabled. \nWhen this functionality is added, it will automatically skip over disabled items to locate the next enabled one."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "number"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "items",
+     "Items",
+     "Array of items to search for next enabled item."
+    ],
+    [
+     "currentIndex",
+     "number",
+     "Index to start searching from."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "previousEnabledItem"
+  },
+  {
+   "k": "p",
+   "t": "The previousEnabledItem method finds the previous item in the array that is not disabled. \nWhen this functionality is added, it will automatically skip over disabled items to locate the previous enabled one."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "number"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "items",
+     "Items",
+     "Array of items to search for previous enabled item."
+    ],
+    [
+     "currentIndex",
+     "number",
+     "Index to start reverse searching from."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "removeTabNavigation"
+  },
+  {
+   "k": "p",
+   "t": "The removeTabNavigation method removes tab navigation for an array of elements of type ButtonDirective, ListboxItemComponent, or CheckboxDirective. \nWhen this functionality is added, it will disable tabbing between these specified elements."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "itemsArray",
+     "Items",
+     "Array of items to remove tab navigation from."
+    ],
+    [
+     "listbox",
+     "ListboxDirective",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "resetNavigationBehaviors"
+  },
+  {
+   "k": "p",
+   "t": "This method resets navigation behaviors for an array of elements of type ButtonDirective, ListboxItemComponent, or CheckboxDirective. \nIt removes any tabindex or event listeners added by addArrowKeyNavigation or removeTabNavigation."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "itemsArray",
+     "Items",
+     "Array of items to reset navigation behaviors for."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "setAriaCurrent"
+  },
+  {
+   "k": "p",
+   "t": "or manipulate the property via template binding to [attr.aria-current].\nThe setAriaCurrent method sets the aria-current=\"true\" attribute on the element with the specified ID."
+  },
+  {
+   "k": "p",
+   "t": "Return type:"
+  },
+  {
+   "k": "text",
+   "t": "void"
+  },
+  {
+   "k": "p",
+   "t": "Arguments"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "id",
+     "string",
+     "ID of element to set aria-current=\"true\" on."
+    ]
+   ]
+  }
+ ]
+}

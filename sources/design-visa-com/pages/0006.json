@@ -1,0 +1,124 @@
+{
+ "url": "https://design.visa.com/what's-new/latest-news",
+ "title": "Latest news | What's new | Visa Product Design System",
+ "h1": "Latest news",
+ "readAt": "2026-10-15T17:05:46.898Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Latest news"
+  },
+  {
+   "k": "p",
+   "t": "Get the latest announcements, news, and release updates."
+  },
+  {
+   "k": "h2",
+   "t": "Filter by topic"
+  },
+  {
+   "k": "text",
+   "t": "Topics to filter"
+  },
+  {
+   "k": "p",
+   "t": "release update"
+  },
+  {
+   "k": "h2",
+   "t": "Evolve product development with expanded patterns and unified accessibility standards"
+  },
+  {
+   "k": "p",
+   "t": "Get the latest on integrated accessibility requirements, refreshed data visualization guidance, updated patterns, and more."
+  },
+  {
+   "k": "p",
+   "t": "Mar 20, 2026"
+  },
+  {
+   "k": "p",
+   "t": "release update"
+  },
+  {
+   "k": "h2",
+   "t": "Meet Nova Angular 6"
+  },
+  {
+   "k": "p",
+   "t": "Deep dive into new features, updates, and performance enhancements and how we’re aligning with what the Angular team calls the “Angular renaissance”."
+  },
+  {
+   "k": "p",
+   "t": "Sep 29, 2025"
+  },
+  {
+   "k": "p",
+   "t": "release update"
+  },
+  {
+   "k": "h2",
+   "t": "Accelerate design and development with new patterns, library upgrades, and refreshed icons"
+  },
+  {
+   "k": "p",
+   "t": "Get the latest on new patterns—including filters, version updates across code libraries, and more."
+  },
+  {
+   "k": "p",
+   "t": "Sep 29, 2025"
+  },
+  {
+   "k": "p",
+   "t": "release update"
+  },
+  {
+   "k": "h2",
+   "t": "Announcing the public launch of the Visa Product Design System!"
+  },
+  {
+   "k": "p",
+   "t": "Explore updates that help streamline workflows, foster collaboration, and ensure consistency."
+  },
+  {
+   "k": "p",
+   "t": "Apr 23, 2025"
+  },
+  {
+   "k": "p",
+   "t": "release update"
+  },
+  {
+   "k": "h2",
+   "t": "New variable modes in Figma libraries"
+  },
+  {
+   "k": "p",
+   "t": "Get the latest on new variable modes in Figma, design reviews in React, Angular, Styles, and Flutter, and enhanced pattern guidelines."
+  },
+  {
+   "k": "p",
+   "t": "Oct 07, 2024"
+  },
+  {
+   "k": "p",
+   "t": "release update"
+  },
+  {
+   "k": "h2",
+   "t": "😎 Cool off with a refreshing VPDS FY24 Q3 release update"
+  },
+  {
+   "k": "p",
+   "t": "Check out newly integrated DX charts, improved design guidelines, and dark mode for an enhanced VPDS experience."
+  },
+  {
+   "k": "p",
+   "t": "Apr 06, 2023"
+  },
+  {
+   "k": "p",
+   "t": "There's no news about that topic yet, but stay tuned! More articles are\n        coming soon."
+  }
+ ]
+}

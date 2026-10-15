@@ -1,0 +1,284 @@
+{
+ "url": "https://design.visa.com/content/information-architecture",
+ "title": "Information architecture | Content | Visa Product Design System",
+ "h1": "Information architecture",
+ "readAt": "2026-10-15T17:08:17.300Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Information architecture"
+  },
+  {
+   "k": "p",
+   "t": "Identify the best organizational structure based on page types and user needs."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Components of information architectureOrganization systemsLabeling systemsNavigation systemsSearch systems",
+    "Steps to create effective information architecture",
+    "Progressive disclosure",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Information Architecture (IA) is the practice of organizing, structuring, and labeling content in an effective and understandable way. IA involves creating a clear and logical framework that helps users understand where they are and how to find what they’re looking for. Integrating IA early-on in the design process lays the groundwork for smooth and intuitive product experiences."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Design simple, intuitive, and consistent navigation, avoiding unnecessary complexity.",
+    "Offer meaningful choices to users, keeping the options limited and focused to avoid overwhelming them.",
+    "Organize content logically and progressively. Learn more about Progressive disclosure.",
+    "Regularly test, iterate, and document IA thoroughly.",
+    "Use clear, consistent, descriptive labels to help users quickly identify and scan for information.",
+    "Treat content as living items that change over time, have specific actions, and need to be managed and updated.",
+    "Provide multiple ways to browse and search content, accommodating different mental models and preferences."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Components of information architecture"
+  },
+  {
+   "k": "h3",
+   "t": "Organization systems"
+  },
+  {
+   "k": "p",
+   "t": "Organization systems are methods used to categorize and structure content so it’s easy to understand, navigate, and retrieve. They help create a logical flow and hierarchy within the content. There are three organization systems: sequential, hierarchical, and matrix."
+  },
+  {
+   "k": "h4",
+   "t": "Sequential"
+  },
+  {
+   "k": "p",
+   "t": "Sequential organization systems arrange content in a linear, step-by-step flow, guiding users through a predefined path. This method is particularly useful for processes or tasks that must be completed in a specific order, such as onboarding tutorials or checkout procedures. By presenting information in a sequence, users can easily follow along and understand each step, ensuring a smooth and logical progression."
+  },
+  {
+   "k": "h4",
+   "t": "Hierarchical"
+  },
+  {
+   "k": "p",
+   "t": "Hierarchical organization systems structure content in a tree-like format with parent-child relationships, creating a clear path from general to specific information. This approach is suitable for complex information where categories and subcategories help users drill down to locate specific content."
+  },
+  {
+   "k": "h4",
+   "t": "Matrix"
+  },
+  {
+   "k": "p",
+   "t": "Matrix organization systems allow content to be accessed through multiple pathways, providing users with various ways to navigate and find information. This system is particularly useful for content that can be logically categorized in more than one way. By offering multiple access points, this approach caters to different user preferences and mental models, enhancing the overall user experience."
+  },
+  {
+   "k": "h3",
+   "t": "Labeling systems"
+  },
+  {
+   "k": "p",
+   "t": "Labeling systems are consistent and clear naming conventions that help users find information. Labels should be intuitive and  convey information in the simplest format possible. There are three kinds of labeling systems: text-only, icon-only,  and combined."
+  },
+  {
+   "k": "h4",
+   "t": "Text-only labels"
+  },
+  {
+   "k": "p",
+   "t": "Text-only labels use clear and explicit words to describe the content or function without additional cues like icons. These labels help users understand exactly what they will find or what action will occur."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use text-only or combined labels for navigation menus. Use icon-only labels especially for navigation menus"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Icon-only labels"
+  },
+  {
+   "k": "p",
+   "t": "Icon-only labels use icons to represent the content or function helping users quickly navigate and understand content. Icons should be intuitive and quickly recognizable, helping users to quickly navigate and understand content. These are typically used on mobile experiences where combined or text-based labels might require too much space."
+  },
+  {
+   "k": "p",
+   "t": "Note: Icon-only labels should not be the main labeling strategy in your product experience. A text-only or combined label is preferred."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use icon-only labels especially for navigation menus. This can be used very sparingly on mobile, such as a hamburger menu."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Combined labels"
+  },
+  {
+   "k": "p",
+   "t": "Combined labels use both text and icons to provide more cues about the content or function. This method enhances meaning by combining text with visuals to help with quick recognition."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use text-only or combined labels, especially for navigation menus.",
+    "Ensure icons clearly match the text displayed to enhance meaning and avoid confusion."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Prioritize text-only or combined labels in navigation menus when there's sufficient space."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use icon-only labels if text could reasonably fit in the area. This is reserved for specific cases on mobile devices."
+  },
+  {
+   "k": "h3",
+   "t": "Navigation systems"
+  },
+  {
+   "k": "p",
+   "t": "Navigation systems guide users through content, helping them find information and complete actions quickly. Effective navigation can enhance an experience by providing clear pathways to information, reducing frustration, and increasing efficiency. They play a crucial role in ensuring users can find what they need without disorientation and achieve their goals with minimal effort. VPDS provides designs for common navigation experiences to ensure users can find information quickly. For more information, visit Anchor link menu, Breadcrumbs, Horizontal navigation, Navigation drawer, Tab bar, Top app bar, or Vertical navigation."
+  },
+  {
+   "k": "h3",
+   "t": "Search systems"
+  },
+  {
+   "k": "p",
+   "t": "Search systems are mechanisms enabling users to locate specific information quickly using search queries and filters. Effective search systems improve user satisfaction, reduce time spent finding information, and help users complete tasks more efficiently, especially in large or complex information structures."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always provide accurate and relevant results to help maintain user engagement and trust in the system.",
+    "Implement flexible search criteria so users can find relevant results regardless of the format or spelling of their query."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Steps to create effective information architecture"
+  },
+  {
+   "k": "h3",
+   "t": "Step 1: User research"
+  },
+  {
+   "k": "p",
+   "t": "Conduct interviews, surveys, and usability tests to gain insights into user needs, behaviors, and pain points. Analyze this data to inform information architecture (IA) decisions, ensuring the design aligns with user expectations and improves overall user experience."
+  },
+  {
+   "k": "h3",
+   "t": "Step 2: Content inventory and audit"
+  },
+  {
+   "k": "p",
+   "t": "Examine your website or experience to identify existing content and help teams define all the items or objects in their system. This activity can help you explore and refine your IA with a more informed perspective."
+  },
+  {
+   "k": "h3",
+   "t": "Step 3: Sitemap creation"
+  },
+  {
+   "k": "p",
+   "t": "Develop a detailed sitemap and wireframes to visually represent the site’s structure, illustrating the hierarchy, navigation paths, and content relationships. This helps align your team as they build an experience to ensure clarity and usability."
+  },
+  {
+   "k": "h3",
+   "t": "Step 4: Wireframing and prototyping"
+  },
+  {
+   "k": "p",
+   "t": "Create visual blueprints of the layout and navigation for your experience. Wireframes provide a basic, low-fidelity representation of the design, focusing on structure and content placement without detailed styling. Prototypes build on wireframes with interactive elements and higher fidelity content, enabling designers and stakeholders to test and iterate on user interactions and design concepts before final development."
+  },
+  {
+   "k": "p",
+   "t": "The fidelity level (low, medium, or high) used depends on the development stage, with lower fidelity for early conceptual stages and higher fidelity for later, more detailed designs. Learn more about using medium fidelity content in Placeholder text."
+  },
+  {
+   "k": "h3",
+   "t": "Step 5: Usability testing"
+  },
+  {
+   "k": "p",
+   "t": "Continuously test the IA of your product experience to gather feedback and make improvements. This process includes planning, designing realistic tasks, conducting tests with representative users, analyzing results, and refining the IA based on findings. Integrating usability testing ensures a user-centered structure to improve overall usability and satisfaction."
+  },
+  {
+   "k": "h2",
+   "t": "Progressive disclosure"
+  },
+  {
+   "k": "p",
+   "t": "Progressive disclosure is an IA principle that helps manage complexity by revealing information progressively to users. It starts with presenting a simple, uncluttered interface that shows only the most essential information and actions. As users interact with the system, additional information and options are revealed based on their needs and actions, ensuring users are only presented with relevant information."
+  },
+  {
+   "k": "p",
+   "t": "This approach prevents information overload.  Implementing progressive disclosure involves showing primary actions first, providing progressive details through links or buttons, and offering contextual help when needed, ultimately creating more intuitive and user-friendly interfaces."
+  },
+  {
+   "k": "p",
+   "t": "Benefits of progressive disclosure include improved usability, enhanced learning, and better decision-making, as users can focus on the task at hand without being distracted by unnecessary details. For example, an online banking application may initially show only the account balance and recent transactions, with options for transferring money or viewing detailed statements becoming available as users navigate. Learn more about progressive disclosure in Forms."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Anchor link menu"
+  },
+  {
+   "k": "p",
+   "t": "Link menus that navigate to sections within the current page."
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Menu placed at the top of a site that links to important pages or features."
+  },
+  {
+   "k": "h3",
+   "t": "Navigation drawer"
+  },
+  {
+   "k": "p",
+   "t": "Collapsible navigation panels that float over page content on small screens."
+  },
+  {
+   "k": "h3",
+   "t": "Application layouts"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to choose a navigational frame based on page content and information architecture."
+  }
+ ]
+}

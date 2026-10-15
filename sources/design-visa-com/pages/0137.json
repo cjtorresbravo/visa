@@ -1,0 +1,235 @@
+{
+ "url": "https://design.visa.com/data-visualization/design-visualization-guidelines/selecting-a-chart",
+ "title": "Selecting a chart | Design visualization guidelines | Data visualization | Visa Product Design System",
+ "h1": "Selecting a chart",
+ "readAt": "2026-10-15T17:08:28.491Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Selecting a chart"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to find the right chart for your audience's analysis needs."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Understand the chart types",
+    "Selecting a chartStep 1: Choose a key insight categoryStep 2: Determine the focusStep 3: Refine the chart"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Selecting the right chart requires determining the key purpose of the chart and tailoring it to your audience’s needs.\nStart by understanding the chart types available in our system. Once you’re familiar, you can select a chart design from our collection of examples by defining the key insight your chart should provide, and determining the focus elements. Finally, optimize your chart’s design to direct attention to the most important information."
+  },
+  {
+   "k": "h2",
+   "t": "Understand the chart types"
+  },
+  {
+   "k": "p",
+   "t": "Chart types refer to the broad categories of visual representations used to display data.  Each chart type is best-suited for particular kinds of data analysis or insights. Charts help users understand and interpret data by leveraging simplified visual representations that highlight patterns and relationships."
+  },
+  {
+   "k": "p",
+   "t": "To learn more about each chart type visit the Charts guidelines.\nNote: Our guidelines currently only include these charts: Bar chart, dumbbell plot, line chart, and heatmap. You can explore our full library of chart components in the latest release of Visa Chart Components (VCC)."
+  },
+  {
+   "k": "h2",
+   "t": "Selecting a chart"
+  },
+  {
+   "k": "p",
+   "t": "Each chart type in our library includes specific examples which are adaptations created to solve real-world business problems. These work like templates or starter chart designs that include modifications that tailor the chart for specific data analysis tasks, or to emphasize particular aspects of the data.\nUse the insight and focus categories on our Examples index page to select a chart variation that is best suited for your user’s analysis needs."
+  },
+  {
+   "k": "p",
+   "t": "Insights"
+  },
+  {
+   "k": "p",
+   "t": "What do you want your audience to learn from this chart?"
+  },
+  {
+   "k": "p",
+   "t": "Focus"
+  },
+  {
+   "k": "p",
+   "t": "What is the most important and meaningful information for users to focus on in this chart?"
+  },
+  {
+   "k": "h3",
+   "t": "Step 1: Choose a key insight category"
+  },
+  {
+   "k": "p",
+   "t": "Insights refer to the high-level purpose of a chart, and the type of analysis it enables. Start by identifying the primary insight category of the chart, based on the type of question that it should enable users to answer."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Insight",
+     "Key business question"
+    ],
+    [
+     "Association",
+     "How are items related?"
+    ],
+    [
+     "Current status",
+     "What is the current value of a metric, and is it good or bad?"
+    ],
+    [
+     "Composition",
+     "Which categories have a higher share of the whole?"
+    ],
+    [
+     "Correlation",
+     "Is there a meaningful pattern between two numbers?"
+    ],
+    [
+     "Deviation",
+     "How much difference is there between two numbers?"
+    ],
+    [
+     "Distribution",
+     "What is the range of values, and how does it compare to the average?"
+    ],
+    [
+     "Flow",
+     "How do items move through a sequence?"
+    ],
+    [
+     "Trend",
+     "How has a number changed over time?"
+    ],
+    [
+     "Ranking",
+     "Which items have the highest and lowest values?"
+    ],
+    [
+     "Spatial",
+     "How does location impact a pattern?"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Step 2: Determine the focus"
+  },
+  {
+   "k": "p",
+   "t": "After you’ve selected an insight category, narrow down the examples by determining the key focus element of the chart. Focus elements refer to the specific data points, trends, patterns, or areas in a chart that are emphasized to make it easier for users to understand the key insights from the data.\nThree key focus areas that can be highlighted or emphasized: A specific category, within a dataset, and values relative to a threshold. The sections below illustrate how our chart examples have been customized to emphasize different focus elements."
+  },
+  {
+   "k": "h3",
+   "t": "Highlight a category"
+  },
+  {
+   "k": "p",
+   "t": "Direct the user’s focus to a primary category, as illustrated in the Category share of total heatmap example."
+  },
+  {
+   "k": "h3",
+   "t": "Highlight values above a threshold"
+  },
+  {
+   "k": "p",
+   "t": "Direct the user’s focus to values above a specific threshold, as illustrated in the Compare trend to benchmark bar chart example."
+  },
+  {
+   "k": "h3",
+   "t": "Highlight high and low values"
+  },
+  {
+   "k": "p",
+   "t": "Direct the user’s focus to the highest and lowest values, as illustrated in the Trend with categories dumbbell plot example."
+  },
+  {
+   "k": "h3",
+   "t": "Step 3: Refine the chart"
+  },
+  {
+   "k": "p",
+   "t": "Once you’ve chosen a chart example that works well for your use case, you can refine it to ensure it’s tailored to your audience’s needs. Use the following guidelines to help reduce distracting information and draw attention to the key elements of the chart."
+  },
+  {
+   "k": "h3",
+   "t": "Reduce distracting information"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Create a clear visual focus by limiting distracting information and only adding visual details as need.",
+    "Avoid using chart elements that convey similar or repeated information to help limit visual noise.",
+    "Start by using one neutral color for all data points. This gives you a more flexible starting point for directing attention where it’s needed.",
+    "Use color encoding to provide additional information and context, where necessary. Follow guidelines for Color palettes (internal only) to make full use of our data visualization color palettes."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Only add visual elements that help answer the key business question of the chart."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use multiple methods to communicate the same concept, except in cases where it could make interpretation easier."
+  },
+  {
+   "k": "h3",
+   "t": "Direct attention"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Task type",
+     "Description",
+     "Ways to direct attention"
+    ],
+    [
+     "Lookup",
+     "Understand the precise value of a selected data point",
+     "Use direct labeling of data points. Provide option to view the chart’s data in table format."
+    ],
+    [
+     "Locate",
+     "Find a specific item or category within a chart",
+     "Use color to represent individual categories, or to highlight the most important category. Provide interactive functionality to enable searching and highlighting specific data points."
+    ],
+    [
+     "Identify",
+     "Find a pattern or an outlier",
+     "Use reference lines to identify values above or below a threshold. Highlight outliers with different color or shape. Use annotations to identify and describe significant patterns."
+    ],
+    [
+     "Compare",
+     "Compare the differences and similarities between two items, categories, or metrics",
+     "Add reference lines to enable comparisons to the typical value. Use side-by-side positioning of multiple charts. Use statistical techniques for normalizing the data to enable more accurate comparisons."
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "For more information about visual analysis tasks, reference the Data Representation Pillar of our Data Experience Critique Framework"
+  }
+ ]
+}

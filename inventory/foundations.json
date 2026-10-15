@@ -1,0 +1,4882 @@
+{
+ "file": "VPDS Components (Community)",
+ "fileKey": null,
+ "pages": 53,
+ "collections": [
+  {
+   "name": "Platform",
+   "key": "51deafebdd4430894d2a02316fa3a0f3fd07aef3",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Web",
+    "Mobile"
+   ],
+   "defaultMode": "Web",
+   "variables": [
+    {
+     "name": "Accordion/accordion-icon",
+     "type": "FLOAT",
+     "key": "01b05649d0a572da36e8ec1c17898c2a8bf34f23",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 22,
+      "Mobile": 23
+     }
+    },
+    {
+     "name": "Accordion/subtle-accordion-content-LR-padding",
+     "type": "FLOAT",
+     "key": "f47f5ebbe75c66d51539627795c3d8e52509e81b",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 32,
+      "Mobile": 29
+     },
+     "aliases": {
+      "Web": "size-400",
+      "Mobile": "size-360"
+     }
+    },
+    {
+     "name": "Avatar/avatar-height",
+     "type": "FLOAT",
+     "key": "7d632440f5fc47d589a16f41b9b818122c02a051",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 32,
+      "Mobile": 38
+     }
+    },
+    {
+     "name": "Avatar/avatar-icon-s",
+     "type": "FLOAT",
+     "key": "a9ce75dc350e3d3e15a27dc986d9a6990690963c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Avatar/avatar-image",
+     "type": "FLOAT",
+     "key": "765f4ade56908a67082df5cc69b76d8b21ae7a6f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 32,
+      "Mobile": 38
+     }
+    },
+    {
+     "name": "Badge/badge-dot",
+     "type": "FLOAT",
+     "key": "a9693c99f420e051c591212d89918acf6727dec4",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 8,
+      "Mobile": 10
+     }
+    },
+    {
+     "name": "Badge/badge-icon",
+     "type": "FLOAT",
+     "key": "47dc46b6d38fdd9b0ded28f64f9a9964f905462a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 14,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Badge/badge-number-B-padding",
+     "type": "FLOAT",
+     "key": "c1cb6d377909b81346460597f57a6070bf20ca8b",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 1,
+      "Mobile": 2
+     }
+    },
+    {
+     "name": "Badge/badge-number-height",
+     "type": "FLOAT",
+     "key": "f433630aa89fc92fb88b4c3b506dcb6ab018e426",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Badge/badge-number-min-width",
+     "type": "FLOAT",
+     "key": "10934f807d47ffbc3dd1aab2bc3511934a8a632d",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Banner/banner-icon",
+     "type": "FLOAT",
+     "key": "ac9ce4f5c9f55567a937085f4c756a195ddefd4f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 22,
+      "Mobile": 26
+     }
+    },
+    {
+     "name": "Button/button-h-w-min",
+     "type": "FLOAT",
+     "key": "a55b33ea9c58b3970f6844fb5b048a870370ab9e",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 24,
+      "Mobile": 44
+     }
+    },
+    {
+     "name": "Button/l-icon",
+     "type": "FLOAT",
+     "key": "fe75f2e424be2aad2124b5f5bb775387c90faee5",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 24,
+      "Mobile": 24
+     }
+    },
+    {
+     "name": "Button/l-text-button-icon",
+     "type": "FLOAT",
+     "key": "bc82d2d18816fde00b30524323183d9cc445ef2a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 22
+     }
+    },
+    {
+     "name": "Button/l-ui-icon",
+     "type": "FLOAT",
+     "key": "2351ca2bb965471a2ed013950d7ea3dd505146cc",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 24,
+      "Mobile": 24
+     }
+    },
+    {
+     "name": "Button/m-icon",
+     "type": "FLOAT",
+     "key": "c63635c0ce0949cc093ea6c48ddf3506d27d21c5",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Button/m-text-button-icon",
+     "type": "FLOAT",
+     "key": "f27abafadd1e3ec27038c9d375aa93cbdabed376",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Button/m-ui-icon",
+     "type": "FLOAT",
+     "key": "5669a9eead8b2df5310ef09910e8aa17db61d436",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Button/s-icon",
+     "type": "FLOAT",
+     "key": "8d03a28cb8e259db5bf7e6223631e600d231b68c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 16
+     }
+    },
+    {
+     "name": "Button/s-ui-icon",
+     "type": "FLOAT",
+     "key": "84801f904cb6ca11fcda0042bb4ecba90a8169af",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 16
+     }
+    },
+    {
+     "name": "Button/stacked-width-min",
+     "type": "FLOAT",
+     "key": "c84fcdb5b6787663d7556389a6c3a1b07c41421d",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 62,
+      "Mobile": 72
+     }
+    },
+    {
+     "name": "Chat/xs-button-height",
+     "type": "FLOAT",
+     "key": "d221c8c8ebc80d3635c2c880799ca235119bca01",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 26,
+      "Mobile": 44
+     }
+    },
+    {
+     "name": "Checkbox/checkbox-height",
+     "type": "FLOAT",
+     "key": "22522048a9d94542f52f283a7bd2b7be67685ffd",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Checkbox/checkbox-indeterminate-length",
+     "type": "FLOAT",
+     "key": "d9ad6e53236cd487a54a89f705da239ba5a5f9c2",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 10,
+      "Mobile": 12
+     }
+    },
+    {
+     "name": "Chip/chip-L-padding",
+     "type": "FLOAT",
+     "key": "5fd80b74db2b5ede8d6c0e64443e4d59bcb2f902",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 3,
+      "Mobile": 4
+     },
+     "aliases": {
+      "Web": "size-40",
+      "Mobile": "size-50"
+     }
+    },
+    {
+     "name": "Chip/chip-avatar",
+     "type": "FLOAT",
+     "key": "3bd572ac209bc822ffd5a57b2b4744576fdf3b9a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 24,
+      "Mobile": 32
+     }
+    },
+    {
+     "name": "Chip/chip-avatar-L-padding",
+     "type": "FLOAT",
+     "key": "3a7b2412ffc4810f2805aeb4c5f46dd03a4cee12",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 0,
+      "Mobile": 1
+     }
+    },
+    {
+     "name": "Chip/chip-btn-padding",
+     "type": "FLOAT",
+     "key": "2001d4fa7847124b25a6ae0d7911fdd16810f488",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 7,
+      "Mobile": 10
+     },
+     "aliases": {
+      "Web": "size-85",
+      "Mobile": "size-125"
+     }
+    },
+    {
+     "name": "Chip/chip-checkmark",
+     "type": "FLOAT",
+     "key": "453e7b047dc60518a2a4a117646763f5e9bea85c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 16
+     }
+    },
+    {
+     "name": "Chip/chip-h-default",
+     "type": "FLOAT",
+     "key": "0dd33a83a2dbf24f78d09266bb4be5732347be56",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 32,
+      "Mobile": 44
+     }
+    },
+    {
+     "name": "Chip/chip-icon",
+     "type": "FLOAT",
+     "key": "527e9e213ed098c0451305ad998e900e1580fa92",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Chip/compact-chip-avatar",
+     "type": "FLOAT",
+     "key": "863ed8fc4eee685ffea3f7ad58be66db76d60170",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 22,
+      "Mobile": 24
+     }
+    },
+    {
+     "name": "Chip/compact-chip-icon",
+     "type": "FLOAT",
+     "key": "46f563a1c44063f4b59705b89fa0ab76d199487d",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Chip/compact-chip-text-LR-padding",
+     "type": "FLOAT",
+     "key": "26a5f980f332defdddce00a84ee5a06b7041cb1d",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 2,
+      "Mobile": 3
+     }
+    },
+    {
+     "name": "Content card/default-contentcard-ui-T-padding",
+     "type": "FLOAT",
+     "key": "312c83f15bef1d794672898e9ceb8018074793b6",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 14,
+      "Mobile": 16
+     }
+    },
+    {
+     "name": "Dialog/dialog-icon",
+     "type": "FLOAT",
+     "key": "2cbaff4c9d5a09f2732f6d04565a336b59eb4d1b",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 24,
+      "Mobile": 31
+     }
+    },
+    {
+     "name": "Dropdown menu/dropdown-item-icon",
+     "type": "FLOAT",
+     "key": "891762e4bae0ca89d1bdcf37bfa6ab89e219e6ae",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Input/default-input-ui-button-height",
+     "type": "FLOAT",
+     "key": "af9be7c98415075821e83fc0eddc985983e54e61",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 32,
+      "Mobile": 44
+     }
+    },
+    {
+     "name": "Input/inline-message-icon",
+     "type": "FLOAT",
+     "key": "160e9d84083dd8b25454db083a10024c42372d94",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Input/input-icon",
+     "type": "FLOAT",
+     "key": "f7d46a7b8b451a45977d5577908096bd17d69e8b",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 22,
+      "Mobile": 24
+     }
+    },
+    {
+     "name": "Link/link-padding-LR",
+     "type": "FLOAT",
+     "key": "224471311bf3f4d2e00a0471791cd716851a34ae",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 0,
+      "Mobile": 4
+     },
+     "aliases": {
+      "Web": "size-0",
+      "Mobile": "size-50"
+     }
+    },
+    {
+     "name": "Link/link-padding-TB",
+     "type": "FLOAT",
+     "key": "713f2a71b2f63f66c09216a525cc01fbfa34ae7f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 0,
+      "Mobile": 8
+     },
+     "aliases": {
+      "Web": "size-0",
+      "Mobile": "size-100"
+     }
+    },
+    {
+     "name": "List/list-section-title-padding",
+     "type": "FLOAT",
+     "key": "593386acd61c0e310e72532a0d087027dd02717f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 6,
+      "Mobile": 0
+     },
+     "aliases": {
+      "Web": "size-75",
+      "Mobile": "size-0"
+     }
+    },
+    {
+     "name": "Listbox/listbox-option-checkbox",
+     "type": "FLOAT",
+     "key": "4acdd8b5e829772be92ae7aef2b44d6c756bd5dd",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Listbox/listbox-option-checkmark",
+     "type": "FLOAT",
+     "key": "9388ca6af74a147815a8ddb6e5f9fb666700eb3c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Pagination/pagination-button-TBLR",
+     "type": "FLOAT",
+     "key": "defcd61eb54b72fc779ca812458f6b3c1e21c0e8",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 7,
+      "Mobile": 13
+     }
+    },
+    {
+     "name": "Pagination/pagination-text-min-w",
+     "type": "FLOAT",
+     "key": "05d5d023718bbbd1ca071167e5d73740a6113af3",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Pagination/pagination-ui-height",
+     "type": "FLOAT",
+     "key": "e422a1068c3d70aba99dfc289c188fb467e813c4",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 32,
+      "Mobile": 46
+     }
+    },
+    {
+     "name": "Radio/radio-button",
+     "type": "FLOAT",
+     "key": "fb8f727538b12558d480a4229a506d59a4b343fc",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Radio/radio-dot",
+     "type": "FLOAT",
+     "key": "61dd8a6dacdda2baa42b4db0fcbfd076304798d8",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 10,
+      "Mobile": 12
+     }
+    },
+    {
+     "name": "Select/select-check",
+     "type": "FLOAT",
+     "key": "a9ce52201eb7f0433dd08660fb114de45a42fb44",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 10,
+      "Mobile": 14
+     }
+    },
+    {
+     "name": "Select/select-option-TB-padding",
+     "type": "FLOAT",
+     "key": "3be4a8f3761eb15c1ea066989a826a2a813c1f02",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 4,
+      "Mobile": 12
+     }
+    },
+    {
+     "name": "Shape token/shape-100",
+     "type": "FLOAT",
+     "key": "0c7b7e2deeece3d259fc9cfb8812f606c45a50ff",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 8,
+      "Mobile": 10
+     }
+    },
+    {
+     "name": "Shape token/shape-375",
+     "type": "FLOAT",
+     "key": "f39fee57d6e98515f9d0243346b49b75173146a7",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 48,
+      "Mobile": 48
+     }
+    },
+    {
+     "name": "Size/Default/size-50",
+     "type": "FLOAT",
+     "key": "e27c8267fadf51646ac68a33fbaf44715f93c479",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 4,
+      "Mobile": 5
+     }
+    },
+    {
+     "name": "Size/Dense/size-600",
+     "type": "FLOAT",
+     "key": "001427a7f4a39e3cf03ec757f363609380cbe06f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 36,
+      "Mobile": 45
+     }
+    },
+    {
+     "name": "Slider/slider-thumb-circle",
+     "type": "FLOAT",
+     "key": "b2b222841135ca8eddf4771a75c0569206eca26c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 22
+     }
+    },
+    {
+     "name": "Slider/slider-thumb-rectangle-height",
+     "type": "FLOAT",
+     "key": "d6a3372a260a771da8562f2f1f967a8ca1b4a2a6",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 24,
+      "Mobile": 30
+     }
+    },
+    {
+     "name": "Slider/slider-thumb-rectangle-width",
+     "type": "FLOAT",
+     "key": "992b3b86e60277fd144f5c7da805c3d4b7be2f7a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 8,
+      "Mobile": 10
+     }
+    },
+    {
+     "name": "Switch/switch-LRTB-padding",
+     "type": "FLOAT",
+     "key": "f938a50cf6c723fecef71398d2e0e16ce054ec36",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 2,
+      "Mobile": 3
+     }
+    },
+    {
+     "name": "Switch/switch-rail-length",
+     "type": "FLOAT",
+     "key": "9271b35b1d30733890350bd9f368a8231481fcce",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 44,
+      "Mobile": 50
+     }
+    },
+    {
+     "name": "Switch/switch-thumb",
+     "type": "FLOAT",
+     "key": "04160fde7a7aab66b6d0c9cbade29058e04c9c54",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Switch/switch-thumb-focus",
+     "type": "FLOAT",
+     "key": "29c8fd2469c6aa7cd3ff71ef9bcf9791e01a0545",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 34,
+      "Mobile": 40
+     }
+    },
+    {
+     "name": "Table/chat-button-corner",
+     "type": "FLOAT",
+     "key": "65d7084662be38dd286efcd4d39bd970e172042f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 4,
+      "Mobile": 4
+     },
+     "aliases": {
+      "Web": "small",
+      "Mobile": "small"
+     }
+    },
+    {
+     "name": "Table/xs-button-height",
+     "type": "FLOAT",
+     "key": "9c3c6d771cc892f2263322cbf14d2c6edcfa4267",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 26,
+      "Mobile": 44
+     }
+    },
+    {
+     "name": "Tabs/tab-group-padding",
+     "type": "FLOAT",
+     "key": "8cc738e6ece2eb1caec0eea6d9a55cdb534fde12",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 6,
+      "Mobile": 5
+     },
+     "aliases": {
+      "Web": "size-75",
+      "Mobile": "size-65"
+     }
+    },
+    {
+     "name": "Tabs/tab-icon",
+     "type": "FLOAT",
+     "key": "9eb198b1a072f4bd9cde4bc316f92b2e3464f1a5",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Toggle button/toggle-icon",
+     "type": "FLOAT",
+     "key": "c902e0ba022f6240bdb29d8a4b3be14062f41334",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 24,
+      "Mobile": 28
+     }
+    },
+    {
+     "name": "Toggle button/toggle-icon-padding-bottom",
+     "type": "FLOAT",
+     "key": "0b0d72d4bde43f44bd041d7eb40a6107b3a81463",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 4,
+      "Mobile": 5
+     },
+     "aliases": {
+      "Web": "size-50",
+      "Mobile": "size-65"
+     }
+    },
+    {
+     "name": "Toggle button/toggle-padding-bottom",
+     "type": "FLOAT",
+     "key": "8b6e86eb3563f57e08f545a7a65c743e9fcbdcef",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 8,
+      "Mobile": 9
+     },
+     "aliases": {
+      "Web": "size-100",
+      "Mobile": "size-115"
+     }
+    },
+    {
+     "name": "Toggle button/toggle-text-icon",
+     "type": "FLOAT",
+     "key": "dbe71dca4b1beb6bccf096c9d7cfb5c7c83a4dac",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Typography/font-size/body-1",
+     "type": "FLOAT",
+     "key": "e30eb12ae37d166b5dc0f9e7c318acbae90c0b1e",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Typography/font-size/body-2",
+     "type": "FLOAT",
+     "key": "a863a38502c2476127fc8ccc41c9a03c9e543a6e",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 14,
+      "Mobile": 16
+     }
+    },
+    {
+     "name": "Typography/font-size/body-3",
+     "type": "FLOAT",
+     "key": "7af3b5e436394740cc85033cbab67f9c2ab7a6d9",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 12,
+      "Mobile": 14
+     }
+    },
+    {
+     "name": "Typography/font-size/button-large",
+     "type": "FLOAT",
+     "key": "a705adf1d2d44f37fbe7b74a247c9a0707f6fd1e",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 14,
+      "Mobile": 16
+     }
+    },
+    {
+     "name": "Typography/font-size/button-medium",
+     "type": "FLOAT",
+     "key": "25a0a9b5ad29cf2e354e74b352cdeb9346a64542",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 12,
+      "Mobile": 14
+     }
+    },
+    {
+     "name": "Typography/font-size/button-small",
+     "type": "FLOAT",
+     "key": "a2b7d2e6ea51d25ca29f6e507aa3a79bf5203693",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 12,
+      "Mobile": 14
+     }
+    },
+    {
+     "name": "Typography/font-size/display-1",
+     "type": "FLOAT",
+     "key": "e4ecc8cb327c8fd0c98ada34216ae5fdf854e42a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 60,
+      "Mobile": 70
+     }
+    },
+    {
+     "name": "Typography/font-size/display-2",
+     "type": "FLOAT",
+     "key": "26da616b75aa02879b3fe5359a93c7394d00d519",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 48,
+      "Mobile": 58
+     }
+    },
+    {
+     "name": "Typography/font-size/headline-1",
+     "type": "FLOAT",
+     "key": "13d7168315cad17f579ac8128d43a25945480445",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 32,
+      "Mobile": 36
+     }
+    },
+    {
+     "name": "Typography/font-size/headline-2",
+     "type": "FLOAT",
+     "key": "cd17fed6dbb9f94585379fb13723e83cbfbb0cf3",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 25,
+      "Mobile": 28
+     }
+    },
+    {
+     "name": "Typography/font-size/headline-3",
+     "type": "FLOAT",
+     "key": "511067c1d27e93297e21439e5b12fa3276be6c3f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 20,
+      "Mobile": 24
+     }
+    },
+    {
+     "name": "Typography/font-size/headline-4",
+     "type": "FLOAT",
+     "key": "9c8a53af9f5a3197d7423d0608d0aaecadb9d5e2",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 22
+     }
+    },
+    {
+     "name": "Typography/font-size/otp-label",
+     "type": "FLOAT",
+     "key": "bee322751ef52717ab5aa03439de27b2c0f96a40",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 30,
+      "Mobile": 32
+     }
+    },
+    {
+     "name": "Typography/font-size/overline",
+     "type": "FLOAT",
+     "key": "aa044ab7272f93b777fdc2123a28e001b28f2fda",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 10,
+      "Mobile": 11
+     }
+    },
+    {
+     "name": "Typography/font-size/subtitle-1",
+     "type": "FLOAT",
+     "key": "d9f68ee844c42b6cfae309cc197a5349bc91594d",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Typography/font-size/subtitle-2",
+     "type": "FLOAT",
+     "key": "e5d59a75d283ceade9b59ed65445262e382fdb93",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Typography/font-size/subtitle-3",
+     "type": "FLOAT",
+     "key": "317d46d2c0ff60e9c557ab30c2234dae057e4da2",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 14,
+      "Mobile": 16
+     }
+    },
+    {
+     "name": "Typography/font-size/ui-label",
+     "type": "FLOAT",
+     "key": "f8440e5899c4e48d612cffadaceb0b427ee11335",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 12,
+      "Mobile": 14
+     }
+    },
+    {
+     "name": "Typography/font-size/ui-label-large",
+     "type": "FLOAT",
+     "key": "f3ede4da3d6bd02145f96e623afcaa8c9ac8b890",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 14,
+      "Mobile": 16
+     }
+    },
+    {
+     "name": "Typography/font-size/ui-label-small",
+     "type": "FLOAT",
+     "key": "30f8d50fdd6976a3615b917508df84afd2c047df",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 11,
+      "Mobile": 12
+     }
+    },
+    {
+     "name": "Typography/letter-spacing/large",
+     "type": "FLOAT",
+     "key": "f38995f83fe823f5406f9880e6fb52067aae5d6d",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 1,
+      "Mobile": 1
+     }
+    },
+    {
+     "name": "Typography/letter-spacing/medium",
+     "type": "FLOAT",
+     "key": "7ab1c894736c61b9f94a5000e677b3b8ecf33a31",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 0.5,
+      "Mobile": 0.5
+     }
+    },
+    {
+     "name": "Typography/letter-spacing/none",
+     "type": "FLOAT",
+     "key": "0b469a88cad590edecd8983c2508f8752f735312",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 0,
+      "Mobile": 0
+     }
+    },
+    {
+     "name": "Typography/letter-spacing/small",
+     "type": "FLOAT",
+     "key": "c938d3f4e1454721edbc040bda59645173119029",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 0.25,
+      "Mobile": 0.25
+     }
+    },
+    {
+     "name": "Typography/letter-spacing/xxlarge",
+     "type": "FLOAT",
+     "key": "67aad6eb7399df079edc2c50f08d874ac0d3997c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 4,
+      "Mobile": 4
+     }
+    },
+    {
+     "name": "Typography/line-height/body-1",
+     "type": "FLOAT",
+     "key": "9bb9d8ff869f514e42c5cd3debd7fb6da710497e",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 24,
+      "Mobile": 27
+     }
+    },
+    {
+     "name": "Typography/line-height/body-2",
+     "type": "FLOAT",
+     "key": "8b02a0a55165a71cd84a81b4032372e424189c00",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 22,
+      "Mobile": 24
+     }
+    },
+    {
+     "name": "Typography/line-height/body-3",
+     "type": "FLOAT",
+     "key": "95b533d79b341f8ed55e505bf6e84b22b5ca82e7",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 21
+     }
+    },
+    {
+     "name": "Typography/line-height/button-large",
+     "type": "FLOAT",
+     "key": "0ab2191dfbe6a97192239cb6b1a695b0e1d4a686",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 22
+     }
+    },
+    {
+     "name": "Typography/line-height/button-medium",
+     "type": "FLOAT",
+     "key": "3e12d3163019cb7d140fd29d414f81d7a22fce4e",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Typography/line-height/button-small",
+     "type": "FLOAT",
+     "key": "fa4975352707ba2f9cf367d6628fc231092b0a65",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Typography/line-height/display-1",
+     "type": "FLOAT",
+     "key": "8b12a4010a025933b7e5500b30955dedd76e41cc",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 78,
+      "Mobile": 91
+     }
+    },
+    {
+     "name": "Typography/line-height/display-2",
+     "type": "FLOAT",
+     "key": "077e73cf77b8731dc645ae99cb0dccdc14e35b9a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 62,
+      "Mobile": 75
+     }
+    },
+    {
+     "name": "Typography/line-height/headline-1",
+     "type": "FLOAT",
+     "key": "d3369fe55edcee5a98df0e4eabbd5147b728c926",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 42,
+      "Mobile": 47
+     }
+    },
+    {
+     "name": "Typography/line-height/headline-2",
+     "type": "FLOAT",
+     "key": "827cb90dd706e4b70982058f67afc10be154ca45",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 33,
+      "Mobile": 36
+     }
+    },
+    {
+     "name": "Typography/line-height/headline-3",
+     "type": "FLOAT",
+     "key": "7ecec6787cf80a24a19a22de9d2fd4d7da0aa4d1",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 26,
+      "Mobile": 31
+     }
+    },
+    {
+     "name": "Typography/line-height/headline-4",
+     "type": "FLOAT",
+     "key": "c5279f20586a7916800551dd5c927edf494d6ae9",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 24,
+      "Mobile": 29
+     }
+    },
+    {
+     "name": "Typography/line-height/otp-label",
+     "type": "FLOAT",
+     "key": "f05665cbd8b2c0539fb548d7120ab1bcafa4dac2",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 38,
+      "Mobile": 40
+     }
+    },
+    {
+     "name": "Typography/line-height/overline",
+     "type": "FLOAT",
+     "key": "d02762532006d52c0ae1876bdf6681c4f7a8ba4e",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 13,
+      "Mobile": 14
+     }
+    },
+    {
+     "name": "Typography/line-height/subtitle-1",
+     "type": "FLOAT",
+     "key": "1289a4d333a68811c25c50d520ddeecfce80d6b8",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 21,
+      "Mobile": 23
+     }
+    },
+    {
+     "name": "Typography/line-height/subtitle-2",
+     "type": "FLOAT",
+     "key": "cd47c5788060d551283d69cfc5bfc8f1b1365ead",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 21,
+      "Mobile": 23
+     }
+    },
+    {
+     "name": "Typography/line-height/subtitle-3",
+     "type": "FLOAT",
+     "key": "e2e7ae7f86de6dcda4ceb0c7dba6fe3cb8a64753",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 21
+     }
+    },
+    {
+     "name": "Typography/line-height/ui-label",
+     "type": "FLOAT",
+     "key": "1c582091fe03871d02add3e4f9ef175d13d13c2e",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 18
+     }
+    },
+    {
+     "name": "Typography/line-height/ui-label-large",
+     "type": "FLOAT",
+     "key": "f8a94e9a6468b52bedca2e418c3914c2f4076c8b",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Typography/line-height/ui-label-small",
+     "type": "FLOAT",
+     "key": "c014dfd97ea8fe4acb853d2c2dc2aa701eca0df4",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 14,
+      "Mobile": 16
+     }
+    },
+    {
+     "name": "Typography/paragraph-spacing/medium",
+     "type": "FLOAT",
+     "key": "9cf93ae876e81e1a6c266ab1ec121a8fcb21be64",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 16,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Typography/paragraph-spacing/none",
+     "type": "FLOAT",
+     "key": "83d079e01b0b19c6482fbfea6dc02f2dd7e26056",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 0,
+      "Mobile": 0
+     }
+    },
+    {
+     "name": "Typography/paragraph-spacing/small",
+     "type": "FLOAT",
+     "key": "bd1cabbf52bad2ecb04ee274b94e40b06ed5202e",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 12,
+      "Mobile": 16
+     }
+    },
+    {
+     "name": "Wizard/wizard-badge-height",
+     "type": "FLOAT",
+     "key": "32053f10a8c19f07e58e3ba1fa7f3c73904a20ea",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 18,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Wizard/wizard-compact-badge-height",
+     "type": "FLOAT",
+     "key": "8ec9f3e00b473f8be8212d3e27c9ff44586ea064",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 20,
+      "Mobile": 20
+     }
+    },
+    {
+     "name": "Wizard/wizard-single-badge-height",
+     "type": "FLOAT",
+     "key": "2559b99fb7370a61847dcec50348a5318c199409",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Web": 22,
+      "Mobile": 24
+     }
+    }
+   ]
+  },
+  {
+   "name": "Typography",
+   "key": "260b7836d337e052958cd07ee1b13df74a7e8cf2",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Noto Sans",
+    "Visa Dialect UI",
+    "SF Pro",
+    "Roboto",
+    "Open Sans",
+    "Balsamiq Sans"
+   ],
+   "defaultMode": "Noto Sans",
+   "variables": [
+    {
+     "name": "Font family/font-family",
+     "type": "STRING",
+     "key": "43c95ad5292709346d8c27005b51b5dd8b8e5fa4",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Noto Sans": "Noto Sans",
+      "Visa Dialect UI": "Visa Dialect UI",
+      "SF Pro": "SF Pro",
+      "Roboto": "Roboto",
+      "Open Sans": "Open Sans",
+      "Balsamiq Sans": "Balsamiq Sans"
+     }
+    },
+    {
+     "name": "Weight/medium",
+     "type": "STRING",
+     "key": "1fdee28474358f5afdceaecc6bd511e8860cc9a2",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Noto Sans": "medium",
+      "Visa Dialect UI": "medium",
+      "SF Pro": "medium",
+      "Roboto": "medium",
+      "Open Sans": "semibold",
+      "Balsamiq Sans": "bold"
+     }
+    },
+    {
+     "name": "Weight/regular",
+     "type": "STRING",
+     "key": "0210558c9226e13e7d818bdb940b6a3195e6577a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Noto Sans": "regular",
+      "Visa Dialect UI": "regular",
+      "SF Pro": "regular",
+      "Roboto": "regular",
+      "Open Sans": "regular",
+      "Balsamiq Sans": "regular"
+     }
+    },
+    {
+     "name": "Weight/semibold",
+     "type": "STRING",
+     "key": "912eab9803f1d685ca252237f2742cccc991e6c9",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Noto Sans": "semibold",
+      "Visa Dialect UI": "semibold",
+      "SF Pro": "semibold",
+      "Roboto": "semibold",
+      "Open Sans": "bold",
+      "Balsamiq Sans": "bold"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Theme colors",
+   "key": "0c4d8acd20ee23c6ba545a6ddb13a7306cbc061f",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Visa light",
+    "Visa dark",
+    "Gray blue light",
+    "Gray blue dark",
+    "Purple light",
+    "Purple dark",
+    "Black and white light",
+    "Black and white dark",
+    "Green light",
+    "Green dark"
+   ],
+   "defaultMode": "Visa light",
+   "variables": [
+    {
+     "name": "Color/Active/active",
+     "type": "COLOR",
+     "key": "479aebac567c50ce0c3ae250fc698adc532631c6",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#1434cb",
+      "Visa dark": "#bdeaff",
+      "Gray blue light": "#2947a3",
+      "Gray blue dark": "#b6c2ed",
+      "Purple light": "#92059e",
+      "Purple dark": "#e4bbe7",
+      "Black and white light": "#202020",
+      "Black and white dark": "#ffffff",
+      "Green light": "#295a20",
+      "Green dark": "#cbe589"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-active",
+      "Visa dark": "Visa dark/vdark-active",
+      "Gray blue light": "Gray blue light/gb-active",
+      "Gray blue dark": "Gray blue dark/gbdark-active",
+      "Purple light": "Purple light/p-active",
+      "Purple dark": "Purple dark/pdark-active",
+      "Black and white light": "Black and white light/bw-active",
+      "Black and white dark": "Black and white dark/bwdark-active",
+      "Green light": "Green light/g-active",
+      "Green dark": "Green dark/gdark-active"
+     }
+    },
+    {
+     "name": "Color/Active/active-hover",
+     "type": "COLOR",
+     "key": "861097ca2209e608a961d194bec85094dc2f520f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#173be8",
+      "Visa dark": "#dbf4ff",
+      "Gray blue light": "#2f52bc",
+      "Gray blue dark": "#ced6f3",
+      "Purple light": "#ae06bc",
+      "Purple dark": "#edd2ef",
+      "Black and white light": "#2e2e2e",
+      "Black and white dark": "#f0f0f0",
+      "Green light": "#337029",
+      "Green dark": "#d9f592"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-active-hover",
+      "Visa dark": "Visa dark/vdark-active-hover",
+      "Gray blue light": "Gray blue light/gb-active-hover",
+      "Gray blue dark": "Gray blue dark/gbdark-active-hover",
+      "Purple light": "Purple light/p-active-hover",
+      "Purple dark": "Purple dark/pdark-active-hover",
+      "Black and white light": "Black and white light/bw-active-hover",
+      "Black and white dark": "Black and white dark/bwdark-active-hover",
+      "Green light": "Green light/g-active-hover",
+      "Green dark": "Green dark/gdark-active-hover"
+     }
+    },
+    {
+     "name": "Color/Active/active-pressed",
+     "type": "COLOR",
+     "key": "5374590ae7ac0130c7ba2782924c651e5ce839e0",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#0f2595",
+      "Visa dark": "#80d7ff",
+      "Gray blue light": "#1d3272",
+      "Gray blue dark": "#8599e0",
+      "Purple light": "#5c0363",
+      "Purple dark": "#d28ed7",
+      "Black and white light": "#000000",
+      "Black and white dark": "#e0e0e0",
+      "Green light": "#152d10",
+      "Green dark": "#b0c777"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-active-pressed",
+      "Visa dark": "Visa dark/vdark-active-pressed",
+      "Gray blue light": "Gray blue light/gb-active-pressed",
+      "Gray blue dark": "Gray blue dark/gbdark-active-pressed",
+      "Purple light": "Purple light/p-active-pressed",
+      "Purple dark": "Purple dark/pdark-active-pressed",
+      "Black and white light": "Black and white light/bw-active-pressed",
+      "Black and white dark": "Black and white dark/bwdark-active-pressed",
+      "Green light": "Green light/g-active-pressed",
+      "Green dark": "Green dark/gdark-active-pressed"
+     }
+    },
+    {
+     "name": "Color/Active/active-subtle",
+     "type": "COLOR",
+     "key": "6ef9e2f6e2badbfe84fe78b5f8b645d672e102d2",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#00000080",
+      "Visa dark": "#ffffff80",
+      "Gray blue light": "#00000080",
+      "Gray blue dark": "#ffffff80",
+      "Purple light": "#00000080",
+      "Purple dark": "#ffffff80",
+      "Black and white light": "#00000080",
+      "Black and white dark": "#ffffff80",
+      "Green light": "#00000080",
+      "Green dark": "#f7ffe480"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-active-subtle",
+      "Visa dark": "Visa dark/vdark-active-subtle",
+      "Gray blue light": "Gray blue light/gb-active-subtle",
+      "Gray blue dark": "Gray blue dark/gbdark-active-subtle",
+      "Purple light": "Purple light/p-active-subtle",
+      "Purple dark": "Purple dark/pdark-active-subtle",
+      "Black and white light": "Black and white light/bw-active-subtle",
+      "Black and white dark": "Gray blue dark/gbdark-active-subtle",
+      "Green light": "Green light/g-active-subtle",
+      "Green dark": "Green dark/gdark-active-subtle"
+     }
+    },
+    {
+     "name": "Color/Decorative/border",
+     "type": "COLOR",
+     "key": "7507e863f76cc458c91a612f1a2578d70d986780",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#0000001a",
+      "Visa dark": "#ffffff1a",
+      "Gray blue light": "#3d518f1a",
+      "Gray blue dark": "#ffffff1a",
+      "Purple light": "#0000001a",
+      "Purple dark": "#ffffff1a",
+      "Black and white light": "#0000001a",
+      "Black and white dark": "#ffffff1a",
+      "Green light": "#0000001a",
+      "Green dark": "#ffffff1a"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-border",
+      "Visa dark": "Visa dark/vdark-border",
+      "Gray blue light": "Gray blue light/gb-border",
+      "Gray blue dark": "Gray blue dark/gbdark-border",
+      "Purple light": "Purple light/p-border",
+      "Purple dark": "Purple dark/pdark-border",
+      "Black and white light": "Black and white light/bw-border",
+      "Black and white dark": "Black and white dark/bwdark-border",
+      "Green light": "Green light/g-border",
+      "Green dark": "Green dark/gdark-border"
+     }
+    },
+    {
+     "name": "Color/Decorative/disabled",
+     "type": "COLOR",
+     "key": "08a3994637eaaa5517d34cf47f7896abdb033a5a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#00000033",
+      "Visa dark": "#ffffff33",
+      "Gray blue light": "#3d518f33",
+      "Gray blue dark": "#ffffff33",
+      "Purple light": "#00000033",
+      "Purple dark": "#f6e8f733",
+      "Black and white light": "#00000033",
+      "Black and white dark": "#ffffff33",
+      "Green light": "#00000033",
+      "Green dark": "#ffffff33"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-disabled",
+      "Visa dark": "Visa dark/vdark-disabled",
+      "Gray blue light": "Gray blue light/gb-disabled",
+      "Gray blue dark": "Gray blue dark/gbdark-disabled",
+      "Purple light": "Purple light/p-disabled",
+      "Purple dark": "Purple dark/pdark-disabled",
+      "Black and white light": "Black and white light/bw-disabled",
+      "Black and white dark": "Black and white dark/bwdark-disabled",
+      "Green light": "Green light/g-disabled",
+      "Green dark": "Green dark/gdark-disabled"
+     }
+    },
+    {
+     "name": "Color/Decorative/overlay",
+     "type": "COLOR",
+     "key": "f0519a21548dddce3da913e0164521e134ab4785",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#14223966",
+      "Visa dark": "#00000066",
+      "Gray blue light": "#3d518f66",
+      "Gray blue dark": "#00000066",
+      "Purple light": "#00000066",
+      "Purple dark": "#00000066",
+      "Black and white light": "#00000066",
+      "Black and white dark": "#42424266",
+      "Green light": "#00000066",
+      "Green dark": "#00000066"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-overlay",
+      "Visa dark": "Visa dark/vdark-overlay",
+      "Gray blue light": "Gray blue light/gb-overlay",
+      "Gray blue dark": "Green dark/gdark-overlay",
+      "Purple light": "Purple light/p-overlay",
+      "Purple dark": "Purple dark/pdark-overlay",
+      "Black and white light": "Black and white light/bw-overlay",
+      "Black and white dark": "Black and white dark/bwdark-overlay",
+      "Green light": "Green light/g-overlay",
+      "Green dark": "Green dark/gdark-overlay"
+     }
+    },
+    {
+     "name": "Color/Messaging/info-graphics",
+     "type": "COLOR",
+     "key": "5ed927b70c21e187f99075882ea34fe1bf7b283b",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#0088c7",
+      "Visa dark": "#0088c7",
+      "Gray blue light": "#337999",
+      "Gray blue dark": "#79b6d2",
+      "Purple light": "#337999",
+      "Purple dark": "#337999",
+      "Black and white light": "#337999",
+      "Black and white dark": "#79b6d2",
+      "Green light": "#337999",
+      "Green dark": "#79b6d2"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-info-graphics",
+      "Visa dark": "Visa dark/Messaging/vdark-info-graphics",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-info-graphics",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-info-graphics",
+      "Purple light": "Purple light/Messaging/p-info-graphics",
+      "Purple dark": "Visa dark/Messaging/Messaging/gb-info-graphics",
+      "Black and white light": "Black and white light/Messaging/bw-info-graphics",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-info-graphics",
+      "Green light": "Green light/Messaging/g-info-graphics",
+      "Green dark": "Green dark/Messaging/gdark-info-graphics"
+     }
+    },
+    {
+     "name": "Color/Messaging/info-surface",
+     "type": "COLOR",
+     "key": "41c033cf1de3a8029af2660373c08c4ef1d033ca",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#c7edff",
+      "Visa dark": "#00344d",
+      "Gray blue light": "#d1e6f0",
+      "Gray blue dark": "#1a3c4d",
+      "Purple light": "#d1e6f0",
+      "Purple dark": "#d1e6f0",
+      "Black and white light": "#d1e6f0",
+      "Black and white dark": "#1a3c4d",
+      "Green light": "#d1e6f0",
+      "Green dark": "#1a3c4d"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-info-surface",
+      "Visa dark": "Visa dark/Messaging/vdark-info-surface",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-info-surface",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-info-surface",
+      "Purple light": "Purple light/Messaging/p-info-surface",
+      "Purple dark": "Visa dark/Messaging/Messaging/gb-info-surface",
+      "Black and white light": "Black and white light/Messaging/bw-info-surface",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-info-surface",
+      "Green light": "Green light/Messaging/g-info-surface",
+      "Green dark": "Green dark/Messaging/gdark-info-surface"
+     }
+    },
+    {
+     "name": "Color/Messaging/info-text",
+     "type": "COLOR",
+     "key": "89d0953528064a3b6396a7c19fcbf01569e02e02",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#005e8a",
+      "Visa dark": "#bdeaff",
+      "Gray blue light": "#24546b",
+      "Gray blue dark": "#e4f0f6",
+      "Purple light": "#24546b",
+      "Purple dark": "#24546b",
+      "Black and white light": "#24546b",
+      "Black and white dark": "#e4f0f6",
+      "Green light": "#24546b",
+      "Green dark": "#e4f0f6"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-info-text",
+      "Visa dark": "Visa dark/Messaging/vdark-info-text",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-info-text",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-info-text",
+      "Purple light": "Purple light/Messaging/p-info-text",
+      "Purple dark": "Visa dark/Messaging/Messaging/gb-info-text",
+      "Black and white light": "Black and white light/Messaging/bw-info-text",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-info-text",
+      "Green light": "Green light/Messaging/g-info-text",
+      "Green dark": "Green dark/Messaging/gdark-info-text"
+     }
+    },
+    {
+     "name": "Color/Messaging/negative-graphics",
+     "type": "COLOR",
+     "key": "42bd37df1e5fc3c737a09421388cd7edcf33d126",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#d65151",
+      "Visa dark": "#d65151",
+      "Gray blue light": "#b62b2b",
+      "Gray blue dark": "#dd6f6f",
+      "Purple light": "#b62b2b",
+      "Purple dark": "#dd6f6f",
+      "Black and white light": "#b62b2b",
+      "Black and white dark": "#dd6f6f",
+      "Green light": "#b62b2b",
+      "Green dark": "#dd6f6f"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-negative-graphics",
+      "Visa dark": "Visa dark/Messaging/vdark-negative-graphics",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-negative-graphics",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-negative-graphics",
+      "Purple light": "Purple light/Messaging/p-negative-graphics",
+      "Purple dark": "Purple dark/Messaging/pdark-negative-graphics",
+      "Black and white light": "Black and white light/Messaging/bw-negative-graphics",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-negative-graphics",
+      "Green light": "Green light/Messaging/g-negative-graphics",
+      "Green dark": "Green dark/Messaging/gdark-negative-graphics"
+     }
+    },
+    {
+     "name": "Color/Messaging/negative-surface",
+     "type": "COLOR",
+     "key": "8bd8947b56ed304bd70d669cb1fc0d8875584ffe",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#ffd6e9",
+      "Visa dark": "#9d2525",
+      "Gray blue light": "#f7dede",
+      "Gray blue dark": "#531313",
+      "Purple light": "#f7dede",
+      "Purple dark": "#531313",
+      "Black and white light": "#f7dede",
+      "Black and white dark": "#531313",
+      "Green light": "#f7dede",
+      "Green dark": "#531313"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-negative-surface",
+      "Visa dark": "Visa dark/Messaging/vdark-negative-surface",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-negative-surface",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-negative-surface",
+      "Purple light": "Purple light/Messaging/p-negative-surface",
+      "Purple dark": "Purple dark/Messaging/pdark-negative-surface",
+      "Black and white light": "Black and white light/Messaging/bw-negative-surface",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-negative-surface",
+      "Green light": "Green light/Messaging/g-negative-surface",
+      "Green dark": "Green dark/Messaging/gdark-negative-surface"
+     }
+    },
+    {
+     "name": "Color/Messaging/negative-surface-highlight",
+     "type": "COLOR",
+     "key": "6a37068eeb9e03780770f9d2ffc1ed2af0bdd2c6",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#ffd6e959",
+      "Visa dark": "#9d252559",
+      "Gray blue light": "#f7dede59",
+      "Gray blue dark": "#53131359",
+      "Purple light": "#f7dede59",
+      "Purple dark": "#53131359",
+      "Black and white light": "#f7dede59",
+      "Black and white dark": "#53131359",
+      "Green light": "#f7dede59",
+      "Green dark": "#53131359"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-negative-surface-highlight",
+      "Visa dark": "Visa dark/Messaging/vdark-negative-surface-highlight",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-negative-surface-highlight",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-negative-surface-highlight",
+      "Purple light": "Purple light/Messaging/p-negative-surface-highlight",
+      "Purple dark": "Purple dark/Messaging/pdark-negative-surface-highlight",
+      "Black and white light": "Black and white light/Messaging/bw-negative-surface-highlight",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-negative-surface-highlight",
+      "Green light": "Green light/Messaging/g-negative-surface-highlight",
+      "Green dark": "Green dark/Messaging/gdark-negative-surface-highlight"
+     }
+    },
+    {
+     "name": "Color/Messaging/negative-surface-lowlight",
+     "type": "COLOR",
+     "key": "03b995da1df2b35337b47e25634410e701b6d0f1",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#ffd6e999",
+      "Visa dark": "#9d252599",
+      "Gray blue light": "#f7dede99",
+      "Gray blue dark": "#53131399",
+      "Purple light": "#f7dede99",
+      "Purple dark": "#53131399",
+      "Black and white light": "#f7dede99",
+      "Black and white dark": "#53131399",
+      "Green light": "#f7dede99",
+      "Green dark": "#53131399"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-negative-surface-lowlight",
+      "Visa dark": "Visa dark/Messaging/vdark-negative-surface-lowlight",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-negative-surface-lowlight",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-negative-surface-lowlight",
+      "Purple light": "Purple light/Messaging/p-negative-surface-lowlight",
+      "Purple dark": "Purple dark/Messaging/pdark-negative-surface-lowlight",
+      "Black and white light": "Black and white light/Messaging/bw-negative-surface-lowlight",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-negative-surface-lowlight",
+      "Green light": "Green light/Messaging/g-negative-surface-lowlight",
+      "Green dark": "Green dark/Messaging/gdark-negative-surface-lowlight"
+     }
+    },
+    {
+     "name": "Color/Messaging/negative-text",
+     "type": "COLOR",
+     "key": "2766bcee44503551b39d18e40c2c3fc187d70444",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#ad2929",
+      "Visa dark": "#f7dede",
+      "Gray blue light": "#841f1f",
+      "Gray blue dark": "#f0c1c1",
+      "Purple light": "#841f1f",
+      "Purple dark": "#f0c1c1",
+      "Black and white light": "#841f1f",
+      "Black and white dark": "#f0c1c1",
+      "Green light": "#841f1f",
+      "Green dark": "#f0c1c1"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-negative-text",
+      "Visa dark": "Visa dark/Messaging/vdark-negative-text",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-negative-text",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-negative-text",
+      "Purple light": "Purple light/Messaging/p-negative-text",
+      "Purple dark": "Purple dark/Messaging/pdark-negative-text",
+      "Black and white light": "Black and white light/Messaging/bw-negative-text",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-negative-text",
+      "Green light": "Green light/Messaging/g-negative-text",
+      "Green dark": "Green dark/Messaging/gdark-negative-text"
+     }
+    },
+    {
+     "name": "Color/Messaging/negative-text-hover",
+     "type": "COLOR",
+     "key": "28da36839b32cfbac02bf24b4d793c028eb0c25c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#c62f2f",
+      "Visa dark": "#fdf7f7",
+      "Gray blue light": "#952323",
+      "Gray blue dark": "#f8e2e2",
+      "Purple light": "#952323",
+      "Purple dark": "#f8e2e2",
+      "Black and white light": "#952323",
+      "Black and white dark": "#f8e2e2",
+      "Green light": "#952323",
+      "Green dark": "#f8e2e2"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-negative-text-hover",
+      "Visa dark": "Visa dark/Messaging/vdark-negative-text-hover",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-negative-text-hover",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-negative-text-hover",
+      "Purple light": "Purple light/Messaging/p-negative-text-hover",
+      "Purple dark": "Purple dark/Messaging/pdark-negative-text-hover",
+      "Black and white light": "Black and white light/Messaging/bw-negative-text-hover",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-negative-text-hover",
+      "Green light": "Green light/Messaging/g-negative-text-hover",
+      "Green dark": "Green dark/Messaging/gdark-negative-text-hover"
+     }
+    },
+    {
+     "name": "Color/Messaging/negative-text-pressed",
+     "type": "COLOR",
+     "key": "c88bb5174ea6c16f14522109f10c2352e671881f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#7c1d1d",
+      "Visa dark": "#ecacac",
+      "Gray blue light": "#631717",
+      "Gray blue dark": "#e79898",
+      "Purple light": "#631717",
+      "Purple dark": "#e79898",
+      "Black and white light": "#631717",
+      "Black and white dark": "#e79898",
+      "Green light": "#631717",
+      "Green dark": "#e79898"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-negative-text-pressed",
+      "Visa dark": "Visa dark/Messaging/vdark-negative-text-pressed",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-negative-text-pressed",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-negative-text-pressed",
+      "Purple light": "Purple light/Messaging/p-negative-text-pressed",
+      "Purple dark": "Purple dark/Messaging/pdark-negative-text-pressed",
+      "Black and white light": "Black and white light/Messaging/bw-negative-text-pressed",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-negative-text-pressed",
+      "Green light": "Green light/Messaging/g-negative-text-pressed",
+      "Green dark": "Green dark/Messaging/gdark-negative-text-pressed"
+     }
+    },
+    {
+     "name": "Color/Messaging/positive-graphics",
+     "type": "COLOR",
+     "key": "3c881a8fdb97ad91ec9e99a8b29fee7aa1277b66",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#40996b",
+      "Visa dark": "#40996b",
+      "Gray blue light": "#3c9065",
+      "Gray blue dark": "#81caa5",
+      "Purple light": "#3c9065",
+      "Purple dark": "#81caa5",
+      "Black and white light": "#3c9065",
+      "Black and white dark": "#81caa5",
+      "Green light": "#3c9065",
+      "Green dark": "#81caa5"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-positive-graphics",
+      "Visa dark": "Visa dark/Messaging/vdark-positive-graphics",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-positive-graphics",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-positive-graphics",
+      "Purple light": "Purple light/Messaging/p-positive-graphics",
+      "Purple dark": "Purple dark/Messaging/pdark-positive-graphics",
+      "Black and white light": "Black and white light/Messaging/bw-positive-graphics",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-positive-graphics",
+      "Green light": "Green light/Messaging/g-positive-graphics",
+      "Green dark": "Green dark/Messaging/gdark-positive-graphics"
+     }
+    },
+    {
+     "name": "Color/Messaging/positive-surface",
+     "type": "COLOR",
+     "key": "60427a6a300203eedd0b59e66e5291a6898c1b6c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#d6f2c4",
+      "Visa dark": "#23533a",
+      "Gray blue light": "#d4ede0",
+      "Gray blue dark": "#1e4832",
+      "Purple light": "#d4ede0",
+      "Purple dark": "#1e4832",
+      "Black and white light": "#d4ede0",
+      "Black and white dark": "#1e4832",
+      "Green light": "#d4ede0",
+      "Green dark": "#1e4832"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-positive-surface",
+      "Visa dark": "Visa dark/Messaging/vdark-positive-surface",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-positive-surface",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-positive-surface",
+      "Purple light": "Purple light/Messaging/p-positive-surface",
+      "Purple dark": "Purple dark/Messaging/pdark-positive-surface",
+      "Black and white light": "Black and white light/Messaging/bw-positive-surface",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-positive-surface",
+      "Green light": "Green light/Messaging/g-positive-surface",
+      "Green dark": "Green dark/Messaging/gdark-positive-surface"
+     }
+    },
+    {
+     "name": "Color/Messaging/positive-surface-highlight",
+     "type": "COLOR",
+     "key": "8b6a79fc13bea9d01978619929674ccc31bde19c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#d6f2c459",
+      "Visa dark": "#23533a59",
+      "Gray blue light": "#d4ede059",
+      "Gray blue dark": "#1e483259",
+      "Purple light": "#d4ede059",
+      "Purple dark": "#1e483259",
+      "Black and white light": "#d4ede059",
+      "Black and white dark": "#1e483259",
+      "Green light": "#d4ede059",
+      "Green dark": "#1e483259"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-positive-surface-highlight",
+      "Visa dark": "Visa dark/Messaging/vdark-positive-surface-highlight",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-positive-surface-highlight",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-positive-surface-highlight",
+      "Purple light": "Purple light/Messaging/p-positive-surface-highlight",
+      "Purple dark": "Purple dark/Messaging/pdark-positive-surface-highlight",
+      "Black and white light": "Black and white light/Messaging/bw-positive-surface-highlight",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-positive-surface-highlight",
+      "Green light": "Green light/Messaging/g-positive-surface-highlight",
+      "Green dark": "Green dark/Messaging/gdark-positive-surface-highlight"
+     }
+    },
+    {
+     "name": "Color/Messaging/positive-surface-lowlight",
+     "type": "COLOR",
+     "key": "3bbe723a5bd4dc0f854708e3c03f373eba150bb3",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#d6f2c499",
+      "Visa dark": "#23533a99",
+      "Gray blue light": "#d4ede099",
+      "Gray blue dark": "#1e483299",
+      "Purple light": "#d4ede099",
+      "Purple dark": "#1e483299",
+      "Black and white light": "#d4ede099",
+      "Black and white dark": "#1e483299",
+      "Green light": "#d4ede099",
+      "Green dark": "#1e483299"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-positive-surface-lowlight",
+      "Visa dark": "Visa dark/Messaging/vdark-positive-surface-lowlight",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-positive-surface-lowlight",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-positive-surface-lowlight",
+      "Purple light": "Purple light/Messaging/p-positive-surface-lowlight",
+      "Purple dark": "Purple dark/Messaging/pdark-positive-surface-lowlight",
+      "Black and white light": "Black and white light/Messaging/bw-positive-surface-lowlight",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-positive-surface-lowlight",
+      "Green light": "Green light/Messaging/g-positive-surface-lowlight",
+      "Green dark": "Green dark/Messaging/gdark-positive-surface-lowlight"
+     }
+    },
+    {
+     "name": "Color/Messaging/positive-text",
+     "type": "COLOR",
+     "key": "5a33ad2dc5d2628f1f1a8ef429e8713a5059335d",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#2c6849",
+      "Visa dark": "#dff1e8",
+      "Gray blue light": "#2a6546",
+      "Gray blue dark": "#c9e8d8",
+      "Purple light": "#2a6546",
+      "Purple dark": "#c9e8d8",
+      "Black and white light": "#2a6546",
+      "Black and white dark": "#c9e8d8",
+      "Green light": "#2a6546",
+      "Green dark": "#c9e8d8"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-positive-text",
+      "Visa dark": "Visa dark/Messaging/vdark-positive-text",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-positive-text",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-positive-text",
+      "Purple light": "Purple light/Messaging/p-positive-text",
+      "Purple dark": "Purple dark/Messaging/pdark-positive-text",
+      "Black and white light": "Black and white light/Messaging/bw-positive-text",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-positive-text",
+      "Green light": "Green light/Messaging/g-positive-text",
+      "Green dark": "Green dark/Messaging/gdark-positive-text"
+     }
+    },
+    {
+     "name": "Color/Messaging/positive-text-hover",
+     "type": "COLOR",
+     "key": "bd845b1be5f79d1934bda501b8020e528199eb33",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#327753",
+      "Visa dark": "#c2e5d3",
+      "Gray blue light": "#307350",
+      "Gray blue dark": "#e6f4ed",
+      "Purple light": "#307350",
+      "Purple dark": "#e6f4ed",
+      "Black and white light": "#307350",
+      "Black and white dark": "#e6f4ed",
+      "Green light": "#307350",
+      "Green dark": "#e6f4ed"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-positive-text-hover",
+      "Visa dark": "Visa dark/Messaging/vdark-positive-text-hover",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-positive-text-hover",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-positive-text-hover",
+      "Purple light": "Purple light/Messaging/p-positive-text-hover",
+      "Purple dark": "Purple dark/Messaging/pdark-positive-text-hover",
+      "Black and white light": "Black and white light/Messaging/bw-positive-text-hover",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-positive-text-hover",
+      "Green light": "Green light/Messaging/g-positive-text-hover",
+      "Green dark": "Green dark/Messaging/gdark-positive-text-hover"
+     }
+    },
+    {
+     "name": "Color/Messaging/positive-text-pressed",
+     "type": "COLOR",
+     "key": "9f6b687350dbccbfc4f4e80f4c0bb5e09e976355",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#1a3d2b",
+      "Visa dark": "#81caa4",
+      "Gray blue light": "#1e4832",
+      "Gray blue dark": "#a5d9be",
+      "Purple light": "#1e4832",
+      "Purple dark": "#a5d9be",
+      "Black and white light": "#1e4832",
+      "Black and white dark": "#a5d9be",
+      "Green light": "#1e4832",
+      "Green dark": "#a5d9be"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-positive-text-pressed",
+      "Visa dark": "Visa dark/Messaging/vdark-positive-text-pressed",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-positive-text-pressed",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-positive-text-pressed",
+      "Purple light": "Purple light/Messaging/p-positive-text-pressed",
+      "Purple dark": "Purple dark/Messaging/pdark-positive-text-pressed",
+      "Black and white light": "Black and white light/Messaging/bw-positive-text-pressed",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-positive-text-pressed",
+      "Green light": "Green light/Messaging/g-positive-text-pressed",
+      "Green dark": "Green dark/Messaging/gdark-positive-text-pressed"
+     }
+    },
+    {
+     "name": "Color/Messaging/warning-graphics",
+     "type": "COLOR",
+     "key": "1f16612b59e50117355a63586328d219ef35e862",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#c38004",
+      "Visa dark": "#c38004",
+      "Gray blue light": "#a37829",
+      "Gray blue dark": "#dbb670",
+      "Purple light": "#a37829",
+      "Purple dark": "#dbb670",
+      "Black and white light": "#a37829",
+      "Black and white dark": "#dbb670",
+      "Green light": "#a37829",
+      "Green dark": "#dbb670"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-warning-graphics",
+      "Visa dark": "Visa dark/Messaging/vdark-warning-graphics",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-warning-graphics",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-warning-graphics",
+      "Purple light": "Purple light/Messaging/p-warning-graphics",
+      "Purple dark": "Purple dark/Messaging/pdark-warning-graphics",
+      "Black and white light": "Black and white light/Messaging/bw-warning-graphics",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-warning-graphics",
+      "Green light": "Green light/Messaging/g-warning-graphics",
+      "Green dark": "Green dark/Messaging/gdark-warning-graphics"
+     }
+    },
+    {
+     "name": "Color/Messaging/warning-surface",
+     "type": "COLOR",
+     "key": "1687b55f1de1d1a2b92d73f142c3bae86a07c60f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#ffef99",
+      "Visa dark": "#4b3102",
+      "Gray blue light": "#f3e6ce",
+      "Gray blue dark": "#523c14",
+      "Purple light": "#f3e6ce",
+      "Purple dark": "#523c14",
+      "Black and white light": "#f3e6ce",
+      "Black and white dark": "#523c14",
+      "Green light": "#f3e6ce",
+      "Green dark": "#523c14"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-warning-surface",
+      "Visa dark": "Visa dark/Messaging/vdark-warning-surface",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-warning-surface",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-warning-surface",
+      "Purple light": "Purple light/Messaging/p-warning-surface",
+      "Purple dark": "Purple dark/Messaging/pdark-warning-surface",
+      "Black and white light": "Black and white light/Messaging/bw-warning-surface",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-warning-surface",
+      "Green light": "Green light/Messaging/g-warning-surface",
+      "Green dark": "Green dark/Messaging/gdark-warning-surface"
+     }
+    },
+    {
+     "name": "Color/Messaging/warning-text",
+     "type": "COLOR",
+     "key": "4ea815c84b680fe3c3a9550d399d6214d656aa9a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#875903",
+      "Visa dark": "#fee8be",
+      "Gray blue light": "#72541d",
+      "Gray blue dark": "#f8f0e2",
+      "Purple light": "#72541d",
+      "Purple dark": "#f8f0e2",
+      "Black and white light": "#72541d",
+      "Black and white dark": "#f8f0e2",
+      "Green light": "#72541d",
+      "Green dark": "#f8f0e2"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Messaging/v-warning-text",
+      "Visa dark": "Visa dark/Messaging/vdark-warning-text",
+      "Gray blue light": "Visa dark/Messaging/Messaging/gb-warning-text",
+      "Gray blue dark": "Gray blue dark/Messaging/gbdark-warning-text",
+      "Purple light": "Purple light/Messaging/p-warning-text",
+      "Purple dark": "Purple dark/Messaging/pdark-warning-text",
+      "Black and white light": "Black and white light/Messaging/bw-warning-text",
+      "Black and white dark": "Black and white dark/Messaging/bwdark-warning-text",
+      "Green light": "Green light/Messaging/g-warning-text",
+      "Green dark": "Green dark/Messaging/gdark-warning-text"
+     }
+    },
+    {
+     "name": "Color/Surface/surface-1",
+     "type": "COLOR",
+     "key": "127a202774e245d994512e2cf8871bbd1d5077b2",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#ffffff",
+      "Visa dark": "#2e2e2e",
+      "Gray blue light": "#ffffff",
+      "Gray blue dark": "#272727",
+      "Purple light": "#ffffff",
+      "Purple dark": "#0d0d0d",
+      "Black and white light": "#ffffff",
+      "Black and white dark": "#0d0d0d",
+      "Green light": "#ffffff",
+      "Green dark": "#1a2419"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-surface-1",
+      "Visa dark": "Visa dark/vdark-surface-1",
+      "Gray blue light": "Gray blue light/gb-surface-1",
+      "Gray blue dark": "Gray blue dark/gbdark-surface-1",
+      "Purple light": "Purple light/p-surface-1",
+      "Purple dark": "Purple dark/pdark-surface-1",
+      "Black and white light": "Black and white light/bw-surface-1",
+      "Black and white dark": "Black and white dark/bwdark-surface-1",
+      "Green light": "Green light/g-surface-1",
+      "Green dark": "Green dark/gdark-surface-1"
+     }
+    },
+    {
+     "name": "Color/Surface/surface-2",
+     "type": "COLOR",
+     "key": "29abf44851230277fbb318f68c0b1f7f150c2638",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#f5f5f5",
+      "Visa dark": "#1a1a1a",
+      "Gray blue light": "#f3f3f7",
+      "Gray blue dark": "#141414",
+      "Purple light": "#f6f4f6",
+      "Purple dark": "#242424",
+      "Black and white light": "#f0f0f0",
+      "Black and white dark": "#1a1a1a",
+      "Green light": "#f5f5f5",
+      "Green dark": "#101410"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-surface-2",
+      "Visa dark": "Visa dark/vdark-surface-2",
+      "Gray blue light": "Gray blue light/gb-surface-2",
+      "Gray blue dark": "Gray blue dark/gbdark-surface-2",
+      "Purple light": "Purple light/p-surface-2",
+      "Purple dark": "Purple dark/pdark-surface-2",
+      "Black and white light": "Black and white light/bw-surface-2",
+      "Black and white dark": "Black and white dark/bwdark-surface-2",
+      "Green light": "Green light/g-surface-2",
+      "Green dark": "Green dark/gdark-surface-2"
+     }
+    },
+    {
+     "name": "Color/Surface/surface-3",
+     "type": "COLOR",
+     "key": "70fa5d22e4864a2f6119df820c788ff13b53a26d",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#f0f0f0",
+      "Visa dark": "#0a0a0a",
+      "Gray blue light": "#e7e9ef",
+      "Gray blue dark": "#212121",
+      "Purple light": "#f1eef1",
+      "Purple dark": "#1f1f1f",
+      "Black and white light": "#ebebeb",
+      "Black and white dark": "#1f1f1f",
+      "Green light": "#f0f0f0",
+      "Green dark": "#0c0f0c"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-surface-3",
+      "Visa dark": "Visa dark/vdark-surface-3",
+      "Gray blue light": "Gray blue light/gb-surface-3",
+      "Gray blue dark": "Gray blue dark/gbdark-surface-3",
+      "Purple light": "Purple light/p-surface-3",
+      "Purple dark": "Purple dark/pdark-surface-3",
+      "Black and white light": "Black and white light/bw-surface-3",
+      "Black and white dark": "Black and white dark/bwdark-surface-3",
+      "Green light": "Green light/g-surface-3",
+      "Green dark": "Green dark/gdark-surface-3"
+     }
+    },
+    {
+     "name": "Color/Surface/surface-highlight",
+     "type": "COLOR",
+     "key": "a3b12eaa7f6c8b75571883897cd65b1a98043d3b",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#b3d7ff59",
+      "Visa dark": "#00000059",
+      "Gray blue light": "#adbcea59",
+      "Gray blue dark": "#00000059",
+      "Purple light": "#f4ebf580",
+      "Purple dark": "#77048199",
+      "Black and white light": "#cccccc59",
+      "Black and white dark": "#40404059",
+      "Green light": "#cbe58959",
+      "Green dark": "#00000059"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-surface-highlight",
+      "Visa dark": "Visa dark/vdark-surface-highlight",
+      "Gray blue light": "Gray blue light/gb-surface-highlight",
+      "Gray blue dark": "Gray blue dark/gbdark-surface-highlight",
+      "Purple light": "Purple light/p-surface-highlight",
+      "Purple dark": "Purple dark/pdark-surface-highlight",
+      "Black and white light": "Black and white light/bw-surface-highlight",
+      "Black and white dark": "Black and white dark/bwdark-surface-highlight",
+      "Green light": "Green light/g-surface-highlight",
+      "Green dark": "Green dark/gdark-surface-highlight"
+     }
+    },
+    {
+     "name": "Color/Surface/surface-lowlight",
+     "type": "COLOR",
+     "key": "f8a7e2d434fac4b63e78b0d44ca2290c9f9076c6",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#b3d7ff99",
+      "Visa dark": "#00000099",
+      "Gray blue light": "#adbcea99",
+      "Gray blue dark": "#00000099",
+      "Purple light": "#f4ebf5bf",
+      "Purple dark": "#77048159",
+      "Black and white light": "#cccccc99",
+      "Black and white dark": "#40404099",
+      "Green light": "#cbe58999",
+      "Green dark": "#00000099"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-surface-lowlight",
+      "Visa dark": "Visa dark/vdark-surface-lowlight",
+      "Gray blue light": "Gray blue light/gb-surface-lowlight",
+      "Gray blue dark": "Gray blue dark/gbdark-surface-lowlight",
+      "Purple light": "Purple light/p-surface-lowlight",
+      "Purple dark": "Purple dark/pdark-surface-lowlight",
+      "Black and white light": "Black and white light/bw-surface-lowlight",
+      "Black and white dark": "Black and white dark/bwdark-surface-lowlight",
+      "Green light": "Green light/g-surface-lowlight",
+      "Green dark": "Green dark/gdark-surface-lowlight"
+     }
+    },
+    {
+     "name": "Color/Text/on-active",
+     "type": "COLOR",
+     "key": "cf66516d715b6dada817858986af8f7d50ea8f17",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#ffffff",
+      "Visa dark": "#2e2e2e",
+      "Gray blue light": "#ffffff",
+      "Gray blue dark": "#272727",
+      "Purple light": "#ffffff",
+      "Purple dark": "#000000",
+      "Black and white light": "#ffffff",
+      "Black and white dark": "#000000",
+      "Green light": "#ffffff",
+      "Green dark": "#1a2419"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-on-active",
+      "Visa dark": "Visa dark/vdark-on-active",
+      "Gray blue light": "Gray blue light/gb-on-active",
+      "Gray blue dark": "Gray blue dark/gbdark-on-active",
+      "Purple light": "Purple light/p-on-active",
+      "Purple dark": "Purple dark/pdark-on-active",
+      "Black and white light": "Black and white light/bw-on-active",
+      "Black and white dark": "Black and white dark/bwdark-on-active",
+      "Green light": "Green light/g-on-active",
+      "Green dark": "Green dark/gdark-on-active"
+     }
+    },
+    {
+     "name": "Color/Text/text",
+     "type": "COLOR",
+     "key": "923cbf177945bf9dd991ca24424b50e2c5e31f99",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#000000",
+      "Visa dark": "#ffffff",
+      "Gray blue light": "#22242a",
+      "Gray blue dark": "#ffffff",
+      "Purple light": "#000000",
+      "Purple dark": "#ffffff",
+      "Black and white light": "#000000",
+      "Black and white dark": "#f6f6f6",
+      "Green light": "#000000",
+      "Green dark": "#ffffff"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-text",
+      "Visa dark": "Visa dark/vdark-text",
+      "Gray blue light": "Gray blue light/gb-text",
+      "Gray blue dark": "Gray blue dark/gbdark-text",
+      "Purple light": "Purple light/p-text",
+      "Purple dark": "Purple dark/pdark-text",
+      "Black and white light": "Black and white light/bw-text",
+      "Black and white dark": "Black and white dark/bwdark-text",
+      "Green light": "Green light/g-text",
+      "Green dark": "Green dark/gdark-text"
+     }
+    },
+    {
+     "name": "Color/Text/text-subtle",
+     "type": "COLOR",
+     "key": "40bd9d14f120536cb46b825a89e6752b226842f4",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#4a4a4a",
+      "Visa dark": "#d9d9d9",
+      "Gray blue light": "#444855",
+      "Gray blue dark": "#cad2e8",
+      "Purple light": "#4a4a4a",
+      "Purple dark": "#d9d9d9",
+      "Black and white light": "#4a4a4a",
+      "Black and white dark": "#ececec",
+      "Green light": "#4a4a4a",
+      "Green dark": "#cddbc0"
+     },
+     "aliases": {
+      "Visa light": "Visa light/v-text-subtle",
+      "Visa dark": "Visa dark/vdark-text-subtle",
+      "Gray blue light": "Gray blue light/gb-text-subtle",
+      "Gray blue dark": "Gray blue dark/gbdark-text-subtle",
+      "Purple light": "Purple light/p-text-subtle",
+      "Purple dark": "Purple dark/pdark-text-subtle",
+      "Black and white light": "Black and white light/bw-text-subtle",
+      "Black and white dark": "Black and white dark/bwdark-text-subtle",
+      "Green light": "Green light/g-text-subtle",
+      "Green dark": "Green dark/gdark-text-subtle"
+     }
+    },
+    {
+     "name": "Color/Visa accent/accent-1",
+     "type": "COLOR",
+     "key": "6a902d38b359170e8c8ea9b411c38120cd549722",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#1434cb",
+      "Visa dark": "#bdeaff",
+      "Gray blue light": "#2947a3",
+      "Gray blue dark": "#b6c2ed",
+      "Purple light": "#92059e",
+      "Purple dark": "#e4bbe7",
+      "Black and white light": "#202020",
+      "Black and white dark": "#ffffff",
+      "Green light": "#295a20",
+      "Green dark": "#cbe589"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Visa accent/v-accent-1",
+      "Visa dark": "Visa dark/Visa accent/vdark-accent-1",
+      "Gray blue light": "Gray blue light/gb-active",
+      "Gray blue dark": "Gray blue dark/gbdark-active",
+      "Purple light": "Purple light/p-active",
+      "Purple dark": "Purple dark/pdark-active",
+      "Black and white light": "Black and white light/bw-active",
+      "Black and white dark": "Black and white dark/bwdark-active",
+      "Green light": "Green light/g-active",
+      "Green dark": "Green dark/gdark-active"
+     }
+    },
+    {
+     "name": "Color/Visa accent/accent-1-hover",
+     "type": "COLOR",
+     "key": "3bd5896098f2a5dea7351b3a23b316886e308c22",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#173be8",
+      "Visa dark": "#dbf4ff",
+      "Gray blue light": "#2f52bc",
+      "Gray blue dark": "#ced6f3",
+      "Purple light": "#ae06bc",
+      "Purple dark": "#edd2ef",
+      "Black and white light": "#2e2e2e",
+      "Black and white dark": "#f0f0f0",
+      "Green light": "#337029",
+      "Green dark": "#d9f592"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Visa accent/v-accent-1-hover",
+      "Visa dark": "Visa dark/Visa accent/vdark-accent-1-hover",
+      "Gray blue light": "Gray blue light/gb-active-hover",
+      "Gray blue dark": "Gray blue dark/gbdark-active-hover",
+      "Purple light": "Purple light/p-active-hover",
+      "Purple dark": "Purple dark/pdark-active-hover",
+      "Black and white light": "Black and white light/bw-active-hover",
+      "Black and white dark": "Black and white dark/bwdark-active-hover",
+      "Green light": "Green light/g-active-hover",
+      "Green dark": "Green dark/gdark-active-hover"
+     }
+    },
+    {
+     "name": "Color/Visa accent/accent-1-pressed",
+     "type": "COLOR",
+     "key": "8cee32ced8ca0684376dff4a12e60f47d83531d0",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#0f2595",
+      "Visa dark": "#80d7ff",
+      "Gray blue light": "#1d3272",
+      "Gray blue dark": "#8599e0",
+      "Purple light": "#5c0363",
+      "Purple dark": "#d28ed7",
+      "Black and white light": "#000000",
+      "Black and white dark": "#e0e0e0",
+      "Green light": "#152d10",
+      "Green dark": "#b0c777"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Visa accent/v-accent-1-pressed",
+      "Visa dark": "Visa dark/Visa accent/vdark-accent-1-pressed",
+      "Gray blue light": "Gray blue light/gb-active-pressed",
+      "Gray blue dark": "Gray blue dark/gbdark-active-pressed",
+      "Purple light": "Purple light/p-active-pressed",
+      "Purple dark": "Purple dark/pdark-active-pressed",
+      "Black and white light": "Black and white light/bw-active-pressed",
+      "Black and white dark": "Black and white dark/bwdark-active-pressed",
+      "Green light": "Green light/g-active-pressed",
+      "Green dark": "Green dark/gdark-active-pressed"
+     }
+    },
+    {
+     "name": "Color/Visa accent/accent-2",
+     "type": "COLOR",
+     "key": "d8eaf0f83137aec16ad9f7360738e8ead92bc987",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#fcc015",
+      "Visa dark": "#2e2e2e",
+      "Gray blue light": "#ffffff",
+      "Gray blue dark": "#272727",
+      "Purple light": "#ffffff",
+      "Purple dark": "#000000",
+      "Black and white light": "#ffffff",
+      "Black and white dark": "#000000",
+      "Green light": "#ffffff",
+      "Green dark": "#1a2419"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Visa accent/v-accent-2",
+      "Visa dark": "Visa dark/Visa accent/vdark-accent-2",
+      "Gray blue light": "Gray blue light/gb-on-active",
+      "Gray blue dark": "Gray blue dark/gbdark-on-active",
+      "Purple light": "Purple light/p-on-active",
+      "Purple dark": "Purple dark/pdark-on-active",
+      "Black and white light": "Black and white light/bw-on-active",
+      "Black and white dark": "Black and white dark/bwdark-on-active",
+      "Green light": "Green light/g-on-active",
+      "Green dark": "Green dark/gdark-on-active"
+     }
+    },
+    {
+     "name": "Color/Visa accent/accent-app-name",
+     "type": "COLOR",
+     "key": "c19b9b7b0920c55dd35ad8205107ec156ed5bbe6",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Visa light": "#1434cb",
+      "Visa dark": "#ffffff",
+      "Gray blue light": "#22242a",
+      "Gray blue dark": "#ffffff",
+      "Purple light": "#000000",
+      "Purple dark": "#ffffff",
+      "Black and white light": "#000000",
+      "Black and white dark": "#f6f6f6",
+      "Green light": "#000000",
+      "Green dark": "#ffffff"
+     },
+     "aliases": {
+      "Visa light": "Visa light/Visa accent/v-accent-app-name",
+      "Visa dark": "Visa dark/Visa accent/vdark-accent-app-name",
+      "Gray blue light": "Gray blue light/gb-text",
+      "Gray blue dark": "Gray blue dark/gbdark-text",
+      "Purple light": "Purple light/p-text",
+      "Purple dark": "Purple dark/pdark-text",
+      "Black and white light": "Black and white light/bw-text",
+      "Black and white dark": "Black and white dark/bwdark-text",
+      "Green light": "Green light/g-text",
+      "Green dark": "Green dark/gdark-text"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Padding",
+   "key": "1174b79680b55f7130cd4abdd20a08b9c17097f8",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Default",
+    "Spacious",
+    "Dense"
+   ],
+   "defaultMode": "Default",
+   "variables": [
+    {
+     "name": "Padding overrides/badge-min-height",
+     "type": "FLOAT",
+     "key": "533760dd0e32751322efeeb60cb8c4194124412e",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 22,
+      "Spacious": 24,
+      "Dense": 20
+     },
+     "aliases": {
+      "Default": "Badge/default-badge-min-height",
+      "Spacious": "Badge/spacious-badge-min-height",
+      "Dense": "Badge/dense-badge-min-height"
+     }
+    },
+    {
+     "name": "Padding overrides/chip-TB-padding",
+     "type": "FLOAT",
+     "key": "f43912e5b499b024256da8a025b4feb176c69a55",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 6,
+      "Spacious": 8,
+      "Dense": 5
+     },
+     "aliases": {
+      "Default": "Chip/default-chip-TB-padding",
+      "Spacious": "Chip/spacious-chip-TB-padding",
+      "Dense": "Chip/dense-chip-TB-padding"
+     }
+    },
+    {
+     "name": "Padding overrides/chip-compact-button-height",
+     "type": "FLOAT",
+     "key": "a0be9a69fffaa8052d96f0a4c48f84c5598213d6",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 28,
+      "Spacious": 30,
+      "Dense": 26
+     },
+     "aliases": {
+      "Default": "Chip/default-compact-chip-button",
+      "Spacious": "Chip/spacious-compact-chip-button",
+      "Dense": "Chip/dense-compact-chip-button"
+     }
+    },
+    {
+     "name": "Padding overrides/chip-default-button",
+     "type": "FLOAT",
+     "key": "98b0aabb8fa2cc4d6561db68101389994fd8ccc2",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 30,
+      "Spacious": 36,
+      "Dense": 28
+     },
+     "aliases": {
+      "Default": "Chip/default-chip-button",
+      "Spacious": "Chip/spacious-chip-button",
+      "Dense": "Chip/dense-chip-button"
+     }
+    },
+    {
+     "name": "Padding overrides/contentcard-ui-T-padding",
+     "type": "FLOAT",
+     "key": "02ded383f44074afeea44965937914402cc95b8f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 14,
+      "Spacious": 21,
+      "Dense": 13
+     },
+     "aliases": {
+      "Default": "Content card/default-contentcard-ui-T-padding",
+      "Spacious": "Content card/spacious-contentcard-ui-T-padding",
+      "Dense": "Content card/dense-contentcard-ui-T-padding"
+     }
+    },
+    {
+     "name": "Padding overrides/file-card-ui-button",
+     "type": "FLOAT",
+     "key": "0fd26896daa80515cfa1fd456829526b905ec920",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 32,
+      "Spacious": 36,
+      "Dense": 28
+     },
+     "aliases": {
+      "Default": "File upload/file-card-ui-button-default",
+      "Spacious": "File upload/file-card-ui-button-spacious",
+      "Dense": "File upload/file-card-ui-button-dense"
+     }
+    },
+    {
+     "name": "Padding overrides/hnav-stacked-bottom-height",
+     "type": "FLOAT",
+     "key": "96efea00e66c7bceaddf826fea9137e1f0cd2eae",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 68,
+      "Spacious": 78,
+      "Dense": 56
+     },
+     "aliases": {
+      "Default": "Horizontal nav/default-hnav-stacked-bottom-height",
+      "Spacious": "Horizontal nav/spacious-hnav-stacked-bottom-height",
+      "Dense": "Horizontal nav/dense-hnav-stacked-bottom-height"
+     }
+    },
+    {
+     "name": "Padding overrides/htab-max-height",
+     "type": "FLOAT",
+     "key": "d9edd2a060840bac320ce55952172d902794f18c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 46,
+      "Spacious": 54,
+      "Dense": 40
+     },
+     "aliases": {
+      "Default": "Tabs/htab-max-height-default",
+      "Spacious": "Tabs/htab-max-height-spacious",
+      "Dense": "Tabs/htab-max-height-dense"
+     }
+    },
+    {
+     "name": "Padding overrides/input-height",
+     "type": "FLOAT",
+     "key": "5a65a7f78df4fcc0e2dd6af2bf72395f6552f0e8",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 38,
+      "Spacious": 44,
+      "Dense": 34
+     },
+     "aliases": {
+      "Default": "Input/default-input-height",
+      "Spacious": "Input/spacious-input-height",
+      "Dense": "Input/dense-input-height"
+     }
+    },
+    {
+     "name": "Padding overrides/input-min-height",
+     "type": "FLOAT",
+     "key": "6ec3fab9a6ed227e48e6aea4ea64aa962a69a803",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 38,
+      "Spacious": 44,
+      "Dense": 34
+     },
+     "aliases": {
+      "Default": "Input/default-input-height",
+      "Spacious": "Input/spacious-input-height",
+      "Dense": "Input/dense-input-height"
+     }
+    },
+    {
+     "name": "Padding overrides/input-ui-button-height",
+     "type": "FLOAT",
+     "key": "5de899e0164dce6dd0a300f9948e9d9eeea5a671",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 32,
+      "Spacious": 38,
+      "Dense": 28
+     },
+     "aliases": {
+      "Default": "Input/default-input-ui-button-height",
+      "Spacious": "Input/spacious-input-ui-button-height",
+      "Dense": "Input/dense-input-ui-button-height"
+     }
+    },
+    {
+     "name": "Padding overrides/l-button-height",
+     "type": "FLOAT",
+     "key": "7348bb62762c4197c04375a71b2c5bbdf2ef119a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 46,
+      "Spacious": 52,
+      "Dense": 40
+     },
+     "aliases": {
+      "Default": "Button/default-l-button-height",
+      "Spacious": "Button/spacious-l-button-height",
+      "Dense": "Button/dense-l-button-height"
+     }
+    },
+    {
+     "name": "Padding overrides/m-button-height",
+     "type": "FLOAT",
+     "key": "4a77c91c4358e9482e1f8f4ae232c2f03fdc6d95",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 38,
+      "Spacious": 44,
+      "Dense": 34
+     },
+     "aliases": {
+      "Default": "Button/default-m-button-height",
+      "Spacious": "Button/spacious-m-button-height",
+      "Dense": "Button/dense-m-button-height"
+     }
+    },
+    {
+     "name": "Padding overrides/multiselect-min-height",
+     "type": "FLOAT",
+     "key": "58f2656cd6005eeb549739f058de1ac2ac885a55",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 38,
+      "Spacious": 44,
+      "Dense": 38
+     },
+     "aliases": {
+      "Default": "Multiselect/default-multiselect-min-height",
+      "Spacious": "Multiselect/spacious-multiselect-min-height",
+      "Dense": "Multiselect/dense-multiselect-min-height"
+     }
+    },
+    {
+     "name": "Padding overrides/s-button-height",
+     "type": "FLOAT",
+     "key": "ecfaaf2c01c1f487b02e6a61c3e719b63b36e289",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 32,
+      "Spacious": 36,
+      "Dense": 28
+     },
+     "aliases": {
+      "Default": "Button/default-s-button-height",
+      "Spacious": "Button/spacious-s-button-height",
+      "Dense": "Button/dense-s-button-height"
+     }
+    },
+    {
+     "name": "Padding overrides/textarea-TB-padding",
+     "type": "FLOAT",
+     "key": "933e4795e4738804effed9eed86ebb5e1344d063",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 7,
+      "Spacious": 9,
+      "Dense": 5
+     },
+     "aliases": {
+      "Default": "Text area/default-textarea-padding-TB",
+      "Spacious": "Text area/spacious-textarea-padding-TB",
+      "Dense": "Text area/dense-textarea-padding-TB"
+     }
+    },
+    {
+     "name": "Padding overrides/vtab-min-height",
+     "type": "FLOAT",
+     "key": "391e44bc6f9fa59667733ca4a2337ca45a0d5598",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 40,
+      "Spacious": 42,
+      "Dense": 38
+     },
+     "aliases": {
+      "Default": "Tabs/vtab-min-height-default",
+      "Spacious": "Tabs/vtab-min-height-spacious",
+      "Dense": "Tabs/vtab-min-height-dense"
+     }
+    },
+    {
+     "name": "size-0",
+     "type": "FLOAT",
+     "key": "8ad49a0e67746ced64b6411e2b85e8cff3dab177",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 0,
+      "Spacious": 0,
+      "Dense": 0
+     },
+     "aliases": {
+      "Default": "Size/Default/size-0",
+      "Spacious": "Size/Spacious/size-0",
+      "Dense": "Size/Dense/size-0"
+     }
+    },
+    {
+     "name": "size-10",
+     "type": "FLOAT",
+     "key": "e222582de1a88188814064f2fc68ed9d1f8d743b",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 1,
+      "Spacious": 1,
+      "Dense": 1
+     },
+     "aliases": {
+      "Default": "Size/Default/size-10",
+      "Spacious": "Size/Spacious/size-10",
+      "Dense": "Size/Dense/size-10"
+     }
+    },
+    {
+     "name": "size-100",
+     "type": "FLOAT",
+     "key": "1807d7c84854ffeb2c4f4710d4e8b756e12f4860",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 8,
+      "Spacious": 10,
+      "Dense": 6
+     },
+     "aliases": {
+      "Default": "Size/Default/size-100",
+      "Spacious": "Size/Spacious/size-100",
+      "Dense": "Size/Dense/size-100"
+     }
+    },
+    {
+     "name": "size-115",
+     "type": "FLOAT",
+     "key": "7fb993d609b3ed15ac8a99b7ab9cf3a00b0efb64",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 9,
+      "Spacious": 11,
+      "Dense": 7
+     },
+     "aliases": {
+      "Default": "Size/Default/size-115",
+      "Spacious": "Size/Spacious/size-115",
+      "Dense": "Size/Dense/size-115"
+     }
+    },
+    {
+     "name": "size-120",
+     "type": "FLOAT",
+     "key": "1b1d1ba2fa73cf15e4024cb8d4eaef71812a83a5",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 10,
+      "Spacious": 12,
+      "Dense": 8
+     },
+     "aliases": {
+      "Default": "Size/Default/size-120",
+      "Spacious": "Size/Spacious/size-120",
+      "Dense": "Size/Dense/size-120"
+     }
+    },
+    {
+     "name": "size-125",
+     "type": "FLOAT",
+     "key": "544016c2784629d0e2228b449bb29b936214e5ba",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 10,
+      "Spacious": 13,
+      "Dense": 8
+     },
+     "aliases": {
+      "Default": "Size/Default/size-125",
+      "Spacious": "Size/Spacious/size-125",
+      "Dense": "Size/Dense/size-125"
+     }
+    },
+    {
+     "name": "size-130",
+     "type": "FLOAT",
+     "key": "9597887b99aaf7c134ef5d636b985e2868fa7374",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 11,
+      "Spacious": 14,
+      "Dense": 8
+     },
+     "aliases": {
+      "Default": "Size/Default/size-130",
+      "Spacious": "Size/Spacious/size-130",
+      "Dense": "Size/Dense/size-130"
+     }
+    },
+    {
+     "name": "size-150",
+     "type": "FLOAT",
+     "key": "3f4c541f98e3eb72d0fa6084d6c4f4c5df27dc20",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 12,
+      "Spacious": 15,
+      "Dense": 9
+     },
+     "aliases": {
+      "Default": "Size/Default/size-150",
+      "Spacious": "Size/Spacious/size-150",
+      "Dense": "Size/Dense/size-150"
+     }
+    },
+    {
+     "name": "size-160",
+     "type": "FLOAT",
+     "key": "fe5648fbd06b3aabb1ef4602e574ea6d3ee074f0",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 13,
+      "Spacious": 16,
+      "Dense": 10
+     },
+     "aliases": {
+      "Default": "Size/Default/size-160",
+      "Spacious": "Size/Spacious/size-160",
+      "Dense": "Size/Dense/size-160"
+     }
+    },
+    {
+     "name": "size-175",
+     "type": "FLOAT",
+     "key": "d694ccaedd980073697c6f6525a81286e0361f84",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 14,
+      "Spacious": 18,
+      "Dense": 11
+     },
+     "aliases": {
+      "Default": "Size/Default/size-175",
+      "Spacious": "Size/Spacious/size-175",
+      "Dense": "Size/Dense/size-175"
+     }
+    },
+    {
+     "name": "size-185",
+     "type": "FLOAT",
+     "key": "293b7162c291b4e6553824ba00145ccce0a07a6a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 15,
+      "Spacious": 19,
+      "Dense": 11
+     },
+     "aliases": {
+      "Default": "Size/Default/size-185",
+      "Spacious": "Size/Spacious/size-185",
+      "Dense": "Size/Dense/size-185"
+     }
+    },
+    {
+     "name": "size-200",
+     "type": "FLOAT",
+     "key": "a2ba467f45704bdf5ba4b71df471a19076d1c936",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 16,
+      "Spacious": 20,
+      "Dense": 12
+     },
+     "aliases": {
+      "Default": "Size/Default/size-200",
+      "Spacious": "Size/Spacious/size-200",
+      "Dense": "Size/Dense/size-200"
+     }
+    },
+    {
+     "name": "size-225",
+     "type": "FLOAT",
+     "key": "0abba31b78db1e63bcdb9aba3f7ae106fde09b32",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 18,
+      "Spacious": 22,
+      "Dense": 14
+     },
+     "aliases": {
+      "Default": "Size/Default/size-225",
+      "Spacious": "Size/Spacious/size-225",
+      "Dense": "Size/Dense/size-225"
+     }
+    },
+    {
+     "name": "size-25",
+     "type": "FLOAT",
+     "key": "afb81580c0a6a9f84d24734417224aa60c873c07",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 2,
+      "Spacious": 3,
+      "Dense": 2
+     },
+     "aliases": {
+      "Default": "Size/Default/size-25",
+      "Spacious": "Size/Spacious/size-25",
+      "Dense": "Size/Dense/size-25"
+     }
+    },
+    {
+     "name": "size-250",
+     "type": "FLOAT",
+     "key": "4b437d89477e16ccdb5213c9ef6d9693324b39e6",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 20,
+      "Spacious": 25,
+      "Dense": 15
+     },
+     "aliases": {
+      "Default": "Size/Default/size-250",
+      "Spacious": "Size/Spacious/size-250",
+      "Dense": "Size/Dense/size-250"
+     }
+    },
+    {
+     "name": "size-275",
+     "type": "FLOAT",
+     "key": "9f38ab2a150ebe4db8b28b692506307eef3c4f95",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 22,
+      "Spacious": 28,
+      "Dense": 17
+     },
+     "aliases": {
+      "Default": "Size/Default/size-275",
+      "Spacious": "Size/Spacious/size-275",
+      "Dense": "Size/Dense/size-275"
+     }
+    },
+    {
+     "name": "size-300",
+     "type": "FLOAT",
+     "key": "f1122665e53e3d6fe5cbb0f7f21a1536850428d4",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 24,
+      "Spacious": 30,
+      "Dense": 18
+     },
+     "aliases": {
+      "Default": "Size/Default/size-300",
+      "Spacious": "Size/Spacious/size-300",
+      "Dense": "Size/Dense/size-300"
+     }
+    },
+    {
+     "name": "size-325",
+     "type": "FLOAT",
+     "key": "2e5473823595c218f4f2e68efc02539470ffe5f2",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 26,
+      "Spacious": 32,
+      "Dense": 20
+     },
+     "aliases": {
+      "Default": "Size/Default/size-325",
+      "Spacious": "Size/Spacious/size-325",
+      "Dense": "Size/Dense/size-325"
+     }
+    },
+    {
+     "name": "size-350",
+     "type": "FLOAT",
+     "key": "63794cbbd2c7911a7530eee81c95da874dba10f9",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 28,
+      "Spacious": 35,
+      "Dense": 21
+     },
+     "aliases": {
+      "Default": "Size/Default/size-350",
+      "Spacious": "Size/Spacious/size-350",
+      "Dense": "Size/Dense/size-350"
+     }
+    },
+    {
+     "name": "size-360",
+     "type": "FLOAT",
+     "key": "3fef9797370f171150ff52e65e25f04f11a0ebb4",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 29,
+      "Spacious": 36,
+      "Dense": 22
+     },
+     "aliases": {
+      "Default": "Size/Default/size-360",
+      "Spacious": "Size/Spacious/size-360",
+      "Dense": "Size/Dense/size-360"
+     }
+    },
+    {
+     "name": "size-40",
+     "type": "FLOAT",
+     "key": "4fa77bcf6c7c7388c4814e7aeccccf34e850aefe",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 3,
+      "Spacious": 4,
+      "Dense": 2
+     },
+     "aliases": {
+      "Default": "Size/Default/size-40",
+      "Spacious": "Size/Spacious/size-40",
+      "Dense": "Size/Dense/size-40"
+     }
+    },
+    {
+     "name": "size-400",
+     "type": "FLOAT",
+     "key": "f1b0a2d8ea1c1107517d045d78b534020bec0d66",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 32,
+      "Spacious": 40,
+      "Dense": 24
+     },
+     "aliases": {
+      "Default": "Size/Default/size-400",
+      "Spacious": "Size/Spacious/size-400",
+      "Dense": "Size/Dense/size-400"
+     }
+    },
+    {
+     "name": "size-450",
+     "type": "FLOAT",
+     "key": "d6706e34366f656f7659fd2611db9fb68a211980",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 36,
+      "Spacious": 45,
+      "Dense": 27
+     },
+     "aliases": {
+      "Default": "Size/Default/size-450",
+      "Spacious": "Size/Spacious/size-450",
+      "Dense": "Size/Dense/size-450"
+     }
+    },
+    {
+     "name": "size-50",
+     "type": "FLOAT",
+     "key": "70b80d43bb66c608e61b24016cbaae65313beec8",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 4,
+      "Spacious": 5,
+      "Dense": 3
+     },
+     "aliases": {
+      "Default": "Size/Default/size-50",
+      "Spacious": "Size/Spacious/size-50",
+      "Dense": "Size/Dense/size-50"
+     }
+    },
+    {
+     "name": "size-500",
+     "type": "FLOAT",
+     "key": "d1256206876b8e383589fd2d9daa0d1d4841bcbe",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 40,
+      "Spacious": 50,
+      "Dense": 30
+     },
+     "aliases": {
+      "Default": "Size/Default/size-500",
+      "Spacious": "Size/Spacious/size-500",
+      "Dense": "Size/Dense/size-500"
+     }
+    },
+    {
+     "name": "size-525",
+     "type": "FLOAT",
+     "key": "3c1ea948a87bf42519079abece49aada87757276",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 42,
+      "Spacious": 53,
+      "Dense": 32
+     },
+     "aliases": {
+      "Default": "Size/Default/size-525",
+      "Spacious": "Size/Spacious/size-525",
+      "Dense": "Size/Dense/size-525"
+     }
+    },
+    {
+     "name": "size-550",
+     "type": "FLOAT",
+     "key": "2f153bb7e881c41281c4885d4e899f4accf5db55",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 44,
+      "Spacious": 55,
+      "Dense": 33
+     },
+     "aliases": {
+      "Default": "Size/Default/size-550",
+      "Spacious": "Size/Spacious/size-550",
+      "Dense": "Size/Dense/size-550"
+     }
+    },
+    {
+     "name": "size-600",
+     "type": "FLOAT",
+     "key": "f2494d27e2a7e56a490c450777018c1e7c09b37f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 48,
+      "Spacious": 70,
+      "Dense": 36
+     },
+     "aliases": {
+      "Default": "Size/Default/size-600",
+      "Spacious": "Size/Spacious/size-600",
+      "Dense": "Size/Dense/size-600"
+     }
+    },
+    {
+     "name": "size-65",
+     "type": "FLOAT",
+     "key": "c9ee438c39d65b7cc10e4643a9f47764538b37ff",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 5,
+      "Spacious": 6,
+      "Dense": 4
+     },
+     "aliases": {
+      "Default": "Size/Default/size-65",
+      "Spacious": "Size/Spacious/size-65",
+      "Dense": "Size/Dense/size-65"
+     }
+    },
+    {
+     "name": "size-75",
+     "type": "FLOAT",
+     "key": "7821f6f6603514c9698d381c90edd85952661b5c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 6,
+      "Spacious": 8,
+      "Dense": 5
+     },
+     "aliases": {
+      "Default": "Size/Default/size-75",
+      "Spacious": "Size/Spacious/size-75",
+      "Dense": "Size/Dense/size-75"
+     }
+    },
+    {
+     "name": "size-85",
+     "type": "FLOAT",
+     "key": "d5269f71298cfd199912f3c15ddc0e356d85140a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 7,
+      "Spacious": 9,
+      "Dense": 5
+     },
+     "aliases": {
+      "Default": "Size/Default/size-85",
+      "Spacious": "Size/Spacious/size-85",
+      "Dense": "Size/Dense/size-85"
+     }
+    },
+    {
+     "name": "static-size-100",
+     "type": "FLOAT",
+     "key": "73108974a62f5a6c70528d83f488594391113909",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 8,
+      "Spacious": 10,
+      "Dense": 6
+     },
+     "aliases": {
+      "Default": "Size/Default/static-size-100",
+      "Spacious": "Size/Spacious/static-size-100",
+      "Dense": "Size/Dense/static-size-100"
+     }
+    },
+    {
+     "name": "static-size-130",
+     "type": "FLOAT",
+     "key": "688ee229d1fbbbbead531512a30c9038def1ea72",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 11,
+      "Spacious": 14,
+      "Dense": 8
+     },
+     "aliases": {
+      "Default": "Size/Default/static-size-130",
+      "Spacious": "Size/Spacious/static-size-130",
+      "Dense": "Size/Dense/static-size-130"
+     }
+    },
+    {
+     "name": "static-size-150",
+     "type": "FLOAT",
+     "key": "46f7df1ad539f16772ad771f38a4cf15d8f1698d",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 12,
+      "Spacious": 15,
+      "Dense": 9
+     },
+     "aliases": {
+      "Default": "Size/Default/static-size-150",
+      "Spacious": "Size/Spacious/static-size-150",
+      "Dense": "Size/Dense/static-size-150"
+     }
+    },
+    {
+     "name": "static-size-175",
+     "type": "FLOAT",
+     "key": "d2fad20d121557ed73569b79f20714c44b582cf6",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": 14,
+      "Spacious": 18,
+      "Dense": 11
+     },
+     "aliases": {
+      "Default": "Size/Default/static-size-175",
+      "Spacious": "Size/Spacious/static-size-175",
+      "Dense": "Size/Dense/static-size-175"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Shape",
+   "key": "b99a29882936ea5596f8d1d3c3c2caaee4c3121e",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Rounded (default)",
+    "Less rounded",
+    "Full rounded",
+    "Square"
+   ],
+   "defaultMode": "Rounded (default)",
+   "variables": [
+    {
+     "name": "full",
+     "type": "FLOAT",
+     "key": "9353bc971ca2e0792116a6df0c7ba155911d0be8",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Rounded (default)": 48,
+      "Less rounded": 48,
+      "Full rounded": 48,
+      "Square": 48
+     },
+     "aliases": {
+      "Rounded (default)": "Shape token/shape-375",
+      "Less rounded": "Shape token/shape-375",
+      "Full rounded": "Shape token/shape-375",
+      "Square": "Shape token/shape-375"
+     }
+    },
+    {
+     "name": "large",
+     "type": "FLOAT",
+     "key": "46ded775831855546676fa031800cff22bdd9f01",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Rounded (default)": 8,
+      "Less rounded": 6,
+      "Full rounded": 16,
+      "Square": 0
+     },
+     "aliases": {
+      "Rounded (default)": "Shape token/shape-100",
+      "Less rounded": "Shape token/shape-75",
+      "Full rounded": "Shape token/shape-200",
+      "Square": "Shape token/shape-0"
+     }
+    },
+    {
+     "name": "large-lists",
+     "type": "FLOAT",
+     "key": "4bf91dccdcdd6045f0bc5f225ea8abc2edd40e3a",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Rounded (default)": 8,
+      "Less rounded": 6,
+      "Full rounded": 24,
+      "Square": 0
+     },
+     "aliases": {
+      "Rounded (default)": "Shape token/shape-100",
+      "Less rounded": "Shape token/shape-75",
+      "Full rounded": "Shape token/shape-250",
+      "Square": "Shape token/shape-0"
+     }
+    },
+    {
+     "name": "medium",
+     "type": "FLOAT",
+     "key": "e85693c25c89f1c129a18da6ef9ec0927a971364",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Rounded (default)": 6,
+      "Less rounded": 4,
+      "Full rounded": 27,
+      "Square": 0
+     },
+     "aliases": {
+      "Rounded (default)": "Shape token/shape-75",
+      "Less rounded": "Shape token/shape-50",
+      "Full rounded": "Shape token/shape-300",
+      "Square": "Shape token/shape-0"
+     }
+    },
+    {
+     "name": "none",
+     "type": "FLOAT",
+     "key": "07b68aad4b1270ac31ec17da5d1fec185a182faf",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Rounded (default)": 0,
+      "Less rounded": 0,
+      "Full rounded": 0,
+      "Square": 0
+     },
+     "aliases": {
+      "Rounded (default)": "Shape token/shape-0",
+      "Less rounded": "Shape token/shape-0",
+      "Full rounded": "Shape token/shape-0",
+      "Square": "Shape token/shape-0"
+     }
+    },
+    {
+     "name": "small",
+     "type": "FLOAT",
+     "key": "24b188a8228a91b6ced05646773809705f0b7bc0",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Rounded (default)": 4,
+      "Less rounded": 2,
+      "Full rounded": 18,
+      "Square": 0
+     },
+     "aliases": {
+      "Rounded (default)": "Shape token/shape-50",
+      "Less rounded": "Shape token/shape-25",
+      "Full rounded": "Shape token/shape-225",
+      "Square": "Shape token/shape-0"
+     }
+    },
+    {
+     "name": "x-large",
+     "type": "FLOAT",
+     "key": "dea03cc0eb63a75bd37e60108147a44c1421fb66",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Rounded (default)": 10,
+      "Less rounded": 8,
+      "Full rounded": 16,
+      "Square": 0
+     },
+     "aliases": {
+      "Rounded (default)": "Shape token/shape-125",
+      "Less rounded": "Shape token/shape-100",
+      "Full rounded": "Shape token/shape-200",
+      "Square": "Shape token/shape-0"
+     }
+    },
+    {
+     "name": "x-small",
+     "type": "FLOAT",
+     "key": "f16d2434c2a01db275d6fe05802c98559501c32f",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Rounded (default)": 2,
+      "Less rounded": 1,
+      "Full rounded": 2,
+      "Square": 0
+     },
+     "aliases": {
+      "Rounded (default)": "Shape token/shape-25",
+      "Less rounded": "Shape token/shape-10",
+      "Full rounded": "Shape token/shape-25",
+      "Square": "Shape token/shape-0"
+     }
+    },
+    {
+     "name": "xx-large",
+     "type": "FLOAT",
+     "key": "f4571dd3f595c7284c827e69504819c3246fdfa9",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Rounded (default)": 16,
+      "Less rounded": 10,
+      "Full rounded": 16,
+      "Square": 0
+     },
+     "aliases": {
+      "Rounded (default)": "Shape token/shape-200",
+      "Less rounded": "Shape token/shape-125",
+      "Full rounded": "Shape token/shape-200",
+      "Square": "Shape token/shape-0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Color Styles(Primitive)",
+   "key": "0f491dff8b1f06fd5ea730150eac218aa9258f62",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Mode 1"
+   ],
+   "defaultMode": "Mode 1",
+   "variables": [
+    {
+     "name": "Chart/Axis-baseline",
+     "type": "COLOR",
+     "key": "17de4c582a32436f42b558717015fc011acc7466",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Mode 1": "#949494"
+     }
+    },
+    {
+     "name": "Chart/Gridline",
+     "type": "COLOR",
+     "key": "e821148eabd6104a68bbb43f4e9588f498d78ccd",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Mode 1": "#c9c9c9"
+     }
+    },
+    {
+     "name": "Typography/T600-tertiary",
+     "type": "COLOR",
+     "key": "9aec7a61a17432ab6b8c65030aaed4b584e802c4",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Mode 1": "#767676"
+     }
+    },
+    {
+     "name": "Typography/T700-secondary",
+     "type": "COLOR",
+     "key": "8bb21b6f76482e9ade760e95954e27632edb783c",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Mode 1": "#4a4a4a"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Palette-categorical",
+   "key": "b920bf7eb9dc796dd879b98efafa6d093ed143ee",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Default"
+   ],
+   "defaultMode": "Default",
+   "variables": [
+    {
+     "name": "Color/Border/00-vcc-categorical-border",
+     "type": "COLOR",
+     "key": "c7dc8785ae49732159a6f559f7f0de9c085e10dc",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Default": "#226092"
+     },
+     "aliases": {
+      "Default": "Palette-categorical/border/00-categorical-border-blue"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Palette-neutral",
+   "key": "debd8789845df8b885656e43f70b25ec6711c974",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "blue",
+    "grey",
+    "mutedBlue",
+    "darkBlue",
+    "purple",
+    "green"
+   ],
+   "defaultMode": "blue",
+   "variables": [
+    {
+     "name": "vcc-neutral",
+     "type": "COLOR",
+     "key": "daad3d461cea1f5dab7f7ca1279e53a804f853eb",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "blue": "#226092",
+      "grey": "#767676",
+      "mutedBlue": "#69769b",
+      "darkBlue": "#1a1f71",
+      "purple": "#796aaf",
+      "green": "#4c7b7e"
+     },
+     "aliases": {
+      "blue": "Palette-neutral-1color/00-neutral-blue",
+      "grey": "Palette-neutral-1color/00-neutral-grey",
+      "mutedBlue": "Palette-neutral-1color/00-neutral-mutedBlue",
+      "darkBlue": "Palette-neutral-1color/00-neutral-darkBlue",
+      "purple": "Palette-neutral-1color/00-neutral-purple",
+      "green": "Palette-neutral-1color/00-neutral-green"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Spacing",
+   "key": "75b923f0916f1d6bb29e783384a7152a63cf4e2e",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Mode 1"
+   ],
+   "defaultMode": "Mode 1",
+   "variables": [
+    {
+     "name": "large (h3 or h4)",
+     "type": "FLOAT",
+     "key": "908df0573de2c4f2a8f78406362f9c5f48bc5204",
+     "hidden": false,
+     "description": "Use within an h3 or h4 section",
+     "remote": true,
+     "values": {
+      "Mode 1": 36
+     }
+    },
+    {
+     "name": "med (sub1s and sub3s)",
+     "type": "FLOAT",
+     "key": "4dc1fe5392016d086806ac180f95a6bc7ff829cb",
+     "hidden": false,
+     "description": "Use between sections of sub1s and/or sub3s",
+     "remote": true,
+     "values": {
+      "Mode 1": 24
+     }
+    },
+    {
+     "name": "small (h or body + img)",
+     "type": "FLOAT",
+     "key": "d2cdf15a63d0f3b799dbe39045abcdd7ed095479",
+     "hidden": false,
+     "description": "Use between images and h/body copy",
+     "remote": true,
+     "values": {
+      "Mode 1": 16
+     }
+    },
+    {
+     "name": "x-large (h2)",
+     "type": "FLOAT",
+     "key": "c39b8512e6ace5f8a40ba4c265d262f838bd1708",
+     "hidden": false,
+     "description": "Use within an h2 section",
+     "remote": true,
+     "values": {
+      "Mode 1": 48
+     }
+    },
+    {
+     "name": "xsmall (h + body)",
+     "type": "FLOAT",
+     "key": "fd9e15d0992ec39164a6c1d4fd168e6a0c8fa663",
+     "hidden": false,
+     "description": "Use below h1, h2, h3, h4 and body",
+     "remote": true,
+     "values": {
+      "Mode 1": 8
+     }
+    },
+    {
+     "name": "xx-large (h1)",
+     "type": "FLOAT",
+     "key": "9019a8f5238e99185f9bbf5cb53703069b36b692",
+     "hidden": false,
+     "description": "Base page spacing",
+     "remote": true,
+     "values": {
+      "Mode 1": 64
+     }
+    }
+   ]
+  },
+  {
+   "name": "Image sizes",
+   "key": "a3575b373154953f7dda091a9bed2c190f2949df",
+   "remote": true,
+   "source": "bound in this file, owned by another library",
+   "modes": [
+    "Mode 1"
+   ],
+   "defaultMode": "Mode 1",
+   "variables": [
+    {
+     "name": "h-med",
+     "type": "FLOAT",
+     "key": "266845761fba8dec35cbf2ed97c50f6e475630f8",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Mode 1": 291
+     }
+    },
+    {
+     "name": "h-small",
+     "type": "FLOAT",
+     "key": "281765a7bde284ea32118c8afd70a68e344c863d",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Mode 1": 218
+     }
+    },
+    {
+     "name": "h-xsmall",
+     "type": "FLOAT",
+     "key": "818628e536104dd95178d01f9cf85b07be198de9",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Mode 1": 166
+     }
+    },
+    {
+     "name": "h-xxsmall",
+     "type": "FLOAT",
+     "key": "511880644de540ee15f9b97160816c169fa07e67",
+     "hidden": false,
+     "remote": true,
+     "values": {
+      "Mode 1": 120
+     }
+    }
+   ]
+  }
+ ],
+ "textStyles": [
+  {
+   "name": "Display 1",
+   "key": "d8c49e4706829b10e114bb309ac09ea0fc2e2805",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 60,
+   "lineHeight": "78px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "H1"
+  },
+  {
+   "name": "Display 2",
+   "key": "f02433b024bd8a1fbb1ac45e2046050cc78d22d9",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 48,
+   "lineHeight": "62px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "H1, H2"
+  },
+  {
+   "name": "Headline 1",
+   "key": "48711ccc03315f82ff0f30e848be5982f42398d6",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 32,
+   "lineHeight": "42px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "H1, H2"
+  },
+  {
+   "name": "Headline 2",
+   "key": "6f56ffc3a1468da27087895f88b8d624a6f77c69",
+   "family": "Noto Sans",
+   "style": "Medium",
+   "size": 25,
+   "lineHeight": "33px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "H1, H2, H3"
+  },
+  {
+   "name": "Headline 3",
+   "key": "a9571f4fb7367862b885251ab699656336fde2bd",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 20,
+   "lineHeight": "26px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "H2, H3, H4, H5"
+  },
+  {
+   "name": "Headline 4",
+   "key": "73d30f002ce8d0333b152894b648b4e308eeccda",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 18,
+   "lineHeight": "24px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "H2, H3, H4, H5, H6"
+  },
+  {
+   "name": "Subtitle 1",
+   "key": "b26b34e25628571615cfd8387f4db94e32578898",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 16,
+   "lineHeight": "21px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "H3, H4, H5, H6"
+  },
+  {
+   "name": "Subtitle 2",
+   "key": "f6db971b083a85eb3497017959f746ff8f120cd5",
+   "family": "Noto Sans",
+   "style": "Medium",
+   "size": 16,
+   "lineHeight": "21px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "H3, H4, H5, H6"
+  },
+  {
+   "name": "Subtitle 3",
+   "key": "bd4b3b5efdfd58ecb2ce94031b62639df46cef85",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 14,
+   "lineHeight": "18px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "H3, H4, H5, H6"
+  },
+  {
+   "name": "Body 1",
+   "key": "826690eb1731128bc68ae402b138c9e78baa4217",
+   "family": "Noto Sans",
+   "style": "Regular",
+   "size": 16,
+   "lineHeight": "24px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "p, span"
+  },
+  {
+   "name": "Body 2",
+   "key": "c9fdf433b7b50f0ccb4e3f3f322440f53c5f9bff",
+   "family": "Noto Sans",
+   "style": "Regular",
+   "size": 14,
+   "lineHeight": "22px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "(default body copy) p, span, document, body default"
+  },
+  {
+   "name": "Body 2 bold",
+   "key": "94faf877a1c454de17149cba79bd1e113b45fbdd",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 14,
+   "lineHeight": "22px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "body default"
+  },
+  {
+   "name": "Body 2 list",
+   "key": "1ea247508fbd536d359b2d10b4c9408b062ee07b",
+   "family": "Noto Sans",
+   "style": "Regular",
+   "size": 14,
+   "lineHeight": "22px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "Adds paragraph space below each list item"
+  },
+  {
+   "name": "Body 2 link",
+   "key": "ccc9a8d94da2f8f964806c018df4c922a22bfcd0",
+   "family": "Noto Sans",
+   "style": "Medium",
+   "size": 14,
+   "lineHeight": "22px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "Inline hyperlinks"
+  },
+  {
+   "name": "Body 2 medium",
+   "key": "5afd067eaacaf46cc1b9257c06b7544148ac6f7c",
+   "family": "Noto Sans",
+   "style": "Medium",
+   "size": 14,
+   "lineHeight": "22px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  },
+  {
+   "name": "Body 3",
+   "key": "7f5f431ce9006cecd66757655531757a246dd67f",
+   "family": "Noto Sans",
+   "style": "Regular",
+   "size": 12,
+   "lineHeight": "18px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "p, span"
+  },
+  {
+   "name": "Overline",
+   "key": "c5d3e05d8ce11729ea47bfeac471bdb5c5d96bce",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 10,
+   "lineHeight": "13px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ],
+   "description": "H2, H3, H4, H5, H6"
+  },
+  {
+   "name": "Button large",
+   "key": "ac0d5be26aca9ca654011cc42a6d43ccfd4c5f31",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 14,
+   "lineHeight": "18px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  },
+  {
+   "name": "Button medium",
+   "key": "3e1ea147c8f9c16a82924b099e34bbeb4fd11c09",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 12,
+   "lineHeight": "16px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  },
+  {
+   "name": "Button small",
+   "key": "ea4f7931f89e08bde2d8c534516ed111cff6e268",
+   "family": "Noto Sans",
+   "style": "Medium",
+   "size": 12,
+   "lineHeight": "16px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  },
+  {
+   "name": "UI label small",
+   "key": "17986a0e3c2a85161fb4d7cfbc8f2d583ef96238",
+   "family": "Noto Sans",
+   "style": "Regular",
+   "size": 11,
+   "lineHeight": "14px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  },
+  {
+   "name": "UI label small active",
+   "key": "75230b1ab68b2ec410df68a5613e414fce8a1429",
+   "family": "Noto Sans",
+   "style": "SemiBold",
+   "size": 11,
+   "lineHeight": "14px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  },
+  {
+   "name": "UI label",
+   "key": "1e89f8f99f198ad2a71087ddac5a6d35303645d9",
+   "family": "Noto Sans",
+   "style": "Regular",
+   "size": 12,
+   "lineHeight": "16px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  },
+  {
+   "name": "UI label active",
+   "key": "316ec6ee10c84db11ff911cd8c717ed96cf60aba",
+   "family": "Noto Sans",
+   "style": "Medium",
+   "size": 12,
+   "lineHeight": "16px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  },
+  {
+   "name": "UI label large",
+   "key": "10a9fa278701eb9b211e85de84e0025fee61b19d",
+   "family": "Noto Sans",
+   "style": "Regular",
+   "size": 14,
+   "lineHeight": "18px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  },
+  {
+   "name": "UI label large active",
+   "key": "5ccbcf3b12c58d0e66419b70d5e7815433a26515",
+   "family": "Noto Sans",
+   "style": "Medium",
+   "size": 14,
+   "lineHeight": "18px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  },
+  {
+   "name": "UI Numerals Mono",
+   "key": "97ec1bb542112afa7ca7d59e8a61ff5e4a8cc0af",
+   "family": "Noto Sans",
+   "style": "Regular",
+   "size": 14,
+   "lineHeight": "18px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  },
+  {
+   "name": "OTP label",
+   "key": "e3d973df8e9372ad445bb603ce0a45ea34ea6da6",
+   "family": "Noto Sans",
+   "style": "Regular",
+   "size": 30,
+   "lineHeight": "38px",
+   "bound": [
+    "letterSpacing",
+    "fontSize",
+    "fontStyle",
+    "fontFamily",
+    "paragraphSpacing",
+    "lineHeight"
+   ]
+  }
+ ],
+ "effectStyles": [
+  {
+   "name": "Standard",
+   "key": "08aef9c967d6d25d5b2b2822005a43b3d96739cf",
+   "effects": [
+    "DROP_SHADOW",
+    "DROP_SHADOW"
+   ]
+  },
+  {
+   "name": "Medium",
+   "key": "3a1dcb5987ea63c618be8556a1478e7f2f2ff6eb",
+   "effects": [
+    "DROP_SHADOW",
+    "DROP_SHADOW"
+   ]
+  },
+  {
+   "name": "Large",
+   "key": "2d1496498d89a48783102bdba0079e9ec20ee6c8",
+   "effects": [
+    "DROP_SHADOW",
+    "DROP_SHADOW"
+   ]
+  },
+  {
+   "name": "XLarge",
+   "key": "daebebfdeb0425d9a055e32ce6615ed9ee090399",
+   "effects": [
+    "DROP_SHADOW",
+    "DROP_SHADOW"
+   ]
+  },
+  {
+   "name": "XXLarge",
+   "key": "3f6bcbe2eed22b0b1f9701427b6d3013b87d4d5f",
+   "effects": [
+    "DROP_SHADOW"
+   ]
+  },
+  {
+   "name": "Small",
+   "key": "8b45abb2101e7c3182f5c4ee7433e5e53d4ca48f",
+   "effects": [
+    "DROP_SHADOW"
+   ]
+  },
+  {
+   "name": "Inset",
+   "key": "6b937816969da79bdfd720088fafbf2afae405d8",
+   "effects": [
+    "INNER_SHADOW",
+    "INNER_SHADOW"
+   ]
+  }
+ ],
+ "paintStyles": [
+  {
+   "name": "Active",
+   "key": "f25450f238025c871a19024c8fdfb9dd3caf6d24",
+   "type": "SOLID"
+  },
+  {
+   "name": "Active hover",
+   "key": "843fc0195f797aa961eba22945cb42b44983d703",
+   "type": "SOLID"
+  },
+  {
+   "name": "Active pressed",
+   "key": "1fe3668677400eea375b5a638d559d1c2f63decc",
+   "type": "SOLID"
+  },
+  {
+   "name": "Active subtle",
+   "key": "417a13897a4a118a5be612c98818eddb059a3344",
+   "type": "SOLID"
+  },
+  {
+   "name": "Surface 1",
+   "key": "f14d9257f55cfda3e08ee819082e3671de68613a",
+   "type": "SOLID"
+  },
+  {
+   "name": "Surface 2",
+   "key": "45a8bd4a6a6a5c8fa0d3cd0f2275abb8f0341521",
+   "type": "SOLID"
+  },
+  {
+   "name": "Surface 3",
+   "key": "4c425b2919bb0e0c9f564e6f01306c5b0dad8205",
+   "type": "SOLID"
+  },
+  {
+   "name": "Surface highlight",
+   "key": "4feb892b7c22c5f30bfa477f9a057036e623c4f1",
+   "type": "SOLID"
+  },
+  {
+   "name": "Surface lowlight",
+   "key": "ce8067e25ad0c30782e7852bc4e1712202021f3c",
+   "type": "SOLID"
+  },
+  {
+   "name": "Text",
+   "key": "981e783468f813aa474899e5e3ff2908a4023cfd",
+   "type": "SOLID"
+  },
+  {
+   "name": "Text subtle",
+   "key": "b59b00f652120cd3e8c73a9b43c5e1059dc48cdc",
+   "type": "SOLID"
+  },
+  {
+   "name": "On active",
+   "key": "c6c7a8b00eedb4819befa64925b086df2a3a80ac",
+   "type": "SOLID"
+  },
+  {
+   "name": "Border",
+   "key": "5fa7cf8df785fa7f6f894f78eba0061cfbaaac88",
+   "type": "SOLID"
+  },
+  {
+   "name": "Overlay",
+   "key": "5077e41d1404a9def3a4eeb12ee151acbd27d81b",
+   "type": "SOLID"
+  },
+  {
+   "name": "Disabled",
+   "key": "ecffef55b0ce686873486181a5fc943231323538",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Info text",
+   "key": "81facfb47c3a0220a77cb5e911fc705378b6953a",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Info graphics",
+   "key": "0fe9fd06ce5ed9752efebdfba43ac37578f81416",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Info surface",
+   "key": "b3a52a98b858908945d76fec84747a196ae38aea",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Positive text pressed",
+   "key": "eb7d6102bf9da27e7be46ebccf52fbf695d54724",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Positive text",
+   "key": "4b8f4a55a8e6daed80a5cadf32d3ad191d0c7cf5",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Positive text hover",
+   "key": "570555bdad843c3b097b469d8d2fbae9b07c3187",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Positive graphics",
+   "key": "eee63ed925b2b24a85cc0d7f6503d836d582e232",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Positive surface",
+   "key": "732c2106008995a8e7b54b5fe62aef88a0c7971b",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Positive surface lowlight",
+   "key": "5ac9e1dc1d3a98054b8e072e14c23920b682d72a",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Positive surface highlight",
+   "key": "c2b3800b441376a0f1969856ce36647ee76f70c9",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Negative text pressed",
+   "key": "6d990779582e0093aaf565c7bd0d3f0791ab389d",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Negative text",
+   "key": "979335af8ba7a52612a04006bf8989b7f6f4f5dc",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Negative text hover",
+   "key": "b48663733c4192cc6e7164ae50962ac07a536f04",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Negative graphics",
+   "key": "d87ea3bc323d4e999d442c12013cda5bab2c59df",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Negative surface",
+   "key": "778896816b5414ece06f5b10e3bbd476b1ec0ace",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Negative surface lowlight",
+   "key": "3161b4c19614cd601f86cdb5a81b3e9c0a5b2772",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Negative surface highlight",
+   "key": "3daed79ecccb0183a2d5a3bb46d55082efe57008",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Warning text",
+   "key": "6a4297d28cf4e98abb0d6fa4a3bf9c23b277b7d9",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Warning graphics",
+   "key": "97a1c6dcc46a0ba3f478cbf23099fd3138111d2f",
+   "type": "SOLID"
+  },
+  {
+   "name": "Messaging/Warning surface",
+   "key": "542206c326098a4c93b892b6a2c6812b1758d3f9",
+   "type": "SOLID"
+  },
+  {
+   "name": "Accent/Accent 1",
+   "key": "349d872cab82cdd33700abf4938d1b5dc105660f",
+   "type": "SOLID"
+  },
+  {
+   "name": "Accent/Accent 1 hover",
+   "key": "5f127c9f78f73441f3af6d7221a881ab373b315c",
+   "type": "SOLID"
+  },
+  {
+   "name": "Accent/Accent 1 pressed",
+   "key": "138dcfcfdea5d05b653c15ab81cf293d591f5454",
+   "type": "SOLID"
+  },
+  {
+   "name": "Accent/Accent 2",
+   "key": "da46a05ea40083b8d4c12e178be1923e6006418c",
+   "type": "SOLID"
+  },
+  {
+   "name": "Accent/App name",
+   "key": "689601ea5c95b68ab520e2e2c3aaa4210671e042",
+   "type": "SOLID"
+  }
+ ],
+ "gridStyles": [
+  {
+   "name": "375",
+   "key": "e62e5cede427f8d90c5e4a2bcdcdfca5c117c7e9",
+   "grids": [
+    "COLUMNS 4"
+   ]
+  },
+  {
+   "name": "768-1023",
+   "key": "ea8f4c35ce74692ee89cd5dab5ffdf867d2e85cf",
+   "grids": [
+    "COLUMNS 8"
+   ]
+  },
+  {
+   "name": "1024-1600+",
+   "key": "b20a2f66a8873fcbd366a05c02f1df44980d5387",
+   "grids": [
+    "COLUMNS 12"
+   ]
+  },
+  {
+   "name": "1600+ Fixed",
+   "key": "dea2386ada8359c8abae734288cd3fe49e499872",
+   "grids": [
+    "COLUMNS 12"
+   ]
+  },
+  {
+   "name": "1024-1279 Vertical Nav",
+   "key": "5356baf08ef0c431e24bdc11c52ed098f41c72c0",
+   "grids": [
+    "COLUMNS 12"
+   ]
+  },
+  {
+   "name": "1024-1279 Vertical Nav-Collapsed",
+   "key": "0c91a83a148b06598e6901c235877431d6798902",
+   "grids": [
+    "COLUMNS 12"
+   ]
+  },
+  {
+   "name": "1280-1439 Vertical Nav",
+   "key": "c76d6b91f82b56c356f965f4252b8de7377bb644",
+   "grids": [
+    "COLUMNS 12"
+   ]
+  },
+  {
+   "name": "1280-1439 Vertical Nav-Collapsed",
+   "key": "c030c6bc1b2b5afd9cf61e94de6aecc07c7d7ddc",
+   "grids": [
+    "COLUMNS 12"
+   ]
+  },
+  {
+   "name": "1440-1599 Vertical Nav",
+   "key": "4a04d309d8a60a3f3e8371d8c409e72cf35a5b8c",
+   "grids": [
+    "COLUMNS 12"
+   ]
+  },
+  {
+   "name": "1440-1599 Vertical Nav-Collapsed",
+   "key": "2523aa99e4f69bc12314b773d2979df2e4e45f40",
+   "grids": [
+    "COLUMNS 12"
+   ]
+  },
+  {
+   "name": "1600+ Vertical Nav",
+   "key": "d20790f7dcf6be5cab585b240f4ae01cd386ed38",
+   "grids": [
+    "COLUMNS 12"
+   ]
+  },
+  {
+   "name": "1600+ Vertical Nav-Collapsed",
+   "key": "e7e14bd65d72a7339bea2a2634772301dbac82b8",
+   "grids": [
+    "COLUMNS 12"
+   ]
+  }
+ ],
+ "remoteVariables": 243
+}

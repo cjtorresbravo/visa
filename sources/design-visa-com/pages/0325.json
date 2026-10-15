@@ -1,0 +1,558 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/content-card",
+ "title": "Content card | Component | Nova Angular | Visa Product Design System",
+ "h1": "Content card",
+ "readAt": "2026-10-15T17:17:07.096Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Content card"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default content card",
+    "Content card with UI buttons",
+    "Clickable content card",
+    "Disabled clickable content card",
+    "Compact content card",
+    "Content card with category",
+    "Content card with icon",
+    "Content card with image",
+    "Compact dashboard content card"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Default content cards"
+  },
+  {
+   "k": "h2",
+   "t": "Set the component headings as needed for your use case."
+  },
+  {
+   "k": "p",
+   "t": "The examples below use heading tags where titles are present."
+  },
+  {
+   "k": "p",
+   "t": "In our demo examples, we use headings that follow our application's hierarchical structure."
+  },
+  {
+   "k": "p",
+   "t": "It is essential that you adjust these heading levels to match the structural needs of your application for optimal semantic accuracy and accessibility."
+  },
+  {
+   "k": "h3",
+   "t": "Default content card"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h3",
+   "t": "Headline"
+  },
+  {
+   "k": "h4",
+   "t": "Subtitle"
+  },
+  {
+   "k": "p",
+   "t": "This is optional text that describes the headline and subtitle in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Content card with UI buttons"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h3",
+   "t": "Headline"
+  },
+  {
+   "k": "h4",
+   "t": "Subtitle"
+  },
+  {
+   "k": "p",
+   "t": "This is optional text that describes the headline and subtitle in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Clickable content card"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h3",
+   "t": "Headline"
+  },
+  {
+   "k": "h4",
+   "t": "Subtitle"
+  },
+  {
+   "k": "p",
+   "t": "This is optional text that describes the headline in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled clickable content card"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h3",
+   "t": "Headline"
+  },
+  {
+   "k": "h4",
+   "t": "Subtitle"
+  },
+  {
+   "k": "p",
+   "t": "This is optional text that describes the headline in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Compact content card"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h3",
+   "t": "Headline"
+  },
+  {
+   "k": "p",
+   "t": "This is optional text that describes the headline and subtitle in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Content card with category"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h3",
+   "t": "Category"
+  },
+  {
+   "k": "h4",
+   "t": "Headline"
+  },
+  {
+   "k": "h5",
+   "t": "Subtitle"
+  },
+  {
+   "k": "p",
+   "t": "This is optional text that describes the headline and subtitle in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Content card with icon"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h3",
+   "t": "Headline"
+  },
+  {
+   "k": "p",
+   "t": "This is optional text that describes the headline and subtitle in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Content card with image"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h3",
+   "t": "Headline"
+  },
+  {
+   "k": "h4",
+   "t": "Subtitle"
+  },
+  {
+   "k": "p",
+   "t": "This is optional text that describes the headline and subtitle in more detail."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Dashboard content cards"
+  },
+  {
+   "k": "h3",
+   "t": "Compact dashboard content card"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h3",
+   "t": "Headline"
+  },
+  {
+   "k": "p",
+   "t": "This is optional text that describes the headline and subtitle in more detail."
+  },
+  {
+   "k": "text",
+   "t": "0,000"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "ContentCardDirective",
+    "ContentCardBodyDirective",
+    "ContentCardImageDirective",
+    "ContentCardSubtitleDirective",
+    "ContentCardTitleDirective",
+    "ContentCardTitleLinkDirective"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ContentCardDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-content-card]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "clickable",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Transforms card into a clickable card when true.",
+     "false"
+    ],
+    [
+     "disabledInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets component as disabled when true.",
+     "false"
+    ],
+    [
+     "indicator",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Displays indicator line at the bottom of the card when true.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ContentCardBodyDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-content-card-body]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ContentCardImageDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-content-card-image]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ContentCardSubtitleDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-content-card-subtitle]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ContentCardTitleDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-content-card-title]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - ContentCardTitleLinkDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-content-card-title-link]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "disabledInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Disables link and sets content card to disabled when true.",
+     "false"
+    ]
+   ]
+  }
+ ]
+}

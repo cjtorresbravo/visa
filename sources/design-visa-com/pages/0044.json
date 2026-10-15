@@ -1,0 +1,196 @@
+{
+ "url": "https://design.visa.com/developing/react/hooks/usecardnumbervalidation",
+ "title": "useCardNumberValidation | Hooks | React | Visa Product Design System",
+ "h1": "useCardNumberValidation",
+ "readAt": "2026-10-15T17:06:34.536Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "useCardNumberValidation"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to utilize the useCardNumberValidation hook to validate card numbers."
+  },
+  {
+   "k": "text",
+   "t": "Table of Contents Loading"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Nova React version"
+  },
+  {
+   "k": "text",
+   "t": "3.1.0"
+  },
+  {
+   "k": "text",
+   "t": "3.0.0"
+  },
+  {
+   "k": "text",
+   "t": "2.5.4"
+  },
+  {
+   "k": "h2",
+   "t": "Overview"
+  },
+  {
+   "k": "p",
+   "t": "The useCardNumberValidation hook validates card numbers using BIN regex patterns, length checks, the Luhn checksum algorithm (modulo 10 check), and brand identification. It's designed to be flexible, allowing for custom validators to be added as needed. Note that this validation is not exhaustive and may change over time. VPDS doesn't maintain acceptance marks for all brands due to legal reasons. This hook enables you to integrate your own validators if your use case requires them."
+  },
+  {
+   "k": "h3",
+   "t": "Validation"
+  },
+  {
+   "k": "p",
+   "t": "For comprehensive guidance on card validation, reference Card input. The useCardNumberValidation hook uses updated, type-safe validation logic that has been thoroughly unit tested. This logic can be extracted for use outside the hook, or you can bring your own validation logic as needed. While the previous Visa UI Utils library remains a viable option, it might not be supported in the future and lacks testing and type safety for TypeScript users."
+  },
+  {
+   "k": "h2",
+   "t": "Behavior and usage"
+  },
+  {
+   "k": "text",
+   "t": "Loading use-card-number-validation example"
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "h2",
+   "t": "Properties"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Default",
+     "Required",
+     "Description"
+    ],
+    [
+     "allowedBrands",
+     "Brand[]",
+     "",
+     "",
+     "Allowed brands array, if undefined all brands allowed. This is used for validation only and will not filter the validators."
+    ],
+    [
+     "defaultCardNumberInputValue",
+     "string",
+     "",
+     "",
+     "Default card number input state"
+    ],
+    [
+     "filteredForBrands",
+     "Brand[]",
+     "",
+     "",
+     "Filtered brands array, if undefined no brands will be filtered. Only these brands will be checked for, the rest will be filtered out."
+    ],
+    [
+     "trimToMaxLength",
+     "boolean",
+     "true",
+     "",
+     "Remove all digits passed the matching card validator's max length"
+    ],
+    [
+     "validators",
+     "Record",
+     "",
+     "",
+     "Custom validators if our validators don't fit your use cases"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Returns"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Type",
+     "Description"
+    ],
+    [
+     "binValid",
+     "boolean",
+     "BIN is valid"
+    ],
+    [
+     "brand",
+     "Brand , undefined",
+     "Brand if BIN is valid, undefined if BIN is not valid"
+    ],
+    [
+     "brandValid",
+     "boolean",
+     "The brand input is included in allowedBrands"
+    ],
+    [
+     "cardNumberInputValue",
+     "string",
+     "Raw input value state sent from onCardNumberChange"
+    ],
+    [
+     "cardValidator",
+     "CardValidator",
+     "Card validator from BIN if BIN is matched, undefined if BIN not recognized"
+    ],
+    [
+     "cleanCardNumber",
+     "string",
+     "cardNumberInputValue with non digit values filtered out, and/or max characters removed"
+    ],
+    [
+     "formattedCardNumber",
+     "string",
+     "cleanCardNumber with the proper spacing"
+    ],
+    [
+     "lastDigitValid",
+     "boolean",
+     "Valid last digit based off mod 10 check"
+    ],
+    [
+     "lengthValid",
+     "boolean",
+     "The card number length is valid, validated with cleanCardNumber"
+    ],
+    [
+     "onCardNumberChange",
+     "(cardNumberInputValue: string) => void",
+     "Setter for cardNumberInputValue state"
+    ],
+    [
+     "valid",
+     "boolean",
+     "The card number is fully valid based on BIN regex's, allowed brands, length, and modulo 10 check"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Client side only"
+  },
+  {
+   "k": "text",
+   "t": "true"
+  }
+ ]
+}

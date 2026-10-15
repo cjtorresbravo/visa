@@ -1,0 +1,553 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/tooltip",
+ "title": "Tooltip | Component | Nova Angular | Visa Product Design System",
+ "h1": "Tooltip",
+ "readAt": "2026-10-15T17:17:51.847Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Tooltip"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Top-positioned tooltip",
+    "Bottom-positioned tooltip",
+    "Left-positioned tooltip",
+    "Right-positioned tooltip",
+    "Tooltip with custom middleware",
+    "Tooltip with custom events",
+    "Tooltip with arrow"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Default tooltips"
+  },
+  {
+   "k": "h3",
+   "t": "Top-positioned tooltip"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Tooltip label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Bottom-positioned tooltip"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Tooltip label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Left-positioned tooltip"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Tooltip label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Right-positioned tooltip"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Tooltip label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Custom tooltips"
+  },
+  {
+   "k": "h3",
+   "t": "Tooltip with custom middleware"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "See Floating UI's section on Middleware  for more information."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Tooltip label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Tooltip with custom events"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This example demos a custom event array by having the tooltip also hide when space is pressed."
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "Tooltip label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Tooltip with arrow"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Primary action"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "TooltipDirective",
+    "TooltipArrowDirective",
+    "FloatingUIContainer",
+    "FloatingUITriggerDirective",
+    "FloatingUIService",
+    "IdGenerator",
+    "FloatingUIPlacements",
+    "FloatingUIVisibility"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - TooltipDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-tooltip]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "display",
+     "@Input()",
+     "",
+     "HTMLElement['style']['display']",
+     "Sets custom display when tooltip is visible. Initial display is set to none to hide tooltip.",
+     "true"
+    ],
+    [
+     "idInput",
+     "@Input()",
+     "",
+     "HTMLElement['id'] | null",
+     "Sets custom ID.",
+     "false"
+    ],
+    [
+     "zIndex",
+     "@Input()",
+     "'700'",
+     "number | string, unknown",
+     "Sets custom z-index.",
+     "true"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - TooltipArrowDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-tooltip-arrow]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "customSize",
+     "@Input()",
+     "8",
+     "number, unknown",
+     "Sets custom size in pixels for the arrow.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - FloatingUIContainer"
+  },
+  {
+   "k": "text",
+   "t": "[v-floating-ui-container]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "closeOnClick",
+     "@Input()",
+     "true",
+     "boolean, unknown",
+     "Closes the menu on item click/select when true. If multiselect is set to true, it will not take effect.",
+     "false"
+    ],
+    [
+     "eventsArrayInput",
+     "@Input()",
+     "[ [new UIEvent('mouseenter'), FloatingUIVisibility.SHOW], [new UIEvent('mouseleave'), FloatingUIVisibility.HIDE], [new UIEvent('focus'), FloatingUIVisibility.SHOW], [new UIEvent('blur'), FloatingUIVisibility.HIDE] ] for tooltip [ [new UIEvent('click')] ] for dropdown-menu and floating-ui-element [] Ie. events are removed for combobox.",
+     "UIEventVisibilityPair | null",
+     "Events array for FloatingUIService. This array specifies whether to show or hide the floating element on a given UIEvent. This should be an array of [UIEvent, FloatingUIVisibility].",
+     "false"
+    ],
+    [
+     "middlewareInput",
+     "@Input()",
+     "[ offset(2), flip(), shift() ] for tooltip [ offset(0), flip(), shift() ] for combobox",
+     "Middleware[] | null",
+     "Middleware for FloatingUIService. See Floating UI for options.",
+     "false"
+    ],
+    [
+     "placement",
+     "@Input()",
+     "FloatingUIPlacements.BOTTOM_START",
+     "FloatingUIPlacements",
+     "Placement of floating content relevant to triggering element. See 'FloatingUIPlacements'.",
+     "false"
+    ],
+    [
+     "floatingUIToggled",
+     "@Output()",
+     "",
+     "boolean",
+     "Emits whether or not the floating UI element is visible.",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - FloatingUITriggerDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-floating-ui-trigger]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "FloatingUIService"
+  },
+  {
+   "k": "code",
+   "t": "import {\n  effect,\n  ElementRef,\n  EventEmitter,\n  inject,\n  Injectable,\n  isDevMode,\n  Renderer2,\n  RendererFactory2,\n  signal,\n  WritableSignal\n} from '@angular/core';\nimport { arrow, autoUpdate, computePosition, ComputePositionReturn, flip, offset, shift, hide } from '@floating-ui/dom';\nimport { TooltipArrowDirective } from '../arrow/arrow.directive';\nimport { FloatingUIPlacements, FloatingUIVisibility, UIEventVisibilityPair } from './floating-ui.constants';\n\n/**\n * This internal service is used by Combobox, Dropdown Menu, and Tooltip components. <br />\n * It can be used with generic FloatingUIContainer, FloatingUIElementDirective, and FloatingUITriggerDirective to create your own custom floating-ui. <br />\n * If you are using any of the components mentioned, you will typically not need to use this service directly. <br />\n * Derived from [Floating UI documentation](https://floating-ui.com/).\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class FloatingUIService {\n  /** @ignore */\n  private readonly rendererFactory: RendererFactory2 = inject(RendererFactory2);\n  /** @ignore */\n  private renderer: Renderer2 = this.rendererFactory.createRenderer(null, null);\n\n  /** @ignore */\n  private trigger?: Element;\n  /** @ignore */\n  private floatingUI?: ElementRef;\n  /** @ignore */\n  private arrow?: TooltipArrowDirective;\n  /** @ignore */\n  private offset: number = 0;\n  /** @ignore */\n  private offsetDefault: number = 2;\n  /** @ignore */\n  public comboboxMiddleware: any = [offset(0), flip(), shift(), hide()];\n  /** @ignore */\n  private middlewareDefault: any = [offset(this.offsetDefault), flip(), shift(), hide()];\n  /** @ignore */\n  private middleware: any = this.middlewareDefault;\n  /** @ignore */\n  private placement: FloatingUIPlacements = FloatingUIPlacements.BOTTOM;\n  /** @ignore */\n  public isShown: WritableSignal<boolean> = signal(false);\n  private readonly isShownEffect = effect(() => {\n    const isShown = this.isShown();\n    this.isShownEmitter.emit(isShown);\n    if (!isShown && this.floatingUI) return this.renderer.setStyle(this.floatingUI.nativeElement, 'display', 'none');\n    const triggerDisabled = this.trigger?.getAttribute('disabled');\n    // only show the floating UI if the trigger and element exist, menu is set to shown, and trigger is not disabled\n    if (!this.trigger || !this.floatingUI || !isShown || triggerDisabled) return;\n    this.positionFloatingUI();\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'display', this.display);\n  });\n\n  /**\n   * Displays property of the floating UI element.\n   * @default 'flex'\n   */\n  private display: string = 'flex';\n\n  /**\n   * Time in milliseconds to wait before hiding the floating UI element when the trigger is hovered over.\n   * @default A factor of the offset middleware option if provided, otherwise 50.\n   */\n  private hideOnHoverTimeout: number = 0;\n\n  // store unlisten functions\n  private rendererListeners: (() => void)[] = [];\n\n  /**\n   * Emits true when this floating UI element is shown and false when hidden.\n   */\n  readonly isShownEmitter: EventEmitter<boolean> = new EventEmitter<boolean>();\n\n  /**\n   * The setUpFloatingUI method is required to initialize the floating element and its trigger. <br />\n   * Called by default with FloatingUIContainer or ComboboxDirective.\n   * @param referenceEl References element that will trigger floating UI.\n   * @param floatingEl References floating UI element.\n   * @param eventArray Array of events for the reference/trigger element to listen for. <br> i.e. <code>[new UIEvent('focus'), FloatingUIVisibility.SHOW]</code> <br> tells the element to show the floating UI when the triggering element is focused.\n   */\n  public setUpfloatingUI(\n    referenceEl: ElementRef | HTMLElement,\n    floatingEl: ElementRef,\n    eventArray: UIEventVisibilityPair | null\n  ): void {\n    this.rendererListeners?.forEach((unlisten) => unlisten());\n    this.rendererListeners = [];\n    this.trigger = this.nativeElement(referenceEl);\n    this.floatingUI = floatingEl;\n    if (!this.trigger && isDevMode()) return console.error('Floating UI trigger element is not defined.');\n    if (!this.floatingUI && isDevMode()) return console.error('Floating UI element is not defined.');\n\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'top', '0');\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'left', '0');\n    this.renderer.setStyle(this.floatingUI.nativeElement, 'display', 'none');\n\n    if (eventArray) {\n      this.setUpTrigger(eventArray);\n    } else if (isDevMode()) {\n      console.error('No events provided to trigger the Floating UI.');\n    }\n  }\n\n  /**\n   * The nativeElement method returns the Element type of the reference element.\n   * @param element Element to be converted to Element type.\n   * @returns Element\n   */\n  private nativeElement(element: ElementRef<any> | HTMLElement): Element {\n    if (element instanceof ElementRef) {\n      return element.nativeElement;\n    }\n    return element;\n  }\n\n  /**\n   * The customizeFloatingUI method allows you to provide custom placement and middleware options to the Floating UI service.\n   * @param placement Optional. See <code>FloatingUIPlacements</code> enum.\n   * @param middleware Optional. Visit the official Floating UI documentation for more on [middleware options](https://floating-ui.com/docs/computePosition#middleware).\n   * @param display Optional. Sets CSS display property for the floating UI element.\n   * @param tooltipArrow Optional. Directive reference to the arrow element. See TooltipArrowDirective.\n   */\n  public customizeFloatingUI(\n    placement?: FloatingUIPlacements | null,\n    middleware?: any | null,\n    display?: string | null,\n    tooltipArrow?: TooltipArrowDirective | null\n  ): void {\n    // custom placement\n    if (placement) this.placement = placement;\n\n    // custom middleware\n    if (middleware) {\n      this.middleware = middleware;\n      // save a custom offset\n      const customOffset = (this.middleware.find((m: any) => m['name'] ="
+  },
+  {
+   "k": "text",
+   "t": "IdGenerator"
+  },
+  {
+   "k": "code",
+   "t": "import { APP_ID, inject, Injectable } from '@angular/core';\n\n/**\n * Keeps track of the ID count per prefix. This helps us make the IDs a bit more deterministic.\n */\nlet counters: Record<string, number> = {};\n\n/**\n * Service that generates unique IDs for DOM nodes.\n * Note that this service should not be used inside templates and should only be used within classes or else id will change with every render.\n * @docs {@link https://design.visa.com/developing/angular/services/id-generator | See docs}\n */\n@Injectable({ providedIn: 'root' })\nexport class IdGenerator {\n  private readonly appId: null | string = inject(APP_ID, { optional: true });\n\n  /**\n   * Generates a unique ID with a specific prefix.\n   * @param prefix Prefix to add to the ID.\n   */\n  public newId(prefix: string = ''): string {\n    // Omit the app ID if it's the default `ng`. Since the vast majority of pages have one\n    // Angular app on them, we can reduce the amount of breakages by not adding it.\n    if (this.appId && this.appId !== 'ng') prefix = `${this.appId}-${prefix}`;\n    if (!counters.hasOwnProperty(prefix)) counters[prefix] = 0;\n    return `${prefix}-${counters[prefix]++}`;\n  }\n\n  /**\n   * Resets the counters for the IDs.\n   * This is useful when testing to ensure that the IDs are deterministic.\n   * @deprecated WARNING: This should only be used in tests. Do NOT use this in an actual application.\n   */\n  public static reset(): void {\n    counters = {};\n  }\n}"
+  },
+  {
+   "k": "text",
+   "t": "FloatingUIPlacements"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "TOP",
+     "'top'"
+    ],
+    [
+     "TOP_START",
+     "'top-start'"
+    ],
+    [
+     "TOP_END",
+     "'top-end'"
+    ],
+    [
+     "RIGHT",
+     "'right'"
+    ],
+    [
+     "RIGHT_START",
+     "'right-start'"
+    ],
+    [
+     "RIGHT_END",
+     "'right-end'"
+    ],
+    [
+     "BOTTOM",
+     "'bottom'"
+    ],
+    [
+     "BOTTOM_START",
+     "'bottom-start'"
+    ],
+    [
+     "BOTTOM_END",
+     "'bottom-end'"
+    ],
+    [
+     "LEFT",
+     "'left'"
+    ],
+    [
+     "LEFT_START",
+     "'left-start'"
+    ],
+    [
+     "LEFT_END",
+     "'left-end'"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "FloatingUIVisibility"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "SHOW",
+     "'show'"
+    ],
+    [
+     "HIDE",
+     "'hide'"
+    ]
+   ]
+  }
+ ]
+}

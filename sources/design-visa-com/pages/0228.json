@@ -1,0 +1,189 @@
+{
+ "url": "https://design.visa.com/components/toggle-button/usage",
+ "title": "Toggle button | Components | Visa Product Design System",
+ "h1": "Toggle button",
+ "readAt": "2026-10-15T17:10:44.730Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Toggle button"
+  },
+  {
+   "k": "p",
+   "t": "Selection element that allows users to switch between states or views."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practices",
+    "BehaviorsSingle-selectMulti-select",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Toggles are selection tools, typically used to change the view of page information or apply a setting. They’re typically used in data visualization contexts like tables or graphs, forms, search results, and settings pages.\nAlso known as: Flip button, state button, selector, UISegmentedControl (iOS), toggle button (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Label (optional): Text describing the toggle button.\nB. Icon (optional): Leading or trailing icon used instead of a label or to enhance its meaning."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Single-select",
+     "To change the view of a dataset.When only one button can be active at a time.",
+     "To change between pages or content sections. Use tabs instead."
+    ],
+    [
+     "Multi-select",
+     "To apply settings.When any number of buttons may be active, including none.",
+     "To perform actions or to group unrelated concepts."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Don’t use toggles in place of radio buttons or checkboxes.",
+    "Ensure toggles within the same group are related and apply to the same element within the interface.",
+    "Place toggles near the element they control to ensure their purpose and function is clear.",
+    "Limit toggle groups to four or five buttons to avoid overwhelming users."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure toggle buttons are related to views or settings."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use toggles to perform actions or group unrelated concepts."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use icon-only toggles to save space."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use unfamiliar or unrecognizable icons."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "p",
+   "t": "Toggle buttons have two functionalities:"
+  },
+  {
+   "k": "h3",
+   "t": "Single-select"
+  },
+  {
+   "k": "p",
+   "t": "Single-select toggle buttons can only be selected one at a time. They represent options that can’t be applied at the same time, like separate views of a dataset. One button is always active, and selecting an inactive button deactivates the active button."
+  },
+  {
+   "k": "h3",
+   "t": "Multi-select"
+  },
+  {
+   "k": "p",
+   "t": "Multi-select toggle buttons can have any number of buttons selected, including none. They’re commonly used to apply settings. Selecting an inactive button does not affect any active buttons. This is the only type of toggle that can be used alone to represent a single option."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use sentence case without punctuation for all labels.",
+    "Avoid acronyms or jargon.",
+    "Keep labels short to avoid unnecessary truncation.",
+    "Phrase labels so selecting the toggle makes the statement true."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Tabs"
+  },
+  {
+   "k": "p",
+   "t": "Organizational element that separates content and allows users to switch views."
+  },
+  {
+   "k": "h3",
+   "t": "Switch"
+  },
+  {
+   "k": "p",
+   "t": "Binary control that allows users to toggle between two states like on/off."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Interactive element that lets users select one or more independent choices."
+  },
+  {
+   "k": "h3",
+   "t": "Radio"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  }
+ ]
+}

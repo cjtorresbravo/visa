@@ -1,0 +1,1364 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/checkbox",
+ "title": "Checkbox | Component | Nova Angular | Visa Product Design System",
+ "h1": "Checkbox",
+ "readAt": "2026-10-15T17:17:00.651Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Checkbox"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Checkbox with label",
+    "Checkbox without visible label",
+    "Checkbox with description",
+    "Checked checkbox",
+    "Checkbox with error",
+    "Disabled checkbox",
+    "Disabled checked checkbox",
+    "Checkbox group",
+    "Checkbox group with error",
+    "Indeterminate checkbox group",
+    "Indeterminate checkbox group with error",
+    "Horizontal checkbox group",
+    "Checkbox panel",
+    "Checkbox panel without description",
+    "Disabled checkbox panel",
+    "Checkbox panel group",
+    "Checkbox panel group with error",
+    "Template-driven checkbox",
+    "Template-driven checkbox group form",
+    "Model-driven checkbox",
+    "Model-driven checkbox group form",
+    "Model-driven checkbox group form with FormBuilder",
+    "Reusable checkbox demo",
+    "Reusable checkbox group demo"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Default checkboxes"
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox with label"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox without visible label"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox with description"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Checked checkbox"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox with error"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled checkbox"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled checked checkbox"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Checkbox groups"
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox group"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Group label"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Label 1",
+    "Label 2",
+    "Label 3"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox group with error"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Group label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Select one or more options."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Label 1",
+    "Label 2",
+    "Label 3"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Indeterminate checkbox group"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Group label"
+  },
+  {
+   "k": "list",
+   "items": [
+    "L1 label 1L2 label 1L2 label 2L2 label 3",
+    "L1 label 2",
+    "L1 label 3"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Indeterminate checkbox group with error"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Group label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Select two or more options."
+  },
+  {
+   "k": "list",
+   "items": [
+    "L1 label 1L2 label 1L2 label 2L2 label 3"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal checkbox group"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Group label"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Label 1",
+    "Label 2",
+    "Label 3"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Checkbox panels"
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox panel"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox panel without description"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled checkbox panel"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Checkbox panel groups"
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox panel group"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Group label"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Label 1 This is optional text that describes the label in more detail.",
+    "Label 2 This is optional text that describes the label in more detail.",
+    "Label 3 This is optional text that describes the label in more detail."
+   ]
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox panel group with error"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Group label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Select one or more options."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Label 1 This is optional text that describes the label in more detail.",
+    "Label 2 This is optional text that describes the label in more detail.",
+    "Label 3 This is optional text that describes the label in more detail."
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Framework-specific checkboxes"
+  },
+  {
+   "k": "h3",
+   "t": "Template-driven checkbox"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "checkboxVal: true"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Template-driven checkbox group form"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Group label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Select one or more options."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Label 1",
+    "Label 2",
+    "Label 3"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Model-driven checkbox"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "checkboxFormControl.value: true"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Model-driven checkbox group form"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Group label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Select one or more options."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Label 1",
+    "Label 2",
+    "Label 3"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Model-driven checkbox group form with FormBuilder"
+  },
+  {
+   "k": "text",
+   "t": "#framework-specific"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Group label (required)"
+  },
+  {
+   "k": "text",
+   "t": "Select one or more options."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Label 1",
+    "Label 2",
+    "Label 3"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Submit"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Reusable checkbox demo"
+  },
+  {
+   "k": "text",
+   "t": "#AI-first"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "p",
+   "t": "To create a group of checkboxes, see the reusable checkbox-group example."
+  },
+  {
+   "k": "h4",
+   "t": "Boolean properties"
+  },
+  {
+   "k": "text",
+   "t": "Checked"
+  },
+  {
+   "k": "text",
+   "t": "Show label"
+  },
+  {
+   "k": "text",
+   "t": "Show input message"
+  },
+  {
+   "k": "text",
+   "t": "Disabled"
+  },
+  {
+   "k": "text",
+   "t": "Invalid"
+  },
+  {
+   "k": "text",
+   "t": "Panel"
+  },
+  {
+   "k": "text",
+   "t": "Required"
+  },
+  {
+   "k": "h4",
+   "t": "Text/numeric properties"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "Input message"
+  },
+  {
+   "k": "text",
+   "t": "Apply"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Reusable checkbox group demo"
+  },
+  {
+   "k": "text",
+   "t": "#AI-first"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Group label"
+  },
+  {
+   "k": "text",
+   "t": "This is optional text that describes the label in more detail."
+  },
+  {
+   "k": "list",
+   "items": [
+    "L1 label 1",
+    "L1 label 2 L2 label 1 L2 label 2 L3 label 1 L3 label 2 L4 label 1 L4 label 2"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Built with the reusable checkbox component. See the reusable checkbox example for individual checkbox configuration."
+  },
+  {
+   "k": "h4",
+   "t": "Boolean properties"
+  },
+  {
+   "k": "text",
+   "t": "Disabled"
+  },
+  {
+   "k": "text",
+   "t": "Inline"
+  },
+  {
+   "k": "text",
+   "t": "Invalid"
+  },
+  {
+   "k": "text",
+   "t": "Panel"
+  },
+  {
+   "k": "text",
+   "t": "Required"
+  },
+  {
+   "k": "h4",
+   "t": "Text/numeric properties"
+  },
+  {
+   "k": "text",
+   "t": "Label"
+  },
+  {
+   "k": "text",
+   "t": "Description"
+  },
+  {
+   "k": "text",
+   "t": "Checkboxes (JSON)"
+  },
+  {
+   "k": "text",
+   "t": "Edit the JSON structure to customize the checkbox group hierarchy."
+  },
+  {
+   "k": "text",
+   "t": "Apply"
+  },
+  {
+   "k": "text",
+   "t": "Reset"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "CheckboxDirective",
+    "CheckboxPanelDirective",
+    "InputContainerComponent",
+    "LabelDirective",
+    "InputMessageDirective",
+    "AppReadyService",
+    "IdGenerator"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - CheckboxDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-checkbox]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "checked",
+     "@Input()",
+     "",
+     "boolean | null | string",
+     "Sets checked state of component. Because 'checked' is a native attribute of input[type=\"checkbox\"], it can only be set false by using [checked]=\"false\", not checked=\"false\" Use [checked] when you want to handle the checked state of the checkbox. Use (checkedChange) when you want the library to handle the checked state of the checkbox, but get notified of changes. Use [(checked)] when you want the checked state to reflect changes by both you and the library.",
+     "false"
+    ],
+    [
+     "disabledInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets checkbox to disabled when true",
+     "false"
+    ],
+    [
+     "id",
+     "@Input()",
+     "idGenerator.newId('v-checkbox')",
+     "string",
+     "Sets custom id.",
+     "true"
+    ],
+    [
+     "indeterminate",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Sets checkbox to indeterminate when true.",
+     "false"
+    ],
+    [
+     "invalid",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Marks checkbox as invalid when true.",
+     "false"
+    ],
+    [
+     "required",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Marks checkbox as required when true.",
+     "false"
+    ],
+    [
+     "checked",
+     "@Output()",
+     "",
+     "boolean | null | string",
+     "Sets checked state of component. Because 'checked' is a native attribute of input[type=\"checkbox\"], it can only be set false by using [checked]=\"false\", not checked=\"false\" Use [checked] when you want to handle the checked state of the checkbox. Use (checkedChange) when you want the library to handle the checked state of the checkbox, but get notified of changes. Use [(checked)] when you want the checked state to reflect changes by both you and the library.",
+     ""
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - CheckboxPanelDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-checkbox-panel], [v-radio-panel]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Component - InputContainerComponent"
+  },
+  {
+   "k": "text",
+   "t": "[v-input-container]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "childButtonsDisabled",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "labelId",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ],
+    [
+     "useCustomIcon",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Removes the default toggle icon when true, allowing you to provide your own. After the closing select tag, provide your custom icon inside a <div class=“v-input-control”>.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - LabelDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-label], [v-switch-label]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "htmlForInput",
+     "@Input()",
+     "",
+     "string | null",
+     "Attribute set to the id of the element it's labeling. This property is set by default for radio and checkbox components when used within v-input-container as directed.",
+     "false"
+    ],
+    [
+     "id",
+     "@Input()",
+     "idGenerator.newId('v-label')",
+     "string",
+     "Sets custom id.",
+     "true"
+    ],
+    [
+     "progressLabelInput",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Swaps v-label class for v-progress-label when true. Intended for use when label is describing a progress component. Automatically set to true when used within a Circular Progress component.",
+     "false"
+    ],
+    [
+     "switchLabel",
+     "@Input()",
+     "",
+     "",
+     "",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - InputMessageDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-input-message]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "AppReadyService"
+  },
+  {
+   "k": "code",
+   "t": "import { DOCUMENT, isPlatformBrowser } from '@angular/common';\nimport { Injectable, PLATFORM_ID, inject } from '@angular/core';\n\n/**\n * @note Where possible, use Angular's new `afterRender` and `afterNextRender` lifecycle hooks instead of this service.\n * This service is used internally by the library and can optionally be used directly. <br />\n * It’s required for SSR integration but not necessary for functions behind Angular's renderer.\n */\n@Injectable({\n  providedIn: 'root'\n})\nexport class AppReadyService {\n  private document: Document | null = inject(DOCUMENT, { optional: true });\n  private platformId: object = inject(PLATFORM_ID);\n\n  /**\n   * The isPlatformBrowser property checks if the platform is a browser (as opposed to server).\n   */\n  public readonly isPlatformBrowser: boolean = isPlatformBrowser(this.platformId);\n\n  /**\n   * The isBrowserAndDomAvailable property checks for both the document and the browser platform.\n   */\n  public readonly isBrowserAndDomAvailable: boolean = !!this.document && this.isPlatformBrowser;\n}"
+  },
+  {
+   "k": "text",
+   "t": "IdGenerator"
+  },
+  {
+   "k": "code",
+   "t": "import { APP_ID, inject, Injectable } from '@angular/core';\n\n/**\n * Keeps track of the ID count per prefix. This helps us make the IDs a bit more deterministic.\n */\nlet counters: Record<string, number> = {};\n\n/**\n * Service that generates unique IDs for DOM nodes.\n * Note that this service should not be used inside templates and should only be used within classes or else id will change with every render.\n * @docs {@link https://design.visa.com/developing/angular/services/id-generator | See docs}\n */\n@Injectable({ providedIn: 'root' })\nexport class IdGenerator {\n  private readonly appId: null | string = inject(APP_ID, { optional: true });\n\n  /**\n   * Generates a unique ID with a specific prefix.\n   * @param prefix Prefix to add to the ID.\n   */\n  public newId(prefix: string = ''): string {\n    // Omit the app ID if it's the default `ng`. Since the vast majority of pages have one\n    // Angular app on them, we can reduce the amount of breakages by not adding it.\n    if (this.appId && this.appId !== 'ng') prefix = `${this.appId}-${prefix}`;\n    if (!counters.hasOwnProperty(prefix)) counters[prefix] = 0;\n    return `${prefix}-${counters[prefix]++}`;\n  }\n\n  /**\n   * Resets the counters for the IDs.\n   * This is useful when testing to ensure that the IDs are deterministic.\n   * @deprecated WARNING: This should only be used in tests. Do NOT use this in an actual application.\n   */\n  public static reset(): void {\n    counters = {};\n  }\n}"
+  }
+ ]
+}

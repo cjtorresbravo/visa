@@ -1,0 +1,227 @@
+{
+ "url": "https://design.visa.com/contributing/code",
+ "title": "Code | Contributing | Visa Product Design System",
+ "h1": "Start contributing to VPDS",
+ "readAt": "2026-10-15T17:08:47.583Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Start contributing to VPDS"
+  },
+  {
+   "k": "p",
+   "t": "Learn more about contributions and how you can help shape the future of the Visa Product Design System."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Overview",
+    "Code",
+    "Design"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Prep: Identify and validate the work",
+    "Intake: Propose your idea",
+    "Plan: Align and scope",
+    "Set up: Configure your environment",
+    "Build: Create and refine",
+    "Submit: Create a pull request",
+    "Want to contribute design assets or report a design issue?"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Prep: Identify and validate the work"
+  },
+  {
+   "k": "p",
+   "t": "Before proposing a new component, pattern, or enhancement, make sure your code contribution is necessary. Start by exploring existing resources and checking the VPDS backlog."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Explore existing resources: Browse components and patterns to avoid duplication.",
+    "Check the VPDS backlog: Search for open items labeled “contribution” or “in progress” in the VPDS backlog (internal only).",
+    "Assess design support: Determine if you need design support, especially if you’re introducing a new visual pattern (not just fixing a code bug)."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Note: At this time, the VPDS team only has an outlined process for internal code contributions from Visa employees. External contributors may create new issues to work on, but don’t have access to our Jira backlog."
+  },
+  {
+   "k": "h3",
+   "t": "Questions to ask"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Does your contribution solve a common problem?",
+    "Is it flexible enough to serve multiple use cases?",
+    "Will it help other design system users?",
+    "Does it replicate anything in the system? If so, is there evidence that your solution is more effective?",
+    "Is it an enhancement of an existing area of the system, or something new?",
+    "Does it align with Visa’s accessibility and brand standards?",
+    "What impact could your solution have on existing implementations?",
+    "Do you have the necessary resources—such as people, time, and tools—to ensure the contribution meets VPDS standards?"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Not sure what kind of contribution you have or where to start? Take our quiz."
+  },
+  {
+   "k": "text",
+   "t": "Take contribution quiz"
+  },
+  {
+   "k": "h2",
+   "t": "What do you plan to contribute?"
+  },
+  {
+   "k": "p",
+   "t": "If your team is contributing both design and code elements, choose the path that you are responsible for."
+  },
+  {
+   "k": "text",
+   "t": "Design or content"
+  },
+  {
+   "k": "text",
+   "t": "Developed code"
+  },
+  {
+   "k": "h2",
+   "t": "Are you sure you want to exit taking the quiz?"
+  },
+  {
+   "k": "text",
+   "t": "Yes"
+  },
+  {
+   "k": "text",
+   "t": "No, continue with quiz"
+  },
+  {
+   "k": "h2",
+   "t": "Intake: Propose your idea"
+  },
+  {
+   "k": "p",
+   "t": "Once you’ve confirmed there’s a gap or opportunity, formally propose your idea. Contributors should submit a detailed proposal and the VPDS team will provide feedback and schedule follow-ups if needed."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Determine your type of submission a. For bug fixes: Assign the ticket to yourself after reviewing the VPDS backlog (internal only). b. For enhancements or new contributions: Complete the VPDS contribution intake form (internal only) and include all required documentation.",
+    "Define acceptance criteria: Clearly outline what success looks like for your issue using our acceptance criteria template (internal only).",
+    "Initial review: The VPDS team will review your submission, provide feedback, and schedule follow-ups if needed.",
+    "Present to the contribution guild (for new contributions): If your proposal moves forward, you’ll be invited to present it to the VPDS guild. This meeting provides the opportunity to explain your idea, answer questions, and gather additional feedback.",
+    "Guild decision (for new contributions): After your presentation, the guild will review and vote on your proposal, considering priorities, business needs, and feasibility. You’ll be notified once a decision is made."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Plan: Align and scope"
+  },
+  {
+   "k": "p",
+   "t": "If your idea is approved, you’ll move into the planning phase. Here, you and the VPDS team will work with you to define the scope and clarify roles."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Form a working group: Collaborate with the VPDS team—including design, content, development, and accessibility experts—to align on roles and responsibilities.",
+    "Define the scope: Decide together what’s in and out of scope, establish required deliverables, and set timelines.",
+    "Clarify support pathways: Set up check-ins with your VPDS working group or attend office hours (internal only) for additional support."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Set up: Configure your environment"
+  },
+  {
+   "k": "p",
+   "t": "Follow the guidelines for the libraries you’ll be working in to ensure your coding environment is correctly configured."
+  },
+  {
+   "k": "list",
+   "items": [
+    "HTML/CSS",
+    "Angular",
+    "React",
+    "Flutter"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "When developing your code, remember to:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Build using the latest version of Nova and your preferred code library.",
+    "Use and adhere to Visa’s secure coding tools, guidelines, and practices.",
+    "Avoid unnecessary dependencies in your code."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Build: Create and refine"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Develop the code: Write code to address the issue according to the agreed acceptance criteria.",
+    "Run automated tests: Verify that all components pass aXe automated accessibility tests. These tests are included in the code libraries.",
+    "Ensure code coverage: Maintain at least 80% code coverage through testing. Add new tests as needed for your contribution.",
+    "Add documentation: Document any new classes or properties, and include examples where applicable.",
+    "Format your code: Use Prettier to maintain consistency and readability. Each web library has its own .prettierrc file at the root, and Prettier is automatically installed as a development dependency.",
+    "Write standard commit messages: Follow the standard-commit guidelines to format your commit messages clearly and consistently."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Submit: Create a pull request"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Link the issue: Reference the original issue in your pull request description to close the issue upon merging.",
+    "Review and feedback: Gather any final feedback and make necessary updates. Note: Not all submissions will be accepted. If not accepted, constructive feedback will be provided.",
+    "Go live: After submission, your contribution will undergo rigorous accessibility and QA testing by the VPDS team before it’s published. This process may take some time."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Want to contribute design assets or report a design issue?"
+  },
+  {
+   "k": "p",
+   "t": "Learn how you can contribute design assets or report issues."
+  },
+  {
+   "k": "text",
+   "t": "Contribute designs"
+  }
+ ]
+}

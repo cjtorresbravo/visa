@@ -1,0 +1,464 @@
+{
+ "url": "https://design.visa.com/components/date-selector/usage",
+ "title": "Date and time selectors | Components | Visa Product Design System",
+ "h1": "Date and time selectors",
+ "readAt": "2026-10-15T17:09:34.840Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Date and time selectors"
+  },
+  {
+   "k": "p",
+   "t": "Interactive calendar or time selector that allows users to choose a specific date or time."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesDefault date selectorDate range selectorTime selectorCredit card expiration dateOptional vs. required labels",
+    "BehaviorsInput and menu functionalityDate range limitsDocked menu placement",
+    "Content",
+    "Platform considerationsWebMobile",
+    "Development notes",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Date and time selectors allow users to input or select a single or range of dates and times from the past, present, or future. They often appear in Forms to condense space and provide a clear, concise selection process. Date and time formats are usually determined by the application and localization standards."
+  },
+  {
+   "k": "p",
+   "t": "By default, the date and time selector menu will display the current date, time, or the most applicable month, year and time."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Date picker, time picker, calendar selector, calendar picker, date input, time input."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Input (required): Text field enabling users to enter custom date text.\nB. Calendar icon button (required for web): UI icon button that indicates and expands/collapses the calendar menu.\nC. Native date selector menu (required for web): Container displaying the dates in a calendar format.\nD. Month and year label (required): Text communicating the month and year represented in the calendar.\nE. Month navigation arrows (required): UI icon buttons for navigating to past and future months within the same year.\nF. Week day labels (required): Abbreviated labels indicating the days of the week from Sunday to Saturday.\nG. Current date (required): Outlined square or other indicator communicating the current date based on the user’s settings.\nH. Selected date (required upon selection): Filled square or other indicator highlighting the date the user selected.\nI. Clear button (required): UI icon button that clears the selected date and closes the date selector menu.\nJ. Today button (required): Text button that resets the calendar to select today’s date.\nK. Confirm button (required in mobile only): Confirms the user’s date selection and closes the date selector menu."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Type",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Date selector (native)",
+     "For viewing the date in context of the days of the week.",
+     "If the dates are years in the past and would require more effort to navigate back than to input the date."
+    ],
+    [
+     "Date range selector",
+     "For selecting a custom period of time from one date to another.",
+     "For selecting two unrelated dates."
+    ],
+    [
+     "Time selector (native)",
+     "If the time input is limited to what is provided in the dropdown.",
+     "If time is not limited to what’s provided in the dropdown or users may prefer to enter a custom time."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow the default appearance and behavior of date and time selectors on different browsers.",
+    "Always consider local and regional preferences for date and time formats.",
+    "Follow all guidelines for using text fields in Input."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Default date selector"
+  },
+  {
+   "k": "p",
+   "t": "Date selectors help users choose a date from a calendar view. They’re typically used for tasks like scheduling, when users would benefit from understanding the relationship between a date and the day of the week."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Only display dates up to a year in the past or present from the current date to avoid overwhelming users.",
+    "Use a simple date input for memorable, familiar, or dates that do not require the user to reference a calendar to recall.",
+    "Always provide users with the option to enter the date in addition to selecting the date within the menu or modal."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Include a calendar UI button to indicate the calendar menu is available for users to expand and collapse."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use the icon button without the input field. Users should always be able to manually input the date."
+  },
+  {
+   "k": "h3",
+   "t": "Date range selector"
+  },
+  {
+   "k": "p",
+   "t": "Date range selectors help users in choose a date span while providing the day of the week context. They’re typically used for selecting precise or significant date ranges, when users would benefit from understanding the relationship between a date and the day of the week."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place the input fields next to each other for screens with enough horizontal space.",
+    "Stack date selectors with the start date on top for screens with limited horizontal space.",
+    "Always provide users with the option to enter the date in addition to selecting the date within the menu or modal."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Provide users with a date range selector when they need to provide a custom date range."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Allow users to enter the start and end dates within a single input."
+  },
+  {
+   "k": "h3",
+   "t": "Time selector"
+  },
+  {
+   "k": "p",
+   "t": "Time selectors help users select times from a dropdown list when options may be limited by availability. Typically, the system will automatically adopt a 12- or 24-hour clock based on the device settings. The default time will be highlighted in blue, however only one column (hours, minutes, am/pm) can be in focus at a time."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Allow users to change between 12- and 24-hour clock for time inputs."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Credit card expiration date"
+  },
+  {
+   "k": "p",
+   "t": "Separate select fields for month and year are commonly utilized for credit card expiration date inputs. This lockup is especially beneficial for products catering to international users to ensure the date is entered correctly, as the order can vary by region."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Clearly label each select field to specify if selecting the month or year, preventing any confusion.",
+    "Always list all 12 months in the dropdown menu, formatted as MM.",
+    "Present the current year along with the following 19 years, for a total of 20 years in the dropdown menu, formatted as YY.",
+    "Enable users to type to quickly navigate to their desired option and select it without needing to open the dropdown menu.",
+    "Refer to Select (native) and Card input guidelines for further guidance on implementing this lockup."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Optional vs. required labels"
+  },
+  {
+   "k": "p",
+   "t": "Always ensure required fields are clearly labeled. While this may seem repetitive, it helps users scan for necessary information and reduces errors. There are two methods for labeling required fields based on your use case. Whichever method you select, use it consistently across your experiences. \nNote: Previous VPDS guidance recommended only marking optional fields. Our guidance has been updated to reflect current Nielsen Norman Group recommendations. Learn more about optional vs. required labels in Forms."
+  },
+  {
+   "k": "h3",
+   "t": "“Required” in the label (preferred method)"
+  },
+  {
+   "k": "p",
+   "t": "Including “required” within the label ensures it’s easy to find, particularly when instructions at the top might not be visible while scrolling. This method bolsters accessibility for both sighted and non-sighted users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Mark all fields that are required. This ensures you’re as explicit and transparent as possible.",
+    "Include “(required)” in field label with a space between the last word and the first parenthesis."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Asterisk in the label (alternative method)"
+  },
+  {
+   "k": "p",
+   "t": "Asterisks are commonly used to indicate required fields. The main advantage to using this method is that it doesn’t take up much space, helps users along a common edge, and can be used in addition to formatting hints in the label."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include a legend or key at the top of the content area noting that the asterisk indicates a required field.",
+    "Place the asterisk at the beginning of the label with a space between the symbol and the first word."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "When required is implied"
+  },
+  {
+   "k": "h3",
+   "t": "Labeling optional fields"
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Input and menu functionality"
+  },
+  {
+   "k": "p",
+   "t": "Date and time selectors include both an input field and interactive menu, allowing users to type custom text or select from the menu directly. On page load, the menus remain closed until prompted by the calendar or clock UI icon button."
+  },
+  {
+   "k": "p",
+   "t": "When the user expands the date selector menu, it shows the current month and year with the current date in focus, but not selected. When the user expands the time selector menu, it shows the default or first available time in focus, but not selected."
+  },
+  {
+   "k": "p",
+   "t": "Note: The examples below demonstrate this behavior using the default date selector, but the same functionality applies to the date range selector and time selector."
+  },
+  {
+   "k": "h4",
+   "t": "Input functionality"
+  },
+  {
+   "k": "p",
+   "t": "When the menu is collapsed, users can enter a custom date or time by typing in the input field. If users expand the menu after entering custom input, the date or time appears selected in the menu."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Clearly indicate the required format for the date or time entry in the input field label."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Menu functionality"
+  },
+  {
+   "k": "p",
+   "t": "When the menu is expanded, users can select a date or time by interacting directly with the menu. Once a date or time is selected, it’s shown in the input field and the menu automatically collapses. If users select the “Today” button, it will automatically select the current date and collapse the menu."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the selected date is reflected automatically in the input field."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Changing the month and year"
+  },
+  {
+   "k": "p",
+   "t": "To change the month or year, the user selects the month and year label at the top of the calendar. This switches the view from the calendar to a list of years. When the user selects a year, it expands like an accordion to reveal the 12 months within that year. Once they select a month, the menu switches back to the calendar view."
+  },
+  {
+   "k": "h3",
+   "t": "Date range limits"
+  },
+  {
+   "k": "p",
+   "t": "Since date range selectors require users to select a start and end date, the selection order impacts what dates are available for selection. This ensures the start date is never later than the end date, and vice versa."
+  },
+  {
+   "k": "h4",
+   "t": "Start date selected first"
+  },
+  {
+   "k": "p",
+   "t": "When a start date is chosen first, it limits the options available for the end date. When the user prompts the end date menu, any dates that come before the chosen start date appear disabled. This ensures the end date can never be earlier than the start date."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure only one menu is open at a time by collapsing the menu as soon as soon as a selection is made."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "End date selected first"
+  },
+  {
+   "k": "p",
+   "t": "When an end date is chosen first, it limits the options available for the start date. When the user prompts the start date menu, any dates that come after the chosen end date appear disabled. This ensures the start date can never be later than the end date."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure only one menu is open at a time by collapsing the menu as soon as soon as a selection is made."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Docked menu placement"
+  },
+  {
+   "k": "p",
+   "t": "As a docked menu, the date selector is attached or ‘docked’ to the input field. This means its position is directly related to the input field. The menu has a fixed width and doesn’t scale with the input field or screen size. The input field length can vary and may not match the menu’s width."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the menu is left-aligned for left to right reading languages, and right-aligned for right to left reading languages."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use sentence case except for proper nouns or acronyms.",
+    "Use plain language and avoid abbreviations or jargon.",
+    "Reference Content for additional guidance on crafting content within apps and experiences.",
+    "Avoid using unnecessary articles like “the” or “an”, unless they’re included in the proper name of a product or service."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit field labels to three to five words when possible.",
+    "Use parallel structure across field labels, using either nouns like “Date” or verbs like “Select a date”. Learn more about parallel structure in Grammar and punctuation."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Inline message"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Be brief, descriptive, and helpful, limiting the message to one to two short sentences.",
+    "Use sentence case and punctuation. The only exceptions are proper nouns or names.",
+    "Give additional guidance about the field and how to use it if necessary.",
+    "Provide useful information including why a field is needed (if not obvious) without being technical.",
+    "Give an example or specific syntax or values for inputs to help avoid errors."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Inline error message"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow the general rules for inline messages such as limiting the message to one to two sentences with punctuation.",
+    "Draw attention, without causing frustration. Explain what happened and what they need to do to correct the error.",
+    "Use prescriptive language to provide a clear guidance, actions, instructions, and answers, then get out of their way.",
+    "Communicate whether the problem can occur again and offer an alternative backup solution in case it does.",
+    "Clearly outline the simplest resolution (if applicable) without sending them to another location for answers."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "p",
+   "t": "Depending on the viewing device(s), the choice can be made to utilize either a web or mobile-based calendar element."
+  },
+  {
+   "k": "h3",
+   "t": "Web"
+  },
+  {
+   "k": "p",
+   "t": "On web, the calendar typically appears as a docked menu, which is beneficial for leveraging larger screen sizes. However, it’s usually not recommended for mobile interfaces. To learn more, reference Mobile."
+  },
+  {
+   "k": "h4",
+   "t": "Appearance"
+  },
+  {
+   "k": "p",
+   "t": "Native date selectors are utilized due to their ready-made functionality and inherent accessibility features. However, it’s important to note that the appearance of these menus can vary across different browsers and operating systems."
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "On mobile devices the menu appears as a modal."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use OK and Cancel buttons within a mobile date and time selector."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Development notes"
+  },
+  {
+   "k": "p",
+   "t": "Date input field help with the date formatting and with the validation of range. However, there are issues with input type=“date” because of the limited browser support. In unsupported browsers, it will move to a simple input type=“text”."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Input"
+  },
+  {
+   "k": "p",
+   "t": "Text fields that enable users to enter free-form content."
+  },
+  {
+   "k": "h3",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance on everything from layouts to validation to ensure forms are clear and usable."
+  }
+ ]
+}

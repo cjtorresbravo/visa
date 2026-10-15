@@ -1,0 +1,114 @@
+{
+ "url": "https://design.visa.com/developing/flutter",
+ "title": "Get started | Flutter | Developing | Visa Product Design System",
+ "h1": "Start building with Flutter",
+ "readAt": "2026-10-15T17:06:28.034Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Start building with Flutter"
+  },
+  {
+   "k": "p",
+   "t": "Follow this step-by-step guide to start developing with the Visa Product Design System in Flutter."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Step 1: Update Flutter",
+    "Step 2: Install the library",
+    "Step 3: Import Nova components",
+    "Step 4: Add icons (optional)",
+    "Step 5: Use the components"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Step 1: Update Flutter"
+  },
+  {
+   "k": "p",
+   "t": "Nova Flutter supports Dart 2.19 and up with null safety, and our current Flutter SDK version is 3.29.2. To set up your Flutter development environment, visit the Flutter App Pre-requisite and Setup Guide (internal only) or Choose your development platform to get started."
+  },
+  {
+   "k": "h3",
+   "t": "Version"
+  },
+  {
+   "k": "p",
+   "t": "The version number reflects the number of developed components. Our current version is 8.3.1."
+  },
+  {
+   "k": "h2",
+   "t": "Step 2: Install the library"
+  },
+  {
+   "k": "h3",
+   "t": "Set up pub.dev"
+  },
+  {
+   "k": "p",
+   "t": "You can install the Nova Flutter library by setting up your Pub.dev environment, then using the package below."
+  },
+  {
+   "k": "code",
+   "t": "1$ flutter pub add visa_nova_flutter"
+  },
+  {
+   "k": "h2",
+   "t": "Step 3: Import Nova components"
+  },
+  {
+   "k": "p",
+   "t": "Import the library into your Dart code."
+  },
+  {
+   "k": "code",
+   "t": "1import 'package:visa_nova_flutter/visa_nova_flutter.dart';"
+  },
+  {
+   "k": "h2",
+   "t": "Step 4: Add icons (optional)"
+  },
+  {
+   "k": "p",
+   "t": "We’ve created a dedicated widget, VIcon, to seamlessly integrate the SVG icon library with the components library. To best use Nova icons, import the library along side our visa_nova_flutter library."
+  },
+  {
+   "k": "code",
+   "t": "1import 'package:visa_nova_icons_flutter/visa_nova_icons_flutter.dart';2import 'package:visa_nova_flutter/visa_nova_flutter.dart'; 3import 'package:flutter/material.dart';4\n5class MyGenericIconWidget extends StatelessWidget {6  @override7  Widget build(BuildContext context) {8    return Container(9      child: VIcon(10        svgIcon: VIconsGeneric.profileLow,11      ),12    );13  }14}15\n16class MyVisaIconWidget extends StatelessWidget {17  @override18  Widget build(BuildContext context) {19    return Container(20      child: VIcon(21        iconColor: VColors.positiveGraphics,22        svgIcon: VIcons.successTiny,23      ),24    );25  }26}"
+  },
+  {
+   "k": "h2",
+   "t": "Step 5: Use the components"
+  },
+  {
+   "k": "p",
+   "t": "After adding Nova icons, you’re ready to use Flutter components by copying and pasting the example code into your application. Check out Button to give it a try."
+  },
+  {
+   "k": "h2",
+   "t": "Need help?"
+  },
+  {
+   "k": "p",
+   "t": "If you experience any issues while getting set up with Nova Flutter, visit Support\nor\ncreate an issue ."
+  }
+ ]
+}

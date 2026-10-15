@@ -1,0 +1,40 @@
+{
+ "url": "https://design.visa.com/designing/brand-guidance-for-products",
+ "title": "Brand guidance for products | Designing | Visa Product Design System",
+ "h1": "Brand guidance for products",
+ "readAt": "2026-10-15T17:06:15.659Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Brand guidance for products"
+  },
+  {
+   "k": "p",
+   "t": "Discover essential guidelines for Visa products, including card art, fictitious brands and user aliases, as well as logo creation and naming conventions."
+  },
+  {
+   "k": "h3",
+   "t": "Card art (internal only)"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to ensure Visa brand standards are met when representing digital cards."
+  },
+  {
+   "k": "h3",
+   "t": "Fictitious brands and aliases (internal only)"
+  },
+  {
+   "k": "p",
+   "t": "Find VPDS-approved fictitious brands and fake user aliases for use in demos and marketing materials."
+  },
+  {
+   "k": "h3",
+   "t": "Logo and naming (internal only)"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to correctly use the Visa name and logo across Visa and non-Visa branded products."
+  }
+ ]
+}

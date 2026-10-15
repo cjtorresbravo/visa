@@ -1,0 +1,409 @@
+{
+ "url": "https://design.visa.com/components/radio/usage",
+ "title": "Radio | Components | Visa Product Design System",
+ "h1": "Radio",
+ "readAt": "2026-10-15T17:10:36.833Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Radio"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesRadio button panelsLabel size for panel groupsHidden labelsOptional vs. required labelsIncluding “None” as an optionDefault selections",
+    "BehaviorsSingle-selection",
+    "ContentDescriptionLabels",
+    "Platform considerations",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Radios buttons present a short list of options where the user must select one. They’re commonly used in forms, user preference selections, surveys, or any scenario where a single selection from multiple options is required."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Radio buttons, radio selections. RadioGroup, RadioButton (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Radio button (required): Interactive element enabling users to select an option. \nB. Option label (required): Brief text describing the radio option. \nC. Description (optional): Brief message detailing important information about the option. \nD. Radio button group (optional): Short list of radio buttons presented in a group. \nE. Group label (required): Brief description of options available for selection."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Default radio button",
+     "Using one radio button alone is not a common use case.",
+     "To present one option available for selection. Use a Checkbox instead."
+    ],
+    [
+     "Radio button group",
+     "To present a short list of options where the user must select one.",
+     "If users can select multiple options from a short list. Use a Checkbox group instead. For long lists where all options can’t be viewed at once or require scrolling. Use Select native or a Single-select listbox instead. For long lists when users would benefit from entering text to filter or search the list options. Use a Combobox instead. To present a list of actions. Use a Dropdown menu instead."
+    ],
+    [
+     "Radio button panel",
+     "Using one radio button panel alone is not a common use case.",
+     "To present one option available for selection. Use a Checkbox instead."
+    ],
+    [
+     "Radio button panel group",
+     "To present a short list of options where the user must select one. To provide an increased touch area.",
+     "If there is limited space. Use a Radio button group instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure radio buttons appear visually different when selected and unselected by using an appropriate fill color.",
+    "Ensure users can select anywhere within the radio button or associated option label to choose an option.",
+    "List options in a logical order, either alphabetically or according to the most common or likely selection.",
+    "Avoid using a horizontal layout for radio button groups and panel groups, as vertical layouts are easier to scan and more adaptable for small screens."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use a radio button group to let users make a single selection from a short list with two or more options."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use a single radio button alone, as users can’t unselect an option without selecting another option."
+  },
+  {
+   "k": "h3",
+   "t": "Radio button panels"
+  },
+  {
+   "k": "p",
+   "t": "Radio button panels are an alternative to default radio buttons that include a rectangular border around the button and option label. They can be used to draw attention to the radio group or provide an increased touch area on small screens."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure users can select anywhere within the radio button, label, or panel to choose an option."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use panel states with the radio panel component."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use radio states with the radio panel component."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use radio button panels to draw attention to a standalone radio button group."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use too many radio button panels in the same area, as they may be visually overwhelming."
+  },
+  {
+   "k": "h3",
+   "t": "Label size for panel groups"
+  },
+  {
+   "k": "p",
+   "t": "Labels for radio panel groups are available in two sizes. Use whichever is appropriate depending on your use case and the overall hierarchy of your experience."
+  },
+  {
+   "k": "h4",
+   "t": "Default"
+  },
+  {
+   "k": "p",
+   "t": "The default option is the UI label font size and matches the text in option descriptions."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the default size to reduce visual weight for users when multiple radio button panel groups are used together."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Large"
+  },
+  {
+   "k": "p",
+   "t": "The large UI label size is an alternative option that can be used to draw attention to the checkbox panel group label."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the large size to draw attention to a standalone radio panel group."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Hidden labels"
+  },
+  {
+   "k": "p",
+   "t": "Radio button groups and panel groups should always include a group label. However, there are some cases where hiding the group label can provide design flexibility or space for additional context. If the group label within the component build is hidden, include a label elsewhere on the screen as well as within the code for accessibility."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include a group label somewhere on the screen if you choose to omit it from the component build.",
+    "Always include the group label within the code to ensure screen readers users have full context."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Optional vs. required labels"
+  },
+  {
+   "k": "p",
+   "t": "Always ensure required fields are clearly labeled. While this may seem repetitive, it helps users scan for necessary information and reduces errors. There are two methods for labeling required fields based on your use case. Whichever method you select, use it consistently across your experiences. \nNote: Previous VPDS guidance recommended only marking optional fields. Our guidance has been updated to reflect current Nielsen Norman Group recommendations. Learn more about optional vs. required labels in Forms."
+  },
+  {
+   "k": "h3",
+   "t": "“Required” in the label (preferred method)"
+  },
+  {
+   "k": "p",
+   "t": "Including “required” within the label ensures it’s easy to find, particularly when instructions at the top might not be visible while scrolling. This method bolsters accessibility for both sighted and non-sighted users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Mark all fields that are required. This ensures you’re as explicit and transparent as possible.",
+    "Include “(required)” in field label with a space between the last word and the first parenthesis."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Asterisk in the label (alternative method)"
+  },
+  {
+   "k": "p",
+   "t": "Asterisks are commonly used to indicate required fields. The main advantage to using this method is that it doesn’t take up much space, helps users along a common edge, and can be used in addition to formatting hints in the label."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include a legend or key at the top of the content area noting that the asterisk indicates a required field.",
+    "Place the asterisk at the beginning of the label with a space between the symbol and the first word."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "When required is implied"
+  },
+  {
+   "k": "h3",
+   "t": "Labeling optional fields"
+  },
+  {
+   "k": "h3",
+   "t": "Including “None” as an option"
+  },
+  {
+   "k": "p",
+   "t": "Radio button groups require a single option to be selected. Once a radio button is selected, it can only be unselected by choosing another option in the group."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Include “None” as an option if users are allowed to omit a selection. This functions as an “unselect” option if users accidentally choose an option they don’t want or wish to omit a selection altogether."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Include “None” if users may need an unselected state, as users can’t unselect an option without selecting a new one."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Leave out “None” if an unselected state is possible, as users may be forced to select an option they don’t want."
+  },
+  {
+   "k": "h3",
+   "t": "Default selections"
+  },
+  {
+   "k": "p",
+   "t": "In general, radio buttons should be unselected by default to give users full control over their choices. The main exception is when the selection indicates a default or system setting."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid default selections when possible to encourage users to make an active choice. Including default selections can make it easier for users to skip fields and may result in choices they don’t agree with."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use default selections to indicate a default or automatic system setting."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use default selections to push users towards a certain choice."
+  },
+  {
+   "k": "p",
+   "t": "Do     Select the safest, most secure, and private option if a default selection is necessary."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use default selections when options may have legal or privacy implications."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Single-selection"
+  },
+  {
+   "k": "p",
+   "t": "Radio buttons enforce a single selection from a short list. Selecting one option automatically deselects all others. Once a radio button is selected, it can’t be unselected by selecting it again. Another option must be selected to change the current one."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use sentence case except for proper nouns or acronyms.",
+    "Use plain language and avoid abbreviations or jargon.",
+    "Visit Content for additional guidance on crafting content within apps and experiences."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Description"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use full sentences with proper punctuation.",
+    "Limit descriptions to 80 characters or 20 words including spaces."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Don’t use punctuation.",
+    "Limit labels to three words or fewer unless referencing proper nouns, such as product names.",
+    "Ensure group labels accurately summarize the options available for selection.",
+    "Use Parallel structure for labels across your experience, either starting with verbs such as “Select a notification preference” or nouns such as “Notification preferences”."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Phrase labels so the statement true when selected."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Include multiple options in one label."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "p",
+   "t": "Radio buttons are available in mobile and web and should be implemented similarly on both platforms."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use radio button panels to provide a larger touch area when necessary.",
+    "Use default radio buttons to save space and prevent user overload, especially when there are many radio button groups used together in a form."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Interactive element that lets users select one or more independent choices."
+  },
+  {
+   "k": "h3",
+   "t": "Select (native)"
+  },
+  {
+   "k": "p",
+   "t": "HTML element that allows users to select one option from a dropdown menu."
+  },
+  {
+   "k": "h3",
+   "t": "Listbox"
+  },
+  {
+   "k": "p",
+   "t": "Container that displays a list of items available for selection."
+  },
+  {
+   "k": "h3",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance on everything from layouts to validation to ensure forms are clear and usable."
+  }
+ ]
+}

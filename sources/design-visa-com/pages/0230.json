@@ -1,0 +1,66 @@
+{
+ "url": "https://design.visa.com/components/switch/accessibility",
+ "title": "Switch | Components | Visa Product Design System",
+ "h1": "Switch",
+ "readAt": "2026-10-15T17:10:47.239Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Switch"
+  },
+  {
+   "k": "p",
+   "t": "Binary control that allows users to toggle between two states like on/off."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "p",
+   "t": "Note: The switch component is implemented using a checkbox with role=\"switch\". Screen readers announce it as “on” and “off” instead of “checked” and “unchecked”. The keyboard behavior and best practices are the same as for the Checkbox component."
+  }
+ ]
+}

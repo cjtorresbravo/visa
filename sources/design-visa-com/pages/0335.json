@@ -1,0 +1,459 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/link",
+ "title": "Link | Component | Nova Angular | Visa Product Design System",
+ "h1": "Link",
+ "readAt": "2026-10-15T17:17:22.866Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Link"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default link",
+    "Link with leading icon",
+    "Link with trailing icon",
+    "Alternate link with trailing icon",
+    "Link that opens in a new tab",
+    "Disabled link",
+    "Inline link",
+    "Inline link with trailing icon",
+    "Link coded as a button",
+    "Disabled link coded as a button"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Standalone links"
+  },
+  {
+   "k": "h3",
+   "t": "Default link"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Link with leading icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Link with trailing icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Alternate link with trailing icon"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Link that opens in a new tab"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Using the vOpensInNewTab directive:"
+  },
+  {
+   "k": "p",
+   "t": "If you want a link to open in a new tab, use the vOpensInNewTab directive for an automatically generated aria label."
+  },
+  {
+   "k": "p",
+   "t": "The vOpensInNewTab directive generates an aria-label in English only. For internationalization, make sure to supply your own aria-label."
+  },
+  {
+   "k": "text",
+   "t": "Destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled link"
+  },
+  {
+   "k": "text",
+   "t": "#custom"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Using 'disabled' with an <a> tag:"
+  },
+  {
+   "k": "p",
+   "t": "Disabled links must not include an href attribute."
+  },
+  {
+   "k": "text",
+   "t": "Destination label."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Inline links"
+  },
+  {
+   "k": "h3",
+   "t": "Inline link"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is a sentence with an inline destination label."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Inline link with trailing icon"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "p",
+   "t": "This is a sentence with an inline destination label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Links coded as buttons"
+  },
+  {
+   "k": "h3",
+   "t": "Link coded as a button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Print"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Disabled link coded as a button"
+  },
+  {
+   "k": "text",
+   "t": "#docs"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Print"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "LinkDirective",
+    "OpensInNewTabDirective"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - LinkDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-link]"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "disabled",
+     "@Input()",
+     "false",
+     "boolean | null, unknown",
+     "Disables link when true. Adds role=\"link\" and aria-disabled=\"true\" when true for a11y.",
+     "false"
+    ],
+    [
+     "noUnderline",
+     "@Input()",
+     "false",
+     "boolean, unknown",
+     "Removes underline on link when true.",
+     "false"
+    ]
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - OpensInNewTabDirective"
+  },
+  {
+   "k": "text",
+   "t": "[vOpensInNewTab],"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Name",
+     "Decorator type",
+     "Default value",
+     "Type",
+     "Description",
+     "Built inBuilt in properties are set by the Nova Angular component itself or by its parent. These properties are generally not needed to be set or edited."
+    ],
+    [
+     "ariaLabelInput",
+     "@Input()",
+     "'<inner-text-of-link> (opens in new tab)'",
+     "string | null",
+     "Allows user to set custom aria-label attribute.",
+     "false"
+    ]
+   ]
+  }
+ ]
+}

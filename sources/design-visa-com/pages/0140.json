@@ -1,0 +1,186 @@
+{
+ "url": "https://design.visa.com/data-visualization/charts/dumbbell-plot",
+ "title": "Dumbbell plot | Charts | Data visualization | Visa Product Design System",
+ "h1": "Dumbbell plot",
+ "readAt": "2026-10-15T17:08:31.754Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Dumbbell plot"
+  },
+  {
+   "k": "p",
+   "t": "Chart comparing the difference between two related variables across multiple categories or date periods."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Usage",
+    "Accessibility",
+    "Examples",
+    "Code"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "ContentTitles and subtitlesLabels",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Dumbbell plots use dots connected by lines to compare the values of two series of data. The position of the dots represents the numeric values, with the length of the line showing the difference or gap between the data series."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Barbell chart, connected dot plot."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Title (optional): Brief text summarizing the contents of the chart.\nB. Data table button (optional): UI icon button enabling users to view the chart’s data in table format.\nC. Keyboard instructions (required): UI icon button enabling users to access the chart’s keyboard navigation instructions.\nD.  Subtitle (optional): Additional text providing details, context, or instructions about the chart.\nE. Legend (optional): Area explaining the meaning of each dot in the dumbbell plot to help users interpret the chart.\nF. Plot canvas (required): Area containing the graphic part of the chart including axes, gridlines, and other elements.\nG. Data markers (required): Dots connected by lines representing two data series and the difference between them.\nH. Vertical axis (required): Scale representing numeric values.\nI. Horizontal axis (required): Scale representing a date period or a category."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "To compare two related values for each category or time period (e.g., actual vs. target, current vs. previous).",
+     "When there are more than two values per category, as the chart becomes cluttered. Consider using clustered or stacked bar chart instead."
+    ],
+    [
+     "To highlight the size of the gap or difference between two categories.",
+     "When precise trends for each category are more important than the difference. Consider using a line chart instead."
+    ],
+    [
+     "When the goal is to show how differences change across categories or over time.",
+     "When gaps between values are too small or not meaningful, making the visual comparison ineffective."
+    ],
+    [
+     "To emphasize relative performance against a benchmark or paired value.",
+     "If there’s no benchmark or paired value to compare. Consider using a bar chart instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always use sentence case except for proper nouns or acronyms.",
+    "Use plain language and avoid abbreviations or jargon.",
+    "Provide more detailed explanations and definitions for any complex metrics if needed.",
+    "Reference Content for additional guidance on crafting content within apps and experiences."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Titles and subtitles"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use clear, informative titles to help users understand the chart’s topic and key takeaways.",
+    "Frame titles as a headline that summarizes the trend or insight.",
+    "Use subtitles to add more detail about the data being shown and help users understand how to interpret the chart.",
+    "Consider phrasing titles or subtitles as questions to guide the user’s analysis, especially on exploratory dashboards where users are likely to spend significant time analyzing data.",
+    "Avoid titles and subtitles that are too general or vague."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure numbers, dates, and other data or axis labels are formatted consistently.",
+    "Follow plain language principles, such as using shorter and simpler words and phrases."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Number format"
+  },
+  {
+   "k": "p",
+   "t": "Simplify number formats to remove unnecessary details and reduce the mental effort needed to compare numbers. If needed, provide higher-precision numbers in a tooltip for users who want more information."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Data type",
+     "Recommended format"
+    ],
+    [
+     "Large numbers",
+     "Use abbreviated format, such as 1.2k instead of 1,200."
+    ],
+    [
+     "Percentage",
+     "Use whole percentage points, except for special cases where basis points are needed."
+    ],
+    [
+     "Basis points",
+     "Use basis points (bps) when change percentage is very small. 1 bps equals 0.01% (0.0001 in decimal format)."
+    ],
+    [
+     "Currency",
+     "Round to the appropriate level of detail that is required for the analysis. For example, for U.S. currency round to the nearest dollar amount."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Data visualization guidelines"
+  },
+  {
+   "k": "p",
+   "t": "Explore foundational principles and techniques for visualizing and communicating insights."
+  },
+  {
+   "k": "h3",
+   "t": "Line chart"
+  },
+  {
+   "k": "p",
+   "t": "Chart showing points connected by line segments, used to represent how a number changes over time."
+  }
+ ]
+}

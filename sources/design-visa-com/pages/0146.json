@@ -1,0 +1,460 @@
+{
+ "url": "https://design.visa.com/what's-new/latest-news/fy25-nova-angular-6",
+ "title": "Meet Nova Angular 6 | Visa Product Design System",
+ "h1": "Meet Nova Angular 6",
+ "readAt": "2026-10-15T17:08:39.207Z",
+ "blocks": [
+  {
+   "k": "text",
+   "t": "Back to newsfeed"
+  },
+  {
+   "k": "p",
+   "t": "release update"
+  },
+  {
+   "k": "h1",
+   "t": "Meet Nova Angular 6"
+  },
+  {
+   "k": "p",
+   "t": "Deep dive into new features, updates, and performance enhancements and how we’re aligning with what the Angular team calls the “Angular renaissance”."
+  },
+  {
+   "k": "p",
+   "t": "Sep 29, 2025"
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Overview",
+    "Strategic objectives",
+    "The technical challenge",
+    "Technical implementation",
+    "Key changes",
+    "Developer experience benefits",
+    "Performance analysis",
+    "Testing strategy improvements",
+    "Strategic roadmap"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Overview"
+  },
+  {
+   "k": "p",
+   "t": "As part of our latest Visa Product Design System (VPDS) release, the team has upgraded Nova Angular to fully support Angular 18–20, ensuring developers can build with the latest framework features while staying aligned with Visa’s design system standards. This upgrade introduces signals-based architecture, enabling faster change detection, reactive state management, and smoother input handling. These enhancements improve performance, making easier to integrate Nova Angular into modern workflows.\nWe’ve also refined the library’s structure to enhance compatibility with other VPDS components, enabling teams to adopt Nova Angular in new projects or migrate existing ones with minimal friction."
+  },
+  {
+   "k": "h2",
+   "t": "Strategic objectives"
+  },
+  {
+   "k": "p",
+   "t": "The Nova Angular 6 upgrade was guided by three key goals:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Empower developers with greater control over component behavior.",
+    "Adopt Angular’s zoneless architecture and signals-based reactivity.",
+    "Minimize breaking changes to ensure the performance and developer experience outweighed migration."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "This release aligns with what the Angular team calls the “Angular renaissance”—a period of rapid innovation focused on performance, developer experience, and modern architecture."
+  },
+  {
+   "k": "h2",
+   "t": "The technical challenge"
+  },
+  {
+   "k": "p",
+   "t": "We identified significant architectural areas in our implementation that could be enhanced to take advantage of the latest Angular features."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Increase developer control",
+    "Streamline state management",
+    "Adopt Angular’s latest tools",
+    "Move beyond Zone.js for change detection"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Technical implementation"
+  },
+  {
+   "k": "p",
+   "t": "The upgrade required significant architectural changes while maintaining compatibility where possible. We focused on four key technical areas."
+  },
+  {
+   "k": "h3",
+   "t": "1. Signal-based reactivity"
+  },
+  {
+   "k": "p",
+   "t": "We migrated nearly all internal properties to Angular Signals, transforming our approach to state management. Benefits include:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "More explicit and efficient change detection",
+    "Predictable execution patterns",
+    "Clear re-rendering logic",
+    "Targeted updates for improved performance",
+    "A single source of truth across components and directives"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "2. Dependency reduction"
+  },
+  {
+   "k": "p",
+   "t": "We removed four major dependencies:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "@angular/cdk",
+    "@angular/router",
+    "rxjs",
+    "Zone.js"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "This reduced the library’s footprint by 40%, simplifying maintenance and improving performance."
+  },
+  {
+   "k": "h3",
+   "t": "3. Service modernization"
+  },
+  {
+   "k": "p",
+   "t": "We replaced several services with more efficient alternatives:"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Original service",
+     "Replacement",
+     "Benefits"
+    ],
+    [
+     "AccordionService",
+     "Native HTML details/summary",
+     "Better accessibility, native browser support"
+    ],
+    [
+     "AppReadyService",
+     "Partially replaced with afterNextRender from @angular/core",
+     "More efficient lifecycle management for many use cases"
+    ],
+    [
+     "PaginationService",
+     "PaginationControl",
+     "Improved flexibility and performance"
+    ],
+    [
+     "UuidGenerator",
+     "IdGenerator",
+     "Deterministic IDs for testing and analytics"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "4. Directive optimization"
+  },
+  {
+   "k": "p",
+   "t": "We migrated from @HostListener and @HostBinding to the host: {} property. This change:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Simplified binding host properties to signals",
+    "Improved code organization and readability",
+    "Enhanced performance through more efficient binding",
+    "Reduced boilerplate code",
+    "Aligned with Angular best practices"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "We also adopted transform functions inside inputs, allowing us to use Angular core’s default transformers and eliminate the need for coercion functions from Angular CDK library."
+  },
+  {
+   "k": "h2",
+   "t": "Key changes"
+  },
+  {
+   "k": "h3",
+   "t": "Input property prioritization"
+  },
+  {
+   "k": "p",
+   "t": "Change: User-provided inputs now take precedence over internal state."
+  },
+  {
+   "k": "p",
+   "t": "Why: Previously, internal defaults could override developer inputs, causing confusion. This change ensures a more predictable API and reduces support requests."
+  },
+  {
+   "k": "p",
+   "t": "Example: In the Button component, we now check for user-provided properties first before applying any internal defaults."
+  },
+  {
+   "k": "code",
+   "t": "1// Before2// Internal logic might override this value in certain conditions3@Input() buttonSize: ButtonSize = 'medium';4\n5// After6readonly buttonSizeInput = input<ButtonSize | null>(null, {alias: 'buttonSize'});7readonly buttonSizeInternal = signal<ButtonSize | null>(null);8// User input is always prioritized over internal state9readonly buttonSize = computed(() => this.buttonSizeInput() ?? this.buttonSizeInternal() ?? 'medium');"
+  },
+  {
+   "k": "h3",
+   "t": "Deterministic IDs"
+  },
+  {
+   "k": "p",
+   "t": "Change: Replaced random UUIDs with deterministic ID generation."
+  },
+  {
+   "k": "p",
+   "t": "Why: Random IDs complicated testing and analytics. Deterministic IDs improve reliability and consistency across renders."
+  },
+  {
+   "k": "p",
+   "t": "Example: The ID generator now creates predictable IDs based on component type and instance count."
+  },
+  {
+   "k": "code",
+   "t": "1// Before2readonly id = this.uuidGenerator.getUUID('button'); // e.g., \"button-f47ac10b\"3\n4// After5readonly id = this.idGenerator.newId('button'); // e.g., \"button-1\""
+  },
+  {
+   "k": "h3",
+   "t": "Pagination control"
+  },
+  {
+   "k": "p",
+   "t": "Change: Replaced the PaginationService with a more flexible PaginationControl."
+  },
+  {
+   "k": "p",
+   "t": "Why: The service-based approach was difficult to use with multiple pagination instances and required complex state management. The new control-based approach simplifies usage, improves customization, and enhances type safety."
+  },
+  {
+   "k": "p",
+   "t": "Example: The new PaginationControl provides a more declarative approach with better configuration options compared to the service-based implementation:"
+  },
+  {
+   "k": "code",
+   "t": "1// Before2constructor(private paginationService: PaginationService) {3  this.paginationService.setTotalItems(100);4  this.paginationService.setItemsPerPage(10);5}6\n7// After8readonly paginationControl = new PaginationControl({9  totalItems: 100,10  itemsPerPage: 1011});"
+  },
+  {
+   "k": "h3",
+   "t": "Nova Icons - Angular"
+  },
+  {
+   "k": "p",
+   "t": "We also made key improvements to the @visa/nova-icons-angular package to align with the Nova Angular 6 upgrade:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Support for Angular 18, 19, and 20.",
+    "Reduced overall package size by ~25% (from 44.7MB to 33.5MB).",
+    "Reduced JavaScript footprint by ~26% (from 23.1MB to 17.5MB).",
+    "Improved rendering performance with signals."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Developer experience benefits"
+  },
+  {
+   "k": "p",
+   "t": "The upgrade provides several key benefits for development teams."
+  },
+  {
+   "k": "h3",
+   "t": "Performance improvements"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reduced initial load times (15% improvement in typical applications that use Nova Angular)",
+    "More responsive interactions",
+    "Smaller bundle sizes"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Customization"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Full control over component state via input signals",
+    "Clearer API boundaries and documentation"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Form improvements"
+  },
+  {
+   "k": "p",
+   "t": "Form elements now extend Angular’s DefaultValueAccessor, fixing legacy issues and simplifying form logic."
+  },
+  {
+   "k": "h3",
+   "t": "Testing efficiency"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Deterministic IDs for reliable snapshot testing",
+    "Consistent component behavior across test runs",
+    "Better type safety and IDE integration"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Performance analysis"
+  },
+  {
+   "k": "p",
+   "t": "The architectural changes produced significant and measurable improvements, as documented in our performance testing and bundle analysis."
+  },
+  {
+   "k": "h3",
+   "t": "Testing efficiency"
+  },
+  {
+   "k": "p",
+   "t": "Using the Input component as a benchmark:"
+  },
+  {
+   "k": "p",
+   "t": "Before: 95ms average render time with Zone.js change detection"
+  },
+  {
+   "k": "p",
+   "t": "After: 41ms average render time with Zoneless change detection (231% improvement)"
+  },
+  {
+   "k": "h3",
+   "t": "Library metrics"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Metric",
+     "Before",
+     "After",
+     "Improvement"
+    ],
+    [
+     "Package size",
+     "3.6MB",
+     "1.3MB",
+     "63% reduction (2300KB)"
+    ],
+    [
+     "Pure JS size",
+     "621KB",
+     "511KB",
+     "17% reduction (110KB)"
+    ],
+    [
+     "Directives/Components",
+     "101",
+     "89",
+     "11% reduction"
+    ],
+    [
+     "Services",
+     "9",
+     "6",
+     "33% reduction"
+    ],
+    [
+     "Dependencies",
+     "10",
+     "6",
+     "40% reduction"
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "These improvements translate directly to faster application startup times, reduced bundle sizes, and more responsive user interfaces."
+  },
+  {
+   "k": "h2",
+   "t": "Testing strategy improvements"
+  },
+  {
+   "k": "p",
+   "t": "We revamped our testing strategy to improve reliability and coverage:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Adopted @testing-library/angular for rendered HTML testing.",
+    "Implemented snapshot testing for component examples.",
+    "Added accessibility (axe) testing.",
+    "Increased test coverage from 70% to 98%"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "These changes helped us catch edge cases earlier, reduce manual a11y reviews, and confidently make architectural improvements."
+  },
+  {
+   "k": "h2",
+   "t": "Strategic roadmap"
+  },
+  {
+   "k": "p",
+   "t": "Nova Angular 6 creates the foundation for our future component library strategy:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Simplified upgrades: Easier adoption of future Angular versions.",
+    "Native-first approach: Prioritize components that leverage native browser capabilities.",
+    "Customization-focused: Provide styles and optional controllers while allowing developers to bring their own logic."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "This strategic direction aligns with modern front-end practices and positions Nova Angular as a lightweight, flexible solution that enhances application development."
+  },
+  {
+   "k": "p",
+   "t": "Related topics"
+  }
+ ]
+}

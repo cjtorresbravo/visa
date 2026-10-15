@@ -1,0 +1,51 @@
+{
+ "url": "https://design.visa.com/designing",
+ "title": "Get started | Designing | Visa Product Design System",
+ "h1": "Start designing with VPDS",
+ "readAt": "2026-10-15T17:06:13.533Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Start designing with VPDS"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to start designing with the Visa Product Design System using this step-by-step guide for ease and efficiency."
+  },
+  {
+   "k": "h2",
+   "t": "Step 1: Familiarize yourself with the system"
+  },
+  {
+   "k": "p",
+   "t": "Check out the Visa Product Design System documentation. It’s filled with principles and best practices that will provide a solid foundation, even in the absence of a dedicated design or content team."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Understand our foundational principles including Accessibility and Inclusive design in About VPDS.",
+    "Discover our system’s visual and architectural standards used to ensure consistent digital experiences in Base elements.",
+    "Find usage, specs, and accessibility guidance for the building blocks of the system in Components.",
+    "Find layouts for common tasks like uploading a file or requesting a one-time passcode in Patterns.",
+    "Create insightful, inclusive, and accessible data experiences for everyone, everywhere with Data visualization.",
+    "Discover all the essentials for writing product content like voice and tone, grammar, and alert messaging in Content."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Step 2: Get the Figma design kits"
+  },
+  {
+   "k": "p",
+   "t": "The VPDS team maintains design kits in Figma. These include components and styles that are updated automatically with each system release. To get set up, visit Design kits and follow the instructions for internal or external users."
+  },
+  {
+   "k": "h2",
+   "t": "Step 3: Connect with us"
+  },
+  {
+   "k": "p",
+   "t": "Have questions or ideas? Subscribe to our email list, visit our office hours, or join us on Teams by visiting Support."
+  }
+ ]
+}

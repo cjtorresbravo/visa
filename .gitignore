@@ -1,0 +1,3 @@
+# site images are read, not shipped: the text pass keeps their content
+sources/*/images/
+.DS_Store

@@ -1,0 +1,620 @@
+{
+ "url": "https://design.visa.com/patterns/filters",
+ "title": "Filters | Patterns | Visa Product Design System",
+ "h1": "Filters",
+ "readAt": "2026-10-15T17:08:05.491Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Filters"
+  },
+  {
+   "k": "p",
+   "t": "Controls enabling users to refine results in lists, tables, content cards, and charts by applying specific criteria."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesFiltering methodsLoading statesDisplaying filter optionsNo results",
+    "LayoutsDropdown filtersAdvanced search filtersFilter panelFilter dialogIn-table filters",
+    "BehaviorsApplying filtersShow all filters categoriesClearing filtersSorting results",
+    "Platform considerationsMobile",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Filters refine the results in lists, tables, content cards, and charts by including or excluding items based on specific criteria, so only the most relevant information is presented."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Filtering."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Saved filters menu (optional): Button displaying a user’s saved filter sets. \nB. Filter category (required): Brief text describing the general property of a group of items. \nC. Applied filter indicator (required): Indicates the number of applied filters within a category.\nD. Show all filters button (optional): Button that launches a dialog displaying all available filters.\nE. Save filters button (optional): Button that saves the applied filters as a saved set of filters.\nF. Applied filter chip (required): Chip representing selected filter options.\nG. Clear all filters button (required): Button that removes all selected filters across categories and reset results to default.\nH. Filter option (required): Individual value or range of values within a filter category.\nI. Apply button (required): Button that applies selected filter options.\nJ. Clear button (optional): Button that clears the selected filter options within a category."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Pattern",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Dropdown filters",
+     "For interfaces with lightweight to medium filtering needs where users need to apply individual or batch filters.",
+     "For data-heavy applications that require an API call when a filter is applied. Use advanced search instead."
+    ],
+    [
+     "Advanced search filters",
+     "For complex interfaces where users are applying several filters in a batch.",
+     "For interfaces with light filtering needs."
+    ],
+    [
+     "Filter panel",
+     "For shopping experiences or other layouts where results are represented as content cards.",
+     "For interfaces that use vertical navigation. If displaying filtered data in a complex dynamic table. Use dropdown filters, advanced search, or in-table filters instead."
+    ],
+    [
+     "Filter dialog",
+     "For interfaces with limited space where users are applying batch filters. For responsive interfaces.",
+     "For complex interfaces where users may need to edit filters frequently. Use dropdown filters, advanced search, or in-table filters instead."
+    ],
+    [
+     "In-table filters",
+     "For complex dynamic tables where users need to refine results within the context of the table.",
+     "For layouts outside of a dynamic table. For lightweight or consumer interfaces. For mobile applications."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Organize filters in a logical order, such as placing the most frequently used at the beginning.",
+    "Always show a summary of active filters at the top of the results area.",
+    "Provide an intuitive way for users to clear filters individually or to reset results to their default values.",
+    "Clearly indicate which filters are currently active or selected, through badges and chips."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Make label filters descriptive and easy to interpret."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Label filters as optional or required."
+  },
+  {
+   "k": "p",
+   "t": "Do     Provide intuitive and appropriate filter categories and filtering methods."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Include complex filter categories that could complicate the user experience or reveal private information."
+  },
+  {
+   "k": "h3",
+   "t": "Filtering methods"
+  },
+  {
+   "k": "p",
+   "t": "Filtering methods refer to the different ways users can refine choices in their product experience. These methods can be used within any of the layouts. There are various methods available through this pattern including single-select filtering, multi-select filtering, and filtering with free text input."
+  },
+  {
+   "k": "h4",
+   "t": "Single-select filtering"
+  },
+  {
+   "k": "h5",
+   "t": "Combobox"
+  },
+  {
+   "k": "p",
+   "t": "Comboboxes combine a single-line input and menu, enabling the user to search a limited set of options by typing a value into the field."
+  },
+  {
+   "k": "text",
+   "t": "Explore Combobox guidelines"
+  },
+  {
+   "k": "h5",
+   "t": "Select (native)"
+  },
+  {
+   "k": "p",
+   "t": "Select (native) uses the native default select in a browser, enabling users to select one option from a set of multiple, related options in a dropdown list."
+  },
+  {
+   "k": "text",
+   "t": "Explore Select (native) guidelines"
+  },
+  {
+   "k": "h5",
+   "t": "Single-select listbox"
+  },
+  {
+   "k": "p",
+   "t": "Single-select listboxes display all available options in a scrollable list, and enables users to select one option."
+  },
+  {
+   "k": "text",
+   "t": "Explore Listbox guidelines"
+  },
+  {
+   "k": "h5",
+   "t": "Dropdown menu with sinlge-select listbox"
+  },
+  {
+   "k": "p",
+   "t": "Dropdown menus with single-select listboxes use a temporary listbox to reduce clutter."
+  },
+  {
+   "k": "text",
+   "t": "Explore Dropdown menu guidelines"
+  },
+  {
+   "k": "h4",
+   "t": "Multi-select filtering"
+  },
+  {
+   "k": "h5",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Checkboxes enable the user to select one or more options from a list where each choice is independent of the other options available in the list."
+  },
+  {
+   "k": "text",
+   "t": "Explore Checkbox guidelines"
+  },
+  {
+   "k": "h5",
+   "t": "Chips"
+  },
+  {
+   "k": "p",
+   "t": "Chips are compact, interactive elements that represent an input or option. They often appear in groups to help users filter content or enter data."
+  },
+  {
+   "k": "text",
+   "t": "Explore Chips guidelines"
+  },
+  {
+   "k": "h5",
+   "t": "Multiselect"
+  },
+  {
+   "k": "p",
+   "t": "Multiselect enables users to search and select multiple options from a list when space is limited. The dropdown list only appears when the user begins to type."
+  },
+  {
+   "k": "text",
+   "t": "Explore Multiselect guidelines"
+  },
+  {
+   "k": "h5",
+   "t": "Multi-select listbox"
+  },
+  {
+   "k": "p",
+   "t": "Multi-select listboxes display all available options in a perisistent, scrollable list and enables users to select multiple options."
+  },
+  {
+   "k": "text",
+   "t": "Explore Listbox guidelines"
+  },
+  {
+   "k": "h5",
+   "t": "Dropdown menu with multi-select listbox"
+  },
+  {
+   "k": "p",
+   "t": "Dropdown menus with multi-select listboxes use a temporary listbox to reduce clutter. Users can select one or more options from a dropdown list."
+  },
+  {
+   "k": "text",
+   "t": "Explore Dropdown guidelines"
+  },
+  {
+   "k": "h4",
+   "t": "Filtering with free text input"
+  },
+  {
+   "k": "p",
+   "t": "Note: This method isn’t recommended to be used with in-table filters. Reference In-table filters under Layouts for more information."
+  },
+  {
+   "k": "h5",
+   "t": "Search field"
+  },
+  {
+   "k": "p",
+   "t": "A search field is a pattern that enables users to look across a large set of data to find results based on the keywords entered."
+  },
+  {
+   "k": "text",
+   "t": "Explore Search guidelines"
+  },
+  {
+   "k": "h5",
+   "t": "Input"
+  },
+  {
+   "k": "p",
+   "t": "An input field is a component that enables users to enter text or data to find results for a specific field or filter category."
+  },
+  {
+   "k": "text",
+   "t": "Explore Input guidelines"
+  },
+  {
+   "k": "h5",
+   "t": "Date selector"
+  },
+  {
+   "k": "p",
+   "t": "Date selectors enable users to type in or select a single date or a range of dates from the past, present, or future."
+  },
+  {
+   "k": "text",
+   "t": "Explore Date selector guidelines"
+  },
+  {
+   "k": "p",
+   "t": "Do     Use single-select filtering when users need only one filter option at a time."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use single-select filtering when users may need to select multiple filter options."
+  },
+  {
+   "k": "h3",
+   "t": "Loading states"
+  },
+  {
+   "k": "p",
+   "t": "Loading states provide visual feedback that helps users understand that their input is being processed and results will be displayed shortly. This reduces frustration and keeps users informed about the status of their actions."
+  },
+  {
+   "k": "h4",
+   "t": "Progress indicators"
+  },
+  {
+   "k": "p",
+   "t": "Progress indicators provide a clear visual representation to users that a process is ongoing."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use indeterminate progress indicators for unknown or longer loading times or for larger, more complex datasets."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Displaying filter options"
+  },
+  {
+   "k": "p",
+   "t": "While filters can serve as a powerful tool for some use cases, they don’t need to be presented in all scenarios. Provide users with the flexibility to minimize or show filters as needed to keep the interface uncluttered."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Show the essential filters first and display the rest behind a “Show all filters” button.",
+    "Use accordions or “Show more” links to enable users to view additional options within filter categories."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use a “Show all filters” button to show more filters or hide less relevant options."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Hide important filters behind the “Show all filters” button."
+  },
+  {
+   "k": "h3",
+   "t": "No results"
+  },
+  {
+   "k": "p",
+   "t": "If a filter application fails or there are no filter results available, use meaningful content to explain the situation and give users clear next steps. Reference Messaging for guidance in crafting content for empty state messages."
+  },
+  {
+   "k": "h2",
+   "t": "Layouts"
+  },
+  {
+   "k": "p",
+   "t": "The filters pattern has multiple layouts to accommodate different visual designs and user needs. Choose a layout that fits your product’s navigation, the format in which data is presented, and the filtering method being used. For example, if your product’s navigation is horizontal, a horizontal filter layout might integrate more seamlessly and make better use of space."
+  },
+  {
+   "k": "p",
+   "t": "Each layout can be used as a starting point to enable different task flows. To learn about the filters task flows and how they work with each layout, visit the Task flows (internal only)."
+  },
+  {
+   "k": "h3",
+   "t": "Dropdown filters"
+  },
+  {
+   "k": "p",
+   "t": "This layout represents filter categories as dropdown buttons with listbox or search functionality. As users refine their search by selecting filter options, the selected values appear in a row below the filter categories. This layout can be used with single-select or multi-select filtering methods."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the “Show all filters” button to store additional filters as the screen size gets smaller.",
+    "Enable applied filter chips to wrap to multiple rows if needed."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Advanced search filters"
+  },
+  {
+   "k": "p",
+   "t": "This layout displays filters as form fields placed side by side, including a search field located above the form fields. The search field enables users to search within the table or dataset as a whole. This layout is best for experiences with large datasets or complex queries, because users can simultaneously set multiple filters across categories."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Include separate “Search” and “Apply” buttons if users need the option to use them as distinct functions."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Filter panel"
+  },
+  {
+   "k": "p",
+   "t": "This layout consists of a persistent vertical panel on the side of the main content area. This layout is best for shopping experiences or other UI applications that display results that reflow easily as the window size reduces. Filters can either be displayed as individual fields or within accordions to prevent overwhelming users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Utilize panels or wider areas effectively to display filters without disturbing the main content area."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Filter dialog"
+  },
+  {
+   "k": "p",
+   "t": "In this layout, filters are displayed in a temporary dialog activated by a filter button, typically located in an action bar. The dialog closes when the user selects “Apply” or dismisses it by interacting outside the dialog. Selecting outside the dialog without selecting “Apply” will discard any changes. This layout is best for interfaces with limited space where users apply batch filters."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a filter button to activate the modal, and indicate the amount of active filters with a number badge.",
+    "Use accordions to represent long lists of options to prevent overwhelming users."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "In-table filters"
+  },
+  {
+   "k": "p",
+   "t": "In-table filters are specifically used in dynamic tables and enable users to refine the table data directly from a menu in the column header. Users can open a dialog by selecting the options button within the header. Selecting “Apply” closes the dialog and applies the chosen filters. Only one table column can be filtered at a time."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always display applied filters outside of the table.",
+    "Align filter labels with column headings.",
+    "Avoid using open input fields with in-table filtering. Consider using the Advanced search filters pattern instead."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Provide a summary of applied filters outside the table with a means of clearing all filters at once."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Place applied filters inside the data table."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "p",
+   "t": "Filters have various behaviors to help users refine their choices. Reference the guidance below to learn about common behaviors and features you may implement based on use case."
+  },
+  {
+   "k": "h3",
+   "t": "Applying filters"
+  },
+  {
+   "k": "p",
+   "t": "There are two ways to apply filters: Using a button and instant filtering. For most use cases, using an “Apply” button is preferred as instant filtering can be disorienting to users if the page results reload anytime a selection is made. In some cases, instant filtering is necessary to improve the overall experience. For example, when clearing an applied filter chip, users may expect that action to happen instantly."
+  },
+  {
+   "k": "h4",
+   "t": "Apply button"
+  },
+  {
+   "k": "p",
+   "t": "The apply button enables users to make selections or adjustments, then confirm their choices by selecting “Apply.”"
+  },
+  {
+   "k": "h4",
+   "t": "Instant filtering"
+  },
+  {
+   "k": "p",
+   "t": "Instant filtering immediately reflects user choices as they make selections, without needing additional confirmation."
+  },
+  {
+   "k": "h3",
+   "t": "Show all filters categories"
+  },
+  {
+   "k": "p",
+   "t": "The “Show all filters” button launches the All filters dialog to display all available filters, including options already displayed in the main view. Displaying all filter categories at once can overwhelm users and push important content off-screen, especially in complex experiences. Filters can be displayed as individual form fields or within accordions."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Preserve any selections made in accordion categories when they’re collapsed.",
+    "Use badges to display the number of applied filters within the accordion."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Let users refine the data with as many filters as they want."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Set limits on how many filters users can apply."
+  },
+  {
+   "k": "h3",
+   "t": "Clearing filters"
+  },
+  {
+   "k": "p",
+   "t": "The “Clear all” button removes all active filters and returns the results to an unfiltered state. Users can clear individual filters by selecting the clear button within the chip. If your application has set default filters, such as a preset date range, consider using a “Reset filters” button instead to give users a way to return to that baseline."
+  },
+  {
+   "k": "h3",
+   "t": "Sorting results"
+  },
+  {
+   "k": "p",
+   "t": "Sorting helps users find the information they need by organizing data into a preferred order. It can help identify trends, patterns, or anomalies within a dataset. Unlike filtering, sorting only reorders existing data—it doesn’t hide or remove items. Common ways to sort data include alphabetically, numerically, and chronologically."
+  },
+  {
+   "k": "list",
+   "items": [
+    "When offering sorting options, provide a default that best fits your use case. For example, if users typically sort alphabetically, make that the default.",
+    "If displaying results in a dynamic table, provide sorting functionality in the column headers. Reference Dynamic table for examples."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Provide sorting functionality in addition to filtering when necessary."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use sorting alone as an alternative to filtering."
+  },
+  {
+   "k": "p",
+   "t": "Do     Provide users with sorting options when results aren’t presented in a table."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Provide extra sorting controls if users can sort within a dynamic table."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "When implementing filters in mobile experiences, use the dropdown filters or filter panel. Dialogs are displayed as panels in mobile layouts."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Allow selected filter chips to scroll horizontally off-screen instead of wrapping to a new line.",
+    "Display filters as form fields or within accordions, depending on the use case.",
+    "Avoid in-table filtering in mobile experiences."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use clear, concise text to label filter options and categories.",
+    "Use sentence case for all content except proper nouns or acronyms.",
+    "Limit filter labels to three to five words when possible.",
+    "Follow guidance in Dynamic table when writing table titles, subtitles, column and row headers labels.",
+    "Reference Chips for guidance on creating effective filter chip labels.",
+    "Reference Button for guidance on creating effective button labels."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Column and row headers"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Align filter names with the relevant column header.",
+    "Ensure column headers accurately describe the contents so users can interpret the data without additional context."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Chips"
+  },
+  {
+   "k": "p",
+   "t": "Compact elements used to filter content or display user input."
+  },
+  {
+   "k": "h3",
+   "t": "Listbox"
+  },
+  {
+   "k": "p",
+   "t": "Container that displays a list of items available for selection."
+  },
+  {
+   "k": "h3",
+   "t": "Dynamic table"
+  },
+  {
+   "k": "p",
+   "t": "Dynamic grid enabling data interaction, manipulation, and criteria-based analysis."
+  }
+ ]
+}

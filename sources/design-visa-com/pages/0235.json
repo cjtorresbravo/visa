@@ -1,0 +1,280 @@
+{
+ "url": "https://design.visa.com/components/tabs/usage",
+ "title": "Tabs | Components | Visa Product Design System",
+ "h1": "Tabs",
+ "readAt": "2026-10-15T17:11:05.640Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Tabs"
+  },
+  {
+   "k": "p",
+   "t": "Organizational element that separates content and allows users to switch views."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesVertical tabsHorizontal tabsStacked tabs",
+    "BehaviorsTabs for in-page contentScaling and reflow",
+    "Platform considerationsMobile",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Tabs are organizational elements that group related content. They help users navigate between sections of content by switching views within the same page or container.\nAlso known as: Tabbed interface, tab group, TabLayout (Android), TabItem (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Label (required): Brief text describing the tab content.\nB. Icon (optional): Icon used to represent the tab.\nC. Active tab visual indicator (required): Visual indicator showing the tab currently in view."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Vertical",
+     "When there are more categories of content and longer tab labels.",
+     "If your interface has limited vertical space."
+    ],
+    [
+     "Horizontal",
+     "When there are fewer categories of content and shorter tab labels.",
+     "When the tab labels are long and can lead to truncation of text."
+    ],
+    [
+     "Stacked",
+     "When tab labels are short and concise and using icons helps call attention to the content.",
+     "When tab labels are longer and icons don’t add additional context."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reference Application layouts for help deciding which navigation component is best for your use case.",
+    "Organize tabs in a logical order, such as placing the most frequently accessed tabs at the beginning.",
+    "Clearly indicate the active tab to help users understand which tab is related to the information presented.",
+    "Limit the number of tabs to avoid overwhelming users. If you have more than five tabs, consider using a different navigation pattern.",
+    "Avoid displaying disabled tabs without providing an explanation for why the tab is disabled."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Vertical tabs"
+  },
+  {
+   "k": "p",
+   "t": "Vertical tabs are arranged in a single column on the left side of the content area for left-to-right languages. They’re ideal for interfaces with long tab labels or when there are many categories of content."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place the vertical tabs on the left side of the content area to align with common left-to-right reading patterns.",
+    "Ensure the tab list is scrollable if necessary to prevent overwhelming users with too many choices at once.",
+    "Consider using a nav menu to group related tabs and reduce clutter."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Note: Nav menus are built using a modified dropdown menu component. For accessibility reasons, don’t use the default dropdown menu or replace it with a select component. Always consult with accessibility partners before modifying the behavior of any component."
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal tabs"
+  },
+  {
+   "k": "p",
+   "t": "Horizontal tabs are arranged in a single row at the top of the content area. They’re best used when there are fewer categories of content and shorter tab labels to avoid truncation."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit the length of tab labels to avoid wrapping or truncation.",
+    "Avoid using more than five to seven tabs.",
+    "Ensure horizontal tabs adapt to different screen sizes. Consider using a nav menu for additional tabs on smaller screens."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Stacked tabs"
+  },
+  {
+   "k": "p",
+   "t": "Stacked tabs are similar to horizontal tabs except they include an icon above the tab label. These are best used when more context could be added to tabs using by icons to represent the label in more detail."
+  },
+  {
+   "k": "p",
+   "t": "Do     Maintain visual consistency between tabs."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Mix visual treatments for tabs by using icons inconsistently."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "p",
+   "t": "Tabs have various behaviors designed to make content easy to understand and interact with."
+  },
+  {
+   "k": "h3",
+   "t": "Tabs for in-page content"
+  },
+  {
+   "k": "p",
+   "t": "The expected behavior of tabs is to enable users to access different information within a single page area. They should be positioned below the page title to prevent confusion with site navigation. Place related tabs next to the corresponding content and apply visual styling to emphasize their relationship."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place tabs near their related content.",
+    "Use visual styling to clearly indicate the active tab."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use tabs for related content within the same page."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use tabs to navigate to unrelated content on different pages."
+  },
+  {
+   "k": "h3",
+   "t": "Scaling and reflow"
+  },
+  {
+   "k": "p",
+   "t": "Scaling and reflow refer to how tabs behave as the container size changes, especially when the container is too small to display all content at once. Tabs should adjust responsively to maintain usability and clarity, wrapping or reflowing as needed to fit within the available space."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure consistent margins and 6 px padding between tab elements to maintain a clean and organized layout.",
+    "Ensure tabs are responsive and adapt to different screen sizes without causing truncation or hiding content."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "h4",
+   "t": "Tabs as navigation"
+  },
+  {
+   "k": "p",
+   "t": "While the typical expected behaviors for tabs is to switch between views within the same page, they can also be used as the basis for navigation components, like tab bar. When implemented as a tab bar, switching tabs takes users to a new page."
+  },
+  {
+   "k": "h4",
+   "t": "Fixed width"
+  },
+  {
+   "k": "p",
+   "t": "When space and content allows, tab groups on small screens can extend to the width of the screen. Both native mobile and responsive web applications can use this layout."
+  },
+  {
+   "k": "h4",
+   "t": "Scrollable tabs (touch devices)"
+  },
+  {
+   "k": "p",
+   "t": "Tabs may overflow horizontally on touch devices, allowing users to scroll through them. This layout isn’t for use on desktop devices."
+  },
+  {
+   "k": "h4",
+   "t": "Stacked tabs (non-touch devices)"
+  },
+  {
+   "k": "p",
+   "t": "In the rare instance of a small screen without touch capabilities, tabs may be stacked on top themselves. Consider using an accordion instead of tabs to save space."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Write all content in sentence case, except for acronyms or proper nouns, like the application name.",
+    "Don’t use punctuation for tab labels.",
+    "Ensure labels match page titles to enhance the user’s understanding of the site’s information hierarchy.",
+    "Follow all best practices and guidelines implementing links. Reference Link for more information.",
+    "Limit labels to a few brief words to prevent unnecessary reflow.",
+    "Reference Grammar and punctuation to learn how to use parallel structure for consistent phrasing."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Accordion"
+  },
+  {
+   "k": "p",
+   "t": "Sets of vertical headers that reveal or hide subsections of content."
+  },
+  {
+   "k": "h3",
+   "t": "Anchor link menu"
+  },
+  {
+   "k": "p",
+   "t": "Link menus that navigate to sections within the current page."
+  }
+ ]
+}

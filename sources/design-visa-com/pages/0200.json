@@ -1,0 +1,256 @@
+{
+ "url": "https://design.visa.com/components/horizontal-navigation/usage",
+ "title": "Horizontal navigation | Components | Visa Product Design System",
+ "h1": "Horizontal navigation",
+ "readAt": "2026-10-15T17:09:57.791Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Menu placed at the top of a site that links to important pages or features."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesDefault horizontal navigationStacked horizontal navigationNav menusIcon usage",
+    "BehaviorsChevron direction",
+    "Platform considerationsWebMobile",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "The horizontal navigation component is a container enabling users to navigate a product or experience. It’s a common type of menu that’s usually placed at the top of a website."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Horizontal menu, horizontal navigation bar, top navigation bar, horizontal tab navigation, row navigation, UITabBarController (iOS), TabLayout (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Brand mark (optional): Visual element representing Visa, a partner brand, or a fictitious brand associated with the product.  B. Application name (optional): Label indicating the name of the application.  C. Navigation link (required): Label indicating the destination of the link.  D. Nav menu (optional): Menu that expands to show nested navigation items under a common heading or category.  E. Global search (optional): Icon button prompting a global search bar to find content across the whole site or app.  F. Notification badge (optional): Badge component that expands and collapses the notification tray.  G. User profile (optional):  Avatar component representing the current user’s account."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Default",
+     "For websites with a few main navigation items.",
+     "If navigation items are lengthy or complex."
+    ],
+    [
+     "Stacked",
+     "For websites with more navigation items that require extra space.",
+     "If website navigation is limited and simple."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reference Application layouts for help deciding which navigation component is best for your use case.",
+    "Ensure the order of the navigation items is consistent throughout the application so users aren’t confused.",
+    "Avoid exceeding seven items or links in the main navigation.",
+    "Consider making the brand mark and/or application name function as a link to the homepage of the experience.",
+    "Ensure the navigation bar remains visible as the user scrolls.",
+    "Follow all guidance found in Search, Notification tray, Link, and Avatar when implementing those items in the navigation."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Default horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "The default horizontal navigation bar includes a single level of navigation items. Items can link directly to a page, dropdown to show nested items, or prompt related functions like a search bar or notification tray."
+  },
+  {
+   "k": "h3",
+   "t": "Stacked horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "The stacked navigation bar provides extra space for websites with more navigation items. If the default bar looks crowded in your app, the stacked version can help declutter the experience. The first level should contain navigation icons and functions such as user profile, search and notification, while the second level should contain page links."
+  },
+  {
+   "k": "h3",
+   "t": "Nav menus"
+  },
+  {
+   "k": "p",
+   "t": "Nav menus refer to dropdowns in the navigation bar that expand to show nested links. The top-level label doesn’t link to a specific page, and doesn’t change to reflect the user’s selection."
+  },
+  {
+   "k": "p",
+   "t": "Note: Nav menus are built using a modified dropdown menu component. For accessibility reasons, don’t use the default dropdown menu or replace it with a select component. Always consult with accessibility partners before modifying the behavior of any component."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use a nav menu to save space by grouping related links."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Mix links and actions within a nav menu."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use a descriptive label indicating what links are in the menu."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Update the label to reflect the user’s selection."
+  },
+  {
+   "k": "h3",
+   "t": "Icon usage"
+  },
+  {
+   "k": "p",
+   "t": "Icons can be used in navigation menus to make scanning easier and reinforce familiar ideas."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure icon usage applies to all navigation items within the same hierarchy level. For example, if you use icons for some L1 labels, they should be used in all L1 items.",
+    "Omit icons for nested items, but if they’re necessary, ensure all items within the nested level has one."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Chevron direction"
+  },
+  {
+   "k": "p",
+   "t": "Visually differentiate expanded and collapsed sections using the chevron direction."
+  },
+  {
+   "k": "h4",
+   "t": "Collapsed"
+  },
+  {
+   "k": "p",
+   "t": "Collapsed sections should use the downwards-pointing chevron to indicate collapsed content can be expanded."
+  },
+  {
+   "k": "h4",
+   "t": "Expanded"
+  },
+  {
+   "k": "p",
+   "t": "Expanded sections should use the upwards-pointing chevron to indicate expanded content can be collapsed."
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Web"
+  },
+  {
+   "k": "p",
+   "t": "Horizontal navigation is responsive for web applications, and the behavior is modified based on screen size. For tablet and smaller web screens, horizontal navigation reduces to the 768px component. At this size, links are placed in a hamburger menu and the application name and brand mark are centered instead of left-aligned."
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "For mobile screens, the horizontal navigation bar turns into a top app bar component instead, with the brand mark centered."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Write all content in sentence case, except for acronyms or proper nouns, like the application name.",
+    "Don’t use punctuation for navigation items.",
+    "Ensure labels match page titles to enhance the user’s understanding of the site’s information hierarchy.",
+    "Limit labels to a few brief words to prevent unnecessary reflow.",
+    "Reference Grammar and punctuation to learn how to use parallel structure for consistent phrasing."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Vertical navigation"
+  },
+  {
+   "k": "p",
+   "t": "Navigation panel located next to page content on screens with sufficient space."
+  },
+  {
+   "k": "h3",
+   "t": "Top app bar"
+  },
+  {
+   "k": "p",
+   "t": "Navigation fixed to the top of mobile apps with logo, links, and global search."
+  },
+  {
+   "k": "h3",
+   "t": "Information architecture"
+  },
+  {
+   "k": "p",
+   "t": "Identify the best organizational structure based on page types and user needs."
+  }
+ ]
+}

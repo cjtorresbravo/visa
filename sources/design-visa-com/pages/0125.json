@@ -1,0 +1,134 @@
+{
+ "url": "https://design.visa.com/content/accessible-text",
+ "title": "Accessible text | Content | Visa Product Design System",
+ "h1": "Accessible text",
+ "readAt": "2026-10-15T17:08:13.880Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Accessible text"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to effectively apply alternative text and ARIA labels for improved accessibility."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Alt attributesScreen reader optimization",
+    "Accessible Rich Internet Applications (ARIA) labels"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Accessible text refers to text used to improve the accessibility of web content. It includes all text included in the code to help assistive technology users understand and interact with interface elements."
+  },
+  {
+   "k": "p",
+   "t": "This guidance gives an overview of how to effectively apply alternative text and ARIA labels for improved accessibility. For more guidance on creating inclusive digital experiences, visit Accessibility. Internal users can also visit the Visa Accessibility SharePoint."
+  },
+  {
+   "k": "h2",
+   "t": "Alt attributes"
+  },
+  {
+   "k": "p",
+   "t": "Alternative text (also known as alt text, alt attributes, or alt descriptions) refers to HTML attributes that provide text descriptions for images. It’s an important accessibility consideration, enabling screen readers to announce descriptions to users who may not be able to perceive images otherwise."
+  },
+  {
+   "k": "h3",
+   "t": "Screen reader optimization"
+  },
+  {
+   "k": "p",
+   "t": "Alt text descriptions should be written carefully to ensure it’s clear and understandable to users. Follow the guidance below to ensure the best experience."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use proper punctuation and grammar to ensure descriptions are easy to understand. To learn more, reference Grammar and punctuation.",
+    "Include a space as the first character in a description to ensure the screen reader pauses before announcing it. This helps users distinguish descriptions from other text.",
+    "Consider hiding decorative images that don’t add meaning by including a null, or empty text alternative.",
+    "Limit text alternatives to one sentence. If you need more than one short sentence to describe an image, which is often true for graphs or diagrams, use a two-part description method as outlined by the Web Accessibility Initiative."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "alt=”A woman at a grocery store standing in front of a cashier and swiping her credit card at the payment terminal.”"
+  },
+  {
+   "k": "p",
+   "t": "Do"
+  },
+  {
+   "k": "p",
+   "t": "Put the most important information at the beginning of the description to provide context as early as possible."
+  },
+  {
+   "k": "p",
+   "t": "alt=”An image of a woman at a grocery store standing in front of a cashier and swiping her credit card at the payment terminal.”"
+  },
+  {
+   "k": "p",
+   "t": "Don't"
+  },
+  {
+   "k": "p",
+   "t": "Include words like “icon”, or “picture” unless differentiating between paintings, illustrations, or other visual elements."
+  },
+  {
+   "k": "h2",
+   "t": "Accessible Rich Internet Applications (ARIA) labels"
+  },
+  {
+   "k": "p",
+   "t": "ARIA (Accessible Rich Internet Applications) labels are attributes used in HTML to improve accessibility. They are particularly useful for content that’s difficult for people using screen readers and other assistive technology to understand. ARIA labels provide critical information to ensure these users can navigate and interact with interface elements."
+  },
+  {
+   "k": "h3",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use an ARIA label when an element doesn’t have a descriptive name or the name doesn’t provide enough context to understand what the element does.",
+    "Don’t use ARIA and alt-text together to avoid redundancy. Use alt text for HTML img elements, and ARIA labels for other elements with the img role.",
+    "Avoid using ARIA labels if they don’t add meaningful context. For more information, reference No ARIA is better then Bad ARIA from WCAG.",
+    "Write ARIA labels in a “Learn more about x” format."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Learn more about Visa Token Services",
+     "Visa Token Service: read more"
+    ],
+    [
+     "Read more about biometrics",
+     "Read more"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "url": "https://design.visa.com/content",
+ "title": "Overview | Content | Visa Product Design System",
+ "h1": "Content",
+ "readAt": "2026-10-15T17:08:12.781Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Content"
+  },
+  {
+   "k": "p",
+   "t": "Explore our content guidelines to craft thoughtful and consistent interface content for a well-designed user experience."
+  },
+  {
+   "k": "h2",
+   "t": "Accessible text"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to effectively apply alternative text and ARIA labels for improved accessibility."
+  },
+  {
+   "k": "h2",
+   "t": "Grammar and punctuation"
+  },
+  {
+   "k": "p",
+   "t": "Learn Visa product grammar and punctuation styles to ensure consistent experiences."
+  },
+  {
+   "k": "h2",
+   "t": "Inclusive language"
+  },
+  {
+   "k": "p",
+   "t": "Gain insight into the use of inclusive language to ensure Visa products include everyone, everywhere."
+  },
+  {
+   "k": "h2",
+   "t": "Information architecture"
+  },
+  {
+   "k": "p",
+   "t": "Identify the best organizational structure based on page types and user needs."
+  },
+  {
+   "k": "h2",
+   "t": "Messaging"
+  },
+  {
+   "k": "p",
+   "t": "Craft content for alert components to increase trust, reduce errors, and improve system performance."
+  },
+  {
+   "k": "h2",
+   "t": "Placeholder text"
+  },
+  {
+   "k": "p",
+   "t": "Replace lorem ipsum text with relevant examples or custom placeholder content."
+  },
+  {
+   "k": "h2",
+   "t": "Readability"
+  },
+  {
+   "k": "p",
+   "t": "Make your content easy to read and understand so people can quickly find what they're looking for."
+  },
+  {
+   "k": "h2",
+   "t": "Voice and tone"
+  },
+  {
+   "k": "p",
+   "t": "Ensure products sound and feel like Visa by learning the foundational pillars of our voice and tone."
+  }
+ ]
+}

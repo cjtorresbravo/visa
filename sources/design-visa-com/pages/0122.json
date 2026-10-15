@@ -1,0 +1,471 @@
+{
+ "url": "https://design.visa.com/patterns/search",
+ "title": "Search | Patterns | Visa Product Design System",
+ "h1": "Search",
+ "readAt": "2026-10-15T17:08:10.037Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Search"
+  },
+  {
+   "k": "p",
+   "t": "Input fields with technical logic to help users locate specific information in a repository or site using keywords."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Usage",
+    "Task flows"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesPlaceholder textClear text buttonSearch buttonResults shownEmpty stateProgress indicators",
+    "LayoutBasic searchActive search",
+    "BehaviorsExpandable searchPersistent searchAutosuggestDiscoverable resultsFilters",
+    "Platform considerations",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Search allows users to navigate through large amounts of content to find results based on the keywords entered. Search uses an Input field in which users can enter terms or keywords to find relevant results."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Leading icon (required): Non-actionable icon at the beginning of the field indicating the purpose.\nB. Search input (required): Text field enabling users to enter the requested information or data.\nC. Placeholder text (required): Text communicating the purpose or scope of the search field."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Pattern",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Basic search",
+     "For global searches, or any search that will route users to a distinct results page.",
+     "If users need real-time results or immediate feedback. Use Active search instead."
+    ],
+    [
+     "Active search",
+     "For small data sets, like a single page, website, or table. If real-time results or constant feedback is needed and the server can handle a substantial search query load.",
+     "For complex queries that involve multiple keywords or specific syntax. Use Basic search instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reference Input as the starting point for all search patterns.",
+    "Reference Combobox for additional best practices when creating search patterns using comboboxes.",
+    "Follow Button guidance when implementing calls to action within search patterns.",
+    "Make homepage search global to allow users to navigate through all available content.",
+    "Provide access to search from every page in an experience to ensure constant availability and ease of use.",
+    "Maintain user’s query during result browsing to help users keep track of their search context.",
+    "Preserve user’s query even after navigating away from the search bar to prevent loss of user input."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Placeholder text"
+  },
+  {
+   "k": "p",
+   "t": "Search fields don’t use labels because they typically use placeholder text within the search box to indicate its purpose. This approach simplifies the interface and makes it more intuitive for users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include the search icon in the leading position. This helps users identify the search box quickly.",
+    "If using a search button, the search icon may be omitted to simplify the design."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "General placeholder text"
+  },
+  {
+   "k": "p",
+   "t": "For a global search, using general placeholder text effectively communicates the purpose of the field."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Keep it simple and universally understood. Using “Search” as a placeholder is a widely accepted."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Scope-specifc placeholder text"
+  },
+  {
+   "k": "p",
+   "t": "For more specific searches, using scope-specific placeholder text helps users understand the boundaries of their search."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid technical jargon. Use language users will recognize.",
+    "Keep it short. Too much text can overwhelm users."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Clear text button"
+  },
+  {
+   "k": "p",
+   "t": "Clear text buttons allow users to clear their entry from the search field."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Only display the clear text button when the user is actively inputting text to prevent confusion or accidental clearing.",
+    "Provide immediate feedback by instantly clearing the text field when the button is selected."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Search button"
+  },
+  {
+   "k": "p",
+   "t": "When the search field is incorporated into the navigation menu, it’s usually not necessary to have a separate button to start the search. This is because users typically expect the search to begin once they hit enter after typing their query. However, on specific pages dedicated to searching, like a page showing search results or an advanced search page, having a separate ‘Search’ button could be useful. This button can provide a clear call to action and help users, especially those less familiar with typical search conventions."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the search button is easy to identify using a magnifying glass icon or label.",
+    "Use either the button or no button consistently across your experience.",
+    "Position the search button to the right of the field. Note: This can depend on the design and layout of your site or application. Always consider the user flow and ease of use."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Results shown"
+  },
+  {
+   "k": "p",
+   "t": "Regardless of whether the search is basic or active, it’s essential to clearly communicate the number of results returned by a search query. This information is valuable even if the search yields zero results."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always display the number of results. This gives the user a sense of how broad or narrow their search results are.",
+    "Include the search query in the results message. This helps users remember what they searched for."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Empty state"
+  },
+  {
+   "k": "p",
+   "t": "An empty state occurs when the text entered in the input field doesn’t match the available options within the menu."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always inform users when their search didn’t match any options to avoid misinterpreting for a loading state.",
+    "Use specific messages when possible, such as “No results found for support” to communicate that the system processed the request but didn’t find any matches. This is also helpful if users are completing multiple searches."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Progress indicators"
+  },
+  {
+   "k": "p",
+   "t": "Whenever a search requires time to load, use a Progress indicator to communicate status and time to completion to the user."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the progress indicator doesn’t interfere with other user activities.",
+    "Consider providing a cancel option alongside the progress indicator for long searches."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Layout"
+  },
+  {
+   "k": "p",
+   "t": "The search pattern has two layouts, one for basic search and another for active search. Each can be used as a starting point to enable different task flows. To learn about the search task flows and how they work with each pattern, visit the Task flows tab."
+  },
+  {
+   "k": "h3",
+   "t": "Basic search"
+  },
+  {
+   "k": "p",
+   "t": "Basic search can appear at the top of a page and can be expandable or persistent. It’s composed of a search input, a search icon, and an “x” UI icon button that clears the search. Optionally, it may include a “Search” or “Go” button. This layout is ideal for interfaces needing quick search access, especially when space is limited and users often search for specific items within large datasets.The simplicity of the basic search layout makes it easy for users to understand and use."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Display search results on a results page if possible.",
+    "Include useful information such as the number of results and the search query used.",
+    "Make sure that the results are easy to scan and that the most relevant results are at the top.",
+    "Place the search input field at the top of the screen, preferably in the header for easy access."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Active search"
+  },
+  {
+   "k": "p",
+   "t": "Active search can appear at the top of the page or within the content area and can be expandable or persistent. It’s composed of a search input, a search icon, and an “x” UI icon button that clears the search. This layout is ideal for interfaces requiring swift navigation through large datasets or applications, as it provides real-time results while users type their query. There is no “Search” or “Go” button; instead, the active search provides immediate feedback directly on the page."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Display results instantly below the search field, providing users with real-time responses to their queries.",
+    "Automatically navigate users to the relevant page when a result is selected."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Expandable search"
+  },
+  {
+   "k": "p",
+   "t": "The search icon can be used to expand a search field in the top-level navigation. The search icon is included in the navigation by default and indicates that a field can be expanded."
+  },
+  {
+   "k": "h4",
+   "t": "Default view"
+  },
+  {
+   "k": "p",
+   "t": "To expand the search, the user selects the icon button to expand the search field. Focus is placed on the field and users can begin to type in their query or search terms."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place the search icon prominently within the menu, preferably the left-most position in the top navigation.",
+    "Always use the magnifying glass icon or search icon (like a magnifying glass) to indicate."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Expanded view"
+  },
+  {
+   "k": "p",
+   "t": "After the icon is pressed, the search box expands and focus is placed on the text field, ready for users to type in their query. Essentially, this is a triggering a modal containing the search box."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the search bar expands smoothly and noticeably when clicked, drawing attention to the input field.",
+    "Make sure expanded search bar is large enough to easily enter search terms and view the full text entered."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Persistent search"
+  },
+  {
+   "k": "p",
+   "t": "In the persistent search experience, the navigation bar contains a compact search input field that’s ready for user input."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place the search input in a consistent area across experiences.",
+    "Ensure users can type at least 27 characters total into the field."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Autosuggest"
+  },
+  {
+   "k": "p",
+   "t": "Autosuggest, suggests options based on user input. However, it generates suggestions dynamically from a database of possible inputs, not just past entries. Autosuggest is commonly used in search fields for suggesting search terms or products. Remember, different applications handle autosuggest differently, from suggestion generation and presentation to dropdown menu interaction."
+  },
+  {
+   "k": "p",
+   "t": "Note: Implementing autosuggest requires significant development effort compared to native autocomplete. Its effectiveness relies on having relevant, quickly retrievable data. Components don’t include search functionality by default. If autosuggest is needed, this must be considered and implemented separately from autocomplete and may require significant and additional development effort or potentially re-architecting the application."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Prioritize relevance in your autosuggest results to help users reach their goal faster.",
+    "Limit the number of autosuggest results. Aim to only include between 5 and 10 suggestions to avoid overwhelming users.",
+    "Keep the suggestions clear and concise, making them easy to understand and select.",
+    "Test autosuggest for consistency in function, responsiveness, result accuracy, and visual presentation across browsers."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Discoverable results"
+  },
+  {
+   "k": "p",
+   "t": "Discoverable results are typically used in applications where the aim is to guide users towards content that they might not have thought to search for. The suggestions are generated not just from a database of possible inputs but also from an analysis of user behavior, search trends, and the overall search context."
+  },
+  {
+   "k": "p",
+   "t": "Note: Implementing discoverable results requires significant development effort, similar to autosuggest. It involves not only generating suggestions based on user input but also analyzing user behavior and search trends. Components don’t include search functionality by default. If discoverable results are needed, this must be considered and implemented separately from autosuggest and may require substantial development effort or potentially re-architecting the application."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Understand your users by researching and comprehending their behavior, needs, and expectations.",
+    "Ensure that the results are relevant to the user’s search intent. Avoid irrelevant suggestions.",
+    "Limit the number of results. Aim to only include between 5 and 10 suggestions to avoid overwhelming users.",
+    "Keep the suggestions clear and concise, making them easy to understand and select.",
+    "Highlight the matching part of the suggestion if the user has started typing, to help users find what they’re looking for."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Filters"
+  },
+  {
+   "k": "p",
+   "t": "Filters allow users to limit their search results based on preferred attributes. They are particularly useful for global searches or when a query is likely to yield many results."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Implement filters after search results are returned to allow users to narrow their search.",
+    "Ensure the filters are easy to locate, understand, and relevant to the contents of the repository.",
+    "Communicate when a filter has been applied using a visual indicator, such as chips.",
+    "Use Multiselect to implement filters to allow users to apply multiple filters."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Scope filters"
+  },
+  {
+   "k": "p",
+   "t": "Scope filters allow users to narrow their search to one category of information prior to entering a query. This can be a helpful way to prevent cumbersome filtering after running a query, especially if users are performing a global search with many potential results. Some common scopes include:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Date range: Allows users to narrow down search results within a specific time frame.",
+    "Keyword: Allows users to search for specific words or phrases within the content.",
+    "Category: Allows users to narrow down their search to a specific category or type of content."
+   ]
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always set the scope to “All” by default.",
+    "Ensure scope filters are intuitive and easy to understand.",
+    "Keep the scope selection visible and easily changeable even after the search is initiated."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "p",
+   "t": "Search task flows have been designed for both mobile and web platforms."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use simple language—avoid abbreviations or jargon.",
+    "Use sentence case, except for proper nouns or acronyms."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Placeholder text"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit placeholder text to three to five words.",
+    "Be consistent, if using “Search” use it consistently across your experience. If using scope-specific placeholder text keep the content short and specific to the search. Learn more in Placeholder text."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Button"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that help users take actions within an interface."
+  },
+  {
+   "k": "h3",
+   "t": "Input"
+  },
+  {
+   "k": "p",
+   "t": "Text fields that enable users to enter free-form content."
+  },
+  {
+   "k": "h3",
+   "t": "Progress"
+  },
+  {
+   "k": "p",
+   "t": "Visual representations of the status of a system process."
+  },
+  {
+   "k": "h3",
+   "t": "Combobox"
+  },
+  {
+   "k": "p",
+   "t": "Dropdown menu that helps users enter text or select items from a list."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "url": "https://design.visa.com/developing/styles-css/accessibility-styles",
+ "title": "Accessibility styles | Styles (CSS) | Developing | Visa Product Design System",
+ "h1": "Accessibility styles",
+ "readAt": "2026-10-15T17:06:40.355Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Accessibility styles"
+  },
+  {
+   "k": "p",
+   "t": "Create screen reader-friendly code in CSS to enhance the accessibility of your apps."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Accessibility styles",
+    "APIClassesVariables"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Nova styles version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Accessibility styles"
+  },
+  {
+   "k": "h3",
+   "t": "Focus outline"
+  },
+  {
+   "k": "text",
+   "t": "Loading accessibility example Focus Outline"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Screen reader-only"
+  },
+  {
+   "k": "text",
+   "t": "Loading accessibility example Screen Reader only"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-sr"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "p",
+   "t": "No exposed properties for variables."
+  }
+ ]
+}

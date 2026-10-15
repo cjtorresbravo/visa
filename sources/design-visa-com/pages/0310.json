@@ -1,0 +1,347 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0",
+ "title": "Nova Angular | Visa Product Design System",
+ "h1": "VPDS Angular | Nova",
+ "readAt": "2026-10-15T17:16:21.076Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "VPDS Angular | Nova"
+  },
+  {
+   "k": "p",
+   "t": "The latest VPDS Angular components illustrated using the new Nova theme."
+  },
+  {
+   "k": "text",
+   "t": "Quick Start"
+  },
+  {
+   "k": "text",
+   "t": "Use Nova with Vault"
+  },
+  {
+   "k": "text",
+   "t": "Vault"
+  },
+  {
+   "k": "h2",
+   "t": "Light Weight"
+  },
+  {
+   "k": "p",
+   "t": "We've reduced our library to basic typescript components and functional hooks for a lighter, simpler, and more flexible experience."
+  },
+  {
+   "k": "h2",
+   "t": "Building Blocks"
+  },
+  {
+   "k": "p",
+   "t": "No more waiting on feature requests. We provide the building blocks for you to easily create and customize your own components."
+  },
+  {
+   "k": "h2",
+   "t": "For Developers"
+  },
+  {
+   "k": "p",
+   "t": "Nova Angular is sleek and unobtrusive. Our beautifully designed components allow any developer to create stunning apps with ease."
+  },
+  {
+   "k": "h2",
+   "t": "Quick start guide"
+  },
+  {
+   "k": "p",
+   "t": "Quickly get started with a brand new Angular application."
+  },
+  {
+   "k": "h3",
+   "t": "Step 1: Update Angular"
+  },
+  {
+   "k": "p",
+   "t": "Nova Angular supports Angular 19, 20, and 21. See Angular's guide on how to  upgrade Angular from your current version to the target version."
+  },
+  {
+   "k": "h3",
+   "t": "Step 2: Installation"
+  },
+  {
+   "k": "p",
+   "t": "First things first, install the library with your preferred package manager:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn",
+    "Bun"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "npm install @visa/nova-angular@7.0.0-beta.7.0.0.1"
+  },
+  {
+   "k": "h4",
+   "t": "Step 2b: Component-specific installs"
+  },
+  {
+   "k": "p",
+   "t": "If you're using components that require specific functionality:"
+  },
+  {
+   "k": "p",
+   "t": "For Dialog components:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn",
+    "Bun"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "npm install @angular/cdk"
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn",
+    "Bun"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "npm install @floating-ui/dom@^1.6.5"
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn",
+    "Bun"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "npm install @visa/nova-styles@^1.6.4"
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn",
+    "Bun"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "npm install @angular/forms@^21"
+  },
+  {
+   "k": "h3",
+   "t": "Step 3: Set up application"
+  },
+  {
+   "k": "p",
+   "t": "Import styles"
+  },
+  {
+   "k": "p",
+   "t": "Import the Nova Styles library and theme in your angular.json or equivalent file. If you would like a particular Nova theme, place it above the root in your project. The visa-light theme is the default. To see all the available themes see the themes docs inside our styles workshop."
+  },
+  {
+   "k": "code",
+   "t": "\"styles\": [\n    // ...\n    \"node_modules/@visa/nova-styles/styles.css\",\n    \"node_modules/@visa/nova-styles/themes/visa-light/index.css\", // see theme options within node_modules/@visa/nova-styles/themes/\n    // project specific CSS style overrides\n  ],"
+  },
+  {
+   "k": "p",
+   "t": "Update compilerOptions"
+  },
+  {
+   "k": "p",
+   "t": "Add paths in your tsconfig."
+  },
+  {
+   "k": "code",
+   "t": "{\n    \"compilerOptions\": {\n      ...,\n      \"paths\": {\n        \"@visa/*\": [\"node_modules/@visa/*\"],\n      }\n    }\n  }"
+  },
+  {
+   "k": "p",
+   "t": "Update your app.module"
+  },
+  {
+   "k": "p",
+   "t": "Add our Nova module to your app.module"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Standalone Components",
+    "NgModule"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "import { NovaLibModule } from '@visa/nova-angular';\n\n@Component({\n  ...\n  standalone: true,\n  imports: [\n    ...\n    NovaLibModule,\n    ...\n  ],\n})"
+  },
+  {
+   "k": "code",
+   "t": "import { NovaLibModule } from '@visa/nova-angular';\n\n@NgModule({\n  imports: [\n    ...\n    NovaLibModule,\n    ...\n  ],\n})"
+  },
+  {
+   "k": "h3",
+   "t": "Step 4: Add icons"
+  },
+  {
+   "k": "p",
+   "t": "Nova Angular can be used with Nova Icons or a custom icon library. This documentation site and the component examples uses the Nova Icons library."
+  },
+  {
+   "k": "h4",
+   "t": "Installing Nova Icons for Angular"
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn",
+    "Bun"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "npm install @visa/nova-icons-angular@latest"
+  },
+  {
+   "k": "p",
+   "t": "Use standalone icons from @visa/nova-icons-angular (recommended)"
+  },
+  {
+   "k": "p",
+   "t": "Import and use the icons as you need them. See our Icon documentation for more examples."
+  },
+  {
+   "k": "list",
+   "items": [
+    "NgModule",
+    "Standalone Components"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "import { VisaCloseTiny } from '@visa/nova-icons-angular';\n\n@NgModule({\n  imports: [\n    ...\n    VisaCloseTiny,\n    ...\n  ],\n})"
+  },
+  {
+   "k": "code",
+   "t": "import { VisaCloseTiny } from '@visa/nova-icons-angular';\n\n@Component({\n  ...\n  standalone: true,\n  imports: [\n    ...\n    VisaCloseTiny,\n    ...\n  ],\n})"
+  },
+  {
+   "k": "code",
+   "t": "<svg v-icon-visa-close-tiny />"
+  },
+  {
+   "k": "p",
+   "t": "Use icons sprite from @visa/nova-icons-angular"
+  },
+  {
+   "k": "p",
+   "t": "This will add all of the Nova Icons as a sprite into your project. You can then reference them as needed. You can use the Visa sprite, the Generic sprite, or both."
+  },
+  {
+   "k": "list",
+   "items": [
+    "NgModule",
+    "Standalone Components"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "import { VisaIconSpriteComponent, GenericIconSpriteComponent } from '@visa/nova-icons-angular';\n\n@NgModule({\n  imports: [\n    ...\n    VisaIconSpriteComponent,\n    GenericIconSpriteComponent\n    ...\n  ],\n})"
+  },
+  {
+   "k": "code",
+   "t": "import { VisaIconSpriteComponent, GenericIconSpriteComponent } from '@visa/nova-icons-angular';\n\n@Component({\n  ...\n  standalone: true,\n  imports: [\n    ...\n    VisaIconSpriteComponent,\n    GenericIconSpriteComponent\n    ...\n  ],\n})"
+  },
+  {
+   "k": "code",
+   "t": "<v-icon-library-visa />\n<v-icon-library-generic />"
+  },
+  {
+   "k": "p",
+   "t": "Custom icons library"
+  },
+  {
+   "k": "p",
+   "t": "Alternatively, add your own icon sprite to reference."
+  },
+  {
+   "k": "code",
+   "t": "<custom-icon-sprite />"
+  },
+  {
+   "k": "h3",
+   "t": "Step 5: Use the components"
+  },
+  {
+   "k": "p",
+   "t": "Explore our components and their documentation to see how to use each one within your application!"
+  },
+  {
+   "k": "h2",
+   "t": "Use Nova and Vault in the same project"
+  },
+  {
+   "k": "p",
+   "t": "Make these quick updates to have Nova and Vault run smoothly together in your project."
+  },
+  {
+   "k": "h3",
+   "t": "Step 1: Follow the steps in the Quick start guide above to add Nova to your project."
+  },
+  {
+   "k": "h3",
+   "t": "Step 2: Remove Vault styles from your angular.json or equivalent file."
+  },
+  {
+   "k": "p",
+   "t": "Remove this line"
+  },
+  {
+   "k": "code",
+   "t": "\"node_modules/@visa/vault-styles/_stys/vds-modern.min.css\","
+  },
+  {
+   "k": "h3",
+   "t": "Step 3: Add Vault styles back into your root stylesheet"
+  },
+  {
+   "k": "p",
+   "t": "This will create the correct cascade for styles between Nova and Vault."
+  },
+  {
+   "k": "p",
+   "t": "Note that depending on your IDE and version, the first line may cause a warning in the file for the use of 'layer', but it will still compile and work as expected."
+  },
+  {
+   "k": "p",
+   "t": "In your root stylesheet"
+  },
+  {
+   "k": "code",
+   "t": "@import url('node_modules/@visa/vault-styles/_stys/vds-modern.min.css') layer(vendor);\n\n[class^=\"vds-\"] {\n  box-sizing: initial;\n}"
+  }
+ ]
+}

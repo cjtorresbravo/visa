@@ -1,0 +1,220 @@
+{
+ "url": "https://design.visa.com/components/radio",
+ "title": "Radio | Components | Visa Product Design System",
+ "h1": "Radio",
+ "readAt": "2026-10-15T17:07:39.995Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Radio"
+  },
+  {
+   "k": "p",
+   "t": "Interactive elements that allow users to select a single option from a list."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default radio buttons",
+    "Radio button groups",
+    "Radio button panels",
+    "Radio button panel groups",
+    "Custom radio buttons"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Default radio buttons"
+  },
+  {
+   "k": "h3",
+   "t": "Radio button with label"
+  },
+  {
+   "k": "text",
+   "t": "Loading radio example Radio button with label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Radio button without visible label"
+  },
+  {
+   "k": "text",
+   "t": "Loading radio example Radio button without visible label"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "Radio button groups"
+  },
+  {
+   "k": "h2",
+   "t": "Radio button panels"
+  },
+  {
+   "k": "h2",
+   "t": "Radio button panel groups"
+  },
+  {
+   "k": "h2",
+   "t": "Custom radio buttons"
+  },
+  {
+   "k": "h2",
+   "t": "API"
+  },
+  {
+   "k": "h3",
+   "t": "Classes"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Class"
+    ],
+    [
+     ".v-radio[disabled][checked]"
+    ],
+    [
+     ".v-radio[disabled]"
+    ],
+    [
+     ".v-radio"
+    ],
+    [
+     ".v-label"
+    ],
+    [
+     ".v-input-message"
+    ],
+    [
+     ".v-radio[aria-invalid=\"true\"]"
+    ],
+    [
+     ".v-radio+.v-label"
+    ],
+    [
+     ".v-radio[checked]"
+    ],
+    [
+     ".v-action"
+    ],
+    [
+     ".v-action-secondary"
+    ],
+    [
+     ".v-radio-panel"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Variables"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Value"
+    ],
+    [
+     "--v-radio-indicator-background",
+     "var(--palette-default-surface-1)"
+    ],
+    [
+     "--v-radio-border-radius",
+     "var(--size-rounded-complete)"
+    ],
+    [
+     "--v-radio-border-size",
+     "var(--theme-border-size)"
+    ],
+    [
+     "--v-radio-border-style",
+     "solid"
+    ],
+    [
+     "--v-radio-glow-offset",
+     "var(--size-scalable-8)"
+    ],
+    [
+     "--v-radio-indicator-block-size",
+     "var(--size-responsive-10)"
+    ]
+   ]
+  }
+ ]
+}

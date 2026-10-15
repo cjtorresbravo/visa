@@ -1,0 +1,122 @@
+{
+ "url": "https://design.visa.com/developing/react/changelog",
+ "title": "Changelog | React | Developing | Visa Product Design System",
+ "h1": "Changelog",
+ "readAt": "2026-10-15T17:06:38.055Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Changelog"
+  },
+  {
+   "k": "p",
+   "t": "Keep up-to-date with the latest updates and enhancements in the React changelog."
+  },
+  {
+   "k": "p",
+   "t": "For step-by-step instructions on upgrading from Nova React v2.x to v3.x, refer to the migration guide."
+  },
+  {
+   "k": "text",
+   "t": "Nova React version"
+  },
+  {
+   "k": "text",
+   "t": "All"
+  },
+  {
+   "k": "text",
+   "t": "3.1.0"
+  },
+  {
+   "k": "text",
+   "t": "3.0.0"
+  },
+  {
+   "k": "text",
+   "t": "2.5.4"
+  },
+  {
+   "k": "h2",
+   "t": "All versions"
+  },
+  {
+   "k": "h3",
+   "t": "3.1.0 (2026-03-20)"
+  },
+  {
+   "k": "p",
+   "t": "This release introduces new component properties, hooks, and pattern improvements. Key additions include the useModel hook for form state management, enhanced pagination controls with compact mode and controlled state, and expanded table customization options."
+  },
+  {
+   "k": "h4",
+   "t": "Features"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Button: Allow button to accept primary type",
+    "Label: All labels now extend typography",
+    "Table: Added tableSize property",
+    "useModel: Added new hook for form state management",
+    "usePagination: Added compact mode",
+    "usePagination: Optional props for provided/controlled state",
+    "useTabs: Allows controlled selected index value",
+    "Utility: vFlexRow now adds vFlex by default",
+    "Dynamic Table: Complete default pattern example with base shared components"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Bug Fixes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Application Layouts: Footer background color now applies correctly",
+    "Components: Removed defaultProps to suppress React 19 deprecation warning",
+    "Dropdown: Dropdown items padding corrected",
+    "Screen Reader: Correct component selector typo in API",
+    "Chat: Pattern examples now use hideTimestamp prop for consistency",
+    "Chat: Adds validation reset and responsive behavior",
+    "Chat: Responsive padding on chat bubbles",
+    "Chat: Uses dialog content for dark mode",
+    "File Upload: Upload dialog flexible with boundaries",
+    "File Upload: Prevent card shift from uploading text",
+    "File Upload: Lowercases file extensions in display text",
+    "Dynamic Table: Remove nested components for proper React rendering"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "3.0.0 (2025-09-26)"
+  },
+  {
+   "k": "h4",
+   "t": "Features"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Added a collection of patterns: Application layout Chat File Upload Wizard"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "2.5.4 (2025-04-11)"
+  },
+  {
+   "k": "h4",
+   "t": "Features"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Initial release of the nova-react library.",
+    "Added a collection of components: Accordion Anchor link menu Avatar Badge Banner Breadcrumbs Button Checkbox Chip Color selector Combobox Content card Date and time selectors Dialog Divider Dropdown menu Flag Footer Horizontal navigation Icon Input Label Link Listbox Logo Multiselect Navigation drawer Pagination Panel Progress Radio Section message Select Switch Table Tabs Toggle button Tooltip Vertical navigation Wizard",
+    "Added several hooks: use-accordion use-card-number-validation use-debounce use-focus-trap use-listbox use-pagination use-tabs use-wizard",
+    "Added Utility and UtilityFragment components."
+   ]
+  }
+ ]
+}

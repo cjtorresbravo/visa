@@ -1,0 +1,652 @@
+{
+ "status": "decided: every recipe carries the decision of the person (Claudio Torres, in chat, 2026-10-15).",
+ "proposedAt": "2026-10-15T17:07:58.235Z",
+ "libraries": [
+  {
+   "fileName": "VPDS Components (Community)",
+   "short": "main",
+   "items": 310
+  },
+  {
+   "fileName": "VPDS Icons (Community)",
+   "short": "VPDS Icons",
+   "items": 333
+  }
+ ],
+ "kinds": {
+  "layout": "A page frame with regions; sections go inside its regions.",
+  "section": "A piece a screen is built from, with the components that build it.",
+  "convention": "How the library file is organized; documentation, not a section."
+ },
+ "decisions": {
+  "use": "Build with it.",
+  "out": "Leave it out of builds.",
+  "gap": "Wanted, but a component is missing; the build marks it."
+ },
+ "recipes": [
+  {
+   "id": "vpds-components-horizontal-application-layout",
+   "name": "Horizontal application layout",
+   "kind": "section",
+   "readiness": null,
+   "readinessMeaning": null,
+   "purpose": "Layout with horizontal navigation above the main content area. The most common way of displaying the top-level pages of a site. Source: design.visa.com › Application layouts › Usage › Navigational frames.",
+   "guidance": [
+    "Sizes in the kit: 768, 1024, 1280, 1440, 1600 Fixed, 1600 Fluid (Size variant). Source: kit, set Horizontal.",
+    "Grid for horizontal layouts: 375 = 4 columns, margins 16, gutters 16; 768 to 1023 = 8 columns, margins 16, gutters 24; 1024 to 1600+ = 12 columns, margins 24, gutters 24; 1600+ fixed = 12 columns, margins 80 minimum, gutters 24. Source: design.visa.com › Responsive grid system › Breakpoints.",
+    "Fluid grids scale with the screen width (dashboards, data-heavy designs); fixed grids keep a maximum width and grow the margins (text-heavy designs). Source: design.visa.com › Responsive grid system › Fixed vs. fluid grids.",
+    "Establish a clear visual hierarchy when using more than one level of navigation. Do not rearrange or mix the pre-built layouts against common UX conventions. Source: design.visa.com › Application layouts › Usage › Do and Don't."
+   ],
+   "anatomy": [
+    "Horizontal (horizontal navigation, 80 high, app name left, navigation right)",
+    "Content area base (full width under the navigation)",
+    "Default footer (64 high, at the bottom)",
+    "Flag: Success (hidden; top right of the content, Show flag)",
+    "Dialog with overlay (hidden; centered, Show dialog)"
+   ],
+   "examples": [
+    "Form page: Form title, description, Section message, fields, Submit / Save / Cancel (the content the kit shows inside Content area base)"
+   ],
+   "components": [],
+   "usesFromLibrary": [
+    {
+     "name": "Horizontal",
+     "match": {
+      "name": "Horizontal",
+      "key": "f70350ea3f56d6a6a72f8b1dd02a54c547260909",
+      "kind": "set",
+      "variants": 6,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Content area base",
+     "match": {
+      "name": "Content area base",
+      "key": "4ab2341228df4b037f2c3106ab728d70ae8baa82",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Default footer",
+     "match": {
+      "name": "Default footer",
+      "key": "7a80605655822a02081d18bc2455bd743be2f517",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Flag: Success",
+     "match": {
+      "name": "Flag: Success",
+      "key": "d1c3c3268784b4a7994ede439d309f1a341d6004",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Dialog with overlay",
+     "match": {
+      "name": "Dialog with overlay",
+      "key": "b180f41f5a4a5f0011bfb905ae7d39f7b0401f1c",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    }
+   ],
+   "gaps": [],
+   "proposed": "use",
+   "why": "Built from the library components the document lists.",
+   "accepted": true,
+   "source": "VPDS Components (Community) › Application layouts",
+   "decision": "use",
+   "decidedBy": "Claudio Torres, in chat, 2026-10-15"
+  },
+  {
+   "id": "vpds-components-stacked-horizontal-application-layout",
+   "name": "Stacked horizontal application layout",
+   "kind": "section",
+   "readiness": null,
+   "readinessMeaning": null,
+   "purpose": "Layout with a secondary navigation bar under the primary horizontal bar, for applications with a larger number of main navigation items. Source: design.visa.com › Application layouts › Usage › Navigational frames.",
+   "guidance": [
+    "Sizes in the kit: 1024, 1280, 1440, 1600 Fixed, 1600 Fluid. Source: kit, set Horizontal stacked.",
+    "Same grid as the horizontal layouts. Source: design.visa.com › Responsive grid system › Horizontal and advanced layouts."
+   ],
+   "anatomy": [
+    "Stacked horizontal (Horizontal on top, Secondary nav with a horizontal Tab Group under it, bottom border; 149 high)",
+    "Content area base",
+    "Default footer",
+    "Flag: Success (hidden)",
+    "Dialog with overlay (hidden)"
+   ],
+   "examples": [
+    "Form page under a two-level navigation"
+   ],
+   "components": [],
+   "usesFromLibrary": [
+    {
+     "name": "Stacked horizontal",
+     "match": {
+      "name": "Stacked horizontal",
+      "key": "70b525da4c7373b443637758a59e79b164440009",
+      "kind": "set",
+      "variants": 3,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Horizontal tab group",
+     "match": {
+      "name": "Horizontal tab group",
+      "key": "4bbd66c98c66dcecc0ea5c279fc06e58a52fae33",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Content area base",
+     "match": {
+      "name": "Content area base",
+      "key": "4ab2341228df4b037f2c3106ab728d70ae8baa82",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Default footer",
+     "match": {
+      "name": "Default footer",
+      "key": "7a80605655822a02081d18bc2455bd743be2f517",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Flag: Success",
+     "match": {
+      "name": "Flag: Success",
+      "key": "d1c3c3268784b4a7994ede439d309f1a341d6004",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Dialog with overlay",
+     "match": {
+      "name": "Dialog with overlay",
+      "key": "b180f41f5a4a5f0011bfb905ae7d39f7b0401f1c",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    }
+   ],
+   "gaps": [],
+   "proposed": "use",
+   "why": "Built from the library components the document lists.",
+   "accepted": true,
+   "source": "VPDS Components (Community) › Application layouts",
+   "decision": "use",
+   "decidedBy": "Claudio Torres, in chat, 2026-10-15"
+  },
+  {
+   "id": "vpds-components-vertical-application-layout",
+   "name": "Vertical application layout",
+   "kind": "section",
+   "readiness": null,
+   "readinessMeaning": null,
+   "purpose": "Layout with vertical navigation beside the main content area, for a large number of navigation items or when horizontal space is limited. Source: design.visa.com › Application layouts › Usage › Navigational frames.",
+   "guidance": [
+    "Sizes in the kit: 1024, 1280, 1440, 1600. Source: kit, set Vertical.",
+    "The collapsed variant (set Vertical-Collapsed) replaces the drawer by a 42 wide rail with one UI icon at the bottom; the content area takes the rest. Source: kit.",
+    "Grid for vertical and mixed layouts: begins to the right of the navigation; 12 columns at every size; margins 24 at 1024 to 1279 and 32 from 1280 up; gutters 24. Fixed in Figma, can be built fluid. Source: design.visa.com › Responsive grid system › Vertical and mixed layouts."
+   ],
+   "anatomy": [
+    "Vertical nav default (242 wide, full height: App name, Nav Items, Bottom items)",
+    "Content area + footer beside it: Content area base over Default footer",
+    "Flag: Success (hidden)",
+    "Dialog with overlay (hidden)"
+   ],
+   "examples": [
+    "Form page beside a vertical navigation with five L1 items and a user row at the bottom"
+   ],
+   "components": [],
+   "usesFromLibrary": [
+    {
+     "name": "Vertical nav default",
+     "match": {
+      "name": "Vertical nav default",
+      "key": "b842838e19fefec5c4c07904b24b22ce71dd0522",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Vertical nav collapsed",
+     "match": {
+      "name": "Vertical nav collapsed",
+      "key": "ea93a7d05eb77d4d29d8d55ca768c6980b2df9b2",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Content area base",
+     "match": {
+      "name": "Content area base",
+      "key": "4ab2341228df4b037f2c3106ab728d70ae8baa82",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Default footer",
+     "match": {
+      "name": "Default footer",
+      "key": "7a80605655822a02081d18bc2455bd743be2f517",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Flag: Success",
+     "match": {
+      "name": "Flag: Success",
+      "key": "d1c3c3268784b4a7994ede439d309f1a341d6004",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Dialog with overlay",
+     "match": {
+      "name": "Dialog with overlay",
+      "key": "b180f41f5a4a5f0011bfb905ae7d39f7b0401f1c",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    }
+   ],
+   "gaps": [],
+   "proposed": "use",
+   "why": "Built from the library components the document lists.",
+   "accepted": true,
+   "source": "VPDS Components (Community) › Application layouts",
+   "decision": "use",
+   "decidedBy": "Claudio Torres, in chat, 2026-10-15"
+  },
+  {
+   "id": "vpds-components-mixed-application-layout",
+   "name": "Mixed application layout",
+   "kind": "section",
+   "readiness": null,
+   "readinessMeaning": null,
+   "purpose": "Horizontal and vertical navigation combined, for complex applications: the horizontal bar holds global items, the vertical panel holds local items. Source: design.visa.com › Application layouts › Usage › Navigational frames.",
+   "guidance": [
+    "Sizes in the kit: 1024, 1280, 1440, 1600. Collapsed variant: set Mixed-Collapsed (42 wide rail). Source: kit.",
+    "Same grid as the vertical layouts. Source: design.visa.com › Responsive grid system › Vertical and mixed layouts."
+   ],
+   "anatomy": [
+    "Horizontal (80 high, on top)",
+    "Vertical nav default (242 wide) under it, at the left",
+    "Content area + footer beside the vertical nav: Content area base over Default footer",
+    "Flag: Success (hidden)",
+    "Dialog with overlay (hidden)"
+   ],
+   "examples": [
+    "Form page with global L1 items on top and local L2 items at the left"
+   ],
+   "components": [],
+   "usesFromLibrary": [
+    {
+     "name": "Horizontal",
+     "match": {
+      "name": "Horizontal",
+      "key": "f70350ea3f56d6a6a72f8b1dd02a54c547260909",
+      "kind": "set",
+      "variants": 6,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Vertical nav default",
+     "match": {
+      "name": "Vertical nav default",
+      "key": "b842838e19fefec5c4c07904b24b22ce71dd0522",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Vertical nav collapsed",
+     "match": {
+      "name": "Vertical nav collapsed",
+      "key": "ea93a7d05eb77d4d29d8d55ca768c6980b2df9b2",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Content area base",
+     "match": {
+      "name": "Content area base",
+      "key": "4ab2341228df4b037f2c3106ab728d70ae8baa82",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Default footer",
+     "match": {
+      "name": "Default footer",
+      "key": "7a80605655822a02081d18bc2455bd743be2f517",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Flag: Success",
+     "match": {
+      "name": "Flag: Success",
+      "key": "d1c3c3268784b4a7994ede439d309f1a341d6004",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Dialog with overlay",
+     "match": {
+      "name": "Dialog with overlay",
+      "key": "b180f41f5a4a5f0011bfb905ae7d39f7b0401f1c",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    }
+   ],
+   "gaps": [],
+   "proposed": "use",
+   "why": "Built from the library components the document lists.",
+   "accepted": true,
+   "source": "VPDS Components (Community) › Application layouts",
+   "decision": "use",
+   "decidedBy": "Claudio Torres, in chat, 2026-10-15"
+  },
+  {
+   "id": "vpds-components-content-area",
+   "name": "Content area",
+   "kind": "section",
+   "readiness": null,
+   "readinessMeaning": null,
+   "purpose": "The primary section of the interface where the main information, features and interactive elements are displayed. Can span several columns; information in a logical order along the user flow. Source: design.visa.com › Application layouts › Usage › Content areas.",
+   "guidance": [
+    "Content areas reflow at every breakpoint; define reflow as percentages or column spans (6 columns at 1600 may become 4 at 1280). Source: design.visa.com › Responsive grid system › Content reflow.",
+    "Vertical spacing in factors of four: 16, 24, 32, 48. Avoid half pixels and odd numbers. Source: design.visa.com › Responsive grid system › System baseline.",
+    "Web components have a base height of 38; the mobile scale is 1.25 times larger, base height 46. Body 2 is the base body size: 14 on web, 16 on mobile. Source: design.visa.com › Responsive grid system › Component size, Typography size."
+   ],
+   "anatomy": [
+    "Margins: white space along the edges",
+    "Content area: the space left once margins are defined",
+    "Kit examples inside Content area base: type ramp (Overline, Headline 1 to 4, Subtitle 1 to 3, Body), Dialog: Default, Banner, Panel (Responsive panel title), Form layout (Form title, description, Section message, fields, Submit / Save / Cancel)"
+   ],
+   "examples": [
+    "Form layout",
+    "Dialog over the content",
+    "Panel beside the content"
+   ],
+   "components": [],
+   "usesFromLibrary": [
+    {
+     "name": "Content area base",
+     "match": {
+      "name": "Content area base",
+      "key": "4ab2341228df4b037f2c3106ab728d70ae8baa82",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Form layout",
+     "match": {
+      "name": "Form layout",
+      "key": "5931212b2bd3f8bd2bf79d0d15437befc41874a2",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Dialog: Default",
+     "match": {
+      "name": "Dialog: Default",
+      "key": "bade73f200e99e01180ad278322d14efe616b94b",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Banner: Informational",
+     "match": {
+      "name": "Banner: Informational",
+      "key": "514b0b9d1911f23ebffd93523c839810e3925108",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Panel",
+     "match": {
+      "name": "Panel",
+      "key": "d7be32b70c394b4b14fa4333428c9974f6a07c0b",
+      "kind": "set",
+      "variants": 2,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Section message: Informational",
+     "match": {
+      "name": "Section message: Informational",
+      "key": "d8281bc5e8c4b50a01f86be2f66bccd1f5b1996e",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Primary text button",
+     "match": {
+      "name": "Primary text button",
+      "key": "cf74bb50dc4e4fda6ffe8247f20a2d66e49abc23",
+      "kind": "set",
+      "variants": 10,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Secondary text button",
+     "match": {
+      "name": "Secondary text button",
+      "key": "04bc167d8fb66fdbbb9503f8f19be025e6ae745e",
+      "kind": "set",
+      "variants": 10,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Tertiary text button",
+     "match": {
+      "name": "Tertiary text button",
+      "key": "d401df9481be387539c8e0fd1db89ce47af8fa22",
+      "kind": "set",
+      "variants": 10,
+      "library": "main",
+      "internal": false
+     }
+    }
+   ],
+   "gaps": [],
+   "proposed": "use",
+   "why": "Built from the library components the document lists.",
+   "accepted": true,
+   "source": "VPDS Components (Community) › Application layouts",
+   "decision": "use",
+   "decidedBy": "Claudio Torres, in chat, 2026-10-15"
+  },
+  {
+   "id": "vpds-components-mobile-application-layout",
+   "name": "Mobile application layout",
+   "kind": "section",
+   "readiness": null,
+   "readinessMeaning": null,
+   "purpose": "The same application pages at 375 wide: a Top app bar, the content area, and the mobile footer or tab bar. 375 is the reference width; design responsively. Source: kit, section Mobile application layouts; design.visa.com › Application layouts › Usage › Platform considerations.",
+   "guidance": [
+    "Mobile grid: 4 columns, margins 16, gutters 16 at 375. Tablet reference width 768: 8 columns, margins 16, gutters 24. Source: design.visa.com › Responsive grid system › Breakpoints.",
+    "Mobile components are 1.25 times the web scale (Platform mode Mobile in the variables). Source: design.visa.com › Responsive grid system › Component size; kit variables, collection Platform."
+   ],
+   "anatomy": [
+    "app-layouts-mobile (375 wide): Top app bar, content area, bottom navigation",
+    "Content area base (375 x 667)",
+    "Form layout (343 wide inside 16 margins)",
+    "Dialog with overlay (375 x 811, hidden)"
+   ],
+   "examples": [
+    "Mobile form page"
+   ],
+   "components": [],
+   "usesFromLibrary": [
+    {
+     "name": "Top app bar",
+     "match": {
+      "name": "Top app bar",
+      "key": "f518df445e015497f6f4e5f636fc79487985e64a",
+      "kind": "set",
+      "variants": 3,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Tab bar",
+     "match": {
+      "name": "Tab bar",
+      "key": "7039da7591c28bbb77b664e2d0eeb14042e5d126",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Content area base",
+     "match": {
+      "name": "Content area base",
+      "key": "4ab2341228df4b037f2c3106ab728d70ae8baa82",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Form layout",
+     "match": {
+      "name": "Form layout",
+      "key": "5931212b2bd3f8bd2bf79d0d15437befc41874a2",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Mobile default footer",
+     "match": {
+      "name": "Mobile default footer",
+      "key": "f018c3128bf154cee73ea0e837546c780bcbe578",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    },
+    {
+     "name": "Dialog with overlay",
+     "match": {
+      "name": "Dialog with overlay",
+      "key": "b180f41f5a4a5f0011bfb905ae7d39f7b0401f1c",
+      "kind": "component",
+      "variants": 1,
+      "library": "main",
+      "internal": false
+     }
+    }
+   ],
+   "gaps": [],
+   "proposed": "use",
+   "why": "Built from the library components the document lists.",
+   "accepted": true,
+   "source": "VPDS Components (Community) › Application layouts",
+   "decision": "use",
+   "decidedBy": "Claudio Torres, in chat, 2026-10-15"
+  }
+ ],
+ "decidedAt": "2026-10-15T17:08:41.463Z"
+}

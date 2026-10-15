@@ -1,0 +1,218 @@
+{
+ "url": "https://design.visa.com/components/color-selector/usage",
+ "title": "Color selector | Components | Visa Product Design System",
+ "h1": "Color selector",
+ "readAt": "2026-10-15T17:09:27.145Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Color selector"
+  },
+  {
+   "k": "p",
+   "t": "Menu that allows users to select a specific color through a variety of ways."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Table of Contents Loading"
+  },
+  {
+   "k": "p",
+   "t": "Color selectors are a built-in feature provided by the operating system or browser. They combine an input field with a menu, which is prompted by a button, allowing users pick a custom color. It’s important to note that the design of this component has limited customizations since it’s a native component."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Swatch button (required): Button that expands or collapses the color swatch menu while showing the color selected.\nB. Label (optional): Text summarizing the purpose of the color selector.\nC. Tooltip inline message (required): Text providing color code instructions.\nD. Accessibility tooltip button (required): UI icon button that reveals the tooltip inline message on hover.\nE. Color range (required): Gradient area allowing users to manually select a specific color from the range.\nF. Eyedropper (required): Tool allowing users to sample a color from anywhere on the screen using the OS color selector.\nG. Color hue slider (required): Area below the gradient box that allows users to adjust the hue of the selected color.\nH. Input (required): Text field appearing in the expanded menu section that enables users to enter color codes.\nI. Toggle button (required): Toggle button allowing users to toggle between RGB, HSL, and HEX color codes.\nJ. Swatch preview (required): Preview window showing the color selected."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow the default appearance and interaction of the Select component on different browsers.",
+    "Use this component in areas of your app where you want to allow users to customize color.",
+    "For more information about using inputs, visit Input guidelines."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Default color selector"
+  },
+  {
+   "k": "p",
+   "t": "Color selectors leverage the native appearance of different browsers and operating systems, meaning it has limited customizations available."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always test the color selector on multiple browsers and devices to ensure consistent user experience."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Collapsed"
+  },
+  {
+   "k": "p",
+   "t": "When collapsed, the color selector typically appears as a small rectangle that previews the selected color."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Allow users to expand the menu by selecting anywhere in the swatch."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Expanded"
+  },
+  {
+   "k": "p",
+   "t": "When expanded, the menu displays a range of selection methods the user can use to adjust the color."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Allow users to collapse the menu by removing focus from the menu."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Hidden labels"
+  },
+  {
+   "k": "p",
+   "t": "Color selectors should typically include a label. However, there are some cases where hiding the label can provide design flexibility or space for additional context. If the label within the component build is hidden, include an alternate label elsewhere on the screen as well as within the code for accessibility."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include a label somewhere else on the screen if you choose to omit it from the component build.",
+    "Always include the label programmatically to ensure screen reader users have the full context."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Accessibility tooltip"
+  },
+  {
+   "k": "p",
+   "t": "The accessibility tooltip provides visually impaired users with valuable information about the acceptable ranges for each color code format. Users can activate the tooltip by hovering over the icon button, and close it by simply shifting focus away."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Pre-selected color"
+  },
+  {
+   "k": "p",
+   "t": "In general, color selectors will have a pre-selected color of black (#000000) by default. However, this can be changed to a different default color on page load to increase usability and provide users with hint about how their selection will be applied."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Provide users with a way to reset the color selection if they wish to revert to the default color.",
+    "Use descriptive labels to give users context on how their selection will be applied."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Selection method"
+  },
+  {
+   "k": "p",
+   "t": "The color selector allows users to change the color in a variety of ways including inputting a color code, adjusting the color range and hue slider, and using the eyedropper tool. The swatch preview will display the color selected currently."
+  },
+  {
+   "k": "h4",
+   "t": "Color code input"
+  },
+  {
+   "k": "p",
+   "t": "The color value input allows users to enter a value by editing the input text fields within the expanded menu. Users can use the arrow toggle to change between RGB, HSL, or HEX color codes."
+  },
+  {
+   "k": "list",
+   "items": [
+    "The color preview indicators will actively change color as the user types in their color values."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Hue slider and color range"
+  },
+  {
+   "k": "p",
+   "t": "The color range and hue slider allow users to select a color and are often used in combination. The hue slider is used as a macro-selector to choose a color, while the color range is a micro-selector to adjust the lightness and darkness of the selected color."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Allow users to close the color selector menu by removing the focus from the menu."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Eyedropper tool"
+  },
+  {
+   "k": "p",
+   "t": "The eyedropper tool allows users to select a specific color that exists on any given page without having to enter a color value or guess what color it is on the color range."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Allow users to close the eyedropper by either selecting a color or pressing the ESC key."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Web"
+  },
+  {
+   "k": "p",
+   "t": "Color selector components are only available for web."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Color"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to use Visa brand colors to create and maintain consistent and engaging experiences."
+  },
+  {
+   "k": "h3",
+   "t": "Input"
+  },
+  {
+   "k": "p",
+   "t": "Text fields that enable users to enter free-form content."
+  }
+ ]
+}

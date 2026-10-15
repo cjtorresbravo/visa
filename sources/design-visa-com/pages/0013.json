@@ -1,0 +1,699 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/web/visual-design-multimedia",
+ "title": "Visual design and multimedia | Web | Global accessibility requirements | Visa Product Design System",
+ "h1": "Visual design and multimedia",
+ "readAt": "2026-10-15T17:05:55.097Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Visual design and multimedia"
+  },
+  {
+   "k": "p",
+   "t": "Find visual design and multimedia requirements for testing web experiences."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Content resizing, styling, & reflow (VIS-1)Browser zoom usable (VIS-1-1)Content reflow (VIS-1-2)User text styling (VIS-1-3)",
+    "Color usage (VIS-2)Color contrast ratio (VIS-2-1)Contrast for non-text UI components (VIS-2-2)Support high contrast (VIS-2-3)Not only color (VIS-2-4)",
+    "Images (VIS-3)Text alternatives (VIS-3-1)No images of text (VIS-3-2)",
+    "Multimedia (VIS-4)Captions (prerecorded) (VIS-4-1)Audio description or media alternative (prerecorded) (VIS-4-2)Captions (live) (VIS-4-3)Audio description (prerecorded) (VIS-4-4)Transcripts for audio-only/video-only (VIS-4-5)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Content resizing, styling, & reflow (VIS-1)"
+  },
+  {
+   "k": "h3",
+   "t": "Browser zoom usable (VIS-1-1)"
+  },
+  {
+   "k": "p",
+   "t": "Using the built-in browser functionality to zoom all page content to 200% (including text), all interactive content must remain fully usable."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Use browser zoom to magnify your viewport to 200% and confirm that all interactive content remains fully usable."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All interactive content remains fully usable up to 200%.",
+    "Fail: Some interactive content does not remain fully usable between 0 - 200%."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 1.4.4 Resize Text"
+  },
+  {
+   "k": "h3",
+   "t": "Content reflow (VIS-1-2)"
+  },
+  {
+   "k": "p",
+   "t": "Content remains functional and no information is lost when viewed at 320px width (for vertical scrolling content) or 256px height (for horizontal scrolling content). Scrolling in two directions must not be required."
+  },
+  {
+   "k": "p",
+   "t": "Exception: two direction scrolling is allowed for elements that require it for usage such as:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Data tables/charts",
+    "Photos",
+    "Maps"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the browser dev tools/Inspector to set the page width to 320px for vertical scrolling content or 256px for horizontal scrolling content.",
+    "Confirm that all content remains functional and that no information is lost (for example: cut off text, missing UI, overlapping content).",
+    "Confirm that scrolling in two directions is not required."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Exceptions:\nHorizontal scrolling is allowed for the following content:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Data tables",
+    "Photos",
+    "Maps",
+    "Charts",
+    "Games",
+    "UI with toolbars"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Content remains functional and no information is lost when viewed at the required height or width. Scrolling in two directions is not required unless an element requires it for usage.",
+    "Fail: Content is not functional or information is lost when viewed at the required height or width. Alternatively, scrolling in two directions is required.",
+    "NA: Content is any of the following: Data tables Photos Maps Charts Games UI with toolbars"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 AA - 1.4.10 Reflow"
+  },
+  {
+   "k": "h3",
+   "t": "User text styling (VIS-1-3)"
+  },
+  {
+   "k": "p",
+   "t": "User text style settings do not cause a loss of content when:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Line height (line spacing) is increased to at least 1.5 times the font size;",
+    "Spacing following paragraphs is set to at least 2 times the font size;",
+    "Letter spacing (tracking) is increased to at least 0.12 times the font size;",
+    "Word spacing is set to at least 0.16 times the font size."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Load the page in the browser of your choice.",
+    "Run the Text Spacing Bookmarklet.",
+    "Perform a visual inspection of the content and confirm that there is not a resulting loss of content or meaning."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: There is not a resulting loss of content or meaning when any of the four text spacing settings are changed.",
+    "Fail: There is a loss of content or meaning when the four text spacing settings are changed."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 AA -1.4.12 Text Spacing"
+  },
+  {
+   "k": "h2",
+   "t": "Color usage (VIS-2)"
+  },
+  {
+   "k": "h3",
+   "t": "Color contrast ratio (VIS-2-1)"
+  },
+  {
+   "k": "p",
+   "t": "A color contrast ratio of text, informational images, and images of text to their backgrounds must be at least 4.5:1, except if the text is 18pt or 14pt bold or larger, where a ratio of 3:1 is then required. Text that is part of a logo is not subject to this requirement."
+  },
+  {
+   "k": "p",
+   "t": "If there is content that does not pass color contrast requirements, then an alternate (high-contrast) compliant style sheet must be available."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Use a contrast analyzer to check color contrast ratio of text, and images of text to their backgrounds. Use the eye dropper tool to check any text that is missed by the automated scan. If a failure is identified with the automated scan which seems questionable use the eye dropper tool to double check. Contrast ratio must be at least 4.5:1, except if the text is 18pt or 14pt bold or larger, where a ratio of 3:1 is then required."
+  },
+  {
+   "k": "p",
+   "t": "Note: All of this information will be provided in the contrast validation tool’s side panel, except for text that is not HTML text or an HTML colored background (for example: text over a gradient image). In this case, use the color picker tool from the panel to pick samples and determine if the text fails in any places."
+  },
+  {
+   "k": "p",
+   "t": "If there is content that does not pass color contrast requirements, then an alternate (high-contrast) compliant style sheet must be available."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All text meets expected minimum contrast ratio.",
+    "Fail: All text does not meet the expected minimum contrast ratio and an alternate style sheet is not provided.",
+    "NA: Text is part of an inactive user interface component or pure decoration."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 1.4.3 Contrast (Minimum)"
+  },
+  {
+   "k": "h3",
+   "t": "Contrast for non-text UI components (VIS-2-2)"
+  },
+  {
+   "k": "p",
+   "t": "User interface components and graphical objects must have a contrast ration of at least 3:1 against adjacent colors."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Confirm that all user interface components and graphical objects have a contrast ratio of at least 3:1 against adjacent colors including the background and other non-text objects by using the eye dropper tool in a contrast analyzer."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All user interface components and graphical objects have a contrast ratio of 3:1 against adjacent colors.",
+    "Fail: Some user interface components and/or graphical objects do not have a contrast ratio of 3:1 against adjacent colors."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 AA - 1.4.11 Non-text Contrast"
+  },
+  {
+   "k": "h3",
+   "t": "Support high contrast (VIS-2-3)"
+  },
+  {
+   "k": "p",
+   "t": "All content adapts and supports the user’s high contrast theme settings"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Windows: Use the search feature to search for Contrast Themes. Activate the high contrast themes from the settings window.\nMac: Go to System Preferences>Accessibility>Display>Invert Colors."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All content supports high contrast themes.",
+    "Fail: Some content does not support high contrast themes."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "list",
+   "items": [
+    "WCAG 2.1 – 4.1 Compatible",
+    "Section 508 302.2 With Limited Vision",
+    "Section 508 302.3 Without Perception of Color",
+    "Section 508 502.2.2 No Disruption of Accessibility Features"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Not only color (VIS-2-4)"
+  },
+  {
+   "k": "p",
+   "t": "If a color difference is used to convey information, that information must also be available in text or through some other alternative method.\nLink text may be distinguished from static text through use of color as long as the following are true:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "A 3:1 contrast ratio difference exists between the link text and other static text",
+    "A visual indicator is provided when the link receives focus (for example: visible underline on hover and keyboard focus)"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Perform a visual inspection of the page.",
+    "Confirm that whenever a difference in color is used to convey information, that information is also be available in text or through some other alternative method."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: A non-color alternative is presented along with color.",
+    "Fail: Only color is used to indicate meaning.",
+    "NA: Color is not used to convey meaning."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.4.1 Use of Color"
+  },
+  {
+   "k": "h2",
+   "t": "Images (VIS-3)"
+  },
+  {
+   "k": "h3",
+   "t": "Text alternatives (VIS-3-1)"
+  },
+  {
+   "k": "p",
+   "t": "All non-text content must provide text alternatives that provide equivalent information, context, and purpose to the user using the following techniques (as applicable):"
+  },
+  {
+   "k": "list",
+   "items": [
+    "For <img> elements, provide the text alternative using the alt attribute",
+    "For other non-text content (for example: role=\"img\"), aria-label/labelledby, or visibly hidden textaria-label/labelledby, or visibly hidden text",
+    "For decorative <img> elements, provide alt=\"\" (alt null)",
+    "For other decorative non-text content, aria-hidden=\"true\""
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Using Accessibility Insights, confirm that all non-text content provides text alternatives that provide equivalent information, context, and purpose to the user and that decorative non-text content is appropriately hidden using null alternative text or aria-hidden=\"true\""
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All non-text content provides text alternatives and all decorative content is hidden correctly.",
+    "Fail: Some non-text content does not have text alternatives or some decorative content is not hidden correctly.",
+    "NA: Non-text content is not present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.1.1 Non-text Content"
+  },
+  {
+   "k": "h3",
+   "t": "No images of text (VIS-3-2)"
+  },
+  {
+   "k": "p",
+   "t": "Text must always be presented using live text and CSS rather than an image of text, except for logos and within pictures where it cannot be avoided (for example: graphs or screenshots)."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass:Images of text are not used.",
+    "Fail: Images of text are used."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 1.4.5 Images of Text"
+  },
+  {
+   "k": "h2",
+   "t": "Multimedia (VIS-4)"
+  },
+  {
+   "k": "h3",
+   "t": "Captions (prerecorded) (VIS-4-1)"
+  },
+  {
+   "k": "p",
+   "t": "Captions are available for content with both audio and video, except when the content is an alternative for text and is clearly labeled as such."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Identify prerecorded content with both audio and video.",
+    "Confirm that captions are available.",
+    "Confirm the captions contain all audio information (for example: speech, sound effects, music, etc.)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All prerecorded content with both audio and video has accurate captions.",
+    "Fail: Any prerecorded content with both audio and video does not have captions, or the captions do not contain all audio information.",
+    "NA: No prerecorded content with both audio and video exists."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.2.2 Captions (Prerecorded)"
+  },
+  {
+   "k": "h3",
+   "t": "Audio description or media alternative (prerecorded) (VIS-4-2)"
+  },
+  {
+   "k": "p",
+   "t": "A transcript or audio description is available for content with both audio and video, except when the content is an alternative for text and is clearly labeled as such."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Test “Audio Description (Prerecorded) VIS-4-4”.",
+    "If “Audio Description (Prerecorded) VIS-4-4” passes, this also passes.",
+    "If “Audio Description (Prerecorded) VIS-4-4” fails, confirm a transcript exists that describes the meaningful visual information."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: “Audio Description (Prerecorded) VIS-4-4” is passing. or A transcript is available that describes all meaningful information.",
+    "Fail: Neither a transcript or audio description is available and there is meaningful information not described by the audio.",
+    "NA: No content with both audio and video exists. or The exception is met."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.2.3 Audio Description or Media Alternative (Prerecorded)"
+  },
+  {
+   "k": "h3",
+   "t": "Captions (live) (VIS-4-3)"
+  },
+  {
+   "k": "p",
+   "t": "Captions must be available for live content with both audio and video."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Identify live content with both audio and video.",
+    "Confirm that captions are available.",
+    "Confirm the captions contain all audio information (for example: speech, sound effects, music, etc.)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All live content with both audio and video has captions.",
+    "Fail: Any live content with both audio and video does not have captions or the captions do not contain all of the audio information.",
+    "NA: No live content with both audio and video exists."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 1.2.4 Captions (Live)"
+  },
+  {
+   "k": "h3",
+   "t": "Audio description (prerecorded) (VIS-4-4)"
+  },
+  {
+   "k": "p",
+   "t": "An audio description track must be available if there is meaningful visual information that is not included in the audio track for prerecorded content with both audio and video."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Identify prerecorded content with both audio and video.",
+    "If the content provides meaningful visual information that is not described by the audio, confirm it also includes an audio description track that explains the visual information."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Audio description is available when needed.",
+    "Fail: Meaningful visual information in the video is not described by the audio and an audio description track is missing, incomplete, or inaccurate.",
+    "NA: The audio describes the visual content. or There is no prerecorded content with both audio and video."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 1.2.5 Audio Description (Prerecorded)"
+  },
+  {
+   "k": "h3",
+   "t": "Transcripts for audio-only/video-only (VIS-4-5)"
+  },
+  {
+   "k": "p",
+   "t": "For audio-only and video-only media, a transcript must be provided which provides the same information as presented in the original media content."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "A transcript which provides the same information as presented in the original media content must be made available for all audio-only and/or video-only content."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Transcripts are provided.",
+    "Fail: Transcripts are not provided.",
+    "NA: No audio or video only content is present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.2.1 Audio-only & Video-only (Prerecorded)"
+  }
+ ]
+}

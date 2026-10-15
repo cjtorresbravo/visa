@@ -1,0 +1,120 @@
+{
+ "url": "https://design.visa.com/components/navigation-drawer/accessibility",
+ "title": "Navigation drawer | Components | Visa Product Design System",
+ "h1": "Navigation drawer",
+ "readAt": "2026-10-15T17:10:26.641Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Navigation drawer"
+  },
+  {
+   "k": "p",
+   "t": "Collapsible navigation panels that float over page content on small screens."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Keyboard controls"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "p",
+   "t": "Note: Although the list resembles tabs and uses tab styles, it does not have tablist roles or behaviors."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use aria-current=\"true\" or aria-selected=\"true\" to set the active tab.",
+    "Make sure users can scroll to all the content within the drawer.",
+    "Ensure nav elements have an aria-label with a unique and meaningful name. The label text shouldn’t include the word “navigation” as this will be announced automatically and be redundant for the screen reader.",
+    "Implement navigation drawers as dialog elements."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Logos"
+  },
+  {
+   "k": "p",
+   "t": "Our library has a classname just for the application name in the horizontal navigation component. There is a component for the Visa logo that adjusts for the user’s high contrast settings."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the logo has an accessible name or is inside a link with an accessible name with aria-hidden=\"true\" on the svg.",
+    "Use one of the library’s classes for high contrast with a custom logo. Choose between the class for a light or dark foreground depending on the custom logo. Setting a contrasting background behind the brand logo ensures it will have maximum contrast in high contrast mode without a visible change in default contrast mode."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard controls"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Key",
+     "Behavior"
+    ],
+    [
+     "Space",
+     "Activates buttons within the drawer."
+    ],
+    [
+     "Enter",
+     "Navigates to the focused element page and activates buttons within the drawer."
+    ],
+    [
+     "Tab",
+     "Moves to the next interactive focusable element."
+    ],
+    [
+     "Esc",
+     "Dismisses the navigation when the vertical navigation is collapsed into a menu, such as on a mobile viewport."
+    ]
+   ]
+  }
+ ]
+}

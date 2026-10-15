@@ -1,0 +1,189 @@
+{
+ "url": "https://design.visa.com/content/placeholder-text",
+ "title": "Placeholder text | Content | Visa Product Design System",
+ "h1": "Placeholder text",
+ "readAt": "2026-10-15T17:08:19.644Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Placeholder text"
+  },
+  {
+   "k": "p",
+   "t": "Replace lorem ipsum text with relevant examples or custom placeholder content."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Medium fidelity contentNaming formula",
+    "Inline messagesEmpty states",
+    "Custom content"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "This section outlines guidance for using mid-fidelity content as placeholder text in user-facing contexts. This generally means replacing lorem ipsum text with descriptive text to provide additional context and meaning within prototypes."
+  },
+  {
+   "k": "h2",
+   "t": "Medium fidelity content"
+  },
+  {
+   "k": "p",
+   "t": "Medium fidelity content, also known as mid-fidelity content, refers to text and labels that describe an element or use case. This is different from low-fidelity content, like lorem ipsum text, or high-fidelity content you’d find in a functional interface."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use medium fidelity content when planning and prototyping, as it helps communicate the purpose of an element without requiring substantial content support."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use mid-fidelity content and generic labels to help orient users and provide context about the purpose of an element."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use low fidelity content and lorem ipsum in prototypes, as this can make elements unclear or hard to identify."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use numbers to differentiate text in the same category to add clarity and indicate it’s not the same repeated item."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Repeat the same text within one category, as this makes it hard to differentiate between items."
+  },
+  {
+   "k": "h3",
+   "t": "Naming formula"
+  },
+  {
+   "k": "p",
+   "t": "To ensure mid-fidelity labels are clear and descriptive, VPDS recommends using the descriptor + text category formula. This formula results in labels that are clear and descriptive by combining contextual information (descriptors) with text that identifies the purpose of the label (text categories)."
+  },
+  {
+   "k": "p",
+   "t": "Note: Descriptors can be left out of labels if the text category provides sufficient context. However, the text category should always be included."
+  },
+  {
+   "k": "h4",
+   "t": "Descriptors"
+  },
+  {
+   "k": "p",
+   "t": "Descriptors specify the exact element being labeled with context like location, category, or type. They help indicate sequential order, hierarchy, grouping, or placement. Here are the most common ones used throughout VPDS:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Component names (like button, checkbox, or link)",
+    "Group",
+    "Level (like L1, L2, L3)",
+    "Page",
+    "Primary, secondary, tertiary",
+    "Section",
+    "Variant names (like informational, success, warning, or error)"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Note: Use simple descriptors whenever possible, avoiding terms like 1st, 2nd, 3rd, first, second, third, or primary, secondary, or tertiary, as they become complicated beyond the third position. An exception to this rule is calls to action, where labeling “Primary action” and “Secondary action” are common."
+  },
+  {
+   "k": "h4",
+   "t": "Text categories"
+  },
+  {
+   "k": "p",
+   "t": "Text categories indicate the type of content being used in an element. These are an essential piece of mid-fidelity labels and should always be included. Here are the most common ones used throughout VPDS:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Action (for buttons)",
+    "Body text",
+    "Header (for tables)",
+    "Heading",
+    "Label",
+    "Subtitle",
+    "Subheading",
+    "Title"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Examples"
+  },
+  {
+   "k": "p",
+   "t": "Below are examples of this naming convention formula used in context. For the specific naming conventions of each component, refer to their respective anatomy diagrams at the top of each page."
+  },
+  {
+   "k": "p",
+   "t": "In this example, “group label” isn’t just any label, but one that describes the whole group of elements."
+  },
+  {
+   "k": "p",
+   "t": "In this example, “Section title” differentiates the anchor links in one section of the page from the title of the entire page."
+  },
+  {
+   "k": "h2",
+   "t": "Inline messages"
+  },
+  {
+   "k": "p",
+   "t": "In components, descriptive text is known as an inline message and typically appears below the main text category like a title or label. Inline messages can be optional or required depending on the context or state of a component."
+  },
+  {
+   "k": "list",
+   "items": [
+    "When composing generic inline messages, follow this formula: “This is required/optional text that describes the component name / text category in more detail.”"
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Having both the component name and text category isn’t always required. In some situations, it helps to refer to the component name if it looks similar to other components when taken out of context. In other instances, such as with more easily recognizable components, referring to just the text category is easier and simpler."
+  },
+  {
+   "k": "p",
+   "t": "Constantly referring to the checkbox component within each element can get repetitive when users know which component they’re looking at."
+  },
+  {
+   "k": "p",
+   "t": "As titles are turned off for banners by default, and banners may be confused with flags or section messages, it’s helpful for the message to refer specifically to the component name."
+  },
+  {
+   "k": "h3",
+   "t": "Empty states"
+  },
+  {
+   "k": "p",
+   "t": "Inline messages should also be included in the empty state of a component to inform users when there’s no data to display in their current view. This can happen if searching or filtering yields no results, data hasn’t been added to an element, or the user doesn’t have permission to view the data. Reference Feedback and status for more information."
+  },
+  {
+   "k": "h2",
+   "t": "Custom content"
+  },
+  {
+   "k": "p",
+   "t": "Custom or fictitious content can be added to prototypes to help further indicate contextualize elements or add examples. Use this level of specificity when trademarked brands can’t be used but a real or simulated use case is needed to provide deeper context than generic labels. Refer to Fictitious brands for more guidance."
+  }
+ ]
+}

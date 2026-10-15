@@ -1,0 +1,451 @@
+{
+ "url": "https://design.visa.com/patterns/forms",
+ "title": "Forms | Patterns | Visa Product Design System",
+ "h1": "Forms",
+ "readAt": "2026-10-15T17:08:06.608Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance on everything from layouts to validation to ensure forms are clear and usable."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesForm componentsCalls to actionClient-side validationServer-side validationOptional vs. required labels",
+    "Layouts",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "The forms pattern typically combines input, select, and button components with other context-specific components or patterns like file upload to enable users to enter information. For longer forms with four or more steps, reference Wizard.\nAlso known as: Form validation."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Form title (required): Brief statement describing the purpose of the form.\nB. Form description (optional): Brief description of the form’s purpose.\nC. Input field labels (required): Text indicating the purpose of the field and if the information is required.\nD. Inline message (optional): Text communicating format requirements or relevant guidance.\nE. Calls to action (required): Button components enabling users to submit the form."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "For simpler forms with fewer than four steps.If steps are short and don’t require substantial input.",
+     "For longer forms with four or more steps. Use a wizard instead.If steps are longer and contain complex fields."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow regional and global data regulations and laws. Consult with a Visa compliance expert throughout your process.",
+    "Ensure that people of all abilities can use forms by referring to the Accessibility and Inclusive design guidance.",
+    "Offer helpful information based on settings, user profiles, data, tracked usage behavior—or with the user’s permission.",
+    "Use clear labels and examples to assist users in data entry.",
+    "Reserve open-ended inputs like multi-line text fields for longer responses and match the input field size to the expected length of the entry.",
+    "Communicate errors clearly by letting the user know what happened and give clear next steps."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Form components"
+  },
+  {
+   "k": "p",
+   "t": "Designing a form requires critical thinking about the context to determine the structure, sequence, and components used. The most common components are outlined below."
+  },
+  {
+   "k": "h4",
+   "t": "Input"
+  },
+  {
+   "k": "p",
+   "t": "Input fields allow users to enter text and edit data. The type of input field you use should reflect the length of the content you expect the user to enter. To learn more, reference Input."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Single-line input enables users to input one line of content, for example: name/username, email, date of birth, and more.",
+    "Multi-line input enables the user to enter multiple lines of content including comments and descriptions which are typically open-ended."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Selection controls"
+  },
+  {
+   "k": "p",
+   "t": "Selection controls give users predetermined options to select from. When deciding on a component, consider how many options you need to provide and how many items the user may need to select."
+  },
+  {
+   "k": "h4",
+   "t": "Checkbox"
+  },
+  {
+   "k": "p",
+   "t": "Checkboxes enable the user to select one or more options from a list where each choice is independent of the other options available in the list."
+  },
+  {
+   "k": "text",
+   "t": "Explore Checkbox guidelines"
+  },
+  {
+   "k": "h4",
+   "t": "Radio"
+  },
+  {
+   "k": "p",
+   "t": "Radios enable the user to choose a single option from a list of two, but no more than four different options. If providing more than four options, consider using a dropdown menu."
+  },
+  {
+   "k": "text",
+   "t": "Explore Radio guidelines"
+  },
+  {
+   "k": "h4",
+   "t": "File upload"
+  },
+  {
+   "k": "p",
+   "t": "File upload enables the user to upload single or multiple files in predetermined formats and sizes using a browser or drag-and-drop upload methods."
+  },
+  {
+   "k": "text",
+   "t": "Explore File upload guidelines"
+  },
+  {
+   "k": "h4",
+   "t": "Combobox"
+  },
+  {
+   "k": "p",
+   "t": "Comboboxes use a single-line input and menu to enable the user to search for an option within a long, but finite set of options by typing a value into a field."
+  },
+  {
+   "k": "text",
+   "t": "Explore Combobox guidelines"
+  },
+  {
+   "k": "h4",
+   "t": "Multiselect"
+  },
+  {
+   "k": "p",
+   "t": "Multiselect enables the selection of five or more options when space is limited. If space isn’t an issue, use a checkbox group instead to simplify user interactions."
+  },
+  {
+   "k": "text",
+   "t": "Explore Multiselect guidelines"
+  },
+  {
+   "k": "h4",
+   "t": "Select (native)"
+  },
+  {
+   "k": "p",
+   "t": "Select (native) uses the native default select in a browser to enable the selection of a single option from a set of multiple, related options in a dropdown list."
+  },
+  {
+   "k": "text",
+   "t": "Explore Select (native) guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Calls to action"
+  },
+  {
+   "k": "p",
+   "t": "Calls to action (CTAs) guide users toward the next step—whether it’s submitting a form, saving progress, or moving to the next screen. Clear and consistent CTAs help users complete tasks confidently and reduce friction. Keep the order of buttons consistent throughout all product experiences to maximize usability and prevent confusion."
+  },
+  {
+   "k": "p",
+   "t": "Do     Place primary buttons in the leftmost position, followed by secondary and tertiary buttons to the right, mirroring a left-to-right reading order."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Place the primary button on the right-hand side. This disrupts the natural left-to-right reading order, making it harder for users to identify the main action."
+  },
+  {
+   "k": "h3",
+   "t": "Client-side validation"
+  },
+  {
+   "k": "p",
+   "t": "Form validation is necessary anytime we accept user input. This ensures that the data entered is in the correct format, falls within a valid range (such as date fields), and isn’t missing information that can lead to errors. When there’s been a mistake or issue, effective and immediate error messaging helps users understand the problem and how to fix it.\nValidation before form submission, also known as client-side validation, is an initial check that ensures all required fields are filled out and in the correct format. This method helps limit frustration experienced by the user because it reduces the need to go back, locate and correct mistakes after filling out a lengthy form.\nNote: Client-side validation shouldn’t be used as an exhaustive security measure. Data entered should be validated using both methods because client-side validation only makes it easier for malicious users to bypass security."
+  },
+  {
+   "k": "h4",
+   "t": "Validation when the user leaves the field"
+  },
+  {
+   "k": "h3",
+   "t": "Server-side validation"
+  },
+  {
+   "k": "p",
+   "t": "Once a form is submitted, it’s sent to the server for further validation using one of the server-side scripting languages. After the server-side validation process, feedback is then sent back to the user in the form of a success or error message. Server-side validation is important because it provides additional evaluation of the data entered by the user and helps protect against malicious users.\nIt’s important to note that there are a few different scenarios that can lead to a server-side error outside of missing or incorrect user inputs such as problems connecting to the server."
+  },
+  {
+   "k": "h4",
+   "t": "Validation messaging"
+  },
+  {
+   "k": "p",
+   "t": "Server-side validation typically results in a success or error validation message. These messages can be presented using a range of components to indicate if the form was successfully or unsuccessfully validated. When unsuccessfully validated, the messages will generate an error."
+  },
+  {
+   "k": "p",
+   "t": "While validation messages are an effective method to draw attention to errors, it shouldn’t be used as the only form of error indication as it forces the user to search for the field in error. Additionally, the message may come out of view forcing the user  to rely on memory to fix the issue."
+  },
+  {
+   "k": "p",
+   "t": "For additional context on how to create messaging for section messages commonly used to communicate server-side errors, visit Messaging."
+  },
+  {
+   "k": "h4",
+   "t": "Server-side validation: Success scenarios"
+  },
+  {
+   "k": "p",
+   "t": "When information is successfully validated on the server side, the user will typically receive a success message. The type of component used to communicate the success depends on your context. We recommend using a flag if the user is taken to a new page after submission or a section message if they receive the success message on the same page. For specific guidance on how to decide on the right component for your context, where to place it, and its level of disruption, visit Feedback and status."
+  },
+  {
+   "k": "h4",
+   "t": "Server-side validation: Error scenarios"
+  },
+  {
+   "k": "p",
+   "t": "Reference the scenarios below to better understand the different types of unsucessful server-side validation that result in error messages."
+  },
+  {
+   "k": "h5",
+   "t": "One or more fields in error"
+  },
+  {
+   "k": "p",
+   "t": "One or more fields can be in error when the user submits the form but left required fields blank, entered data in an incorrect format, or both. In this scenario, the user submitted the form but left the email field blank and formatted the phone number field incorrectly."
+  },
+  {
+   "k": "p",
+   "t": "The user might have been provided with client-side inline error messages but still submitted the form resulting in the server-side validation error. In the example below, we provided feedback in the form of an error section message highlighting that an error occurred and used inline messages draw attention to the fields in error and tell the user how to fix them."
+  },
+  {
+   "k": "h5",
+   "t": "Empty form submission"
+  },
+  {
+   "k": "p",
+   "t": "Generally, VPDS doesn’t recommend disabling the “Submit” button when information is incorrectly formatted or left blank. In this scenario, the user submitted the form without entering an email or phone number, which are required fields. They also didn’t receive client-side inline messages since they didn’t interact with any of the fields before submitting."
+  },
+  {
+   "k": "p",
+   "t": "In the example below, we provided feedback in the form of an error section message highlighting that required information is missing and used inline messages draw attention to the fields that need an input."
+  },
+  {
+   "k": "p",
+   "t": "Note: While this is technically client-side validation, it’s referenced in the server-side error framework."
+  },
+  {
+   "k": "h5",
+   "t": "Invalid form page level error"
+  },
+  {
+   "k": "p",
+   "t": "In this scenario, the user has completed the form and the input formatting criteria is correct, but due to security reasons you aren’t allowed to identify exactly which field is mismatched."
+  },
+  {
+   "k": "p",
+   "t": "In the sign in example below, we provided feedback in the form of an error section message highlighting that required information is missing and used inline messages draw attention to the fields that need an input."
+  },
+  {
+   "k": "p",
+   "t": "Note: While this is technically client-side validation, it’s referenced in the server-side error framework."
+  },
+  {
+   "k": "h5",
+   "t": "Resubmit form"
+  },
+  {
+   "k": "p",
+   "t": "As mentioned, there are a few different scenarios that can lead to a server-side error outside of missing or incorrect user inputs such as problems connecting to the server, connectivity issues with the software, misconfigured settings, or problems with the code or scripts that run on the server. In this scenario, the user has completed the form and the input formatting criteria is correct but the server is having issues connecting and sending the data successfully."
+  },
+  {
+   "k": "p",
+   "t": "In the example below, we provided feedback in the form of an error section message to communicate that we are experiencing connectivity issues and suggest the user either try to submit the form again or to try again later."
+  },
+  {
+   "k": "h3",
+   "t": "Optional vs. required labels"
+  },
+  {
+   "k": "p",
+   "t": "Always ensure required fields are clearly labeled. While this may seem repetitive, it helps users scan for necessary information and reduces errors. There are two methods for labeling required fields based on your use case. Whichever method you select, use it consistently across your experiences.\nNote: Previous VPDS guidance recommended only marking optional fields. Our guidance has been updated to reflect current Nielsen Norman Group recommendations."
+  },
+  {
+   "k": "h4",
+   "t": "“Required” in the label (preferred method)"
+  },
+  {
+   "k": "p",
+   "t": "Including “required” within the label ensures it’s easy to find, particularly when instructions at the top might not be visible while scrolling. This method bolsters accessibility for both sighted and non-sighted users."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Mark all fields that are required. This ensures you’re as explicit and transparent as possible.",
+    "Include “(required)” in field label with a space between the last word and the first parenthesis."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Asterisk in the label (alternative method)"
+  },
+  {
+   "k": "p",
+   "t": "Asterisks are commonly used to indicate required fields. The main advantage to using this method is that it doesn’t take up much space, helps users along a common edge, and can be used in addition to formatting hints in the label."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Always include a legend or key at the top of the content area noting that the asterisk indicates a required field.",
+    "Place the asterisk at the beginning of the label with a space between the symbol and the first word."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "When required is implied"
+  },
+  {
+   "k": "h4",
+   "t": "Labeling optional fields"
+  },
+  {
+   "k": "h2",
+   "t": "Layouts"
+  },
+  {
+   "k": "p",
+   "t": "The form pattern features a single, full-page layout designed to provide a consistent and user-friendly experience. This layout ensures all form elements are easily accessible, promoting a seamless flow from start to finish."
+  },
+  {
+   "k": "h3",
+   "t": "Full page (default)"
+  },
+  {
+   "k": "p",
+   "t": "Do     Use dialogs for short forms that occur less frequently."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use panels to house forms."
+  },
+  {
+   "k": "h3",
+   "t": "Columns"
+  },
+  {
+   "k": "p",
+   "t": "The single-column form design creates vertical momentum and maximizes usability. When possible, avoid using multi-column layouts as this approach may create confusion around the logical sequencing of the fields. However, in some cases, multi-column forms may work well when gathering certain information, such as address entry. When planning your layout, consider the amount of fields, the presentation of the form, and field groupings."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use sentence case for all content except proper nouns or acronyms.",
+    "Reference Button for guidance on button formulas and creating button labels.",
+    "Follow content guidance in Input when writing inline messages, including errors.",
+    "Review Messaging for specific guidance on how to craft content in success, warning, and error messaging."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Form titles and subtitles"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use short, concise, and scannable titles with no punctuation.",
+    "Limit titles to three to five descriptive words. If your title can’t be condensed, consider using a subtitle with your title.",
+    "Limit subtitles to one to two short sentences with punctuation.",
+    "Use sentence case for both titles and subtitles. The only exceptions are proper nouns or names.",
+    "Avoid repeating the same words or phrases across the title and subtitle. If struggling to simplify, omit the subtitle.",
+    "Use subtitles to describe why the information being collected is relevant or to give instructions about the form as a whole."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Form labels"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Limit labels to a maximum of three words.",
+    "Use sentence case and no punctuation. The only exceptions are proper nouns or names.",
+    "Use plain, concise, and descriptive language to help users understand what the corresponding field means.",
+    "Use parallel structure across labels. Although nouns like first name, last name are typically used, in some contexts it may make sense to use verbs such as “Enter email”, or “Confirm password”.",
+    "Don’t use placeholder text within the input field instead of a label.",
+    "Avoid abbreviations or jargon that aren’t widely understood by global audiences."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Messaging"
+  },
+  {
+   "k": "p",
+   "t": "Craft content for alert components to increase trust, reduce errors, and improve system performance."
+  },
+  {
+   "k": "h3",
+   "t": "Application layouts"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to choose a navigational frame based on page content and information architecture."
+  }
+ ]
+}

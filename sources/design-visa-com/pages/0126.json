@@ -1,0 +1,1606 @@
+{
+ "url": "https://design.visa.com/content/grammar",
+ "title": "Grammar and punctuation | Content | Visa Product Design System",
+ "h1": "Grammar and punctuation",
+ "readAt": "2026-10-15T17:08:15.091Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Grammar and punctuation"
+  },
+  {
+   "k": "p",
+   "t": "Learn Visa product grammar and punctuation styles to ensure consistent experiences."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Active and passive voiceActive voiceCalls to actionPassive voice",
+    "CapitalizationSentence caseTitle caseAll caps",
+    "PunctuationApostrophesCommasColonsSemicolonsEllipsesParentheses",
+    "SymbolsIconsAsterisks",
+    "Dashes and hyphensHyphensEn dashesEm dashes",
+    "AbbreviationsHonorifics and titlesLatin abbreviationsDate and time abbreviationsTime zonesUnits",
+    "Date and timeInternational notationRegional notation",
+    "NumbersNegative numbersInternational currencies",
+    "Pronouns",
+    "ListsList typeList punctuation",
+    "Parallel structure"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Grammar refers to the rules for structuring and combining words into sentences. Punctuation refers to the marks used to structure, organize, and clarify sentences. Follow these guidelines to ensure all Visa experiences are consistent, easy to understand, and accurate."
+  },
+  {
+   "k": "p",
+   "t": "We primarily follow the Chicago Manual of Style for grammar, spelling, punctuation, and language usage. However, in some cases we refer to the Associated Press (AP) Styleguide."
+  },
+  {
+   "k": "h2",
+   "t": "Active and passive voice"
+  },
+  {
+   "k": "p",
+   "t": "Active and passive voice refer to how a sentence is structured to highlight different parts of the action. In active voice, the subject performing the action is the main focus. This makes it easy to identify who or what is doing something. In passive voice, the action itself is the main focus, and it’s not always clear who or what is doing it."
+  },
+  {
+   "k": "h3",
+   "t": "Active voice"
+  },
+  {
+   "k": "p",
+   "t": "A sentence is in active voice when a subject, usually a person or entity like Visa, performs an action. Active voice is clear, concise, and actionable. This is the preferred method in most scenarios as it’s generally clearer, more direct, and more concise than passive voice."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Add your credentials.",
+     "User credentials must be added."
+    ],
+    [
+     "Enter your response below.",
+     "Response should be entered below."
+    ],
+    [
+     "The content team regularly updates the style guide.",
+     "The style guide is regularly updated by the content team."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Calls to action"
+  },
+  {
+   "k": "p",
+   "t": "A call to action (CTA) describes a Button, Link, or text intended to guide users toward a task or action."
+  },
+  {
+   "k": "p",
+   "t": "CTAs should be written with command verbs to ensure it is clear what will happen when selected. Command verbs refer to descriptive verbs that give a direct order or instruction, like “Save”, “Apply”, or “Send”. The only exceptions are common navigational labels like “Next”, or “Back”."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure all buttons include command verbs like “Save”, “Apply”, or “Send”.",
+    "Avoid using sensory language like “See” or “View”. For more information, reference Inclusive language."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure button text helps users predict what will happen."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use vague language that is not descrptive."
+  },
+  {
+   "k": "p",
+   "t": "Do     Ensure all button labels clearly indicate a single action that will happen when selected."
+  },
+  {
+   "k": "p",
+   "t": "Don't      Include multiple actions in one button. This creates long and confusing labels that wrap on multiple lines."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Call to action (CTA) language",
+     "Context"
+    ],
+    [
+     "Learn moreExplore optionsBrowse credit cardsCompare products",
+     "Discovery or learning"
+    ],
+    [
+     "Get startedFind your Visa cardAccess offerDownload pdfCheck it out",
+     "General"
+    ],
+    [
+     "Join nowSubscribe, Subscribe and saveSign up",
+     "Newsletters"
+    ],
+    [
+     "Learn moreStart readingBegin tutorialReview guide",
+     "Product onboarding, Documentation"
+    ],
+    [
+     "Contact usChat with usGet helpConnect to an expert",
+     "Support"
+    ],
+    [
+     "Buy now Place orderComplete purchaseMake transfer, Transfer nowAdd to cartCheck out",
+     "Transactions"
+    ],
+    [
+     "NextBackContinue",
+     "Navigation"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Passive voice"
+  },
+  {
+   "k": "p",
+   "t": "A sentence is in passive voice when the subject is omitted or de-emphasized, giving the feeling that something “just happens.” While products and experiences usually use active voice, passive voice can be used to soften language and sound less accusatory towards the user or Visa. This is more appropriate in sensitive cases, such as legal statements or error messages, where leaving the subject out can avoid placing blame on the user."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use passive voice if you notice a command, instruction, or explanation sounds too critical or accusatory."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "The transaction was not processed due to insufficient funds.",
+     "You do not have enough funds to process this transaction."
+    ],
+    [
+     "Your card was declined.",
+     "We declined your card."
+    ],
+    [
+     "Something went wrong. Please reload the browser window.",
+     "You made an error.We made an error."
+    ],
+    [
+     "The account was not found.",
+     "We can’t find your account."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Capitalization"
+  },
+  {
+   "k": "h3",
+   "t": "Sentence case"
+  },
+  {
+   "k": "p",
+   "t": "Sentence case refers to capitalizing text like it’s in a sentence: the first letter is capitalized, and everything else is lower case. Sentence case is primarily used in UX writing for products because it’s more modern, readable, and “human” than title case. It’s also better for globalization as title case is uncommon outside English publications."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use sentence case for all aspects of Visa’s product experiences, including page titles, headings, and UI elements like tooltips or tabs."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use sentence case in UI elements and components."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use title case in any Visa product experiences."
+  },
+  {
+   "k": "h3",
+   "t": "Title case"
+  },
+  {
+   "k": "p",
+   "t": "Title case refers to text that’s written with the first letter of each word capitalized. Only use title case for proper nouns, which include the names of people, places, and certain things, such as Visa branded terms and products (internal only). If referring to anything trademarked or copyrighted, refer to Fictitious brands for general guidance or consult with the legal or brand team for official instructions on how to proceed."
+  },
+  {
+   "k": "h3",
+   "t": "All caps"
+  },
+  {
+   "k": "p",
+   "t": "All caps refers to text written in all capital letters. This is reserved for acronyms and initialisms, some abbreviations like file extensions, and certain text styles like overlines."
+  },
+  {
+   "k": "h4",
+   "t": "Acronyms"
+  },
+  {
+   "k": "p",
+   "t": "Acronyms are terms based on the first letter of each word in a title, like VPDS for Visa Product Design System. Unless commonly understood, like PDF, acronyms should always be defined in proximity to where they’re being used, such as on the same page or within the same paragraph; for example, Visa Product Design System (VPDS)."
+  },
+  {
+   "k": "p",
+   "t": "Be mindful that users often jump around between content and don’t read everything on a page linearly, so sometimes acronyms need to be defined multiple times within the same experience."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use all capital letters for acronyms.",
+    "Use acronyms only after you have defined and contextualized them. For a list of Visa and industry-specific acronyms, refer to the Visa Finance Global Sourcing Acronyms and Glossary (internal only)."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Capitalize file extension names in UI labels and body text."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Capitalize file extensions in file names."
+  },
+  {
+   "k": "p",
+   "t": "The Visa Product Design System (VPDS) uses sentence case in all scenarios except for proper nouns, acronyms, and abbreviations."
+  },
+  {
+   "k": "p",
+   "t": "Do"
+  },
+  {
+   "k": "p",
+   "t": "Define acronyms before using them in products or experiences to ensure users can identify them easily."
+  },
+  {
+   "k": "p",
+   "t": "VPDS uses sentence case in all scenarios except for proper nouns, acronyms, and abbreviations."
+  },
+  {
+   "k": "p",
+   "t": "Don't"
+  },
+  {
+   "k": "p",
+   "t": "Use acronyms without defining them, as this can confuse users and lead to unclear content."
+  },
+  {
+   "k": "h2",
+   "t": "Punctuation"
+  },
+  {
+   "k": "p",
+   "t": "Punctuation in products and experiences depends on use case. Follow the guidance below to ensure consistent punctuation across products and experiences."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use proper punctuation for all text containing full sentences.",
+    "Omit end punctuation, such as periods, for all headings, titles, and UI labels.",
+    "Use exclamation marks sparingly, ideally no more than once per page."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Punctuate inline messages, descriptive text, and body text."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Punctuate buttons, headings, or labels."
+  },
+  {
+   "k": "h3",
+   "t": "Apostrophes"
+  },
+  {
+   "k": "h4",
+   "t": "Contractions"
+  },
+  {
+   "k": "p",
+   "t": "Contractions are a type of abbreviation where words are shortened by omitting certain letters or sounds. These are typically created by combining two words, with the apostrophe placed where the omitted letters would’ve been. Examples of contractions include “don’t” (do not), “can’t” (cannot), “they’re” (they are), and “it’s” (it is or it has)."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use contractions to make your content more conversational and human rather than academic or robotic.",
+    "Avoid using apostrophes in place of numbers or letters unless forming contractions."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Something didn’t work.",
+     "Something did not work."
+    ],
+    [
+     "This feature isn’t available.",
+     "This feature is not available."
+    ],
+    [
+     "We’re searching for your information.",
+     "We are searching for your information."
+    ],
+    [
+     "2023",
+     "’23"
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Possessives"
+  },
+  {
+   "k": "p",
+   "t": "Possessives in English grammar are used to indicate ownership or a close relationship."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use apostrophes to show possession, such as “Visa’s products”.",
+    "Add ‘s for singular nouns like “Company”, even if the word ends in an s.",
+    "Add ‘s for plural nouns that don’t end in an s, like “Children”.",
+    "Add an apostrophe at the end of the word for plural nouns ending in s, such as “Cities”."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "The company’s credit card",
+     "The companys credit card The companies credit card"
+    ],
+    [
+     "The children’s section",
+     "The childrens section"
+    ],
+    [
+     "Several cities’",
+     "Several cities"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Commas"
+  },
+  {
+   "k": "p",
+   "t": "VPDS recommends oxford commas to boost clarity in written text. This refers to commas placed before the word “and” in a list or series of multiple items."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the oxford (or serial) comma in all product contexts.",
+    "Try breaking sentences with many commas into multiple sentences to improve readability and maintain a reasonable reading level."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "“Visa uses a sixth grade reading level, sentence case, and white space to improve readability.”",
+     "“Visa uses a sixth grade reading level, sentence case and white space to improve readability.”"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Colons"
+  },
+  {
+   "k": "p",
+   "t": "Colons are used to show that a clause is directly related to the one before it."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use colons to introduce lists or steps in a process if the sentence is phrased as a complete thought that introduces the content to follow.",
+    "Avoid using colons in sentences."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Visa uses the following conventions in all product content: Oxford comma Sentence case 6th grade reading level",
+     "Visa uses the following conventions in all product content Oxford comma Sentence case 6th grade reading level"
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Keep form field labels free of punctuation."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use a colon at the end of a form field label."
+  },
+  {
+   "k": "h3",
+   "t": "Semicolons"
+  },
+  {
+   "k": "p",
+   "t": "Semicolons are used to join related, independent clauses, but aren’t recommended for use in products or experiences."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Try simplifying sentences with a comma to avoid using semicolons."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Visa connects is a global network, connecting the world by being the best way to pay and be paid.",
+     "Visa connects is a global network; we connect the world by being the best way to pay and be paid."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Ellipses"
+  },
+  {
+   "k": "p",
+   "t": "Ellipses (…) can be a useful tool in UI and product content but should be used sparingly in body content or blocks of text."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use ellipses when shortening or truncating text in small spaces."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use ellipses at the end of button text or UI elements to indicate that interactions lead to another page."
+  },
+  {
+   "k": "p",
+   "t": "Loading transaction data…"
+  },
+  {
+   "k": "p",
+   "t": "Do"
+  },
+  {
+   "k": "p",
+   "t": "Use ellipses at the end of text to communicate that something is in progress, such as loading."
+  },
+  {
+   "k": "p",
+   "t": "Saving can be hard… learn more today!"
+  },
+  {
+   "k": "p",
+   "t": "Don't"
+  },
+  {
+   "k": "p",
+   "t": "Use ellipses in product content to indicate pause, hesitation, or to connect ideas."
+  },
+  {
+   "k": "h3",
+   "t": "Parentheses"
+  },
+  {
+   "k": "p",
+   "t": "Parentheses are punctuation marks used for information that’s not essential to the main point of the sentence, but provides additional context or clarification. The information inside the parentheses can be a single word, a fragment, or multiple complete sentences."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use parentheses for supplemental information in body copy and UI. Never use brackets in place of parentheses."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "In all UI text, including titles and tooltips, use sentence case (as opposed to title case).",
+     "In all UI text, including titles and tooltips, use sentence case [as opposed to title case]."
+    ],
+    [
+     "Loading… (55% complete)",
+     "Loading… [55% complete]"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Symbols"
+  },
+  {
+   "k": "p",
+   "t": "Symbols shouldn’t be used in place of words like “and”, “or”, or “at”. This includes ampersands (&) or plus signs (+) in place of the word “and”, number signs (#) in place of the word “number”, at signs (@) in place of the word “at”, and slashes (\\ or /) and the word “slash” in place of the the words “or,” or “and”."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid using symbols in place of written words in copy. The only exception is businesses, products, or teams whose names already include symbols, such as Design @ Visa."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Pause your card at the touch of a button.",
+     "Pause your card @ the touch of a button"
+    ],
+    [
+     "Save and quit",
+     "Save & quit"
+    ],
+    [
+     "Terms and conditions",
+     "Terms + conditions"
+    ],
+    [
+     "Enter your phone number.",
+     "Enter your phone #."
+    ],
+    [
+     "Your available balance is your current balance minus any pending charges.",
+     "Available balance = current balance – pending charges"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Icons"
+  },
+  {
+   "k": "p",
+   "t": "Text symbols should never be used in place of any Visa icon, no matter how closely they appear in resemblance. Always use the proper Visa-branded or generic icons. Learn more by visiting Design kits."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use the dedicated “plus” icon from Visa’s icon library for buttons."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use the plus sign text symbol in button labels."
+  },
+  {
+   "k": "h3",
+   "t": "Asterisks"
+  },
+  {
+   "k": "p",
+   "t": "Asterisks (*) are used to indicate a source citation (or footnote), an omission, and to point to a disclaimer or comment. The most common use case are disclaimers for products."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the asterisk after every punctuation mark except for dashes. In the case of dashes, place the asterisk before the dash. It’s not necessary to end the disclaimer with an asterisk as you would with a quote.",
+    "Remove spaces before and after an asterisk.",
+    "Never use asterisks to censor inappropriate language. Instead, curse words and violent language should not be used."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Please enter your CVV number**A CVV, or card verification value, is typically a three- or four-digit number found on a credit card.",
+     "Please enter your CVV* number*Your CVV number is found on the back of your card and is typically 3 numbers.*"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Dashes and hyphens"
+  },
+  {
+   "k": "p",
+   "t": "Em dashes, en dashes, and hyphens are distinct punctuation elements that are commonly misused. They can be entered in Microsoft Word from the Special Characters tab within the Advanced Symbols section in the Ribbon."
+  },
+  {
+   "k": "p",
+   "t": "Keyboard shortcuts work in Microsoft Word and other software, like Figma. Refer to the following table for a quick guide on manually entering these characters in text."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Element",
+     "MacOS",
+     "Windows"
+    ],
+    [
+     "Hyphen (-)",
+     "minus (-)",
+     "minus (-)"
+    ],
+    [
+     "En dash (–)",
+     "Option and minus (-)",
+     "Alt + type 0150 (use num lock)"
+    ],
+    [
+     "Em dash (—)",
+     "Shift + Option + minus (-)",
+     "Ctrl + Alt + minus (-)"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Hyphens"
+  },
+  {
+   "k": "p",
+   "t": "Hyphens (-) are punctuation marks used to join words or parts of words together."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Remove spaces before or after hyphens.",
+    "Use a hyphen to combine two words when they come before a noun, not after.",
+    "Always spell out common fractions and hyphenate them."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "One-half of the pizzas are gone.",
+     "1/2 of the pizzas are gone."
+    ],
+    [
+     "The interfaces are user friendly.",
+     "The interfaces are user-friendly."
+    ],
+    [
+     "User-friendly interfaces",
+     "User friendly interfaces"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "En dashes"
+  },
+  {
+   "k": "p",
+   "t": "En dashes (–) are punctuation marks that are slightly longer than a hyphen (-) but shorter than an em dash (—). They’re typically used to indicate a range of values in place of the word “to” or to denote a connection or a conflict between two concepts."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Remove spaces before or after hyphens.",
+    "Use en dashes (–) to relate one concept to another.",
+    "Avoid using an en dash instead of the words “from”, “to”, or “between” to introduce number ranges."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Set focus mode on your phone from 8 AM to 5 PM.",
+     "Set focus mode on your phone from 8 AM–5 PM."
+    ],
+    [
+     "Communication is important for establishing designer–developer collaboration.",
+     "Communication is important for establishing designer/developer collaboration."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Em dashes"
+  },
+  {
+   "k": "p",
+   "t": "Em dashes (—) are the longest type of dash. They’re used in place of commas, colons, semi-colons, or parentheses to emphasize information."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Remove spaces before or after hyphens.",
+    "Use em dashes to separate additional, unessential information from the rest of the sentence.",
+    "Use em dashes to separate distinct, related thoughts."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Context",
+     "Example"
+    ],
+    [
+     "Distinguish additional, unessential information",
+     "Avoid using punctuation in UI labels—except for apostrophes or internal punctuation—to maintain a friendly tone and improve readability."
+    ],
+    [
+     "Separate distinct, related thoughts",
+     "Enabling these security features for cardholders can reduce the number of false disputes issuers have to resolve—in other words, everybody wins."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Abbreviations"
+  },
+  {
+   "k": "p",
+   "t": "In product content, it’s generally best to avoid uncommon or unnecessary abbreviations where possible. Instead, spell out terms to increase the clarity and legibility of your content. Refer to the Chicago Manual of Style for a detailed list of abbreviations."
+  },
+  {
+   "k": "h3",
+   "t": "Honorifics and titles"
+  },
+  {
+   "k": "p",
+   "t": "Honorifics and titles are formal styles used to denote professional positions, academic qualifications, or certain family relationships. They can be prefixes, like “Dr.”, “Prof.”, or “Mr.”, which are added before a person’s name, or suffixes, like “Jr.”, “Sr.”, or “Ph.D.”, which are added after a person’s name."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid using English honorifics or social title abbreviations such as “Ms.”, “Mrs.”, or “Mr.” to reduce assumptions where gender identity or marital status are unknown.",
+    "Capitalize the first letter and include a period and a space between title abbreviations and names, such as “Mr. Alex Miller.”",
+    "Capitalize and omit periods for academic degrees, placing them after the name with a comma and space, such as “Alex Miller, PhD.”"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Latin abbreviations"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid using abbreviations with Latin or Greek root words to increase clarity.",
+    "Rephrase these terms to be more inclusive of non-native English speakers whose first languages have not adopted widespread use of these abbreviations."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "For example,",
+     "e.g.,"
+    ],
+    [
+     "For nowTemporarily",
+     "pro tem."
+    ],
+    [
+     "In other words,More specifically,",
+     "i.e.,"
+    ],
+    [
+     "NowImmediatelyRight away",
+     "stat."
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Exceptions"
+  },
+  {
+   "k": "p",
+   "t": "Although plain language is the general standard for the UX industry, some Latin terms and abbreviations frequently appear in business, corporate, and research contexts."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider the needs of your users based on localization requirements if you choose to include these terms."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Term",
+     "Meaning",
+     "Context"
+    ],
+    [
+     "ad hoc",
+     "“when necessary”For a certain or special purpose requiring your attention",
+     "Job postings, descriptions, requirements"
+    ],
+    [
+     "etc.",
+     "et cetera“and the others” (inanimate objects)",
+     "Lists"
+    ],
+    [
+     "et al.",
+     "et alia“and others” (people)",
+     "Academic papers, authors, citations"
+    ],
+    [
+     "c.v.",
+     "curriculum vitaeDocument detailing a person’s work experience and education",
+     "Job applications or postings"
+    ],
+    [
+     "post hoc",
+     "“after the event”",
+     "Statistics, scientific tests, logical fallacy"
+    ],
+    [
+     "re",
+     "in re“in the matter of” or “concerning”",
+     "Email subject lines"
+    ],
+    [
+     "v.vs.",
+     "versus“against”",
+     "Court cases, sports games"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Date and time abbreviations"
+  },
+  {
+   "k": "p",
+   "t": "Abbreviations are commonly used to express compact versions of time when space does not permit full versions. Learn more about formatting in Date and time."
+  },
+  {
+   "k": "h4",
+   "t": "Days of the week"
+  },
+  {
+   "k": "p",
+   "t": "When space is limited, days may be expressed using the standard three or four letter abbreviation."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Capitalize the first letter of the abbreviation.",
+    "Remove punctuation unless grammatically necessary for the sentence."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Sun, Mon, Tues, Wed, Thurs, Fri, Sat",
+     "S, M, T, W, Th, F, Sa"
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Months"
+  },
+  {
+   "k": "p",
+   "t": "When space is limited, months may be expressed using the standard three letter abbreviation."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Capitalize the first letter of the abbreviation.",
+    "Remove punctuation unless grammatically necessary for the sentence."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec",
+     "J, F, M, A, M, J, J, A, S, O, N, D."
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Time of day"
+  },
+  {
+   "k": "p",
+   "t": "Use AM/PM to indicate the time of day when using 12-hour time notation. Learn more about formatting in Date and time."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Capitalize both letters of the abbreviation.",
+    "Remove punctuation unless grammatically necessary for the sentence."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "12 AM",
+     "12am, 12 a.m."
+    ],
+    [
+     "12 PM",
+     "12pm, 12 p.m."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Time zones"
+  },
+  {
+   "k": "p",
+   "t": "Time zones are typically expressed using two or three uppercase letters, usually within parentheses."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Capitalize all letters of the abbreviation.",
+    "Include the abbreviation in parentheses following the time.",
+    "Include a space before the zone abbreviation.",
+    "Remove the S (for Standard) or D (for Daylight) if your users are in a single time zone.",
+    "Include an S (for Standard) or D (for Daylight) if your users are in a combination of time zones."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "5:00 PM (PT)",
+     "5:00 PM (PDT)"
+    ],
+    [
+     "6:30 AM (CST)",
+     "6:30 AM (cst)"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Units"
+  },
+  {
+   "k": "p",
+   "t": "Units are standards for expressing and measuring quantities. They help specify the amount, size, or degree of something within a specific measurement system."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Include a space between the last digit of the numerical value and the unit abbreviation.",
+    "Avoid pluralizing or adding periods after the unit of measurement unless needed to end the sentence or distinguish the unit from other words."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "12 oz",
+     "12 oz."
+    ],
+    [
+     "45 lb",
+     "45 lbs"
+    ],
+    [
+     "Use 24 px margins.",
+     "Use 24 px. margins."
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Units of measurement"
+  },
+  {
+   "k": "p",
+   "t": "The following tables shows commonly-used units of measurement in product or UX contexts."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Unit",
+     "Abbreviation",
+     "Context"
+    ],
+    [
+     "KilobytesGigabytesTerabytes",
+     "KBGBTB",
+     "Storage size"
+    ],
+    [
+     "PixelsMegapixelsPixels per inchPointDensity-independent pixels/dots per inch",
+     "pxMPppiptdpi",
+     "Graphics"
+    ],
+    [
+     "CentimetersMetersInchesFeet",
+     "cmminft",
+     "Length"
+    ],
+    [
+     "GramsKilogramsOuncesPounds",
+     "gkgozlb",
+     "Weight"
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Units of time"
+  },
+  {
+   "k": "p",
+   "t": "Units of time may be expressed as abbreviations when there are space limitations."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Spell out these units where possible instead of using abbreviations."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "second",
+     "sec"
+    ],
+    [
+     "minute",
+     "min"
+    ],
+    [
+     "hour",
+     "hr"
+    ],
+    [
+     "day",
+     "d"
+    ],
+    [
+     "month",
+     "mo"
+    ],
+    [
+     "year",
+     "yr"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Date and time"
+  },
+  {
+   "k": "h3",
+   "t": "International notation"
+  },
+  {
+   "k": "p",
+   "t": "Visa follows ISO 8601, the international standard maintained and governed by the International Organization for Standardization (ISO) in Geneva. To promote accuracy and prevent error, it’s used to standardize dates and times in product development, especially in back-end programming."
+  },
+  {
+   "k": "p",
+   "t": "When indicating date and time in user-facing scenarios, select a formatting method based on regional conventions and user expectations. If your product serves a range of countries, use international notation as determined by IOS 8601."
+  },
+  {
+   "k": "h3",
+   "t": "Regional notation"
+  },
+  {
+   "k": "p",
+   "t": "Throughout most of the world, date formatting follows ISO 8601. However, regional differences exist. Use the tables below to help determine the appropriate formatting for your use case and audience."
+  },
+  {
+   "k": "h4",
+   "t": "Date formatting"
+  },
+  {
+   "k": "p",
+   "t": "Date formatting differs by region. Use the table below to help determine the appropriate time formatting for your use case and audience."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Majority of world countries",
+     "China, Japan, North Korea, South Korea, Taiwan, Hungary, Mongolia, Lithuania, Bhutan, and ISO 8601",
+     "United States and territories"
+    ],
+    [
+     "Day month, year2 January, 2023dd-mm-yyyy02-01-2023",
+     "Year, month day2023, January 2yyyy-mm-dd2023-01-02",
+     "Month day, yearJanuary 2, 2023mm-dd-yyyy01-02-2023"
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Time formatting"
+  },
+  {
+   "k": "p",
+   "t": "Time formatting differs by region. Use the table below to help determine the appropriate time formatting for your use case and audience."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Majority of world countries and ISO 8601",
+     "United States and territories, the Commonwealth",
+     "The United Kingdom"
+    ],
+    [
+     "24-hour format:hh:mm:ss13:02:03hh.mm.ss.sss13:02:03:674",
+     "12-hour format:hh:mm:ss AM or PM01:02:03 PMhh.mm.ss.sss AM or PM01:02:03:674 PM",
+     "Both 24 and 12-hour formats"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Numbers"
+  },
+  {
+   "k": "p",
+   "t": "Numbers are often formatted differently depending on the context. When formatting manually, be mindful of how the number appears in written text, when to truncate, what character (decimal or period) is used as the thousands separator, and how negative numbers are displayed."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use numerals for numbers 10 and above in written text and spell out numbers nine and below. This doesn’t apply to other formats like tables, or for precise units of measurement under 10.",
+    "Use commas for numbers with four or more digits.",
+    "Use en dashes between numbers without spaces to indicate a range.",
+    "Use hyphens between groups of numbers, such as in phone numbers. Avoid using parentheses, spaces, or periods to separate numbers if possible, however there may be regional variations.",
+    "Use the + sign before the country code when listing phone numbers for specificity."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Fintech is one of the fastest growing industries, with the market estimated at roughly $112.5 billion in 2021, with an expectation of reaching $332.5 billion by 2028 according to Globenewswire.com.",
+     "Fintech is one of the fastest growing industries, with the market estimated at roughly one hundred twelve billion five hundred million dollars in 2021, with an expectation of reaching three hundred thirty two million five hundred million by 2028 according to Globenewswire.com."
+    ],
+    [
+     "Visa initiated business with seven more partnering firms in July 2022.",
+     "Visa initiated business with 7 more partnering firms in July 2022."
+    ],
+    [
+     "Visa’s stock went up by 2.34 cents in the last minute.",
+     "Visa’s stock went up by two point thirty four cents in the last minute."
+    ],
+    [
+     "15,0006,948",
+     "15k6948"
+    ],
+    [
+     "0.00–49.99",
+     "0.00–49.990.00-49.990.00 — 49.99"
+    ],
+    [
+     "+1-347-555-0100+1-347-555-0100",
+     "347.555.01001-(347) 555-0100"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Negative numbers"
+  },
+  {
+   "k": "p",
+   "t": "Negative numbers can be formatted differently depending on the context or language. In written sentences, it is generally a good practice to use the symbol rather than spelling out the word “negative.”"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Follow local best practices.",
+    "Use the negative symbol without adding a space between the symbol and value.",
+    "Use parentheses or brackets without adding spaces between the symbol and the amount.",
+    "Avoid combining negative signs and parentheses or brackets.",
+    "Apply the color red only with the appropriate negative symbol, parentheses, or bracket."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "-2323-",
+     "- 2323 -"
+    ],
+    [
+     "(23)[23]",
+     "( 23 )( 23 )"
+    ],
+    [
+     "-23 or 23-(23) or [23]",
+     "-(23)-[23]"
+    ],
+    [
+     "Note: text in this cell is in a red font-2323-(23)[23]",
+     "Note: text in this cell is in a green font-2323-(23)[23]"
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "International currencies"
+  },
+  {
+   "k": "p",
+   "t": "Currencies are expressed differently across the world. ISO 4217 is the recognized international standard for representing currencies. Currencies can be represented both numerically and alphabetically, using either three digits or three letters. The alpha code uses the first two letters of the ISO 3166-1 alpha-2 country code and the initial of the country’s main currency unit for the third letter."
+  },
+  {
+   "k": "h4",
+   "t": "General"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place uppercase country codes before or after the amount.",
+    "Add a space between the country code and the value.",
+    "Insert an en dash between numerals to indicate a monetary range followed by the country code.",
+    "Avoid spelling out currencies or currency codes.",
+    "Shorten amounts over 999,999 (million, billion, trillion, or M, B, T)."
+   ]
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "10 USDUSD 10",
+     "usd 1010 usd"
+    ],
+    [
+     "30M CAD",
+     "30CAD"
+    ],
+    [
+     "15–20 CAD",
+     "15-20 CAD15—20 CAD"
+    ],
+    [
+     "50 AUD",
+     "Fifty AUDFifty Australian Dollars"
+    ],
+    [
+     "30 million EUR30M EUR",
+     "30,000,000 EUR"
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Symbols and decimals"
+  },
+  {
+   "k": "p",
+   "t": "When formatting currencies with symbols and numbers, consider the following locale-sensitive elements:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the country’s assigned currency symbol.",
+    "Avoid adding a space between symbols and numerals unless local guidelines dictate.",
+    "Place the symbol before or after the numeral, following local guidelines.",
+    "Follow local guidelines to determine whether to use commas or periods when expressing decimals. For example, in the United States, this character is a period (.). In Germany, it is a comma (,). So, two thousand fifty-five and eight-tenths are displayed as 2,055.8 in the United States and 2.055,8 in Germany.",
+    "Use an en dash between numerals to indicate a monetary range and include the symbol before all numerals to avoid mistaking the dash for a decimal."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "The following chart shows commonly-used currencies and their formats:"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Currency",
+     "Locale",
+     "With symbol",
+     "With symbol and code*"
+    ],
+    [
+     "US",
+     "en-US",
+     "$15.50",
+     "$15.50 USD"
+    ],
+    [
+     "Canadian",
+     "en-CAfr-CA",
+     "$15.5015,50 $",
+     "$15.50 CAD15,50 $ CAD"
+    ],
+    [
+     "Australian Dollar",
+     "en-AU",
+     "$15.50",
+     "$15.50 AUD"
+    ],
+    [
+     "Euro",
+     "de-DE, fr-FRen-IEnl-NL",
+     "15,50 €€15.50€15,50",
+     "15,50 € EUR€15.50 EUR€15,50 EUR"
+    ],
+    [
+     "British Pound",
+     "en-GB",
+     "£15.50",
+     "£15.50 GBP"
+    ],
+    [
+     "Japanese Yen",
+     "ja-JP",
+     "¥1550",
+     "¥1550 JPY"
+    ],
+    [
+     "New Zealand Dollar",
+     "en-NZ",
+     "$15.50",
+     "$15.50 NZD"
+    ],
+    [
+     "Hong Kong Dollar",
+     "zh-HK",
+     "$15.50",
+     "$15.50 HKD"
+    ],
+    [
+     "Singapore Dollar",
+     "zh-SG",
+     "$15.50",
+     "$15.50 SGD"
+    ],
+    [
+     "Danish Krone",
+     "da-DK",
+     "15,50 kr.",
+     "$15.50 USD kr. DKR"
+    ]
+   ]
+  },
+  {
+   "k": "p",
+   "t": "*When presenting multiple currencies in the same context or presenting unfamiliar currencies, use the currency’s country code along with the symbol. For example, CAD and USD both use $."
+  },
+  {
+   "k": "h2",
+   "t": "Pronouns"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Avoid using first-person pronouns like “we” or “us” within products. The user is less concerned with the authors of the experience and more concerned about completing tasks.",
+    "Use second-person pronouns by referencing the reader as “you,” especially when giving instructions. Using “you” whenever you want to imply an action on the user’s part can help clarify where their involvement is required.",
+    "Follow best practices outlined in Inclusive language when using third-person pronouns."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Lists"
+  },
+  {
+   "k": "p",
+   "t": "Lists can be phrased and formatted in a variety of ways. Regardless of how you phrase or punctuate lists, ensure it’s consistent across list items or instances in your experience."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use consistent verb patterns and punctuation when making lists in sentences.",
+    "Start a list of bullets with verbs or nouns and aim for the same length.",
+    "Punctuate all sentences, bullets, or lists consistently."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "List type"
+  },
+  {
+   "k": "p",
+   "t": "Consider overall structure and the individual relationships between items when creating lists. This will help you determine which list construct is most appropriate for your content."
+  },
+  {
+   "k": "h4",
+   "t": "Bulleted lists"
+  },
+  {
+   "k": "p",
+   "t": "Lists of items with no successive relationship should use a bulleted structure but may still contain hierarchy or levels. Consider using a Checkbox if list items are tasks or actions."
+  },
+  {
+   "k": "h4",
+   "t": "Lettered lists"
+  },
+  {
+   "k": "p",
+   "t": "Use letters to indicate distinct parts, like for denoting figures or labeling components of diagrams."
+  },
+  {
+   "k": "h4",
+   "t": "Numbered lists"
+  },
+  {
+   "k": "p",
+   "t": "Only use numbers and ordinals (1st, 2nd, 3rd; first, second, third, etc.) when indicating succession, order, chronology, or procedure. If these terms must be used, spell them out where possible to avoid using the number format, as some text editors and processors don’t support superscripts."
+  },
+  {
+   "k": "h3",
+   "t": "List punctuation"
+  },
+  {
+   "k": "p",
+   "t": "Only use end punctuation in lists when the list item is a complete sentence. If complete sentences are used in a list, ensure all list items are full sentences. Do not break structure by mixing full sentences and fragments."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Visa uses the following conventions in all product content: Oxford comma Sentence case 6th grade reading level",
+     "Visa uses the following conventions in all product content: Use an oxford comma Sentence case Write at a 6th grade reading level?"
+    ],
+    [
+     "In all product content: Use oxford commas. Use sentence case. Write at a 6th grade reading level.",
+     "In all product content: Use oxford commas Sentence case. Can you write at a 6th grade reading level?"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Parallel structure"
+  },
+  {
+   "k": "p",
+   "t": "Parallel structure means using the same pattern of words to show that two or more ideas have the same level of importance. In the product context, this is accomplished by using consistent sentence and language structure throughout your content. This uniformity helps users more easily form mental models of the interface and navigate intuitively."
+  },
+  {
+   "k": "p",
+   "t": "Do     Label all navigation tabs with nouns or proper names."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use inconsistent wording for elements in the same category."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Use",
+     "Instead of"
+    ],
+    [
+     "Accounts | Transactions | Services | Profile",
+     "Accounts | Make a transaction | Services | Update profile"
+    ],
+    [
+     "We’re using the power of our network to create new solutions, stimulate investments, and promote usage.",
+     "We’re using the power of our network to create new solutions, stimulating investments, and promote usage."
+    ],
+    [
+     "Step 1: DiagnoseStep 2: AlignStep 3: RoadmapStep 4: Implement",
+     "Step 1: Diagnose your problemStep 2: Insight alignmentStep 3: RoadmapStep 4: Start implementing"
+    ],
+    [
+     "Use expertise, data, and benchmarking to uncover opportunities Validate the findings to align on approach to drive business forward Create a comprehensive roadmap to get you to where you want to be in the future Turn process into action with VCA Managed Services that drive innovation",
+     "Use expertise, data, and benchmarking to uncover opportunities You’ll get findings to align on approach to drive business forward Creating a comprehensive roadmap can help get you to where you want to be in the future By turning process into action with VCA Managed Services you’ll drive innovation"
+    ],
+    [
+     "Visa leadership principles: We lead by example We communicate openly We enable and inspire We excel with partners We act decisively We collaborate",
+     "Visa leadership principles: Lead by example! We communicate openly. Enable and inspire Can your skills help partners excel? Act decisively… and collaborate."
+    ]
+   ]
+  }
+ ]
+}

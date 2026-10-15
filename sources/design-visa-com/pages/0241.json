@@ -1,0 +1,260 @@
+{
+ "url": "https://design.visa.com/components/vertical-navigation/usage",
+ "title": "Vertical navigation | Components | Visa Product Design System",
+ "h1": "Vertical navigation",
+ "readAt": "2026-10-15T17:11:14.865Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Vertical navigation"
+  },
+  {
+   "k": "p",
+   "t": "Navigation panel located next to page content on screens with sufficient space."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesSection titles and nestingIcon usage",
+    "BehaviorsScrollingCollapsed stateChevron direction",
+    "Platform considerationsMobile",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "The vertical navigation component is a container enabling users to navigate a product or experience. It’s common on sites or applications with many links that may not fit horizontally.\nAlso known as: Vertical menu, sidebar navigation, vertical navigation bar, left/right navigation bar, column navigation, UINavigationController (iOS), Vertical ScrollView (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Brand mark (optional): Visual element representing Visa, a partner brand, or a fictitious brand associated with the product.\nB. Application name (optional): Label indicating the name of the application.\nC. Section title (optional): Title used to group navigation elements.\nD. Icon (optional): Visual indicator used to enhance the meaning of the navigation link label.\nE. Navigation link (required): Label indicating the destination of the link.\nF. Chevron (optional): Icon indicating the collapsed or expanded state of a nested navigation item.\nG. User profile (optional): Avatar component representing the current user’s account.\nH. Collapse icon (optional): UI icon button used to collapse or expand the vertical navigation from the left side of the screen."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "For a large number of navigation items.When horizontal space is limited.",
+     "If vertical space is limited.If there are only a few navigational items, use Horizontal navigation instead."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Reference Application layouts for help deciding which navigation component is best for your use case.",
+    "Ensure the order of the navigation items is consistent throughout the application, as changing it may confuse users.",
+    "Ensure text within the navigation panel wraps to a second line instead of truncating to ensure it’s fully visible to users.",
+    "Include a vertical scroll bar if all navigation items can’t be viewed at once.",
+    "Consider making the brand mark and/or application name function as a link to the homepage of the experience.",
+    "Follow all guidance found in Link and Avatar for implementing a user profile in the navigation panel."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do"
+  },
+  {
+   "k": "p",
+   "t": "Shift page content to fit the vertical navigation so users can access the main page and navigation simultaneously."
+  },
+  {
+   "k": "p",
+   "t": "Don't"
+  },
+  {
+   "k": "p",
+   "t": "Obscure page content or limit interactivity when navigation is open. If an overlay is preferred, use a Navigation drawer."
+  },
+  {
+   "k": "h3",
+   "t": "Section titles and nesting"
+  },
+  {
+   "k": "p",
+   "t": "Section titles refer to static text used to group navigation items under a common category. They can be used with or without nested navigation items, which expand or collapse other navigation items. Both methods group related content and help users navigate easily. Decide which to use based on your use case and design preferences."
+  },
+  {
+   "k": "h4",
+   "t": "Section titles"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use section titles to group items that should always be visible in the menu."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Nesting"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider nesting items in longer navigation menus, as this can help save space and declutter the experience."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Nest items up to three levels of hierarchy to ensure users can access related content easily."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use more than three levels of hierarchy unless it can’t be avoided, as this can be overwhelming and hard to navigate."
+  },
+  {
+   "k": "h3",
+   "t": "Icon usage"
+  },
+  {
+   "k": "p",
+   "t": "Icons can be used in navigation menus to make scanning easier and reinforce familiar ideas."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure icon usage applies to all navigation items within the same hierarchy level. For example, if you use icons for some L1 labels, they should be used in all L1 items.",
+    "Omit icons for nested items, but if they’re necessary, ensure all items within the nested level has one."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Scrolling"
+  },
+  {
+   "k": "p",
+   "t": "A scroll bar can be used if the navigation is long and doesn’t fit in one view. The navigation items will scroll, while the brand mark, application name, and any items at the bottom remain fixed in position."
+  },
+  {
+   "k": "h3",
+   "t": "Collapsed state"
+  },
+  {
+   "k": "p",
+   "t": "Vertical navigation menus can include a collapse button enabing users to expand or collapse the whole menu as needed."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Consider implementing a collapse button if users would benefit from additional horizontal space in the main content area."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Chevron direction"
+  },
+  {
+   "k": "p",
+   "t": "Visually differentiate expanded and collapsed sections using the chevron direction."
+  },
+  {
+   "k": "h4",
+   "t": "Collapsed"
+  },
+  {
+   "k": "h4",
+   "t": "Expanded"
+  },
+  {
+   "k": "h2",
+   "t": "Platform considerations"
+  },
+  {
+   "k": "h3",
+   "t": "Mobile"
+  },
+  {
+   "k": "p",
+   "t": "Vertical navigation is recommended for web applications only. For responsive navigation on small screen sizes, or for mobile designs, consider using a Navigation drawer instead, which is prompted from a hamburger menu and overlays the page content."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Write all content in sentence case, except for acronyms or proper nouns, like the application name.",
+    "Don’t use punctuation for navigation items.",
+    "Ensure labels match page titles to enhance the user’s understanding of the site’s information hierarchy.",
+    "Follow all best practices and guidelines implementing links. Reference Link for more information.",
+    "Limit labels to a few brief words to prevent unnecessary reflow.",
+    "Reference Grammar and punctuation to learn how to use parallel structure for consistent phrasing."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Menu placed at the top of a site that links to important pages or features."
+  },
+  {
+   "k": "h3",
+   "t": "Navigation drawer"
+  },
+  {
+   "k": "p",
+   "t": "Collapsible navigation panels that float over page content on small screens."
+  },
+  {
+   "k": "h3",
+   "t": "Information architecture"
+  },
+  {
+   "k": "p",
+   "t": "Identify the best organizational structure based on page types and user needs."
+  }
+ ]
+}

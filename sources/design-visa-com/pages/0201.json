@@ -1,0 +1,128 @@
+{
+ "url": "https://design.visa.com/components/horizontal-navigation/accessibility",
+ "title": "Horizontal navigation | Components | Visa Product Design System",
+ "h1": "Horizontal navigation",
+ "readAt": "2026-10-15T17:09:59.262Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Horizontal navigation"
+  },
+  {
+   "k": "p",
+   "t": "Menu placed at the top of a site that links to important pages or features."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Keyboard controls"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "p",
+   "t": "Note: Horizontal navs are made up of multiple components. Follow guidelines for each of those."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a native HTML header landmark. Any nav landmark elements used within, such as for the mobile menu, need to have unique and descriptive aria-labels.",
+    "Don’t use the word “navigation” in the aria-label, as this will be announced automatically and be redundant for screen readers.",
+    "Use aria-current=\"page\" on the link which leads to the current page. Links in the vertical menu look like tabs and use CSS classes for tabs, but are not tabs and don’t have tab roles.",
+    "Adjust the behaviors and breakpoints for horizontal navigation to fit your app.The horizontal nav should be responsive, so as the viewport gets narrower, content becomes hidden until the “hamburger” mobile menu is visible."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Logos"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure the logo has an accessible name or is inside a link with an accessible name with aria-hidden=\"true\" on the svg.",
+    "Use one of the library’s classes for high contrast with a custom logo. Choose between the class for light or dark foreground depending on the custom logo. Setting a contrasting background behind the brand logo ensures it will have maximum contrast in high contrast mode without a visible change in default contrast mode."
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Skip to main content link"
+  },
+  {
+   "k": "p",
+   "t": "The skip to main content link allows keyboard users to go directly to the main content of the page.  This link is first in the DOM (unless there is a skip to login link). It appears when users land on the page and activates the tab key and is only visible when it receives keyboard focus. Activating the link moves focus to the maincomponent."
+  },
+  {
+   "k": "p",
+   "t": "Reference the examples to learn how to implement VPDS’s skip-link styles."
+  },
+  {
+   "k": "h3",
+   "t": "Skip to log in link"
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard controls"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Key",
+     "Behavior"
+    ],
+    [
+     "Enter",
+     "Activates the focused element."
+    ],
+    [
+     "Tab",
+     "Moves keyboard focus forwards to the next interactive element."
+    ],
+    [
+     "Shift + Tab",
+     "Moves keyboard focus backwards to the previous interactive element."
+    ]
+   ]
+  }
+ ]
+}

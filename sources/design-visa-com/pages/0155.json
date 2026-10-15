@@ -1,0 +1,169 @@
+{
+ "url": "https://design.visa.com/base-elements/color/usage",
+ "title": "Color | Base elements | Visa Product Design System",
+ "h1": "Color",
+ "readAt": "2026-10-15T17:08:50.071Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Color"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to use Visa brand colors to create and maintain consistent and engaging experiences."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Active colors",
+    "Surface colors",
+    "Text colors",
+    "Decorative colors",
+    "Messaging colors",
+    "Color for Visa-branded products",
+    "Theme background colors",
+    "Visa light and Visa dark modes",
+    "Color for data visualization"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Colors used within the Visa Product Design System were adapted from Visa brand colors for digital products and experiences. These colors were designed to provide flexibility to designers and developers, including themes for Visa-branded products and generic colors which serve as a starting point for representing clients and fictitious brands."
+  },
+  {
+   "k": "p",
+   "t": "Reference Visa brand guidance for more information on color use outside product design."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Do     Use the Visa theme for Visa-branded experiences."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use external colors for Visa-branded experiences."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use active colors to draw attention to interactive elements, ensuring they are easily identifiable for users."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Overuse active colors as this can overwhelm users and reduce their effectiveness."
+  },
+  {
+   "k": "p",
+   "t": "Do     Use messaging colors specifically for messages to ensure clarity and consistency in communication."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use messaging colors for any other purpose than messaging components, as this can cause confusion."
+  },
+  {
+   "k": "h2",
+   "t": "Active colors"
+  },
+  {
+   "k": "p",
+   "t": "Active colors are the primary color used to indicate interactivity. Active subtle is used for interactive pieces that need less emphasis but sufficient contrast."
+  },
+  {
+   "k": "h2",
+   "t": "Surface colors"
+  },
+  {
+   "k": "p",
+   "t": "Surface colors are used for the largest background areas of an application. They are also used as backgrounds on subtler interactive elements in combination with active colors, such as in the secondary button."
+  },
+  {
+   "k": "h2",
+   "t": "Text colors"
+  },
+  {
+   "k": "p",
+   "t": "Text colors are used to ensure readability and accessibility. They are applied to various text elements such as headings, body text, and labels, and are chosen to provide sufficient contrast against background colors."
+  },
+  {
+   "k": "h2",
+   "t": "Decorative colors"
+  },
+  {
+   "k": "p",
+   "t": "Decorative colors are only applied to elements that don’t have color contrast requirements, such as disabled components or container borders. They add visual interest and enhance the aesthetic appeal without impacting functionality or readability."
+  },
+  {
+   "k": "h2",
+   "t": "Messaging colors"
+  },
+  {
+   "k": "p",
+   "t": "Messaging colors are used for components like Section messages, Flags, Banners, and Dialogs, to communicate the urgency of a message or alert. These colors are used sparingly to ensure they don’t overwhelm the primary content."
+  },
+  {
+   "k": "h2",
+   "t": "Color for Visa-branded products"
+  },
+  {
+   "k": "p",
+   "t": "All Visa-branded products should use the Visa theme palette along with the alternate palette to achieve a consistent experience that accurately represents the Visa brand."
+  },
+  {
+   "k": "h2",
+   "t": "Theme background colors"
+  },
+  {
+   "k": "p",
+   "t": "The Visa theme contains two background colors that allow you to change between a default and alternate color treatments. These were designed for navigation headers and bold splash screens. Changing the theme background color will automatically adjust the design tokens to ensure accessibility contrast ratios are met."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the alternate palette sparingly and intentionally. Too much color variation can disorient or overwhelm users."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Visa light and Visa dark modes"
+  },
+  {
+   "k": "p",
+   "t": "The Visa light theme serves as the default mode for most use cases, providing a clean and consistent user experience. The Visa dark theme offers an alternative mode for Visa-branded applications, reducing eye strain in low-light environments with its darker colors. Learn more about themes and modes in Design tokens."
+  },
+  {
+   "k": "h2",
+   "t": "Color for data visualization"
+  },
+  {
+   "k": "p",
+   "t": "Color can be used as a tool to communicate meaning in data visualizations. To learn how to select the most effective type of color palette for your data visualization, reference the Data Experience team’s design guide for Color (internal only)."
+  }
+ ]
+}

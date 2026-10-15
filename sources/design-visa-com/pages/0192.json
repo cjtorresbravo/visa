@@ -1,0 +1,144 @@
+{
+ "url": "https://design.visa.com/components/divider/usage",
+ "title": "Divider | Components | Visa Product Design System",
+ "h1": "Divider",
+ "readAt": "2026-10-15T17:09:40.899Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Divider"
+  },
+  {
+   "k": "p",
+   "t": "Visual elements used to separate and group information on a page."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practicesDivider hierarchy",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Divider is a minimalistic visual component used for structuring and grouping information on a page. It subtly delineates different sections without causing distraction, thus enhancing user comprehension."
+  },
+  {
+   "k": "p",
+   "t": "Also known as: Horizontal rule, rule,\tline."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Default divider: A medium-weight, neutral-colored horizontal line. \nB: Section divider: A heavy-weight, colored horizontal line. \nC: Decorative divider: A light-weight, neutral-colored horizontal line."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Component",
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "Default",
+     "To clearly distinguish between sub-sections or groups of content within a section of page. In text-heavy contexts where it can improve readability by breaking up large blocks of text.",
+     "When content grouping can be implied using white space."
+    ],
+    [
+     "Section",
+     "To separate two distinct sections at the page level.",
+     "In place of a default divider to separate content within a section."
+    ],
+    [
+     "Decorative",
+     "As an aesthetic element to enhance the look or feel of your content.",
+     "As a functional separator or when a divider is critical to understanding the organization of your content."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use whitespace when possible to group content before resorting to using dividers.",
+    "Use dividers where they make sense. They should help in grouping related content or separating unrelated content.",
+    "Keep the style of dividers consistent throughout your design to maintain visual harmony.",
+    "Ensure decorative dividers meet accessibility contrast ratios. For more information, reference Accessibility.",
+    "Ensure margins are equal widths, whether you decide to implement full-width dividers or crop them to the margins."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Use dividers to group content into logical groupings."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Overuse dividers, which can make the page look cluttered."
+  },
+  {
+   "k": "h3",
+   "t": "Divider hierarchy"
+  },
+  {
+   "k": "p",
+   "t": "Divider styles are meant to communicate different types of content separation. The example below illustrates how you might combine divider styles to establish visual hierarchy."
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Forms"
+  },
+  {
+   "k": "p",
+   "t": "Get guidance on everything from layouts to validation to ensure forms are clear and usable."
+  },
+  {
+   "k": "h3",
+   "t": "Application layouts"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to choose a navigational frame based on page content and information architecture."
+  }
+ ]
+}

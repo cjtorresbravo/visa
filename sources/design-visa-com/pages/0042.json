@@ -1,0 +1,141 @@
+{
+ "url": "https://design.visa.com/developing/react",
+ "title": "Get started | React | Developing | Visa Product Design System",
+ "h1": "Start building with React",
+ "readAt": "2026-10-15T17:06:32.419Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Start building with React"
+  },
+  {
+   "k": "p",
+   "t": "Follow this step-by-step guide to start developing with the Visa Product Design System in React."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Step 1: Update React",
+    "Step 2: Install the library",
+    "Step 3: Set up the application",
+    "Step 4: Add icons (optional)",
+    "Step 5: Use the components"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Step 1: Update React"
+  },
+  {
+   "k": "p",
+   "t": "Nova React supports React 19 and up. Visit React’s guide on how to upgrade to  React 19 for more."
+  },
+  {
+   "k": "h2",
+   "t": "Step 2: Install the library"
+  },
+  {
+   "k": "p",
+   "t": "You can install the Nova React library and the Nova styles library using the package manager of your choice. Below we’ve provided the most common: NPM, PNPM, Yarn, and Bun."
+  },
+  {
+   "k": "p",
+   "t": "Note: Package managers can resolve dependencies differently and might not automatically install all required dependencies."
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn",
+    "Bun"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "1npm install @visa/nova-react@latest"
+  },
+  {
+   "k": "h2",
+   "t": "Step 3: Set up the application"
+  },
+  {
+   "k": "h3",
+   "t": "Import Nova styles"
+  },
+  {
+   "k": "p",
+   "t": "Next, import the Nova styles library and your desired theme at the root level of your React project. The Visa theme is the default. To learn more, visit Theming, and for more about Nova styles, visit Get started with Styles (CSS)."
+  },
+  {
+   "k": "code",
+   "t": "1import React from 'react';2import { createRoot } from 'react-dom/client';3\n4// Import the styles:5import '@visa/nova-styles/styles.css';6// Import your desired theme:7import '@visa/nova-styles/themes/visa/index.css';8\n9const root = createRoot(document.getElementById('root'));10\n11root.render(12  <React.StrictMode>13    <App />14  </React.StrictMode>15);"
+  },
+  {
+   "k": "h2",
+   "t": "Step 4: Add icons (optional)"
+  },
+  {
+   "k": "p",
+   "t": "For React, each icon has been developed as a React component, allowing you to selectively choose the icons you need. The library is designed to support deep tree shaking, ensuring that only the icons you use are bundled with your app. This optimization reduces build and load times as well as app sizes. The React library also provides native support for TypeScript, along with full support for all SVG properties and refs."
+  },
+  {
+   "k": "p",
+   "t": "Once you’ve installed the icon library, you can use them as components inside your TSX or JSX."
+  },
+  {
+   "k": "list",
+   "items": [
+    "TypeScript",
+    "JavaScript"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "1import React from 'react';2import { GenericAccessibilityLow, GenericCalendarTiny } from \"@visa/nova-icons-react\";3\n4export const MyComponent: React.FC = () => (  5  <div>    6    MyComponent    7    <GenericAccessibilityLow />    8    <GenericCalendarTiny />  9  </div>10);"
+  },
+  {
+   "k": "h2",
+   "t": "Step 5: Use the components"
+  },
+  {
+   "k": "p",
+   "t": "After adding Nova icons, you’re ready to use React components by copying and pasting the example code into your application. Check out below how to put our components to use with a few sample components."
+  },
+  {
+   "k": "list",
+   "items": [
+    "TypeScript",
+    "JavaScript"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "1import {2  Button,3  ContentCard,4  ContentCardBody,5  ContentCardTitle,6  Link,7  Typography,8  Utility,9} from \"@visa/nova-react\";10\n11type YourComponentProps = { className?: string; name?: string };12\n13// Reusable component that has a name prop with a default name set to \"Alex Miller\",14// and developer can add to the className prop at the top layer of the component.15const YourComponent = ({16  className,17  name = \"Alex Miller\",18}: YourComponentProps) => {19  return (20    <ContentCard borderBlockEnd className={className}>21      <Utility element={<ContentCardBody />} vFlex vFlexCol vGap={4}>22        <ContentCardTitle variant=\"headline-4\">{name}</ContentCardTitle>23        <Typography className=\"v-pt-4\">24          Our favorite commmunity member25        </Typography>26        <Utility27          vAlignItems=\"center\"28          vFlex29          vFlexWrap30          vGap={16}31          vPaddingTop={12}32        >33          <Button>Primary action</Button>34          <Link href=\"./content-card\" noUnderline>35            Destination label36          </Link>37        </Utility>38      </Utility>39    </ContentCard>40  );41};42\n43export default YourComponent;"
+  },
+  {
+   "k": "h2",
+   "t": "Need help?"
+  },
+  {
+   "k": "p",
+   "t": "If you experience any issues while getting set up with Nova React, visit Support\nor\ncreate an issue ."
+  }
+ ]
+}

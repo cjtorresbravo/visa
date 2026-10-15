@@ -1,0 +1,206 @@
+{
+ "url": "https://design.visa.com/components/tooltip/usage",
+ "title": "Tooltip | Components | Visa Product Design System",
+ "h1": "Tooltip",
+ "readAt": "2026-10-15T17:11:10.156Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Tooltip"
+  },
+  {
+   "k": "p",
+   "t": "Short message communicating the function or context of a control or object."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Anatomy",
+    "Usage",
+    "Best practices",
+    "BehaviorsPaired component examplesDisplaying content animation",
+    "Placement",
+    "Content",
+    "Related guidelines"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Tooltips provide brief, contextual information about a control or element. They appear when users hover over the element with their cursor, or when it receives keyboard focus.\nAlso known as: Help text, hint, info tip, screen tip, TooltipCompat (Android)."
+  },
+  {
+   "k": "h2",
+   "t": "Anatomy"
+  },
+  {
+   "k": "p",
+   "t": "A. Label (required): Brief text providing information about a selected control or element."
+  },
+  {
+   "k": "h2",
+   "t": "Usage"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "When to use",
+     "When not to use"
+    ],
+    [
+     "To give users supplementary details or context about a control or element.",
+     "For important information that needs to always be visible to users."
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Ensure tooltips provide relevant and helpful information that’s directly related to the element they’re associated with.",
+    "Ensure tooltips are easily noticeable but don’t obscure their associated element or other important information.",
+    "Ensure users can easily dismiss tooltips, especially if they hover over them accidentally. Tooltips should disappear when the user moves the cursor away or removes focus."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Do     Add tooltips sparingly and only when they add more valuable context for the user."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Use tooltips for important information that needs to be consistently visible or easily discoverable."
+  },
+  {
+   "k": "p",
+   "t": "Do     Keep the content of the tooltip concise and relevant."
+  },
+  {
+   "k": "p",
+   "t": "Don't     Host interactive components, like buttons, within tooltips."
+  },
+  {
+   "k": "h2",
+   "t": "Behaviors"
+  },
+  {
+   "k": "h3",
+   "t": "Paired component examples"
+  },
+  {
+   "k": "h4",
+   "t": "Icon button"
+  },
+  {
+   "k": "p",
+   "t": "Include tooltips in icon buttons that aren’t labeled on screen, or when they may be hard to identify.\nNote: Tooltips aren’t equivalent to image alt text. Reference Acessible text to learn more."
+  },
+  {
+   "k": "h4",
+   "t": "Sliders"
+  },
+  {
+   "k": "p",
+   "t": "Show tooltips with the value when the user interacts with a slider."
+  },
+  {
+   "k": "h4",
+   "t": "Table header tooltips"
+  },
+  {
+   "k": "p",
+   "t": "Provide tooltips for category headers if needed to add additional context for the user."
+  },
+  {
+   "k": "h3",
+   "t": "Displaying content animation"
+  },
+  {
+   "k": "p",
+   "t": "When the mouse hovers over an element, the tooltip may appear with a delay of up to 500 milliseconds (0.5 seconds). Once the mouse moves away, the tooltip will disappear. When an element receives keyboard focus, the tooltip will immediately be displayed with the associated element, and it will disappear once the keyboard focus moves away."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Appear delay (hover)",
+     "Appear delay (keyboard)",
+     "Disappear delay"
+    ],
+    [
+     "Up to 500ms",
+     "None",
+     "None"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Placement"
+  },
+  {
+   "k": "p",
+   "t": "The recommended placement for tooltips is two pixels from the clickable area, center aligned from the top, bottom, left, or right side of the interactive element. Tooltip placement can be programmatically determined based on the position of the element on the screen to ensure it’s always visible."
+  },
+  {
+   "k": "h2",
+   "t": "Content"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Write all content in sentence case, except for acronyms or proper nouns.",
+    "Don’t use punctuation for tooltips.",
+    "Use abbreviations only when commonly understood.",
+    "Limit labels to a few brief words.",
+    "Reference Grammar and punctuation to learn how to use parallel structure for consistent phrasing."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Related guidelines"
+  },
+  {
+   "k": "h3",
+   "t": "Dialog"
+  },
+  {
+   "k": "p",
+   "t": "Messages that float over page content and provide time-sensitive alerts."
+  },
+  {
+   "k": "h3",
+   "t": "Accessible text"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to effectively apply alternative text and ARIA labels for improved accessibility."
+  }
+ ]
+}

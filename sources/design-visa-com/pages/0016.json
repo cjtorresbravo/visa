@@ -1,0 +1,1181 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/mobile/interaction",
+ "title": "Interaction | Mobile | Global accessibility requirements | Visa Product Design System",
+ "h1": "Interaction",
+ "readAt": "2026-10-15T17:05:59.191Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Interaction"
+  },
+  {
+   "k": "p",
+   "t": "Find interaction requirements for testing mobile experiences."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Layout (INT-1)Content reflow (INT-1-1)Consistent help (INT-1-2)",
+    "Forms (INT-2)Group fields and controls (INT-2-1)Required fields (INT-2-2)Check for errors (INT-2-3)Highlight in-line errors visually (INT-2-4)Summary before submit (INT-2-5)Error suggestion (INT-2-6)Redundant entry (INT-2-7)",
+    "Widgets and controls (INT-3)Gestures (INT-3-1)Name (INT-3-2)Role (INT-3-3)Value, states, properties (INT-3-4)Name consistently (INT-3-5)On focus (INT-3-6)On input (INT-3-7)Same relative order (INT-3-8)Touch cancellation (INT-3-9)Dragging movements (INT-3-10)",
+    "Notifications and alerts (INT-4)Notifications, status messages, etc. (INT-4-1)",
+    "Keyboard compatibility (INT-5)Focus order (INT-5-1)Visible keyboard focus (INT-5-2)Keyboard support (INT-5-3)No keyboard trap (INT-5-4)Focus not obscured (INT-5-5)Single character keyboard shortcuts (INT-5-6)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Layout (INT-1)"
+  },
+  {
+   "k": "h3",
+   "t": "Content reflow (INT-1-1)"
+  },
+  {
+   "k": "p",
+   "t": "Content must support reflow without requiring two-dimensional scrolling (except when the content requires a two-dimensional layout for meaning like tables, maps, or diagrams)"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Increase display zoom using OS level settings: iOS: Settings > Display & Brightness > Display Zoom > Larger Text. Android: Settings > Display > Screen Zoom, set to maximum.",
+    "Confirm that all content is available without requiring two-dimensional scrolling."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: There is not a loss of information, meaning, or functionality and only one scroll dimension is required.",
+    "Fail: There is a loss of information, meaning, or functionality OR vertical and horizontal scrolling are required to view the content.",
+    "NA: Content is any of the following: Data tables Photos Maps Charts Games UI with toolbars"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 1.4.10 Reflow"
+  },
+  {
+   "k": "h3",
+   "t": "Consistent help (INT-1-2)"
+  },
+  {
+   "k": "p",
+   "t": "If a view includes the help options listed below, they are in the same location on similar views:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Human contact details",
+    "Human contact mechanism",
+    "Self-help option",
+    "A fully automated contact mechanism"
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate if any of the listed help options in exist in the view: Human contact details; Human contact mechanism; Self-help option; A fully automated contact mechanism.",
+    "Determine if the help is in the same location across similar views."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Help across similar views is in the same location.",
+    "Fail: Help across similar views is not in the same location.",
+    "NA: No help options exist in the view."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.2.6 Consistent Help"
+  },
+  {
+   "k": "h2",
+   "t": "Forms (INT-2)"
+  },
+  {
+   "k": "h3",
+   "t": "Group fields and controls (INT-2-1)"
+  },
+  {
+   "k": "p",
+   "t": "When controls are related/grouped together this grouping should be clearly presented to assistive technology."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate any input fields and interactive controls that are related and share a grouping relationship (note: this may be apparent visually or it may just be implied).",
+    "Confirm that the grouping relationship is communicated by the screen reader."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All control and input field grouping is communicated by the screen reader.",
+    "Fail: One or more control/input field grouping is not communicated by the screen reader.",
+    "NA: No control/input field groupings are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.1 Info and Relationships"
+  },
+  {
+   "k": "h3",
+   "t": "Required fields (INT-2-2)"
+  },
+  {
+   "k": "p",
+   "t": "Required fields must be noted and communicated visually through more than color alone, and communicated to assistive technology"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate any required fields or controls.",
+    "Confirm that there is a visual indication of each field that is required that is not presented through color alone.",
+    "Confirm that the required fields are communicated programmatically to screen reader users."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All required fields are noted visually through more than color alone and communicated to assistive technology.",
+    "Fail: One or more required fields are not noted visually through more than color alone or communicated to assistive technology.",
+    "NA: Required fields are not present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 1.3.1 Info and Relationships"
+  },
+  {
+   "k": "h3",
+   "t": "Check for errors (INT-2-3)"
+  },
+  {
+   "k": "p",
+   "t": "If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Identify any inputs that have automatic validation.",
+    "For each input, verify that errors are described in text."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Errors are identified and the errors are described to the user in text.",
+    "Fail: Errors are identified but the errors are not described to the user in text.",
+    "NA: There are no inputs with automatic validation."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.3.1 Error Identification"
+  },
+  {
+   "k": "h3",
+   "t": "Highlight in-line errors visually (INT-2-4)"
+  },
+  {
+   "k": "p",
+   "t": "When an error is detected using in-line validation, highlight the field (for example: with a bold red border, error icon with proper alternative text) and place error helper text near it."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Identify any inputs that have automatic validation.",
+    "Confirm that when an error is detected using in-line validation, the field is highlighted."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: When an error is detected using in-line validation, the visual UI highlights the field and places error helper text near it.",
+    "Fail: For one or more client-side validated forms when an error is detected using client side validation, the visual UI does not highlight the field or place error helper text near it.",
+    "NA: No forms are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.3.1 Error Identification"
+  },
+  {
+   "k": "h3",
+   "t": "Summary before submit (INT-2-5)"
+  },
+  {
+   "k": "p",
+   "t": "If user input is collected across multiple pages in order to execute a transaction of some kind the user must be presented with a summary of the input before submitting. The user must be able to change input prior to final submission after reviewing."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Identify any workflows which gather input from the user and conclude with a submit action (for example: sign up, checkout, transactions, or capture of personal information).",
+    "Confirm that there is a step available to the user for reviewing the information prior to the final submit.",
+    "Confirm that the user can easily make corrections or changes to the information prior to submit."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: A summary of user input is provided prior to final submit AND the user can edit or make corrections as needed.",
+    "Fail: A summary of user input is not provided prior to final submit OR the user cannot edit or make corrections as needed.",
+    "NA: User input is not collected across pages to execute a transaction."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 3.3.4 Error Prevention (Legal, Financial, Data)"
+  },
+  {
+   "k": "h3",
+   "t": "Error suggestion (INT-2-6)"
+  },
+  {
+   "k": "p",
+   "t": "When errors are detected, suggestions are provided to correct them, unless it would jeopardize the security or purpose of the content."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate any errors that can appear.",
+    "Trigger each error.",
+    "Confirm that, when possible, an error message describes how to correct the error (eg “username field is required” or “phone number must contain 10 digits”)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Suggestions to fix errors are present.",
+    "Fail: One or more errors exist but users are not informed how to fix the errors.",
+    "NA: No errors exist."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 3.3.3 Error Suggestion"
+  },
+  {
+   "k": "h3",
+   "t": "Redundant entry (INT-2-7)"
+  },
+  {
+   "k": "p",
+   "t": "If a view is contained within a process then information provided on the first step of the process is auto-filled in the next steps unless the information is required for security."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the view to determine if it is a step in a process.",
+    "If information is provided in an earlier step in this process, confirm that this information is auto-filled in later steps."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Information provided during the process will autofill if later steps require the same information.",
+    "Fail: Fields do not autofill when the same information has been provided on previous steps.",
+    "NA: The view does not contain any process-based functionality or information reentry is essential or required for security."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.3.7 Redundant Entry"
+  },
+  {
+   "k": "h2",
+   "t": "Widgets and controls (INT-3)"
+  },
+  {
+   "k": "h3",
+   "t": "Gestures (INT-3-1)"
+  },
+  {
+   "k": "p",
+   "t": "Widgets and controls can be operated via a single pointer with a gesture that does not require a specific path, unless a multi-pointer or path-based gesture is essential to the function of the control."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Identify any controls that are operated via a multi-point OR path-based interaction in the application.",
+    "Confirm that the same actions can be performed through a single pointer method that does not require a specific path."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All controls that are operated via a multi-point OR path-based interaction can also be operated through a single pointer method that does not require a specific path.",
+    "Fail: There are controls that require multi-pointer interaction OR they require a specific path-based gesture where it is not essential to the function of the control.",
+    "NA: No custom gesture control is present OR the multi-pointer or path-based gesture is essential to the function of the control."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.5.1 Pointer Gestures"
+  },
+  {
+   "k": "h3",
+   "t": "Name (INT-3-2)"
+  },
+  {
+   "k": "p",
+   "t": "All interactive elements must have a programmatic name accessible to assistive technology"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Review each interactive element with a screen reader.",
+    "For each interactive element, verify the screen reader announces the name of the element."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All interactive elements have a name announced by the screen reader.",
+    "Fail: One or more interactive elements do not have a name announced by the screen reader."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 4.1.2 Name, Role, Value"
+  },
+  {
+   "k": "h3",
+   "t": "Role (INT-3-3)"
+  },
+  {
+   "k": "p",
+   "t": "All elements with semantic meaning have a valid, accurate programmatic role accessible to assistive technology"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate all elements in the view with semantic meaning. (for example: headings, buttons and links, dialogs, etc…).",
+    "For each element with semantic meaning, verify the screen reader announces the role of the element.",
+    "Verify that the role announced for the element is valid and matches the semantic meaning of the element (for example: a link announces a link role, a button announces a button role, etc.)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All elements with semantic meaning have a role announced by the screen reader that matches the semantic meaning of the element.",
+    "Fail: One or more semantic elements do not have a role announced by the screen reader or the role announced does not match the semantic meaning of the element."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 4.1.2 Name, Role, Value"
+  },
+  {
+   "k": "h3",
+   "t": "Value, states, properties (INT-3-4)"
+  },
+  {
+   "k": "p",
+   "t": "States, properties, and values of elements are programmatically available to assistive technology, Any changes to these items are also communicated to assistive technology."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate all elements in the view which have states, properties, and/or values associated (for example: pressed/invalid state, an error message property on an invalid input, a user-input text string value in a “name” text field, etc…).",
+    "For each identified state, property, or value, confirm that the screen reader announces it when interacting with the associated element. Note: If a state, property, or value has changed, the screen reader can determine the change."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All states, properties, and values are announced by the screen reader when interacting with the associated element.",
+    "Fail: One or more states, properties, or values are not announced to the screen reader when interacting with the associated element.",
+    "NA: No elements with states, properties, or values are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 4.1.2 Name, Role, Value"
+  },
+  {
+   "k": "h3",
+   "t": "Name consistently (INT-3-5)"
+  },
+  {
+   "k": "p",
+   "t": "UI controls with the same purpose need to be identified with the same label for consistency"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Determine whether there are any duplicate UI controls with the same purpose.",
+    "Confirm that they are consistently identified with the same label visually and to screen reader users."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All UI controls with the same purpose are consistently identified with the same label visually and to screen reader users.",
+    "Fail: One or more UI controls with the same purpose are not consistently identified with the same label visually and to screen reader users.",
+    "NA: No duplicate UI controls with the same purpose are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "3.2.4 Consistent Identification"
+  },
+  {
+   "k": "h3",
+   "t": "On focus (INT-3-6)"
+  },
+  {
+   "k": "p",
+   "t": "Changes of context do not occur when focus (keyboard, screen reader, switch) moves to controls"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Place focus (keyboard, screen reader) on each interactive control and input field.",
+    "Interact with each control and input field.",
+    "Confirm that no changes of context result from moving focus to a control."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: No changes of context result from an on focus.",
+    "Fail: A change of context results from an on focus."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.2.1 On Focus"
+  },
+  {
+   "k": "h3",
+   "t": "On input (INT-3-7)"
+  },
+  {
+   "k": "p",
+   "t": "Changing the value of any interactive element does not automatically cause a change of context unless the user has been advised beforehand."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate any elements in the view that has a value that can be updated (for example: checkboxes, radio buttons, selects, etc.).",
+    "Change the value for each element.",
+    "Confirm that unexpected changes do not occur."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: No changes of context occur on value change or the user is advised beforehand.",
+    "Fail: One or more changes of context occur on value change and the user is not advised beforehand.",
+    "NA: No interactive elements can accept a value change."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.2.2 On Input"
+  },
+  {
+   "k": "h3",
+   "t": "Same relative order (INT-3-8)"
+  },
+  {
+   "k": "p",
+   "t": "Components, like links, buttons, or contact forms, that appear on multiple views must appear in the same relative order on every view."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Perform a visual inspection of the view looking for navigation components.",
+    "Confirm that components (links, buttons, contact forms, etc.) that appear on multiple views appear in the same relative order on every view."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Components that appear on multiple views appear in the same relative order on every view.",
+    "Fail: One or more component that appears on multiple views does not appear in the same relative order on every view.",
+    "NA: No component appears on multiple views."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 3.2.3 Consistent Navigation"
+  },
+  {
+   "k": "h3",
+   "t": "Touch cancellation (INT-3-9)"
+  },
+  {
+   "k": "p",
+   "t": "Actions completed with a touch input MUST NOT use the down-event to execute any part of the function.\n-OR-\nMake sure there is a way for the user to abort or undo the action.\n-OR-\nAllow the up-event to reverse any outcome of the preceding down-event"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Confirm that there are no actions which are completed using the down-event from touch input OR that there is a way for the user to abort or undo the action OR that the up-event allows the user to reverse any outcome of the preceding down-event."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: No actions are completed using the down event OR there is a way to abort or undo an action completed on the down-event OR the up-event allows the reversal of the preceding down-event.",
+    "Fail: Actions are completed using the down event AND there is not a way to abort or undo the action AND the up-event does not allow reversal of the preceding down-event."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.5.2 Pointer Cancellation"
+  },
+  {
+   "k": "h3",
+   "t": "Dragging movements (INT-3-10)"
+  },
+  {
+   "k": "p",
+   "t": "An action that relies on dragging of content can also be achieved by a single pointer without dragging unless dragging is essential to the activity."
+  },
+  {
+   "k": "p",
+   "t": "Example of single pointer Pass: A quiz relies on users tapping and dragging information into the correct bucket. Users are also able to tap once to select an option, then tap on the correct bucket.\nExample of essential activity: A medical app requires tapping and dragging an object to a target to accurately measure the user’s precision."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the view to determine whether any functionality requires a dragging movement to access content.",
+    "For any dragging content, confirm that it can be used with a single pointer without dragging."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All drag functionality can also be performed with a single pointer OR the dragging movement is essential.",
+    "Fail: Drag functionality cannot be completed with a single pointer.",
+    "NA: The view does not contain drag functionality."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 2.5.7 Dragging Movements"
+  },
+  {
+   "k": "h2",
+   "t": "Notifications and alerts (INT-4)"
+  },
+  {
+   "k": "h3",
+   "t": "Notifications, status messages, etc. (INT-4-1)"
+  },
+  {
+   "k": "p",
+   "t": "When the app sends the user info in a status update or notification it needs to be announced to screen readers without user placing focus there"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Interact with all notification and status message content using a screen reader.",
+    "When the app sends the user info in a status update or notification, confirm that it is announced to the screen reader without the user placing focus there and announced correctly."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All notifications or status messages are shown to the screen reader and announced correctly.",
+    "Fail: One or more notifications or status messages is not shown to the screen reader and announced correctly.",
+    "NA: No notifications or status messages occur."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 4.1.3 Status Messages"
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard compatibility (INT-5)"
+  },
+  {
+   "k": "h3",
+   "t": "Focus order (INT-5-1)"
+  },
+  {
+   "k": "p",
+   "t": "When someone navigates using a keyboard or other sequential nav device the focus order is logical"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a keyboard to control the mobile device.",
+    "Confirm that when someone navigates using a keyboard or other sequential nav device the order they are taken through the UI preserves meaning and operability."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Focus order is logical.",
+    "Fail: Focus order is not logical."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.4.3 Focus Order"
+  },
+  {
+   "k": "h3",
+   "t": "Visible keyboard focus (INT-5-2)"
+  },
+  {
+   "k": "p",
+   "t": "When a keyboard or any other sequential navigation device is used there is a visible indication of focus that is always on the correct element"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a keyboard to control the mobile device.",
+    "Confirm that when a keyboard is used, there is a visible indication of focus that is always on the correct element."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Focus is always visible and in the correct place.",
+    "Fail: Focus is not always visible or occurs in the wrong location."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 2.4.7 Focus Visible"
+  },
+  {
+   "k": "h3",
+   "t": "Keyboard support (INT-5-3)"
+  },
+  {
+   "k": "p",
+   "t": "All functionality and content must be available to users via keyboard only, without requiring specific timing of keystrokes"
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use a bluetooth keyboard to control the mobile device.",
+    "Confirm that everything in the app can be performed with a keyboard alone (without the touch screen)."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All features and functionality of the app are keyboard only compatible.",
+    "Fail: One or more features or functionality is not keyboard only compatible."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.1.1 Keyboard"
+  },
+  {
+   "k": "h3",
+   "t": "No keyboard trap (INT-5-4)"
+  },
+  {
+   "k": "p",
+   "t": "Keyboard focus must not become stuck when navigating through content."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Run through all use cases using keyboard and confirm that when focus is moved to an interactive element, that focus can also be moved away from the element."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Focus can move through the content without getting stuck.",
+    "Fail: Focus cannot move through the content without getting stuck."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.1.2 No Keyboard Trap"
+  },
+  {
+   "k": "h3",
+   "t": "Focus not obscured (INT-5-5)"
+  },
+  {
+   "k": "p",
+   "t": "When a focusable element has keyboard focus, the element is at least partially visible."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Tab through everything in the view.",
+    "For each focusable element, when it has focus, confirm at least part of the element is visible (not fully obscured by other content or off the screen). Note: If content can be repositioned by the user, only test the initial position."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Focusable elements are at least partially visible when focused.",
+    "Fail: One or more focusable elements are fully obscured when focused."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 2.4.11 Focus Not Obscured"
+  },
+  {
+   "k": "h3",
+   "t": "Single character keyboard shortcuts (INT-5-6)"
+  },
+  {
+   "k": "p",
+   "t": "If a single character shortcut is used then users must have the option to either turn it off or remap it to one or more non-printable keyboard characters.\n-or-\nMake sure the single character shortcut is only active when the component it affects has focus."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Confirm that where a single character shortcut is used that users have the option to either turn it off or remap it to one or more non-printable keyboard characters or make sure the single character shortcut is only active when the component it affects has focus."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: For all single character shortcuts, users have the option to either turn off or remap it to one or more non-printable keyboard characters or the single character shortcut is only active when the component it affects has focus.",
+    "Fail: For all single character shortcuts, users do not have the option to either turn off or remap it to one or more non-printable keyboard characters and the single character shortcut is active at all times.",
+    "NA: No single character shortcuts are present."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.1.4 Character Key Shortcuts"
+  }
+ ]
+}

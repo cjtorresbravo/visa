@@ -1,0 +1,286 @@
+{
+ "url": "https://design.visa.com/angular/version/7.0.0/components/panel",
+ "title": "Panel | Component | Nova Angular | Visa Product Design System",
+ "h1": "Panel",
+ "readAt": "2026-10-15T17:17:31.863Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Panel"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Examples",
+    "API"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Default modal panel",
+    "Default responsive panel",
+    "Modal expandable panel",
+    "Responsive expanded panel",
+    "Modal expandable panel with secondary button",
+    "Modal expandable panel with skrim",
+    "Tabbed modal expandable panel",
+    "Tabbed responsive expanded panel",
+    "Responsive expanded panel with custom placement"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Default panels"
+  },
+  {
+   "k": "h3",
+   "t": "Default modal panel"
+  },
+  {
+   "k": "h3",
+   "t": "Default responsive panel"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "text",
+   "t": "Close responsive panel"
+  },
+  {
+   "k": "h3",
+   "t": "Panel subtitle"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that can be used to describe the panel title and subtitle in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Expandable panels"
+  },
+  {
+   "k": "h3",
+   "t": "Modal expandable panel"
+  },
+  {
+   "k": "h3",
+   "t": "Responsive expanded panel"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Panel subtitle"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that can be used to describe the panel title and subtitle in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h3",
+   "t": "Modal expandable panel with secondary button"
+  },
+  {
+   "k": "h3",
+   "t": "Modal expandable panel with skrim"
+  },
+  {
+   "k": "h2",
+   "t": "Tabbed panels"
+  },
+  {
+   "k": "h3",
+   "t": "Tabbed modal expandable panel"
+  },
+  {
+   "k": "h3",
+   "t": "Tabbed responsive expanded panel"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "list",
+   "items": [
+    "FAQ",
+    "Chat",
+    "Contact"
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Panel subtitle"
+  },
+  {
+   "k": "p",
+   "t": "panel content shows here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse purus sem, fringilla ac lorem vel, maxialiquam urna."
+  },
+  {
+   "k": "h3",
+   "t": "Panel subtitle"
+  },
+  {
+   "k": "p",
+   "t": "panel content shows here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse purus sem, fringilla ac lorem vel, maxialiquam urna."
+  },
+  {
+   "k": "h3",
+   "t": "Panel subtitle"
+  },
+  {
+   "k": "p",
+   "t": "panel content shows here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse purus sem, fringilla ac lorem vel, maxialiquam urna."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "Custom panel"
+  },
+  {
+   "k": "h3",
+   "t": "Responsive expanded panel with custom placement"
+  },
+  {
+   "k": "text",
+   "t": "View example"
+  },
+  {
+   "k": "h4",
+   "t": "Panel subtitle"
+  },
+  {
+   "k": "p",
+   "t": "This is required text that can be used to describe the panel title and subtitle in more detail."
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "text",
+   "t": "TypeScript"
+  },
+  {
+   "k": "p",
+   "t": "waiting..."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "PanelBodyDirective",
+    "PanelContentDirective",
+    "PanelToggleDirective",
+    "IdGenerator"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "@Directive - PanelBodyDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-panel-body]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - PanelContentDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-panel-content]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "@Directive - PanelToggleDirective"
+  },
+  {
+   "k": "text",
+   "t": "[v-panel-toggle]"
+  },
+  {
+   "k": "text",
+   "t": "No exposed props for this directive"
+  },
+  {
+   "k": "text",
+   "t": "IdGenerator"
+  },
+  {
+   "k": "code",
+   "t": "import { APP_ID, inject, Injectable } from '@angular/core';\n\n/**\n * Keeps track of the ID count per prefix. This helps us make the IDs a bit more deterministic.\n */\nlet counters: Record<string, number> = {};\n\n/**\n * Service that generates unique IDs for DOM nodes.\n * Note that this service should not be used inside templates and should only be used within classes or else id will change with every render.\n * @docs {@link https://design.visa.com/developing/angular/services/id-generator | See docs}\n */\n@Injectable({ providedIn: 'root' })\nexport class IdGenerator {\n  private readonly appId: null | string = inject(APP_ID, { optional: true });\n\n  /**\n   * Generates a unique ID with a specific prefix.\n   * @param prefix Prefix to add to the ID.\n   */\n  public newId(prefix: string = ''): string {\n    // Omit the app ID if it's the default `ng`. Since the vast majority of pages have one\n    // Angular app on them, we can reduce the amount of breakages by not adding it.\n    if (this.appId && this.appId !== 'ng') prefix = `${this.appId}-${prefix}`;\n    if (!counters.hasOwnProperty(prefix)) counters[prefix] = 0;\n    return `${prefix}-${counters[prefix]++}`;\n  }\n\n  /**\n   * Resets the counters for the IDs.\n   * This is useful when testing to ensure that the IDs are deterministic.\n   * @deprecated WARNING: This should only be used in tests. Do NOT use this in an actual application.\n   */\n  public static reset(): void {\n    counters = {};\n  }\n}"
+  }
+ ]
+}

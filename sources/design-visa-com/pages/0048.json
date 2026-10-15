@@ -1,0 +1,169 @@
+{
+ "url": "https://design.visa.com/developing/styles-css",
+ "title": "Get started | Styles (CSS) | Developing | Visa Product Design System",
+ "h1": "Start building with Nova styles",
+ "readAt": "2026-10-15T17:06:39.151Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Start building with Nova styles"
+  },
+  {
+   "k": "p",
+   "t": "Follow this step-by-step guide to developing web experiences with the Visa Product Design System."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Step 1: Install Nova styles",
+    "Step 2: Import Nova styles",
+    "Step 3: Add icons (optional)Installing @visa/nova-icons-svgInstalling @visa/nova-icons-spriteSVGsSVG sprites",
+    "Step 4: Use the components"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Step 1: Install Nova styles"
+  },
+  {
+   "k": "p",
+   "t": "You can use NPM, PNPM, or Yarn to install Nova styles, depending on your preference or your project’s requirements. Choose one of the following package managers for the installation."
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "1npm install @visa/nova-styles"
+  },
+  {
+   "k": "h2",
+   "t": "Step 2: Import Nova styles"
+  },
+  {
+   "k": "p",
+   "t": "Once Nova styles is installed, you need to import it in your project. This process might look different depending on whether you’re using HTML, React, or Angular. Follow the instructions for your setup below."
+  },
+  {
+   "k": "h3",
+   "t": "HTML"
+  },
+  {
+   "k": "p",
+   "t": "If you’re working with standard HTML, add a link to the Nova styles CSS file in your HTML file by replacing the actual path where the Nova styles files are located."
+  },
+  {
+   "k": "code",
+   "t": "1<link rel=\"stylesheet\" href=\"path/to/nova-styles/styles.css\" />2<link rel=\"stylesheet\" href=\"path/to/nova-styles/themes/visa/index.css\" />"
+  },
+  {
+   "k": "h2",
+   "t": "Step 3: Add icons (optional)"
+  },
+  {
+   "k": "p",
+   "t": "You can use Nova CSS to add Icons to your web applications. Use individual SVGs for specific icons or SVG sprites to efficiently load and reuse a full set of icons across your app."
+  },
+  {
+   "k": "h3",
+   "t": "Installing @visa/nova-icons-svg"
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "1npm install @visa/nova-icons-svg"
+  },
+  {
+   "k": "h3",
+   "t": "Installing @visa/nova-icons-sprite"
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "1npm install @visa/nova-icons-sprite"
+  },
+  {
+   "k": "h3",
+   "t": "SVGs"
+  },
+  {
+   "k": "p",
+   "t": "SVG stands for Scalable Vector Graphics, which is an image format based on XML for creating two-dimensional graphics. The key feature of SVGs is their scalability, allowing them to be resized without losing quality. This makes them ideal for the web, where images need to look good on various screen sizes and resolutions. Additionally, SVGs are often much smaller in size compared to JPEGs and PNGs."
+  },
+  {
+   "k": "code",
+   "t": "1<svg \t2       class=\"v-icon v-icon-generic v-icon-tiny v-icon-checkmark\"3       width=\"16\" \t4       height=\"16\" \t5       viewBox=\"0 0 16 16\" \t6       xmlns=\"http://www.w3.org/2000/svg\" 7>8       <path9            class=\"v-icon-primary\"10            fill-rule=\"evenodd\"11            clip-rule=\"evenodd\"12            d=\"M13.7205 3.29397C13.3331 2.90266 12.7519 2.90266 12.3644 3.29397L5.97141 9.75049L3.64668 7.40266C3.25923 7.01136 2.67805 7.01136 2.29059 7.40266C1.90314 7.79397 1.90314 8.38092 2.29059 8.77223L5.1965 11.707C5.58396 12.0983 6.16514 12.0983 6.55259 11.707L13.6236 4.56571C14.108 4.27223 14.108 3.58744 13.7205 3.29397Z\"13        />14</svg>"
+  },
+  {
+   "k": "h3",
+   "t": "SVG sprites"
+  },
+  {
+   "k": "p",
+   "t": "A sprite is a collection of SVG icons combined into a single file. This method is commonly used to enable a single server request for all icons, making it the most efficient way to access a large number of icons, especially if many are likely to be used during a session."
+  },
+  {
+   "k": "h4",
+   "t": "Using SVG sprites"
+  },
+  {
+   "k": "p",
+   "t": "Import and use icons sprite from @visa/nova-icons-sprite. This will add all of the icons as a sprite into your project and then reference them as needed. It’s up to you if you’d like to use the Visa sprite, the Generic sprite, or both."
+  },
+  {
+   "k": "code",
+   "t": "1<svg class=\"v-icon v-icon-generic v-icon-tiny v-icon-calendar\" height=\"16px\"2width=\"16px\"> 3     <use href=\"#calendar--tiny\" xlink:href=\"#calendar--tiny\"/>4</svg>"
+  },
+  {
+   "k": "h2",
+   "t": "Step 4: Use the components"
+  },
+  {
+   "k": "p",
+   "t": "After importing Nova styles and adding icons, you’re ready to use its components by copying and pasting the example code into your application. Check out Button to give it a try."
+  },
+  {
+   "k": "h2",
+   "t": "Need help?"
+  },
+  {
+   "k": "p",
+   "t": "If you experience any issues while getting set up with Nova Styles, visit Support\nor\ncreate an issue ."
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "status": "Rules of the Visa Bridge, rewritten on 2026-10-15 from the 49 candidates the person accepted in Setup (reviewed by group) and from layout.json. Each rule says who applies it: the engine when it builds, the verifier when it checks, the notes when it delivers, or the agent when it writes a SPEC. The generic configurator only captured the candidates; these are the rules in force.",
+ "appliesBy": {
+  "engine": "the builders apply it on every screen without being asked",
+  "verify": "the verifier flags a screen that breaks it",
+  "notes": "the delivery notes say it when it happens",
+  "agent": "the agent follows it when writing the SPEC and the copy"
+ },
+ "groups": [
+  {
+   "name": "Page frame and layout",
+   "rules": [
+    { "id": "L1", "rule": "An application page is a navigational frame (horizontal, stacked horizontal, vertical or mixed) plus a content area on the responsive grid, with the Default footer at the bottom. Build it from the kit's Application layouts or from their pieces: navigation, Content area base, Default footer.", "applies": ["engine", "agent"], "from": ["layout-1", "layout-2"], "source": "design.visa.com › Application layouts › Usage; kit › Application layouts" },
+    { "id": "L2", "rule": "Pick the frame by the navigation: horizontal for a few top-level items, stacked horizontal for many, vertical for many items or little horizontal space, mixed when global and local items coexist. Vertical navigation is web only; on mobile the top app bar and the navigation drawer take over.", "applies": ["agent"], "from": ["layout-2", "layout-12"], "source": "design.visa.com › Application layouts › Usage › Navigational frames; Horizontal navigation › Mobile; Vertical navigation › Mobile" },
+    { "id": "L3", "rule": "Grid: 12 columns, gutters 24, margins 24 from 1024 up (32 beside a vertical navigation from 1280 up); 8 columns, margins 16, gutters 24 at 768; 4 columns, margins 16, gutters 16 at 375; at 1600 and up the fixed grid keeps the content width and grows the margins to 80 or more.", "applies": ["engine", "verify"], "from": ["layout-3", "layout-4", "layout-8"], "source": "design.visa.com › Responsive grid system › Breakpoints; layout.json › grid" },
+    { "id": "L4", "rule": "Fixed grid for text-heavy pages, fluid grid for dashboards and data-heavy pages; both exist at 1600 and up.", "applies": ["agent", "notes"], "from": ["layout-5"], "source": "design.visa.com › Responsive grid system › Fixed vs. fluid grids" },
+    { "id": "L5", "rule": "Spacing in factors of four: 16, 24, 32, 48 between blocks; no half pixels, no odd numbers. Web components sit on a base height of 38; the Mobile platform mode scales them 1.25 times (base 46).", "applies": ["engine", "verify"], "from": ["layout-6", "layout-7"], "source": "design.visa.com › Responsive grid system › System baseline, Component size; layout.json › spacing, sizing" },
+    { "id": "L6", "rule": "Vertical navigation pushes the content beside it (242 wide, 42 collapsed) and never overlays it; the navigation bar stays visible while scrolling; items keep the same order on every page; at most seven in the main navigation; the brand mark or app name may link home.", "applies": ["engine", "agent", "verify"], "from": ["layout-9", "layout-10"], "source": "design.visa.com › Vertical navigation › Best practices; Horizontal navigation › Best practices; layout.json › navigation" },
+    { "id": "L7", "rule": "The footer is the same on every page: Default footer for minimal content, Navigational footer when it holds links to important resources, never the main site navigation. Standard width 1440 on desktop, 768 on tablet.", "applies": ["engine", "agent"], "from": ["layout-11"], "source": "design.visa.com › Footer › Usage, Platform considerations" },
+    { "id": "L8", "rule": "Corner radius from the Shape variables (large = 8 in Rounded default; less rounded 6, full rounded 16, square 0; full 48). Shadows from the elevation scale (inset, small, standard, medium, large, x large, xx large), each component with the shadow of the layer it sits on: content at the base, panels and navigation above, dialogs on top with an overlay.", "applies": ["engine", "verify"], "from": ["shape-1", "shape-2"], "source": "kit variables › Shape; design.visa.com › Elevation › Usage; layout.json › radius, elevation" }
+   ]
+  },
+  {
+   "name": "Color",
+   "rules": [
+    { "id": "C1", "rule": "Visa-branded screens use the Visa theme: mode Visa light by default, Visa dark as the alternative. No external colors; every fill, stroke and text color binds a Theme colors variable.", "applies": ["engine", "verify"], "from": ["color-1", "engine-1"], "source": "design.visa.com › Color › Usage › Best practices; kit variables › Theme colors" },
+    { "id": "C2", "rule": "Active colors only on interactive elements (active, active-hover, active-pressed; active-subtle for low emphasis). Surfaces 1, 2 and 3 fill the backgrounds; surface highlight and lowlight are the translucent washes of subtle interactive states.", "applies": ["engine", "verify"], "from": ["color-2", "color-3"], "source": "design.visa.com › Color › Usage › Active colors, Surface colors; Color › tables" },
+    { "id": "C3", "rule": "Text uses text, text-subtle and text-on-active; decorative colors (border, disabled, overlay) go only where no contrast is required. Messaging colors (positive, warning, negative, info) go only on messaging components.", "applies": ["engine", "verify"], "from": ["color-4", "color-5"], "source": "design.visa.com › Color › Usage › Text colors, Decorative colors, Messaging colors" },
+    { "id": "C4", "rule": "The alternate theme background (navigation headers, splash screens) is used sparingly; switching it re-resolves the tokens so contrast holds.", "applies": ["agent", "notes"], "from": ["color-6"], "source": "design.visa.com › Color › Usage › Theme background colors" }
+   ]
+  },
+  {
+   "name": "Typography",
+   "rules": [
+    { "id": "T1", "rule": "Every text node uses one of the 28 text styles of the kit, never a detached font. Visa Dialect UI is the brand face; the kit ships Noto Sans (Typography variable mode) and Noto Sans covers the languages Dialect does not.", "applies": ["engine", "verify"], "from": ["type-1", "type-6", "engine-1"], "source": "design.visa.com › Typography › Usage; kit › text styles" },
+    { "id": "T2", "rule": "Body 2 (14 on web, 16 on mobile) is the body copy and the input size; Body 1 (16) for larger reading blocks, Body 3 (12) for small print. Pages start at Headline 1 (32) as the largest title; Display 1 and 2 only on banner areas and landing pages.", "applies": ["engine", "agent", "verify"], "from": ["type-2", "type-3"], "source": "design.visa.com › Typography › Usage › Headlines, Body" },
+    { "id": "T3", "rule": "Detail styles on interactive pieces: UI label large for tables, tabs and navigation; UI label for input and form labels; UI label small for icon button labels; Button large, medium, small by button size. Overline is all caps, one to three words, no punctuation.", "applies": ["engine", "agent"], "from": ["type-4", "type-5"], "source": "design.visa.com › Typography › Usage › Detail, Overline" },
+    { "id": "T4", "rule": "Headlines and labels in sentence case with no trailing punctuation; body copy with standard punctuation. Hierarchy by size, weight and color, never by changing letter case. Product copy left-aligned; centered only inside UI elements; line length about 50 to 75 characters.", "applies": ["agent", "verify"], "from": ["type-6", "type-7", "content-1"], "source": "design.visa.com › Typography › Usage › Applying the type ramp, Sentence case, Text alignment, Line length" }
+   ]
+  },
+  {
+   "name": "Components",
+   "rules": [
+    { "id": "K1", "rule": "One primary button per screen (headers, dialogs, content cards and panels not counted); secondary for the opposite or less important action, tertiary for the least important; at most five text buttons per interface. Buttons act, links navigate.", "applies": ["agent", "verify"], "from": ["comp-1", "comp-5"], "source": "design.visa.com › Button › Usage; Link › Usage" },
+    { "id": "K2", "rule": "Destructive buttons are rare: color plus a descriptive label plus an icon, a dialog before data loss, never more than two primary destructive buttons per screen. Icon buttons without a label only when the meaning is clear; one UI icon per component.", "applies": ["agent"], "from": ["comp-2", "comp-3"], "source": "design.visa.com › Button › Usage › Destructive buttons, Icon buttons, UI icon buttons" },
+    { "id": "K3", "rule": "Inputs: the field length matches the expected entry; fields in the order users expect; format hints and feedback in inline messages, never in placeholder text; at most one leading icon and one trailing UI icon button; passwords hidden by default.", "applies": ["agent", "verify"], "from": ["comp-4"], "source": "design.visa.com › Input › Usage" },
+    { "id": "K4", "rule": "Links carry a visual cue beyond color (underline or icon); standalone links take a leading or trailing icon, never both; inline links trailing icons only; a link that opens a new tab shows the maximize icon; links open in the current window unless the destination helps finish the task.", "applies": ["agent", "verify"], "from": ["comp-5"], "source": "design.visa.com › Link › Usage" },
+    { "id": "K5", "rule": "Content cards keep the same elements across a layout, one clear hierarchy, one icon per card, images only when they add meaning, dividers and bottom borders placed consistently; Default for one subject, Clickable when the whole card is selectable, Compact on small screens, Dashboard for simple data.", "applies": ["agent", "engine"], "from": ["comp-6"], "source": "design.visa.com › Content card › Usage" },
+    { "id": "K6", "rule": "Tabs: horizontal for few categories with short labels, vertical for many or long labels, stacked when icons add context; five to seven at most, the active tab clearly marked, 6 px between tab elements; tabs switch content on the same page, the tab bar navigates between pages.", "applies": ["agent", "engine"], "from": ["comp-7"], "source": "design.visa.com › Tabs › Usage" },
+    { "id": "K7", "rule": "Navigation and footer labels: sentence case except acronyms and proper nouns, no punctuation, labels that match page titles, a few brief words; icons on every item of a level or on none, nested items without icons; nav menus group related links under a label that never changes with the selection; up to three levels. The copyright line holds only the symbol, the year, the author and the rights statement.", "applies": ["agent", "verify"], "from": ["comp-8", "comp-9"], "source": "design.visa.com › Horizontal navigation › Content; Vertical navigation › Content, Nesting; Footer › Content" }
+   ]
+  },
+  {
+   "name": "Messaging and feedback",
+   "rules": [
+    { "id": "M1", "rule": "Pick the messaging component by disruption: Banner for system-level status, fixed below the navigation, across the margins, one at a time; Section message at the top of the section it concerns, never anchored to the page, at most three per section and five per page; Flag for low-priority updates floating in a corner (success is its common use); Dialog centered over an overlay for messages that must interrupt. One feedback alert at a time.", "applies": ["agent", "engine", "verify"], "from": ["msg-1"], "source": "design.visa.com › Banner, Section message, Flag, Dialog › Usage; Feedback and status" },
+    { "id": "M2", "rule": "Messaging components close with a close button or a close icon button, used consistently, never both; no timed auto-dismissal; critical messages may omit the close control, sparingly. On mobile, banners and flags dismiss with buttons or links, not only a close icon.", "applies": ["agent", "verify"], "from": ["msg-2"], "source": "design.visa.com › Banner › Dismissal, Mobile; Section message › Dismissal; Flag › Dismissal, Mobile" },
+    { "id": "M3", "rule": "Dialogs are brief tasks: centered, over an overlay, never full screen, never multi-step; buttons left-aligned (except touring tips and full-width mobile buttons); on mobile 16 dp side margins and a text button to close.", "applies": ["agent", "engine"], "from": ["msg-3"], "source": "design.visa.com › Dialog › Usage" },
+    { "id": "M4", "rule": "Subtle section messages call out information with less attention and never carry errors or warnings. Indicators by attention level: subtle and info low, positive medium, warning high, negative critical.", "applies": ["agent", "verify"], "from": ["msg-4"], "source": "design.visa.com › Section message › Best practices; Feedback and status › Visual indicators" }
+   ]
+  },
+  {
+   "name": "Content",
+   "rules": [
+    { "id": "W1", "rule": "Sentence case everywhere except proper nouns and acronyms; plain language without jargon or abbreviations; brief, descriptive and direct; a 6th grade reading level; sentences of about 8 to 17 words; the shorter synonym (Buy, Go, Help).", "applies": ["agent", "verify"], "from": ["content-1"], "source": "design.visa.com › Messaging › Best practices; Readability" },
+    { "id": "W2", "rule": "A message is an optional title of three to five words without articles or punctuation, a required message that states the reason and the simplest fix, and a required call to action with a clear verb (Save, Remove, Create), never OK or Continue, no punctuation, no ableist verbs (Play video, not Watch video).", "applies": ["agent", "verify"], "from": ["content-2"], "source": "design.visa.com › Messaging › Anatomy, Titles, Messages, Calls to action" },
+    { "id": "W3", "rule": "Active voice for success, instructions and neutral updates; passive voice for errors and warnings so nobody is blamed. Tone neutral, clear and helpful: celebratory, supportive, professional or welcoming by context; never accusatory, complex, patronizing, robotic or vague. The voice is active, readable and human.", "applies": ["agent"], "from": ["content-3", "content-4"], "source": "design.visa.com › Messaging › Voice and tone; Voice and tone" },
+    { "id": "W4", "rule": "No placeholder copy reaches a delivered screen: every slot of a kit component takes real copy, and a kit placeholder that cannot be replaced (the Community kit's [Placeholder logo]) is declared as a gap in the notes.", "applies": ["agent", "verify", "notes"], "from": ["content-1", "engine-1"], "source": "acceptance build 2026-10-15: br_verify flags [Placeholder logo] as placeholder text; kit › Logos › Placeholder logo" }
+   ]
+  },
+  {
+   "name": "Accessibility",
+   "rules": [
+    { "id": "A1", "rule": "Touch targets at least 44 x 44 dp on touch devices and 24 x 24 dp otherwise; interactive elements never too close together.", "applies": ["verify", "agent"], "from": ["a11y-1"], "source": "design.visa.com › States › Usage › Interactive target areas" },
+    { "id": "A2", "rule": "Every interactive component shows its states through the State variant of its set: default, hover (not on touch), pressed, focus (keyboard), focus (mouse, inputs only), active, selected, disabled, read-only, expanded, error.", "applies": ["engine", "agent"], "from": ["a11y-2"], "source": "design.visa.com › States › Usage › Component states; kit › State variants" },
+    { "id": "A3", "rule": "Alt text puts the most important information first, one sentence, without the words icon or picture; decorative images get an empty alternative. ARIA labels only when an element has no descriptive name, as Learn more about x; never ARIA and alt text together.", "applies": ["agent", "notes"], "from": ["a11y-3"], "source": "design.visa.com › Accessible text" },
+    { "id": "A4", "rule": "Every layout starts with a Skip to main content link, hidden until focused; the kit ships it inside each navigation component and the engine keeps it.", "applies": ["engine", "verify"], "from": ["a11y-4"], "source": "kit › Horizontal, Vertical nav default › Skip to main content; design.visa.com › Global accessibility requirements › Navigation and wayfinding" }
+   ]
+  }
+ ],
+ "principles": [
+  "Visa Product Design System: accessible, inclusive, approachable. Pre-built, accessibility-approved components and patterns; design tokens for theming; shared base elements. Source: https://design.visa.com/welcome"
+ ]
+}

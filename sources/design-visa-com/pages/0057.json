@@ -1,0 +1,342 @@
+{
+ "url": "https://design.visa.com/base-elements/color",
+ "title": "Color | Base elements | Visa Product Design System",
+ "h1": "Color",
+ "readAt": "2026-10-15T17:06:49.600Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Color"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to use Visa brand colors to create and maintain consistent and engaging experiences."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Active",
+    "Surface",
+    "Text",
+    "Decorative",
+    "Messaging"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Active"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Visa light value",
+     "Visa dark value"
+    ],
+    [
+     "var(--palette-default-active)",
+     "#1434cb",
+     "#BDEAFF"
+    ],
+    [
+     "var(--palette-default-active-hover)",
+     "#173be8",
+     "#DBF4FF"
+    ],
+    [
+     "var(--palette-default-active-pressed)",
+     "#0f2595",
+     "#80D7FF"
+    ],
+    [
+     "var(--palette-default-active-subtle)",
+     "rgba(0, 0, 0, .5)",
+     "#FFFFFF7E"
+    ],
+    [
+     "var(--palette-default-active-accent)",
+     "#fcc015",
+     "#FCC015"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Surface"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Visa light value",
+     "Visa dark value"
+    ],
+    [
+     "var(--palette-default-surface-1)",
+     "#ffffff",
+     "#0A0A0A"
+    ],
+    [
+     "var(--palette-default-surface-2)",
+     "#f5f5f5",
+     "#1A1A1A"
+    ],
+    [
+     "var(--palette-default-surface-3)",
+     "#f0f0f0",
+     "#2E2E2E"
+    ],
+    [
+     "var(--palette-default-surface-highlight)",
+     "rgba(179, 215, 255, 0.35)",
+     "#0000005A"
+    ],
+    [
+     "var(--palette-default-surface-lowlight)",
+     "rgba(179, 215, 255, 0.6)",
+     "#00000099"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Text"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Visa light value",
+     "Visa dark value"
+    ],
+    [
+     "var(--palette-default-text)",
+     "#000000",
+     "#FFFFFF"
+    ],
+    [
+     "var(--palette-default-text-subtle)",
+     "#4a4a4a",
+     "#D9D9D9"
+    ],
+    [
+     "var(--palette-default-text-on-active)",
+     "#ffffff",
+     "#2E2E2E"
+    ],
+    [
+     "var(--palette-accent-app-name)",
+     "#1434CB",
+     "#FFFFFF"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Decorative"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Visa light value",
+     "Visa dark value"
+    ],
+    [
+     "var(--palette-default-border)",
+     "rgba(0, 0, 0, 0.1)",
+     "#FFFFFF0F"
+    ],
+    [
+     "var(--palette-default-disabled)",
+     "rgba(0, 0, 0, 0.2)",
+     "#FFFFFF1F"
+    ],
+    [
+     "var(--palette-default-overlay)",
+     "rgba(20, 34, 57, 0.4)",
+     "rgba(0, 0, 0, 0.4)"
+    ],
+    [
+     "var(--palette-default-transparent)",
+     "rgba(255, 255, 255, 0)",
+     "rgba(0, 0, 0, 0)"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Messaging"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Variable",
+     "Visa light value",
+     "Visa dark value"
+    ],
+    [
+     "var(--palette-messaging-highlight-positive)",
+     "rgba(214, 242, 196, 0.35)",
+     "#23533A5A"
+    ],
+    [
+     "var(--palette-messaging-lowlight-positive)",
+     "rgba(214, 242, 196, 0.6)",
+     "#23533A99"
+    ],
+    [
+     "var(--palette-messaging-surface-positive)",
+     "#d6f2c4",
+     "#23533A"
+    ],
+    [
+     "var(--palette-messaging-graphics-positive)",
+     "#40996b",
+     "#40996B"
+    ],
+    [
+     "var(--palette-messaging-text-hover-positive)",
+     "#327753",
+     "#C2E5D3"
+    ],
+    [
+     "var(--palette-messaging-text-positive)",
+     "#2C6849",
+     "#DFF1E8"
+    ],
+    [
+     "var(--palette-messaging-text-pressed-positive)",
+     "#1A3D2B",
+     "#81CAA4"
+    ],
+    [
+     "var(--palette-messaging-highlight-warning)",
+     "#ffef99",
+     "hsla(39, 96%, 28%, 0.35)"
+    ],
+    [
+     "var(--palette-messaging-graphics-warning)",
+     "#c38004",
+     "#C38004"
+    ],
+    [
+     "var(--palette-messaging-text-warning)",
+     "#875903",
+     "#FEE8BE"
+    ],
+    [
+     "var(--palette-messaging-highlight-negative)",
+     "rgba(255, 214, 233, 0.35)",
+     "#9D25255A"
+    ],
+    [
+     "var(--palette-messaging-lowlight-negative)",
+     "rgba(255, 214, 233, 0.6)",
+     "#9D252599"
+    ],
+    [
+     "var(--palette-messaging-surface-negative)",
+     "#ffd6e9",
+     "#9D2525"
+    ],
+    [
+     "var(--palette-messaging-graphics-negative)",
+     "#d65151",
+     "#D65151"
+    ],
+    [
+     "var(--palette-messaging-text-hover-negative)",
+     "#C62F2F",
+     "#FDF7F7"
+    ],
+    [
+     "var(--palette-messaging-text-negative)",
+     "#AD2929",
+     "#F7DEDE"
+    ],
+    [
+     "var(--palette-messaging-text-pressed-negative)",
+     "#7C1D1D",
+     "#ECACAC"
+    ],
+    [
+     "var(--palette-messaging-highlight-info)",
+     "#c7edff",
+     "hsla(198, 59%, 25%, 0.35)"
+    ],
+    [
+     "var(--palette-messaging-graphics-info)",
+     "#0088c7",
+     "#0088C7"
+    ],
+    [
+     "var(--palette-messaging-text-info)",
+     "#005e8a",
+     "#BDEAFF"
+    ]
+   ]
+  }
+ ]
+}

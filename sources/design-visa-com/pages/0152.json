@@ -1,0 +1,308 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/development-and-testing-practices",
+ "title": "Development and testing practices | Overview | Global accessibility requirements | Visa Product Design System",
+ "h1": "Global accessibility requirements",
+ "readAt": "2026-10-15T17:08:46.366Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Global accessibility requirements"
+  },
+  {
+   "k": "p",
+   "t": "Learn how to ensure people of diverse abilities can use and interact with our digital products and tools."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Overview",
+    "Design practices",
+    "Development and testing practices"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Doctype declaration",
+    "Page title",
+    "Language",
+    "Hidden content",
+    "Structure and semantics",
+    "Forms and controls",
+    "Error identification and suggestions",
+    "System messages and navigation",
+    "Dialogs",
+    "Tables",
+    "Text alternatives",
+    "Keyboard interaction",
+    "Screen reader compatibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Developers can reduce the time spent in manual testing by writing accessible code and using automated tools to check their work. Refer to VGAR to validate and iterate on work throughout the accessibility journey."
+  },
+  {
+   "k": "h2",
+   "t": "Doctype declaration"
+  },
+  {
+   "k": "p",
+   "t": "HTML doctype is a required preamble. Without a valid doctype declaration, browsers tend to use a different rendering mode (such as no-quirks mode, quirks mode, limited-quirks mode, etc.) that is incompatible with some specifications. The <!DOCTYPE html> doctype is required for legacy reasons. Provide a valid and accurate doctype for all web pages."
+  },
+  {
+   "k": "h2",
+   "t": "Page title"
+  },
+  {
+   "k": "p",
+   "t": "The page title element represents the name of a document and identifies the relevance of information contained in a web page. Provide accurate, descriptive, and unique page titles. Use consistent structures for titles across web pages."
+  },
+  {
+   "k": "h2",
+   "t": "Language"
+  },
+  {
+   "k": "p",
+   "t": "Identifying the language of a web page helps assistive technologies render text accurately. Provide the lang attribute specifying the primary language for the contents of an element and for any of that element’s attributes containing text. When content is written in multiple languages, these requirements help assistive technologies present it according to the rules for each language. For instance, screen readers will invoke correct pronunciation rules, visual browsers will display characters and scripts accurately, and media players will show captions correctly."
+  },
+  {
+   "k": "h2",
+   "t": "Hidden content"
+  },
+  {
+   "k": "p",
+   "t": "Content that may need to be hidden from sighted users, but not screen readers, must be moved off-screen using CSS."
+  },
+  {
+   "k": "p",
+   "t": "Wrap this content in a div with role=\"presentation\" and aria-hidden=\"true\". Additionally, set tabindex=\"-1\"."
+  },
+  {
+   "k": "p",
+   "t": "Content that may need to be hidden from both sighted and screen reader users should be removed from the DOM using CSS visibility:hidden or display:none and aria-hidden=\"true\"."
+  },
+  {
+   "k": "h2",
+   "t": "Structure and semantics"
+  },
+  {
+   "k": "p",
+   "t": "Headings are useful for organizing content into contextual sections, establishing content hierarchy, and enabling screen reader users to jump directly to specific content. They need to be defined with valid markup and structured in a proper nesting order to ensure assistive technologies can present them properly."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Any text element which conveys information through its visual presentation style must be indicated semantically in code. This includes text styling such as strong, cite, blockquote, sub, and sup, and any other text style which carries secondary meaning.",
+    "Paragraphs must be marked up as paragraphs.",
+    "Groups of items, such as a navigation menu or group of tabs, must be marked up as a list."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "To ensure that assistive technologies encounter the content in the same order as the logical presentation of the content, it should be structured in a logical order in the HTML code. Do not use CSS to order content. Additionally, any content that is not shown until a specific time or event should be removed from the DOM or parked at the bottom of the DOM."
+  },
+  {
+   "k": "h2",
+   "t": "Forms and controls"
+  },
+  {
+   "k": "p",
+   "t": "Ensure that assistive technologies (AT) can gather information on, activate (or set), and update the status of user interface controls in the content."
+  },
+  {
+   "k": "p",
+   "t": "Form controls that use a label to identify them must have only one label programmatically associated with them."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use for=\"<ID of control>\", aria-labelledby, or aria-label for for this label."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Communicate required controls in text either at the beginning of the form or in-line."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the aria-required=\"true\" attribute."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Groups of checkboxes should indicate the required state in text either at the beginning of the form by stating all fields are required, or in the group’s fieldset legend instead."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Do not use the aria-required attribute."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Helper text must be programmatically associated with a form control."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use aria-describedby=\"<ID of helper text container>\"."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "If there are multiple pagination controls on a page, they must have unique labels but still contain the word “Pagination”."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use role=\"navigation\" and aria-label=\"Pagination\"."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Error identification and suggestions"
+  },
+  {
+   "k": "p",
+   "t": "Controls being validated for errors must include aria-invalid=\"true\" when an error is present."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Keyboard focus must be automatically set to the first invalid form control when an error is detected using validation after the user submits the form.",
+    "When an error is detected using client-side validation, set aria-invalid=\"true\" and add the ID of the error helper text container to the aria-describedby attribute."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "When an error is detected using in-line validation, any previous role=\"alert\" instances must be removed from the DOM and role=\"alert\" must be set on the container of the error_helpertext."
+  },
+  {
+   "k": "h2",
+   "t": "System messages and navigation"
+  },
+  {
+   "k": "p",
+   "t": "System messages must include the role=\"status\" and aria-live=\"assertive\" attributes on the message container when added to the DOM. Only add system messages to the DOM after a button press or on page load so that they don’t interrupt the user’s workflow."
+  },
+  {
+   "k": "p",
+   "t": "At minimum, the page must have a main landmark region defined, and banner, navigation, search, complementary, and contentinfo roles if these content types are present in the page."
+  },
+  {
+   "k": "list",
+   "items": [
+    "If a page has multiple landmarks of the same type, such as main navigation and sub-navigation, those regions must have unique names applied using an appropriate naming technique. Do not include the landmark role type in the name."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Dialogs"
+  },
+  {
+   "k": "p",
+   "t": "Modal dialog windows must have role=\"dialog\" and aria-modal=\"true\" on the modal container."
+  },
+  {
+   "k": "p",
+   "t": "Modal dialogs must have aria-labelledby=\"id of dialog-title\" where “dialog-title” would be the modal dialog’s title, such as its main heading."
+  },
+  {
+   "k": "p",
+   "t": "Modal dialogs should have aria-describedby=\"dialog-desc\" where “dialog-desc” is helpful information above the first focusable element."
+  },
+  {
+   "k": "p",
+   "t": "Modal dialogs must have focus set to an appropriate location based on the content presented in the modal dialog."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Modal dialog windows must trap focus inside the modal dialog.",
+    "Dialogs must restore focus to their triggering element when the dialog is closed."
+   ]
+  },
+  {
+   "k": "p",
+   "t": "Modal dialogs must allow the user to move through the modal dialog’s focusable elements, “wrapping around” from bottom-to-top and top-to-bottom using the Tab Shift + Tab key and keyboard events."
+  },
+  {
+   "k": "p",
+   "t": "Modal dialogs must prevent mouse-clicks that occur outside the modal dialog from having any effect on the modal dialog."
+  },
+  {
+   "k": "p",
+   "t": "If a heading is used in a dialog, the first heading level must be H2 followed by appropriate heading levels."
+  },
+  {
+   "k": "p",
+   "t": "Dialog windows must have the Esc keyboard event set to close the dialog."
+  },
+  {
+   "k": "h2",
+   "t": "Tables"
+  },
+  {
+   "k": "p",
+   "t": "Tables must never be used for layout purposes. Data tables must use proper table headers <th>, and every table header must have the scope attribute set to scope=\"col” or scope=\"row\", unless it would invalidate a data relationship. If necessary, the header attribute can be used to hard code how headers should be read to screen reader users."
+  },
+  {
+   "k": "p",
+   "t": "Data tables must be identified for screen readers by including the “title” of the table in its <caption> element (the caption may be hidden visually with CSS). If the table has more than 4 table headings, a caption must be included to summarize its layout and functional relationships."
+  },
+  {
+   "k": "h2",
+   "t": "Text alternatives"
+  },
+  {
+   "k": "p",
+   "t": "All non-text content must include text alternatives that provide equivalent information, context, and purpose to the user. Non-text content with <img> elements provide the text alternative using the alt attribute. For non-text content using role=\"img\", use aria-label, aria-labelledby, or visibly hidden text."
+  },
+  {
+   "k": "p",
+   "t": "All decorative non-text that provides no contextual value or is already defined by surrounding content must be hidden from screen reader users. For <img> elements, use alt=\"\". For everything else, use aria-hidden=\"true\"."
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard interaction"
+  },
+  {
+   "k": "p",
+   "t": "All functionality and content must be available via the keyboard only and should not require the specific timing of keystrokes. If keyboard focus is ever controlled by part of the UI, such as a PDF viewer or modal window, it must allow focus to return to the launching element and browser through keyboard commands only."
+  },
+  {
+   "k": "p",
+   "t": "Keyboard users should be able to use the Tab key to navigate through the page in the same order as the visual presentation of the content. This tab order should be established by the HTML structure of the page. As the user moves through the page with the keyboard, a highly visible indication of keyboard focus should appear on each element as it receives focus."
+  },
+  {
+   "k": "p",
+   "t": "Content that remains hidden until it becomes visible on mouse hover must also be shown when it receives keyboard focus and hidden again when focus is removed.\nContent that appears and disappears in coordination with keyboard focus or pointer hover—such as tooltips, sub-menus, and other non-modal popups—must be dismissable, hoverable, and persistent."
+  },
+  {
+   "k": "h2",
+   "t": "Screen reader compatibility"
+  },
+  {
+   "k": "p",
+   "t": "All features and functionality must work with at least one screen reader per platform. Features and functionalities including but not limited to alerts, visual changes on the page, page titles, iframes (used for user interaction, but not system use), landmarks, headings, links etc., must be presented and read accurately by supported screen readers."
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "url": "https://design.visa.com/components/badge",
+ "title": "Badge | Components | Visa Product Design System",
+ "h1": "Badge",
+ "readAt": "2026-10-15T17:07:07.825Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Badge"
+  },
+  {
+   "k": "p",
+   "t": "Visual indicators that communicate the status of a component."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Subtle badges",
+    "Neutral badges",
+    "Positive badges",
+    "Warning badges",
+    "Negative badges",
+    "Number badges",
+    "Custom badges"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Code library"
+  },
+  {
+   "k": "text",
+   "t": "Angular"
+  },
+  {
+   "k": "text",
+   "t": "Flutter"
+  },
+  {
+   "k": "text",
+   "t": "React"
+  },
+  {
+   "k": "text",
+   "t": "Styles (CSS)"
+  },
+  {
+   "k": "text",
+   "t": "Version"
+  },
+  {
+   "k": "text",
+   "t": "1.6.5"
+  },
+  {
+   "k": "text",
+   "t": "1.6.4"
+  },
+  {
+   "k": "text",
+   "t": "1.6.2"
+  },
+  {
+   "k": "h2",
+   "t": "Subtle badges"
+  },
+  {
+   "k": "h3",
+   "t": "Default subtle badge"
+  },
+  {
+   "k": "text",
+   "t": "Loading badge example Default subtle badge"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Subtle badge without icon"
+  },
+  {
+   "k": "text",
+   "t": "Loading badge example Subtle badge without icon"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h3",
+   "t": "Subtle badge with indicator"
+  },
+  {
+   "k": "text",
+   "t": "Loading badge example Subtle badge with indicator"
+  },
+  {
+   "k": "text",
+   "t": "HTML"
+  },
+  {
+   "k": "h2",
+   "t": "Neutral badges"
+  },
+  {
+   "k": "h2",
+   "t": "Positive badges"
+  },
+  {
+   "k": "h2",
+   "t": "Warning badges"
+  },
+  {
+   "k": "h2",
+   "t": "Negative badges"
+  },
+  {
+   "k": "h2",
+   "t": "Number badges"
+  },
+  {
+   "k": "h2",
+   "t": "Custom badges"
+  }
+ ]
+}

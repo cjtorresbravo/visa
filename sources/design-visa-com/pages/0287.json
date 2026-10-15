@@ -1,0 +1,147 @@
+{
+ "url": "https://design.visa.com/data-visualization/charts/heatmap/code",
+ "title": "Heatmap | Charts | Data visualization | Visa Product Design System",
+ "h1": "Heatmap",
+ "readAt": "2026-10-15T17:12:19.571Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Heatmap"
+  },
+  {
+   "k": "p",
+   "t": "Chart where each cell represents the value of the category pairing to show most  and least common combinations of values within a matrix."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Usage",
+    "Accessibility",
+    "Examples",
+    "Code"
+   ]
+  },
+  {
+   "k": "text",
+   "t": "Table of Contents Loading"
+  },
+  {
+   "k": "h2",
+   "t": "Default heatmap"
+  },
+  {
+   "k": "h3",
+   "t": "When do cardholders prefer to shop?"
+  },
+  {
+   "k": "h2",
+   "t": "When do cardholders prefer to shop?"
+  },
+  {
+   "k": "p",
+   "t": "View data in table format."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Category",
+     "Day",
+     "Value"
+    ],
+    [
+     "Restaurant",
+     "Monday",
+     "120"
+    ],
+    [
+     "Travel",
+     "Monday",
+     "89"
+    ],
+    [
+     "Shopping",
+     "Monday",
+     "73"
+    ],
+    [
+     "Other",
+     "Monday",
+     "83"
+    ],
+    [
+     "Restaurant",
+     "Tuesday",
+     "121"
+    ],
+    [
+     "Travel",
+     "Tuesday",
+     "93"
+    ]
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard navigation instructions"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Enter",
+     "Enter the chart area/drill down a level on the chart area or a row."
+    ],
+    [
+     "Shift + Enter",
+     "Drill up a level on a cell or row."
+    ],
+    [
+     "Tab",
+     "Exit the chart at any time."
+    ],
+    [
+     "← / →",
+     "Move among sibling rows or cells when focusing on a row or a cell."
+    ],
+    [
+     "Esc",
+     "Dismiss the tooltip at any time."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Note"
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Action",
+     "Result"
+    ],
+    [
+     "Ctrl + Shift",
+     "Press and hold when using the arrow keys for the best navigation experience on a Mac (Voiceover)."
+    ]
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Analyze customer purchase patterns for weekdays versus weekends, across key market segments."
+  },
+  {
+   "k": "text",
+   "t": "Loading..."
+  },
+  {
+   "k": "text",
+   "t": "Chart properties"
+  }
+ ]
+}

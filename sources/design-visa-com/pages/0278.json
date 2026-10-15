@@ -1,0 +1,202 @@
+{
+ "url": "https://design.visa.com/data-visualization/development-setup/vanilla-javascript",
+ "title": "Development setup | Data visualization | Visa Product Design System",
+ "h1": "Start developing data visualizations",
+ "readAt": "2026-10-15T17:12:07.721Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Start developing data visualizations"
+  },
+  {
+   "k": "p",
+   "t": "Select your code library and follow the step-by-step guide to start developing with Visa Chart Components."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Angular",
+    "React",
+    "Vanilla javascript"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Step 1: Install the library",
+    "Step 2: Set up the application",
+    "Step 3: Use the chart components"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Step 1: Install the library"
+  },
+  {
+   "k": "p",
+   "t": "You can install the Visa Chart Components (VCC) Web Components library using the package manager of your choice. Below we’ve provided the most common: NPM, PNPM, Yarn, and Bun.\nNote: Package managers can resolve dependencies differently and might not automatically install all required dependencies."
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn",
+    "Bun"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "1npm install @visa/charts"
+  },
+  {
+   "k": "h3",
+   "t": "Step 1b: Install the types library (optional)"
+  },
+  {
+   "k": "p",
+   "t": "Next, install the accompanying types library to aid autocomplete features in IDEs and overall code quality."
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn",
+    "Bun"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "1npm install @visa/visa-charts-utils"
+  },
+  {
+   "k": "h3",
+   "t": "Step 1c: Install the utilities library (optional)"
+  },
+  {
+   "k": "p",
+   "t": "Complete this step if you want to access optional functionalities of the Visa Chart Components, like internationalization."
+  },
+  {
+   "k": "list",
+   "items": [
+    "NPM",
+    "PNPM",
+    "Yarn",
+    "Bun"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "1npm install @visa/visa-charts-utils"
+  },
+  {
+   "k": "h2",
+   "t": "Step 2: Set up the application"
+  },
+  {
+   "k": "h3",
+   "t": "Step 2b: Import the package"
+  },
+  {
+   "k": "p",
+   "t": "Import the package to access charts provided by Visa Chart Components."
+  },
+  {
+   "k": "list",
+   "items": [
+    "index.html",
+    "ES Modules"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "1<script src='./node_modules/@visa/charts/dist/charts.js'></script>"
+  },
+  {
+   "k": "h3",
+   "t": "Step 2c: Dynamic prop assignment (optional)"
+  },
+  {
+   "k": "p",
+   "t": "Build a function for dynamic prop assignment to dynamically update object properties."
+  },
+  {
+   "k": "code",
+   "t": "1function assignChartProps(chart,props) {2    Object.keys(props).forEach((prop) => {3        chart[prop] = props[prop]4    })5}"
+  },
+  {
+   "k": "h4",
+   "t": "Example props object"
+  },
+  {
+   "k": "code",
+   "t": "1var props = {2    data: [3        \"month\": \"January\", \"value\": 10,4        \"month\": \"February\", \"value\": 15,5        \"month\": \"March\", \"value\": 20,6        \"month\": \"April\", \"value\": 25,7        \"month\": \"May\", \"value\": 30,8        \"month\": \"June\", \"value\": 359    ],10    valueAccessor: \"value\",11    ordinalAccessor: \"month\"12}"
+  },
+  {
+   "k": "h2",
+   "t": "Step 3: Use the chart components"
+  },
+  {
+   "k": "p",
+   "t": "We support Vanilla components, the Template method, and the Jquery method. Choose the one that suit your needs."
+  },
+  {
+   "k": "h3",
+   "t": "Step 3b: Declare a chart component"
+  },
+  {
+   "k": "p",
+   "t": "Declare any component to test a chart."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Vanilla Component",
+    "Template Method",
+    "jQuery Method"
+   ]
+  },
+  {
+   "k": "code",
+   "t": "1const barChart = document.getElementById('bar-chart');2assignChartProps(barChart,props);"
+  },
+  {
+   "k": "h3",
+   "t": "Step 3c: Use the chart components"
+  },
+  {
+   "k": "p",
+   "t": "You’re ready to use the chart components by copying and pasting the example code into your application. Check out Line chart to give it a try."
+  },
+  {
+   "k": "code",
+   "t": "1<!-- Vanilla Element -->2<bar-chart id=\"bar-chart\" />3\n4<!-- Vanilla Template -->5<template id=\"bar-chart-template\">6    <bar-chart />7</template>"
+  },
+  {
+   "k": "h2",
+   "t": "Need help?"
+  },
+  {
+   "k": "p",
+   "t": "If you experience any issues while getting set up with Visa Charts Components, visit Support."
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "url": "https://design.visa.com/components/multiselect/accessibility",
+ "title": "Multiselect | Components | Visa Product Design System",
+ "h1": "Multiselect",
+ "readAt": "2026-10-15T17:10:20.191Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Multiselect"
+  },
+  {
+   "k": "p",
+   "t": "Control that allows users to select multiple options from a dropdown menu."
+  },
+  {
+   "k": "list",
+   "items": [
+    "Code",
+    "Usage",
+    "Accessibility"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Best practices",
+    "Keyboard controls"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "p",
+   "t": "Creating access for everyone, everywhere requires attention to accessibility\n  attributes, best practices, and requirements. Find accessibility guidance\n  below."
+  },
+  {
+   "k": "p",
+   "t": "Note: Components in\n  each code library are implemented differently (especially Flutter). Many of the\n  behaviors and attributes described are already handled for you as part of our components.\n  Product teams are responsible for ensuring their apps meet all current requirements.\n  Some of the information below may not apply to your implementation."
+  },
+  {
+   "k": "h2",
+   "t": "Best practices"
+  },
+  {
+   "k": "p",
+   "t": "Ensure the following best practices are met when implementing this component\n  during development."
+  },
+  {
+   "k": "p",
+   "t": "Note: Multiselects are a composite of native HTML elements. Follow the latest examples to ensure these elements are accessible using the keyboard and screen readers."
+  },
+  {
+   "k": "list",
+   "items": [
+    "This component can display a message when no options are found.",
+    "Note that the multiselect menu is a listbox component. It uses elements with the role of “option” which doesn’t allow other form controls inside them. The “checkboxes” are not actual checkbox inputs.",
+    "Maintain common keyboard shortcuts used for editing text unless the use case requires a different behavior. Reference Input for more."
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Keyboard controls"
+  },
+  {
+   "k": "h3",
+   "t": "Input"
+  },
+  {
+   "k": "p",
+   "t": "Maintain common keyboard shortcuts used for editing text unless uniquely specified. Refer to Input for details."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Key",
+     "Behavior"
+    ],
+    [
+     "Tab",
+     "Moves to the next interactive focusable element"
+    ],
+    [
+     "Shift + Tab",
+     "Moves to the previous focusable element"
+    ],
+    [
+     "↑↓→←",
+     "Opens the menu."
+    ]
+   ]
+  },
+  {
+   "k": "h3",
+   "t": "Menu (listbox pop-up)"
+  },
+  {
+   "k": "p",
+   "t": "Reference Listbox for detailed interactions. Focus will loop in a circular direction among the menu items."
+  },
+  {
+   "k": "table",
+   "rows": [
+    [
+     "Key",
+     "Behavior"
+    ],
+    [
+     "Enter",
+     "Selects the focused highlighted option."
+    ],
+    [
+     "Esc",
+     "Dismisses menu and clears any inline autocomplete while maintaining user-entered input."
+    ],
+    [
+     "Tab",
+     "Moves to the next interactive focusable element and closes the menu."
+    ],
+    [
+     "Shift + Tab",
+     "Moves to the previous focusable element and closes the menu."
+    ],
+    [
+     "↑↓→←",
+     "Moves between the options when the menu is open. Arrow key interaction will loop focus within the options. When focus is on the last option within the set, the right/down arrow keys will move focus to the first option. When focus is on the first option within the set, the left/up arrow key will move focus to the last option."
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "url": "https://design.visa.com/developing/flutter/accessibility-utilities",
+ "title": "Accessibility utilities | Flutter | Developing | Visa Product Design System",
+ "h1": "Accessibility utilities",
+ "readAt": "2026-10-15T17:06:29.239Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "Accessibility utilities"
+  },
+  {
+   "k": "p",
+   "t": "Create screen reader-friendly code in Flutter to enhance the accessibility of your apps."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Accessibility utilities"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "text",
+   "t": "Library name and version"
+  },
+  {
+   "k": "text",
+   "t": "Nova Flutter version"
+  },
+  {
+   "k": "text",
+   "t": "8.3.1"
+  },
+  {
+   "k": "text",
+   "t": "8.3.0"
+  },
+  {
+   "k": "text",
+   "t": "8.2.0"
+  },
+  {
+   "k": "text",
+   "t": "8.1.2"
+  },
+  {
+   "k": "text",
+   "t": "8.1.1"
+  },
+  {
+   "k": "text",
+   "t": "8.1.0"
+  },
+  {
+   "k": "h2",
+   "t": "Accessibility utilities"
+  },
+  {
+   "k": "p",
+   "t": "TalkBack (Android) and VoiceOver (iOS) are screen readers that provide spoken feedback to help users with visual impairments navigate and interact with their devices. By incorporating these accessibility features, you can create a more inclusive app, including those using screen readers like TalkBack and VoiceOver."
+  },
+  {
+   "k": "h3",
+   "t": "Additional resources"
+  },
+  {
+   "k": "text",
+   "t": "Flutter accessibility for screen readers"
+  },
+  {
+   "k": "text",
+   "t": "Google Talkback"
+  },
+  {
+   "k": "text",
+   "t": "Apple Voiceover"
+  }
+ ]
+}

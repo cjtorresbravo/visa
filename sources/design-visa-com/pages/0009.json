@@ -1,0 +1,354 @@
+{
+ "url": "https://design.visa.com/global-accessibility-requirements/web/general",
+ "title": "General | Web | Global accessibility requirements | Visa Product Design System",
+ "h1": "General",
+ "readAt": "2026-10-15T17:05:50.443Z",
+ "blocks": [
+  {
+   "k": "h1",
+   "t": "General"
+  },
+  {
+   "k": "p",
+   "t": "Find general requirements for testing web experiences."
+  },
+  {
+   "k": "h2",
+   "t": "On This Page"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Page title (GEN-1)Accurate title (GEN-1-1)Unique title (GEN-1-2)",
+    "Language (GEN-2)Lang attribute (GEN-2-1)Lang of parts of page (GEN-2-2)",
+    "AT compatible (GEN-3)Support screen readers (GEN-3-1)Alerts read (GEN-3-2)",
+    "A11y validator (GEN-4)Use an Automated Testing Tool (GEN-4-1)"
+   ]
+  },
+  {
+   "k": "h2",
+   "t": "Page Actions"
+  },
+  {
+   "k": "text",
+   "t": "Copy for LLM"
+  },
+  {
+   "k": "text",
+   "t": "View as markdown"
+  },
+  {
+   "k": "h2",
+   "t": "Page title (GEN-1)"
+  },
+  {
+   "k": "h3",
+   "t": "Accurate title (GEN-1-1)"
+  },
+  {
+   "k": "p",
+   "t": "An accurate and descriptive page <title> title must be included on every page or view."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the HTML DOM and confirm that a <title> element is present.",
+    "Verify that the page title provided is accurate and descriptive of the purpose of the page and content."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Page title is accurate and descriptive of the page content.",
+    "Fail: Page title is not included or page title is inaccurate and/or not descriptive of the page content."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.4.2 Page Titled"
+  },
+  {
+   "k": "h3",
+   "t": "Unique title (GEN-1-2)"
+  },
+  {
+   "k": "p",
+   "t": "The page title must be unique and conform to a consistent structure among the other pages."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Inspect the target page.",
+    "Review the html <title> tag.",
+    "Verify that the page title is unique and conforms to a consistent structure among the other pages."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Page title is unique and conforms to a consistent structure among the other pages.",
+    "Fail: Page title is not unique and/or it does not conform to a consistent structure among the other pages."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 2.4.2 Page Titled"
+  },
+  {
+   "k": "h2",
+   "t": "Language (GEN-2)"
+  },
+  {
+   "k": "h3",
+   "t": "Lang attribute (GEN-2-1)"
+  },
+  {
+   "k": "p",
+   "t": "The applicable language must be defined on every page, inside the html tag."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Use the Inspect feature in the browser (for example: Chrome F12 dev tools) to open a view of the page HTML code.",
+    "Locate the <html> element at the beginning of the HTML DOM.",
+    "Confirm that the lang=\"\" attribute is correct for the language of the page content."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Correct page language is defined.",
+    "Fail: Page language is not defined or the incorrect page language is defined."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 3.1.1 Language of Page"
+  },
+  {
+   "k": "h3",
+   "t": "Lang of parts of page (GEN-2-2)"
+  },
+  {
+   "k": "p",
+   "t": "A lang attribute must be set on every word or phrase that is in a different language than the page’s main language."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Locate any words or phrases in the page content that are in a language that is different from the language of the other content in the page.",
+    "Use the Inspect feature in the browser (for example: Chrome F12 dev tools) to open a view of the page HTML code and inspect each of these words or phrases.",
+    "Confirm that each of these words or phrases is wrapped in a <span> element with a lang=\"\" attribute that is correct for the language of the word or phrase."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All words or pages which are in a different language than the global lang are marked up with the appropriate language.",
+    "Fail: Words or pages which are in a different language than the global lang are not marked up with the appropriate language.",
+    "NA: No words or phrases are in a different language from the global language."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 AA - 3.1.2 Language of Parts"
+  },
+  {
+   "k": "h2",
+   "t": "AT compatible (GEN-3)"
+  },
+  {
+   "k": "h3",
+   "t": "Support screen readers (GEN-3-1)"
+  },
+  {
+   "k": "p",
+   "t": "All features and functionality made available to users within the web application must be functionally supported with at least one screen reader per supported platform (for example: JAWS for Windows desktop, VoiceOver for MAC iOS, etc.)."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Run through all use cases with each supported screen reader, confirming that all features and functionality are fully available to non-sighted users."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: All features and functionality are fully available to non-sighted users.",
+    "Fail: One or more features or functionality are not fully available to non-sighted users."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A - 4.1 Compatible"
+  },
+  {
+   "k": "h3",
+   "t": "Alerts read (GEN-3-2)"
+  },
+  {
+   "k": "p",
+   "t": "When alerts are shown on screen (for example: success, error, or status/informative) they must also be read aloud by each supported screen reader without receiving focus."
+  },
+  {
+   "k": "p",
+   "t": "Note: Error messages that appear in-line upon leaving a form field are common examples."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "p",
+   "t": "Confirm that when alerts are shown on screen (for example: success, error, or status/informative) they are also read aloud by each supported screen reader."
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Alerts shown on screen are read aloud by each supported screen reader.",
+    "Fail: Alerts shown on screen are not read aloud by each supported screen reader.",
+    "NA: No alerts are shown on screen."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.1 AA - 4.1.3 Status Messages"
+  },
+  {
+   "k": "h2",
+   "t": "A11y validator (GEN-4)"
+  },
+  {
+   "k": "h3",
+   "t": "Use an Automated Testing Tool (GEN-4-1)"
+  },
+  {
+   "k": "p",
+   "t": "When run against the page, the automated validation tool must not report any errors."
+  },
+  {
+   "k": "h4",
+   "t": "How to test"
+  },
+  {
+   "k": "text",
+   "t": "Tool:"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Run one automated validation tool of your choice against the page and confirm that it reports no errors.",
+    "If errors are found, record a FAIL with a FAIL ID for each issue reported by the tool."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Test outcomes"
+  },
+  {
+   "k": "list",
+   "items": [
+    "Pass: Automated tool returns zero errors.",
+    "Fail: Automated tool returns one or more errors."
+   ]
+  },
+  {
+   "k": "h4",
+   "t": "Related WCAG criteria"
+  },
+  {
+   "k": "text",
+   "t": "WCAG 2.2 A & AA"
+  }
+ ]
+}
