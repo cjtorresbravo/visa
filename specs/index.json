@@ -24,5 +24,18 @@
     "clean": true,
     "date": "2026-10-15",
     "basedOn": "kit VPDS Components › Application layouts › Vertical; design.visa.com › Application layouts › Usage › Vertical navigation"
+  },
+  {
+    "slug": "visa-vertical-layout-projects-1440",
+    "name": "Visa · Vertical layout · Projects · 1440",
+    "breakpoint": "desktop1440",
+    "surfaceMode": "light",
+    "anatomy": "verticalLayout → pageHeader → contentCards → formCard → visaFooter",
+    "sectionCount": 5,
+    "components": "3× Content card: Default · 2× Input: Default · 1× Vertical nav default · 1× Select (native) · 1× Multi-line · 1× Primary text button · 1× Secondary text button · 1× Tertiary text button · 1× Default footer",
+    "size": "1440 × 1139",
+    "clean": true,
+    "date": "2026-10-15",
+    "basedOn": "spec visa-vertical-projects-1440"
   }
 ]

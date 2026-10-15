@@ -1,0 +1,27 @@
+{
+ "about": "Builders of the Visa DS Bridge. builders.js is a function of the plugin toolkit; the core evaluates it on every build and adds its entries to the section builders. needs lists the library components it imports by name (\"Page › Name\" when the kit repeats a name); the server resolves them to keys from the inventory. A layout builder places the navigation and opens the content column: every section after it lands there, piece by piece.",
+ "version": "0.1.0",
+ "date": "2026-10-15",
+ "source": "layout.json and rules.json of this pack; kit VPDS Components › Application layouts, Horizontal navigation, Vertical navigation, Footer, Content card, Input, Button",
+ "needs": [
+  "Horizontal navigation › Horizontal",
+  "Vertical nav default",
+  "Default footer",
+  "Content card: Default",
+  "Input: Default",
+  "Select (native)",
+  "Multi-line",
+  "Primary text button",
+  "Secondary text button",
+  "Tertiary text button"
+ ],
+ "sections": {
+  "verticalLayout": "Vertical navigation (242) on the left, content column on the right with the margin of the grid beside a navigation (24 at 1024, 32 from 1280); every later section lands in the column. {appName, items:[label], selected?, user?}",
+  "horizontalLayout": "Horizontal navigation (80) on top, content column under it with margin 24. {appName, items:[label]}",
+  "mixedLayout": "Horizontal navigation on top (global items), vertical navigation on the left (local items), content beside it. {appName, items:[global], local:[label], selected?, user?}",
+  "pageHeader": "Headline 1 title and an optional body over the content. {title, body?}",
+  "contentCards": "A row of Content card: Default on the grid, equal heights. {perRow, cards:[{headline, subhead?, text, action?}]}",
+  "formCard": "A white form card (Shape large radius, padding 24/40): title, body, fields (input | select | textarea with label, value, message) and the button row. {title, body?, fields:[], primary, secondary?, tertiary?, width?}",
+  "visaFooter": "The Default footer inside the content column, flush with its edges. {copyright}"
+ }
+}

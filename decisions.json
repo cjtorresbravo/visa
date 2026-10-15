@@ -12,8 +12,8 @@
       "dark": "Visa dark"
     }
   },
-  "updated": "2026-10-15T17:31:01.983Z",
-  "source": "Claudio Torres, in chat, 2026-10-15: two default pages, one per navigational frame, built in Test visa and verified",
+  "updated": "2026-10-15T18:37:24.538Z",
+  "source": "Claudio Torres, in chat, 2026-10-15: third page built piece by piece with the pack builders",
   "type": {
     "titleXL": "Display 1",
     "titleLG": "Display 2",
@@ -104,7 +104,7 @@
   },
   "accept": {
     "status": "done",
-    "decidedBy": "Claudio Torres, in chat, 2026-10-15: two default pages, one per navigational frame, built in Test visa and verified",
+    "decidedBy": "Claudio Torres, in chat, 2026-10-15: third page built piece by piece with the pack builders",
     "date": "2026-10-15",
     "screens": [
       {
@@ -112,7 +112,7 @@
         "name": "Visa · Horizontal layout · Create a project · 1440",
         "node": "9:12490",
         "built": "2026-10-15",
-        "verify": "pass: tokens, geometry, contrast; L3 placeholder-text on [Placeholder logo] (declared gap: the Community kit has no Visa logo)"
+        "verify": "pass: tokens, geometry, contrast; L3 placeholder-text on [Placeholder logo] (declared gap)"
       },
       {
         "spec": "visa-vertical-account-settings-1440",
@@ -120,9 +120,16 @@
         "node": "9:13291",
         "built": "2026-10-15",
         "verify": "pass: tokens, geometry, contrast; L3 placeholder-text on [Placeholder logo] twice (declared gap)"
+      },
+      {
+        "spec": "visa-vertical-layout-projects-1440",
+        "name": "Visa · Vertical layout · Projects · 1440",
+        "node": "10:20966",
+        "built": "2026-10-15",
+        "verify": "pass: tokens, geometry, contrast; built piece by piece by the pack builders verticalLayout, pageHeader, contentCards, formCard, visaFooter; L3 placeholder-text on [Placeholder logo] (declared gap); br_done delivery check empty"
       }
     ],
-    "file": "Test visa",
+    "file": null,
     "engine": "DS Bridge 2.0 core + pack"
   }
 }
