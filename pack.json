@@ -57,7 +57,7 @@
     }
   },
   "named": {
-    "by": "Claudio Torres, in chat, 2026-10-15: logo = the kit Placeholder logo (Color=Blue), the Community kit ships no Visa logo",
+    "by": "Claudio Torres, in chat, 2026-10-15: logo from the web, the user never hunts for the asset",
     "date": "2026-10-15"
   },
   "identity": {
@@ -68,9 +68,9 @@
       "surfaceSecondary": "#f5f5f5",
       "heading": "#000000"
     },
-    "colorsSource": "Theme colors, mode Visa light, from inventory/foundations.json; name given by Claudio Torres in chat, 2026-10-15",
+    "colorsSource": "Theme colors, mode Visa light, from inventory/foundations.json",
     "logo": "identity/logo.svg",
-    "logoSource": "node \"Color=Blue\" (150 × 34) of the connected file, exported as SVG on 2026-10-15"
+    "logoSource": "https://design.visa.com/ › header mark (svg.v-logo, 71 × 23), rescued from the web on 2026-10-15; fill set to the brand active color #1434cb"
   },
   "repo": {
     "url": "https://github.com/cjtorresbravo/visa",
