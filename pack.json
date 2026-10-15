@@ -74,6 +74,9 @@
     "url": "https://github.com/cjtorresbravo/visa",
     "provider": "github",
     "decidedBy": "Claudio Torres, in chat, 2026-10-15",
-    "addedAt": "2026-10-15T17:48:37.147Z"
+    "addedAt": "2026-10-15T17:48:37.147Z",
+    "committed": "committed on 2026-10-15: Visa DSM pack v1.0.0: Visa DSM pack: onboarding complete (Setup 10 of 10) (2026-10-15)",
+    "pushed": "pushed master on 2026-10-15",
+    "autoSync": true
   }
 }
