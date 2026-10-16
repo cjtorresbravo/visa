@@ -1,0 +1,12 @@
+{
+ "status": "Rules of this pack that a machine can check on a screen, read by the design-audit extension. Each names the rule it comes from (rules.json) and its source. A rule not listed here is still in force: the agent and the delivery notes apply it.",
+ "weights": { "tokens": 30, "styles": 20, "components": 15, "spacing": 15, "rules": 10, "content": 10 },
+ "checks": [
+  { "id": "one-primary-button", "rule": "K1", "title": "One primary button per screen", "type": "max-instances", "component": "Primary text button", "max": 1, "severity": "medium",
+    "source": "design.visa.com › Button › Usage › Primary buttons: one primary button per screen, headers, dialogs, content cards and panels not counted. The audit counts the primary buttons placed on the screen itself; the ones inside library components (a content card, a dialog) are the library's and are not counted." },
+  { "id": "touch-target-web", "rule": "A1", "title": "Minimum target size", "type": "min-size", "componentMatch": "button|icon|link|checkbox|radio|switch", "minW": 24, "minH": 24, "severity": "high",
+    "source": "design.visa.com › States › Usage › Interactive target areas: at least 24 x 24 dp on non-touch screens, 44 x 44 on touch screens" },
+  { "id": "has-footer", "rule": "L7", "title": "The footer is on every page", "type": "required-component", "component": "Default footer", "severity": "low",
+    "source": "design.visa.com › Footer › Best practices: the footer appears the same on every page where it is used; kit › Application layouts" }
+ ]
+}

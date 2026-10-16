@@ -1,84 +1,87 @@
 {
-  "id": "vpds-components",
-  "name": "Visa DS",
-  "short": "Visa",
-  "packFormat": 1,
-  "version": "1.0.0",
-  "created": "2026-10-15",
-  "sources": {
-    "figma": [
-      {
-        "role": "library",
-        "fileName": "VPDS Components (Community)",
-        "fileKey": null,
-        "pages": 53,
-        "scannedAt": "2026-10-15T16:43:59.666Z",
-        "how": "read inside the library file through the plugin, read only",
-        "decidedBy": "Claudio Torres, in chat, 2026-10-15"
-      },
-      {
-        "role": "library",
-        "fileName": "VPDS Icons (Community)",
-        "fileKey": null,
-        "pages": 2,
-        "scannedAt": "2026-10-15T17:02:25.833Z",
-        "how": "read inside the file through the plugin, read only",
-        "inventory": {
-          "foundations": "inventory/foundations-vpds-icons.json",
-          "components": "inventory/components-vpds-icons.json"
-        },
-        "decidedBy": "Claudio Torres, in chat, 2026-10-15"
-      },
-      {
-        "role": "patterns",
-        "fileName": "VPDS Components (Community)",
-        "fileKey": null,
-        "pages": 1,
-        "pageIndexes": [
-          1
-        ],
-        "scannedAt": "2026-10-15T17:05:21.537Z",
-        "how": "read inside the file through the plugin, read only",
-        "folder": "sources/vpds-components-docs"
-      }
+ "id": "vpds-components",
+ "name": "Visa DS",
+ "short": "Visa",
+ "packFormat": 1,
+ "version": "1.0.0",
+ "created": "2026-10-15",
+ "sources": {
+  "figma": [
+   {
+    "role": "library",
+    "fileName": "VPDS Components (Community)",
+    "fileKey": null,
+    "pages": 53,
+    "scannedAt": "2026-10-15T16:43:59.666Z",
+    "how": "read inside the library file through the plugin, read only",
+    "decidedBy": "Claudio Torres, in chat, 2026-10-15"
+   },
+   {
+    "role": "library",
+    "fileName": "VPDS Icons (Community)",
+    "fileKey": null,
+    "pages": 2,
+    "scannedAt": "2026-10-15T17:02:25.833Z",
+    "how": "read inside the file through the plugin, read only",
+    "inventory": {
+     "foundations": "inventory/foundations-vpds-icons.json",
+     "components": "inventory/components-vpds-icons.json"
+    },
+    "decidedBy": "Claudio Torres, in chat, 2026-10-15"
+   },
+   {
+    "role": "patterns",
+    "fileName": "VPDS Components (Community)",
+    "fileKey": null,
+    "pages": 1,
+    "pageIndexes": [
+     1
     ],
-    "storybook": null,
-    "docs": {
-      "url": "https://design.visa.com/",
-      "note": "Visa Product Design System documentation: base elements, components, patterns, content, accessibility",
-      "decidedBy": "Claudio Torres, in chat, 2026-10-15",
-      "addedAt": "2026-10-15T17:11:24.703Z"
-    },
-    "website": {
-      "url": "https://developer.visa.com/",
-      "note": "Visa Developer platform, a live Visa product site to replicate and to check the pack against",
-      "decidedBy": "Claudio Torres, in chat, 2026-10-15",
-      "addedAt": "2026-10-15T17:11:24.950Z"
-    }
+    "scannedAt": "2026-10-15T17:05:21.537Z",
+    "how": "read inside the file through the plugin, read only",
+    "folder": "sources/vpds-components-docs"
+   }
+  ],
+  "storybook": null,
+  "docs": {
+   "url": "https://design.visa.com/",
+   "note": "Visa Product Design System documentation: base elements, components, patterns, content, accessibility",
+   "decidedBy": "Claudio Torres, in chat, 2026-10-15",
+   "addedAt": "2026-10-15T17:11:24.703Z"
   },
-  "named": {
-    "by": "Claudio Torres, in chat, 2026-10-15: sync test from the Visa DS Bridge pointed at the source pack",
-    "date": "2026-10-15"
-  },
-  "identity": {
-    "colors": {
-      "brand": "#1434cb",
-      "onBrand": "#ffffff",
-      "surface": "#ffffff",
-      "surfaceSecondary": "#f5f5f5",
-      "heading": "#000000"
-    },
-    "colorsSource": "Theme colors, mode Visa light, from inventory/foundations.json",
-    "logo": "identity/logo.svg",
-    "logoSource": "https://design.visa.com/ › header mark (svg.v-logo, 71 × 23), rescued from the web on 2026-10-15; fill set to the brand active color #1434cb"
-  },
-  "repo": {
-    "url": "https://github.com/cjtorresbravo/visa",
-    "provider": "github",
-    "decidedBy": "Claudio Torres, in chat, 2026-10-15",
-    "addedAt": "2026-10-15T17:48:37.147Z",
-    "committed": "committed on 2026-10-15: Visa DSM pack v1.0.0: Visa DSM pack: onboarding complete (Setup 10 of 10) (2026-10-15)",
-    "pushed": "pushed master on 2026-10-15",
-    "autoSync": true
+  "website": {
+   "url": "https://developer.visa.com/",
+   "note": "Visa Developer platform, a live Visa product site to replicate and to check the pack against",
+   "decidedBy": "Claudio Torres, in chat, 2026-10-15",
+   "addedAt": "2026-10-15T17:11:24.950Z"
   }
+ },
+ "named": {
+  "by": "Claudio Torres, in chat, 2026-10-15: sync test from the Visa DS Bridge pointed at the source pack",
+  "date": "2026-10-15"
+ },
+ "identity": {
+  "colors": {
+   "brand": "#1434cb",
+   "onBrand": "#ffffff",
+   "surface": "#ffffff",
+   "surfaceSecondary": "#f5f5f5",
+   "heading": "#000000"
+  },
+  "colorsSource": "Theme colors, mode Visa light, from inventory/foundations.json",
+  "logo": "identity/logo.svg",
+  "logoSource": "https://design.visa.com/ › header mark (svg.v-logo, 71 × 23), rescued from the web on 2026-10-15; fill set to the brand active color #1434cb"
+ },
+ "repo": {
+  "url": "https://github.com/cjtorresbravo/visa",
+  "provider": "github",
+  "decidedBy": "Claudio Torres, in chat, 2026-10-15",
+  "addedAt": "2026-10-15T17:48:37.147Z",
+  "committed": "committed on 2026-10-15: Visa DSM pack v1.0.0: Visa DSM pack: onboarding complete (Setup 10 of 10) (2026-10-15)",
+  "pushed": "pushed master on 2026-10-15",
+  "autoSync": true
+ },
+ "extensions": [
+  "design-audit"
+ ]
 }
