@@ -1,0 +1,89 @@
+{
+  "breakpoint": "desktop1440",
+  "name": "Visa · Vertical layout · Projects · 1440 · v2",
+  "surfaceMode": "light",
+  "sections": [
+    {
+      "type": "verticalLayout",
+      "appName": "Visa Developer",
+      "items": [
+        "Dashboard",
+        "Projects",
+        "APIs",
+        "Support",
+        "Billing"
+      ],
+      "selected": "Projects",
+      "user": "Ana Pérez"
+    },
+    {
+      "type": "pageHeader",
+      "title": "Projects",
+      "body": "Every project groups the APIs, credentials and environments of one product. Create one per product or team."
+    },
+    {
+      "type": "contentCards",
+      "perRow": 3,
+      "cards": [
+        {
+          "headline": "Active projects",
+          "subhead": "Across all environments",
+          "text": "12 projects use the sandbox, 4 run in production and 2 wait for certification.",
+          "action": "View all",
+          "link": "Export list"
+        },
+        {
+          "headline": "API calls this month",
+          "subhead": "Production only",
+          "text": "2.4 million calls, 99.98 percent within the response time target.",
+          "action": "View usage",
+          "link": "Download report"
+        },
+        {
+          "headline": "Certification queue",
+          "subhead": "Next review in 3 days",
+          "text": "Two projects are ready for review. Complete the checklist to speed up the approval.",
+          "action": "Open queue",
+          "link": "Read the checklist"
+        }
+      ]
+    },
+    {
+      "type": "formCard",
+      "title": "Create a project",
+      "body": "Give the project a name and choose the APIs it will use. You can change both later.",
+      "fields": [
+        {
+          "kind": "input",
+          "label": "Project name (required)"
+        },
+        {
+          "kind": "input",
+          "label": "Organization (required)",
+          "value": "Blackcode Agency"
+        },
+        {
+          "kind": "select",
+          "label": "Region",
+          "value": "North America",
+          "message": "Where the project data is stored. This cannot be changed later."
+        },
+        {
+          "kind": "textarea",
+          "label": "Description (required)"
+        }
+      ],
+      "primary": "Create project",
+      "secondary": "Save draft",
+      "tertiary": "Cancel"
+    },
+    {
+      "type": "visaFooter",
+      "copyright": "Copyright © 2026 Visa. All rights reserved."
+    }
+  ],
+  "nonLib": [
+    "Placeholder logo: the Community kit ships no Visa logo inside the navigation; the placeholder stays until the brand asset is provided"
+  ],
+  "basedOn": "spec visa-vertical-layout-projects-1440"
+}

@@ -1,6 +1,9 @@
 {
  "status": "Rules of this pack that a machine can check on a screen, read by the design-audit extension. Each names the rule it comes from (rules.json) and its source. A rule not listed here is still in force: the agent and the delivery notes apply it.",
  "weights": { "tokens": 30, "styles": 20, "components": 15, "spacing": 15, "rules": 10, "content": 10 },
+ "allowCopy": [
+  { "text": "[Placeholder logo]", "source": "kit VPDS Components › Logos › Placeholder logo: the Community kit ships no Visa logo, so every navigation and footer shows the kit's placeholder; declared as a gap in the notes of each build" }
+ ],
  "checks": [
   { "id": "one-primary-button", "rule": "K1", "title": "One primary button per screen", "type": "max-instances", "component": "Primary text button", "max": 1, "severity": "medium",
     "source": "design.visa.com › Button › Usage › Primary buttons: one primary button per screen, headers, dialogs, content cards and panels not counted. The audit counts the primary buttons placed on the screen itself; the ones inside library components (a content card, a dialog) are the library's and are not counted." },

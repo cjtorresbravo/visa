@@ -39,6 +39,11 @@ T => {
   const write = async (root, re, value) => { const t = textNamed(root, re); if (t && value !== undefined && value !== null) await T.writeText(t, String(value)); else if (!t) T.LOG.push('no text ' + re + ' in ' + root.name); };
   const radius = async (n, name) => { for (const f of ['topLeftRadius', 'topRightRadius', 'bottomLeftRadius', 'bottomRightRadius']) await T.bindVar(n, f, name); };
   const padAll = async (n, name) => { for (const f of ['paddingTop', 'paddingBottom', 'paddingLeft', 'paddingRight']) await T.bindVar(n, f, name); };
+  // A spacing value in px, bound to the variable of the pack's scale that has it (layout.json › spacing.variables);
+  // a value the scale does not have stays a number (the audit asks nothing of it: there is nothing to bind to).
+  const SPACE = (L.spacing && L.spacing.variables) || {};
+  const space = async (n, prop, px) => { n[prop] = px; if (SPACE[String(px)]) await T.bindVar(n, prop, SPACE[String(px)]); };
+  const spaceAll = async (n, px) => { for (const f of ['paddingTop', 'paddingBottom', 'paddingLeft', 'paddingRight']) await space(n, f, px); };
   const fill = (n, v) => { try { n.layoutSizingHorizontal = v; } catch (e) {} };
   const equalize = cards => { const h = Math.max(...cards.map(c => c.height)); for (const c of cards) { try { c.layoutSizingVertical = 'FIXED'; c.resize(c.width, h); } catch (e) {} } };
 
@@ -48,9 +53,10 @@ T => {
   const openContent = async (parent, margin) => {
     const column = T.fr('content column', 'VERTICAL', parent); fill(column, 'FILL'); column.counterAxisAlignItems = 'MIN'; column.itemSpacing = 0;
     try { column.layoutSizingVertical = 'HUG'; } catch (e) {}
-    const content = T.fr('content area', 'VERTICAL', column); fill(content, 'FILL'); content.counterAxisAlignItems = 'MIN'; content.itemSpacing = gutter;
+    const content = T.fr('content area', 'VERTICAL', column); fill(content, 'FILL'); content.counterAxisAlignItems = 'MIN';
+    await space(content, 'itemSpacing', gutter);
     await T.fillVar(content, VAR.surface2);
-    content.paddingLeft = margin; content.paddingRight = margin; content.paddingTop = margin; content.paddingBottom = margin;
+    await spaceAll(content, margin);
     T.BP.margin = margin; T.BP.content = null; T.BP.inner = T.BP.w - 2 * margin;
     COLUMN = column;
     T.setTarget(content);
@@ -147,7 +153,7 @@ T => {
 
     // A page title over the content: Headline 1 is the largest title of a page (rule T2). {title, body?}
     async pageHeader(s) {
-      const h = T.fr('page header', 'VERTICAL', T.target); fill(h, 'FILL'); h.counterAxisAlignItems = 'MIN'; h.itemSpacing = 8;
+      const h = T.fr('page header', 'VERTICAL', T.target); fill(h, 'FILL'); h.counterAxisAlignItems = 'MIN'; await space(h, 'itemSpacing', 8);
       const t = await T.txt(s.title, 'titleMD', 'elementPrimary', h); t.textAutoResize = 'HEIGHT'; fill(t, 'FILL');
       if (s.body) { const b = await T.txt(s.body, 'body', 'elementSecondary', h); b.textAutoResize = 'HEIGHT'; fill(b, 'FILL'); }
     },
@@ -155,7 +161,7 @@ T => {
     // A row of Content cards on the grid, equal heights (rule K5). {perRow, cards:[{headline, subhead?, text, action?}]}
     async contentCards(s) {
       const per = s.perRow || 3;
-      const row = T.fr('content cards', 'HORIZONTAL', T.target); fill(row, 'FILL'); row.counterAxisAlignItems = 'MIN'; row.itemSpacing = gutter; row.layoutWrap = 'WRAP'; row.counterAxisSpacing = gutter;
+      const row = T.fr('content cards', 'HORIZONTAL', T.target); fill(row, 'FILL'); row.counterAxisAlignItems = 'MIN'; row.layoutWrap = 'WRAP'; await space(row, 'itemSpacing', gutter); await space(row, 'counterAxisSpacing', gutter);
       const CW = Math.floor((inner() - (per - 1) * gutter) / per);
       const made = [];
       for (const cd of s.cards || []) {
@@ -179,11 +185,11 @@ T => {
     // A form card (kit › Form layout, rule K3): title, description, fields in order, buttons. Fields:
     // {kind:'input'|'select'|'textarea', label, value?, message?}. {title, body?, fields:[], primary, secondary?, tertiary?, width?}
     async formCard(s) {
-      const card = T.fr('form card', 'VERTICAL', T.target); card.counterAxisAlignItems = 'MIN'; card.itemSpacing = 24;
+      const card = T.fr('form card', 'VERTICAL', T.target); card.counterAxisAlignItems = 'MIN'; await space(card, 'itemSpacing', 24);
       const w = s.width || Math.min(inner(), span(6) + gutter);
       try { card.layoutSizingHorizontal = 'FIXED'; card.resize(w, 10); card.layoutSizingVertical = 'HUG'; } catch (e) {}
       await T.fillVar(card, VAR.surface); await radius(card, VAR.radius); await padAll(card, VAR.pad);
-      card.paddingTop = 40; card.paddingBottom = 40;
+      await space(card, 'paddingTop', 40); await space(card, 'paddingBottom', 40);
       if (s.title) { const t = await T.txt(s.title, 'titleSM', 'elementPrimary', card); t.textAutoResize = 'HEIGHT'; fill(t, 'FILL'); }
       if (s.body) { const b = await T.txt(s.body, 'body', 'elementPrimary', card); b.textAutoResize = 'HEIGHT'; fill(b, 'FILL'); }
       for (const f of s.fields || []) {
@@ -194,7 +200,7 @@ T => {
         if (f.value !== undefined) { const key = propKey(i, 'Input text') ? 'Input text' : 'Input'; setProps(i, { [key]: f.value, Filled: true }); }
         if (f.message) { setProps(i, { 'Inline message': true }); await write(i, /message/i, f.message); }
       }
-      const row = T.fr('actions', 'HORIZONTAL', card); row.itemSpacing = 16; row.counterAxisAlignItems = 'CENTER';
+      const row = T.fr('actions', 'HORIZONTAL', card); await space(row, 'itemSpacing', 16); row.counterAxisAlignItems = 'CENTER';
       // text buttons without icons (rule K1: icons only when commonly associated with the action)
       const btn = async (name, label) => { if (!label) return; try { const b = await T.instByName(name, row); setProps(b, { Label: label, 'Show leading icon': false, 'Show trailing icon': false }); } catch (e) { T.LOG.push('button: ' + e.message); } };
       await btn('Primary text button', s.primary); await btn('Secondary text button', s.secondary); await btn('Tertiary text button', s.tertiary);
