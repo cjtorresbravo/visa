@@ -81,7 +81,5 @@
   "pushed": "pushed master on 2026-10-15",
   "autoSync": true
  },
- "extensions": [
-  "design-audit"
- ]
+ "extensions": []
 }

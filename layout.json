@@ -66,6 +66,8 @@
  "radius": {
   "modes": { "Rounded (default)": { "large": 8, "full": 48 }, "Less rounded": { "large": 6 }, "Full rounded": { "large": 16 }, "Square": { "large": 0 } },
   "default": "Rounded (default)",
+  "variableByPx": { "2": "x-small", "4": "small", "6": "medium", "8": "large", "10": "x-large", "16": "xx-large", "48": "full" },
+  "variableByPxSource": "kit variables › collection Shape, mode Rounded (default); where two variables share a value (large and large-lists = 8) the general one is the official",
   "source": "kit variables › collection Shape"
  },
  "elevation": {
