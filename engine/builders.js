@@ -39,9 +39,9 @@ T => {
   const write = async (root, re, value) => { const t = textNamed(root, re); if (t && value !== undefined && value !== null) await T.writeText(t, String(value)); else if (!t) T.LOG.push('no text ' + re + ' in ' + root.name); };
   const radius = async (n, name) => { for (const f of ['topLeftRadius', 'topRightRadius', 'bottomLeftRadius', 'bottomRightRadius']) await T.bindVar(n, f, name); };
   const padAll = async (n, name) => { for (const f of ['paddingTop', 'paddingBottom', 'paddingLeft', 'paddingRight']) await T.bindVar(n, f, name); };
-  // A spacing value in px, bound to the variable of the pack's scale that has it (layout.json › spacing.variables);
+  // A spacing value in px, bound to the variable of the pack's scale that has it (layout.json › spacing.variableByPx);
   // a value the scale does not have stays a number (the audit asks nothing of it: there is nothing to bind to).
-  const SPACE = (L.spacing && L.spacing.variables) || {};
+  const SPACE = (L.spacing && L.spacing.variableByPx) || {};
   const space = async (n, prop, px) => { n[prop] = px; if (SPACE[String(px)]) await T.bindVar(n, prop, SPACE[String(px)]); };
   const spaceAll = async (n, px) => { for (const f of ['paddingTop', 'paddingBottom', 'paddingLeft', 'paddingRight']) await space(n, f, px); };
   const fill = (n, v) => { try { n.layoutSizingHorizontal = v; } catch (e) {} };

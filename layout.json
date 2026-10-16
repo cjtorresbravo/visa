@@ -17,8 +17,8 @@
  "spacing": {
   "unit": 4,
   "scale": { "xs": 4, "sm": 8, "md": 16, "lg": 24, "xl": 32, "xxl": 48 },
-  "variables": { "4": "size-50", "8": "size-100", "12": "size-150", "16": "size-200", "20": "size-250", "24": "size-300", "32": "size-400", "40": "size-500", "48": "size-600" },
-  "variablesSource": "kit variables › collection Padding, mode Default: size-50 = 4, size-100 = 8, size-150 = 12, size-200 = 16, size-250 = 20, size-300 = 24, size-400 = 32, size-500 = 40, size-600 = 48 (inventory/foundations.json)",
+  "variableByPx": { "4": "size-50", "8": "size-100", "12": "size-150", "16": "size-200", "20": "size-250", "24": "size-300", "32": "size-400", "40": "size-500", "48": "size-600" },
+  "variableByPxSource": "kit variables › collection Padding, mode Default: size-50 = 4, size-100 = 8, size-150 = 12, size-200 = 16, size-250 = 20, size-300 = 24, size-400 = 32, size-500 = 40, size-600 = 48 (inventory/foundations.json)",
   "variables": "Padding collection (modes Default, Spacious, Dense) and Platform collection (Web, Mobile) of the kit",
   "source": "https://design.visa.com/base-elements/responsive-grid-system › System baseline (factors of four: 16, 24, 32, 48); kit variables › Padding, Platform"
  },
