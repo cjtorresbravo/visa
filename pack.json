@@ -3,7 +3,7 @@
  "name": "Visa DS",
  "short": "Visa",
  "packFormat": 1,
- "version": "1.0.0",
+ "version": "1.1.0",
  "created": "2026-10-15",
  "sources": {
   "figma": [
